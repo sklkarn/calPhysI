@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_sixth" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+
+  <title>Motion</title>
+    
+  <introduction>
+    <p>
+
+    </p>
+      
+      </introduction>
+
+ 
+  <xi:include href="./sec_sixth-intro.ptx" />
+
+  <xi:include href="./sec_sixth-examples.ptx" />  
+
+  <xi:include href="./ex_sixth.ptx"/> 
+
+</chapter>

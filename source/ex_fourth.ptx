@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_fourth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <paragraphs>
+    <title>Static Equilibrium</title>
+    <exercise>
+   <p>
+    Find the tension in each of the cords illustrated below.
+    <image source="steq3.png" width="40%"> </image> 
+   </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        A 25 kg water bucket is hanging at the middle of a perfectly horizontal 
+        plastic wire on a clothes line stretched between two poles 6.0 m apart. 
+        The bucket in the center of the wire depressing it by a distance of 4.0 cm. 
+        Find the tensions in each wire.
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        A light rope 2 m in length suspends a weight of 200 N. A horizontal force 
+        <m>X</m> is then applied at the midpoint of the rope, swinging the midpoint 
+        0.5 m to the side and raising the weight somewhat. 
+        <ol marker="a.">
+          <li>
+            What is the magnitude of <m>X</m>?
+          </li>
+          <li>
+            What then is the tension in the upper half of the original rope? 
+          </li>
+          <li>
+            What is the tension in the lower half of the original rope? 
+          </li>
+          <li>
+            How much is the weight raised?
+          </li>
+        </ol>
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft 
+        wide using a rope which stretches to become 120 ft long (between the knots 
+        anchoring each end of the rope to the canyon walls at equal heights). 
+        <ol marker="a.">
+          <li>
+            When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?
+          </li>
+          <li>
+            What angle does each end of the rope make with the horizontal? 
+          </li>
+          <li>
+            Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.
+          </li>
+         </ol>
+         </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        A heavy rope of weight w is hung between two hooks at equal heights. 
+        The weight is distributed uniformly along the rope as it sags between 
+        the two hooks. The angle that the rope makes with the horizontal at 
+        the left hook is <m>\theta</m>. 
+        <ol marker="a.">
+          <li>
+            In terms of $w$ and <m>\theta</m>, what is the angle that the rope makes with the horizontal at the right hook? Why?
+          </li>
+          <li>
+            What is the tension in the rope at the lowest point of the sagging rope? 
+          </li>
+          <li>
+            With what magnitude force does the rope pull on each of the hooks?
+          </li>
+         </ol>
+        </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Draw force diagrams for each of the bodies shown below:
+        <sidebyside widths="20% 20% 20% 20% 20%">
+          <image source="block1.png" > </image> 
+          <image source="block1b.png" > </image> 
+          <image source="block1c.png" > </image> 
+          <image source="block1d.png" > </image>
+          <image source="block1e.png" > </image>
+          </sidebyside>
+      </p>
+    </exercise>
+  </paragraphs>
+  
+ 
+<paragraphs>
+  <title>Translational Equilibrium</title>
+  
+  <exercise>
+    <p>
+      A 10-kg block of wood rests on the top of a 20-kg block which rests on 
+      a horizontal surface. The lower block is then pulled to the right at 
+      constant speed by a horizontal force while the top block is pulled to 
+      the left by a massless string passing over a massless, frictionless 
+      pulley back to the second mass as shown below. If the coefficient of 
+      kinetic friction between all surfaces is 0.25.
+      <image source="block5.png" width="40%"> </image> 
+      <ol marker="a.">
+        <li>
+          what is the tension in the string, and
+        </li>
+        <li>
+          the force pulling the bottom block?
+        </li>
+        </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 10-kg block of wood is placed on a plank 3 m long with one end raised 
+      slowly as shown in figure below. If the coefficient of static friction 
+      between block and plank is 0.3 and the coefficient of kinetic friction is 0.2, 
+      <image source="block6.png" width="40%"> </image> 
+      <ol marker="a.">
+        <li>
+          what is the tilt angle of the plank when the block first starts moving?
+        </li>
+        <li>
+          What is the tilt angle for the block to slide down the plane at a constant speed?
+        </li>
+        <li>
+          How large a force parallel to the plank would be required to make the block move 
+          up the plane at constant speed if the tilt angle is <m>30^{o}</m>? 
+        </li>
+        <li>
+          How large a force parallel to the horizon would be required to make 
+          the block move up the plane at constant speed if the tilt angle is <m>30^{o}</m>?
+        </li>
+        </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Weight <m>w_{1} = 20 N</m> slides to the right at constant speed along a 
+      rough horizontal surface while weight <m>w_{2} = 10 N</m> moves downward as shown in 
+      the figure below. If the strings and pulleys are massless and frictionless, find 
+      <image source="block7.png" width="40%"> </image> 
+      <ol marker="a.">
+        <li>
+          the tension in each of the strings,
+        </li>
+        <li>
+          the coefficient of kinetic friction between block 1 and the surface.
+        </li>
+        </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A sail boat weighing 1000 lb including contents is sailing at a constant 
+      speed of 10 mph into a wind of 20 mph as shown below. The angle between 
+      the keel of the boat and the wind is <m>60^{o}</m>, and the angle between 
+      the sail and the keel is <m>30^{o}</m>. Assume that the force of the air 
+      on the sail is perpendicular to the sail, that the force of the water on 
+      the keel is perpendicular to the keel, and that the friction of the boat 
+      through the water is 100 lb. 
+      <image source="block8.png" width="40%"> </image> 
+      <ol marker="a.">
+        <li>
+          With what force does the wind push against the sail?
+        </li>
+        <li>
+          How hard does the water push against the keel? 
+        </li>
+        </ol>
+         </p>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Dynamics</title>
+  
+  <exercise>
+    <p>
+      A box of mass 100 kg is pushed across the floor by a man pushing 
+      with 500 N northward and a boy pushing 200 N eastward. If the coefficient 
+      of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two blocks are sliding down an inclined plane in contact with one another 
+      as shown in the figure below. Block A has a mass of 3 kg while block B has 
+      a mass of 2 kg. The coefficient of sliding friction between A and the 
+      surface is 0.3 while that between the B and the surface is 0.2. What 
+      is the magnitude of the minimum force between the two blocks?
+      <image source="ntwn2.png" width="30%"> </image>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A block of mass <m>m_{1}</m> = 20 kg rests on a plane inclined at an angle 
+      <m>\theta = 30^{o}</m>. It is attached by a thin string run over a massless, 
+      frictionless pulley to a hanging weight of unknown mass <m>m_{2}</m>. 
+      If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, 
+      determine the values of the mass <m>m_{2}</m>  which will 
+      <image source="ntwn3.png" width="30%"> </image>
+      <ol marker="a.">
+        <li>
+          start the mass <m>m_{1}</m>  moving up the plane.
+        </li>
+        <li>
+          What will be the acceleration of m1 once it starts moving.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A block of mass <m>m_{1}</m>  = 10 kg rests on top of a larger block of 
+      mass <m>m_{2}</m>  = 20 kg which rests on a plane inclined at an angle 
+      <m>\theta = 15^{o}</m>. The coefficient of static friction between all 
+      surfaces is 1/3 and that of kinetic friction is 1/4. A constant force F 
+      parallel to the plane is applied to <m>m_{2}</m>  accelerating it up the plane. 
+      <image source="ntwn4.png" width="30%"> </image>
+      <ol marker="a.">
+        <li>
+          What is the maximum acceleration of <m>m_{2}</m>  which will allow m1 to stay with it? 
+        </li>
+        <li>
+          What is the force F which causes this acceleration?
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A large block A of mass 10 kg is resting on a horizontal surface. 
+      A second block B of mass 100 g is placed against the side of the first 
+      block and the whole system is accelerated to the right by a force P 
+      pushing on the back side of A. If the horizontal surface is frictionless 
+      but the vertical surface between A and B has a coefficient of static 
+      friction of 0.3, find 
+      <image source="ntwn5.png" width="30%"> </image>
+      <ol marker="a.">
+        <li>
+          the acceleration of the system and 
+        </li>
+        <li>
+          the force P that will just keep the block B from falling.
+        </li>
+      </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A block of mass <m>m_{1}</m>  = 10 kg rests on top of a frictionless 
+      horizontal surface as shown in the figure below. All pulleys and strings 
+      in the figure are frictionless and massless. Mass <m>m_{2}</m>  is 5 kg. 
+      <image source="ntwn6.png" width="30%"> </image>
+      <ol marker="a.">
+        <li>
+          What is the tension in the long string?
+        </li>
+        <li>
+          What is the acceleration of <m>m_{1}</m>? 
+        </li>
+        <li>
+          What is the acceleration of <m>m_{2}</m>?  
+        </li>
+      </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring 
+      and are placed on a frictionless surface. If the acceleration of the box 
+      X is <m>5m/s^{2}</m>, find the acceleration of the box Y, if a 30N 
+      force is being applied horizontally on the box X to move them on the ground.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A ball is dropped from a height of 100 m. If the friction due to air resistance 
+      is proportional to the velocity according to the equation <m>f = cv,</m> 
+      where c = 0.3 Ns/m. Determine the time taken by the ball to hit the ground. 
+      How fast is the ball going when it hits the ground if the mass of the ball is 
+      <image source="airdrag2.png" width="40%"> </image>
+      <ol marker="a.">
+        <li>
+          0.1 kg,
+        </li>
+        <li>
+          1.0 kg,
+        </li>
+        <li>
+          10 kg, 
+        </li>
+        <li>
+          so large that friction is negligible.
+        </li>
+      </ol>
+    </p>
+    <hint>
+      <p>
+       use excel sheet to find height, <m>y</m> corresponding to different time, <m>t</m>. 
+       <me>
+        v_{t}=\frac{g}{k}=\frac{gm}{c}=\frac{-9.8m/s^{2}\times1kg}{0.3Ns/m} =-32.67m/s
+       </me>
+       <me>
+        y= y_{o}+v_{t}\cdot t+\frac{1}{k}\left(v_{t}-u\right)\{e^{-kt}-1\} 
+       </me>
+       <m>[u=0, \quad y_{o}=100m,\quad m=1kg]</m>
+       </p>
+    </hint>
+  </exercise>
+</paragraphs>
+ </exercises>
+
