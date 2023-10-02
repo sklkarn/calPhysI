@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Examples C</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Principles of Physics">
+<meta property="book:author" content="Sunil Karna">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.98,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Principles of Physics:</span> <span class="subtitle">Calculus Based (Vol. I)</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-air_drag.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_fourth.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_fourth-circular.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\T}{\mathcal T}
+\newcommand\comb[2]{^{#1}C{_{#2}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth3"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physical Quantities</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec_dimanal-subsection.html" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Derived Units</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec_dimanal-subsection.html#subsubsec-diamanlysis" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Dimensional Analysis</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-erranalysis.html" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Errors in Measurement</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-sigfig.html" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-sigfig.html#subsubsec-rounding_off" class="internal"><span class="codenumber">1.1.3.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sigfig.html#subsubsec-math_op_sig" class="internal"><span class="codenumber">1.1.3.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examples.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Examples</span></a></div></li>
+<li><div class="toc-item"><a href="ex_first.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Vectors</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-compnt_vect.html" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Components of a Vector:</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-vect_mult.html" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Product of Two Vectors:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-vect_mult.html#subsubsec-dot_product" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Scalar (or Dot) Product</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-vect_mult.html#subsubsec-cross_product" class="internal"><span class="codenumber">2.1.2.2</span> <span class="title">Vector (or Cross) Product</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-axis_transform.html" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Transformation of Axis</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examples.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples</span></a></div></li>
+<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Motion</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_third-1D.html" class="internal"><span class="codenumber">3.1</span> <span class="title">1D Kinematics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-slope.html" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Analyzing the motion curve</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-slope.html#subsubsec-graph_read" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Reading of <span class="process-math">\(x \sim t\)</span> graph</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-eqns_motion.html" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Equations of Motion</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-rel_vel.html" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Relative velocity</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-rule_solveMotion.html" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Rules to follow while solving motion problems:</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="ex_thirdA.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercise A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-2D.html" class="internal"><span class="codenumber">3.4</span> <span class="title">2D Kinematics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-projtile_motion.html" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Projtile Motion</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-cir_kinem.html" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circular Kinematics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cir_kinem.html#subsubsec-cent_accel" class="internal"><span class="codenumber">3.4.2.1</span> <span class="title">Centripetal Acceleration:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cir_kinem.html#subsubsec-ang_displ" class="internal"><span class="codenumber">3.4.2.2</span> <span class="title">Angular Displacement, <span class="process-math">\(\theta\text{:}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cir_kinem.html#subsubsec-ang_vel" class="internal"><span class="codenumber">3.4.2.3</span> <span class="title">Angular Velocity, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cir_kinem.html#subsubsec-ang_freq" class="internal"><span class="codenumber">3.4.2.4</span> <span class="title">Angular Frequency, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cir_kinem.html#subsubsec-ang_accel" class="internal"><span class="codenumber">3.4.2.5</span> <span class="title">Angular Acceleration, <span class="process-math">\(\alpha\text{:}\)</span></span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-polar_coord.html" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Motion in Polar Coordinates</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesB.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_thirdB.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Exercise B</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Force and Equilibrium</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Types of Forces</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-types_forces.html" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Fundamental and Mechanical Forces</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-Nlaw_motion.html" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Newton’s Laws of Motion</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-friction.html" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Friction</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-statics.html" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Statics</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-statics.html#subsubsec-state_eqlbrm" class="internal"><span class="codenumber">4.1.4.1</span> <span class="title">Static Equilibrium</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fourth-transeql.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Translational Equilibrium</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fourth-examplesB.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Examples B</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_fourth-dynamics.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Dynamics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-atwood_machine.html" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Atwood’s Machine</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-air_drag.html" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Motion in Air Drag</span></a></div></li>
+</ul>
+</li>
+<li class="active"><div class="toc-item"><a href="sec_fourth-examplesC.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fourth-circular.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Circular Motion</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fourth-banking.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Banking of a Curve</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fourth-examplesD.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Examples D</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Motion</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examples.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Examples</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_sixth.html" class="internal"><span class="codenumber">6</span> <span class="title">Motion</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_sixth-intro.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_sixth-examples.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Examples</span></a></div></li>
+<li><div class="toc-item"><a href="ex_sixth.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_seventh.html" class="internal"><span class="codenumber">7</span> <span class="title">Motion</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_seventh-intro.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_seventh-examples.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Examples</span></a></div></li>
+<li><div class="toc-item"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">List of Symbols</span></a></div></li>
+<li><div class="toc-item"><a href="append_partdiff.html" class="internal"><span class="codenumber">B</span> <span class="title"></span></a></div></li>
+<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_fourth-examplesC"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">4.6</span> <span class="title">Examples C</span>
+</h2>
+<article class="example example-like" id="example-55"><a href="" data-knowl="" class="id-ref example-knowl original has-image" data-refid="hk-example-55"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.1</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-55"><article class="example example-like"><div class="para logical" id="p-359">
+<div class="para">A 10-kg block lying on the horizontal surface is pulled by a force F making an angle of <span class="process-math">\(60^{o}\)</span> above the horizontal. The coefficient of static friction between the block and the horizontal surface is 0.3 and the coefficient of kinetic friction is 0.2. Draw the appropriate diagrams, write the appropriate equations, and find the magnitude and direction of the acceleration of the block when <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn1a.png" class="contained"></div>
+</div>
+<ol class="lower-alpha">
+<li id="li-327"><div class="para" id="p-derived-li-327"><span class="process-math">\(\displaystyle F = 30 N,\)</span></div></li>
+<li id="li-328"><div class="para" id="p-derived-li-328"><span class="process-math">\(\displaystyle F = 60 N,\)</span></div></li>
+<li id="li-329"><div class="para" id="p-derived-li-329"><span class="process-math">\(\displaystyle F = 90 N,\)</span></div></li>
+<li id="li-330"><div class="para" id="p-derived-li-330"><span class="process-math">\(\displaystyle F = 120 N.\)</span></div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-55" id="solution-55"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-55"><div class="solution solution-like">
+<div class="para" id="p-360">Given: <span class="process-math">\(m =  10 kg, \quad \theta = 60^{o}, \quad \mu_{s} = 0.3, \quad \mu_{k} = 0.2, \quad g = 9.8 m/s^{2}.\)</span> <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn1b.png" class="contained"></div>
+</div> <div class="para logical" id="p-361">
+<div class="para">Equations:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sum F_{x} = F \cos\theta - f  =  m a_{x}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sum F_{y} = F \sin\theta - w + N  =  m a_{y}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f  =  \mu N;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+w  =  m g	\quad \rightarrow \quad	w  =  98 N 
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-362"><ol class="lower-alpha">
+<li id="li-331"><div class="para" id="p-derived-li-331">
+<span class="process-math">\(F  = 30 N.\)</span> In verticle direction, <span class="process-math">\(a_{y} = 0,\)</span><div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad	N + F \sin\theta -w = 72.02 N 
+\end{equation*}
+</div>In horizontal direction, assume <span class="process-math">\(a_x=0\)</span> then,<div class="displaymath process-math">
+\begin{equation*}
+f= F\cos\theta = 30\times \cos(60) =15N.
+\end{equation*}
+</div>and<div class="displaymath process-math">
+\begin{equation*}
+f_s=\mu_s N = 0.3\times 72.02 = 21.61 N
+\end{equation*}
+</div>Since <span class="process-math">\(f \lt f_{s},\)</span> static friction can keep the block at rest as assumed. Therefore, 	<span class="process-math">\(a  =  0, \quad \theta_{a}  =  0.\)</span>
+</div></li>
+<li id="li-332"><div class="para" id="p-derived-li-332">
+<span class="process-math">\(F = 60 N.\)</span> Assume<div class="displaymath process-math">
+\begin{equation*}
+a_{y} = 0, \longrightarrow	N = w - F \sin\theta = 46.04 N 
+\end{equation*}
+</div>and<div class="displaymath process-math">
+\begin{equation*}
+a_{x} = 0,\longrightarrow	f  =  F \cos\theta =  30 N, \quad f_{s}  = \mu_{s} N  =  13.812 N
+\end{equation*}
+</div>Since <span class="process-math">\(f \gt f_{s},\)</span> static friction cannot keep the block at rest as assumed. Therefore block slides and,<div class="displaymath process-math">
+\begin{equation*}
+\mu =\mu_{k} = 0.2;\quad f  = \mu N = 9.208 N
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a_{x} = (F \cos\theta - f)/m  =  2.079 m/s^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore a  =  2.08 m/s^{2}, \quad \theta_{a}  =  0.
+\end{equation*}
+</div>
+</div></li>
+<li id="li-333"><div class="para" id="p-derived-li-333">
+<span class="process-math">\(F = 90 N.\)</span> Assume<div class="displaymath process-math">
+\begin{equation*}
+a_{y} = 0, \rightarrow	N = w - F \sin\theta = 20.058 N
+\end{equation*}
+</div>Assume block slides,<div class="displaymath process-math">
+\begin{equation*}
+\mu = \mu_{s} = 0.2;\quad f  = \mu N = 4.099 N
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a_{x} = (F \cos\theta - f)/m  =  4.011 m/s^{2}\qquad \therefore a  =  4.01 m/s^{2},\quad \theta_{a}  =  0.
+\end{equation*}
+</div>
+</div></li>
+<li id="li-334"><div class="para" id="p-derived-li-334">
+<span class="process-math">\(F = 120 N.\)</span> Assume<div class="displaymath process-math">
+\begin{equation*}
+a_{y} = 0, \rightarrow	N = w - F \sin\theta =  - 5.923 N
+\end{equation*}
+</div>Since N cannot be negative, our assumption was false and block leaves the surface.<div class="displaymath process-math">
+\begin{equation*}
+\therefore,	N = 0,  \quad f  =  0;\quad a_{x} = (F \cos\theta)/m  =  6.000 m/s^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a_{y}  =  (F \sin\theta - w)/m  =  0.5923 m/s^{2} ; a  =  	=  6.029 m/s^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan\theta_{a}  = \frac{a_{y}}{a_{x}}  \rightarrow  \theta_{a} =  5.638^{o}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore, 	a  =  6.03 m/s^{2}, \quad \theta_{a}  =  5.64^{o}. 
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
+</div></div>
+</div></article></div>
+<article class="example example-like" id="example-56"><a href="" data-knowl="" class="id-ref example-knowl original has-image" data-refid="hk-example-56"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.2</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-56"><article class="example example-like"><div class="para logical" id="p-363">
+<div class="para">A block of mass <span class="process-math">\(m_{1} = 10 kg \)</span> rests on top of a larger block of mass <span class="process-math">\(m_{2}\)</span> = 25 kg which rests on a plane inclined at an angle <span class="process-math">\(\theta = 10^{o}\text{.}\)</span> The coefficient of static friction between all surfaces is <span class="process-math">\(0.3\)</span> and that of kinetic friction is <span class="process-math">\(0.2\text{.}\)</span> A constant force <span class="process-math">\(F\)</span> parallel to the plane is applied to <span class="process-math">\(m_{2}\)</span>  accelerating it up the plane. <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn4.png" class="contained"></div>
+</div>
+<ol class="lower-alpha">
+<li id="li-335"><div class="para" id="p-derived-li-335">What is the maximum acceleration of <span class="process-math">\(m_{2}\)</span>  which will allow <span class="process-math">\(m_{1}\)</span> to stay with it?</div></li>
+<li id="li-336"><div class="para" id="p-derived-li-336">What is the force <span class="process-math">\(F\)</span> which causes this acceleration?</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-56" id="solution-56"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-56"><div class="solution solution-like">
+<div class="para" id="p-364">Given: <span class="process-math">\(m_{1} =10 kg, \quad m_{2} =25 kg,\quad \theta=10^{o}, \quad \mu_{1}=0.3,\quad \mu_{2}=0.2,
+\quad g =9.8m/s^{2}.\)</span>
+</div> <div class="para logical" id="p-365">
+<div class="para">From figure,  <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn4b.png" class="contained"></div> we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html" id="eqn-nwtn1">
+\begin{equation}
+\sum F_{x}=f_{1}-w_{1}\sin\theta=m_{1}a  \tag{4.6.1}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html">
+\begin{equation*}
+\sum F_{y}=N_{1}-w_{1}\cos\theta=0 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html" id="eqn-nwtn2">
+\begin{equation}
+\text{or,}\quad N_{1}=w_{1}\cos\theta = m_{1}g\cos\theta =10\times 9.8\times\cos 10^{o} =96.5 N \tag{4.6.2}
+\end{equation}
+</div>
+<div class="para">also,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html" id="eqn-nwtn3">
+\begin{equation}
+f_{1}=\mu_{1}N_{1}=0.3\times 96.5 = 28.95 N\tag{4.6.3}
+\end{equation}
+</div>
+<div class="para">now from eqn.<a href="" class="xref" data-knowl="./knowl/eqn-nwtn1.html" title="Equation 4.6.1">(4.6.1)</a>,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html" id="eqn-nwtn4">
+\begin{equation}
+a =\frac{f_{1}-w_{1}\sin\theta}{m_{1}} = \frac{28.95-10\times9.8\times\sin 10^{o}}{10}= 1.193 m/s^{2} \tag{4.6.4}
+\end{equation}
+</div>
+<div class="para">From figure, <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn4a.png" class="contained"></div> we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html" id="eqn-nwtn5">
+\begin{equation}
+\sum F_{x}=F-f_{1}-f_{2}-w_{2}\sin\theta=m_{2}a \tag{4.6.5}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html">
+\begin{equation*}
+\sum F_{y}=N_{2}-N_{1}-w_{2}\cos\theta=0 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html">
+\begin{equation*}
+\text{or,}\quad N_{2}=N_{1}+w_{2}\cos\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html" id="eqn-nwtn6">
+\begin{equation}
+=96.5+25\times9.8\times\cos 10^{o}=337.79N\tag{4.6.6}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html" id="eqn-nwtn7">
+\begin{equation}
+\text{also,}\quad f_{2}=\mu_{2}N_{2}=0.2\times 337.79 = 67.56 N\tag{4.6.7}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html">
+\begin{equation*}
+\therefore\quad F = f_{1}+f_{2}+w_{2}\sin\theta+m_{2}a 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-nwtn1.html">
+\begin{equation*}
+= 28.95+67.56+25\times 9.8\times\sin 10^{o}+25\times1.193 = 168.88 N 
+\end{equation*}
+</div>
+</div>
+</div></div>
+</div></article></div>
+<article class="example example-like" id="example-57"><a href="" data-knowl="" class="id-ref example-knowl original has-image" data-refid="hk-example-57"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.3</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-57"><article class="example example-like"><div class="para logical" id="p-366">
+<div class="para">A box of mass 100 kg is placed in the front end of the bed of a truck initially at rest. The coefficient of static friction between box and truck bed is 0.4, the coefficient of kinetic friction between box and truck bed is 0.25, the bed of the truck is 2 m long and 1 m above the ground, and the truck accelerates at a constant acceleration just fast enough to make the box start sliding. <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/ntwn2a.png" class="contained"></div>
+</div>
+<ol class="lower-alpha">
+<li id="li-337"><div class="para" id="p-derived-li-337">What is the acceleration of the truck?</div></li>
+<li id="li-338"><div class="para" id="p-derived-li-338">What is the acceleration of the box?</div></li>
+<li id="li-339"><div class="para" id="p-derived-li-339">When does the box fall off the back of the truck?</div></li>
+<li id="li-340"><div class="para" id="p-derived-li-340">How far does the truck travel before the box falls off?</div></li>
+<li id="li-341"><div class="para" id="p-derived-li-341">How fast is the box traveling when it falls off the truck?</div></li>
+<li id="li-342"><div class="para" id="p-derived-li-342">How far from its starting point does the box hit the ground?</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-57" id="solution-57"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-57"><div class="solution solution-like">
+<div class="para" id="p-367">Given: <span class="process-math">\(m = 100 kg,  \quad \mu_{s}  =  0.4,  \quad \mu_{k} = 0.25,  \quad  L  =  2 m, \quad y  =  1 m \)</span> <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;">
+<div class="sbspanel top" style="width:37.5%;"><img src="external/ntwn2b.png" class="contained"></div>
+<div class="sbspanel top" style="width:37.5%;"><img src="external/ntwn2c.png" class="contained"></div>
+</div></div>
+</div> <ol class="lower-alpha">
+<li id="li-343"><div class="para logical" id="p-368">
+<div class="displaymath process-math">
+\begin{equation*}
+\sum F_{x}  =  f  =  m a_{2};\quad \sum F_{y}  =  N  -  w  =  0
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mu=0.4, \quad w  =  m g =980N,\quad \therefore	N  =  980 N 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f  =  \mu N; \quad	f  =  392 N, \quad \mu  =  \mu_{s}, \quad \therefore\qquad	a_{2}  =  3.92 m/s^{2} 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-344"><div class="para logical" id="p-369"><div class="displaymath process-math">
+\begin{equation*}
+\mu  =  \mu_{k}  =  0.25;	\quad f  =  245 N;\quad  a_{1}  =  2.45 m/s^{2}
+\end{equation*}
+</div></div></li>
+<li id="li-345"><div class="para logical" id="p-370">
+<div class="displaymath process-math">
+\begin{equation*}
+x_{1}  =  v_{o1} t  +  \frac{1}{2}a_{1} t^{2}; 	\quad v_{o1}  = 0; 	\quad L  =  x_{1} - x_{2} =  +  t^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_{2}  =  v_{o2} t   +  \frac{1}{2}a_{2} t^{2};\quad	v_{o2}  = 0; \quad	t  =  =  1.65 s; \qquad x_{1}  = x_{2}  +  L 	
+\end{equation*}
+</div>
+</div></li>
+<li id="li-346"><div class="para logical" id="p-371"><div class="displaymath process-math">
+\begin{equation*}
+x_{1}  =  \frac{1}{2}a_{1} t^{2}   =  5.33 m
+\end{equation*}
+</div></div></li>
+<li id="li-347"><div class="para logical" id="p-372"><div class="displaymath process-math">
+\begin{equation*}
+v_{2}  =  v_{o2}  +  a_{2} t;	v_{2}  = 4.04 m/s
+\end{equation*}
+</div></div></li>
+<li id="li-348"><div class="para logical" id="p-373">
+<div class="displaymath process-math">
+\begin{equation*}
+x_{3}  =  v_{2} t_{2}; 	t_{2}  = 0.452 s
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y  =  \frac{1}{2}g t_{2}^{2}; 	x_{3}  = 1.825 m
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_{T}  =  x_{1}  + x_{3}; \quad	x_{T}  =  7.16 m
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div></div>
+</div></article></div>
+<article class="example example-like" id="example-58"><a href="" data-knowl="" class="id-ref example-knowl original has-image" data-refid="hk-example-58"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.4</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-58"><article class="example example-like"><div class="para" id="p-374">Pulley A is fixed to the ceiling, pulley B is suspended by the string whose one end is attached to the ceiling and another end is passing over pulley B and holding the block 1 of mass <span class="process-math">\(m_{1}\)</span> as shown in figure below. The block 2 of mass <span class="process-math">\(m_{2}\)</span> is hanging from the pulley B. If the pulleys and strings are massless and the strings do not stretch. What is the correct relationship between accelerations <span class="process-math">\(a_{1}\)</span> and <span class="process-math">\(a_{2}\)</span> of blocks 1 and 2? <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/pulley1b.png" class="contained"></div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-58" id="solution-58"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-58"><div class="solution solution-like">
+<div class="para" id="p-375">Since the pulleys are massless, tensions of each section of the string in either side of pulleys are same as shown in figure. <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/pulley1c.png" class="contained"></div> To find the relation between <span class="process-math">\(a_{1}\)</span> and <span class="process-math">\(a_{2}\)</span> add the lengths of each section of the string and take its derivative as shown below. Let <span class="process-math">\(H\)</span> is the height of pulley A from reference level (ground level), then length of string from pulley A to block 1 is given as <span class="process-math">\(H-y_{1},\)</span> length of section of string from pulley A to B is <span class="process-math">\(H-y_{2}\)</span> and length of section of string from pulley B to level of pulley A is <span class="process-math">\(H-y_{2}\text{.}\)</span>
+</div> <div class="para logical" id="p-376">
+<div class="para">Ignore the lengths of string over pulleys and to the rest to ceiling. It does not contribute any thing to the derivative of the length. Now</div>
+<div class="displaymath process-math">
+\begin{equation*}
+L=(H-y_{1})+(H-y_{2})+(H-y_{2}) = 3H -y_{1}-2y_{2}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(y_{a}\)</span> and <span class="process-math">\(y_{2}\)</span> are distances of block 1 and pulley B from the reference level, respectively. Since the string does not stretch, we have -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,dL}{\,dt} = 0 = 0 -\frac{\,dy_{1}}{\,dt} -2\frac{\,dy_{2}}{\,dt}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \frac{\,dy_{1}}{\,dt} = -2\frac{\,dy_{2}}{\,dt} \quad \Rightarrow\quad v_{1}=-2v_{2}
+\end{equation*}
+</div>
+<div class="para">That is velocity of block 1 <span class="process-math">\(v_{1} \)</span> is just the double velocity of block 2 <span class="process-math">\(v_{2}\)</span> and negative sign indicates the velocity of block 2 is opposite to that of block 1. Again,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,dv_{1}}{\,dt} = -2\frac{\,dv_{2}}{\,dt} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="eqn-pulley1">
+\begin{equation}
+\therefore a_{1}=-2a_{2} \tag{4.6.8}
+\end{equation}
+</div>
+<div class="para">From free-body diagram, we have -</div>
+<div class="displaymath process-math" id="eqn-pulley2">
+\begin{equation}
+m_{1}g-T=m_{1}a_{1}  \qquad \therefore\quad T=m_{1}g-m_{1}a_{1}   \tag{4.6.9}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-pulley3">
+\begin{equation}
+\text{also}\quad T_{2}-m_{2} g = m_{2}a_{2}  \qquad \therefore\quad T_{2}=m_{2}g+m_{2}a_{2}    \tag{4.6.10}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-pulley4">
+\begin{equation}
+\text{but}\quad T_{2} = T +T  \qquad \therefore \quad 2T = m_{2}g+m_{2}a_{2}  \tag{4.6.11}
+\end{equation}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2\left[m_{1}g-m_{1}a_{1}\right] = m_{2}g+m_{2}a_{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad 2 m_{1}g -m_{2}g = m_{2}a_{2}+2m_{1}a_{1} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \left(2 m_{1} -m_{2}\right) g = -m_{2}\frac{a_{1}}{2}+2m_{1}a_{1}  = a_{1}\left(2m_{1}-\frac{m_{2}}{2}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad a_{1} = \left[\frac{\left(2 m_{1} -m_{2}\right) g}{\left(2m_{1}-\frac{m_{2}}{2}\right)}\right] \qquad \text{and}\quad T = \frac{m_{1}m_{2}g}{4m_{1}-m_{2}} 
+\end{equation*}
+</div>
+</div>
+</div></div>
+</div></article></div>
+<article class="example example-like" id="example-59"><a href="" data-knowl="" class="id-ref example-knowl original has-image" data-refid="hk-example-59"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6.5</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-59"><article class="example example-like"><div class="para" id="p-377">A 30 N force is applied at an angle of <span class="process-math">\(37^{o} \)</span> to the horizontal to move the two boxes attached to each other with a string. If the force is applied on the box of mass 3kg and the mass of second box is 1 kg, find the acceleration of the boxes and tension in the string. Consider the kinetic friction between the surfaces of box and the road is 0.4. <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/dynboxes.png" class="contained"></div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-59" id="solution-59"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-59"><div class="solution solution-like">
+<div class="para" id="p-378">Given: <span class="process-math">\(\mu_{k}=0.4, \quad m_{1}=3 kg, \quad m_{2}=1 kg, \quad F=30N, \quad \theta=37^{o},\)</span> and <span class="process-math">\(g=9.8 m/s^{2}. \)</span>
+</div> <div class="para logical" id="p-379">
+<div class="para">From free body diagram, <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/dynboxes1a.png" class="contained"></div> we have -</div>
+<div class="displaymath process-math" id="eqn-dynbox1">
+\begin{equation}
+\sum F_{x}=T-f_{2} =m_{2}a \qquad \Rightarrow\quad T=m_{2}a+f_{2}\tag{4.6.12}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-dynbox2">
+\begin{equation}
+\sum F_{y}=N_{2}-m_{2}g =0 \qquad \Rightarrow\quad N_{2}=m_{2}g \tag{4.6.13}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-dynbox3">
+\begin{equation}
+\text{but,}\quad f_{2}=\mu_{k}N_{2}\tag{4.6.14}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-dynbox4">
+\begin{equation}
+\therefore\quad T = m_{2}(a+\mu_{k}g) \tag{4.6.15}
+\end{equation}
+</div>
+</div> <div class="para logical" id="p-380">
+<div class="para">From free body diagram, <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/dynboxes1b.png" class="contained"></div> we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-dynbox4.html ./knowl/eqn-dynbox8.html" id="eqn-dynbox5">
+\begin{equation}
+\sum F_{x}=F_{x}-T-f_{1} = m_{1}a \qquad \Rightarrow\quad T=F_{x} - m_{1}a-f_{1}\tag{4.6.16}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-dynbox4.html ./knowl/eqn-dynbox8.html" id="eqn-dynbox6">
+\begin{equation}
+\sum F_{y}=N_{1}+F_{y}-m_{1}g =0 \qquad \Rightarrow\quad N_{1}=m_{1}g -F_{y} \tag{4.6.17}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-dynbox4.html ./knowl/eqn-dynbox8.html" id="eqn-dynbox7">
+\begin{equation}
+\text{but,}\quad f_{1}=\mu_{k}N_{1}\tag{4.6.18}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-dynbox4.html ./knowl/eqn-dynbox8.html" id="eqn-dynbox8">
+\begin{equation}
+\therefore\quad T = F\left(\cos\theta +\mu_{k}\sin\theta\right) -m_{1}(a+\mu_{k}g) \tag{4.6.19}
+\end{equation}
+</div>
+<div class="para">On solving eqns. <a href="" class="xref" data-knowl="./knowl/eqn-dynbox4.html" title="Equation 4.6.15">(4.6.15)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-dynbox8.html" title="Equation 4.6.19">(4.6.19)</a>, we have - <span class="process-math">\(a=3.0 m/s^{2}\)</span> and <span class="process-math">\(T=6.92 N.\)</span>
+</div>
+</div>
+</div></div>
+</div></article></div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="subsec-air_drag.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_fourth-circular.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
