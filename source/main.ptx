@@ -145,6 +145,9 @@
      <xi:include href="./ch_fifth.ptx" />
      <xi:include href="./ch_sixth.ptx" />
      <xi:include href="./ch_seventh.ptx" /> 
+     <xi:include href="./ch_eigth.ptx" /> 
+     <xi:include href="./ch_ninth.ptx" /> 
+     <xi:include href="./ch_tenth.ptx" /> 
 
  <xi:include href="./meta_backmatter.ptx" /> 
    
