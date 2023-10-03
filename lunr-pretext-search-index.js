@@ -1747,13 +1747,40 @@ var ptx_lunr_docs = [
   "body": "  A 30 N force is applied at an angle of to the horizontal to move the two boxes attached to each other with a string. If the force is applied on the box of mass 3kg and the mass of second box is 1 kg, find the acceleration of the boxes and tension in the string. Consider the kinetic friction between the surfaces of box and the road is 0.4.      Given: and   From free body diagram,  we have -      From free body diagram,  we have -    On solving eqns. and , we have - and    "
 },
 {
-  "id": "sec_fourth-circular",
+  "id": "subsec-con_pendulum",
   "level": "1",
-  "url": "sec_fourth-circular.html",
-  "type": "Section",
-  "number": "4.7",
-  "title": "Circular Motion",
-  "body": " Circular Motion      "
+  "url": "subsec-con_pendulum.html",
+  "type": "Subsection",
+  "number": "4.7.1",
+  "title": "Horizontal Circle",
+  "body": " Horizontal Circle   Horizontal Circle Horizontal Circle or a A conical pendulum is mass attached to a weightless and inextensible string over the rigid support and moves in a horizontal circle. Let us consider a body of mass, tied with the string of length, over the rigid support and whirl in a horizontal circle of radius, . At any instant of time the body is at where the tension, is acted along the string as shown in . The vertical component of tension balances and unbalanced the horizontal component provides necessary centripetal force.        Dividing eqn. with , we get -  The time period can be given by  If , then tension in the string , which is not possible. Hence the body never receives the same height as its fixed support.  "
+},
+{
+  "id": "horizcir",
+  "level": "2",
+  "url": "subsec-con_pendulum.html#horizcir",
+  "type": "Figure",
+  "number": "4.7.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-vertcir",
+  "level": "1",
+  "url": "subsec-vertcir.html",
+  "type": "Subsection",
+  "number": "4.7.2",
+  "title": "Vertical Circle",
+  "body": " Vertical Circle   verticle circle Consider a body of mass, attached with a string of length, and revolve in the vertical circle of radius, . At any instant of time the body is at P such that string makes an angle with the vertical. The weight (mg) of a body is acted downward which can be resolved into two components. One component is against tension in the string and another component affect the speed of the body. Because of body slows down as it goes up and speed up as it comes down. Hence the motion in a vertical circle is not uniform.      The necessary centripetal force in this case is provided by    At , lowest point of ride.  At , quarter point of ride.  At , highest point of ride.  For a minimum velocity at the highest point , hence    "
+},
+{
+  "id": "vertcir",
+  "level": "2",
+  "url": "subsec-vertcir.html#vertcir",
+  "type": "Figure",
+  "number": "4.7.2",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec_fourth-banking",
@@ -1762,7 +1789,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.8",
   "title": "Banking of a Curve",
-  "body": " Banking of a Curve      "
+  "body": " Banking of a Curve       In order to protect vehicles on a curvy road to skid outward, the road is slanted towards its outer edge which is called the banking of a curve. As the speed of vehicle increases, the centripetal force needed for circular motion of the vehicle also increases. On the level road the frictional force between tire and the road provides the necessary centripetal force but as the speed increases this friction is not sufficient enough to provide required centripetal force which results in skid the vehicle off the road in opposite direction of the curve. To avoid such calamity the road is banked so that tire has protection from skidding upward. Due to banking necessary centripetal force is provided by the components of frictional force and normal force. Since the frictional force acts on a running tire and road is static in nature (unless it skids), it is directed towards upper edge of the slanted road if the car is running with low velocity or at rest. However the frictional force acts towards lower edge of road if the car has high velocity because the car has tendency to skid towards upper edge of the road.   "
+},
+{
+  "id": "cd1a",
+  "level": "2",
+  "url": "sec_fourth-banking.html#cd1a",
+  "type": "Figure",
+  "number": "4.8.1",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec_fourth-examplesD",
@@ -1771,23 +1807,68 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.9",
   "title": "Examples D",
-  "body": " Examples D  "
+  "body": " Examples D    A car traveling at 80 km\/h rounds a curve of radius 100m which is banked for a speed of 50 km\/h. What is the minimum coefficient of friction that would keep the car on the road?    Given: , ,               again, from eqn. , if we have -   also, from eqn. , if we have -   also, from eqns. and , we have -        A rock of mass 0.2 kg is tied to a string and whirled in a vertical circle of radius 1 m.  What is the tension in the string if the rock is traveling at 10 m\/s at the bottom?  What is the tension in the string if the rock is traveling at 8 m\/s at the top?  What is the tension in the string if the rock is traveling at 9 m\/s when the string is horizontal?  What is the tangential acceleration of the rock when it is traveling at 9 m\/s and the string is horizontal?  What are the radial and tangential components of the acceleration vector if the rock is traveling at 10 m\/s and the string makes an angle of above the horizontal?                                                              A thin circular loop of radius rotates about a vertical diameter with an angular frequency inside of which a small bead of mass is constrained to slide without friction. Show that the bead remains at its lowest point for .                  "
+},
+{
+  "id": "example-60",
+  "level": "2",
+  "url": "sec_fourth-examplesD.html#example-60",
+  "type": "Example",
+  "number": "4.9.1",
+  "title": "",
+  "body": "  A car traveling at 80 km\/h rounds a curve of radius 100m which is banked for a speed of 50 km\/h. What is the minimum coefficient of friction that would keep the car on the road?    Given: , ,               again, from eqn. , if we have -   also, from eqn. , if we have -   also, from eqns. and , we have -     "
+},
+{
+  "id": "example-61",
+  "level": "2",
+  "url": "sec_fourth-examplesD.html#example-61",
+  "type": "Example",
+  "number": "4.9.2",
+  "title": "",
+  "body": "  A rock of mass 0.2 kg is tied to a string and whirled in a vertical circle of radius 1 m.  What is the tension in the string if the rock is traveling at 10 m\/s at the bottom?  What is the tension in the string if the rock is traveling at 8 m\/s at the top?  What is the tension in the string if the rock is traveling at 9 m\/s when the string is horizontal?  What is the tangential acceleration of the rock when it is traveling at 9 m\/s and the string is horizontal?  What are the radial and tangential components of the acceleration vector if the rock is traveling at 10 m\/s and the string makes an angle of above the horizontal?                                                           "
+},
+{
+  "id": "example-62",
+  "level": "2",
+  "url": "sec_fourth-examplesD.html#example-62",
+  "type": "Example",
+  "number": "4.9.3",
+  "title": "",
+  "body": "  A thin circular loop of radius rotates about a vertical diameter with an angular frequency inside of which a small bead of mass is constrained to slide without friction. Show that the bead remains at its lowest point for .                 "
+},
+{
+  "id": "sec_fourth-torque",
+  "level": "1",
+  "url": "sec_fourth-torque.html",
+  "type": "Section",
+  "number": "4.10",
+  "title": "Center of Mass",
+  "body": " Center of Mass  "
+},
+{
+  "id": "sec_fourth-examplesE",
+  "level": "1",
+  "url": "sec_fourth-examplesE.html",
+  "type": "Section",
+  "number": "4.11",
+  "title": "Examples E",
+  "body": " Examples E  "
 },
 {
   "id": "ex_fourth",
   "level": "1",
   "url": "ex_fourth.html",
   "type": "Exercises",
-  "number": "4.10",
+  "number": "4.12",
   "title": "Exercise",
-  "body": "  Exercise   Static Equilibrium  Find the tension in each of the cords illustrated below.    A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire.  A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?    A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.    A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?    Draw force diagrams for each of the bodies shown below:                Translational Equilibrium  A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?    A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?    Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.    A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?      Dynamics  A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box.  Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?    A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.    A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?    A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.    A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?    Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground.  A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .       "
+  "body": "  Exercise   Static Equilibrium  Find the tension in each of the cords illustrated below.    A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire.  A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?    A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.    A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?    Draw force diagrams for each of the bodies shown below:                Translational Equilibrium  A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?    A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?    Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.    A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?      Dynamics  A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box.  Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?    A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.    A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?    A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.    A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?    Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground.  A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .       A projectile with air resistance: A projectile of mass 1 kg is shot into the air with an initial velocity of 100 m\/s at an angle of . If the air resistive force is proportional to the velocity and directed opposite the velocity with a proportionality constant of c = 0.0, 0.01, 0.1, 1.0 N.s\/m, in each case find  the maximum height it reaches,  the range of the projectile, and  the time of flight.    Use formula        Banking of a Curve    A level highway curve of radius 100 m is banked for cars traveling at a speed of 20 m\/s. What is the bank angle?  If a car rounds the above curve at 40 m\/s what is the minimum coefficient of friction that will keep it on the road?      An airplane traveling at 40 m\/s pulls out of a dive in a circle of radius 200 m. How many g's of force does the pilot experience at the bottom of the pull-out?  The above pilot makes a loop of radius 200 m having slowed down to 30 m\/s at the top.  How many g's of force does he experience at the top?    A mass of 500 g is whirled in a horizontal circle on the end of a string 1.5 m long at the rate of 200 rpm.  What is the speed of the rock?  What is the angle that the string makes with the horizontal?  What is the tension in the string?    A child of mass 50 kg is standing at the edge of a playground merry-go-round of diameter 3 m. Other children push the merry-go-round faster and faster until the first child's feet begin to slip.  If the friction between shoes and rotating surface is 0.2, how long does it take the merry-go-round to make one revolution?  How fast is the first child traveling when he begins to slip?  What is the angle between the first child\\rq s body and a vertical line before he begins to slip?    A car traveling at 80 mph rounds a curve of radius 50 m which is banked for a speed of 50 mph. What is the minimum coefficient of friction that would keep the car on the road?  At what angle from vertical a cyclist has to lean in order to make a turn on 10 m radius curve path, if his speed is 5 m\/s?  A small sphere of mass m is dropped from a great height. After it has fallen 100 m, it has attained its terminal velocity and continues to fall at that speed. Calculate the work done by air friction against the sphere during the first 100 m of fall.  An automobile traveling at 60 mph rounds a curve banked at . The radius of the curve is 200 ft.  What is the minimum coefficient of friction that will keep the car on the road?  What would the bank angle need to be in order for the car to stay on the road without any friction?       and     "
 },
 {
   "id": "exercise-62",
   "level": "2",
   "url": "ex_fourth.html#exercise-62",
   "type": "Exercise",
-  "number": "4.10.1",
+  "number": "4.12.1",
   "title": "",
   "body": "Find the tension in each of the cords illustrated below.   "
 },
@@ -1796,7 +1877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-63",
   "type": "Exercise",
-  "number": "4.10.2",
+  "number": "4.12.2",
   "title": "",
   "body": "A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire. "
 },
@@ -1805,7 +1886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-64",
   "type": "Exercise",
-  "number": "4.10.3",
+  "number": "4.12.3",
   "title": "",
   "body": "A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?   "
 },
@@ -1814,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-65",
   "type": "Exercise",
-  "number": "4.10.4",
+  "number": "4.12.4",
   "title": "",
   "body": "A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.   "
 },
@@ -1823,7 +1904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-66",
   "type": "Exercise",
-  "number": "4.10.5",
+  "number": "4.12.5",
   "title": "",
   "body": "A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?   "
 },
@@ -1832,7 +1913,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-67",
   "type": "Exercise",
-  "number": "4.10.6",
+  "number": "4.12.6",
   "title": "",
   "body": "Draw force diagrams for each of the bodies shown below:             "
 },
@@ -1841,7 +1922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-68",
   "type": "Exercise",
-  "number": "4.10.7",
+  "number": "4.12.7",
   "title": "",
   "body": "A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?   "
 },
@@ -1850,7 +1931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-69",
   "type": "Exercise",
-  "number": "4.10.8",
+  "number": "4.12.8",
   "title": "",
   "body": "A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?   "
 },
@@ -1859,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-70",
   "type": "Exercise",
-  "number": "4.10.9",
+  "number": "4.12.9",
   "title": "",
   "body": "Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.   "
 },
@@ -1868,7 +1949,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-71",
   "type": "Exercise",
-  "number": "4.10.10",
+  "number": "4.12.10",
   "title": "",
   "body": "A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?   "
 },
@@ -1877,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-72",
   "type": "Exercise",
-  "number": "4.10.11",
+  "number": "4.12.11",
   "title": "",
   "body": "A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box. "
 },
@@ -1886,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-73",
   "type": "Exercise",
-  "number": "4.10.12",
+  "number": "4.12.12",
   "title": "",
   "body": "Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?   "
 },
@@ -1895,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-74",
   "type": "Exercise",
-  "number": "4.10.13",
+  "number": "4.12.13",
   "title": "",
   "body": "A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.   "
 },
@@ -1904,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-75",
   "type": "Exercise",
-  "number": "4.10.14",
+  "number": "4.12.14",
   "title": "",
   "body": "A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?   "
 },
@@ -1913,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-76",
   "type": "Exercise",
-  "number": "4.10.15",
+  "number": "4.12.15",
   "title": "",
   "body": "A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.   "
 },
@@ -1922,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-77",
   "type": "Exercise",
-  "number": "4.10.16",
+  "number": "4.12.16",
   "title": "",
   "body": "A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?   "
 },
@@ -1931,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-78",
   "type": "Exercise",
-  "number": "4.10.17",
+  "number": "4.12.17",
   "title": "",
   "body": "Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground. "
 },
@@ -1940,9 +2021,90 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-79",
   "type": "Exercise",
-  "number": "4.10.18",
+  "number": "4.12.18",
   "title": "",
   "body": "A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .     "
+},
+{
+  "id": "exercise-80",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-80",
+  "type": "Exercise",
+  "number": "4.12.19",
+  "title": "",
+  "body": " A projectile with air resistance: A projectile of mass 1 kg is shot into the air with an initial velocity of 100 m\/s at an angle of . If the air resistive force is proportional to the velocity and directed opposite the velocity with a proportionality constant of c = 0.0, 0.01, 0.1, 1.0 N.s\/m, in each case find  the maximum height it reaches,  the range of the projectile, and  the time of flight.    Use formula     "
+},
+{
+  "id": "exercise-81",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-81",
+  "type": "Exercise",
+  "number": "4.12.20",
+  "title": "",
+  "body": "  A level highway curve of radius 100 m is banked for cars traveling at a speed of 20 m\/s. What is the bank angle?  If a car rounds the above curve at 40 m\/s what is the minimum coefficient of friction that will keep it on the road?   "
+},
+{
+  "id": "exercise-82",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-82",
+  "type": "Exercise",
+  "number": "4.12.21",
+  "title": "",
+  "body": "  An airplane traveling at 40 m\/s pulls out of a dive in a circle of radius 200 m. How many g's of force does the pilot experience at the bottom of the pull-out?  The above pilot makes a loop of radius 200 m having slowed down to 30 m\/s at the top.  How many g's of force does he experience at the top?   "
+},
+{
+  "id": "exercise-83",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-83",
+  "type": "Exercise",
+  "number": "4.12.22",
+  "title": "",
+  "body": "A mass of 500 g is whirled in a horizontal circle on the end of a string 1.5 m long at the rate of 200 rpm.  What is the speed of the rock?  What is the angle that the string makes with the horizontal?  What is the tension in the string?   "
+},
+{
+  "id": "exercise-84",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-84",
+  "type": "Exercise",
+  "number": "4.12.23",
+  "title": "",
+  "body": "A child of mass 50 kg is standing at the edge of a playground merry-go-round of diameter 3 m. Other children push the merry-go-round faster and faster until the first child's feet begin to slip.  If the friction between shoes and rotating surface is 0.2, how long does it take the merry-go-round to make one revolution?  How fast is the first child traveling when he begins to slip?  What is the angle between the first child\\rq s body and a vertical line before he begins to slip?   "
+},
+{
+  "id": "exercise-85",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-85",
+  "type": "Exercise",
+  "number": "4.12.24",
+  "title": "",
+  "body": "A car traveling at 80 mph rounds a curve of radius 50 m which is banked for a speed of 50 mph. What is the minimum coefficient of friction that would keep the car on the road? "
+},
+{
+  "id": "exercise-86",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-86",
+  "type": "Exercise",
+  "number": "4.12.25",
+  "title": "",
+  "body": "At what angle from vertical a cyclist has to lean in order to make a turn on 10 m radius curve path, if his speed is 5 m\/s? "
+},
+{
+  "id": "exercise-87",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-87",
+  "type": "Exercise",
+  "number": "4.12.26",
+  "title": "",
+  "body": "A small sphere of mass m is dropped from a great height. After it has fallen 100 m, it has attained its terminal velocity and continues to fall at that speed. Calculate the work done by air friction against the sphere during the first 100 m of fall. "
+},
+{
+  "id": "exercise-88",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-88",
+  "type": "Exercise",
+  "number": "4.12.27",
+  "title": "",
+  "body": "An automobile traveling at 60 mph rounds a curve banked at . The radius of the curve is 200 ft.  What is the minimum coefficient of friction that will keep the car on the road?  What would the bank angle need to be in order for the car to stay on the road without any friction?       and   "
 },
 {
   "id": "sec_fifth-intro",
@@ -1972,9 +2134,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise   "
 },
 {
-  "id": "exercise-80",
+  "id": "exercise-89",
   "level": "2",
-  "url": "ex_fifth.html#exercise-80",
+  "url": "ex_fifth.html#exercise-89",
   "type": "Exercise",
   "number": "5.3.1",
   "title": "",
@@ -2008,9 +2170,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise   "
 },
 {
-  "id": "exercise-81",
+  "id": "exercise-90",
   "level": "2",
-  "url": "ex_sixth.html#exercise-81",
+  "url": "ex_sixth.html#exercise-90",
   "type": "Exercise",
   "number": "6.3.1",
   "title": "",
@@ -2044,9 +2206,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise   "
 },
 {
-  "id": "exercise-82",
+  "id": "exercise-91",
   "level": "2",
-  "url": "ex_seventh.html#exercise-82",
+  "url": "ex_seventh.html#exercise-91",
   "type": "Exercise",
   "number": "7.3.1",
   "title": "",
