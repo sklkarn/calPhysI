@@ -28,6 +28,8 @@
   <xi:include href="./sec_fourth-circular.ptx" /> 
   <xi:include href="./sec_fourth-banking.ptx" /> 
   <xi:include href="./sec_fourth-examplesD.ptx" /> 
+  <xi:include href="./sec_fourth-torque.ptx" /> 
+  <xi:include href="./sec_fourth-examplesE.ptx" /> 
   <xi:include href="./ex_fourth.ptx"/> 
 
 </chapter>

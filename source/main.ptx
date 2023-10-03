@@ -22,9 +22,9 @@
 
   </docinfo>
 
-  <book xml:id="my-great-book">
-    <title>Principles of Physics</title>
-    <subtitle>Calculus Based (Vol. I)</subtitle>
+  <book xml:id="sk_book">
+    <title>Principles of Physics (Vol. I)</title>
+    <subtitle>Calculus Based</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
