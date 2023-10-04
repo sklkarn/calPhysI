@@ -482,5 +482,130 @@
          </hint>
      </exercise>
 </paragraphs>
+
+<paragraphs>
+  <title>Center of Mass</title>
+ <exercise>
+  <p>
+    Find the center-of-mass coordinates of the masses shown below: 
+    <image source="cm3.png" width ="40%"> </image>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    Find the coordinates of the center of mass of the system of particles shown at right: 
+    <image source="cm4.png" width ="40%"> </image>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    In the figure at right, 
+    <image source="cm5.png" width ="40%"> </image>
+    <ol marker ="a.">
+      <li>
+        find the center of mass of each segment,
+      </li>
+      <li>
+        recognize that the mass of each segment is 
+        proportional to the length of each segment and write down the length of each segment, 
+      </li>
+      <li>
+        write the coordinates of the center of each segment,
+      </li>
+      <li>
+        calculate the coordinates of the center of mass of the L shaped figure, and 
+      </li>
+      <li>
+        locate the center of mass on the figure.
+      </li>
+    </ol>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    Calculate the center of mass of uniform sheet of metal shaped as shown in figure below. 
+    <image source="cm6.png" width ="40%"> </image>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    On the figure below place a dot at the center of mass of the object shown, 
+    assuming its mass is distributed uniformly.
+    <image source="cm7.png" width ="40%"> </image>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    Find the location of the center of mass of the object illustrated 
+    below if 
+    <image source="cm8.png" width ="40%"> </image>
+    <ol marker="a.">
+      <li>
+        the object consists of two circles connected by a rectangle all of uniform mass distribution, 
+      </li>
+      <li>
+        the object consists of two spheres each of density <m>4 g/cm^{3}</m> connected 
+        by a cylindrical rod of density <m>8 g/cm^{3}</m>. 
+      </li>
+    </ol>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A man of weight 200 lb is sitting at one end of a canoe of weight 60 lb 
+    which is 10 ft long and at rest in the water. If the man walks to the other 
+    end of the canoe how far does the canoe move through the water? (Assume the water has no friction.) 
+    <image source="cm10.png" width ="40%"> </image>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    To weigh a fish, a person hangs a fish at a point <m>\frac{1}{4}</m> of the 
+    length of a rigid rod which is suspended by a rope attached to its center. 
+    If there is 3.5 kg mass is hanging at one end near to fish and a 5 kg mass 
+    is hanging at another end to balance the system. What is the weight of the fish.
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A 60 kg man and his 40 kg dog are sitting together at the left end of a 8.0 m 
+    long boat. The boat is 100 kg, and its center of mass lies at the geometric center. 
+    The boat starts out at rest in the middle of a calm lake. Ignore all friction 
+    and water resistance throughout this problem.
+    <ol marker="a.">
+      <li>
+        Where is the center of mass of the boat + man + dog system? Consider the origin 
+        of coordinates lies at left end of the boat. 
+      </li>
+      <li>
+        Suppose that the dog moves to the other end of the boat, while the man stays still. 
+        How far does the boat move and in which direction? (left or right). 
+      </li>
+      <li>
+        After reaching the other end of the boat, the dog jumps off with a horizontal 
+        velocity of 2.0 m/s, directed to the right, as measured relative to the water. 
+        What is the speed with which the boat and the man drift in the opposite direction? 
+      </li>
+    </ol>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A system consists of three balls. Ball 1 has a mass of 2 kg and is 
+    located at (-2cm,0); ball 2 has an unknown mass and is located at (4cm,3cm); 
+    ball 3 has a mass of 1 kg and is located at (x,y). The center of mass of the 
+    system is located (0,2cm). Calculate the mass ball 2 and find the location of ball 3.
+  </p>
+ </exercise>
+</paragraphs>
  </exercises>
 
