@@ -321,7 +321,10 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec_fourth-banking.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Banking of a Curve</span></a></div></li>
 <li><div class="toc-item"><a href="sec_fourth-examplesD.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Examples D</span></a></div></li>
 <li class="active"><div class="toc-item"><a href="sec_fourth-cm.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Center of Mass</span></a></div></li>
-<li><div class="toc-item"><a href="sec_fourth-torque.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Rotational Dynamics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_fourth-torque.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Torque</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-rot_eql.html" class="internal"><span class="codenumber">4.11.1</span> <span class="title">Rotational Equilibrium</span></a></div></li></ul>
+</li>
 <li><div class="toc-item"><a href="sec_fourth-examplesE.html" class="internal"><span class="codenumber">4.12</span> <span class="title">Examples E</span></a></div></li>
 <li><div class="toc-item"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.13</span> <span class="title">Exercise</span></a></div></li>
 </ul>
@@ -365,7 +368,54 @@ window.MathJax = {
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_fourth-cm"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">4.10</span> <span class="title">Center of Mass</span>
-</h2></section></div>
+</h2>
+<section class="introduction" id="introduction-21"><div class="para" id="p-403">The center of mass of a system of particles is a point in space at which the net mass of the system seems to be located. It is the mean position of the mass of a system or a body. <dfn class="terminology">Center of gravity</dfn> is an imaginary point in a body where the entire weight of the body may be assumed to be concentrated or it is a point at which the gravity appears to act. In a uniform gravitational field the center of gravity is identical to the center of mass, but they do not coincide in a non-uniform gravitational field. Imagine that you are lying horizontally in space above the planet where you are experiencing a greater gravitational field strength towards your head than towards your feet, then your center of gravity is located somewhere near your shoulder rather than your belly button (i.e. navel or your center of mass). The <dfn class="terminology">center of gravity</dfn> (or center of mass) may coincide with a geometric center of the body if it has a uniform mass distribution and possess symmetrical shape. An asymmetrical object composed of a variety of materials with different masses, however, has a center of gravity located at some distance from its geometric center. In some cases, such as hollow bodies or irregularly shaped objects, the center of gravity (or center of mass) may occur in space at a point external to the physical material. For example, the center of mass of binary stars lies between the stars and in the center of a tennis ball.</div> <figure class="figure figure-like" id="cmloct"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/cmloct.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.10.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para logical" id="p-404">
+<div class="para">The center of (mass) gravity (point <span class="process-math">\(G\)</span>) of any body can be determined by suspending the body by a cord attached at point <span class="process-math">\(A\)</span> and then by a cord attached at <span class="process-math">\(C\text{.}\)</span> When the body is suspended from <span class="process-math">\(A\text{,}\)</span> the line <span class="process-math">\(AD\)</span> is vertical; when it is suspended from <span class="process-math">\(C\text{,}\)</span> the line <span class="process-math">\(CE\)</span> is vertical. The center of gravity is at the intersection of <span class="process-math">\(AD\)</span> and <span class="process-math">\(CE\)</span> [<a href="" class="xref" data-knowl="./knowl/cmloct.html" title="Figure 4.10.1">Figure 4.10.1</a>]. When an object is suspended from any single point, its center of gravity lies directly beneath that point. For a group of discrete masses the location of center of mass can be defined as:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/cmloct.html">
+\begin{equation*}
+r_{cm} =   \frac{\sum\limits_{i=1}^{n}{m_{i}r_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}}
+\end{equation*}
+</div>
+<div class="para">Vector position of center of mass.</div>
+</div> <div class="para logical" id="p-405">
+<div class="para">or,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+r_{cm} =   \frac{\int\limits_{0}^{M}{r\,dm}}{\int\limits_{0}^{M}{\,dm}} =\frac{1}{\int\limits_{0}^{M} \,dm} \int\limits_{0}^{M}{r\,dm} = \frac{1}{M} \int\limits_{0}^{M}{r\,dm} 
+\end{equation*}
+</div>
+<div class="para">or equivalently</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_{cm} =   \frac{\sum\limits_{i=1}^{n}{m_{i}x_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}} = \frac{1}{M}\sum\limits_{i=1}^{n}{m_{i}x_{i}}\quad \text{(x-component of center of mass)}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y_{cm} =   \frac{\sum\limits_{i=1}^{n}{m_{i}y_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}} =  \frac{1}{M}\sum\limits_{i=1}^{n}{m_{i}y_{i}}\quad \text{(y-component of center of mass)}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+z_{cm} =   \frac{\sum\limits_{i=1}^{n}{m_{i}z_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}} =  \frac{1}{M}\sum\limits_{i=1}^{n}{m_{i}z_{i}}\quad \text{(z-component of center of mass)}
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-406">
+<div class="para">
+<dfn class="terminology">Problem Solving Technique:</dfn> To determine the center of mass of a uniformly distributed body, one performs the following steps:</div>
+<ol class="decimal">
+<li id="li-359"><div class="para" id="p-derived-li-359">Break the body down into its constituent parts.</div></li>
+<li id="li-360"><div class="para" id="p-derived-li-360">Specify the length, area, or volume of each constituent part.</div></li>
+<li id="li-361"><div class="para" id="p-derived-li-361">Locate the coordinates of the center of mass of each constituent part.</div></li>
+<li id="li-362"><div class="para" id="p-derived-li-362">Utilize the equations shown above using length, area, or volume in place of the mass.<div class="displaymath process-math">
+\begin{equation*}
+e.g.,\quad x_{cm} =   \frac{\sum\limits_{i=1}^{n}{A_{i}x_{i}}}{\sum\limits_{i=1}^{n}{A_{i}}}
+\end{equation*}
+</div>for a unifrom sheet</div></li>
+<li id="li-363"><div class="para" id="p-derived-li-363">If an object has a uniform mass distribution (uniform density), then its geometric center is taken as center of mass.</div></li>
+</ol>
+</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_fourth-examplesD.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_fourth-torque.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
