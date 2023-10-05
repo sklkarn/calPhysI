@@ -1888,7 +1888,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.12",
   "title": "Examples E",
-  "body": " Examples E   Center of MassM    Find the location of the center of mass of the point masses tabulated below:   Mass (kg)  x-coordinate (m)  y-coordinate (m)    1  2  3    4  -5  6    7  8  -9               Find the center of mass of the point masses illustrated below:      1. Find the coordinates of each mass and specify those coordinate pairs beside each respective mass.  2. Use the center of mass equations to calculate the coordinates of the center of mass.  the center of mass lies at point      Find the center of mass of the uniform sheet illustrated at right:      1. Break the body down into its two constituent parts.  2. Specify the area of each constituent part.   and   3. Locate the coordinates of the center of mass of each constituent part. The center of mass of big surface of surface area is at (4,5) and that for small surface of surface area is at (11,2). (Note: For uniform object geometrical center is taken as its center of mass.)  4. Utilize the equations shown above.   Note: mass is proportional to area for a uniform surface:         Find the x-coordinate of a center of mass of a uniform disk of radius 2R from which the mass of a small disk of radius R is missing as shown in given figure.      We know that the center of mass of full disk of radius lies at its center (0,0). here stand for the x-coordinates of a center of mass of the full disk, small disk, and real disk, and stand for the mass of a small disk which is missing, and the mass of the real disk.  Note: mass is proportional to area for a uniform surface. is a density of the disk.      Find the x-coordinate of the center of mass of a rod of length L whose mass per unit length varies as .    Consider a rod of length of mass and has mass per unit length as          Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung,       A solid sphere is cut into half and stacked on top of each other as shown in figure:  Find its center of mass.    The center of mass of a hemisphere of radius is given by  here is the radius of a slice at height and thickness . Since we have-   Hence, the center of mass of the two stacked hemispheres is given by        Rotational Equilibrium    Write the torque equation about the specified axis for the forces indicated in the figure:             Write the torque equation about the specified axis for the forces indicated below:             A symmetrical beam of weight and length is suspended from the ceiling on one end by a hinge and on the other by a wire also of length so that both beam and wire make an angle of with the ceiling as shown in the figure below. Suspended from the junction of wire and beam is a weight . What is the tension in the cable and the horizontal and vertical components of the force on the beam at the hinge?        List given quantities .  Draw the forces acting on the beam and resolve them into components.    Choose an axis and specify the perpendicular distances from each line of action to that axis.  Write equations: and    Solve to get answers:           A uniform rod of length 1 meter and of weight 10 Newtons is resting against a vertical wall with its base 0.5 meters from the bottom of the wall. If a 20 Newton weight is suspended from the rod from a point 3\/4 of the way up the rod, what is the minimum coefficient of friction that will keep the rod from slipping on the floor? Assume there is no friction between the rod and the vertical wall.      Given:                    A uniform rod of length L = 1 meter and mass is suspended as shown in the figure below, making an angle of with the horizontal and supporting a second unknown mass . The support wire on the left is horizontal, the support wire on the top makes an angle of with the rod, and the other wire on the right is vertical. The top wire is attached at a point S = 0.75 m up the rod from the left.    What is the tension in the wire on the left?  What is the tension in the wire on top?  What is the tension in the wire on the right?  What is the mass ?            Given:       from eqn.      Hence, from eqn.  from eqn. , we have -        "
+  "body": " Examples E   Center of MassM    Find the location of the center of mass of the point masses tabulated below:   Mass (kg)  x-coordinate (m)  y-coordinate (m)    1  2  3    4  -5  6    7  8  -9               Find the center of mass of the point masses illustrated below:      1. Find the coordinates of each mass and specify those coordinate pairs beside each respective mass.  2. Use the center of mass equations to calculate the coordinates of the center of mass.  the center of mass lies at point      Find the center of mass of the uniform sheet illustrated at right:      1. Break the body down into its two constituent parts.  2. Specify the area of each constituent part.   and   3. Locate the coordinates of the center of mass of each constituent part. The center of mass of big surface of surface area is at (4,5) and that for small surface of surface area is at (11,2). (Note: For uniform object geometrical center is taken as its center of mass.)  4. Utilize the equations shown above.   Note: mass is proportional to area for a uniform surface:         Find the x-coordinate of a center of mass of a uniform disk of radius 2R from which the mass of a small disk of radius R is missing as shown in given figure.      We know that the center of mass of full disk of radius lies at its center (0,0). here stand for the x-coordinates of a center of mass of the full disk, small disk, and real disk, and stand for the mass of a small disk which is missing, and the mass of the real disk.  Note: mass is proportional to area for a uniform surface. is a density of the disk.      Find the x-coordinate of the center of mass of a rod of length L whose mass per unit length varies as .    Consider a rod of length of mass and has mass per unit length as          Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung,       A solid sphere is cut into half and stacked on top of each other as shown in figure:  Find its center of mass.    The center of mass of a hemisphere of radius is given by  here is the radius of a slice at height and thickness . Since we have-   Hence, the center of mass of the two stacked hemispheres is given by        Rotational Equilibrium    Write the torque equation about the specified axis for the forces indicated in the figure:             Write the torque equation about the specified axis for the forces indicated below:             A symmetrical beam of weight and length is suspended from the ceiling on one end by a hinge and on the other by a wire also of length so that both beam and wire make an angle of with the ceiling as shown in the figure below. Suspended from the junction of wire and beam is a weight . What is the tension in the cable and the horizontal and vertical components of the force on the beam at the hinge?        List given quantities .  Draw the forces acting on the beam and resolve them into components.    Choose an axis and specify the perpendicular distances from each line of action to that axis.  Write equations: and    Solve to get answers:           A uniform rod of length 1 meter and of weight 10 Newtons is resting against a vertical wall with its base 0.5 meters from the bottom of the wall. If a 20 Newton weight is suspended from the rod from a point 3\/4 of the way up the rod, what is the minimum coefficient of friction that will keep the rod from slipping on the floor? Assume there is no friction between the rod and the vertical wall.      Given:                    A uniform rod of length L = 1 meter and mass is suspended as shown in the figure below, making an angle of with the horizontal and supporting a second unknown mass . The support wire on the left is horizontal, the support wire on the top makes an angle of with the rod, and the other wire on the right is vertical. The top wire is attached at a point S = 0.75 m up the rod from the left.    What is the tension in the wire on the left?  What is the tension in the wire on top?  What is the tension in the wire on the right?  What is the mass ?            Given:       from eqn.      Hence, from eqn.  from eqn. , we have -         A block with a square base measuring and height is placed on an inclined plane of angle . The coefficient of friction is and the angle of the incline is gradually increased. Find the condition at which block tip over before it begins to slide.    The block will not slide if the coefficient of friction . In other words, sliding begins only when becomes the angle of repose . The block will toppled down once the line of action of weight pass throgh the edge of the block, i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below.        From first figure, we have -  Divide these equations and substitute , we get- If is gradually increasing to [second figure], then at the instant of toppling, normal force acts along the bottom edge of block which is the point of rotation. Hence the total torque must be zero (i.e., at rotational equilibrium).   Now, from eqns. and , if , it will tip over before slide, and if , it will slide before toppling.      A uniform 10m beam of mass 300kg extends over a ledge. The beam is not attached, but simply rests on the surface. A 60kg man intends to position the beam in such a way that he can walk to the end of it. What is the maximum distance the beam can extend past end of the ledge and still allow him to perform this feat?      The beam can be balanced if it is placed on the edge of ledge by its new center of mass, (i.e., the center of mass of beam and man system). Here is the center of mass of a beam only.    Let be the distance of beam overhung past the edge of ledge, then from free -body diagram, we have -  Since the beam is at static equilibrium. Now, This is a total torque about the new center of mass, (or the point of rotation).   Alternative: we can solve this problem using center of mass formula,       "
 },
 {
   "id": "example-63",
@@ -1999,13 +1999,31 @@ var ptx_lunr_docs = [
   "body": "  A uniform rod of length L = 1 meter and mass is suspended as shown in the figure below, making an angle of with the horizontal and supporting a second unknown mass . The support wire on the left is horizontal, the support wire on the top makes an angle of with the rod, and the other wire on the right is vertical. The top wire is attached at a point S = 0.75 m up the rod from the left.    What is the tension in the wire on the left?  What is the tension in the wire on top?  What is the tension in the wire on the right?  What is the mass ?            Given:       from eqn.      Hence, from eqn.  from eqn. , we have -      "
 },
 {
+  "id": "example-75",
+  "level": "2",
+  "url": "sec_fourth-examplesE.html#example-75",
+  "type": "Example",
+  "number": "4.12.13",
+  "title": "",
+  "body": "  A block with a square base measuring and height is placed on an inclined plane of angle . The coefficient of friction is and the angle of the incline is gradually increased. Find the condition at which block tip over before it begins to slide.    The block will not slide if the coefficient of friction . In other words, sliding begins only when becomes the angle of repose . The block will toppled down once the line of action of weight pass throgh the edge of the block, i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below.        From first figure, we have -  Divide these equations and substitute , we get- If is gradually increasing to [second figure], then at the instant of toppling, normal force acts along the bottom edge of block which is the point of rotation. Hence the total torque must be zero (i.e., at rotational equilibrium).   Now, from eqns. and , if , it will tip over before slide, and if , it will slide before toppling.   "
+},
+{
+  "id": "example-76",
+  "level": "2",
+  "url": "sec_fourth-examplesE.html#example-76",
+  "type": "Example",
+  "number": "4.12.14",
+  "title": "",
+  "body": "  A uniform 10m beam of mass 300kg extends over a ledge. The beam is not attached, but simply rests on the surface. A 60kg man intends to position the beam in such a way that he can walk to the end of it. What is the maximum distance the beam can extend past end of the ledge and still allow him to perform this feat?      The beam can be balanced if it is placed on the edge of ledge by its new center of mass, (i.e., the center of mass of beam and man system). Here is the center of mass of a beam only.    Let be the distance of beam overhung past the edge of ledge, then from free -body diagram, we have -  Since the beam is at static equilibrium. Now, This is a total torque about the new center of mass, (or the point of rotation).   Alternative: we can solve this problem using center of mass formula,     "
+},
+{
   "id": "ex_fourth",
   "level": "1",
   "url": "ex_fourth.html",
   "type": "Exercises",
   "number": "4.13",
   "title": "Exercise",
-  "body": "  Exercise   Static Equilibrium  Find the tension in each of the cords illustrated below.    A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire.  A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?    A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.    A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?    Draw force diagrams for each of the bodies shown below:                Translational Equilibrium  A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?    A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?    Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.    A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?      Dynamics  A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box.  Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?    A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.    A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?    A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.    A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?    Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground.  A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .       A projectile with air resistance: A projectile of mass 1 kg is shot into the air with an initial velocity of 100 m\/s at an angle of . If the air resistive force is proportional to the velocity and directed opposite the velocity with a proportionality constant of c = 0.0, 0.01, 0.1, 1.0 N.s\/m, in each case find  the maximum height it reaches,  the range of the projectile, and  the time of flight.    Use formula        Banking of a Curve    A level highway curve of radius 100 m is banked for cars traveling at a speed of 20 m\/s. What is the bank angle?  If a car rounds the above curve at 40 m\/s what is the minimum coefficient of friction that will keep it on the road?      An airplane traveling at 40 m\/s pulls out of a dive in a circle of radius 200 m. How many g's of force does the pilot experience at the bottom of the pull-out?  The above pilot makes a loop of radius 200 m having slowed down to 30 m\/s at the top.  How many g's of force does he experience at the top?    A mass of 500 g is whirled in a horizontal circle on the end of a string 1.5 m long at the rate of 200 rpm.  What is the speed of the rock?  What is the angle that the string makes with the horizontal?  What is the tension in the string?    A child of mass 50 kg is standing at the edge of a playground merry-go-round of diameter 3 m. Other children push the merry-go-round faster and faster until the first child's feet begin to slip.  If the friction between shoes and rotating surface is 0.2, how long does it take the merry-go-round to make one revolution?  How fast is the first child traveling when he begins to slip?  What is the angle between the first child\\rq s body and a vertical line before he begins to slip?    A car traveling at 80 mph rounds a curve of radius 50 m which is banked for a speed of 50 mph. What is the minimum coefficient of friction that would keep the car on the road?  At what angle from vertical a cyclist has to lean in order to make a turn on 10 m radius curve path, if his speed is 5 m\/s?  A small sphere of mass m is dropped from a great height. After it has fallen 100 m, it has attained its terminal velocity and continues to fall at that speed. Calculate the work done by air friction against the sphere during the first 100 m of fall.  An automobile traveling at 60 mph rounds a curve banked at . The radius of the curve is 200 ft.  What is the minimum coefficient of friction that will keep the car on the road?  What would the bank angle need to be in order for the car to stay on the road without any friction?       and      Center of Mass  Find the center-of-mass coordinates of the masses shown below:    Find the coordinates of the center of mass of the system of particles shown at right:    In the figure at right,    find the center of mass of each segment,  recognize that the mass of each segment is proportional to the length of each segment and write down the length of each segment,  write the coordinates of the center of each segment,  calculate the coordinates of the center of mass of the L shaped figure, and  locate the center of mass on the figure.    Calculate the center of mass of uniform sheet of metal shaped as shown in figure below.    On the figure below place a dot at the center of mass of the object shown, assuming its mass is distributed uniformly.    Find the location of the center of mass of the object illustrated below if    the object consists of two circles connected by a rectangle all of uniform mass distribution,  the object consists of two spheres each of density connected by a cylindrical rod of density .    A man of weight 200 lb is sitting at one end of a canoe of weight 60 lb which is 10 ft long and at rest in the water. If the man walks to the other end of the canoe how far does the canoe move through the water? (Assume the water has no friction.)    To weigh a fish, a person hangs a fish at a point of the length of a rigid rod which is suspended by a rope attached to its center. If there is 3.5 kg mass is hanging at one end near to fish and a 5 kg mass is hanging at another end to balance the system. What is the weight of the fish.  A 60 kg man and his 40 kg dog are sitting together at the left end of a 8.0 m long boat. The boat is 100 kg, and its center of mass lies at the geometric center. The boat starts out at rest in the middle of a calm lake. Ignore all friction and water resistance throughout this problem.  Where is the center of mass of the boat + man + dog system? Consider the origin of coordinates lies at left end of the boat.  Suppose that the dog moves to the other end of the boat, while the man stays still. How far does the boat move and in which direction? (left or right).  After reaching the other end of the boat, the dog jumps off with a horizontal velocity of 2.0 m\/s, directed to the right, as measured relative to the water. What is the speed with which the boat and the man drift in the opposite direction?    A system consists of three balls. Ball 1 has a mass of 2 kg and is located at (-2cm,0); ball 2 has an unknown mass and is located at (4cm,3cm); ball 3 has a mass of 1 kg and is located at (x,y). The center of mass of the system is located (0,2cm). Calculate the mass ball 2 and find the location of ball 3.   "
+  "body": "  Exercise   Static Equilibrium  Find the tension in each of the cords illustrated below.    A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire.  A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?    A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.    A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?    Draw force diagrams for each of the bodies shown below:                Translational Equilibrium  A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?    A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?    Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.    A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?      Dynamics  A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box.  Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?    A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.    A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?    A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.    A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?    Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground.  A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .       A projectile with air resistance: A projectile of mass 1 kg is shot into the air with an initial velocity of 100 m\/s at an angle of . If the air resistive force is proportional to the velocity and directed opposite the velocity with a proportionality constant of c = 0.0, 0.01, 0.1, 1.0 N.s\/m, in each case find  the maximum height it reaches,  the range of the projectile, and  the time of flight.    Use formula        Banking of a Curve    A level highway curve of radius 100 m is banked for cars traveling at a speed of 20 m\/s. What is the bank angle?  If a car rounds the above curve at 40 m\/s what is the minimum coefficient of friction that will keep it on the road?      An airplane traveling at 40 m\/s pulls out of a dive in a circle of radius 200 m. How many g's of force does the pilot experience at the bottom of the pull-out?  The above pilot makes a loop of radius 200 m having slowed down to 30 m\/s at the top.  How many g's of force does he experience at the top?    A mass of 500 g is whirled in a horizontal circle on the end of a string 1.5 m long at the rate of 200 rpm.  What is the speed of the rock?  What is the angle that the string makes with the horizontal?  What is the tension in the string?    A child of mass 50 kg is standing at the edge of a playground merry-go-round of diameter 3 m. Other children push the merry-go-round faster and faster until the first child's feet begin to slip.  If the friction between shoes and rotating surface is 0.2, how long does it take the merry-go-round to make one revolution?  How fast is the first child traveling when he begins to slip?  What is the angle between the first child\\rq s body and a vertical line before he begins to slip?    A car traveling at 80 mph rounds a curve of radius 50 m which is banked for a speed of 50 mph. What is the minimum coefficient of friction that would keep the car on the road?  At what angle from vertical a cyclist has to lean in order to make a turn on 10 m radius curve path, if his speed is 5 m\/s?  A small sphere of mass m is dropped from a great height. After it has fallen 100 m, it has attained its terminal velocity and continues to fall at that speed. Calculate the work done by air friction against the sphere during the first 100 m of fall.  An automobile traveling at 60 mph rounds a curve banked at . The radius of the curve is 200 ft.  What is the minimum coefficient of friction that will keep the car on the road?  What would the bank angle need to be in order for the car to stay on the road without any friction?       and      Center of Mass  Find the center-of-mass coordinates of the masses shown below:    Find the coordinates of the center of mass of the system of particles shown at right:    In the figure at right,    find the center of mass of each segment,  recognize that the mass of each segment is proportional to the length of each segment and write down the length of each segment,  write the coordinates of the center of each segment,  calculate the coordinates of the center of mass of the L shaped figure, and  locate the center of mass on the figure.    Calculate the center of mass of uniform sheet of metal shaped as shown in figure below.    On the figure below place a dot at the center of mass of the object shown, assuming its mass is distributed uniformly.    Find the location of the center of mass of the object illustrated below if    the object consists of two circles connected by a rectangle all of uniform mass distribution,  the object consists of two spheres each of density connected by a cylindrical rod of density .    A man of weight 200 lb is sitting at one end of a canoe of weight 60 lb which is 10 ft long and at rest in the water. If the man walks to the other end of the canoe how far does the canoe move through the water? (Assume the water has no friction.)    To weigh a fish, a person hangs a fish at a point of the length of a rigid rod which is suspended by a rope attached to its center. If there is 3.5 kg mass is hanging at one end near to fish and a 5 kg mass is hanging at another end to balance the system. What is the weight of the fish.  A 60 kg man and his 40 kg dog are sitting together at the left end of a 8.0 m long boat. The boat is 100 kg, and its center of mass lies at the geometric center. The boat starts out at rest in the middle of a calm lake. Ignore all friction and water resistance throughout this problem.  Where is the center of mass of the boat + man + dog system? Consider the origin of coordinates lies at left end of the boat.  Suppose that the dog moves to the other end of the boat, while the man stays still. How far does the boat move and in which direction? (left or right).  After reaching the other end of the boat, the dog jumps off with a horizontal velocity of 2.0 m\/s, directed to the right, as measured relative to the water. What is the speed with which the boat and the man drift in the opposite direction?    A system consists of three balls. Ball 1 has a mass of 2 kg and is located at (-2cm,0); ball 2 has an unknown mass and is located at (4cm,3cm); ball 3 has a mass of 1 kg and is located at (x,y). The center of mass of the system is located (0,2cm). Calculate the mass ball 2 and find the location of ball 3.    Rotational Equilibrium  Given the vectors and , find a vector of unit length perpendicular to both and .  Write down the results of all possible cross products between and .  Prove that for any two vectors and .  Prove that for any vector .  Prove that the determinant form of the cross product renders the same result as the component form.    Draw the forces acting on the ladder shown below if there is no friction on the vertical surface.      What is the torque equation for an axis located at the bottom of the ladder?      What is the torque equation for an axis located at the top of the ladder?      What is the torque equation for an axis located at the point in space labeled P?      A uniform sheet of metal in the shape of a hemisphere of radius 1 m is used as a sign. The hemisphere has a mass of 200 kg and is suspended by two vertical wires attached to points along its horizontal diameter. One wire is attached to the left end of the diameter and the other is attached to a point three-quarters of the way to the other end.  Write the torque equation for the left end of the diameter.  Write the torque equation for the right end of the diameter.  What is the tension in each wire?    A ladder 10 m long and weighing 200 N is placed against a frictionless wall with its base 6 m from the bottom of the wall. If the coefficient of static friction between the floor and the bottom of the ladder is 0.2, how far up the ladder can a man weighing 800 N climb before the base of the ladder starts to slip?  A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and B as shown in the figure below. The tension T in a support cable making an angle of is adjusted until the horizontal force at hinge A is zero. Find     the tension T,    the horizontal component of the force exerted on the gate by hinge B, and    the sum of the vertical components of the forces exerted on the gate by hinges A and B.    A uniform block of weight 10 N, height 20 cm, and base 10 cm is placed base down on a horizontal plane 1 m long resting on a table. The coefficient of static friction is 0.3 and that of kinetic friction is 0.2. One end of the plane is slowly raised until the block either tips over or begins sliding.  Which of the two possibilities happens first?  What is the angle between the plane and the table when this happens?    A wheel of diameter 0.6 m and weight 100 N is pushed over a curb of height 10 cm by a horizontal force F. What is the magnitude of this force if it is applied   at the top of the wheel as shown in figure below?      at the axle as shown in figure below?      If the bowling ball weighs 25 N is lying between two inclined planes which make an angle and with the horizontal. what is the value of the normal exerted on each point of tangency? Each surface is frictionless.    A rope is supporting a 200 kg uniform beam which is 10 m long. One end of the beam is hinged at a wall and the other end of supports a 1000 kg load. The rope is attached to the end of the beam and makes an angle of with the horizontal beam. What is the tension in the rope?  A 3 m long stepladder is hinged at point C and spreads on the frictionless floor. The ladder is massless and has a 1m tie rod, BD fixed at halfway up. A man weighing 800N is standing at 2.75 m along the ladder. Find     the tension in the tie-rod and    the magnitudes of the forces on the floor at points A and E.      "
 },
 {
   "id": "exercise-62",
@@ -2341,6 +2359,132 @@ var ptx_lunr_docs = [
   "body": "A system consists of three balls. Ball 1 has a mass of 2 kg and is located at (-2cm,0); ball 2 has an unknown mass and is located at (4cm,3cm); ball 3 has a mass of 1 kg and is located at (x,y). The center of mass of the system is located (0,2cm). Calculate the mass ball 2 and find the location of ball 3. "
 },
 {
+  "id": "exercise-99",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-99",
+  "type": "Exercise",
+  "number": "4.13.38",
+  "title": "",
+  "body": "Given the vectors and , find a vector of unit length perpendicular to both and . "
+},
+{
+  "id": "exercise-100",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-100",
+  "type": "Exercise",
+  "number": "4.13.39",
+  "title": "",
+  "body": "Write down the results of all possible cross products between and . "
+},
+{
+  "id": "exercise-101",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-101",
+  "type": "Exercise",
+  "number": "4.13.40",
+  "title": "",
+  "body": "Prove that for any two vectors and . "
+},
+{
+  "id": "exercise-102",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-102",
+  "type": "Exercise",
+  "number": "4.13.41",
+  "title": "",
+  "body": "Prove that for any vector . "
+},
+{
+  "id": "exercise-103",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-103",
+  "type": "Exercise",
+  "number": "4.13.42",
+  "title": "",
+  "body": "Prove that the determinant form of the cross product renders the same result as the component form. "
+},
+{
+  "id": "exercise-104",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-104",
+  "type": "Exercise",
+  "number": "4.13.43",
+  "title": "",
+  "body": "  Draw the forces acting on the ladder shown below if there is no friction on the vertical surface.      What is the torque equation for an axis located at the bottom of the ladder?      What is the torque equation for an axis located at the top of the ladder?      What is the torque equation for an axis located at the point in space labeled P?     "
+},
+{
+  "id": "exercise-105",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-105",
+  "type": "Exercise",
+  "number": "4.13.44",
+  "title": "",
+  "body": "A uniform sheet of metal in the shape of a hemisphere of radius 1 m is used as a sign. The hemisphere has a mass of 200 kg and is suspended by two vertical wires attached to points along its horizontal diameter. One wire is attached to the left end of the diameter and the other is attached to a point three-quarters of the way to the other end.  Write the torque equation for the left end of the diameter.  Write the torque equation for the right end of the diameter.  What is the tension in each wire?   "
+},
+{
+  "id": "exercise-106",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-106",
+  "type": "Exercise",
+  "number": "4.13.45",
+  "title": "",
+  "body": "A ladder 10 m long and weighing 200 N is placed against a frictionless wall with its base 6 m from the bottom of the wall. If the coefficient of static friction between the floor and the bottom of the ladder is 0.2, how far up the ladder can a man weighing 800 N climb before the base of the ladder starts to slip? "
+},
+{
+  "id": "exercise-107",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-107",
+  "type": "Exercise",
+  "number": "4.13.46",
+  "title": "",
+  "body": "A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and B as shown in the figure below. The tension T in a support cable making an angle of is adjusted until the horizontal force at hinge A is zero. Find     the tension T,    the horizontal component of the force exerted on the gate by hinge B, and    the sum of the vertical components of the forces exerted on the gate by hinges A and B.   "
+},
+{
+  "id": "exercise-108",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-108",
+  "type": "Exercise",
+  "number": "4.13.47",
+  "title": "",
+  "body": "A uniform block of weight 10 N, height 20 cm, and base 10 cm is placed base down on a horizontal plane 1 m long resting on a table. The coefficient of static friction is 0.3 and that of kinetic friction is 0.2. One end of the plane is slowly raised until the block either tips over or begins sliding.  Which of the two possibilities happens first?  What is the angle between the plane and the table when this happens?   "
+},
+{
+  "id": "exercise-109",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-109",
+  "type": "Exercise",
+  "number": "4.13.48",
+  "title": "",
+  "body": "A wheel of diameter 0.6 m and weight 100 N is pushed over a curb of height 10 cm by a horizontal force F. What is the magnitude of this force if it is applied   at the top of the wheel as shown in figure below?      at the axle as shown in figure below?     "
+},
+{
+  "id": "exercise-110",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-110",
+  "type": "Exercise",
+  "number": "4.13.49",
+  "title": "",
+  "body": "If the bowling ball weighs 25 N is lying between two inclined planes which make an angle and with the horizontal. what is the value of the normal exerted on each point of tangency? Each surface is frictionless.   "
+},
+{
+  "id": "exercise-111",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-111",
+  "type": "Exercise",
+  "number": "4.13.50",
+  "title": "",
+  "body": "A rope is supporting a 200 kg uniform beam which is 10 m long. One end of the beam is hinged at a wall and the other end of supports a 1000 kg load. The rope is attached to the end of the beam and makes an angle of with the horizontal beam. What is the tension in the rope? "
+},
+{
+  "id": "exercise-112",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-112",
+  "type": "Exercise",
+  "number": "4.13.51",
+  "title": "",
+  "body": "A 3 m long stepladder is hinged at point C and spreads on the frictionless floor. The ladder is massless and has a 1m tie rod, BD fixed at halfway up. A man weighing 800N is standing at 2.75 m along the ladder. Find     the tension in the tie-rod and    the magnitudes of the forces on the floor at points A and E.    "
+},
+{
   "id": "sec_fifth-intro",
   "level": "1",
   "url": "sec_fifth-intro.html",
@@ -2350,29 +2494,65 @@ var ptx_lunr_docs = [
   "body": " Work, Energy, and Power      "
 },
 {
-  "id": "sec_fifth-examples",
+  "id": "sec_fifth-examplesA",
   "level": "1",
-  "url": "sec_fifth-examples.html",
+  "url": "sec_fifth-examplesA.html",
   "type": "Section",
   "number": "5.2",
-  "title": "Examples",
-  "body": " Examples  "
+  "title": "Examples A",
+  "body": " Examples A    A man pushes a cart on a railway platform which has a rough surface. He applies a force of 100 N over a distance of 10 m. Thereafter, he gets tired and his force reduces gradually to 50 N. The total distance through which the cart has been moved is 20 m. Plot the force applied by the man and the frictional force of 50N versus displacement. Calculate the work done by the man and the frictional force.    Work done by a man = Area under the F-x curve.  Therefore = Area of a rectangle I +Area of a trapezium II. Work done by a frictional force, = Area of a rectangle III.       Given the vectors and Find  the magnitude of each vector and  the angle between them.               or, or,         "
+},
+{
+  "id": "example-77",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-77",
+  "type": "Example",
+  "number": "5.2.1",
+  "title": "",
+  "body": "  A man pushes a cart on a railway platform which has a rough surface. He applies a force of 100 N over a distance of 10 m. Thereafter, he gets tired and his force reduces gradually to 50 N. The total distance through which the cart has been moved is 20 m. Plot the force applied by the man and the frictional force of 50N versus displacement. Calculate the work done by the man and the frictional force.    Work done by a man = Area under the F-x curve.  Therefore = Area of a rectangle I +Area of a trapezium II. Work done by a frictional force, = Area of a rectangle III.    "
+},
+{
+  "id": "example-78",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-78",
+  "type": "Example",
+  "number": "5.2.2",
+  "title": "",
+  "body": "  Given the vectors and Find  the magnitude of each vector and  the angle between them.               or, or,        "
+},
+{
+  "id": "sec_fifth-examplesB",
+  "level": "1",
+  "url": "sec_fifth-examplesB.html",
+  "type": "Section",
+  "number": "5.3",
+  "title": "Examples B",
+  "body": " Examples B  "
+},
+{
+  "id": "sec_fifth-examplesC",
+  "level": "1",
+  "url": "sec_fifth-examplesC.html",
+  "type": "Section",
+  "number": "5.4",
+  "title": "Examples C",
+  "body": " Examples C  "
 },
 {
   "id": "ex_fifth",
   "level": "1",
   "url": "ex_fifth.html",
   "type": "Exercises",
-  "number": "5.3",
+  "number": "5.5",
   "title": "Exercise",
   "body": "  Exercise   "
 },
 {
-  "id": "exercise-99",
+  "id": "exercise-113",
   "level": "2",
-  "url": "ex_fifth.html#exercise-99",
+  "url": "ex_fifth.html#exercise-113",
   "type": "Exercise",
-  "number": "5.3.1",
+  "number": "5.5.1",
   "title": "",
   "body": ""
 },
@@ -2404,9 +2584,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise   "
 },
 {
-  "id": "exercise-100",
+  "id": "exercise-114",
   "level": "2",
-  "url": "ex_sixth.html#exercise-100",
+  "url": "ex_sixth.html#exercise-114",
   "type": "Exercise",
   "number": "6.3.1",
   "title": "",
@@ -2440,9 +2620,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise   "
 },
 {
-  "id": "exercise-101",
+  "id": "exercise-115",
   "level": "2",
-  "url": "ex_seventh.html#exercise-101",
+  "url": "ex_seventh.html#exercise-115",
   "type": "Exercise",
   "number": "7.3.1",
   "title": "",
