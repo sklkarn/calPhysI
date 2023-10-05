@@ -7,15 +7,93 @@
     
   <introduction>
     <p>
-
+      If an object is displaced along the same direction as the force is applied  
+      then the work is said to be done. If a force <m>F</m> displaces a body to a 
+      distance <m>d</m> along the direction of force then work can be calculated by 
+      <m>W= Fd</m>. Work is a scalar quantity as it is a measure of transfer of energy 
+      from one object to another. The physical quantities which can be obtained by dot 
+      product of two vectors are scalar. 
+      <me>
+        \vec{A} \cdot \vec{B}	=  A B \cos\theta =  A_{x} B_{x} + A_{y} B_{y} +  A_{z} B_{z} \quad \textbf{Dot Product}
+      </me>
+      The unit of work is joule in SI system, <m>Joule (J) =  N.m</m>; 
+      in FPS system, ft-lb  =  foot.pound; and in CGS system, erg  =  dyne.cm.
     </p>
-      
+    <figure >
+      <caption></caption>
+      <sidebyside widths="40% 30%">
+          <figure xml:id="ec1">
+              <caption></caption>
+              <image source="ec1.png"/>
+          </figure>
+          <figure xml:id="ec4">
+              <caption></caption>
+              <image source="ec4.png"/>
+          </figure>
+         </sidebyside>
+  </figure>
+      <p>
+        Suppose a block of mass <m>m</m> is displaced to a distance <m>d</m> along the 
+        horizontal direction by the application of force <m>\vec{F}</m> [<xref ref="ec1"/>]. If the force 
+        <m>\vec{F}</m> is acting along a direction <m>\theta</m> to the horizontal, 
+        then work done by the force is given by 
+        <men xml:id="eqn-work1">
+          W=\vec{F}\cdot\vec{d}=Fd\cos\theta = (F\cos\theta)d = F_{x}d
+        </men>
+        The work done by a force is defined as the product of component 
+        of the force  in the direction of displacement and the magnitude of displacement.  
+        Work in physics is different than our daily life work. Suppose you are pushing a 
+        rigid brick wall very hard, after some time you get exhausted because you lose 
+        your body energy. In our daily life we called this action as a work, but in physics 
+        this is not a work because the object did not displace from its position. Hence 
+        in physics, whether the force or the displacement is zero, there is no work. 
+        Depending upon the angle between the applied force and the displacement, 
+        work could be negative, positive, or zero. For example, work done by a frictional 
+        force, or work done by a force acting opposite to the motion of object, 
+        <me>
+          W_{f}=\vec{f}\cdot\vec{d} = -fd,
+        </me>
+       work done by a force acting parallel to the motion of object, 
+       <me>
+        W_{F}=\vec{F}\cdot\vec{d} = Fd\cos0^{o}=Fd,
+       </me>
+       and work done by a force acting perpendicular to the motion of object, 
+       <me>
+        W_{F}=\vec{F}\cdot\vec{d} = Fd\cos90^{o}=0.
+       </me>
+        </p>
+    
+<p>
+  If a force 
+  <me>
+    \vec{F}=F_{x} \hat{i}+ F_{y} \hat{j}+F_{z} \hat{k} 
+  </me>
+  displaces an object to a small distance <m>\,d\vec{r},</m> where 
+  <me>
+    \vec{r}=x\hat{i}+y\hat{j}+z\hat{k}
+  </me>
+    then work done by this force is given by <fn>If <me>
+      \vec{r}=x\hat{i}+y\hat{j}+z\hat{k},
+    </me>
+   then <me>
+    \,dr = \,dx\hat{i}+\,dy\hat{j}+\,dz\hat{k}
+   </me>
+   </fn> 
+    <me>
+      W=\int \vec{F}\cdot\,d\vec{r} = \int F\cos\theta\,dr = \int F_{x}\,dx+\int F_{y}\,dy+\int F_{z}\,dz 
+    </me>
+    The terms like <m>F_{x}\,dx</m> are area under the curve [<xref ref="ec4"/>]. The sum of these area between 
+    initial position to final position along each direction is equal to work done by a 
+    variable force F(r), such as force of spring.
+</p>
       </introduction>
 
  
   <xi:include href="./sec_fifth-intro.ptx" />
 
-  <xi:include href="./sec_fifth-examples.ptx" />  
+  <xi:include href="./sec_fifth-examplesA.ptx" /> 
+  <xi:include href="./sec_fifth-examplesB.ptx" /> 
+  <xi:include href="./sec_fifth-examplesC.ptx" />  
 
   <xi:include href="./ex_fifth.ptx"/> 
 

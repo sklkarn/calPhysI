@@ -171,7 +171,7 @@
       <p>
         Block(s) can be balanced at the edge of anything if its center of mass lies 
         before edge or at least at the edge of that thing. 
-        <image source="cm9.png" width ="35%"> </image>
+        <image source="cm9.png" width ="45%"> </image>
       </p>
       <p>
         Maximum overhung = center of mass of blocks system. 
@@ -461,6 +461,104 @@
       </me>
       <me>
         m_{2}=\frac{w_{2}}{g}=0
+      </me>
+      </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A block with a square base measuring <m>a \times a</m> and height <m>h</m> 
+      is placed on an inclined plane of angle <m>\theta</m>. The coefficient of friction 
+      is <m>\mu </m> and the angle of the incline is gradually increased. Find the condition 
+      at which block tip over before it begins to slide.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      The block will not slide if the coefficient of friction <m>\mu_{s} \lt \tan\theta</m>. 
+      In other words, sliding begins only when <m>\theta</m> becomes the angle of repose <m>\phi</m>. 
+      The block will toppled down once the line of action of weight pass throgh the edge of the block, 
+      i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below. 
+      <sidebyside widths="45% 45%">
+        <image source ="toppling1.png"> </image>
+        <image source="toppling2.png"> </image>
+      </sidebyside>
+    </p>
+    <p>
+      From first figure, we have - 
+      <me>
+        f_{s}=mg\sin\theta 
+      </me>
+      <me>
+        \text{and}\quad N=mg\cos\theta
+      </me>
+      Divide these equations and substitute <m>f_{s}=\mu_{s}N</m>, we get- 
+      <men xml:id="eqn-topple1">
+        \tan\theta = \mu_{s} 
+      </men>
+        If <m>\theta </m> is gradually increasing to <m>\theta=\phi </m> [second figure], then at the instant 
+        of toppling, normal force acts along the bottom edge of block which is the point of 
+        rotation. Hence the total torque must be zero (i.e., <m> \Gamma=0</m> at rotational equilibrium). 
+        <me>
+          \therefore \quad mg\sin\theta \left(\frac{h}{2}\right) -mg\cos\theta \left(\frac{a}{2}\right) =0
+        </me>
+        <me>
+          \text{or,}\quad mg\sin\theta \left(\frac{h}{2}\right) =mg\cos\theta \left(\frac{a}{2}\right)
+        </me>
+         <men xml:id="eqn-topple2">
+        \tan\theta = \frac{a}{h} 
+      </men>
+      Now, from eqns. <xref ref="eqn-topple1"/> and <xref ref="eqn-topple2"/>, 
+        if <m>\mu_{s}  \gt \frac{a}{h}</m>, it will tip over before slide, and  
+        if <m>\mu_{s}  \lt \frac{a}{h}</m>, it will slide before toppling.
+    </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A uniform 10m beam of mass 300kg extends over a ledge. The beam is not attached, 
+      but simply rests on the surface. A 60kg man intends to position the beam in such 
+      a way that he can walk to the end of it. What is the maximum distance the beam 
+      can extend past end of the ledge and still allow him to perform this feat?
+      <image source ="re7.png" width="40%"> </image>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      The beam can be balanced if it is placed on the edge of ledge by its new center 
+      of mass, <m>P</m> (i.e., the center of mass of beam and man system). Here <m>o</m> is 
+      the center of mass of a beam only.  <image source ="re7a.png" width="40%"> </image>
+    </p>
+    <p>
+      Let <m>x</m> be the distance of beam overhung past the edge of ledge, 
+      then from free -body diagram, we have -
+      <me>
+        \sum F_{y} = N-Mg-mg =0
+      </me>
+      <me>
+        \therefore \quad N = (M+m)g 
+      </me>
+      Since the beam is at static equilibrium. Now,
+      <me>
+        \sum \Gamma = Mg\left(\frac{l}{2}-x\right) -mgx =0
+      </me>
+       This is a total torque about the new center of mass, <m>P</m> (or the point of rotation). 
+       <me>
+        \text{or,}\quad \frac{Ml}{2}-Mx =mx
+       </me>
+       <me>
+        \therefore \quad x= \frac{Ml}{2(M+m)} = \frac{300\times 10}{2\times(300+60)} =4.17m 
+       </me>
+      <term> Alternative:</term> we can solve this problem using center of mass formula, 
+      <me>
+        x_{cm} = \frac{m_{1}x_{1}+m_{2}x_{2}}{m_{1}+m_{2}} = \frac{300\times 5 + 60\times 10}{300+60} = 5.83m
+      </me>
+      <me>
+        \therefore \quad x= l-x_{cm} =10-5.83 = 4.17m
       </me>
       </p>
   </solution>
