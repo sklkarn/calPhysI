@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>States of Equilibrium</title>
+  
+   <introduction>
+   <p>
+    There are three states of equilibrium: 
+   </p>  
+      <ol>
+        <li>
+          <figure >
+            <caption></caption>
+            <sidebyside widths="30% 30% 30%">
+                <figure xml:id="funnel1">
+                    <caption></caption>
+                    <image source="funnel1.png"/>
+                </figure>
+                <figure xml:id="funnel1a">
+                    <caption></caption>
+                    <image source="funnel1a.png"/>
+                </figure>
+                <figure xml:id="funnel1b">
+                  <caption></caption>
+                  <image source="funnel1b.png"/>
+              </figure>
+               </sidebyside>
+        </figure>
+         <p>
+          <term>Stable equilibrium:</term> The body is said to be in stable equilibrium 
+          if its center of gravity lies below lowest possible position. A funnel standing 
+          vertically on its base on the table is in stable equilibrium [<xref ref="funnel1"/>]. 
+          If the funnel is tilted a little bit against any side and then allowed to fall, 
+          it will come back to its original position. When the funnel is tilted against 
+          any side its center of gravity is raised [<xref ref="funnel1a"/>]. The line of action 
+          of weight passes through the base of the funnel. As long as the line of action 
+          of weight remains inside the base area funnel will come back to the original position. 
+          A torque due to weight of the funnel brings it back to the original position. 
+          For the funnel to tip over the line of action of the weight arrow will have to 
+          form a clockwise moment (or to pass outside the point of support). 
+          The funnel needs to have been pushed a lot for tip over. Some examples of 
+          stable equilibrium are bodies lying on the floor such as chair, table, book, etc. 
+          If a system in stable equilibrium is disturbed slightly, it oscillates around 
+          that state first but eventually settles down in exactly the same position as it 
+          started [<xref ref="funnel1b"/>]. It does this because its center of gravity is already 
+          at the lowest possible position. 
+         </p>
+        </li>
+        <li>
+          <figure >
+            <caption></caption>
+            <sidebyside widths="30% 30% 30%">
+                <figure xml:id="funnel2">
+                    <caption></caption>
+                    <image source="funnel2.png"/>
+                </figure>
+                <figure xml:id="funnel2a">
+                    <caption></caption>
+                    <image source="funnel2a.png"/>
+                </figure>
+                <figure xml:id="funnel2b">
+                  <caption></caption>
+                  <image source="funnel2b.png"/>
+              </figure>
+               </sidebyside>
+        </figure>
+          <p>
+            <term>Unstable equilibrium:</term> The body is said to be in unstable equilibrium 
+            if the center of gravity of a body lies above the highest possible position. 
+            A funnel standing vertically on its stem on the table [<xref ref="funnel2"/>] is in 
+            unstable equilibrium. If the funnel standing vertically is slightly disturbed 
+            from its position it will not come back to its original position rather fall 
+            down on the surface of table. when the funnel is slightly disturbed its 
+            center of gravity is lowered [<xref ref="funnel2a"/>]. The line of action of its 
+            weight lies outside the base of stem. The torque due to weight of the rod 
+            toppled it down. Other examples of unstable equilibrium are vertically standing 
+            cylinder and pencil etc. An unstable system moves away from its original equilibrium 
+            state when disturbed. It wants to move away from the original position as 
+            soon as it has been disturbed [<xref ref="funnel2b"/>]. It does this because its center 
+            of gravity is higher in this state and when disturbed the center of gravity 
+            continues to move to a lower position (a more stable one).  
+          </p>
+        </li>
+        <li>
+          <figure >
+            <caption></caption>
+            <sidebyside widths="30% 30% 30%">
+                <figure xml:id="funnel3">
+                    <caption></caption>
+                    <image source="funnel3.png"/>
+                </figure>
+                <figure xml:id="funnel3a">
+                    <caption></caption>
+                    <image source="funnel3a.png"/>
+                </figure>
+                <figure xml:id="funnel3b">
+                  <caption></caption>
+                  <image source="funnel3b.png"/>
+              </figure>
+               </sidebyside>
+        </figure>
+          <p>
+            <term>Neutral equilibrium:</term>  The body is said to be in neutral equilibrium 
+            if the center of gravity of a body is at optimal position it is neither lowered 
+            nor is raised up. The object with lower center of gravity is more stable than 
+            the one with the higher center of gravity. A funnel lying horizontally on its 
+            side at rest on the surface of a table [<xref ref="funnel3"/>] is in natural equilibrium. 
+            If a funnel is pushed slightly to roll, it will neither come back to its original position
+            nor it will roll forward rather it will remain at rest. If the funnel is rolled, 
+            its center of gravity is neither raised nor lowered [<xref ref="funnel3a"/>]. 
+            This means that its center of gravity  is at the same height as before. 
+            A neutral system is one where the center of gravity of the system is always at 
+            the same level. If it has been disturbed slightly it will therefore settle in 
+            the new position without a need to move further on or to move back [<xref ref="funnel3b"/>]. 
+            For example, a rolling ball lying on the table.  
+          </p>
+        </li>
+      </ol>
+   </introduction>
+
+
+  </section>
+

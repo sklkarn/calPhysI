@@ -13,9 +13,9 @@
       </introduction>
 
  
- <!--  <xi:include href="./sec_eigth-intro.ptx" />
+   <xi:include href="./sec_eigth-intro.ptx" />
 
-  <xi:include href="./sec_eigth-examples.ptx" />  
+  <!-- <xi:include href="./sec_eigth-examples.ptx" />  
 
   <xi:include href="./ex_eigth.ptx"/> -->
 

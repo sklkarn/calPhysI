@@ -14,6 +14,7 @@
 
  
   <xi:include href="./sec_seventh-intro.ptx" />
+  <xi:include href="./sec_seventh-oscil.ptx" />
 
   <xi:include href="./sec_seventh-examples.ptx" />  
 

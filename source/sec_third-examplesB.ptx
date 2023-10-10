@@ -390,6 +390,39 @@
 <example>
   <statement>
     <p>
+   A ball kicked at an angle of <m>60^o</m> hits the window of the building 15 m away. 
+   If the window is at height of 2 m above the ground find the time taken by the ball to hits it.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: x=15m, <m>\theta=60^o</m>, h=2m.
+      <me>
+        x=v_o\cos\theta. t
+      </me>
+      <me>
+        \therefore \quad t= \frac{15}{v_o\cos\theta} 
+      </me>
+      <me>
+        y=v_o\sin\theta.t -\frac{1}{2}gt^2
+      </me>
+      <me>
+        2=v_o\sin\theta. \left(\frac{15}{v_o\cos\theta})\right -\frac{1}{2}gt^2
+      </me>
+      <me>
+        2=15.\tan\theta -\frac{1}{2}.9.8.t^2
+      </me>
+      <me>
+        \therefore\quad t= 2.21 s
+      </me>
+      </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
       A hunter fires the dart on a monkey with 15 m/s velocity at tree 20 m away from him. 
       The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired. 
       <ol marker="a.">

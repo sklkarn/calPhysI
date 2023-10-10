@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_sixth-kepler" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Kepler's Law</title>
+  
+   <introduction>
+    <figure>
+      <caption></caption>
+        <sidebyside widths="30% 45%">
+    <figure xml:id="kepler1">
+      <caption></caption>
+      <image source="kepler1.png"/>
+    </figure>
+      <figure xml:id="kepler2">
+        <caption></caption>
+        <image source="kepler2.png"/>
+      </figure>
+      </sidebyside>
+  </figure>
+    <p>
+      Johannes Kepler established three laws for planetary motion from his 
+      years of observation in <m>16^{th}</m> century [Figure <xref ref="kepler1"/>]. They are 
+      <ol>
+        <li>
+          The planets move along elliptical paths, and the sun is located at one of the focii.
+        </li>
+        <li>
+          The planet sweeps out equal areas in equal interval of time 
+          <me>
+            \frac{\,dA_{1}}{\,dt} = \frac{\,dA_{2}}{\,dt}
+          </me>
+           </li>
+           <li>
+            The square of the orbital period of a planet is directly proportional to the cube of the semimajor axis of its orbit 
+            <me>
+              T^{2} \propto a^{3}.
+            </me>
+             </li>
+      </ol>
+    </p>
+   </introduction>
+
+   <subsection xml:id="subsec-periap">
+    <title>Periapsis and Apoapsis:</title>
+    <p>
+      The asymmetric position of a massive object within the elliptical orbit renders 
+      the orbiting object moves in a varying distance from the massive object. 
+      The distance of closest approach <m>d_{1}</m> is called the periapsis and the distance 
+      of maximum separation, <m>d_{2} </m> is called the apoapsis. For the earth around 
+      the sun perihelion is the distance of closest approach and "aphelion" is distance 
+      of the maximum separation (helio means sun in Greek) [Figure <xref ref="kepler2"/>]. For earth-moon system, 
+      "perigee" is the distance of closest approach and "apogee" is distance of the 
+      maximum separation (gee means earth in Greek). 
+    </p>
+
+    <paragraphs>
+      <title>Derivation of Kepler's III law using Newton's law of gravitation:</title>
+      <p>
+        A planet moving around a circular path needs a centripetal force which is provided 
+        by the force of attraction between the planet and the sun. 
+        <me>
+          F=\frac{GMm}{r^{2}}=\frac{mv^{2}}{r}
+        </me>
+        where <m>M,\quad m,</m> and <m>r</m> are the mass of the sun, 
+        mass of the planet, and radius of a circular path, respectively.
+      <men xml:id="eqn-kepler1">
+        \therefore\quad v=\sqrt{\frac{GM}{r}} 
+      </men>
+     But, the velocity of the planet in the orbit is given by 
+     <men xml:id="eqn-kepler2">
+      v=\frac{2\pi r}{T} 
+     </men>
+   where <m>T</m> is the time period of revolution of the planet around the sun. 
+   <me>
+    \therefore\quad \frac{4\pi^{2} r^{2}}{T^{2}} = \frac{GM}{r}
+   </me>
+   <me>
+    \text{or,}\quad T^{2} = r^{3}\left(\frac{4\pi^{2}}{GM}\right)
+   </me>
+   <me>
+    \text{or,}\quad  T^{2}\propto r^{3}
+   </me>
+    </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Derivation of Kepler's II law</title>
+      <p>
+        If planet is considered at very close to the semimajor axis, so that point 
+        <m>P</m> is very close to point <m>O</m>, then from <m>\triangle PSO</m> [figure <xref ref="kepler2"/>], we have -  
+        <me>
+          \Delta A =\frac{1}{2}base\times height = \frac{1}{2}(r)(r \Delta \theta)
+        </me>
+        where height = <m>r\Delta \theta </m>  and base = <m>r</m> for the triangle. 
+        <me>
+          \therefore \frac{\Delta A}{\Delta t} = \frac{1}{2}r^{2}\frac{\Delta \theta}{\Delta t} =\frac{1}{2}r^{2}\omega 
+        </me>
+        For small time <m>\Delta t</m> consider angle subtends by the earth is <m>\Delta \theta.</m>
+        Now, angular momentum of the planet, 
+        <me>
+          L=I\omega = mr^{2}\omega 
+        </me>
+        <me>
+          \therefore\quad \frac{\Delta A}{\Delta t} =\frac{1}{2}\frac{L}{m}
+        </me>
+        <me>
+          \frac{\,dA}{\,dt}=constant 
+        </me>
+       since angular momentum  of a planet in an orbit and its mass remains constant.
+      </p>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Derivation of Kepler's I law</title>
+      <p>
+        <me>
+          F=ma=-\frac{GMm}{r^{2}}
+        </me>
+        <men xml:id="eqn-kepler3">
+          \text{or,}\quad \ddot{r}-r\dot{\theta}^{2}=-\frac{GM}{r^{2}}  
+        </men>
+       <me>
+        x=r\cos\theta, \qquad y=r\sin\theta
+       </me>
+       <me>
+        \dot{x}=\dot{r}\cos\theta -r\sin\theta\dot{\theta},
+       </me>
+       <me>
+        \dot{y}=\dot{r}\sin\theta +r\cos\theta\dot{\theta}
+       </me>
+       <me>
+        v^{2}=\dot{x}^{2}+\dot{y}^{2} = \dot{r}^{2}+r^{2}\dot{\theta}^{2}
+       </me>
+       <me>
+        \ddot{x}=\ddot{r}\cos\theta -\dot{r}\dot{\theta}\sin\theta -\dot{r}\dot{\theta}\sin\theta -r\dot{\theta}^{2}\cos\theta-r\ddot{\theta}\sin\theta, 
+       </me>
+       <me>
+        \ddot{y}=\ddot{r}\sin\theta +\dot{r}\dot{\theta}\cos\theta +\dot{r}\dot{\theta}\cos\theta -r\dot{\theta}^{2}\sin\theta+r\ddot{\theta}\cos\theta
+       </me>
+    Now, 
+    <md>
+      <mrow> a\amp =\ddot{x}\cos\theta+\ddot{y}\sin\theta </mrow>
+      <mrow> \amp =(\ddot{r}\cos^{2}\theta -2\dot{r}\dot{\theta}\sin\theta\cos\theta -r\dot{\theta}^{2}\cos^{2}\theta-r\ddot{\theta}\sin\theta\cos\theta) </mrow>
+      <mrow> \amp  +(\ddot{r}\sin^{2}\theta +2\dot{r}\dot{\theta}\sin\theta\cos\theta -r\dot{\theta}^{2}\sin^{2}\theta+r\ddot{\theta}\sin\theta\cos\theta) </mrow>
+     <mrow> \amp  =\ddot{r}-r\dot{\theta}^{2} </mrow>
+    </md>
+      </p>
+      <p>
+        Let 
+        <me>
+          \frac{1}{r}=u 
+        </me>
+     so that
+        <me>
+          \dot{r}=-r^{2}\dot{u} =-r^{2}\frac{\,du}{\,d\theta}\dot{\theta}
+        </me>
+        Also, 
+        <me>
+          L=mr^{2}\dot{\theta}\quad \Rightarrow\quad \dot{\theta}= \frac{L}{mr^{2}}=hu^{2}
+        </me>
+      Now, 
+      <me>
+        \dot{r}=-r^{2}\frac{\,du}{\,d\theta} hu^{2}=-h\frac{\,du}{\,d\theta}
+      </me>
+      Therefore from eqn <xref ref="eqn-kepler3"/>,
+      <me>
+        \frac{\,d}{\,dt}\left(\dot{r}\right) -r(hu^{2})^{2}=-GMu^{2}
+      </me>
+      <me>
+        \text{or,}\quad \frac{\,d}{\,dt}\left(-h\frac{\,du}{\,d\theta}\right) -h^{2}u^{3}=-ku^{2} 
+      </me>
+      <me>
+        \text{or,}\quad -h\left[\frac{\,d\theta}{\,dt}\frac{\,d}{\,d\theta}\left(\frac{\,du}{\,d\theta}\right)\right] -h^{2}u^{3}=-ku^{2} 
+      </me>
+      <me>
+        \text{or,}\quad -h\left[hu^{2}\frac{\,d^{2}u}{\,d\theta^{2}}\right] -h^{2}u^{3}=-ku^{2} 
+      </me>
+      <men xml:id="eqn-kepler4">
+        \therefore\quad  \frac{\,d^{2}u}{\,d\theta^{2}} +u=\frac{k}{h^{2}} 
+      </men>
+    This is second order linear differential equation with constant coefficient. 
+    The solution of which can be given as 
+    <me>
+      u=A\cos(\theta+\delta)+\frac{k}{h^{2}} 
+    </me>
+    It is a solution for a simple harmonic motion equation. Set the coordinate in such a 
+    way that <m>\delta=0,</m> and hence 
+    <me>
+      u=\frac{1}{r} = A\cos\theta+\frac{k}{h^{2}}
+    </me>
+   <me>
+    \text{or,}\quad r=\frac{1}{A\cos\theta+\frac{k}{h^{2}}} =\frac{1}{A\cos\theta+\frac{GMm^{2}}{L^{2}}}
+   </me> 
+   <men xml:id="eqn-kepler5">
+    \therefore\quad r=\frac{1}{\frac{GMm^{2}}{L^{2}}\left(e\cos\theta+1\right)}
+   </men>
+   where <m> e= \frac{AL^{2}}{GMm^{2}}</m>
+  Eqn. <xref ref="eqn-kepler5"/> is the general form of an ellipse in polar coordinates, 
+  with the origin placed at a focus. In solid state geometry, the parameter <m>e</m> is 
+  often called the eccentricity. When the eccentricity of a planet's orbit is zero, 
+  the orbit is perfectly circular. The curve is an ellipse, a parabola, or a hyperbola, 
+  according as its <m>e \lt 1, </m> <m>e = 1, </m> or <m>e \gt 1. </m>
+  <me>
+    \therefore \quad a=\frac{1}{2}\left(r_{min}+r_{max}\right)
+  </me>
+  <me>
+    =\frac{L^{2}}{GMm^{2}}\left(\frac{1}{e+1}+\frac{1}{1-e}\right)= \frac{L^{2}}{GMm^{2}}\left(1-e^{2}\right)^{-1} 
+  </me>
+  where <m>a</m> is a semi-major axis of the ellipse, at apoapsis, <m>\cos\theta=-1 </m> and at periapsis <m>\cos\theta=1.</m>
+
+     </p>
+    </paragraphs>
+   </subsection>
+
+  </section>
+

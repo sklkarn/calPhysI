@@ -13,9 +13,10 @@
       </introduction>
 
  
- <!--  <xi:include href="./sec_ninth-intro.ptx" />
+   <xi:include href="./sec_ninth-intro.ptx" />
+   <xi:include href="./sec_ninth-examplesC.ptx" />  
 
-  <xi:include href="./sec_ninth-examples.ptx" />  
+ <!-- <xi:include href="./sec_ninth-examples.ptx" />  
 
   <xi:include href="./ex_ninth.ptx"/> -->
 
