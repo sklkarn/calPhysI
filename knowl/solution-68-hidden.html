@@ -10,28 +10,23 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="robots" content="noindex, nofollow">
 </head>
-<body class="ignore-math"><div class="solution solution-like">
-<div class="para">Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing. <div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/cm9.png" class="contained"></div>
-</div> <div class="para">Maximum overhung = center of mass of blocks system.</div> <div class="para">Maximum overhung for blue (I) brick = its center of mass from the free end =<span class="process-math">\(\frac{l}{2} \text{.}\)</span>
-</div> <div class="para logical">
-<div class="para">Center of mass for red (II) and blue (I) bricks</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/sec_fourth-torque.html">
+<body class="ignore-math"><div class="solution solution-like"><div class="para logical">
+<div class="para">Consider a rod of length <span class="process-math">\(L\)</span> of mass <span class="process-math">\(M\)</span> and has mass per unit length as <span class="process-math">\(\lambda =\frac{\,dm}{\,dl}= \alpha x \)</span>
+</div>
+<div class="displaymath process-math">
 \begin{equation*}
-= \left\{\frac{m\frac{l}{2}+m\left(\frac{l}{2}+\frac{l}{2}\right)}{2m}\right\} =\frac{3l}{4}.
+\text{or,}\quad \,dm = \lambda \,dl = \lambda \,dx \quad (say)
 \end{equation*}
 </div>
-<div class="para">Center of mass for green (III), red (II) and blue (I) bricks</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/sec_fourth-torque.html">
+<div class="displaymath process-math">
 \begin{equation*}
-= \left\{\frac{2m\frac{3l}{4}+m\left(\frac{3l}{4}+\frac{l}{2}\right)}{3m}\right\} =\frac{11l}{12}.
+\therefore\quad x_{cm}= \frac{1}{M}\int x\,dm =\frac{1}{M}\int\limits_{0}^{L} x\lambda\,dx =\frac{1}{M}\int\limits_{0}^{L} x(\alpha x)\,dx 
 \end{equation*}
 </div>
-<div class="para">Which is the maximum overhung for three bricks system. Using torque equation <a href="sec_fourth-torque.html" class="internal" title="Section 4.11: Torque">Section 4.11</a>, we can get same condition, if we set <span class="process-math">\(x_{n}(nM) = x_{1}M\text{.}\)</span> Where <span class="process-math">\(x_{1}\)</span> is C.M. of first object, and <span class="process-math">\(n\)</span> stands for number of objects. Maximum overhung,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/sec_fourth-torque.html">
+<div class="displaymath process-math">
 \begin{equation*}
-x= x_{1}+x_{2}+x_{3}+\cdots.
+= \frac{\alpha}{M}\int\limits_{0}^{L} x^{2}\,dx  = \frac{\alpha}{M}\left(\frac{x^{3}}{3}\right)_{0}^{L}=\frac{\alpha L^{3}}{3M}
 \end{equation*}
 </div>
-</div>
-</div></body>
+</div></div></body>
 </html>

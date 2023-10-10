@@ -1195,7 +1195,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Examples B",
-  "body": " Examples B    A particle is moving according to the equation where , , and . Find   ,  ,  ,  ,  ,  , and  .          ,               and           A particle is moving in a circle of radius with a constant speed of . It's equation of motion is , where . Find:   ,  ,  ,  ,  ,  ,   and                               The earth is spinning about its axis with a period of 23 hours 56 min and 4 sec. The equatorial radius of the earth is m.  Find the velocity of a person at Barbourville, KY (latitude = ) as they undergo circular motion about the earth's axis of rotation.  Find the person's centripetal acceleration.      Given: Time period, T= 23 h 56 min and 4 sec= ,  Radius of the circle at the position of a person,               A baseball is hit at a angle with an initial speed of 30 m\/s toward a wall 5 m high located 50 m away. Find each of the following:    How fast is the ball initially traveling horizontally?  How fast is the ball initially traveling vertically?  When does the ball get to the wall?  How high is the ball at that time?  How fast is the ball traveling at that time?  Does the ball clear the fence? By how much?                Yes, by 10.7 m - 5 m = 5.7 m.        A football is punted at an angle and travels down field a distance of 40 yards from the kicker toward a receiver located 60 yards away.  What was the initial speed of the football?  How long was it in the air?  How high did it go?  How fast must the receiver run to catch the ball?                      A man stands on the roof of a 150 m tall building and throws a rock with a velocity of 30m\/s at an angle of above the horizontal. Ignore air resistance. Calculate:    The maximum height above the roof reached by the rock.  The magnitude and direction of the velocity of the rock just before it strikes the ground.  The horizontal distance from the base of the building to the point where the rock strikes the ground.      Given: and                   In a test of a volunteer is rotated in horizontal circle of radius 7.0 m. what is the period of rotation at which the centripetal acceleration has a magnitude of 10.0 g?            A 20kg rock is thrown horizontally from the top of a cliff of height 20m from the ground. What must be the minimum speed of the rock so that it falls in a 10 m deep well which is located at 50 m away from the cliff?    Given: Height of cliff, distance of well from the cliff, depth of the well, . Now     Hence,        A hunter fires the dart on a monkey with 15 m\/s velocity at tree 20 m away from him. The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired.  How long does it take for the dart to get him? and  Find the vertical position of where the monkey meets his end.      Given: Position of monkey on the tree, distance of tree from the hunter, nozle velocity of dart, .                    The golf is bouncing from the floor with components of velocity and   Determine the horizontal distance from the point where the ball left the floor to the point where it hits the floor again.  The ball leaves the floor at x = 0, y = 0. Determine the ball's y coordinate as a function of x.      Given:     When it hits the ground,   At any point of the flight, we have           A centrifuge machine can run with a high acceleration has a radius of 8 m. It starts from rest at t = 0, and during its two-minute acceleration phase it is programmed so that its angular acceleration is given as a function of time in seconds by . At what is the magnitude of the acceleration?    The angular velocity,  The normal and tangential components of acceleration are  Since the tangential component is zero, then the total acceleration is the same as the normal acceleration .      A boat moves in flat spiral curve at 2.00 m\/s and follows the path m, where is in radians. When rad, determine the boat's velocity in terms of polar coordinates.      The velocity along the path, . The path function is The radial component of velocity is The circumferential component of velocity is  At           A football is kicked from 40 m away from the goalpost at 25 m\/s. The goalpost crossbar is 3.5 m above the ground. Determine the minimum and maximum kicking angles which will take the goal.    Given:  and m.                 A point P on wheel of radius 0.5 m which was touching the road initially had made a 3\/4 revolution on the road. Find its displacement.     Note: is the distance of center to center displacement on x axis but point P is still r distance ahead of new point of contact.        "
+  "body": " Examples B    A particle is moving according to the equation where , , and . Find   ,  ,  ,  ,  ,  , and  .          ,               and           A particle is moving in a circle of radius with a constant speed of . It's equation of motion is , where . Find:   ,  ,  ,  ,  ,  ,   and                               The earth is spinning about its axis with a period of 23 hours 56 min and 4 sec. The equatorial radius of the earth is m.  Find the velocity of a person at Barbourville, KY (latitude = ) as they undergo circular motion about the earth's axis of rotation.  Find the person's centripetal acceleration.      Given: Time period, T= 23 h 56 min and 4 sec= ,  Radius of the circle at the position of a person,               A baseball is hit at a angle with an initial speed of 30 m\/s toward a wall 5 m high located 50 m away. Find each of the following:    How fast is the ball initially traveling horizontally?  How fast is the ball initially traveling vertically?  When does the ball get to the wall?  How high is the ball at that time?  How fast is the ball traveling at that time?  Does the ball clear the fence? By how much?                Yes, by 10.7 m - 5 m = 5.7 m.        A football is punted at an angle and travels down field a distance of 40 yards from the kicker toward a receiver located 60 yards away.  What was the initial speed of the football?  How long was it in the air?  How high did it go?  How fast must the receiver run to catch the ball?                      A man stands on the roof of a 150 m tall building and throws a rock with a velocity of 30m\/s at an angle of above the horizontal. Ignore air resistance. Calculate:    The maximum height above the roof reached by the rock.  The magnitude and direction of the velocity of the rock just before it strikes the ground.  The horizontal distance from the base of the building to the point where the rock strikes the ground.      Given: and                   In a test of a volunteer is rotated in horizontal circle of radius 7.0 m. what is the period of rotation at which the centripetal acceleration has a magnitude of 10.0 g?            A 20kg rock is thrown horizontally from the top of a cliff of height 20m from the ground. What must be the minimum speed of the rock so that it falls in a 10 m deep well which is located at 50 m away from the cliff?    Given: Height of cliff, distance of well from the cliff, depth of the well, . Now     Hence,        A ball kicked at an angle of hits the window of the building 15 m away. If the window is at height of 2 m above the ground find the time taken by the ball to hits it.    Given: x=15m, , h=2m.            A hunter fires the dart on a monkey with 15 m\/s velocity at tree 20 m away from him. The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired.  How long does it take for the dart to get him? and  Find the vertical position of where the monkey meets his end.      Given: Position of monkey on the tree, distance of tree from the hunter, nozle velocity of dart, .                    The golf is bouncing from the floor with components of velocity and   Determine the horizontal distance from the point where the ball left the floor to the point where it hits the floor again.  The ball leaves the floor at x = 0, y = 0. Determine the ball's y coordinate as a function of x.      Given:     When it hits the ground,   At any point of the flight, we have           A centrifuge machine can run with a high acceleration has a radius of 8 m. It starts from rest at t = 0, and during its two-minute acceleration phase it is programmed so that its angular acceleration is given as a function of time in seconds by . At what is the magnitude of the acceleration?    The angular velocity,  The normal and tangential components of acceleration are  Since the tangential component is zero, then the total acceleration is the same as the normal acceleration .      A boat moves in flat spiral curve at 2.00 m\/s and follows the path m, where is in radians. When rad, determine the boat's velocity in terms of polar coordinates.      The velocity along the path, . The path function is The radial component of velocity is The circumferential component of velocity is  At           A football is kicked from 40 m away from the goalpost at 25 m\/s. The goalpost crossbar is 3.5 m above the ground. Determine the minimum and maximum kicking angles which will take the goal.    Given:  and m.                 A point P on wheel of radius 0.5 m which was touching the road initially had made a 3\/4 revolution on the road. Find its displacement.     Note: is the distance of center to center displacement on x axis but point P is still r distance ahead of new point of contact.        "
 },
 {
   "id": "example-35",
@@ -1276,7 +1276,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.5.9",
   "title": "",
-  "body": "  A hunter fires the dart on a monkey with 15 m\/s velocity at tree 20 m away from him. The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired.  How long does it take for the dart to get him? and  Find the vertical position of where the monkey meets his end.      Given: Position of monkey on the tree, distance of tree from the hunter, nozle velocity of dart, .                 "
+  "body": "  A ball kicked at an angle of hits the window of the building 15 m away. If the window is at height of 2 m above the ground find the time taken by the ball to hits it.    Given: x=15m, , h=2m.         "
 },
 {
   "id": "example-44",
@@ -1285,7 +1285,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.5.10",
   "title": "",
-  "body": "  The golf is bouncing from the floor with components of velocity and   Determine the horizontal distance from the point where the ball left the floor to the point where it hits the floor again.  The ball leaves the floor at x = 0, y = 0. Determine the ball's y coordinate as a function of x.      Given:     When it hits the ground,   At any point of the flight, we have        "
+  "body": "  A hunter fires the dart on a monkey with 15 m\/s velocity at tree 20 m away from him. The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired.  How long does it take for the dart to get him? and  Find the vertical position of where the monkey meets his end.      Given: Position of monkey on the tree, distance of tree from the hunter, nozle velocity of dart, .                 "
 },
 {
   "id": "example-45",
@@ -1294,7 +1294,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.5.11",
   "title": "",
-  "body": "  A centrifuge machine can run with a high acceleration has a radius of 8 m. It starts from rest at t = 0, and during its two-minute acceleration phase it is programmed so that its angular acceleration is given as a function of time in seconds by . At what is the magnitude of the acceleration?    The angular velocity,  The normal and tangential components of acceleration are  Since the tangential component is zero, then the total acceleration is the same as the normal acceleration .   "
+  "body": "  The golf is bouncing from the floor with components of velocity and   Determine the horizontal distance from the point where the ball left the floor to the point where it hits the floor again.  The ball leaves the floor at x = 0, y = 0. Determine the ball's y coordinate as a function of x.      Given:     When it hits the ground,   At any point of the flight, we have        "
 },
 {
   "id": "example-46",
@@ -1303,7 +1303,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.5.12",
   "title": "",
-  "body": "  A boat moves in flat spiral curve at 2.00 m\/s and follows the path m, where is in radians. When rad, determine the boat's velocity in terms of polar coordinates.      The velocity along the path, . The path function is The radial component of velocity is The circumferential component of velocity is  At        "
+  "body": "  A centrifuge machine can run with a high acceleration has a radius of 8 m. It starts from rest at t = 0, and during its two-minute acceleration phase it is programmed so that its angular acceleration is given as a function of time in seconds by . At what is the magnitude of the acceleration?    The angular velocity,  The normal and tangential components of acceleration are  Since the tangential component is zero, then the total acceleration is the same as the normal acceleration .   "
 },
 {
   "id": "example-47",
@@ -1312,7 +1312,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.5.13",
   "title": "",
-  "body": "  A football is kicked from 40 m away from the goalpost at 25 m\/s. The goalpost crossbar is 3.5 m above the ground. Determine the minimum and maximum kicking angles which will take the goal.    Given:  and m.              "
+  "body": "  A boat moves in flat spiral curve at 2.00 m\/s and follows the path m, where is in radians. When rad, determine the boat's velocity in terms of polar coordinates.      The velocity along the path, . The path function is The radial component of velocity is The circumferential component of velocity is  At        "
 },
 {
   "id": "example-48",
@@ -1320,6 +1320,15 @@ var ptx_lunr_docs = [
   "url": "sec_third-examplesB.html#example-48",
   "type": "Example",
   "number": "3.5.14",
+  "title": "",
+  "body": "  A football is kicked from 40 m away from the goalpost at 25 m\/s. The goalpost crossbar is 3.5 m above the ground. Determine the minimum and maximum kicking angles which will take the goal.    Given:  and m.              "
+},
+{
+  "id": "example-49",
+  "level": "2",
+  "url": "sec_third-examplesB.html#example-49",
+  "type": "Example",
+  "number": "3.5.15",
   "title": "",
   "body": "  A point P on wheel of radius 0.5 m which was touching the road initially had made a 3\/4 revolution on the road. Find its displacement.     Note: is the distance of center to center displacement on x axis but point P is still r distance ahead of new point of contact.       "
 },
@@ -1450,18 +1459,18 @@ var ptx_lunr_docs = [
   "body": " Fundamental and Mechanical Forces    There are four fundamental forces in nature: gravitational, electromagnetic, weak nuclear, and strong nuclear. Gravitational force is the weakest known forces in nature. It is a long range force. It exists due to mass of the objects. Electromagnetic force is also a long range force and is stronger than gravitational force. It exists due to charges of the objects. Strong nuclear force is the strongest known force but it is the shortest range force which only exists inside the nucleus. Its main job is to hold subatomic particles of the nucleus together. (i.e. binding the positively charged protons and neutral neutrons inside the nucleus). Weak nuclear force is weaker than strong nuclear force and electromagnetic force. It is also a very short range force and accounts for the radioactivity in unstable nuclei.    For a large-scale, electrically neutral objects such as those encountered in this course, the only force that acts at a distance is the gravitational force. All other forces we encounter will be contact forces (mechanical forces) that occur at the boundary of an object where that object physically touches some other object, e.g. tension, friction, normal, and other applied forces [ ]. Actually, mechanical force, or chemical force, or any other kinds of force are all electromagnetic forces. In our daily life almost all force we experienced are electromagnetic force except the force of gravity. Strong nuclear forces are very short range and we do not feel them dispite the fact that it is more powerful than the electromagnetic force. Weak forces are also short range and even weaker than electromagnetic force. mechanical forces     To identify forces acting on a body, first identify the boundary of that object and include the weight of everything inside that boundary. Then identify everything that touches the boundary from outside the object and include an appropriate force for each point of contact.    Look at the forces in .                 Note that massless, frictionless pulleys as shown below adjust themselves so that the tension is the same on both sides of the pulley. is a system of pulleys, is an isolated system, and a free-body diagram.                     "
 },
 {
-  "id": "p-309",
+  "id": "p-311",
   "level": "2",
-  "url": "subsec-types_forces.html#p-309",
+  "url": "subsec-types_forces.html#p-311",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Gravitational force Electromagnetic force Strong nuclear force Weak nuclear force "
 },
 {
-  "id": "p-310",
+  "id": "p-312",
   "level": "2",
-  "url": "subsec-types_forces.html#p-310",
+  "url": "subsec-types_forces.html#p-312",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1495,9 +1504,9 @@ var ptx_lunr_docs = [
   "body": " Newton's Laws of Motion    Newton's first law provides the definition of force which states that every object in a state of rest remains at rest or in a state of uniform motion tends to remain in that motion along the same direction, unless an external force is applied onto it. Force is not required to continue the motion of anything which is already in motion.  The first law is also called a law of inertia. Inertia is an ability of an object to resist changes in its motion. In other words, we can say the laziness of an object to change its mechanical state is called an inertia. Mass is related to inertia, the bigger the mass the more difficult it is to change its state of rest or motion.    Newton's second law provides the measurement of force which states that the rate of change of momentum is directly proportional to the applied force and its direction is along that change.      Newton's third law provides the property of force which states that for every action there is an equal and opposite reaction. Meaning, force always comes in pair. If an object applies the action force on object then the object applies the reaction force on the object . These pair of forces always act on two different objects. For example, if action force is acting on object B then reaction force must be acting on the object A.   If you stand on a weighing scale, your weight push the scale down with a force equal to your weight, then the scale applies the reaction force on you equal to your weight as a normal force. Remember that even if weight and normal force are equal they are not always equal and they are completely different forces. You get a normal force only when you are in contact with the other surface but you have the weight even if you are above the surface (while jumping) of anything. Suppose you are pushing the book against a wall, so that it does not fall. In that case, the book pushes against the wall and the wall pushes back. This interaction is the normal force and acts on both the book and the wall. None of these forces were equal to the gravitational force or weight of the book.    "
 },
 {
-  "id": "p-315",
+  "id": "p-317",
   "level": "2",
-  "url": "subsec-Nlaw_motion.html#p-315",
+  "url": "subsec-Nlaw_motion.html#p-317",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1513,9 +1522,9 @@ var ptx_lunr_docs = [
   "body": " Friction  Friction is a resistive force that opposes or tends to oppose relative motion between two objects. It is a force that exists between the surfaces of contact of the two objects [ ]. If two systems are in contact and stationary relative to each other, then the friction between them is called static friction . This force arises from mechanical interlocking at the microscopic level plus the electrostatic molecular forces that hold the surfaces themselves together. If two systems are in contact and moving relative to one another, then the friction between them is called kinetic friction . This force arises from forming and breaking of microscopic adhesive bonds between atoms on the surfaces plus some mechanical linkage between the small irregularities on the surfaces as shown in . Experimentally it is found that frictional force is proportional to normal force, i.e., as shown in .                    Where proportionality constant is called coefficient of friction. It defines the nature of roughness of the surfaces being in contact. It is a dimensional less quantity. The coefficient of friction is a property of materials and does not change with the angle. For static friction, N. The symbol implies that static friction can have a maximum value of . Static friction is a responsive force that increases to be equal and opposite to whatever force is being exerted, up to its maximum limit. Once the applied force exceeds , the object moves. Thus, . For kinetic friction, . Remember the direction of friction is always opposite to the direction of motion or applied force, not in the direction of normal. Hence the above equations has no vector form.  Friction decreases with increase in smoothness of the surfaces of contact as decreases, but if the surfaces are ultra smooth then friction increases because of inter molecular forces starts to act between the two surfaces as they come very close to each other, due to which it becomes harder to make them slide on each other. Friction is a complex force, and its behavior is still not completely understood. On molecular level friction has no existence. In microscopic level most surfaces look very rough as shown in . Thus, when an object is pushed to move it must raise the object until it can skip the tips of the surface hitting, breaking off the points, or both. A considerable force can be resisted by friction with no apparent motion. Part of the friction is due to adhesive forces between he surface molecules of the two objects, which explains the dependence of friction on the nature of the substances. For example, rubber-soled shoes slip less than those with leather soles. Adhesion varies with substances in contact. Once an object is moving, there are fewer points of contact so less force is required to keep the object moving. At small but nonzero speeds, friction is nearly independent of speed.      When an object is placed on the surface of an inclined plane and the angle of inclination is being increased slowly then at a particular angle the object just begins to slide, this angle is known an angle of repose, . At the angle of repose static frictional force is balanced by one of the components of weight of the object (see in section statics).    Force of Gravity: This force is acting on any object due to attraction of earth. Near the surface of the earth force of gravity is given by its weight, i.e., . Where is the acceleration due to gravity and the direction force is acting along the center of the earth. Normal:  normal This is a force of reaction from the surface where the object is placed. It is always perpendicular to the surface of contact. Tension:  tension This force is acting between two objects on opposite ends of the string, in the directions to taut string at the points of contact. This force stretches the string along fixed support. It is a pulling force. Spring force: A spring is a special medium that has ability to restore its shape, if deformed. All materials have elastic property which helps them to restore their shape, if an applied deforming force has been released. From Hook's law a material (spring) exerts a restoring force that is proportional to a deforming force in opposite direction in which it is stretched or compressed. In mathematical form, The proportionality constant is a measure of the spring's stiffness, also called an elastic constant. The line of action of this force is parallel to the spring axis, and acts along the opposite direction of the displacement vector. The displacement must be measured from the relaxed (equilibrium) position; when the spring is relaxed.  "
 },
 {
-  "id": "p-319",
+  "id": "p-321",
   "level": "2",
-  "url": "subsec-friction.html#p-319",
+  "url": "subsec-friction.html#p-321",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1540,9 +1549,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-322",
+  "id": "p-324",
   "level": "2",
-  "url": "subsec-friction.html#p-322",
+  "url": "subsec-friction.html#p-324",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1558,18 +1567,18 @@ var ptx_lunr_docs = [
   "body": " Statics   When more than one force acts on a body in such a way that their net effects become zero is called an equilibrium. Equilibrium refers to a state of balance. An object is considered to be in a state of equilibrium when two opposing forces acting on the object balance each other. There may be two possible cases for a body in equilibrium,   Static Equilibrium: sum of all forces, i.e., and net torques i.e.,    Translational Equilibrium: sum of all forces, , i.e., .   Rotational Equilibrium: sum of all torques about a point on an object, . (i.e., )      Static Equilibrium  A system is in static equilibrium whenever no part of the system is moving. An example of static equilibrium is a spider web suspending one or more bugs. Any segment of the web (any bug, any strand, any junction, or any combination thereof) may be treated as a body.    The vector sum of the forces acting on an object in static equilibrium is equal to zero. which is described by Newton First law or, equivalently  In static equilibrium, the total force acting on a body, , and also the velocity of a body .     Problem Solving Technique: To solve a static equilibrium problem one needs to:   Read problem, list given quantities, draw a figure of the physical situation, and label the forces involved.    Draw force diagrams (free-body diagrams) for each body in equilibrium.    Resolve the forces into components.    Sum the x- and y-components of forces and set them to zero.    Solve equations simultaneously for the quantities of interest.        "
 },
 {
-  "id": "p-323",
+  "id": "p-325",
   "level": "2",
-  "url": "subsec-statics.html#p-323",
+  "url": "subsec-statics.html#p-325",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Static Equilibrium: Translational Equilibrium: Rotational Equilibrium: "
 },
 {
-  "id": "p-326",
+  "id": "p-328",
   "level": "2",
-  "url": "subsec-statics.html#p-326",
+  "url": "subsec-statics.html#p-328",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1585,36 +1594,36 @@ var ptx_lunr_docs = [
   "body": " Examples A    What is the tension in each of the strings of the system shown here:       Step 1. List the given quantities and label the diagram:     Step 2. Isolate each object and draw the force diagrams:           Step 3. Resolve forces into components as shown in figure:     Step 4. Write equations using the figure    from figure   from figure      Step 5. Solve equations simultaneously for unknowns:           Find the tension in each of the strings of the system below if the weight and the angle .      From figures below         from eqns. , , and , we have       A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N.  What is the frictional force exerted by the wall on the block?  What is the minimum horizontal force needed to prevent the block from sliding down the wall if the coefficient of static friction between the wall and the block is ?      Given:                  Draw force (free-body) diagrams for the bodies shown in the figure below:                  "
 },
 {
-  "id": "example-49",
+  "id": "example-50",
   "level": "2",
-  "url": "sec_fourth-examplesA.html#example-49",
+  "url": "sec_fourth-examplesA.html#example-50",
   "type": "Example",
   "number": "4.2.1",
   "title": "",
   "body": "  What is the tension in each of the strings of the system shown here:       Step 1. List the given quantities and label the diagram:     Step 2. Isolate each object and draw the force diagrams:           Step 3. Resolve forces into components as shown in figure:     Step 4. Write equations using the figure    from figure   from figure      Step 5. Solve equations simultaneously for unknowns:        "
 },
 {
-  "id": "example-50",
+  "id": "example-51",
   "level": "2",
-  "url": "sec_fourth-examplesA.html#example-50",
+  "url": "sec_fourth-examplesA.html#example-51",
   "type": "Example",
   "number": "4.2.2",
   "title": "",
   "body": "  Find the tension in each of the strings of the system below if the weight and the angle .      From figures below         from eqns. , , and , we have    "
 },
 {
-  "id": "example-51",
+  "id": "example-52",
   "level": "2",
-  "url": "sec_fourth-examplesA.html#example-51",
+  "url": "sec_fourth-examplesA.html#example-52",
   "type": "Example",
   "number": "4.2.3",
   "title": "",
   "body": "  A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N.  What is the frictional force exerted by the wall on the block?  What is the minimum horizontal force needed to prevent the block from sliding down the wall if the coefficient of static friction between the wall and the block is ?      Given:               "
 },
 {
-  "id": "example-52",
+  "id": "example-53",
   "level": "2",
-  "url": "sec_fourth-examplesA.html#example-52",
+  "url": "sec_fourth-examplesA.html#example-53",
   "type": "Example",
   "number": "4.2.4",
   "title": "",
@@ -1639,18 +1648,18 @@ var ptx_lunr_docs = [
   "body": " Examples B    A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is held at rest by a horizontal string attached to it. If the coefficient of kinetic friction for bottom surfaces and coefficient of static friction between top surfaces are 0.25.    what is the tension in the string, and  the force pulling the bottom block?      Given: and .  From figure,  in static equilibrium  From figure,  in translational equilibrium along x-axis, in static equilibrium along y-axis, and Solving all these equations, we have -                    A block of wood weighing 20 N is pulled to the right at constant speed up an inclined plane rising 10 cm per meter by a 10-N force making an angle of above the plane. What is the coefficient of kinetic friction?      Given: and .  From figure From figure,      on solving these equations, we get -        "
 },
 {
-  "id": "example-53",
+  "id": "example-54",
   "level": "2",
-  "url": "sec_fourth-examplesB.html#example-53",
+  "url": "sec_fourth-examplesB.html#example-54",
   "type": "Example",
   "number": "4.4.1",
   "title": "",
   "body": "  A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is held at rest by a horizontal string attached to it. If the coefficient of kinetic friction for bottom surfaces and coefficient of static friction between top surfaces are 0.25.    what is the tension in the string, and  the force pulling the bottom block?      Given: and .  From figure,  in static equilibrium  From figure,  in translational equilibrium along x-axis, in static equilibrium along y-axis, and Solving all these equations, we have -                 "
 },
 {
-  "id": "example-54",
+  "id": "example-55",
   "level": "2",
-  "url": "sec_fourth-examplesB.html#example-54",
+  "url": "sec_fourth-examplesB.html#example-55",
   "type": "Example",
   "number": "4.4.2",
   "title": "",
@@ -1702,45 +1711,45 @@ var ptx_lunr_docs = [
   "body": " Examples C    A 10-kg block lying on the horizontal surface is pulled by a force F making an angle of above the horizontal. The coefficient of static friction between the block and the horizontal surface is 0.3 and the coefficient of kinetic friction is 0.2. Draw the appropriate diagrams, write the appropriate equations, and find the magnitude and direction of the acceleration of the block when              Given:     Equations:         In verticle direction,  In horizontal direction, assume then, and Since static friction can keep the block at rest as assumed. Therefore,    Assume and Since static friction cannot keep the block at rest as assumed. Therefore block slides and,      Assume Assume block slides,     Assume Since N cannot be negative, our assumption was false and block leaves the surface.            A block of mass rests on top of a larger block of mass = 25 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is and that of kinetic friction is . A constant force parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow to stay with it?  What is the force which causes this acceleration?      Given:   From figure,  we have -   also, now from eqn. , From figure,  we have -             A box of mass 100 kg is placed in the front end of the bed of a truck initially at rest. The coefficient of static friction between box and truck bed is 0.4, the coefficient of kinetic friction between box and truck bed is 0.25, the bed of the truck is 2 m long and 1 m above the ground, and the truck accelerates at a constant acceleration just fast enough to make the box start sliding.    What is the acceleration of the truck?  What is the acceleration of the box?  When does the box fall off the back of the truck?  How far does the truck travel before the box falls off?  How fast is the box traveling when it falls off the truck?  How far from its starting point does the box hit the ground?      Given:                                                  Pulley A is fixed to the ceiling, pulley B is suspended by the string whose one end is attached to the ceiling and another end is passing over pulley B and holding the block 1 of mass as shown in figure below. The block 2 of mass is hanging from the pulley B. If the pulleys and strings are massless and the strings do not stretch. What is the correct relationship between accelerations and of blocks 1 and 2?      Since the pulleys are massless, tensions of each section of the string in either side of pulleys are same as shown in figure.  To find the relation between and add the lengths of each section of the string and take its derivative as shown below. Let is the height of pulley A from reference level (ground level), then length of string from pulley A to block 1 is given as length of section of string from pulley A to B is and length of section of string from pulley B to level of pulley A is .  Ignore the lengths of string over pulleys and to the rest to ceiling. It does not contribute any thing to the derivative of the length. Now where and are distances of block 1 and pulley B from the reference level, respectively. Since the string does not stretch, we have -  That is velocity of block 1 is just the double velocity of block 2 and negative sign indicates the velocity of block 2 is opposite to that of block 1. Again,  From free-body diagram, we have -             A 30 N force is applied at an angle of to the horizontal to move the two boxes attached to each other with a string. If the force is applied on the box of mass 3kg and the mass of second box is 1 kg, find the acceleration of the boxes and tension in the string. Consider the kinetic friction between the surfaces of box and the road is 0.4.      Given: and   From free body diagram,  we have -      From free body diagram,  we have -    On solving eqns. and , we have - and     "
 },
 {
-  "id": "example-55",
+  "id": "example-56",
   "level": "2",
-  "url": "sec_fourth-examplesC.html#example-55",
+  "url": "sec_fourth-examplesC.html#example-56",
   "type": "Example",
   "number": "4.6.1",
   "title": "",
   "body": "  A 10-kg block lying on the horizontal surface is pulled by a force F making an angle of above the horizontal. The coefficient of static friction between the block and the horizontal surface is 0.3 and the coefficient of kinetic friction is 0.2. Draw the appropriate diagrams, write the appropriate equations, and find the magnitude and direction of the acceleration of the block when              Given:     Equations:         In verticle direction,  In horizontal direction, assume then, and Since static friction can keep the block at rest as assumed. Therefore,    Assume and Since static friction cannot keep the block at rest as assumed. Therefore block slides and,      Assume Assume block slides,     Assume Since N cannot be negative, our assumption was false and block leaves the surface.         "
 },
 {
-  "id": "example-56",
+  "id": "example-57",
   "level": "2",
-  "url": "sec_fourth-examplesC.html#example-56",
+  "url": "sec_fourth-examplesC.html#example-57",
   "type": "Example",
   "number": "4.6.2",
   "title": "",
   "body": "  A block of mass rests on top of a larger block of mass = 25 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is and that of kinetic friction is . A constant force parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow to stay with it?  What is the force which causes this acceleration?      Given:   From figure,  we have -   also, now from eqn. , From figure,  we have -          "
 },
 {
-  "id": "example-57",
+  "id": "example-58",
   "level": "2",
-  "url": "sec_fourth-examplesC.html#example-57",
+  "url": "sec_fourth-examplesC.html#example-58",
   "type": "Example",
   "number": "4.6.3",
   "title": "",
   "body": "  A box of mass 100 kg is placed in the front end of the bed of a truck initially at rest. The coefficient of static friction between box and truck bed is 0.4, the coefficient of kinetic friction between box and truck bed is 0.25, the bed of the truck is 2 m long and 1 m above the ground, and the truck accelerates at a constant acceleration just fast enough to make the box start sliding.    What is the acceleration of the truck?  What is the acceleration of the box?  When does the box fall off the back of the truck?  How far does the truck travel before the box falls off?  How fast is the box traveling when it falls off the truck?  How far from its starting point does the box hit the ground?      Given:                                               "
 },
 {
-  "id": "example-58",
+  "id": "example-59",
   "level": "2",
-  "url": "sec_fourth-examplesC.html#example-58",
+  "url": "sec_fourth-examplesC.html#example-59",
   "type": "Example",
   "number": "4.6.4",
   "title": "",
   "body": "  Pulley A is fixed to the ceiling, pulley B is suspended by the string whose one end is attached to the ceiling and another end is passing over pulley B and holding the block 1 of mass as shown in figure below. The block 2 of mass is hanging from the pulley B. If the pulleys and strings are massless and the strings do not stretch. What is the correct relationship between accelerations and of blocks 1 and 2?      Since the pulleys are massless, tensions of each section of the string in either side of pulleys are same as shown in figure.  To find the relation between and add the lengths of each section of the string and take its derivative as shown below. Let is the height of pulley A from reference level (ground level), then length of string from pulley A to block 1 is given as length of section of string from pulley A to B is and length of section of string from pulley B to level of pulley A is .  Ignore the lengths of string over pulleys and to the rest to ceiling. It does not contribute any thing to the derivative of the length. Now where and are distances of block 1 and pulley B from the reference level, respectively. Since the string does not stretch, we have -  That is velocity of block 1 is just the double velocity of block 2 and negative sign indicates the velocity of block 2 is opposite to that of block 1. Again,  From free-body diagram, we have -          "
 },
 {
-  "id": "example-59",
+  "id": "example-60",
   "level": "2",
-  "url": "sec_fourth-examplesC.html#example-59",
+  "url": "sec_fourth-examplesC.html#example-60",
   "type": "Example",
   "number": "4.6.5",
   "title": "",
@@ -1810,27 +1819,27 @@ var ptx_lunr_docs = [
   "body": " Examples D    A car traveling at 80 km\/h rounds a curve of radius 100m which is banked for a speed of 50 km\/h. What is the minimum coefficient of friction that would keep the car on the road?    Given: , ,               again, from eqn. , if we have -   also, from eqn. , if we have -   also, from eqns. and , we have -        A rock of mass 0.2 kg is tied to a string and whirled in a vertical circle of radius 1 m.  What is the tension in the string if the rock is traveling at 10 m\/s at the bottom?  What is the tension in the string if the rock is traveling at 8 m\/s at the top?  What is the tension in the string if the rock is traveling at 9 m\/s when the string is horizontal?  What is the tangential acceleration of the rock when it is traveling at 9 m\/s and the string is horizontal?  What are the radial and tangential components of the acceleration vector if the rock is traveling at 10 m\/s and the string makes an angle of above the horizontal?                                                              A thin circular loop of radius rotates about a vertical diameter with an angular frequency inside of which a small bead of mass is constrained to slide without friction. Show that the bead remains at its lowest point for .                  "
 },
 {
-  "id": "example-60",
+  "id": "example-61",
   "level": "2",
-  "url": "sec_fourth-examplesD.html#example-60",
+  "url": "sec_fourth-examplesD.html#example-61",
   "type": "Example",
   "number": "4.9.1",
   "title": "",
   "body": "  A car traveling at 80 km\/h rounds a curve of radius 100m which is banked for a speed of 50 km\/h. What is the minimum coefficient of friction that would keep the car on the road?    Given: , ,               again, from eqn. , if we have -   also, from eqn. , if we have -   also, from eqns. and , we have -     "
 },
 {
-  "id": "example-61",
+  "id": "example-62",
   "level": "2",
-  "url": "sec_fourth-examplesD.html#example-61",
+  "url": "sec_fourth-examplesD.html#example-62",
   "type": "Example",
   "number": "4.9.2",
   "title": "",
   "body": "  A rock of mass 0.2 kg is tied to a string and whirled in a vertical circle of radius 1 m.  What is the tension in the string if the rock is traveling at 10 m\/s at the bottom?  What is the tension in the string if the rock is traveling at 8 m\/s at the top?  What is the tension in the string if the rock is traveling at 9 m\/s when the string is horizontal?  What is the tangential acceleration of the rock when it is traveling at 9 m\/s and the string is horizontal?  What are the radial and tangential components of the acceleration vector if the rock is traveling at 10 m\/s and the string makes an angle of above the horizontal?                                                           "
 },
 {
-  "id": "example-62",
+  "id": "example-63",
   "level": "2",
-  "url": "sec_fourth-examplesD.html#example-62",
+  "url": "sec_fourth-examplesD.html#example-63",
   "type": "Example",
   "number": "4.9.3",
   "title": "",
@@ -1846,9 +1855,9 @@ var ptx_lunr_docs = [
   "body": " Center of Mass   The center of mass of a system of particles is a point in space at which the net mass of the system seems to be located. It is the mean position of the mass of a system or a body. Center of gravity is an imaginary point in a body where the entire weight of the body may be assumed to be concentrated or it is a point at which the gravity appears to act. In a uniform gravitational field the center of gravity is identical to the center of mass, but they do not coincide in a non-uniform gravitational field. Imagine that you are lying horizontally in space above the planet where you are experiencing a greater gravitational field strength towards your head than towards your feet, then your center of gravity is located somewhere near your shoulder rather than your belly button (i.e. navel or your center of mass). The center of gravity (or center of mass) may coincide with a geometric center of the body if it has a uniform mass distribution and possess symmetrical shape. An asymmetrical object composed of a variety of materials with different masses, however, has a center of gravity located at some distance from its geometric center. In some cases, such as hollow bodies or irregularly shaped objects, the center of gravity (or center of mass) may occur in space at a point external to the physical material. For example, the center of mass of binary stars lies between the stars and in the center of a tennis ball.      The center of (mass) gravity (point ) of any body can be determined by suspending the body by a cord attached at point and then by a cord attached at . When the body is suspended from , the line is vertical; when it is suspended from , the line is vertical. The center of gravity is at the intersection of and [ ]. When an object is suspended from any single point, its center of gravity lies directly beneath that point. For a group of discrete masses the location of center of mass can be defined as: Vector position of center of mass.  or, or equivalently      Problem Solving Technique: To determine the center of mass of a uniformly distributed body, one performs the following steps:  Break the body down into its constituent parts.  Specify the length, area, or volume of each constituent part.  Locate the coordinates of the center of mass of each constituent part.  Utilize the equations shown above using length, area, or volume in place of the mass. for a unifrom sheet  If an object has a uniform mass distribution (uniform density), then its geometric center is taken as center of mass.     "
 },
 {
-  "id": "p-403",
+  "id": "p-405",
   "level": "2",
-  "url": "sec_fourth-cm.html#p-403",
+  "url": "sec_fourth-cm.html#p-405",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1864,9 +1873,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-406",
+  "id": "p-408",
   "level": "2",
-  "url": "sec_fourth-cm.html#p-406",
+  "url": "sec_fourth-cm.html#p-408",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1891,126 +1900,126 @@ var ptx_lunr_docs = [
   "body": " Examples E   Center of MassM    Find the location of the center of mass of the point masses tabulated below:   Mass (kg)  x-coordinate (m)  y-coordinate (m)    1  2  3    4  -5  6    7  8  -9               Find the center of mass of the point masses illustrated below:      1. Find the coordinates of each mass and specify those coordinate pairs beside each respective mass.  2. Use the center of mass equations to calculate the coordinates of the center of mass.  the center of mass lies at point      Find the center of mass of the uniform sheet illustrated at right:      1. Break the body down into its two constituent parts.  2. Specify the area of each constituent part.   and   3. Locate the coordinates of the center of mass of each constituent part. The center of mass of big surface of surface area is at (4,5) and that for small surface of surface area is at (11,2). (Note: For uniform object geometrical center is taken as its center of mass.)  4. Utilize the equations shown above.   Note: mass is proportional to area for a uniform surface:         Find the x-coordinate of a center of mass of a uniform disk of radius 2R from which the mass of a small disk of radius R is missing as shown in given figure.      We know that the center of mass of full disk of radius lies at its center (0,0). here stand for the x-coordinates of a center of mass of the full disk, small disk, and real disk, and stand for the mass of a small disk which is missing, and the mass of the real disk.  Note: mass is proportional to area for a uniform surface. is a density of the disk.      Find the x-coordinate of the center of mass of a rod of length L whose mass per unit length varies as .    Consider a rod of length of mass and has mass per unit length as          Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung,       A solid sphere is cut into half and stacked on top of each other as shown in figure:  Find its center of mass.    The center of mass of a hemisphere of radius is given by  here is the radius of a slice at height and thickness . Since we have-   Hence, the center of mass of the two stacked hemispheres is given by        Rotational Equilibrium    Write the torque equation about the specified axis for the forces indicated in the figure:             Write the torque equation about the specified axis for the forces indicated below:             A symmetrical beam of weight and length is suspended from the ceiling on one end by a hinge and on the other by a wire also of length so that both beam and wire make an angle of with the ceiling as shown in the figure below. Suspended from the junction of wire and beam is a weight . What is the tension in the cable and the horizontal and vertical components of the force on the beam at the hinge?        List given quantities .  Draw the forces acting on the beam and resolve them into components.    Choose an axis and specify the perpendicular distances from each line of action to that axis.  Write equations: and    Solve to get answers:           A uniform rod of length 1 meter and of weight 10 Newtons is resting against a vertical wall with its base 0.5 meters from the bottom of the wall. If a 20 Newton weight is suspended from the rod from a point 3\/4 of the way up the rod, what is the minimum coefficient of friction that will keep the rod from slipping on the floor? Assume there is no friction between the rod and the vertical wall.      Given:                    A uniform rod of length L = 1 meter and mass is suspended as shown in the figure below, making an angle of with the horizontal and supporting a second unknown mass . The support wire on the left is horizontal, the support wire on the top makes an angle of with the rod, and the other wire on the right is vertical. The top wire is attached at a point S = 0.75 m up the rod from the left.    What is the tension in the wire on the left?  What is the tension in the wire on top?  What is the tension in the wire on the right?  What is the mass ?            Given:       from eqn.      Hence, from eqn.  from eqn. , we have -         A block with a square base measuring and height is placed on an inclined plane of angle . The coefficient of friction is and the angle of the incline is gradually increased. Find the condition at which block tip over before it begins to slide.    The block will not slide if the coefficient of friction . In other words, sliding begins only when becomes the angle of repose . The block will toppled down once the line of action of weight pass throgh the edge of the block, i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below.        From first figure, we have -  Divide these equations and substitute , we get- If is gradually increasing to [second figure], then at the instant of toppling, normal force acts along the bottom edge of block which is the point of rotation. Hence the total torque must be zero (i.e., at rotational equilibrium).   Now, from eqns. and , if , it will tip over before slide, and if , it will slide before toppling.      A uniform 10m beam of mass 300kg extends over a ledge. The beam is not attached, but simply rests on the surface. A 60kg man intends to position the beam in such a way that he can walk to the end of it. What is the maximum distance the beam can extend past end of the ledge and still allow him to perform this feat?      The beam can be balanced if it is placed on the edge of ledge by its new center of mass, (i.e., the center of mass of beam and man system). Here is the center of mass of a beam only.    Let be the distance of beam overhung past the edge of ledge, then from free -body diagram, we have -  Since the beam is at static equilibrium. Now, This is a total torque about the new center of mass, (or the point of rotation).   Alternative: we can solve this problem using center of mass formula,       "
 },
 {
-  "id": "example-63",
+  "id": "example-64",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-63",
+  "url": "sec_fourth-examplesE.html#example-64",
   "type": "Example",
   "number": "4.12.1",
   "title": "",
   "body": "  Find the location of the center of mass of the point masses tabulated below:   Mass (kg)  x-coordinate (m)  y-coordinate (m)    1  2  3    4  -5  6    7  8  -9            "
 },
 {
-  "id": "example-64",
+  "id": "example-65",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-64",
+  "url": "sec_fourth-examplesE.html#example-65",
   "type": "Example",
   "number": "4.12.2",
   "title": "",
   "body": "  Find the center of mass of the point masses illustrated below:      1. Find the coordinates of each mass and specify those coordinate pairs beside each respective mass.  2. Use the center of mass equations to calculate the coordinates of the center of mass.  the center of mass lies at point   "
 },
 {
-  "id": "example-65",
+  "id": "example-66",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-65",
+  "url": "sec_fourth-examplesE.html#example-66",
   "type": "Example",
   "number": "4.12.3",
   "title": "",
   "body": "  Find the center of mass of the uniform sheet illustrated at right:      1. Break the body down into its two constituent parts.  2. Specify the area of each constituent part.   and   3. Locate the coordinates of the center of mass of each constituent part. The center of mass of big surface of surface area is at (4,5) and that for small surface of surface area is at (11,2). (Note: For uniform object geometrical center is taken as its center of mass.)  4. Utilize the equations shown above.   Note: mass is proportional to area for a uniform surface:      "
 },
 {
-  "id": "example-66",
+  "id": "example-67",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-66",
+  "url": "sec_fourth-examplesE.html#example-67",
   "type": "Example",
   "number": "4.12.4",
   "title": "",
   "body": "  Find the x-coordinate of a center of mass of a uniform disk of radius 2R from which the mass of a small disk of radius R is missing as shown in given figure.      We know that the center of mass of full disk of radius lies at its center (0,0). here stand for the x-coordinates of a center of mass of the full disk, small disk, and real disk, and stand for the mass of a small disk which is missing, and the mass of the real disk.  Note: mass is proportional to area for a uniform surface. is a density of the disk.   "
 },
 {
-  "id": "example-67",
+  "id": "example-68",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-67",
+  "url": "sec_fourth-examplesE.html#example-68",
   "type": "Example",
   "number": "4.12.5",
   "title": "",
   "body": "  Find the x-coordinate of the center of mass of a rod of length L whose mass per unit length varies as .    Consider a rod of length of mass and has mass per unit length as       "
 },
 {
-  "id": "example-68",
+  "id": "example-69",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-68",
+  "url": "sec_fourth-examplesE.html#example-69",
   "type": "Example",
   "number": "4.12.6",
   "title": "",
   "body": "  Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung,    "
 },
 {
-  "id": "example-69",
+  "id": "example-70",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-69",
+  "url": "sec_fourth-examplesE.html#example-70",
   "type": "Example",
   "number": "4.12.7",
   "title": "",
   "body": "  A solid sphere is cut into half and stacked on top of each other as shown in figure:  Find its center of mass.    The center of mass of a hemisphere of radius is given by  here is the radius of a slice at height and thickness . Since we have-   Hence, the center of mass of the two stacked hemispheres is given by     "
 },
 {
-  "id": "example-70",
+  "id": "example-71",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-70",
+  "url": "sec_fourth-examplesE.html#example-71",
   "type": "Example",
   "number": "4.12.8",
   "title": "",
   "body": "  Write the torque equation about the specified axis for the forces indicated in the figure:          "
 },
 {
-  "id": "example-71",
+  "id": "example-72",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-71",
+  "url": "sec_fourth-examplesE.html#example-72",
   "type": "Example",
   "number": "4.12.9",
   "title": "",
   "body": "  Write the torque equation about the specified axis for the forces indicated below:          "
 },
 {
-  "id": "example-72",
+  "id": "example-73",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-72",
+  "url": "sec_fourth-examplesE.html#example-73",
   "type": "Example",
   "number": "4.12.10",
   "title": "",
   "body": "  A symmetrical beam of weight and length is suspended from the ceiling on one end by a hinge and on the other by a wire also of length so that both beam and wire make an angle of with the ceiling as shown in the figure below. Suspended from the junction of wire and beam is a weight . What is the tension in the cable and the horizontal and vertical components of the force on the beam at the hinge?        List given quantities .  Draw the forces acting on the beam and resolve them into components.    Choose an axis and specify the perpendicular distances from each line of action to that axis.  Write equations: and    Solve to get answers:        "
 },
 {
-  "id": "example-73",
+  "id": "example-74",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-73",
+  "url": "sec_fourth-examplesE.html#example-74",
   "type": "Example",
   "number": "4.12.11",
   "title": "",
   "body": "  A uniform rod of length 1 meter and of weight 10 Newtons is resting against a vertical wall with its base 0.5 meters from the bottom of the wall. If a 20 Newton weight is suspended from the rod from a point 3\/4 of the way up the rod, what is the minimum coefficient of friction that will keep the rod from slipping on the floor? Assume there is no friction between the rod and the vertical wall.      Given:                 "
 },
 {
-  "id": "example-74",
+  "id": "example-75",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-74",
+  "url": "sec_fourth-examplesE.html#example-75",
   "type": "Example",
   "number": "4.12.12",
   "title": "",
   "body": "  A uniform rod of length L = 1 meter and mass is suspended as shown in the figure below, making an angle of with the horizontal and supporting a second unknown mass . The support wire on the left is horizontal, the support wire on the top makes an angle of with the rod, and the other wire on the right is vertical. The top wire is attached at a point S = 0.75 m up the rod from the left.    What is the tension in the wire on the left?  What is the tension in the wire on top?  What is the tension in the wire on the right?  What is the mass ?            Given:       from eqn.      Hence, from eqn.  from eqn. , we have -      "
 },
 {
-  "id": "example-75",
+  "id": "example-76",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-75",
+  "url": "sec_fourth-examplesE.html#example-76",
   "type": "Example",
   "number": "4.12.13",
   "title": "",
   "body": "  A block with a square base measuring and height is placed on an inclined plane of angle . The coefficient of friction is and the angle of the incline is gradually increased. Find the condition at which block tip over before it begins to slide.    The block will not slide if the coefficient of friction . In other words, sliding begins only when becomes the angle of repose . The block will toppled down once the line of action of weight pass throgh the edge of the block, i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below.        From first figure, we have -  Divide these equations and substitute , we get- If is gradually increasing to [second figure], then at the instant of toppling, normal force acts along the bottom edge of block which is the point of rotation. Hence the total torque must be zero (i.e., at rotational equilibrium).   Now, from eqns. and , if , it will tip over before slide, and if , it will slide before toppling.   "
 },
 {
-  "id": "example-76",
+  "id": "example-77",
   "level": "2",
-  "url": "sec_fourth-examplesE.html#example-76",
+  "url": "sec_fourth-examplesE.html#example-77",
   "type": "Example",
   "number": "4.12.14",
   "title": "",
@@ -2485,128 +2494,1217 @@ var ptx_lunr_docs = [
   "body": "A 3 m long stepladder is hinged at point C and spreads on the frictionless floor. The ladder is massless and has a 1m tie rod, BD fixed at halfway up. A man weighing 800N is standing at 2.75 m along the ladder. Find     the tension in the tie-rod and    the magnitudes of the forces on the floor at points A and E.    "
 },
 {
-  "id": "sec_fifth-intro",
+  "id": "subsec-work",
   "level": "1",
-  "url": "sec_fifth-intro.html",
-  "type": "Section",
-  "number": "5.1",
-  "title": "Work, Energy, and Power",
-  "body": " Work, Energy, and Power      "
+  "url": "subsec-work.html",
+  "type": "Subsection",
+  "number": "5.1.1",
+  "title": "Work",
+  "body": " Work   If an object is displaced along the same direction as the force is applied then the work is said to be done. If a force displaces a body to a distance along the direction of force then work can be calculated by . Work is a scalar quantity as it is a measure of transfer of energy from one object to another. The physical quantities which can be obtained by dot product of two vectors are scalar. The unit of work is joule in SI system, ; in FPS system, ft-lb = foot.pound; and in CGS system, erg = dyne.cm.               Suppose a block of mass is displaced to a distance along the horizontal direction by the application of force [ ]. If the force is acting along a direction to the horizontal, then work done by the force is given by The work done by a force is defined as the product of component of the force in the direction of displacement and the magnitude of displacement. Work in physics is different than our daily life work. Suppose you are pushing a rigid brick wall very hard, after some time you get exhausted because you lose your body energy. In our daily life we called this action as a work, but in physics this is not a work because the object did not displace from its position. Hence in physics, whether the force or the displacement is zero, there is no work. Depending upon the angle between the applied force and the displacement, work could be negative, positive, or zero. For example, work done by a frictional force, or work done by a force acting opposite to the motion of object, work done by a force acting parallel to the motion of object, and work done by a force acting perpendicular to the motion of object,   If a force displaces an object to a small distance where then work done by this force is given by If then   The terms like are area under the curve [ ]. The sum of these area between initial position to final position along each direction is equal to work done by a variable force F(r), such as force of spring.   "
+},
+{
+  "id": "p-524",
+  "level": "2",
+  "url": "subsec-work.html#p-524",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "work "
+},
+{
+  "id": "figure-71",
+  "level": "2",
+  "url": "subsec-work.html#figure-71",
+  "type": "Figure",
+  "number": "5.1.1",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsec-energy",
+  "level": "1",
+  "url": "subsec-energy.html",
+  "type": "Subsection",
+  "number": "5.1.2",
+  "title": "Energy",
+  "body": " Energy   The capacity of doing work is known as energy. It is a scalar quantity and it's unit in SI system is Joule. Energy exists in many different forms, such as thermal energy, sound energy, electrical energy, magnetic energy, gravitational energy, chemical energy, mechanical energy, etc. The energy associated with the motion and position of an object is termed as mechanical energy. We focus our understanding here in mechanical energy. Mechanical energy is of two types, kinetic energy and potential energy. The kinetic energy is associated with the motion of the object and potential energy is associated with the position of the object with respect to some other object. For example: elastic potential energy due to a spring force, gravitational potential energy due to gravity, etc. The sum of kinetic and potential energy gives the total mechanical energy of the object.    Work-Energy Theorem  From equations of motion, we have where , , and are final velocity, initial velocity, acceleration, and distance covered by the particle, respectively. From Newton's second law of motion, we have - From eqns. and , we have -  Here the term is called final kinetic energy, , the term is called initial kinetic energy, , and the term is work done by a force. Hence, Which is known as work-energy theorem . It states that work done by a net force acting on a body is equal to the chnage in its kinetic energy.    Kinetic Energy:  It is the energy associated with a body during its motion. Suppose is the work done by a force on a body to displace it to a distance , then  The quantity is called the kinetic energy, i.e., Since this kinetic energy is associated with a body in translational motion, it is called a translational (linear) kinetic energy. The kinetic energy in rotational motion is called rotational kinetic energy which we will discuss in .    Potential Energy:  The energy stored in a body due to its position is known as potential energy. If work is done by a force to change the position of a body, then this work is stored in the body at that position in the form of potential energy. The restoring force plays a crucial role to acquire potential energy. For example, a charged particle near or far from another charge; a squashed or stretched rubber ball, a body above the surface of the earth. The potential energy of the body at any position is the work done against the restoring force in moving the body from the zero point (reference point) to that position. The reference point The zero point is so chosen that it could be infinitely far away. Such as at infinity, at the center of the earth, at sea level, at the floor, at the table top, or at any other point. This is because only potential energy differences between two positions are physically measurable and cannot depend on the a rbitrary choice of the zero point. (or, the zero point ) is the point where potential energy is assumed to be zero. If work has to be done on a body to take it to a new location, then the potential energy increases in the process. If the external force does the work then the potential energy change is negative.     Gravitational Potential Energy: Suppose a body of mass is lifted to a height against gravity without acceleration, then work done by the applied force, is given by This work is stored in the body in the form of gravitational potential energy. Hence when this body is released from the position the body drops down to the ground again. Therefore, the work done by the gravity to pull that object towards earth's surface is given by This is gravitational potential energy in a uniform gravitational field, . The gravitational potential energy due to two point masses is given by Where is the mass of an object at the origin, is the mass of an object at a radial distance from the origin and the zero point is chosen at infinity.     Elastic Potential Energy: When the body (or, spring) is compressed or stretched external force has to do the work, this work is stored in a body (or, spring) in the form of elastic potential energy. It is the energy due to work done by a restoring force. where is the restoring force [read for more details] , is elastic (or, spring) constant (it defines the stiffness of the spring), and is extension in the spring.    Since work done by a force in principle depends on the path taken by the body, (as can be seen in where is a frictional force), but if the force is conservative then work done is independent on the path taken by the body rather it depends on the initial and final position of the body [ ].   "
+},
+{
+  "id": "p-528",
+  "level": "2",
+  "url": "subsec-energy.html#p-528",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "work-energy theorem "
+},
+{
+  "id": "p-531",
+  "level": "2",
+  "url": "subsec-energy.html#p-531",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Gravitational Potential Energy: "
+},
+{
+  "id": "p-532",
+  "level": "2",
+  "url": "subsec-energy.html#p-532",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Elastic Potential Energy: "
+},
+{
+  "id": "subsec-con_nonconservF",
+  "level": "1",
+  "url": "subsec-con_nonconservF.html",
+  "type": "Subsection",
+  "number": "5.1.3",
+  "title": "Conservative and Non-Conservative Forces",
+  "body": " Conservative and Non-Conservative Forces  If a body under the action of a force does no net work during any closed loop, then the force is conservative, otherwise, it is non-conservative. Non-conservative forces are dissipative forces such as friction or air resistance. These forces take energy away from the system as the system progresses, energy that you can't get back. These forces are path dependent and therefore it matters where the object starts and stops. Gravity, spring force, electric and magnetic, and other restoring forces are conservative. Friction, normal force, tension, and other applied forces are non-conservative. Conservative forces are state function, and non-conservatives forces are path function. The work done by a conservative force is independent of the path, i.e., the work done by a conservative force is the same for any path connecting two points.        Mathematically, the work done is independent of path if the infinitesimal work is an exact differential. In two dimensions, the condition for to be an exact differential is The work done by a non-conservative force depends on the path taken, i.e.,   "
+},
+{
+  "id": "conforce",
+  "level": "2",
+  "url": "subsec-con_nonconservF.html#conforce",
+  "type": "Figure",
+  "number": "5.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-princ_con-energy",
+  "level": "1",
+  "url": "subsec-princ_con-energy.html",
+  "type": "Subsection",
+  "number": "5.1.4",
+  "title": "Principle of Conservation of Energy",
+  "body": " Principle of Conservation of Energy  It states that in an isolated system, the total energy of the system is conserved. That is, energy can neither be created nor be destroyed, it can only be converted from one form of energy to another. For example, when a block slides down a slope, potential energy is converted into kinetic energy. When friction slows the block to a stop, the kinetic energy is converted into thermal energy. In case of mechanical energy the sum of kinetic energy and potential energy is conserved.      For an interacting system, and for an isolated system, . Mechanical energy is due to the position and motion of the object. Therefore, Consider a body of mass is falling from rest at height to the ground. We are interested in its total energy at points A, B, and C as shown in . From the principle of conservation of energy, total energy at any point always remains same, i.e., Where When the body reaches to point B, then and  Using equation of motion in 1D,   Similarly,  Which proofs that the mechanical energy remains conserved at each and every point of the motion of an object.  "
+},
+{
+  "id": "conenergy",
+  "level": "2",
+  "url": "subsec-princ_con-energy.html#conenergy",
+  "type": "Figure",
+  "number": "5.1.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-ediagram",
+  "level": "1",
+  "url": "subsec-ediagram.html",
+  "type": "Subsection",
+  "number": "5.1.5",
+  "title": "Energy Diagram",
+  "body": " Energy Diagram               From the principle of conservation of energy as kinetic energy of the system increases its potential energy decreases. This means the force acting on a particle is the rate at which the potential energy decreases in any given direction as shown in . At point a, the slope of is positive, i.e., the x-component of the force is in the negative x direction. At the point b, the slope is negative and hence the force is positive. The force increases as the slope of increases. The point in the middle, at , is is a minimum of and hence the slope is zero. Therefore the x-directed force F at that point is zero as well. A point at which the force on an object is zero is a point of static equilibrium [ ], i.e., a particle is at rest and will remain there at rest. If the particle is displaced by a small distance to the right or the left of the equilibrium point, the force pushes the particle back towards equilibrium. Points where the force is zero and small displacements cause a restoring force to bring the particle back to the same points are called stable equilibrium points [ ].  Remember force is a negative gradient of the potential energy, i.e.,    That is, the force is a negative slope of the potential energy function in its direction. If a particle moves in the direction of the (conservative) force, it speeds up and its kinetic energy increases.  The forces between neutral atoms are extremely small, nearly zero, if atoms are very far away from one another. This is illustrated as an extended region where the potential energy is flat for large r as shown in . Such region is called neutral equilibrium [ ] because there are no forces that either restore or repel the two atoms. When two atoms reaches closer, their interaction becomes first weakly attractive due to quantum dipole-induced dipole interactions and then weakly repulsive as the two atoms start to touch each other. There is a potential energy minimum in between where two atoms separated by a certain distance can be in stable equilibrium without being chemically bound. If atoms approaches more closely then they encounter a second potential energy well that is at first strongly attractive to an actual chemical interaction between them followed by a hard core repulsion as the electron clouds are prevented from interpenetrating by the Pauli exclusion principle. This second potential energy well is often modeled by a Lenard-Jones potential energy corresponding to the inverse powers of r. It also has a point of stable equilibrium. In between, there is a point where the growing attraction of the inner potential energy well and the growing repulsion of the outer potential energy well balance, so that the potential energy function has a maximum. At this maximum the slope is zero, a position of force equilibrium but because the force on either side of this point pushes the particle away from it, this is a point of unstable equilibrium . Unstable equilibria occur at isolated maxima in the potential energy function, just as stable equilibria occur at isolated minima. Introductory Physics-I, Robert Brown, Duke University   "
+},
+{
+  "id": "figure-76",
+  "level": "2",
+  "url": "subsec-ediagram.html#figure-76",
+  "type": "Figure",
+  "number": "5.1.4",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-538",
+  "level": "2",
+  "url": "subsec-ediagram.html#p-538",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "static equilibrium stable equilibrium "
+},
+{
+  "id": "p-540",
+  "level": "2",
+  "url": "subsec-ediagram.html#p-540",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "neutral equilibrium unstable equilibrium "
+},
+{
+  "id": "subsec-ll_track",
+  "level": "1",
+  "url": "subsec-ll_track.html",
+  "type": "Subsection",
+  "number": "5.1.6",
+  "title": "Loop-the-Loop Track",
+  "body": " Loop-the-Loop Track  A loop-the-loop track loop-the-loop track consists of an incline plane that leads into a circular loop of radius . When a body at rest is released from a certain minimum height of the inclined plane it will make around the loop without falling. Assuming no friction during motion. The height of the ramp from where the body is released must be so chosen that when the body reaches at the top of the loop, it must be moving with the certain minimum velocity in order to have necessary centripetal force. At the top point B of the loop the weight and normal force are acting on the body downward. These forces must be providing a necessary centripetal force. Remember centripetal force is a resulting force it is not something that acts on the body. It must be provided by some other causing forces which can act on the body. Hence at point B,  For to be minimum, .         Now from the principle of conservation of energy   For to be ,   [from eqn. ] If the height of incline (ramp) is less than the body will not make a complete cycle around the loop and must fall during its vertical motion inside the loop.  "
+},
+{
+  "id": "loop2",
+  "level": "2",
+  "url": "subsec-ll_track.html#loop2",
+  "type": "Figure",
+  "number": "5.1.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-sm",
+  "level": "1",
+  "url": "subsec-sm.html",
+  "type": "Subsection",
+  "number": "5.2.1",
+  "title": "Simple Machine",
+  "body": " Simple Machine  A simple machine is a device that acts to increase or decrease the amount of output force, , by the machine compared to the input force, to the machine. Machines can increase the speed of doing work. Machine can transfer energy from one form to another.      A lever is a simple machine that consists of a beam (or solid rod), a fulcrum (or pivot point), an input force (or effort), and an output force (or load) [ ]. The beam is placed in such a way that the fulcrum acts as a point of rotation of the beam. The fulcrum remains stationary, while a force is applied somewhere along the length of the beam. The beam then pivots around the fulcrum, exerting the output force on some sort of object that needs to be moved. For example, a crowbar is used to pry up a nail, an effort force is applied to generate an output force, which is what pulls the nail out. Simple machine obeys the principle of conservation of energy, i.e., Input work = output work.    where is the distance of effort pushed down and is distance of load lift up.  There are three basic types of lever.     Class 1 Levers: This is a configuration where the fulcrum is in between the input and output forces, such as a seesaw (teeter-totter), catapult, pliers, and scissors [ and ].                  Class 2 Levers: The load comes between the input force and the fulcrum, such as in a bottle opener, crowbar, wheelbarrow, and nut cracker [ and ].                  Class 3 levers: The fulcrum is on one end and the load is on the other end, with the effort in between the two, such as with a pair of tweezers, stapler, mousetrap, and broom [ and ].                 Since lever works at rotational equilibrium, the total torque must be zero, i.e.,  Where and are lengths of effort arm and load arm, respectively. From eqns. and , we have -   "
+},
+{
+  "id": "sml",
+  "level": "2",
+  "url": "subsec-sm.html#sml",
+  "type": "Figure",
+  "number": "5.2.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-546",
+  "level": "2",
+  "url": "subsec-sm.html#p-546",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "lever "
+},
+{
+  "id": "p-548",
+  "level": "2",
+  "url": "subsec-sm.html#p-548",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Class 1 Levers: "
+},
+{
+  "id": "figure-81",
+  "level": "2",
+  "url": "subsec-sm.html#figure-81",
+  "type": "Figure",
+  "number": "5.2.2",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-549",
+  "level": "2",
+  "url": "subsec-sm.html#p-549",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Class 2 Levers: "
+},
+{
+  "id": "figure-84",
+  "level": "2",
+  "url": "subsec-sm.html#figure-84",
+  "type": "Figure",
+  "number": "5.2.3",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-550",
+  "level": "2",
+  "url": "subsec-sm.html#p-550",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Class 3 levers: "
+},
+{
+  "id": "figure-87",
+  "level": "2",
+  "url": "subsec-sm.html#figure-87",
+  "type": "Figure",
+  "number": "5.2.4",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsec-pulley",
+  "level": "1",
+  "url": "subsec-pulley.html",
+  "type": "Subsection",
+  "number": "5.2.2",
+  "title": "Pulley",
+  "body": " Pulley                Another type of simple machine is a pulley. The pulley is just a lever in disguise. A single fixed pulley acts like a lever with equal arms. It changes only the direction of the input force. When a person pulls down on the rope, the load is lifted up as shown in . In a single movable pulley, the load can be lifted with an input force that is only half of the load's true weight .    Mechanical Advantage  Simple machine makes work easier to do. Mechanical advantage is used to quantify how easy to do the work by using simple machine. The number of times input force is multiplied under ideal conditions, i.e., when no friction present, is called an Ideal Mechanical Advantage , IMA. The number of times input force is multiplied under real world conditions, i.e., when friction is present, is called an Actual Mechanical Advantage , AMA.     Types of Pulley                              Single Fixed Pulley: This pulley does not multiply the input force. It does change the direction of the force from up to down [ ].        One Fixed and One Movable Pulley: This pulley does multiply the input force and change the direction of the force as well [ ].           Two Fixed and One Movable Pulley: This pulley change the direction of the force, and it also multiplies it [ ].            Two Fixed and Two Movable Pulley: This pulley change the direction of the force, and it also multiplies it [ ].      Suppose the load, then the actual input force would be a little greater than the ideal value of , say 25N in this case, It might be 30 N. The extra 5 newtons is used to overcome the friction.  The AMA will always be less than the IMA.    The value of IMA in case of pulley can be easily determined by just looking at the picture. Just count the number of strands of rope that directly support the load. In , there is 4 strands of rope supporting the load, In , 3 strands of rope supporting the load, In , there is 5 strands supporting the load, Besides lever and pulley, there are four other simple machines. They are the screw, the inclined plane, the wedge, and the wheel & axle.   Efficiency       "
+},
+{
+  "id": "figure-90",
+  "level": "2",
+  "url": "subsec-pulley.html#figure-90",
+  "type": "Figure",
+  "number": "5.2.5",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-553",
+  "level": "2",
+  "url": "subsec-pulley.html#p-553",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Ideal Mechanical Advantage Actual Mechanical Advantage "
+},
+{
+  "id": "figure-93",
+  "level": "2",
+  "url": "subsec-pulley.html#figure-93",
+  "type": "Figure",
+  "number": "5.2.6",
+  "title": "",
+  "body": "                        "
+},
+{
+  "id": "p-554",
+  "level": "2",
+  "url": "subsec-pulley.html#p-554",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Single Fixed Pulley: "
+},
+{
+  "id": "p-555",
+  "level": "2",
+  "url": "subsec-pulley.html#p-555",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "One Fixed and One Movable Pulley: "
+},
+{
+  "id": "p-556",
+  "level": "2",
+  "url": "subsec-pulley.html#p-556",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Two Fixed and One Movable Pulley: "
+},
+{
+  "id": "p-557",
+  "level": "2",
+  "url": "subsec-pulley.html#p-557",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Two Fixed and Two Movable Pulley: "
 },
 {
   "id": "sec_fifth-examplesA",
   "level": "1",
   "url": "sec_fifth-examplesA.html",
   "type": "Section",
-  "number": "5.2",
+  "number": "5.3",
   "title": "Examples A",
-  "body": " Examples A    A man pushes a cart on a railway platform which has a rough surface. He applies a force of 100 N over a distance of 10 m. Thereafter, he gets tired and his force reduces gradually to 50 N. The total distance through which the cart has been moved is 20 m. Plot the force applied by the man and the frictional force of 50N versus displacement. Calculate the work done by the man and the frictional force.    Work done by a man = Area under the F-x curve.  Therefore = Area of a rectangle I +Area of a trapezium II. Work done by a frictional force, = Area of a rectangle III.       Given the vectors and Find  the magnitude of each vector and  the angle between them.               or, or,         "
-},
-{
-  "id": "example-77",
-  "level": "2",
-  "url": "sec_fifth-examplesA.html#example-77",
-  "type": "Example",
-  "number": "5.2.1",
-  "title": "",
-  "body": "  A man pushes a cart on a railway platform which has a rough surface. He applies a force of 100 N over a distance of 10 m. Thereafter, he gets tired and his force reduces gradually to 50 N. The total distance through which the cart has been moved is 20 m. Plot the force applied by the man and the frictional force of 50N versus displacement. Calculate the work done by the man and the frictional force.    Work done by a man = Area under the F-x curve.  Therefore = Area of a rectangle I +Area of a trapezium II. Work done by a frictional force, = Area of a rectangle III.    "
+  "body": " Examples A   Work    A man pushes a cart on a railway platform which has a rough surface. He applies a force of 100 N over a distance of 10 m. Thereafter, he gets tired and his force reduces gradually to 50 N. The total distance through which the cart has been moved is 20 m. Plot the force applied by the man and the frictional force of 50N versus displacement. Calculate the work done by the man and the frictional force.    Work done by a man = Area under the F-x curve. Therefore = Area of a rectangle I +Area of a trapezium II. Work done by a frictional force, = Area of a rectangle III.         Given the vectors and Find  the magnitude of each vector and  the angle between them.               or, or,           A force is described as , where and . Find the work done by this force along the straight line path    from (0,0) to (0,10m),  from (0,10m) to (5m, 10m),  from (0,0) to (5m, 10m).          Since along , , and .    Along path and . So      Along path c, and so Hence          A horizontal force of 1000 N moves a block of mass 100 kg along a horizontal plane in a straight line of length 2 m. If the block starts from rest and if the coefficient of friction is 0.2, how much work is done  by the force,  by gravity, and  by friction.  How fast will the block be moving when it gets to the other end of the plane?       Equations:                        Energy    A block of mass moving initially at slides across a horizontal table coming to rest after sliding .  What is the coefficient of sliding friction between block and table?  How much energy was converted into heat by friction?        Given:               Heat dissipation =           A 2-kg mass is dropped from a height of 1 m onto a spring of force constant 200 N\/m. Assuming the spring has no mass and there is no friction,  How far is the spring compressed?  What is the maximum speed attained by the mass?      Given:     From conservation of energy,        Where, lies above reference line hence get discarded.   Let be the new equilibrium position for mass and spring system. At point C,  Now, is new equilibrium position but spring is still compressed from its original length hence spring contains some potential energy. Therefore, energy at point B, = total energy at new mean position, .   On solving this equation, we get -         A spherical meteor of density and diameter falls onto the earth from a long distance.  How much energy would it have when it hit the earth?  How how fast would it hit the earth?  If this energy were used to boil water at the rate of , what volume of water would be vaporized?  How big a cube would this be?      Given:                                      A small mass of 0.8 kg is launched by a compressed spring with force constant, The block slides along a horizontal frictionless surface and then up an inclined plane that makes an angle with the horizontal. The coefficient of kinetic friction between the block and inclined plane is Find the maximum height, reached by the block.        Given:   Now from, we have - On inclined plane,          Alternative:        A spring-like trampoline dips down 0.07 m when a person stands on it. If this person jumps up to a height of 0.31 m above the top of the uncompressed trampoline, how far will the trampoline compress after the person lands on it?      On a person-trampoline system equilibrium, restoring force due to trmpoline balances the weight of a person, i.e.,   After the trampoline compressed to a depth when a person jumps from a height , we have from principle of conservation of energy           A block of mass 0.5 kg is pressed against a spring of spring constant 100 N\/m on a horizontal surface as shown in the figure below. The spring block system is compressed to a distance of 20 cm and then released. The block slides a total distance of 1 m before coming to rest.  What is the coefficient of sliding friction between block and surface?  What is the maximum speed the block attains throughout its motion?         Given:            At point before origin, frictional force and restoring force must be equal. Hence  Now, workdone on the block by a spring or a friction, At this point the block attains maximum speed.          A car of mass m in an amusement park ride rolls down a loop-the-loop track. If the car starts out at height h, rolls without friction, and makes a loop of radius R,  what is the minimum value of h that will allow the car to make the loop without falling off the track?  What is the speed of the car at the top of the loop?  What is the speed of the car at the bottom of the loop?  What is the speed of the car when it is located at a point level with the center of the loop?  How many g's of force do the passengers experience at that time?  What is the magnitude of the acceleration of the car at that time?                                     A small object is placed at the very top of a spherical ball of radius 1 m. If there is no friction between the object and the ball, the object is in unstable equilibrium and eventually will slide off the ball. How far will the object move downward before leaving the surface of the ball?      Given: .  Suppose the ball of mass is sliding down the sphere on a circular track. The necessary centripetal force is then provided by the radial component of its weight and the normal force. At the point where the ball leaves the sphere normal force must be zero, i.e.,    From the principle of conservation of energy, we have - Assume B is a point where ball leaves the sphere.     from eqn. .    [using radian formula] where and are the distance on the surface of sphere and depth below point at which the ball left the sphere.      Power    Work is done according to the equation in the MKS system. Find  W(2),     P(3).                        Power is expended according to the equation in the MKS system. Find  W(2),     P(3).                         An electrically powered conveyor belt 10 m long is tilted and used to lift bricks to the top of a building 5 m high. The belt will hold 100 bricks of mass 2 kg and makes one revolution every minute.  How long does it take to transport a given brick from the bottom of the belt to the top?  What is the minimum electrical power required to run the conveyor belt motor? (Also express answer in horsepower.)  What is the minimum force required to move the bricks up the incline?  If the coefficient of friction between belt and the surface that supports it is 0.3, what is the actual force required to move the bricks?  What is the AMA of this machine?  What is the IMA of this machine?  What is the efficiency of this machine?  What is the actual power required to operate the machine?      Given: rev\/min = 0.016667 Hz.                                          "
 },
 {
   "id": "example-78",
   "level": "2",
   "url": "sec_fifth-examplesA.html#example-78",
   "type": "Example",
-  "number": "5.2.2",
+  "number": "5.3.1",
+  "title": "",
+  "body": "  A man pushes a cart on a railway platform which has a rough surface. He applies a force of 100 N over a distance of 10 m. Thereafter, he gets tired and his force reduces gradually to 50 N. The total distance through which the cart has been moved is 20 m. Plot the force applied by the man and the frictional force of 50N versus displacement. Calculate the work done by the man and the frictional force.    Work done by a man = Area under the F-x curve. Therefore = Area of a rectangle I +Area of a trapezium II. Work done by a frictional force, = Area of a rectangle III.      "
+},
+{
+  "id": "example-79",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-79",
+  "type": "Example",
+  "number": "5.3.2",
   "title": "",
   "body": "  Given the vectors and Find  the magnitude of each vector and  the angle between them.               or, or,        "
+},
+{
+  "id": "example-80",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-80",
+  "type": "Example",
+  "number": "5.3.3",
+  "title": "",
+  "body": "  A force is described as , where and . Find the work done by this force along the straight line path    from (0,0) to (0,10m),  from (0,10m) to (5m, 10m),  from (0,0) to (5m, 10m).          Since along , , and .    Along path and . So      Along path c, and so Hence       "
+},
+{
+  "id": "example-81",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-81",
+  "type": "Example",
+  "number": "5.3.4",
+  "title": "",
+  "body": "  A horizontal force of 1000 N moves a block of mass 100 kg along a horizontal plane in a straight line of length 2 m. If the block starts from rest and if the coefficient of friction is 0.2, how much work is done  by the force,  by gravity, and  by friction.  How fast will the block be moving when it gets to the other end of the plane?       Equations:                     "
+},
+{
+  "id": "example-82",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-82",
+  "type": "Example",
+  "number": "5.3.5",
+  "title": "",
+  "body": "  A block of mass moving initially at slides across a horizontal table coming to rest after sliding .  What is the coefficient of sliding friction between block and table?  How much energy was converted into heat by friction?        Given:               Heat dissipation =      "
+},
+{
+  "id": "example-83",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-83",
+  "type": "Example",
+  "number": "5.3.6",
+  "title": "",
+  "body": "    A 2-kg mass is dropped from a height of 1 m onto a spring of force constant 200 N\/m. Assuming the spring has no mass and there is no friction,  How far is the spring compressed?  What is the maximum speed attained by the mass?      Given:     From conservation of energy,        Where, lies above reference line hence get discarded.   Let be the new equilibrium position for mass and spring system. At point C,  Now, is new equilibrium position but spring is still compressed from its original length hence spring contains some potential energy. Therefore, energy at point B, = total energy at new mean position, .   On solving this equation, we get -      "
+},
+{
+  "id": "example-84",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-84",
+  "type": "Example",
+  "number": "5.3.7",
+  "title": "",
+  "body": "  A spherical meteor of density and diameter falls onto the earth from a long distance.  How much energy would it have when it hit the earth?  How how fast would it hit the earth?  If this energy were used to boil water at the rate of , what volume of water would be vaporized?  How big a cube would this be?      Given:                                   "
+},
+{
+  "id": "example-85",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-85",
+  "type": "Example",
+  "number": "5.3.8",
+  "title": "",
+  "body": "  A small mass of 0.8 kg is launched by a compressed spring with force constant, The block slides along a horizontal frictionless surface and then up an inclined plane that makes an angle with the horizontal. The coefficient of kinetic friction between the block and inclined plane is Find the maximum height, reached by the block.        Given:   Now from, we have - On inclined plane,          Alternative:     "
+},
+{
+  "id": "example-86",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-86",
+  "type": "Example",
+  "number": "5.3.9",
+  "title": "",
+  "body": "  A spring-like trampoline dips down 0.07 m when a person stands on it. If this person jumps up to a height of 0.31 m above the top of the uncompressed trampoline, how far will the trampoline compress after the person lands on it?      On a person-trampoline system equilibrium, restoring force due to trmpoline balances the weight of a person, i.e.,   After the trampoline compressed to a depth when a person jumps from a height , we have from principle of conservation of energy        "
+},
+{
+  "id": "example-87",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-87",
+  "type": "Example",
+  "number": "5.3.10",
+  "title": "",
+  "body": "  A block of mass 0.5 kg is pressed against a spring of spring constant 100 N\/m on a horizontal surface as shown in the figure below. The spring block system is compressed to a distance of 20 cm and then released. The block slides a total distance of 1 m before coming to rest.  What is the coefficient of sliding friction between block and surface?  What is the maximum speed the block attains throughout its motion?         Given:            At point before origin, frictional force and restoring force must be equal. Hence  Now, workdone on the block by a spring or a friction, At this point the block attains maximum speed.       "
+},
+{
+  "id": "example-88",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-88",
+  "type": "Example",
+  "number": "5.3.11",
+  "title": "",
+  "body": "  A car of mass m in an amusement park ride rolls down a loop-the-loop track. If the car starts out at height h, rolls without friction, and makes a loop of radius R,  what is the minimum value of h that will allow the car to make the loop without falling off the track?  What is the speed of the car at the top of the loop?  What is the speed of the car at the bottom of the loop?  What is the speed of the car when it is located at a point level with the center of the loop?  How many g's of force do the passengers experience at that time?  What is the magnitude of the acceleration of the car at that time?                                  "
+},
+{
+  "id": "example-89",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-89",
+  "type": "Example",
+  "number": "5.3.12",
+  "title": "",
+  "body": "  A small object is placed at the very top of a spherical ball of radius 1 m. If there is no friction between the object and the ball, the object is in unstable equilibrium and eventually will slide off the ball. How far will the object move downward before leaving the surface of the ball?      Given: .  Suppose the ball of mass is sliding down the sphere on a circular track. The necessary centripetal force is then provided by the radial component of its weight and the normal force. At the point where the ball leaves the sphere normal force must be zero, i.e.,    From the principle of conservation of energy, we have - Assume B is a point where ball leaves the sphere.     from eqn. .    [using radian formula] where and are the distance on the surface of sphere and depth below point at which the ball left the sphere.   "
+},
+{
+  "id": "example-90",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-90",
+  "type": "Example",
+  "number": "5.3.13",
+  "title": "",
+  "body": "  Work is done according to the equation in the MKS system. Find  W(2),     P(3).                     "
+},
+{
+  "id": "example-91",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-91",
+  "type": "Example",
+  "number": "5.3.14",
+  "title": "",
+  "body": "  Power is expended according to the equation in the MKS system. Find  W(2),     P(3).                      "
+},
+{
+  "id": "example-92",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-92",
+  "type": "Example",
+  "number": "5.3.15",
+  "title": "",
+  "body": "  An electrically powered conveyor belt 10 m long is tilted and used to lift bricks to the top of a building 5 m high. The belt will hold 100 bricks of mass 2 kg and makes one revolution every minute.  How long does it take to transport a given brick from the bottom of the belt to the top?  What is the minimum electrical power required to run the conveyor belt motor? (Also express answer in horsepower.)  What is the minimum force required to move the bricks up the incline?  If the coefficient of friction between belt and the surface that supports it is 0.3, what is the actual force required to move the bricks?  What is the AMA of this machine?  What is the IMA of this machine?  What is the efficiency of this machine?  What is the actual power required to operate the machine?      Given: rev\/min = 0.016667 Hz.                                        "
+},
+{
+  "id": "subsec-collision",
+  "level": "1",
+  "url": "subsec-collision.html",
+  "type": "Subsection",
+  "number": "5.4.1",
+  "title": "Collision",
+  "body": " Collision   A collision collision is an interaction between two objects that may or may not have made physical contact. In a collision the colliding objects experience a pair of forces acting on them. The direction of the force on the first object is opposite to the direction of the force on the second object and these forces are equal in magnitude. These forces are Newton's III law pair. In an isolated system, total momentum is always conserved, hence such forces often increase the momentum of one object and decrease the momentum of the other. There are two kinds of collisions, elastic collision and inelastic collision.  Total energy is always conserved in any types of collision. In collision three steps are considered to understand the problems. They are before collision: objects approach each other with a kinetic energy due to their movement, during collision: objects interact and transfer their momentum. The kinetic energy is transformed into elastic potential energy stored in the spring-like molecular bonds, and after collision: the stored elastic potential energy is converted into kinetic energy as the objects move away from each other [ ].      Here and are velocities of body 1 and 2 before and after collision, respectively.  Consider two objects of mass and having velocity and , respectively are moving in 1-dimension and that so that they collide along their way. Suppose that both objects are subject to zero net force unless they are in contact with one another. During the collision, the first object exerts a large transitory force on the second, whereas the second object exerts an equal and opposite force on the first. That is, they transfer equal and opposite impulses on one another at the instant of collision. If and are the velocity of the objects after collision, and there is no external force acting on the objects then from the principle of conservation of momentum, we have  This equation is valid for any 1-dimensional collision, irrespective of its nature.    Inelastic Collision  A collision in which total momentum is conserved but the total kinetic energy is not conserved before and after the collision is known as inelastic collision. That is, some of their kinetic energy is converted into heat, or sound, or deformation. If the two objects stick together after the collision and move with a common velocity then the collision is said to be perfectly inelastic. Most collisions in practice are inelastic. Perfectly inelastic collisions usually involve easily deformed obj ects e.g. wet clay. Since momentum is conserved in an inelastic collision eqn. can help solve the problem. In perfectly inelastic collision , after the collision, hence from eqn. , we have -     Elastic Collision  A collision in which total momentum and total kinetic energy are conserved before and after the collision is known as elastic collision. That is there is no dissipative force acting during the collision and that all of the kinetic energy of the objects before the collision is still in the form of kinetic energy afterward. Any macroscopic collision between objects will convert some of the kinetic energy into internal energy and other forms of energy, so no large scale impacts are perfectly elastic. Elastic collisions usually involve sub-atomic particles or highly rigid objects e.g. steel or glass balls. If both objects have same mass, their velocities swap after perfectly elastic collision, e.g. Newton's cradle. \"Collisions\" in which the objects do not touch each other, such as Rutherford scattering or the slingshot orbit of a satellite off a planet, are elastic collisions. In atomic or nuclear scattering, the collisions are typically elastic because the repulsive Coulomb force keeps the particles out of contact with each other. Collisions in ideal gases are very nearly elastic, and this fact is used in the development of the expressions for gas pressure in a container. Since total momentum and total kinetic energy is conserved in elastic collision, eqn. along with eqn. can help solve the problem,      Collision in 2D  A collision in two dimensions obeys the same rules as a collision in one dimension. That is,  Total momentum in each direction is always the same before and after the collision, and  Total kinetic energy is the same before and after an elastic collision.    Consider the first object of mass , initially moves along the -axis with speed and the second object of mass , initially moves at an angle to the -axis with speed .                  For inelastic collision: If the two objects stick together and move off at an angle to the -axis with speed [ ]. Then from principle of conservation of momentum,     For elastic collision [ ]:     These equations can help sove the 2D collision problems.    Coefficient of Restitution, e  The coefficient of restitution, is defined as the ratio of relative speeds after and before an impact, taken along the line of impact. If represents how fast the objects are separating from one another after collision, and represents how fast the objects are approaching one another before collision, then where, , , are final and initial velocities of the two particles, respectively. The coefficient of restitution, for perfectly inelastic collision and for perfectly elastic collision, i.e., .  If the magnitude of the relative velocity does not change during a collision, then the change in kinetic energy is zero. Collisions in which no change in kinetic energy occurs are called elastic collisions, . If the magnitude of the final relative velocity is less than the magnitude of the initial relative velocity, $ then the change in kinetic energy is negative. Collisions in which the kinetic energy decreases are called inelastic collisions, . If the two objects stick together after the collision, then the relative final velocity is zero, Such collisions are called totally inelastic. If the magnitude of the final relative velocity is greater than the magnitude of the initial relative velocity, then the change in kinetic energy is positive. Collisions in which the kinetic energy increases are called superelastic collisions,    "
+},
+{
+  "id": "col1d",
+  "level": "2",
+  "url": "subsec-collision.html#col1d",
+  "type": "Figure",
+  "number": "5.4.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-100",
+  "level": "2",
+  "url": "subsec-collision.html#figure-100",
+  "type": "Figure",
+  "number": "5.4.2",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-617",
+  "level": "2",
+  "url": "subsec-collision.html#p-617",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "For inelastic collision: For elastic collision "
+},
+{
+  "id": "subsec-ball_pendulum",
+  "level": "1",
+  "url": "subsec-ball_pendulum.html",
+  "type": "Subsection",
+  "number": "5.4.2",
+  "title": "Ballistic Pendulum",
+  "body": " Ballistic Pendulum      From the principle of conservation of momentum,   From the principle of conservation of energy,   From eqns. and , we have -  But  Where is called the muzzle velocity.  "
+},
+{
+  "id": "collision2",
+  "level": "2",
+  "url": "subsec-ball_pendulum.html#collision2",
+  "type": "Figure",
+  "number": "5.4.3",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec_fifth-examplesB",
   "level": "1",
   "url": "sec_fifth-examplesB.html",
   "type": "Section",
-  "number": "5.3",
+  "number": "5.5",
   "title": "Examples B",
-  "body": " Examples B  "
+  "body": " Examples B    A body of mass traveling with a speed collides with a stationary body of mass and they stick together. What speed do the two bodies have after the collision?            Two initially stationary particles of mass 50 g are involved in an explosion that released 150 mJ of kinetic energy. What speed do they both have after the explosion?    Given:          A 10 kg mass traveling 2 m\/s meets and collides elastically with a 2 kg mass traveling 4 m\/s in the opposite direction. Find the final velocities of both objects.    Given: Now, from momentum conservation  and from kinetic energy conservation  Solving these two equations, we get -       In an accident the 190 kg car with velocity collides head on with the 280 kg car with velocity . The coefficient of restitution of the impact is The duration of the collision is What are the velocities of the cars immediately after the collision? Determine the magnitude of the average acceleration to which the occupants of each car are subjected.    The velocities before collision are  The coefficient of restitution, .  From momemtum conservation,       on Solving eqns. and , we get the velocities after collision as  The average accelerations are        A baseball of mass 300 g thrown at a speed of 50 m\/s hits a bat of mass 3 kg moving in the opposite direction at 25 m\/s. After being in contact with the bat for 1 ms, the ball rebounds with a speed of 60 m\/s.  What is the impulse delivered to the ball?  What is the average force exerted by the bat on the ball during the collision?  What is the speed of the bat immediately after the collision?                             A mass of 2 kg moving to the right with a speed of 40 m\/s collides with a second mass of 3 kg moving to the left with a speed of 10 m\/s. For each of the following three cases find  the final velocity of each mass,  the coefficient of restitution, and  the energy loss during the collision.       Case I: Perfectly inelastic collision.   Given:                       Case II: The first mass stops.   Given:                      Case III: Perfectly elastic collision.   Given:                           A 5-g bullet moving north at 300 m\/s ricochets off a 1 kg rock at a speed of 200 m\/s in the northwest direction.  With what speed and in what direction does the rock rebound?  How much energy was turned into heat as a result of the collision?        Given:                   A bullet of mass 0.1 kg moving horizontally embeds itself in a wooden block of mass 10 kg initially at rest and supported by a string of length 1 m. The block with the bullet inside recoils and swings upward through an angle of before coming to rest. What was the initial speed of the bullet.    Given: Equation:          A spring of a force constant is compressed using a block of mass to a distance . The spring is fixed to a L-shaped block of mass which is free to slid on frictionless ground surface as shown in figure below. There is friction between the two blocks, howewver and when the block 1 is released and spring reaches to its equilibrium position, then block 1 is moving leftward with velocity and block 2 is moving rightward with velocity       After the entire system comes to rest, blocks 1 and 2 have slid a distance relative to each other. Find the distance covered by the block 1 from its initial position.  After the entire system comes to rest, blocks 1 and 2 have slid a distance relative to each other. Find the coefficient of kinetic friction, between blocks 1 and 2.           Since the center of mass of the system is at rest, we have     From principle of conservation of momentum, From principle of conservation of energy, we have -                A projectile of mass 10 kg is shot into the air with an initial speed of 100 m\/s at an angle of above the horizontal. At the very top of the trajectory, the projectile explodes into two fragments of equal mass, one of which falls straight down starting at rest.  How high does the projectile go?  How far has the projectile traveled horizontally when it reaches the top of its trajectory?  What is speed of the projectile when it reaches the top of its trajectory?  What is the velocity of the second fragment after the projectile explodes?  How far from the original projectile launch point does the second fragment strike the horizontal ground.      From the principle of conservation of momentum,      Now from equation of motion, Just before it explodes at top, we have -                         A bullet of mass is shot at speed toward a pendulum block of mass . The bullet penetrates through the block and emerges on the other side traveling at speed .  What is the speed of block immediately after the bullet emerges out from the block?  What is the final height of block?          From the principle of conservation of momentum,      From the principle of conservation of energy,          A ball is thrown from a table of height 2m horizontally with a velocity 3 m\/s. Determine the distance D between the ball's first and second bounces, if the coefficient of restitution is e = 0.6.      Given: The vertical velocity after first bounce (impact) is given by  From equation of motion, Final upward velocity becomes zero ( ) after first bounce.  Hence the total height attained by the ball after first bounce can be determined by using conservation of energy principle. Time to reach the highest point by the ball after first bounce is given by Time to return by the ball to the ground for second bounce is given by      "
 },
 {
-  "id": "sec_fifth-examplesC",
-  "level": "1",
-  "url": "sec_fifth-examplesC.html",
-  "type": "Section",
-  "number": "5.4",
-  "title": "Examples C",
-  "body": " Examples C  "
+  "id": "example-93",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-93",
+  "type": "Example",
+  "number": "5.5.1",
+  "title": "",
+  "body": "  A body of mass traveling with a speed collides with a stationary body of mass and they stick together. What speed do the two bodies have after the collision?         "
+},
+{
+  "id": "example-94",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-94",
+  "type": "Example",
+  "number": "5.5.2",
+  "title": "",
+  "body": "  Two initially stationary particles of mass 50 g are involved in an explosion that released 150 mJ of kinetic energy. What speed do they both have after the explosion?    Given:       "
+},
+{
+  "id": "example-95",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-95",
+  "type": "Example",
+  "number": "5.5.3",
+  "title": "",
+  "body": "  A 10 kg mass traveling 2 m\/s meets and collides elastically with a 2 kg mass traveling 4 m\/s in the opposite direction. Find the final velocities of both objects.    Given: Now, from momentum conservation  and from kinetic energy conservation  Solving these two equations, we get -    "
+},
+{
+  "id": "example-96",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-96",
+  "type": "Example",
+  "number": "5.5.4",
+  "title": "",
+  "body": "  In an accident the 190 kg car with velocity collides head on with the 280 kg car with velocity . The coefficient of restitution of the impact is The duration of the collision is What are the velocities of the cars immediately after the collision? Determine the magnitude of the average acceleration to which the occupants of each car are subjected.    The velocities before collision are  The coefficient of restitution, .  From momemtum conservation,       on Solving eqns. and , we get the velocities after collision as  The average accelerations are     "
+},
+{
+  "id": "example-97",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-97",
+  "type": "Example",
+  "number": "5.5.5",
+  "title": "",
+  "body": "  A baseball of mass 300 g thrown at a speed of 50 m\/s hits a bat of mass 3 kg moving in the opposite direction at 25 m\/s. After being in contact with the bat for 1 ms, the ball rebounds with a speed of 60 m\/s.  What is the impulse delivered to the ball?  What is the average force exerted by the bat on the ball during the collision?  What is the speed of the bat immediately after the collision?                          "
+},
+{
+  "id": "example-98",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-98",
+  "type": "Example",
+  "number": "5.5.6",
+  "title": "",
+  "body": "  A mass of 2 kg moving to the right with a speed of 40 m\/s collides with a second mass of 3 kg moving to the left with a speed of 10 m\/s. For each of the following three cases find  the final velocity of each mass,  the coefficient of restitution, and  the energy loss during the collision.       Case I: Perfectly inelastic collision.   Given:                       Case II: The first mass stops.   Given:                      Case III: Perfectly elastic collision.   Given:                        "
+},
+{
+  "id": "example-99",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-99",
+  "type": "Example",
+  "number": "5.5.7",
+  "title": "",
+  "body": "  A 5-g bullet moving north at 300 m\/s ricochets off a 1 kg rock at a speed of 200 m\/s in the northwest direction.  With what speed and in what direction does the rock rebound?  How much energy was turned into heat as a result of the collision?        Given:                "
+},
+{
+  "id": "example-100",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-100",
+  "type": "Example",
+  "number": "5.5.8",
+  "title": "",
+  "body": "  A bullet of mass 0.1 kg moving horizontally embeds itself in a wooden block of mass 10 kg initially at rest and supported by a string of length 1 m. The block with the bullet inside recoils and swings upward through an angle of before coming to rest. What was the initial speed of the bullet.    Given: Equation:       "
+},
+{
+  "id": "example-101",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-101",
+  "type": "Example",
+  "number": "5.5.9",
+  "title": "",
+  "body": "  A spring of a force constant is compressed using a block of mass to a distance . The spring is fixed to a L-shaped block of mass which is free to slid on frictionless ground surface as shown in figure below. There is friction between the two blocks, howewver and when the block 1 is released and spring reaches to its equilibrium position, then block 1 is moving leftward with velocity and block 2 is moving rightward with velocity       After the entire system comes to rest, blocks 1 and 2 have slid a distance relative to each other. Find the distance covered by the block 1 from its initial position.  After the entire system comes to rest, blocks 1 and 2 have slid a distance relative to each other. Find the coefficient of kinetic friction, between blocks 1 and 2.           Since the center of mass of the system is at rest, we have     From principle of conservation of momentum, From principle of conservation of energy, we have -             "
+},
+{
+  "id": "example-102",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-102",
+  "type": "Example",
+  "number": "5.5.10",
+  "title": "",
+  "body": "  A projectile of mass 10 kg is shot into the air with an initial speed of 100 m\/s at an angle of above the horizontal. At the very top of the trajectory, the projectile explodes into two fragments of equal mass, one of which falls straight down starting at rest.  How high does the projectile go?  How far has the projectile traveled horizontally when it reaches the top of its trajectory?  What is speed of the projectile when it reaches the top of its trajectory?  What is the velocity of the second fragment after the projectile explodes?  How far from the original projectile launch point does the second fragment strike the horizontal ground.      From the principle of conservation of momentum,      Now from equation of motion, Just before it explodes at top, we have -                      "
+},
+{
+  "id": "example-103",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-103",
+  "type": "Example",
+  "number": "5.5.11",
+  "title": "",
+  "body": "  A bullet of mass is shot at speed toward a pendulum block of mass . The bullet penetrates through the block and emerges on the other side traveling at speed .  What is the speed of block immediately after the bullet emerges out from the block?  What is the final height of block?          From the principle of conservation of momentum,      From the principle of conservation of energy,       "
+},
+{
+  "id": "example-104",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-104",
+  "type": "Example",
+  "number": "5.5.12",
+  "title": "",
+  "body": "  A ball is thrown from a table of height 2m horizontally with a velocity 3 m\/s. Determine the distance D between the ball's first and second bounces, if the coefficient of restitution is e = 0.6.      Given: The vertical velocity after first bounce (impact) is given by  From equation of motion, Final upward velocity becomes zero ( ) after first bounce.  Hence the total height attained by the ball after first bounce can be determined by using conservation of energy principle. Time to reach the highest point by the ball after first bounce is given by Time to return by the ball to the ground for second bounce is given by     "
 },
 {
   "id": "ex_fifth",
   "level": "1",
   "url": "ex_fifth.html",
   "type": "Exercises",
-  "number": "5.5",
+  "number": "5.6",
   "title": "Exercise",
-  "body": "  Exercise   "
+  "body": "  Exercise   Work  Given the two vectors and What is their dot product?  A horizontal force is given by the equation , where . How much work is expended by that force when moving an object from to ?  A force has the components , , where and . Find the work done by this force along the paths  from (0,0) to (1m,0) to (1m,2m),  from (0,0) to (0,2m) to (1m,2m),  from (0,0) to (1m, 2m) along a straight line.    An object of mass 10 kg is lifted a vertical distance of 3 m and a horizontal distance of 4 m. How much work is done?  A force of 100 N moves a block of mass 10 kg up a plane of length 2 m at an angle of . If the force is parallel to the plane, if the block starts from rest, and if the coefficient of friction is 0.1, how much work is done  by the force,  by gravity, and  by friction.  How fast will the block be moving when it gets to the top?    A force of 100 N at an angle of above the horizontal moves a block of mass 10 kg along a horizontal surface a distance of 3 m. If the block starts from rest and if the coefficient of friction is 0.2, how much work is done  by the force,  by gravity,  by friction.  by the normal force, and  by the net force on the block.      Energy  A bullet of mass 10 g has a speed of 500 m\/s.  What is its kinetic energy?  If it penetrates a block of wood a distance of 10 cm before coming to rest, what is the average frictional force stopping the bullet? A second bullet identical to the first is shot through a sheet of wood 5 cm thick.  With what speed does the second bullet exit the wood?      How much energy would be required to lift a 70 kg man to a height of 100 m?  How much energy would be required to lift a 70 kg man to a height of 10,000 km?    A spring requires a force of 100 N to stretch it a distance of 20 cm.  What is the force constant of the spring?  How much force is required to stretch the spring a distance of 50 cm?  How much energy is required to stretch the spring a distance of 0.5 m?  What is the potential energy of the spring when it is stretched 20 cm?  How much energy is required to stretch the spring from 20 cm to 50 cm?    A block of mass 10 kg is pulled to the right at constant speed on a horizontal surface by a horizontal force of 10 N.  What is the coefficient of friction?  How much work is done in overcoming the friction?    A water skier of mass 80 kg traveling at 15 m\/s releases from tow and travels a distance of 50 m before starting to sink into the water.  If he begins sinking when his speed is 4 m\/s, how much energy did friction consume before he began sinking?  If the skier is 1.8 m high and his center of gravity is in the middle of his body, how much energy is consumed by friction while he is sinking?       A spring of mass 2 kg and spring constant 300 N\/m is compressed a distance of 0.5 m and clamped in that position. When the clamped spring is 4 m above the ground traveling horizontally with a speed of 5 m\/s find each of the following:    What is its kinetic energy?    What is its gravitational potential energy?    What is its elastic potential energy?    What is its total energy?      If the clamp holding the spring is released so the spring returns to its original length by the time the system falls all the way to the ground and comes to rest, find each of the following:    What is its kinetic energy?    What is its gravitational potential energy?    What is its elastic potential energy?    What is its total energy?    How much energy is turned into heat by the time the system comes to rest on the ground?       A mass of 2 kg is placed against the end of spring compressed a distance of 50 cm as shown in the figure below. The system is released, the mass moves horizontally a total distance of 1 meter over a surface with a coefficient of kinetic friction of 0.2, slides up a smooth ramp of radius 25 cm, and then flies straight up a distance of 25 cm above the top of the ramp.    What is the equation for the total energy of the mass when it starts out?  What is the equation for the total energy of the mass when it reaches its highest point?  What is the equation for the amount of energy dissipated by friction?  What is the relationship between the above quantities?  What are the additional equations are needed to find the spring constant of the spring?  Where is the mass when it reaches its maximum speed?  What are the additional equations needed to find the maximum speed of the mass?  After the mass comes back down, where does it finally come to rest?    A ball of mass 1 kg is dropped from a height of 2 m onto a spring of force constant 500 N\/m. What is the maximum speed attained by the ball?  A portion of a roller coaster is shaped like a sine wave according to the equation where A = 50 ft and k = 0.04\/ft. Assume that friction consumes approximately 10\\% of the energy as the coaster moves from the high point to the next low point and that the coaster is moving at 10 ft\/s at the top, find the speed of the coaster at the bottom.  A rocket of mass 5 kg accelerates upward at a constant 4 g's for 5 sec starting from rest. Assume the mass of the fuel is negligible so the mass of the rocket can be considered constant throughout the acceleration.  How much energy is imparted to the rocket during the first second?  How much energy is imparted to the rocket during the last second?  Is chemical energy that drives the rocket being expended at the same rate during the first second as during the last second?  Explain why answers a and b are not the same. Where does the extra energy go?    A small pellet of mass m = 0.2 kg starts from rest at position A and slides down the smooth surface of the cylinder to position B. The radius R = 0.8 m. Use conservation of energy to determine the magnitude of the pellet's velocity at position B if .    A spring gun has a spring constant of 200 N\/m and shoots a projectile of mass 500 g. If the spring is compressed a distance of 10 cm into the barrel of the gun and the friction force in the gun barrel is 4 N, how high will the projectile rise above the tip of the gun barrel if  the gun is shot straight up, and  if the gun is aimed at above the horizontal.    A rock of mass 200 g is placed in a sling and whirled in a vertical circle of radius 50 cm. The rock is released when traveling vertically and rises to a height of 4 m above its starting point.  What was the velocity of the rock when it was released from the sling?  What was the tension in each of the two strings of the sling immediately before the rock was released?  Assuming no energy is added to the rock while it is whirling in the circle, what was the velocity of the rock at the bottom of the circle?  What is the maximum force that the hand must exert on the sling to keep the rock going in its circle?  What is the minimum force required to keep the rock going in its circle?      Power  An elevator lifts a load of 1000 lb to a height of 300 ft in 30 s.  What is the horsepower output of the motor running the elevator?  How many watts of electricity are required to run the motor?    A strongman sitting in the back of a motor boat of mass 2000 kg is holding a rope tied to the front of a canoe with its contents of 500 kg. The motor boat starts out towing the canoe and eventually attains a constant speed of 10 m\/s for a distance of 100 m. During that time the man feels a constant tension in the tow rope of 100 N.  How much energy does the man expend while towing the canoe?  How much energy does the motor boat expend while towing the canoe?  How much power is required to tow the canoe?  How much power is converted into heat through friction?    An electric motor starts revving up, consuming energy according to the equation , where .  How long does it take for the engine to consume 1000 J of energy?  What is the equation giving the power output of the motor?  How long does it take for the motor to develop a power output of 1 hp?    The power required to move an object is , where is the time and the constant . How much energy is required to move the object during the first 4 seconds?  A simple machine requires a force of 3 N moving through a distance of 4 m to lift a weight of 10 N through a height of 1 m.  What is the AMA of the machine?  What is the IMA of the machine?  What is the efficiency of the machine?    The pulley system shown at right requires a tension of 10 lb to lift a weight of 30 lb.  What is the actual mechanical advantage of the machine?  If there were no friction in the machine, how much weight could the 10 lb force lift?  What is the ideal mechanical advantage of the machine?  How far must the free end of the rope move in order to lift the weight 3 ft?  What is the efficiency of the pulley system?    A lever system has a AMA = 9 and an IMA = 10. How much work would be required to use this machine to lift a 200 lb weight a height of 2 ft?  The belt on an automobile engine transfers power from the engine pulley to the alternator pulley.  If the diameter of the engine pulley is 15 cm and that of the alternator pulley is 10 cm, what is the IMA of the pulley system?  If the AMA of the pulley system is 0.6, what is the efficiency of the pulley system?  If the energy conversion from mechanical energy to electrical energy in the alternator is , how much power must the motor deliver in order to generate 50 Watts of electrical power?    Find the value of IMA for the given figure.      Collision    A force of 1000 N is applied to an object that travels a distance of 10 m in 3 s. What is the impulse of the force?  A force rises linearly from zero to 106 Newtons in two milliseconds and then decreases linearly back to zero in the next two milliseconds. What is the total impulse of that force.  A force is described mathematically by the equation , where and t is expressed in seconds and ranges from zero to 2 seconds. What is the impulse of this force?    A 500 g hammer traveling at 30 m\/s hits a nail driving it into a block of wood during a period of time of 1 ms.  What is the change in momentum of the hammer if it does not bounce?  What is the change in momentum of the hammer if it bounces back at 20 m\/s?  What is the average force stopping the hammer if it doesn't bounce?  What is the average force if it bounces back at 20 m\/s?  Use energy considerations to find out how far the nail moves in each case.    A block of mass 2 kg moving at 10 m\/s collides with a second mass of 1 kg at rest. How fast does each mass move afterward  if the collision is perfectly inelastic, and  if the collision is perfectly elastic.    A ball is dropped from a height of 2 m and rebounds to a height of 1.5 m.  What is the coefficient of restitution between the ball and the table?  How high would a superball bounce if its coefficient of restitution is 0.95?    A block of mass 1 kg moving to the right with a speed of 1 m\/s strikes a second block of mass 2 kg moving to the left with a speed of 2 m\/s. The first mass bounces back with a speed of 2 m\/s.  What is the velocity (magnitude and direction) of the second mass after the collision?  What is the coefficient of restitution of the collision?  How much energy was lost during the collision?    A machine gun shoots 3 times per second. Each bullet has a mass of 20 g and the muzzle velocity is 300 m\/s.  What is the momentum of each bullet?  What is the average recoil force acting on the machine gun?  If the gun is mounted on a 1,000 kg boat whose friction through the water is proportional to velocity according to the equation f = cv, where c = 10 kg\/s, then how fast could the machine gun make the boat travel across the water?    A block of mass 2 kg moving at right at 10 m\/s collides with a 4 kg block at rest. If the coefficient of restitution is 0.5,  what will be the velocity of each block after the collision?  How much energy is lost in the collision?  If the collision lasts 10 ms, what is the average force between the two blocks?    A pool ball traveling along the x-axis at strikes a second ball of equal mass and glances off at an angle of above the x-axis. If the collision is perfectly elastic,  what is the direction that the second ball moves after the collision?  What is the speed of each ball after the collision?    A bullet of mass 50 g traveling at 400 m\/s due north strikes a rock of mass 500 g at rest and ricochets off the rock going due east. The rock recoils in a direction west of north.  What is the speed of the ricochetting bullet?  What is the recoil speed of the rock?  How much energy was lost in the collision?  What was the coefficient of restitution between the bullet and the rock?    A car of mass 700 kg moving west at a speed of 72 km\/h makes an inelastic collisions with a truck initially moving northward. If the tangled mass of car and truck slides off in the north-west direction a distance of 10 m when the coefficient of friction is 0.8, what was  the mass of the truck,  its speed before the collision,  the energy loss during the collision,  the average force between the car and truck during an impact lasting 0.1 s, and  the amount the car\/truck combination is compressed?    A bullet of mass 0.1 kg moving horizontally passes through a wooden block of mass 10 kg initially at rest and looses 90\\% of its kinetic energy. The recoiling block slides a distance of 1 m on a horizontal surface of friction constant 0.3 before coming to rest. What was the initial speed of the bullet.  A block of wood of mass 1 kg is balanced on the end of a pistol barrel and the pistol is fired. The block of wood flies upward a distance of 1 m with the bullet embedded inside. What is the muzzle velocity of the bullet if its mass is 10 g?  A 0.1-kg mass of putty drops from a height of 1 m onto a platform of 1 kg setting on a spring of constant 100 N\/m. The putty sticks to the platform causing it to recoil downward and compress the spring. How much is the spring is compressed before it comes to rest again.  A spherical ball of mass 1 kg and radius 3 cm is attached to a wire of length 2 m to form a pendulum. The top of the pendulum is attached to a wall near the top. The wire is pulled straight out horizontally and the ball is released from rest. The ball strikes the wall and rebounds a horizontal distance of 1 m. The wall is dented a distance of 1 cm.  What is the speed of the ball when it strikes the wall?  What is the speed of the ball when it leaves the wall?  How much energy did the ball lose?  What is the average force exerted by the ball on the wall?  What is the change in momentum of the ball?  How long was the ball in contact with the wall?    A 500 N boy sitting in a stationary 90 N wagon is start throwing bricks out of the wagon. If the boy has three bricks weighing 45 N each and throws them with a horizontal velocity of $3 m\/s$ relative to the wagon, determine the velocity he attains  if he throws the bricks one at a time and  if he throws them all at once.    A bullet of mass m penetrates a block of mass M lying on a frictionless table. If the initial velocity of bullet is and it exits form the block with velocity , find the time taken by the block to fly off the table if it is at a distance L from the edge of the table. If the table has a height h how far from the edge of the table will it land?   "
 },
 {
   "id": "exercise-113",
   "level": "2",
   "url": "ex_fifth.html#exercise-113",
   "type": "Exercise",
-  "number": "5.5.1",
+  "number": "5.6.1",
   "title": "",
-  "body": ""
+  "body": "Given the two vectors and What is their dot product? "
 },
 {
-  "id": "sec_sixth-intro",
+  "id": "exercise-114",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-114",
+  "type": "Exercise",
+  "number": "5.6.2",
+  "title": "",
+  "body": "A horizontal force is given by the equation , where . How much work is expended by that force when moving an object from to ? "
+},
+{
+  "id": "exercise-115",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-115",
+  "type": "Exercise",
+  "number": "5.6.3",
+  "title": "",
+  "body": "A force has the components , , where and . Find the work done by this force along the paths  from (0,0) to (1m,0) to (1m,2m),  from (0,0) to (0,2m) to (1m,2m),  from (0,0) to (1m, 2m) along a straight line.   "
+},
+{
+  "id": "exercise-116",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-116",
+  "type": "Exercise",
+  "number": "5.6.4",
+  "title": "",
+  "body": "An object of mass 10 kg is lifted a vertical distance of 3 m and a horizontal distance of 4 m. How much work is done? "
+},
+{
+  "id": "exercise-117",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-117",
+  "type": "Exercise",
+  "number": "5.6.5",
+  "title": "",
+  "body": "A force of 100 N moves a block of mass 10 kg up a plane of length 2 m at an angle of . If the force is parallel to the plane, if the block starts from rest, and if the coefficient of friction is 0.1, how much work is done  by the force,  by gravity, and  by friction.  How fast will the block be moving when it gets to the top?   "
+},
+{
+  "id": "exercise-118",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-118",
+  "type": "Exercise",
+  "number": "5.6.6",
+  "title": "",
+  "body": "A force of 100 N at an angle of above the horizontal moves a block of mass 10 kg along a horizontal surface a distance of 3 m. If the block starts from rest and if the coefficient of friction is 0.2, how much work is done  by the force,  by gravity,  by friction.  by the normal force, and  by the net force on the block.   "
+},
+{
+  "id": "exercise-119",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-119",
+  "type": "Exercise",
+  "number": "5.6.7",
+  "title": "",
+  "body": "A bullet of mass 10 g has a speed of 500 m\/s.  What is its kinetic energy?  If it penetrates a block of wood a distance of 10 cm before coming to rest, what is the average frictional force stopping the bullet? A second bullet identical to the first is shot through a sheet of wood 5 cm thick.  With what speed does the second bullet exit the wood?   "
+},
+{
+  "id": "exercise-120",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-120",
+  "type": "Exercise",
+  "number": "5.6.8",
+  "title": "",
+  "body": "  How much energy would be required to lift a 70 kg man to a height of 100 m?  How much energy would be required to lift a 70 kg man to a height of 10,000 km?   "
+},
+{
+  "id": "exercise-121",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-121",
+  "type": "Exercise",
+  "number": "5.6.9",
+  "title": "",
+  "body": "A spring requires a force of 100 N to stretch it a distance of 20 cm.  What is the force constant of the spring?  How much force is required to stretch the spring a distance of 50 cm?  How much energy is required to stretch the spring a distance of 0.5 m?  What is the potential energy of the spring when it is stretched 20 cm?  How much energy is required to stretch the spring from 20 cm to 50 cm?   "
+},
+{
+  "id": "exercise-122",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-122",
+  "type": "Exercise",
+  "number": "5.6.10",
+  "title": "",
+  "body": "A block of mass 10 kg is pulled to the right at constant speed on a horizontal surface by a horizontal force of 10 N.  What is the coefficient of friction?  How much work is done in overcoming the friction?   "
+},
+{
+  "id": "exercise-123",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-123",
+  "type": "Exercise",
+  "number": "5.6.11",
+  "title": "",
+  "body": "A water skier of mass 80 kg traveling at 15 m\/s releases from tow and travels a distance of 50 m before starting to sink into the water.  If he begins sinking when his speed is 4 m\/s, how much energy did friction consume before he began sinking?  If the skier is 1.8 m high and his center of gravity is in the middle of his body, how much energy is consumed by friction while he is sinking?   "
+},
+{
+  "id": "exercise-124",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-124",
+  "type": "Exercise",
+  "number": "5.6.12",
+  "title": "",
+  "body": "   A spring of mass 2 kg and spring constant 300 N\/m is compressed a distance of 0.5 m and clamped in that position. When the clamped spring is 4 m above the ground traveling horizontally with a speed of 5 m\/s find each of the following:    What is its kinetic energy?    What is its gravitational potential energy?    What is its elastic potential energy?    What is its total energy?      If the clamp holding the spring is released so the spring returns to its original length by the time the system falls all the way to the ground and comes to rest, find each of the following:    What is its kinetic energy?    What is its gravitational potential energy?    What is its elastic potential energy?    What is its total energy?    How much energy is turned into heat by the time the system comes to rest on the ground?      "
+},
+{
+  "id": "exercise-125",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-125",
+  "type": "Exercise",
+  "number": "5.6.13",
+  "title": "",
+  "body": "A mass of 2 kg is placed against the end of spring compressed a distance of 50 cm as shown in the figure below. The system is released, the mass moves horizontally a total distance of 1 meter over a surface with a coefficient of kinetic friction of 0.2, slides up a smooth ramp of radius 25 cm, and then flies straight up a distance of 25 cm above the top of the ramp.    What is the equation for the total energy of the mass when it starts out?  What is the equation for the total energy of the mass when it reaches its highest point?  What is the equation for the amount of energy dissipated by friction?  What is the relationship between the above quantities?  What are the additional equations are needed to find the spring constant of the spring?  Where is the mass when it reaches its maximum speed?  What are the additional equations needed to find the maximum speed of the mass?  After the mass comes back down, where does it finally come to rest?   "
+},
+{
+  "id": "exercise-126",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-126",
+  "type": "Exercise",
+  "number": "5.6.14",
+  "title": "",
+  "body": "A ball of mass 1 kg is dropped from a height of 2 m onto a spring of force constant 500 N\/m. What is the maximum speed attained by the ball? "
+},
+{
+  "id": "exercise-127",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-127",
+  "type": "Exercise",
+  "number": "5.6.15",
+  "title": "",
+  "body": "A portion of a roller coaster is shaped like a sine wave according to the equation where A = 50 ft and k = 0.04\/ft. Assume that friction consumes approximately 10\\% of the energy as the coaster moves from the high point to the next low point and that the coaster is moving at 10 ft\/s at the top, find the speed of the coaster at the bottom. "
+},
+{
+  "id": "exercise-128",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-128",
+  "type": "Exercise",
+  "number": "5.6.16",
+  "title": "",
+  "body": "A rocket of mass 5 kg accelerates upward at a constant 4 g's for 5 sec starting from rest. Assume the mass of the fuel is negligible so the mass of the rocket can be considered constant throughout the acceleration.  How much energy is imparted to the rocket during the first second?  How much energy is imparted to the rocket during the last second?  Is chemical energy that drives the rocket being expended at the same rate during the first second as during the last second?  Explain why answers a and b are not the same. Where does the extra energy go?   "
+},
+{
+  "id": "exercise-129",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-129",
+  "type": "Exercise",
+  "number": "5.6.17",
+  "title": "",
+  "body": "A small pellet of mass m = 0.2 kg starts from rest at position A and slides down the smooth surface of the cylinder to position B. The radius R = 0.8 m. Use conservation of energy to determine the magnitude of the pellet's velocity at position B if .   "
+},
+{
+  "id": "exercise-130",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-130",
+  "type": "Exercise",
+  "number": "5.6.18",
+  "title": "",
+  "body": "A spring gun has a spring constant of 200 N\/m and shoots a projectile of mass 500 g. If the spring is compressed a distance of 10 cm into the barrel of the gun and the friction force in the gun barrel is 4 N, how high will the projectile rise above the tip of the gun barrel if  the gun is shot straight up, and  if the gun is aimed at above the horizontal.   "
+},
+{
+  "id": "exercise-131",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-131",
+  "type": "Exercise",
+  "number": "5.6.19",
+  "title": "",
+  "body": "A rock of mass 200 g is placed in a sling and whirled in a vertical circle of radius 50 cm. The rock is released when traveling vertically and rises to a height of 4 m above its starting point.  What was the velocity of the rock when it was released from the sling?  What was the tension in each of the two strings of the sling immediately before the rock was released?  Assuming no energy is added to the rock while it is whirling in the circle, what was the velocity of the rock at the bottom of the circle?  What is the maximum force that the hand must exert on the sling to keep the rock going in its circle?  What is the minimum force required to keep the rock going in its circle?   "
+},
+{
+  "id": "exercise-132",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-132",
+  "type": "Exercise",
+  "number": "5.6.20",
+  "title": "",
+  "body": "An elevator lifts a load of 1000 lb to a height of 300 ft in 30 s.  What is the horsepower output of the motor running the elevator?  How many watts of electricity are required to run the motor?   "
+},
+{
+  "id": "exercise-133",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-133",
+  "type": "Exercise",
+  "number": "5.6.21",
+  "title": "",
+  "body": "A strongman sitting in the back of a motor boat of mass 2000 kg is holding a rope tied to the front of a canoe with its contents of 500 kg. The motor boat starts out towing the canoe and eventually attains a constant speed of 10 m\/s for a distance of 100 m. During that time the man feels a constant tension in the tow rope of 100 N.  How much energy does the man expend while towing the canoe?  How much energy does the motor boat expend while towing the canoe?  How much power is required to tow the canoe?  How much power is converted into heat through friction?   "
+},
+{
+  "id": "exercise-134",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-134",
+  "type": "Exercise",
+  "number": "5.6.22",
+  "title": "",
+  "body": "An electric motor starts revving up, consuming energy according to the equation , where .  How long does it take for the engine to consume 1000 J of energy?  What is the equation giving the power output of the motor?  How long does it take for the motor to develop a power output of 1 hp?   "
+},
+{
+  "id": "exercise-135",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-135",
+  "type": "Exercise",
+  "number": "5.6.23",
+  "title": "",
+  "body": "The power required to move an object is , where is the time and the constant . How much energy is required to move the object during the first 4 seconds? "
+},
+{
+  "id": "exercise-136",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-136",
+  "type": "Exercise",
+  "number": "5.6.24",
+  "title": "",
+  "body": "A simple machine requires a force of 3 N moving through a distance of 4 m to lift a weight of 10 N through a height of 1 m.  What is the AMA of the machine?  What is the IMA of the machine?  What is the efficiency of the machine?   "
+},
+{
+  "id": "exercise-137",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-137",
+  "type": "Exercise",
+  "number": "5.6.25",
+  "title": "",
+  "body": "The pulley system shown at right requires a tension of 10 lb to lift a weight of 30 lb.  What is the actual mechanical advantage of the machine?  If there were no friction in the machine, how much weight could the 10 lb force lift?  What is the ideal mechanical advantage of the machine?  How far must the free end of the rope move in order to lift the weight 3 ft?  What is the efficiency of the pulley system?   "
+},
+{
+  "id": "exercise-138",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-138",
+  "type": "Exercise",
+  "number": "5.6.26",
+  "title": "",
+  "body": "A lever system has a AMA = 9 and an IMA = 10. How much work would be required to use this machine to lift a 200 lb weight a height of 2 ft? "
+},
+{
+  "id": "exercise-139",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-139",
+  "type": "Exercise",
+  "number": "5.6.27",
+  "title": "",
+  "body": "The belt on an automobile engine transfers power from the engine pulley to the alternator pulley.  If the diameter of the engine pulley is 15 cm and that of the alternator pulley is 10 cm, what is the IMA of the pulley system?  If the AMA of the pulley system is 0.6, what is the efficiency of the pulley system?  If the energy conversion from mechanical energy to electrical energy in the alternator is , how much power must the motor deliver in order to generate 50 Watts of electrical power?   "
+},
+{
+  "id": "exercise-140",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-140",
+  "type": "Exercise",
+  "number": "5.6.28",
+  "title": "",
+  "body": "Find the value of IMA for the given figure.   "
+},
+{
+  "id": "exercise-141",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-141",
+  "type": "Exercise",
+  "number": "5.6.29",
+  "title": "",
+  "body": "  A force of 1000 N is applied to an object that travels a distance of 10 m in 3 s. What is the impulse of the force?  A force rises linearly from zero to 106 Newtons in two milliseconds and then decreases linearly back to zero in the next two milliseconds. What is the total impulse of that force.  A force is described mathematically by the equation , where and t is expressed in seconds and ranges from zero to 2 seconds. What is the impulse of this force?   "
+},
+{
+  "id": "exercise-142",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-142",
+  "type": "Exercise",
+  "number": "5.6.30",
+  "title": "",
+  "body": "A 500 g hammer traveling at 30 m\/s hits a nail driving it into a block of wood during a period of time of 1 ms.  What is the change in momentum of the hammer if it does not bounce?  What is the change in momentum of the hammer if it bounces back at 20 m\/s?  What is the average force stopping the hammer if it doesn't bounce?  What is the average force if it bounces back at 20 m\/s?  Use energy considerations to find out how far the nail moves in each case.   "
+},
+{
+  "id": "exercise-143",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-143",
+  "type": "Exercise",
+  "number": "5.6.31",
+  "title": "",
+  "body": "A block of mass 2 kg moving at 10 m\/s collides with a second mass of 1 kg at rest. How fast does each mass move afterward  if the collision is perfectly inelastic, and  if the collision is perfectly elastic.   "
+},
+{
+  "id": "exercise-144",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-144",
+  "type": "Exercise",
+  "number": "5.6.32",
+  "title": "",
+  "body": "A ball is dropped from a height of 2 m and rebounds to a height of 1.5 m.  What is the coefficient of restitution between the ball and the table?  How high would a superball bounce if its coefficient of restitution is 0.95?   "
+},
+{
+  "id": "exercise-145",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-145",
+  "type": "Exercise",
+  "number": "5.6.33",
+  "title": "",
+  "body": "A block of mass 1 kg moving to the right with a speed of 1 m\/s strikes a second block of mass 2 kg moving to the left with a speed of 2 m\/s. The first mass bounces back with a speed of 2 m\/s.  What is the velocity (magnitude and direction) of the second mass after the collision?  What is the coefficient of restitution of the collision?  How much energy was lost during the collision?   "
+},
+{
+  "id": "exercise-146",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-146",
+  "type": "Exercise",
+  "number": "5.6.34",
+  "title": "",
+  "body": "A machine gun shoots 3 times per second. Each bullet has a mass of 20 g and the muzzle velocity is 300 m\/s.  What is the momentum of each bullet?  What is the average recoil force acting on the machine gun?  If the gun is mounted on a 1,000 kg boat whose friction through the water is proportional to velocity according to the equation f = cv, where c = 10 kg\/s, then how fast could the machine gun make the boat travel across the water?   "
+},
+{
+  "id": "exercise-147",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-147",
+  "type": "Exercise",
+  "number": "5.6.35",
+  "title": "",
+  "body": "A block of mass 2 kg moving at right at 10 m\/s collides with a 4 kg block at rest. If the coefficient of restitution is 0.5,  what will be the velocity of each block after the collision?  How much energy is lost in the collision?  If the collision lasts 10 ms, what is the average force between the two blocks?   "
+},
+{
+  "id": "exercise-148",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-148",
+  "type": "Exercise",
+  "number": "5.6.36",
+  "title": "",
+  "body": "A pool ball traveling along the x-axis at strikes a second ball of equal mass and glances off at an angle of above the x-axis. If the collision is perfectly elastic,  what is the direction that the second ball moves after the collision?  What is the speed of each ball after the collision?   "
+},
+{
+  "id": "exercise-149",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-149",
+  "type": "Exercise",
+  "number": "5.6.37",
+  "title": "",
+  "body": "A bullet of mass 50 g traveling at 400 m\/s due north strikes a rock of mass 500 g at rest and ricochets off the rock going due east. The rock recoils in a direction west of north.  What is the speed of the ricochetting bullet?  What is the recoil speed of the rock?  How much energy was lost in the collision?  What was the coefficient of restitution between the bullet and the rock?   "
+},
+{
+  "id": "exercise-150",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-150",
+  "type": "Exercise",
+  "number": "5.6.38",
+  "title": "",
+  "body": "A car of mass 700 kg moving west at a speed of 72 km\/h makes an inelastic collisions with a truck initially moving northward. If the tangled mass of car and truck slides off in the north-west direction a distance of 10 m when the coefficient of friction is 0.8, what was  the mass of the truck,  its speed before the collision,  the energy loss during the collision,  the average force between the car and truck during an impact lasting 0.1 s, and  the amount the car\/truck combination is compressed?   "
+},
+{
+  "id": "exercise-151",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-151",
+  "type": "Exercise",
+  "number": "5.6.39",
+  "title": "",
+  "body": "A bullet of mass 0.1 kg moving horizontally passes through a wooden block of mass 10 kg initially at rest and looses 90\\% of its kinetic energy. The recoiling block slides a distance of 1 m on a horizontal surface of friction constant 0.3 before coming to rest. What was the initial speed of the bullet. "
+},
+{
+  "id": "exercise-152",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-152",
+  "type": "Exercise",
+  "number": "5.6.40",
+  "title": "",
+  "body": "A block of wood of mass 1 kg is balanced on the end of a pistol barrel and the pistol is fired. The block of wood flies upward a distance of 1 m with the bullet embedded inside. What is the muzzle velocity of the bullet if its mass is 10 g? "
+},
+{
+  "id": "exercise-153",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-153",
+  "type": "Exercise",
+  "number": "5.6.41",
+  "title": "",
+  "body": "A 0.1-kg mass of putty drops from a height of 1 m onto a platform of 1 kg setting on a spring of constant 100 N\/m. The putty sticks to the platform causing it to recoil downward and compress the spring. How much is the spring is compressed before it comes to rest again. "
+},
+{
+  "id": "exercise-154",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-154",
+  "type": "Exercise",
+  "number": "5.6.42",
+  "title": "",
+  "body": "A spherical ball of mass 1 kg and radius 3 cm is attached to a wire of length 2 m to form a pendulum. The top of the pendulum is attached to a wall near the top. The wire is pulled straight out horizontally and the ball is released from rest. The ball strikes the wall and rebounds a horizontal distance of 1 m. The wall is dented a distance of 1 cm.  What is the speed of the ball when it strikes the wall?  What is the speed of the ball when it leaves the wall?  How much energy did the ball lose?  What is the average force exerted by the ball on the wall?  What is the change in momentum of the ball?  How long was the ball in contact with the wall?   "
+},
+{
+  "id": "exercise-155",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-155",
+  "type": "Exercise",
+  "number": "5.6.43",
+  "title": "",
+  "body": "A 500 N boy sitting in a stationary 90 N wagon is start throwing bricks out of the wagon. If the boy has three bricks weighing 45 N each and throws them with a horizontal velocity of $3 m\/s$ relative to the wagon, determine the velocity he attains  if he throws the bricks one at a time and  if he throws them all at once.   "
+},
+{
+  "id": "exercise-156",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-156",
+  "type": "Exercise",
+  "number": "5.6.44",
+  "title": "",
+  "body": "A bullet of mass m penetrates a block of mass M lying on a frictionless table. If the initial velocity of bullet is and it exits form the block with velocity , find the time taken by the block to fly off the table if it is at a distance L from the edge of the table. If the table has a height h how far from the edge of the table will it land? "
+},
+{
+  "id": "subsec-accl_grav",
   "level": "1",
-  "url": "sec_sixth-intro.html",
-  "type": "Section",
-  "number": "6.1",
-  "title": "Newton’s Law of Gravitation",
-  "body": " Newton's Law of Gravitation      "
+  "url": "subsec-accl_grav.html",
+  "type": "Subsection",
+  "number": "6.1.1",
+  "title": "Acceleration Due to Gravity, <span class=\"process-math\">\\(g\\)<\/span>",
+  "body": " Acceleration Due to Gravity,        From Newton's II law of motion, when an external unbalanced force acts on an object, it will give an acceleration to that object, that is, . But, if the gravitational force is acting on the body near the surface of the earth, then the body experiences the acceleration for a freely falling body. This force is called weight of the body, . Hence, Where and are the mass of earth, mass of a body on the surface of the earth, and the radius of the earth, respectively. The shape of earth is not a perfect sphere, rather, it is an oblate spheroid. That is, the radius of the earth at the equator is slightly greater than the radius of the earth at the poles as shown in figure . Hence the value of varies slightly with latitude on the surface of the earth as since G and M are constants. The value of The mean value of Even though the variation in the radius of the earth seems quite small, the variation in the acceleration due to gravity on the earth goes from as low as at the equator to as high as at the north Pole.    Effect of the Rotation of the Earth on g      The value of on the surface of the earth does not only vary with the radius of the earth but it is also affected by the rotation of the earth. Any mass rotating in a circular motion needs a centripetal force which is acting towards the center of the circular path. Remember that a centripetal force is not a real force that is acting on a rotating body, but it is the required force that must be applied to keep the body in that rotational motion. Hence the part of gravitational force must be acting on a body to provide a necessary centripetal force to keep that object moving on a circle with the rotation of the earth as shown in figure .  Since the centripetal force required by the mass m to follow a circle of radius r, then this force must be provided by the vector difference in force of gravity and a real force , i.e.,   The magnitude of can be found by   where R is the radius of the earth, and the acceleration due to gravity on a non-rotating earth is     Effect of Altitude of the Earth on g      Acceleration due to gravity on the surface of the earth is given by At height from the surface of the earth [Figure ], acceleration due to gravity is given by  using binomial theorem     Effect of Depth of the Earth on g      Acceleration due to gravity on the surface of the earth is given by where mass of the entire earth, At depth from the surface of the earth, mass of the earth [Figure ]. Therefore the acceleration due to gravity at that depth is given by      "
+},
+{
+  "id": "NLG2",
+  "level": "2",
+  "url": "subsec-accl_grav.html#NLG2",
+  "type": "Figure",
+  "number": "6.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG3",
+  "level": "2",
+  "url": "subsec-accl_grav.html#NLG3",
+  "type": "Figure",
+  "number": "6.1.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG4",
+  "level": "2",
+  "url": "subsec-accl_grav.html#NLG4",
+  "type": "Figure",
+  "number": "6.1.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG5",
+  "level": "2",
+  "url": "subsec-accl_grav.html#NLG5",
+  "type": "Figure",
+  "number": "6.1.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-grav_pot",
+  "level": "1",
+  "url": "subsec-grav_pot.html",
+  "type": "Subsection",
+  "number": "6.1.2",
+  "title": "Gravitational Potential Energy, U",
+  "body": " Gravitational Potential Energy, U      The gravitational potential energy of a body is work required to bring that body from infinity to the particular position in a gravitational field. Let a body of mass is displaced without acceleration by a distance against the force of gravity, then work done by the external force is given by If a body is displaced from a position of distance to a position at distance against the gravity [Figure ], then  Hence work done by the gravity, (or the gravitational potential energy) is given by If a body is brought from infinity to any point at a distance in the gravitational field then, In calculus form, potential energy is defined as where is a conservative foece, and therefore force can be written as   "
+},
+{
+  "id": "NLG6",
+  "level": "2",
+  "url": "subsec-grav_pot.html#NLG6",
+  "type": "Figure",
+  "number": "6.1.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-orb_vel",
+  "level": "1",
+  "url": "subsec-orb_vel.html",
+  "type": "Subsection",
+  "number": "6.1.3",
+  "title": "Orbital Velocity of a Satelite",
+  "body": " Orbital Velocity of a Satelite      The velocity of a satellite in its orbit around the planet is called the orbital velocity, . To move in a circular track an object must need a centripetal force which is provided by the force of gravity between the object and the planet. i.e.,  Where , , and are distance of a satellite (object), mass of a satellite, and mass of the planet, respectively. is radius of the planet, is universal gravitational constant, and is the altitude of the satellite from the surface of the planet.  "
+},
+{
+  "id": "NLG7",
+  "level": "2",
+  "url": "subsec-orb_vel.html#NLG7",
+  "type": "Figure",
+  "number": "6.1.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-esc_vel",
+  "level": "1",
+  "url": "subsec-esc_vel.html",
+  "type": "Subsection",
+  "number": "6.1.4",
+  "title": "Escape Velocity",
+  "body": " Escape Velocity      The minimum velocity of an object with which it can be thrown out from the planet so that it never come back is known as escape velocity. Suppose a stone of mass is thrown out from a planet with a velocity so that it never fall back on the earth again, then the total energy of the stone on the planet, is equal to total energy of the stone at infinity,    Where , , and are distance of a satellite (object), mass of a satellite, and mass of the planet, respectively. Here is radius of the planet, is universal gravitational constant, and is the altitude of the satellite from the surface of the planet. If radius of the earth, and mass of the earth is , then    "
+},
+{
+  "id": "NLG8",
+  "level": "2",
+  "url": "subsec-esc_vel.html#NLG8",
+  "type": "Figure",
+  "number": "6.1.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-geo_sync",
+  "level": "1",
+  "url": "subsec-geo_sync.html",
+  "type": "Subsection",
+  "number": "6.1.5",
+  "title": "Geosynchronous satellite",
+  "body": " Geosynchronous satellite      A geosynchronous satellite orbits the earth in such a way that it reaches at the same point above the earth in every 24 hours. It orbits in a polar orbit. The special kind of geosynchronous satellite is called geostationary satellite which seems to be at rest at the same position above the earth. It takes an equatorial orbit. The only force which provides the necessary centripetal force of such satellite is the gravitational force. Such satellites are used for weather forecasting and signal transmission. Where  and are mass, orbital velocity, and the orbital radius of the satellite, respectively. Also Where is orbiting time period of satellite. From eqns. and , we have - Since the angular speed of satellite in its orbit must be the same as that of the earth about its axis, the orbiting time period of satellite must be equal to 1 day. Therefore,  A geostationary satellite must orbit at a distance of about 36000 km above the surface of the earth, [ ].  "
+},
+{
+  "id": "NLG9",
+  "level": "2",
+  "url": "subsec-geo_sync.html#NLG9",
+  "type": "Figure",
+  "number": "6.1.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-periap",
+  "level": "1",
+  "url": "subsec-periap.html",
+  "type": "Subsection",
+  "number": "6.2.1",
+  "title": "Periapsis and Apoapsis:",
+  "body": " Periapsis and Apoapsis:  The asymmetric position of a massive object within the elliptical orbit renders the orbiting object moves in a varying distance from the massive object. The distance of closest approach is called the periapsis and the distance of maximum separation, is called the apoapsis. For the earth around the sun perihelion is the distance of closest approach and \"aphelion\" is distance of the maximum separation (helio means sun in Greek) [Figure ]. For earth-moon system, \"perigee\" is the distance of closest approach and \"apogee\" is distance of the maximum separation (gee means earth in Greek).   Derivation of Kepler's III law using Newton's law of gravitation:  A planet moving around a circular path needs a centripetal force which is provided by the force of attraction between the planet and the sun. where and are the mass of the sun, mass of the planet, and radius of a circular path, respectively. But, the velocity of the planet in the orbit is given by where is the time period of revolution of the planet around the sun.       Derivation of Kepler's II law  If planet is considered at very close to the semimajor axis, so that point is very close to point , then from [figure ], we have - where height = and base = for the triangle. For small time consider angle subtends by the earth is Now, angular momentum of the planet,   since angular momentum of a planet in an orbit and its mass remains constant.    Derivation of Kepler's I law          Now,   Let so that Also, Now, Therefore from eqn ,     This is second order linear differential equation with constant coefficient. The solution of which can be given as It is a solution for a simple harmonic motion equation. Set the coordinate in such a way that and hence   where Eqn. is the general form of an ellipse in polar coordinates, with the origin placed at a focus. In solid state geometry, the parameter is often called the eccentricity. When the eccentricity of a planet's orbit is zero, the orbit is perfectly circular. The curve is an ellipse, a parabola, or a hyperbola, according as its  or   where is a semi-major axis of the ellipse, at apoapsis, and at periapsis    "
 },
 {
   "id": "sec_sixth-examples",
   "level": "1",
   "url": "sec_sixth-examples.html",
   "type": "Section",
-  "number": "6.2",
+  "number": "6.3",
   "title": "Examples",
-  "body": " Examples  "
+  "body": " Examples    Consider the mass distribution shown at right. What is the magnitude and direction of initial acceleration of the 4 kg mass if all of the masses are released from rest out in space?        "
+},
+{
+  "id": "example-105",
+  "level": "2",
+  "url": "sec_sixth-examples.html#example-105",
+  "type": "Example",
+  "number": "6.3.1",
+  "title": "",
+  "body": "  Consider the mass distribution shown at right. What is the magnitude and direction of initial acceleration of the 4 kg mass if all of the masses are released from rest out in space?       "
 },
 {
   "id": "ex_sixth",
   "level": "1",
   "url": "ex_sixth.html",
   "type": "Exercises",
-  "number": "6.3",
+  "number": "6.4",
   "title": "Exercise",
-  "body": "  Exercise   "
+  "body": "  Exercise  An asteroid 1 mi in diameter of density enters the earth's gravity when it is at rest with respect to the solar system.  What is the speed of the asteroid with respect to the earth before entering the earth's gravity?  What is the speed of the asteroid when it hits the surface of the earth?  What is the energy of the asteroid when it hits the earth's surface?  How does this compare with the amount of solar energy which hits the surface of the earth every day if the solar constant is ?    "
 },
 {
-  "id": "exercise-114",
+  "id": "exercise-157",
   "level": "2",
-  "url": "ex_sixth.html#exercise-114",
+  "url": "ex_sixth.html#exercise-157",
   "type": "Exercise",
-  "number": "6.3.1",
+  "number": "6.4.1",
   "title": "",
-  "body": ""
+  "body": "An asteroid 1 mi in diameter of density enters the earth's gravity when it is at rest with respect to the solar system.  What is the speed of the asteroid with respect to the earth before entering the earth's gravity?  What is the speed of the asteroid when it hits the surface of the earth?  What is the energy of the asteroid when it hits the earth's surface?  How does this compare with the amount of solar energy which hits the surface of the earth every day if the solar constant is ?   "
 },
 {
-  "id": "sec_seventh-intro",
+  "id": "subsec-rwep",
   "level": "1",
-  "url": "sec_seventh-intro.html",
-  "type": "Section",
-  "number": "7.1",
-  "title": "Moment of Inertia",
-  "body": " Moment of Inertia      "
+  "url": "subsec-rwep.html",
+  "type": "Subsection",
+  "number": "7.1.1",
+  "title": "Rotational Work, Energy, and Power",
+  "body": " Rotational Work, Energy, and Power    "
+},
+{
+  "id": "subsec-",
+  "level": "1",
+  "url": "subsec-.html",
+  "type": "Subsection",
+  "number": "7.2.1",
+  "title": "",
+  "body": "    "
 },
 {
   "id": "sec_seventh-examples",
   "level": "1",
   "url": "sec_seventh-examples.html",
   "type": "Section",
-  "number": "7.2",
+  "number": "7.3",
   "title": "Examples",
   "body": " Examples  "
 },
@@ -2615,36 +3713,99 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ex_seventh.html",
   "type": "Exercises",
-  "number": "7.3",
+  "number": "7.4",
   "title": "Exercise",
   "body": "  Exercise   "
 },
 {
-  "id": "exercise-115",
+  "id": "exercise-158",
   "level": "2",
-  "url": "ex_seventh.html#exercise-115",
+  "url": "ex_seventh.html#exercise-158",
   "type": "Exercise",
-  "number": "7.3.1",
+  "number": "7.4.1",
   "title": "",
   "body": ""
 },
 {
-  "id": "ch_eigth",
+  "id": "sec_eigth-intro",
   "level": "1",
-  "url": "ch_eigth.html",
-  "type": "Chapter",
-  "number": "8",
-  "title": "Elasticity",
-  "body": " Elasticity       "
+  "url": "sec_eigth-intro.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "Hooke’s Law",
+  "body": " Hooke's Law      "
 },
 {
-  "id": "ch_ninth",
+  "id": "sec_ninth-intro",
   "level": "1",
-  "url": "ch_ninth.html",
-  "type": "Chapter",
-  "number": "9",
-  "title": "Fluid Mechanics",
-  "body": " Fluid Mechanics       "
+  "url": "sec_ninth-intro.html",
+  "type": "Section",
+  "number": "9.1",
+  "title": "States of Equilibrium",
+  "body": " States of Equilibrium   There are three states of equilibrium:                      Stable equilibrium: The body is said to be in stable equilibrium if its center of gravity lies below lowest possible position. A funnel standing vertically on its base on the table is in stable equilibrium [ ]. If the funnel is tilted a little bit against any side and then allowed to fall, it will come back to its original position. When the funnel is tilted against any side its center of gravity is raised [ ]. The line of action of weight passes through the base of the funnel. As long as the line of action of weight remains inside the base area funnel will come back to the original position. A torque due to weight of the funnel brings it back to the original position. For the funnel to tip over the line of action of the weight arrow will have to form a clockwise moment (or to pass outside the point of support). The funnel needs to have been pushed a lot for tip over. Some examples of stable equilibrium are bodies lying on the floor such as chair, table, book, etc. If a system in stable equilibrium is disturbed slightly, it oscillates around that state first but eventually settles down in exactly the same position as it started [ ]. It does this because its center of gravity is already at the lowest possible position.                      Unstable equilibrium: The body is said to be in unstable equilibrium if the center of gravity of a body lies above the highest possible position. A funnel standing vertically on its stem on the table [ ] is in unstable equilibrium. If the funnel standing vertically is slightly disturbed from its position it will not come back to its original position rather fall down on the surface of table. when the funnel is slightly disturbed its center of gravity is lowered [ ]. The line of action of its weight lies outside the base of stem. The torque due to weight of the rod toppled it down. Other examples of unstable equilibrium are vertically standing cylinder and pencil etc. An unstable system moves away from its original equilibrium state when disturbed. It wants to move away from the original position as soon as it has been disturbed [ ]. It does this because its center of gravity is higher in this state and when disturbed the center of gravity continues to move to a lower position (a more stable one).                      Neutral equilibrium: The body is said to be in neutral equilibrium if the center of gravity of a body is at optimal position it is neither lowered nor is raised up. The object with lower center of gravity is more stable than the one with the higher center of gravity. A funnel lying horizontally on its side at rest on the surface of a table [ ] is in natural equilibrium. If a funnel is pushed slightly to roll, it will neither come back to its original position nor it will roll forward rather it will remain at rest. If the funnel is rolled, its center of gravity is neither raised nor lowered [ ]. This means that its center of gravity is at the same height as before. A neutral system is one where the center of gravity of the system is always at the same level. If it has been disturbed slightly it will therefore settle in the new position without a need to move further on or to move back [ ]. For example, a rolling ball lying on the table.     "
+},
+{
+  "id": "figure-116",
+  "level": "2",
+  "url": "sec_ninth-intro.html#figure-116",
+  "type": "Figure",
+  "number": "9.1.1",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-747",
+  "level": "2",
+  "url": "sec_ninth-intro.html#p-747",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Stable equilibrium: "
+},
+{
+  "id": "figure-120",
+  "level": "2",
+  "url": "sec_ninth-intro.html#figure-120",
+  "type": "Figure",
+  "number": "9.1.2",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-748",
+  "level": "2",
+  "url": "sec_ninth-intro.html#p-748",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Unstable equilibrium: "
+},
+{
+  "id": "figure-124",
+  "level": "2",
+  "url": "sec_ninth-intro.html#figure-124",
+  "type": "Figure",
+  "number": "9.1.3",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-749",
+  "level": "2",
+  "url": "sec_ninth-intro.html#p-749",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Neutral equilibrium: "
+},
+{
+  "id": "sec_ninth-examplesC",
+  "level": "1",
+  "url": "sec_ninth-examplesC.html",
+  "type": "Section",
+  "number": "9.2",
+  "title": "Examples C",
+  "body": " Examples C  "
 },
 {
   "id": "ch_tenth",

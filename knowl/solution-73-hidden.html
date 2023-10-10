@@ -10,63 +10,43 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="robots" content="noindex, nofollow">
 </head>
-<body class="ignore-math"><div class="solution solution-like"><div class="para logical">
-<div class="para">Given: <span class="process-math">\(L=1m,\quad w_{1}=10N, \quad w_{2}=20N, \quad x=0.5m,\)</span> <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/rd6b.png" class="contained"></div>
+<body class="ignore-math"><div class="solution solution-like"><div class="para logical"><ol class="upper-alpha">
+<li><div class="para">List given quantities <span class="process-math">\(w_{1} = 400 N, \quad w_{2} = 400 N, \quad\theta = 30^{o}, \quad L = 2 m\text{.}\)</span>
+</div></li>
+<li>Draw the forces acting on the beam and resolve them into components. <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/rd5a.png" class="contained"></div>
+</li>
+<li><div class="para">Choose an axis and specify the perpendicular distances from each line of action to that axis.</div></li>
+<li><div class="para">Write equations:<div class="displaymath process-math">
+\begin{equation*}
+\sum F_{x} = T \cos\theta - F_{x} = 0 
+\end{equation*}
+</div>and<div class="displaymath process-math">
+\begin{equation*}
+\sum F_{y} = F_{y}+T \sin\theta - w_{1}-w_{2} = 0
+\end{equation*}
 </div>
 <div class="displaymath process-math">
+\begin{align*}
+\sum \Gamma \amp  = -w_{1}\frac{(L\cos\theta)}{2}- w_{2}(L\cos\theta)+(T\cos\theta)(L\sin\theta) \\
+\amp  + (T\sin\theta)(L\cos\theta) = 0 
+\end{align*}
+</div>
+</div></li>
+<li><div class="para">Solve to get answers:<div class="displaymath process-math">
 \begin{equation*}
-\frac{S}{L} =\frac{3}{4}; 
+T=\frac{(\frac{w_{1}}{2}+w_{2})L\cos\theta}{2L\sin\theta\cos\theta} =500N;
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\cos\theta =\frac{x}{L} = \frac{0.5m}{1m} =0.5 
+F_{x}=T\cos\theta =433N;
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore\quad \theta=60^{o}
+F_{y}=w_{1}+w_{2}-T\sin\theta =450N 
 \end{equation*}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\sum F_{x} = f-N_{2}=0
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{and}\quad \sum F_{y} = N_{1}-w_{1}-w_{2}=0
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\sum \Gamma  = f\cdot 0+N_{2}L\sin\theta - N_{1}\cdot 0-w_{1}\cdot \frac{x}{2} -w_{2}\left(\frac{S}{L}\right)\cos\theta=0
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{but}\quad f=\mu N_{1}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{hence,}\quad N_{2}.1.\frac{\sqrt{3}}{2} =10(0.25)+20(\frac{3}{4})(0.5)
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-or,\quad N_{2}=11.547 N
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{and}\quad f=N_{2}=11.547 N; N_{1}=w_{1}+w_{2}=10+20=30N
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore\quad \mu=\frac{f}{N_{1}}=\frac{11.547N}{30N} = 0.385
-\end{equation*}
-</div>
-</div></div></body>
+</div></li>
+</ol></div></div></body>
 </html>
