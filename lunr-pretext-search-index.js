@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Preface",
-  "body": " Principles of physics uses calculus as a tool to correlate physical theories to mathematical equations to learn physics. This book is a concise form of my lecture notes which I have been delivering in introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students during other courses, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes and ten chapters that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. Volume I contains the Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  Volume II contains Electricity, Magnetism, Simple Harmonic Motion, Waves, Acoustics, and Optics . These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted -- Author   "
+  "body": " Principles of physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students as a regular practice, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes and ten chapters that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. This a Volume I designeted as PHYS211 that contains the Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  Volume II designeted as PHYS212 contains Electricity, Magnetism, Simple Harmonic Motion, Waves, Acoustics, and Optics . These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted. -- Author   "
 },
 {
   "id": "p-4",
@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Volume I Volume II "
+  "body": "Volume I PHYS211 Volume II PHYS212 "
 },
 {
   "id": "subsec_dimanal-subsection",
@@ -1591,7 +1591,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Examples A",
-  "body": " Examples A    What is the tension in each of the strings of the system shown here:       Step 1. List the given quantities and label the diagram:     Step 2. Isolate each object and draw the force diagrams:           Step 3. Resolve forces into components as shown in figure:     Step 4. Write equations using the figure    from figure   from figure      Step 5. Solve equations simultaneously for unknowns:           Find the tension in each of the strings of the system below if the weight and the angle .      From figures below         from eqns. , , and , we have       A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N.  What is the frictional force exerted by the wall on the block?  What is the minimum horizontal force needed to prevent the block from sliding down the wall if the coefficient of static friction between the wall and the block is ?      Given:                  Draw force (free-body) diagrams for the bodies shown in the figure below:                  "
+  "body": " Examples A    What is the tension in each of the strings of the system shown here:       Step 1. List the given quantities and label the diagram:     Step 2. Isolate each object and draw the force diagrams:           Step 3. Resolve forces into components as shown in figure:     Step 4. Write equations using the figure      from figure   from figure      Step 5. Solve equations simultaneously for unknowns:           Find the tension in each of the strings of the system below if the weight and the angle .      From figure         from eqns. , , and , we have       A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N.  What is the frictional force exerted by the wall on the block?  What is the minimum horizontal force needed to prevent the block from sliding down the wall if the coefficient of static friction between the wall and the block is ?        Given:                Draw force (free-body) diagrams for the bodies shown in the figure below:                  "
 },
 {
   "id": "example-50",
@@ -1600,7 +1600,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.1",
   "title": "",
-  "body": "  What is the tension in each of the strings of the system shown here:       Step 1. List the given quantities and label the diagram:     Step 2. Isolate each object and draw the force diagrams:           Step 3. Resolve forces into components as shown in figure:     Step 4. Write equations using the figure    from figure   from figure      Step 5. Solve equations simultaneously for unknowns:        "
+  "body": "  What is the tension in each of the strings of the system shown here:       Step 1. List the given quantities and label the diagram:     Step 2. Isolate each object and draw the force diagrams:           Step 3. Resolve forces into components as shown in figure:     Step 4. Write equations using the figure      from figure   from figure      Step 5. Solve equations simultaneously for unknowns:        "
 },
 {
   "id": "example-51",
@@ -1609,7 +1609,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.2",
   "title": "",
-  "body": "  Find the tension in each of the strings of the system below if the weight and the angle .      From figures below         from eqns. , , and , we have    "
+  "body": "  Find the tension in each of the strings of the system below if the weight and the angle .      From figure         from eqns. , , and , we have    "
 },
 {
   "id": "example-52",
@@ -1618,7 +1618,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.3",
   "title": "",
-  "body": "  A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N.  What is the frictional force exerted by the wall on the block?  What is the minimum horizontal force needed to prevent the block from sliding down the wall if the coefficient of static friction between the wall and the block is ?      Given:               "
+  "body": "  A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N.  What is the frictional force exerted by the wall on the block?  What is the minimum horizontal force needed to prevent the block from sliding down the wall if the coefficient of static friction between the wall and the block is ?        Given:             "
 },
 {
   "id": "example-53",
@@ -1855,9 +1855,9 @@ var ptx_lunr_docs = [
   "body": " Center of Mass   The center of mass of a system of particles is a point in space at which the net mass of the system seems to be located. It is the mean position of the mass of a system or a body. Center of gravity is an imaginary point in a body where the entire weight of the body may be assumed to be concentrated or it is a point at which the gravity appears to act. In a uniform gravitational field the center of gravity is identical to the center of mass, but they do not coincide in a non-uniform gravitational field. Imagine that you are lying horizontally in space above the planet where you are experiencing a greater gravitational field strength towards your head than towards your feet, then your center of gravity is located somewhere near your shoulder rather than your belly button (i.e. navel or your center of mass). The center of gravity (or center of mass) may coincide with a geometric center of the body if it has a uniform mass distribution and possess symmetrical shape. An asymmetrical object composed of a variety of materials with different masses, however, has a center of gravity located at some distance from its geometric center. In some cases, such as hollow bodies or irregularly shaped objects, the center of gravity (or center of mass) may occur in space at a point external to the physical material. For example, the center of mass of binary stars lies between the stars and in the center of a tennis ball.      The center of (mass) gravity (point ) of any body can be determined by suspending the body by a cord attached at point and then by a cord attached at . When the body is suspended from , the line is vertical; when it is suspended from , the line is vertical. The center of gravity is at the intersection of and [ ]. When an object is suspended from any single point, its center of gravity lies directly beneath that point. For a group of discrete masses the location of center of mass can be defined as: Vector position of center of mass.  or, or equivalently      Problem Solving Technique: To determine the center of mass of a uniformly distributed body, one performs the following steps:  Break the body down into its constituent parts.  Specify the length, area, or volume of each constituent part.  Locate the coordinates of the center of mass of each constituent part.  Utilize the equations shown above using length, area, or volume in place of the mass. for a unifrom sheet  If an object has a uniform mass distribution (uniform density), then its geometric center is taken as center of mass.     "
 },
 {
-  "id": "p-405",
+  "id": "p-406",
   "level": "2",
-  "url": "sec_fourth-cm.html#p-405",
+  "url": "sec_fourth-cm.html#p-406",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1873,9 +1873,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-408",
+  "id": "p-409",
   "level": "2",
-  "url": "sec_fourth-cm.html#p-408",
+  "url": "sec_fourth-cm.html#p-409",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2503,9 +2503,9 @@ var ptx_lunr_docs = [
   "body": " Work   If an object is displaced along the same direction as the force is applied then the work is said to be done. If a force displaces a body to a distance along the direction of force then work can be calculated by . Work is a scalar quantity as it is a measure of transfer of energy from one object to another. The physical quantities which can be obtained by dot product of two vectors are scalar. The unit of work is joule in SI system, ; in FPS system, ft-lb = foot.pound; and in CGS system, erg = dyne.cm.               Suppose a block of mass is displaced to a distance along the horizontal direction by the application of force [ ]. If the force is acting along a direction to the horizontal, then work done by the force is given by The work done by a force is defined as the product of component of the force in the direction of displacement and the magnitude of displacement. Work in physics is different than our daily life work. Suppose you are pushing a rigid brick wall very hard, after some time you get exhausted because you lose your body energy. In our daily life we called this action as a work, but in physics this is not a work because the object did not displace from its position. Hence in physics, whether the force or the displacement is zero, there is no work. Depending upon the angle between the applied force and the displacement, work could be negative, positive, or zero. For example, work done by a frictional force, or work done by a force acting opposite to the motion of object, work done by a force acting parallel to the motion of object, and work done by a force acting perpendicular to the motion of object,   If a force displaces an object to a small distance where then work done by this force is given by If then   The terms like are area under the curve [ ]. The sum of these area between initial position to final position along each direction is equal to work done by a variable force F(r), such as force of spring.   "
 },
 {
-  "id": "p-524",
+  "id": "p-525",
   "level": "2",
-  "url": "subsec-work.html#p-524",
+  "url": "subsec-work.html#p-525",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2530,27 +2530,27 @@ var ptx_lunr_docs = [
   "body": " Energy   The capacity of doing work is known as energy. It is a scalar quantity and it's unit in SI system is Joule. Energy exists in many different forms, such as thermal energy, sound energy, electrical energy, magnetic energy, gravitational energy, chemical energy, mechanical energy, etc. The energy associated with the motion and position of an object is termed as mechanical energy. We focus our understanding here in mechanical energy. Mechanical energy is of two types, kinetic energy and potential energy. The kinetic energy is associated with the motion of the object and potential energy is associated with the position of the object with respect to some other object. For example: elastic potential energy due to a spring force, gravitational potential energy due to gravity, etc. The sum of kinetic and potential energy gives the total mechanical energy of the object.    Work-Energy Theorem  From equations of motion, we have where , , and are final velocity, initial velocity, acceleration, and distance covered by the particle, respectively. From Newton's second law of motion, we have - From eqns. and , we have -  Here the term is called final kinetic energy, , the term is called initial kinetic energy, , and the term is work done by a force. Hence, Which is known as work-energy theorem . It states that work done by a net force acting on a body is equal to the chnage in its kinetic energy.    Kinetic Energy:  It is the energy associated with a body during its motion. Suppose is the work done by a force on a body to displace it to a distance , then  The quantity is called the kinetic energy, i.e., Since this kinetic energy is associated with a body in translational motion, it is called a translational (linear) kinetic energy. The kinetic energy in rotational motion is called rotational kinetic energy which we will discuss in .    Potential Energy:  The energy stored in a body due to its position is known as potential energy. If work is done by a force to change the position of a body, then this work is stored in the body at that position in the form of potential energy. The restoring force plays a crucial role to acquire potential energy. For example, a charged particle near or far from another charge; a squashed or stretched rubber ball, a body above the surface of the earth. The potential energy of the body at any position is the work done against the restoring force in moving the body from the zero point (reference point) to that position. The reference point The zero point is so chosen that it could be infinitely far away. Such as at infinity, at the center of the earth, at sea level, at the floor, at the table top, or at any other point. This is because only potential energy differences between two positions are physically measurable and cannot depend on the a rbitrary choice of the zero point. (or, the zero point ) is the point where potential energy is assumed to be zero. If work has to be done on a body to take it to a new location, then the potential energy increases in the process. If the external force does the work then the potential energy change is negative.     Gravitational Potential Energy: Suppose a body of mass is lifted to a height against gravity without acceleration, then work done by the applied force, is given by This work is stored in the body in the form of gravitational potential energy. Hence when this body is released from the position the body drops down to the ground again. Therefore, the work done by the gravity to pull that object towards earth's surface is given by This is gravitational potential energy in a uniform gravitational field, . The gravitational potential energy due to two point masses is given by Where is the mass of an object at the origin, is the mass of an object at a radial distance from the origin and the zero point is chosen at infinity.     Elastic Potential Energy: When the body (or, spring) is compressed or stretched external force has to do the work, this work is stored in a body (or, spring) in the form of elastic potential energy. It is the energy due to work done by a restoring force. where is the restoring force [read for more details] , is elastic (or, spring) constant (it defines the stiffness of the spring), and is extension in the spring.    Since work done by a force in principle depends on the path taken by the body, (as can be seen in where is a frictional force), but if the force is conservative then work done is independent on the path taken by the body rather it depends on the initial and final position of the body [ ].   "
 },
 {
-  "id": "p-528",
+  "id": "p-529",
   "level": "2",
-  "url": "subsec-energy.html#p-528",
+  "url": "subsec-energy.html#p-529",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "work-energy theorem "
 },
 {
-  "id": "p-531",
+  "id": "p-532",
   "level": "2",
-  "url": "subsec-energy.html#p-531",
+  "url": "subsec-energy.html#p-532",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Gravitational Potential Energy: "
 },
 {
-  "id": "p-532",
+  "id": "p-533",
   "level": "2",
-  "url": "subsec-energy.html#p-532",
+  "url": "subsec-energy.html#p-533",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2611,18 +2611,18 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-538",
+  "id": "p-539",
   "level": "2",
-  "url": "subsec-ediagram.html#p-538",
+  "url": "subsec-ediagram.html#p-539",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "static equilibrium stable equilibrium "
 },
 {
-  "id": "p-540",
+  "id": "p-541",
   "level": "2",
-  "url": "subsec-ediagram.html#p-540",
+  "url": "subsec-ediagram.html#p-541",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2665,18 +2665,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-546",
+  "id": "p-547",
   "level": "2",
-  "url": "subsec-sm.html#p-546",
+  "url": "subsec-sm.html#p-547",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "lever "
 },
 {
-  "id": "p-548",
+  "id": "p-549",
   "level": "2",
-  "url": "subsec-sm.html#p-548",
+  "url": "subsec-sm.html#p-549",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2692,9 +2692,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-549",
+  "id": "p-550",
   "level": "2",
-  "url": "subsec-sm.html#p-549",
+  "url": "subsec-sm.html#p-550",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2710,9 +2710,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-550",
+  "id": "p-551",
   "level": "2",
-  "url": "subsec-sm.html#p-550",
+  "url": "subsec-sm.html#p-551",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2746,9 +2746,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-553",
+  "id": "p-554",
   "level": "2",
-  "url": "subsec-pulley.html#p-553",
+  "url": "subsec-pulley.html#p-554",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2764,22 +2764,13 @@ var ptx_lunr_docs = [
   "body": "                        "
 },
 {
-  "id": "p-554",
-  "level": "2",
-  "url": "subsec-pulley.html#p-554",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Single Fixed Pulley: "
-},
-{
   "id": "p-555",
   "level": "2",
   "url": "subsec-pulley.html#p-555",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "One Fixed and One Movable Pulley: "
+  "body": "Single Fixed Pulley: "
 },
 {
   "id": "p-556",
@@ -2788,12 +2779,21 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Two Fixed and One Movable Pulley: "
+  "body": "One Fixed and One Movable Pulley: "
 },
 {
   "id": "p-557",
   "level": "2",
   "url": "subsec-pulley.html#p-557",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Two Fixed and One Movable Pulley: "
+},
+{
+  "id": "p-558",
+  "level": "2",
+  "url": "subsec-pulley.html#p-558",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2806,7 +2806,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Examples A",
-  "body": " Examples A   Work    A man pushes a cart on a railway platform which has a rough surface. He applies a force of 100 N over a distance of 10 m. Thereafter, he gets tired and his force reduces gradually to 50 N. The total distance through which the cart has been moved is 20 m. Plot the force applied by the man and the frictional force of 50N versus displacement. Calculate the work done by the man and the frictional force.    Work done by a man = Area under the F-x curve. Therefore = Area of a rectangle I +Area of a trapezium II. Work done by a frictional force, = Area of a rectangle III.         Given the vectors and Find  the magnitude of each vector and  the angle between them.               or, or,           A force is described as , where and . Find the work done by this force along the straight line path    from (0,0) to (0,10m),  from (0,10m) to (5m, 10m),  from (0,0) to (5m, 10m).          Since along , , and .    Along path and . So      Along path c, and so Hence          A horizontal force of 1000 N moves a block of mass 100 kg along a horizontal plane in a straight line of length 2 m. If the block starts from rest and if the coefficient of friction is 0.2, how much work is done  by the force,  by gravity, and  by friction.  How fast will the block be moving when it gets to the other end of the plane?       Equations:                        Energy    A block of mass moving initially at slides across a horizontal table coming to rest after sliding .  What is the coefficient of sliding friction between block and table?  How much energy was converted into heat by friction?        Given:               Heat dissipation =           A 2-kg mass is dropped from a height of 1 m onto a spring of force constant 200 N\/m. Assuming the spring has no mass and there is no friction,  How far is the spring compressed?  What is the maximum speed attained by the mass?      Given:     From conservation of energy,        Where, lies above reference line hence get discarded.   Let be the new equilibrium position for mass and spring system. At point C,  Now, is new equilibrium position but spring is still compressed from its original length hence spring contains some potential energy. Therefore, energy at point B, = total energy at new mean position, .   On solving this equation, we get -         A spherical meteor of density and diameter falls onto the earth from a long distance.  How much energy would it have when it hit the earth?  How how fast would it hit the earth?  If this energy were used to boil water at the rate of , what volume of water would be vaporized?  How big a cube would this be?      Given:                                      A small mass of 0.8 kg is launched by a compressed spring with force constant, The block slides along a horizontal frictionless surface and then up an inclined plane that makes an angle with the horizontal. The coefficient of kinetic friction between the block and inclined plane is Find the maximum height, reached by the block.        Given:   Now from, we have - On inclined plane,          Alternative:        A spring-like trampoline dips down 0.07 m when a person stands on it. If this person jumps up to a height of 0.31 m above the top of the uncompressed trampoline, how far will the trampoline compress after the person lands on it?      On a person-trampoline system equilibrium, restoring force due to trmpoline balances the weight of a person, i.e.,   After the trampoline compressed to a depth when a person jumps from a height , we have from principle of conservation of energy           A block of mass 0.5 kg is pressed against a spring of spring constant 100 N\/m on a horizontal surface as shown in the figure below. The spring block system is compressed to a distance of 20 cm and then released. The block slides a total distance of 1 m before coming to rest.  What is the coefficient of sliding friction between block and surface?  What is the maximum speed the block attains throughout its motion?         Given:            At point before origin, frictional force and restoring force must be equal. Hence  Now, workdone on the block by a spring or a friction, At this point the block attains maximum speed.          A car of mass m in an amusement park ride rolls down a loop-the-loop track. If the car starts out at height h, rolls without friction, and makes a loop of radius R,  what is the minimum value of h that will allow the car to make the loop without falling off the track?  What is the speed of the car at the top of the loop?  What is the speed of the car at the bottom of the loop?  What is the speed of the car when it is located at a point level with the center of the loop?  How many g's of force do the passengers experience at that time?  What is the magnitude of the acceleration of the car at that time?                                     A small object is placed at the very top of a spherical ball of radius 1 m. If there is no friction between the object and the ball, the object is in unstable equilibrium and eventually will slide off the ball. How far will the object move downward before leaving the surface of the ball?      Given: .  Suppose the ball of mass is sliding down the sphere on a circular track. The necessary centripetal force is then provided by the radial component of its weight and the normal force. At the point where the ball leaves the sphere normal force must be zero, i.e.,    From the principle of conservation of energy, we have - Assume B is a point where ball leaves the sphere.     from eqn. .    [using radian formula] where and are the distance on the surface of sphere and depth below point at which the ball left the sphere.      Power    Work is done according to the equation in the MKS system. Find  W(2),     P(3).                        Power is expended according to the equation in the MKS system. Find  W(2),     P(3).                         An electrically powered conveyor belt 10 m long is tilted and used to lift bricks to the top of a building 5 m high. The belt will hold 100 bricks of mass 2 kg and makes one revolution every minute.  How long does it take to transport a given brick from the bottom of the belt to the top?  What is the minimum electrical power required to run the conveyor belt motor? (Also express answer in horsepower.)  What is the minimum force required to move the bricks up the incline?  If the coefficient of friction between belt and the surface that supports it is 0.3, what is the actual force required to move the bricks?  What is the AMA of this machine?  What is the IMA of this machine?  What is the efficiency of this machine?  What is the actual power required to operate the machine?      Given: rev\/min = 0.016667 Hz.                                          "
+  "body": " Examples A   Work    A man pushes a cart on a railway platform which has a rough surface. He applies a force of 100 N over a distance of 10 m. Thereafter, he gets tired and his force reduces gradually to 50 N. The total distance through which the cart has been moved is 20 m. Plot the force applied by the man and the frictional force of 50N versus displacement. Calculate the work done by the man and the frictional force.    Work done by a man = Area under the F-x curve. Therefore = Area of a rectangle I +Area of a trapezium II. Work done by a frictional force, = Area of a rectangle III.         Given the vectors and Find  the magnitude of each vector and  the angle between them.               or, or,           A force is described as , where and . Find the work done by this force along the straight line path    from (0,0) to (0,10m),  from (0,10m) to (5m, 10m),  from (0,0) to (5m, 10m).          Since along (0,0) to (0,10m), we have , , and .    Along path (0,10m) to (5m, 10m), we have and . So       Along path c, and so Hence          A horizontal force of 1000 N moves a block of mass 100 kg along a horizontal plane in a straight line of length 2 m. If the block starts from rest and if the coefficient of friction is 0.2, how much work is done  by the force,  by gravity, and  by friction.  How fast will the block be moving when it gets to the other end of the plane?       Equations:                        Energy    A block of mass moving initially at slides across a horizontal table coming to rest after sliding .  What is the coefficient of sliding friction between block and table?  How much energy was converted into heat by friction?        Given:               Heat dissipation =           A 2-kg mass is dropped from a height of 1 m onto a spring of force constant 200 N\/m. Assuming the spring has no mass and there is no friction,  How far is the spring compressed?  What is the maximum speed attained by the mass?      Given:     From conservation of energy,        Where, lies above reference line hence get discarded.   Let be the new equilibrium position for mass and spring system. At point C,  Now, is new equilibrium position but spring is still compressed from its original length hence spring contains some potential energy. Therefore, energy at point B, = total energy at new mean position, .   On solving this equation, we get -         A spherical meteor of density and diameter falls onto the earth from a long distance.  How much energy would it have when it hit the earth?  How how fast would it hit the earth?  If this energy were used to boil water at the rate of , what volume of water would be vaporized?  How big a cube would this be?      Given:                                      A small mass of 0.8 kg is launched by a compressed spring with force constant, The block slides along a horizontal frictionless surface and then up an inclined plane that makes an angle with the horizontal. The coefficient of kinetic friction between the block and inclined plane is Find the maximum height, reached by the block.        Given:   Now from, we have - On inclined plane,          Alternative:        A spring-like trampoline dips down 0.07 m when a person stands on it. If this person jumps up to a height of 0.31 m above the top of the uncompressed trampoline, how far will the trampoline compress after the person lands on it?      On a person-trampoline system equilibrium, restoring force due to trmpoline balances the weight of a person, i.e.,   After the trampoline compressed to a depth when a person jumps from a height , we have from principle of conservation of energy           A block of mass 0.5 kg is pressed against a spring of spring constant 100 N\/m on a horizontal surface as shown in the figure below. The spring block system is compressed to a distance of 20 cm and then released. The block slides a total distance of 1 m before coming to rest.  What is the coefficient of sliding friction between block and surface?  What is the maximum speed the block attains throughout its motion?         Given:            At point before origin, frictional force and restoring force must be equal. Hence  Now, workdone on the block by a spring or a friction, At this point the block attains maximum speed.          A car of mass m in an amusement park ride rolls down a loop-the-loop track. If the car starts out at height h, rolls without friction, and makes a loop of radius R,  what is the minimum value of h that will allow the car to make the loop without falling off the track?  What is the speed of the car at the top of the loop?  What is the speed of the car at the bottom of the loop?  What is the speed of the car when it is located at a point level with the center of the loop?  How many g's of force do the passengers experience at that time?  What is the magnitude of the acceleration of the car at that time?                                     A small object is placed at the very top of a spherical ball of radius 1 m. If there is no friction between the object and the ball, the object is in unstable equilibrium and eventually will slide off the ball. How far will the object move downward before leaving the surface of the ball?      Given: .  Suppose the ball of mass is sliding down the sphere on a circular track. The necessary centripetal force is then provided by the radial component of its weight and the normal force. At the point where the ball leaves the sphere normal force must be zero, i.e.,    From the principle of conservation of energy, we have - Assume B is a point where ball leaves the sphere.     from eqn. .    [using radian formula] where and are the distance on the surface of sphere and depth below point at which the ball left the sphere.      Power    Work is done according to the equation in the MKS system. Find  W(2),     P(3).                        Power is expended according to the equation in the MKS system. Find  W(2),     P(3).                         An electrically powered conveyor belt 10 m long is tilted and used to lift bricks to the top of a building 5 m high. The belt will hold 100 bricks of mass 2 kg and makes one revolution every minute.  How long does it take to transport a given brick from the bottom of the belt to the top?  What is the minimum electrical power required to run the conveyor belt motor? (Also express answer in horsepower.)  What is the minimum force required to move the bricks up the incline?  If the coefficient of friction between belt and the surface that supports it is 0.3, what is the actual force required to move the bricks?  What is the AMA of this machine?  What is the IMA of this machine?  What is the efficiency of this machine?  What is the actual power required to operate the machine?      Given: rev\/min = 0.016667 Hz.                                          "
 },
 {
   "id": "example-78",
@@ -2833,7 +2833,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.3.3",
   "title": "",
-  "body": "  A force is described as , where and . Find the work done by this force along the straight line path    from (0,0) to (0,10m),  from (0,10m) to (5m, 10m),  from (0,0) to (5m, 10m).          Since along , , and .    Along path and . So      Along path c, and so Hence       "
+  "body": "  A force is described as , where and . Find the work done by this force along the straight line path    from (0,0) to (0,10m),  from (0,10m) to (5m, 10m),  from (0,0) to (5m, 10m).          Since along (0,0) to (0,10m), we have , , and .    Along path (0,10m) to (5m, 10m), we have and . So       Along path c, and so Hence       "
 },
 {
   "id": "example-81",
@@ -2971,9 +2971,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-617",
+  "id": "p-618",
   "level": "2",
-  "url": "subsec-collision.html#p-617",
+  "url": "subsec-collision.html#p-618",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3652,7 +3652,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.3",
   "title": "Examples",
-  "body": " Examples    Consider the mass distribution shown at right. What is the magnitude and direction of initial acceleration of the 4 kg mass if all of the masses are released from rest out in space?        "
+  "body": " Examples    Consider the mass distribution shown at right. What is the magnitude and direction of initial acceleration of the 4 kg mass if all of the masses are released from rest out in space?      Given:    Equations:        The direction of resultant force is acting along below the x-axis, which is also the direction of resultant acceleration of mass 4 kg.       A satellite orbits the earth in a circular orbit at an altitude of 1000 mile.  What is its orbital speed?  How long does it take to complete one orbit?      Given:     Equations:        A rocket is launched straight up from the surface of the planet of mass and radius at twice the escape speed. What is the speed of the rocket far away from the planet?    Given:              A starship in a binary system is located a distance r from one star and a distance 2r from the other star. The starship wants to launch a deep space probe of mass m. The probe has no propulsion system of its own. What is the escape velocity from the starship's current location in the binary star system above?      From the energy conservation, total energy at starship = 0.  That is total potential energy at starship = kinetic energy for escaping the probe at starship.         Two satellites of equal masses m revolve around the planet of mass M. The planet's mass is much larger than the mass of the satellites, . The radii of the orbits of the satellites are r and 2r. The satellites are connected by a light string, directed along the radius of the orbit, that keeps their periods of revolution equal. Find the force of tension T in the string in terms of m, M, r, and G. What is the period of the satellites' orbit? Answer in terms of G, r, and M, and mathematical constants.      Let be the angular velocity of satelites, then centripetal force needed for first satelite is given by centripetal force needed for second satelite is given by  From eqns. and , we get -    Now, from eqn , and hence,        Two asteroids of masses M and m and radii R and r are at rest and isolated in space at a distance d apart. They begin drifting towards each other and smashed eventually. If M = 4m and R = 2r, find the velocity of the small asteroid just before it hits the big asteroid.    From conservation of momentum   Also from conservation on energy,          "
 },
 {
   "id": "example-105",
@@ -3661,7 +3661,52 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.3.1",
   "title": "",
-  "body": "  Consider the mass distribution shown at right. What is the magnitude and direction of initial acceleration of the 4 kg mass if all of the masses are released from rest out in space?       "
+  "body": "  Consider the mass distribution shown at right. What is the magnitude and direction of initial acceleration of the 4 kg mass if all of the masses are released from rest out in space?      Given:    Equations:        The direction of resultant force is acting along below the x-axis, which is also the direction of resultant acceleration of mass 4 kg.    "
+},
+{
+  "id": "example-106",
+  "level": "2",
+  "url": "sec_sixth-examples.html#example-106",
+  "type": "Example",
+  "number": "6.3.2",
+  "title": "",
+  "body": "  A satellite orbits the earth in a circular orbit at an altitude of 1000 mile.  What is its orbital speed?  How long does it take to complete one orbit?      Given:     Equations:     "
+},
+{
+  "id": "example-107",
+  "level": "2",
+  "url": "sec_sixth-examples.html#example-107",
+  "type": "Example",
+  "number": "6.3.3",
+  "title": "",
+  "body": "  A rocket is launched straight up from the surface of the planet of mass and radius at twice the escape speed. What is the speed of the rocket far away from the planet?    Given:           "
+},
+{
+  "id": "example-108",
+  "level": "2",
+  "url": "sec_sixth-examples.html#example-108",
+  "type": "Example",
+  "number": "6.3.4",
+  "title": "",
+  "body": "  A starship in a binary system is located a distance r from one star and a distance 2r from the other star. The starship wants to launch a deep space probe of mass m. The probe has no propulsion system of its own. What is the escape velocity from the starship's current location in the binary star system above?      From the energy conservation, total energy at starship = 0.  That is total potential energy at starship = kinetic energy for escaping the probe at starship.      "
+},
+{
+  "id": "example-109",
+  "level": "2",
+  "url": "sec_sixth-examples.html#example-109",
+  "type": "Example",
+  "number": "6.3.5",
+  "title": "",
+  "body": "  Two satellites of equal masses m revolve around the planet of mass M. The planet's mass is much larger than the mass of the satellites, . The radii of the orbits of the satellites are r and 2r. The satellites are connected by a light string, directed along the radius of the orbit, that keeps their periods of revolution equal. Find the force of tension T in the string in terms of m, M, r, and G. What is the period of the satellites' orbit? Answer in terms of G, r, and M, and mathematical constants.      Let be the angular velocity of satelites, then centripetal force needed for first satelite is given by centripetal force needed for second satelite is given by  From eqns. and , we get -    Now, from eqn , and hence,     "
+},
+{
+  "id": "example-110",
+  "level": "2",
+  "url": "sec_sixth-examples.html#example-110",
+  "type": "Example",
+  "number": "6.3.6",
+  "title": "",
+  "body": "  Two asteroids of masses M and m and radii R and r are at rest and isolated in space at a distance d apart. They begin drifting towards each other and smashed eventually. If M = 4m and R = 2r, find the velocity of the small asteroid just before it hits the big asteroid.    From conservation of momentum   Also from conservation on energy,         "
 },
 {
   "id": "ex_sixth",
@@ -3670,7 +3715,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "6.4",
   "title": "Exercise",
-  "body": "  Exercise  An asteroid 1 mi in diameter of density enters the earth's gravity when it is at rest with respect to the solar system.  What is the speed of the asteroid with respect to the earth before entering the earth's gravity?  What is the speed of the asteroid when it hits the surface of the earth?  What is the energy of the asteroid when it hits the earth's surface?  How does this compare with the amount of solar energy which hits the surface of the earth every day if the solar constant is ?    "
+  "body": "  Exercise  An asteroid 1 mi in diameter of density enters the earth's gravity when it is at rest with respect to the solar system.  What is the speed of the asteroid with respect to the earth before entering the earth's gravity?  What is the speed of the asteroid when it hits the surface of the earth?  What is the energy of the asteroid when it hits the earth's surface?  How does this compare with the amount of solar energy which hits the surface of the earth every day if the solar constant is ?    A rock of mass 500 kg is dropped from a height of 1 m. While it is falling,  how hard does the earth pull down on the rock?  how hard does the rock pull up on the earth?  why doesn't the earth move upward to meet the rock?    If the the earth were a sphere of radius , the acceleration due to gravity at the surface of the earth were , and the universal gravitational constant were , what would be the mass of the earth?  What is the altitude of a communications satellite which remains stationary over one spot on the earth? Can this spot be the north pole?  The Moon is 384,400 km distant from the Earth's center, and it completes an orbit in 27.3 days.  Determine the Moon's orbital speed.  How far does the Moon \"fall\" toward the Earth in 1 s?          Io, a small moon of Jupiter, has an orbital period of 1.77 days and an orbital radius of . From these data, determine the mass of Jupiter.  Ganymede, Jupiter's largest moon, has an orbital period of 7.16 days. What is its orbital radius?    Find the difference in potential energy of a satellite of mass , when it is at a distance of and when it is at the distance of from the center of the earth.  Three point masses of 30.0 kg, 50.0 kg, and 70.0 kg are located at the vertices of an equilateral triangle 1.00 m on a side. Find the resultant gravitational force on each mass.  At what speed would the earth have to rotate such that the centripetal force at the equator would be equal to the weight of a body there? If the earth rotated at this velocity, how long would a day be? If a 900-N man stood on a weighing scale there, what would the scales read?  Find the acceleration due to gravity, g at the bottom of a 400-km deep mine. Assume the radius of the earth is 6400km and has a uniform density.  "
 },
 {
   "id": "exercise-157",
@@ -3680,6 +3725,87 @@ var ptx_lunr_docs = [
   "number": "6.4.1",
   "title": "",
   "body": "An asteroid 1 mi in diameter of density enters the earth's gravity when it is at rest with respect to the solar system.  What is the speed of the asteroid with respect to the earth before entering the earth's gravity?  What is the speed of the asteroid when it hits the surface of the earth?  What is the energy of the asteroid when it hits the earth's surface?  How does this compare with the amount of solar energy which hits the surface of the earth every day if the solar constant is ?   "
+},
+{
+  "id": "exercise-158",
+  "level": "2",
+  "url": "ex_sixth.html#exercise-158",
+  "type": "Exercise",
+  "number": "6.4.2",
+  "title": "",
+  "body": "A rock of mass 500 kg is dropped from a height of 1 m. While it is falling,  how hard does the earth pull down on the rock?  how hard does the rock pull up on the earth?  why doesn't the earth move upward to meet the rock?   "
+},
+{
+  "id": "exercise-159",
+  "level": "2",
+  "url": "ex_sixth.html#exercise-159",
+  "type": "Exercise",
+  "number": "6.4.3",
+  "title": "",
+  "body": "If the the earth were a sphere of radius , the acceleration due to gravity at the surface of the earth were , and the universal gravitational constant were , what would be the mass of the earth? "
+},
+{
+  "id": "exercise-160",
+  "level": "2",
+  "url": "ex_sixth.html#exercise-160",
+  "type": "Exercise",
+  "number": "6.4.4",
+  "title": "",
+  "body": "What is the altitude of a communications satellite which remains stationary over one spot on the earth? Can this spot be the north pole? "
+},
+{
+  "id": "exercise-161",
+  "level": "2",
+  "url": "ex_sixth.html#exercise-161",
+  "type": "Exercise",
+  "number": "6.4.5",
+  "title": "",
+  "body": "The Moon is 384,400 km distant from the Earth's center, and it completes an orbit in 27.3 days.  Determine the Moon's orbital speed.  How far does the Moon \"fall\" toward the Earth in 1 s?       "
+},
+{
+  "id": "exercise-162",
+  "level": "2",
+  "url": "ex_sixth.html#exercise-162",
+  "type": "Exercise",
+  "number": "6.4.6",
+  "title": "",
+  "body": "  Io, a small moon of Jupiter, has an orbital period of 1.77 days and an orbital radius of . From these data, determine the mass of Jupiter.  Ganymede, Jupiter's largest moon, has an orbital period of 7.16 days. What is its orbital radius?   "
+},
+{
+  "id": "exercise-163",
+  "level": "2",
+  "url": "ex_sixth.html#exercise-163",
+  "type": "Exercise",
+  "number": "6.4.7",
+  "title": "",
+  "body": "Find the difference in potential energy of a satellite of mass , when it is at a distance of and when it is at the distance of from the center of the earth. "
+},
+{
+  "id": "exercise-164",
+  "level": "2",
+  "url": "ex_sixth.html#exercise-164",
+  "type": "Exercise",
+  "number": "6.4.8",
+  "title": "",
+  "body": "Three point masses of 30.0 kg, 50.0 kg, and 70.0 kg are located at the vertices of an equilateral triangle 1.00 m on a side. Find the resultant gravitational force on each mass. "
+},
+{
+  "id": "exercise-165",
+  "level": "2",
+  "url": "ex_sixth.html#exercise-165",
+  "type": "Exercise",
+  "number": "6.4.9",
+  "title": "",
+  "body": "At what speed would the earth have to rotate such that the centripetal force at the equator would be equal to the weight of a body there? If the earth rotated at this velocity, how long would a day be? If a 900-N man stood on a weighing scale there, what would the scales read? "
+},
+{
+  "id": "exercise-166",
+  "level": "2",
+  "url": "ex_sixth.html#exercise-166",
+  "type": "Exercise",
+  "number": "6.4.10",
+  "title": "",
+  "body": "Find the acceleration due to gravity, g at the bottom of a 400-km deep mine. Assume the radius of the earth is 6400km and has a uniform density. "
 },
 {
   "id": "subsec-rwep",
@@ -3718,9 +3844,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise   "
 },
 {
-  "id": "exercise-158",
+  "id": "exercise-167",
   "level": "2",
-  "url": "ex_seventh.html#exercise-158",
+  "url": "ex_seventh.html#exercise-167",
   "type": "Exercise",
   "number": "7.4.1",
   "title": "",
@@ -3745,54 +3871,54 @@ var ptx_lunr_docs = [
   "body": " States of Equilibrium   There are three states of equilibrium:                      Stable equilibrium: The body is said to be in stable equilibrium if its center of gravity lies below lowest possible position. A funnel standing vertically on its base on the table is in stable equilibrium [ ]. If the funnel is tilted a little bit against any side and then allowed to fall, it will come back to its original position. When the funnel is tilted against any side its center of gravity is raised [ ]. The line of action of weight passes through the base of the funnel. As long as the line of action of weight remains inside the base area funnel will come back to the original position. A torque due to weight of the funnel brings it back to the original position. For the funnel to tip over the line of action of the weight arrow will have to form a clockwise moment (or to pass outside the point of support). The funnel needs to have been pushed a lot for tip over. Some examples of stable equilibrium are bodies lying on the floor such as chair, table, book, etc. If a system in stable equilibrium is disturbed slightly, it oscillates around that state first but eventually settles down in exactly the same position as it started [ ]. It does this because its center of gravity is already at the lowest possible position.                      Unstable equilibrium: The body is said to be in unstable equilibrium if the center of gravity of a body lies above the highest possible position. A funnel standing vertically on its stem on the table [ ] is in unstable equilibrium. If the funnel standing vertically is slightly disturbed from its position it will not come back to its original position rather fall down on the surface of table. when the funnel is slightly disturbed its center of gravity is lowered [ ]. The line of action of its weight lies outside the base of stem. The torque due to weight of the rod toppled it down. Other examples of unstable equilibrium are vertically standing cylinder and pencil etc. An unstable system moves away from its original equilibrium state when disturbed. It wants to move away from the original position as soon as it has been disturbed [ ]. It does this because its center of gravity is higher in this state and when disturbed the center of gravity continues to move to a lower position (a more stable one).                      Neutral equilibrium: The body is said to be in neutral equilibrium if the center of gravity of a body is at optimal position it is neither lowered nor is raised up. The object with lower center of gravity is more stable than the one with the higher center of gravity. A funnel lying horizontally on its side at rest on the surface of a table [ ] is in natural equilibrium. If a funnel is pushed slightly to roll, it will neither come back to its original position nor it will roll forward rather it will remain at rest. If the funnel is rolled, its center of gravity is neither raised nor lowered [ ]. This means that its center of gravity is at the same height as before. A neutral system is one where the center of gravity of the system is always at the same level. If it has been disturbed slightly it will therefore settle in the new position without a need to move further on or to move back [ ]. For example, a rolling ball lying on the table.     "
 },
 {
-  "id": "figure-116",
+  "id": "figure-117",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-116",
+  "url": "sec_ninth-intro.html#figure-117",
   "type": "Figure",
   "number": "9.1.1",
   "title": "",
   "body": "                "
 },
 {
-  "id": "p-747",
+  "id": "p-772",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-747",
+  "url": "sec_ninth-intro.html#p-772",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Stable equilibrium: "
 },
 {
-  "id": "figure-120",
+  "id": "figure-121",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-120",
+  "url": "sec_ninth-intro.html#figure-121",
   "type": "Figure",
   "number": "9.1.2",
   "title": "",
   "body": "                "
 },
 {
-  "id": "p-748",
+  "id": "p-773",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-748",
+  "url": "sec_ninth-intro.html#p-773",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Unstable equilibrium: "
 },
 {
-  "id": "figure-124",
+  "id": "figure-125",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-124",
+  "url": "sec_ninth-intro.html#figure-125",
   "type": "Figure",
   "number": "9.1.3",
   "title": "",
   "body": "                "
 },
 {
-  "id": "p-749",
+  "id": "p-774",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-749",
+  "url": "sec_ninth-intro.html#p-774",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

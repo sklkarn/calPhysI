@@ -13,55 +13,35 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="displaymath process-math">
+<div class="para">If planet is considered at very close to the semimajor axis, so that point <span class="process-math">\(P\)</span> is very close to point <span class="process-math">\(O\text{,}\)</span> then from <span class="process-math">\(\triangle PSO\)</span> [figure <a href="" class="xref" data-knowl="./knowl/kepler2.html" title="Figure 6.2.1.(b)">Figure 6.2.1.(b)</a>], we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/kepler2.html">
 \begin{equation*}
-F=ma=-\frac{GMm}{r^{2}}
+\Delta A =\frac{1}{2}base\times height = \frac{1}{2}(r)(r \Delta \theta)
 \end{equation*}
 </div>
-<div class="displaymath process-math">
-\begin{equation}
-\text{or,}\quad \ddot{r}-r\dot{\theta}^{2}=-\frac{GM}{r^{2}}  \tag{6.2.3}
-\end{equation}
-</div>
-<div class="displaymath process-math">
+<div class="para">where height = <span class="process-math">\(r\Delta \theta \)</span>  and base = <span class="process-math">\(r\)</span> for the triangle.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/kepler2.html">
 \begin{equation*}
-x=r\cos\theta, \qquad y=r\sin\theta
+\therefore \frac{\Delta A}{\Delta t} = \frac{1}{2}r^{2}\frac{\Delta \theta}{\Delta t} =\frac{1}{2}r^{2}\omega 
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="para">For small time <span class="process-math">\(\Delta t\)</span> consider angle subtends by the earth is <span class="process-math">\(\Delta \theta.\)</span> Now, angular momentum of the planet,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/kepler2.html">
 \begin{equation*}
-\dot{x}=\dot{r}\cos\theta -r\sin\theta\dot{\theta},
+L=I\omega = mr^{2}\omega 
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/kepler2.html">
 \begin{equation*}
-\dot{y}=\dot{r}\sin\theta +r\cos\theta\dot{\theta}
+\therefore\quad \frac{\Delta A}{\Delta t} =\frac{1}{2}\frac{L}{m}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/kepler2.html">
 \begin{equation*}
-v^{2}=\dot{x}^{2}+\dot{y}^{2} = \dot{r}^{2}+r^{2}\dot{\theta}^{2}
+\frac{\,dA}{\,dt}=constant 
 \end{equation*}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\ddot{x}=\ddot{r}\cos\theta -\dot{r}\dot{\theta}\sin\theta -\dot{r}\dot{\theta}\sin\theta -r\dot{\theta}^{2}\cos\theta-r\ddot{\theta}\sin\theta, 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\ddot{y}=\ddot{r}\sin\theta +\dot{r}\dot{\theta}\cos\theta +\dot{r}\dot{\theta}\cos\theta -r\dot{\theta}^{2}\sin\theta+r\ddot{\theta}\cos\theta
-\end{equation*}
-</div>
-<div class="para">Now,</div>
-<div class="displaymath process-math">
-\begin{align*}
-a\amp =\ddot{x}\cos\theta+\ddot{y}\sin\theta \\
-\amp =(\ddot{r}\cos^{2}\theta -2\dot{r}\dot{\theta}\sin\theta\cos\theta -r\dot{\theta}^{2}\cos^{2}\theta-r\ddot{\theta}\sin\theta\cos\theta) \\
-\amp  +(\ddot{r}\sin^{2}\theta +2\dot{r}\dot{\theta}\sin\theta\cos\theta -r\dot{\theta}^{2}\sin^{2}\theta+r\ddot{\theta}\sin\theta\cos\theta) \\
-\amp  =\ddot{r}-r\dot{\theta}^{2} 
-\end{align*}
-</div>
+<div class="para">since angular momentum  of a planet in an orbit and its mass remains constant.</div>
 </div>
 <span class="incontext"><a href="subsec-periap.html#p-733" class="internal">in-context</a></span>
 </body>
