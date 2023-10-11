@@ -123,9 +123,9 @@
             W =\int\vec{F}\cdot\,d\vec{r} = \int F_{x}\,dx+\int F_{y}\,dy+\int F_{z}\,dz 
           </me>
           <me>
-            =\int\limits_{0}^{0} axy\,dx	 + \int\limits_{0}^{10} bx^{2}\,dy  =0
+            =\int\limits_{0}^{0} axy\,dx + \int\limits_{0}^{10} bx^{2}\,dy =0
           </me>
-          Since along <m>x=0</m>, <m>\,dx=0</m>, and <m>y=0 \oslash y=10m</m>.
+          Since along (0,0) to (0,10m), we have <m>x=0</m>, <m>\,dx=0</m>, and <m>y=0 \oslash 10m</m>.
          </li>
         <li>
          <me>
@@ -134,12 +134,14 @@
          <me>
           =\int axy\,dx	 + \int bx^{2}\,dy
          </me>
-         
-         Along path <m>x=0 \oslash 5m, </m> and <m>\,dy=0, \quad y=10m</m>. So 
+         Along path (0,10m) to (5m, 10m), we have <m>x=0 \oslash 5m, </m> and <m>\,dy=0, \quad y=10m</m>. So 
          <me>
-          W= ay \int\limits_{0}^{5} x\,dx	 + \int\limits_{10}^{10} bx^{2}\,dy = \left(\frac{1}{2}ay\right)\left[x^{2}\right]_{0}^{5}
+          W= ay \int\limits_{0}^{5} x\,dx	 + \int\limits_{10}^{10} bx^{2}\,dy 
          </me>
          <me>
+          = \left(\frac{1}{2}ay\right)\left[x^{2}\right]_{0}^{5}
+         </me>
+           <me>
           = \left(\frac{1}{2}\times4\times10\right)\times5^{2}=500 J
          </me>
         </li>
@@ -152,7 +154,7 @@
           </me>
            Along path c, <m>y=2x,</m>  and <m>x=0 \oslash 5m,</m> so <m>\,dy=2\,dx.</m> Hence
           <me>
-            W=  \int\limits_{0}^{5} ax(2x)\,dx	 + \int\limits_{0}^{5} bx^{2}2\,dx =2\left(a+b\right)\int\limits_{0}^{5} x^{2}\,dx
+            W=  \int\limits_{0}^{5} ax(2x)\,dx	+ \int\limits_{0}^{5} bx^{2}2\,dx =2\left(a+b\right)\int\limits_{0}^{5} x^{2}\,dx
           </me>
           <me>
             = 2(a+b)\frac{x^{3}}{3}  = 2(a+b)\left.\frac{x^{3}}{3}\right\vert_{0}^{5} = 2(4+2)\frac{5^{3}}{3} =500 J
