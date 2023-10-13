@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Preface",
-  "body": " Principles of physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students as a regular practice, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes and ten chapters that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. This a Volume I designeted as PHYS211 that contains the Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  Volume II designeted as PHYS212 contains Electricity, Magnetism, Simple Harmonic Motion, Waves, Acoustics, and Optics . These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted. -- Author   "
+  "body": " Principles of physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students as a regular practice, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes and ten chapters that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. This a Volume I designeted as PHYS211 that contains the Basics of Mechanics, Simple Harmonic Motion, Fluid Mechanics, and Thermodynamics.  Volume II designeted as PHYS212 contains Electricity, Magnetism, Waves, Acoustics, and Optics . These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted. -- Author   "
 },
 {
   "id": "p-4",
@@ -3808,49 +3808,679 @@ var ptx_lunr_docs = [
   "body": "Find the acceleration due to gravity, g at the bottom of a 400-km deep mine. Assume the radius of the earth is 6400km and has a uniform density. "
 },
 {
+  "id": "subsec-paral_axis",
+  "level": "1",
+  "url": "subsec-paral_axis.html",
+  "type": "Subsection",
+  "number": "7.1.1",
+  "title": "Parallel axis theorem",
+  "body": " Parallel axis theorem  The moment of inertia of a body depends upon the axis of rotation and there are many axes possible about which a body can rotate. Hence the parallel axis theorem provides a relationship between the moment of inertia of a body about an axis passing through its center of mass to any other axis of a body which is parallel to the axis through center of mass.      Consider an elementary mass at a distance from the center of mass of a body and at a distance from the axis of rotation through a point p [figure ], then the moment of inertia of that point mass is given by   In this expression a moment of inertia of the body about an axis through center of mass, , the mass of a body, , moment of inertia of a body about an axis parallel to the axis through the center of mass, a distance between parallel axes, and   Since the position of the center of mass lies at origin (0,0), i.e.,  The parallel axis theorem states that the moment of inertia of a body about an axis parallel to an axis passing through the center of mass is equal to the sum of the moment of inertia of body about an axis passing through center of mass and product of mass and square of the distance between the two axes.  "
+},
+{
+  "id": "miparallel1",
+  "level": "2",
+  "url": "subsec-paral_axis.html#miparallel1",
+  "type": "Figure",
+  "number": "7.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-768",
+  "level": "2",
+  "url": "subsec-paral_axis.html#p-768",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "parallel axis theorem "
+},
+{
+  "id": "subsec-perpend_axis",
+  "level": "1",
+  "url": "subsec-perpend_axis.html",
+  "type": "Subsection",
+  "number": "7.1.2",
+  "title": "Perpendicular axis theorem",
+  "body": " Perpendicular axis theorem      The perpendicular axis theorem states that the moment of inertia of a planar body (plane lamina) about an axis perpendicular to its plane is equal to the sum of its moments of inertia about two other perpendicular axes lying in the plane of the body.   "
+},
+{
+  "id": "miperp1",
+  "level": "2",
+  "url": "subsec-perpend_axis.html#miperp1",
+  "type": "Figure",
+  "number": "7.1.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-769",
+  "level": "2",
+  "url": "subsec-perpend_axis.html#p-769",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "perpendicular axis theorem "
+},
+{
+  "id": "subsec-mi_ring",
+  "level": "1",
+  "url": "subsec-mi_ring.html",
+  "type": "Subsection",
+  "number": "7.1.3",
+  "title": "Moment of Inertia of a Ring or Hoop",
+  "body": " Moment of Inertia of a Ring or Hoop                    As moment inertia depends upon the shape, mass distribution, and position of axis of rotation. Here are some conditions discussed below for a ring.    About an axis passing through its center of mass and perpendicular to its plane  Consider a small element of mass of a rim of the ring of radius is rotating about an axis passing passing through its center of mass and perpendicular to its plane [figure ], then the moment of inertia of that elemental mass is given by Therefore moment of inertia of a whole ring about that axis is where is the mass of the ring.    About an axis passing through its rim and perpendicular to its plane  Consider a ring of mass and radius is rotating about an axis passing passing through its rim and perpendicular to its plane [figure ], then the moment of inertia of that ring can be obtained by     About an axis through its diameter  The moment of inertia of a ring about its center of mass and perpendicular to its plane [figure ], is Now using the perpendicular axis theorem, we have As ring is a symmetrical object is considered as equal to . Hence     "
+},
+{
+  "id": "figure-123",
+  "level": "2",
+  "url": "subsec-mi_ring.html#figure-123",
+  "type": "Figure",
+  "number": "7.1.4",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-mi_rod",
+  "level": "1",
+  "url": "subsec-mi_rod.html",
+  "type": "Subsection",
+  "number": "7.1.4",
+  "title": "Moment of Inertia of a Rod",
+  "body": " Moment of Inertia of a Rod                  About an axis passing through its center of mass and perpendicular to its plane  The moment of inertia of a rod of length and mass about an axis passing through its center of mass [figure ] can be find by considering an elementary mass of a rod of infinitesimal thickness at a distance from the axis of rotation, then the moment of inertia of this elementary mass (strip) is given by            About an axis passing through its one edge and perpendicular to its plane  Consider a rod of length and mass is rotating about an axis passing through one of its edges as shown in figure . To find the moment of inertia of such a rod consider an elementary mass of a rod of infinitesimal thickness at a distance from the axis of rotation, then the moment of inertia of this elementary mass is given by        Alternative Using parallel axis theorem,  here, is the distance between axis of rotation and an axis through center of mass of a rod.    About an axis passing along its length and through the center of mass  If the rod is negligibly thin (slender rod), then , otherwise depends upon of its shape, its moment of inertia can be obtained similar to that for a solid cylinder or as for a rectangular prism    "
+},
+{
+  "id": "figure-127",
+  "level": "2",
+  "url": "subsec-mi_rod.html#figure-127",
+  "type": "Figure",
+  "number": "7.1.5",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsec-mi_disk",
+  "level": "1",
+  "url": "subsec-mi_disk.html",
+  "type": "Subsection",
+  "number": "7.1.5",
+  "title": "Moment of Inertia of a Disk",
+  "body": " Moment of Inertia of a Disk                      About an axis passing through its center of mass and perpendicular to its plane  Consider a disk of radius and mass is rotating about an axis passing through its center of mass and perpendicular to its plane [figure ]. To find the moment of inertia of such a disk consider an elementary ring of radius , thickness , and mass then the moment of inertia of this elementary ring (annulus) is given by          About an axis through its diameter  Using perpendicular axis theorem, [figure ]  and by symmetry,      About an axis passing through its edge and perpendicular to its plane  Using parallel axis theorem, [figure ]    "
+},
+{
+  "id": "figure-130",
+  "level": "2",
+  "url": "subsec-mi_disk.html#figure-130",
+  "type": "Figure",
+  "number": "7.1.6",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-mi_plate",
+  "level": "1",
+  "url": "subsec-mi_plate.html",
+  "type": "Subsection",
+  "number": "7.1.6",
+  "title": "Moment of Inertia of a Plate",
+  "body": " Moment of Inertia of a Plate       About an axis passing through its center of mass and parallel to its plane      Consider a plate of length and width is made out off number of elementary rods of thickness , then moment of inertia of that rod about x-axis is given by here = (mass per unit area)(area of a rod), by considering neglible plate thickness.      About an axis passing through its center of mass and parallel to its plane      Consider a plate of length and width is made out off number of elementary rods of thickness , then moment of inertia of that rod about y-axis is given by  = (mass per unit area)(area of a rod), by considering neglible plate thickness.     About an axis passing through its center of mass and perpendicular to its plane      Consider a plate of length and width is made out off number of elementary rods of thickness , then moment of inertia of that rod about z-axis is given by      Hence the moment of inertia of a plate about center of mass is given by       Alternative: Moment of inertia of plate about using perpendicular axis theorem,     "
+},
+{
+  "id": "miplate2",
+  "level": "2",
+  "url": "subsec-mi_plate.html#miplate2",
+  "type": "Figure",
+  "number": "7.1.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "miplate3",
+  "level": "2",
+  "url": "subsec-mi_plate.html#miplate3",
+  "type": "Figure",
+  "number": "7.1.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "miplate1",
+  "level": "2",
+  "url": "subsec-mi_plate.html#miplate1",
+  "type": "Figure",
+  "number": "7.1.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-mi_cylnd",
+  "level": "1",
+  "url": "subsec-mi_cylnd.html",
+  "type": "Subsection",
+  "number": "7.1.7",
+  "title": "Moment of Inertia of a Cylinder",
+  "body": " Moment of Inertia of a Cylinder                      Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane  Consider an elemental ring of thickness at a distance from the center of mass of a hollow cylinder [Figure ], then the moment of inertia of this ring is given by  [Mass of an elemental ring = (mass per unit area of a cylinder) (area of a ring).] Here is mass of the cylinder, is its radius, and is its length.    Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane  Consider an elemental thin cylinder of length , thickness at a distance from the center of mass of a thick hollow cylinder of outer radius and inner radius [Figure ], then the moment of inertia of this cylinder is given by     [Mass of an elemental cylinder = (mass per unit volume of a thick cylinder) (volume of elemental cylinder).]    Moment of inertia of a solid cylinder about an axis passing through its center of mass and perpendicular to its plane  Consider a concentric cylindrical shell of length , radius , and thickness in a solid cylinder of mass and radius [Figure ], then the moment of inertia of the shell is given by    Show that moment of inertia of a solid cylinder about    "
+},
+{
+  "id": "figure-137",
+  "level": "2",
+  "url": "subsec-mi_cylnd.html#figure-137",
+  "type": "Figure",
+  "number": "7.1.10",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-mi_cone",
+  "level": "1",
+  "url": "subsec-mi_cone.html",
+  "type": "Subsection",
+  "number": "7.1.8",
+  "title": "Moment of Inertia of a Cone",
+  "body": " Moment of Inertia of a Cone                      Moment of Inertia of a Solid Cone about an axis of symmetry  Consider a concentric disk of radius and thickness at a distance from the vertex in a solid cone of mass and radius [Figure ], then the moment of inertia of this disk about its center of mass can be given as           Moment of Inertia of a Solid Cone about a Vertex Parallel to the Base  Consider a concentric disk of radius and thickness at a distance from the vertex in a solid cone of mass and radius [Figure ], then the moment of inertia of this disk about its diameter can be given as      Moment of inertia of this disk about the vertex of the cone can be    Hence moment of inertia of a solid cone about its vertex is given by       Moment of Inertia of a Hollow Cone about an axis of symmetry  Consider an elemetary ring of radius and thickness at a slanted distance from the vertex in a hollow cone of mass and radius [Figure ], then the moment of inertia of this ring about its center of mass can be given as          "
+},
+{
+  "id": "figure-141",
+  "level": "2",
+  "url": "subsec-mi_cone.html#figure-141",
+  "type": "Figure",
+  "number": "7.1.11",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-mi_spher",
+  "level": "1",
+  "url": "subsec-mi_spher.html",
+  "type": "Subsection",
+  "number": "7.1.9",
+  "title": "Moment of Inertia of a Sphere",
+  "body": " Moment of Inertia of a Sphere                  Moment of inertia of a hollow sphere about its diameter  Consider an elementary ring of radius with thickness in a hollow sphere of mass and radius [Figure ], then the moment of inertia of this ring about its center of mass can be given as mass of a ring = (mass per unit area of sphere) (area of a ring)  Therefore the moment of inertia of a hollow sphere about its diameter is given by         Moment of inertia of a solid sphere about its diameter  Consider a concentric hollow spherical shell of radius and thickness in a hollow sphere of mass and radius [Figure ], then the moment of inertia of this shell about its center of mass is given by mass of a shell = (mass per unit volume of sphere) (volume of a shell)  Therefore the moment of inertia of a solid sphere about its diameter is given by   Note: All the above calculations were made by considering uniform mass distribution of a symmetrical object.   "
+},
+{
+  "id": "figure-145",
+  "level": "2",
+  "url": "subsec-mi_spher.html#figure-145",
+  "type": "Figure",
+  "number": "7.1.12",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-796",
+  "level": "2",
+  "url": "subsec-mi_spher.html#p-796",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "subsec-rad_gyr",
+  "level": "1",
+  "url": "subsec-rad_gyr.html",
+  "type": "Subsection",
+  "number": "7.1.10",
+  "title": "Radius of Gyration",
+  "body": " Radius of Gyration  The radius of gyration, is a measure used to describe the distribution of mass or the shape of an object in rotational motion. It is the distance from the axis of rotation where the entire mass of the body is assumed to be concentrated that give the same moment of inertia of that body when it is rotating about an axis of rotation. It is an equivalent distance of the mass from the axis of rotation. It is helpfull to obtain the moment of inertia of a complex object. The radius of gyration of mass is given by Here refers to the radius of gyration of the object. The radius of gyration of a spherical body about its diameter can be obtained by considering the entire body is concentrated as a point mass at a distance from the axis of rotation and hence The radius of gyration provides a way to quantify how the mass of an object is distributed relative to its axis of rotation. Objects with a larger radius of gyration have their mass distributed farther from the axis of rotation, which typically means they are harder to rotate. Conversely, objects with a smaller radius of gyration have their mass distributed closer to the axis of rotation, making them easier to rotate.  "
+},
+{
+  "id": "sec_seventh-examplesA",
+  "level": "1",
+  "url": "sec_seventh-examplesA.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Examples A",
+  "body": " Examples A    Find the moment of inertia of the following mass distribution for the following axes,  x,  x',  y,  z (out of the paper through the (x,y) origin).        Given:                         Two rods, each of mass m and length l, are welded together to form the T-shaped object. Use the parallel-axis theorem to determine the moment of inertia of the object about the axis through point O that is perpendicular to the bars.    Divide the object into two pieces, each corresponding to a bar of mass m. Moment of inertia of first rod about its one end, Moment of inertia of second rod about its center, Moment of inertia of CM of second rod about point o using axis theorem,         Calculate the moment of inertia of each of the uniform bodies  uniform block about its long axis,    square ring about its center, and    hula hoop about its rim.                          4. A rod of nonuniform mass distribution has a length, and mass, . The linear mass density is given as where is constant.  Find the center of mass of a rod.  Find the moment of inertia of the rod about about an axis passing through one of its edges and perpendicular to its length.      Linear mass density,                       A disk of nonuniform mass distribution has a radius, mass and . The surface mass density varies as where is a constant and is measured from its center.  Find its center of mass and  moment of inertia about an axis passing through its geometric center and perpendicular to its plane.      Surface mass density,                 "
+},
+{
+  "id": "example-111",
+  "level": "2",
+  "url": "sec_seventh-examplesA.html#example-111",
+  "type": "Example",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  Find the moment of inertia of the following mass distribution for the following axes,  x,  x',  y,  z (out of the paper through the (x,y) origin).        Given:                      "
+},
+{
+  "id": "example-112",
+  "level": "2",
+  "url": "sec_seventh-examplesA.html#example-112",
+  "type": "Example",
+  "number": "7.2.2",
+  "title": "",
+  "body": "  Two rods, each of mass m and length l, are welded together to form the T-shaped object. Use the parallel-axis theorem to determine the moment of inertia of the object about the axis through point O that is perpendicular to the bars.    Divide the object into two pieces, each corresponding to a bar of mass m. Moment of inertia of first rod about its one end, Moment of inertia of second rod about its center, Moment of inertia of CM of second rod about point o using axis theorem,      "
+},
+{
+  "id": "example-113",
+  "level": "2",
+  "url": "sec_seventh-examplesA.html#example-113",
+  "type": "Example",
+  "number": "7.2.3",
+  "title": "",
+  "body": "  Calculate the moment of inertia of each of the uniform bodies  uniform block about its long axis,    square ring about its center, and    hula hoop about its rim.                       "
+},
+{
+  "id": "example-114",
+  "level": "2",
+  "url": "sec_seventh-examplesA.html#example-114",
+  "type": "Example",
+  "number": "7.2.4",
+  "title": "",
+  "body": "  4. A rod of nonuniform mass distribution has a length, and mass, . The linear mass density is given as where is constant.  Find the center of mass of a rod.  Find the moment of inertia of the rod about about an axis passing through one of its edges and perpendicular to its length.      Linear mass density,                    "
+},
+{
+  "id": "example-115",
+  "level": "2",
+  "url": "sec_seventh-examplesA.html#example-115",
+  "type": "Example",
+  "number": "7.2.5",
+  "title": "",
+  "body": "  A disk of nonuniform mass distribution has a radius, mass and . The surface mass density varies as where is a constant and is measured from its center.  Find its center of mass and  moment of inertia about an axis passing through its geometric center and perpendicular to its plane.      Surface mass density,                "
+},
+{
+  "id": "subsec-rot_overview",
+  "level": "1",
+  "url": "subsec-rot_overview.html",
+  "type": "Subsection",
+  "number": "7.3.1",
+  "title": "Rotational Overview",
+  "body": " Rotational Overview  The table below summarizes some of the physical quantities as rotational anologue to a translation motion.      Linear Motion  Unit  Rotational Motion  Unit  Relation                                                   W     Mass (M)  kg  Inertia (I)       p=mv  kgm\/s     \\vec{L}=\\vec{r}\\times\\vec{p}     Joule    Joule         Nms          J                Although the mathematical forms of the equations are quite similar, rotational dynamics differs from linear dynamics in the following respects. It applies to systems consisting of a single rotating object rather than a point particle; The motion of a body is due to rotational velocity rather than the translational velocity; and the agent which cause the motion is the net torque not the net force. In rotational motion axis of rotation must be specified to characterize the rotational motion.  "
+},
+{
+  "id": "table-4",
+  "level": "2",
+  "url": "subsec-rot_overview.html#table-4",
+  "type": "Table",
+  "number": "7.3.1",
+  "title": "",
+  "body": "    Linear Motion  Unit  Rotational Motion  Unit  Relation                                                   W     Mass (M)  kg  Inertia (I)       p=mv  kgm\/s     \\vec{L}=\\vec{r}\\times\\vec{p}     Joule    Joule         Nms          J               "
+},
+{
   "id": "subsec-rwep",
   "level": "1",
   "url": "subsec-rwep.html",
   "type": "Subsection",
-  "number": "7.1.1",
-  "title": "Rotational Work, Energy, and Power",
-  "body": " Rotational Work, Energy, and Power    "
+  "number": "7.3.2",
+  "title": "Rotational Energy, Work, and Power",
+  "body": " Rotational Energy, Work, and Power  Whenever a rigid body is set into rotation about an axis, work is done by the torques. Consider a rigid body pivoted at point is acted upon by a force at point so that it rotates by a small arc length then work done by the force is given by    Since the direction of the angular displacement is measured along the axis, and the torque is acting along the same direction on the body. If a constant torque acts on a rigid body which is rotating about a fixed axis, then from the principle of conservation of mechanical energy, assuming no loss due to friction, the work done by the torque will produce a change in the kinetic energy of the body given by      For maximum torque, , and    From rotational kinematics, where and are the final and initial angular velocity of the body, respectively and is angular displacement through which the torque is applied.  "
 },
 {
-  "id": "subsec-",
-  "level": "1",
-  "url": "subsec-.html",
-  "type": "Subsection",
-  "number": "7.2.1",
+  "id": "rotwork",
+  "level": "2",
+  "url": "subsec-rwep.html#rotwork",
+  "type": "Figure",
+  "number": "7.3.2",
   "title": "",
-  "body": "    "
+  "body": "   "
 },
 {
-  "id": "sec_seventh-examples",
+  "id": "subsec-ang_momnt",
   "level": "1",
-  "url": "sec_seventh-examples.html",
+  "url": "subsec-ang_momnt.html",
+  "type": "Subsection",
+  "number": "7.3.3",
+  "title": "Angular Momentum",
+  "body": " Angular Momentum  A rigid body rotating with angular velocity, about a fixed axis has an angular momentum about this axis which is given by where is the moment of inertia of the body about this axis. To change the angular momentum of a body, an external torque must be applied to it. Similar to in linear dynamics, we have in rotational dynamics That is, the torque acting on a rigid body is equal to the rate of change of the angular momentum. The direction of torque is along the change in angular momentum. The direction of angular momentum is along the angular velocity, which is along the axis of rotation. In the absence of external torques, the angular momentum of a rigid body must be constant, in other words, there is no change in the angular momentum when the sum of the external torques is zero. This is known as the principle of conservation of angular momentum, i.e., Similarly, the angular impulse Thus the change in angular momentum is equal to the angular impulse. Again,       Hence angular momentum is also called moment of momentum. It is a vector quantity. It is acting along the direction perpendicular to the plane subtends by and The angular momentum of a point particle is a measure of the circulation of the particle's linear momentum about some specific point. In figure , is a position vector of mass, measured from point  here is a component of velocity (or momentum) along position vector . If the position vector and the velocity are contained in the x-y plane then the angular momentum is either along the +z axis or along the -z axis. If the right hand fingers pointed along the position vector curl along the velocity vector, then thumb will give the direction of angular momentum. In the figure if the right hand fingers are along the red dashed line curled towards the momentum vector then thumb is pointed out of the paper.                   The angular momentum vector depends on the position vector of the point particle, therefore it depends on the point from which the particle's position is measured. Consider a particle of mass moving along the axis with velocity as shown in figure , then the angular momentum of this particle is given with respect to points and are   where is pointed into the paper [figure ]. Similarly,  and is pointed out of the paper [figure ].  "
+},
+{
+  "id": "angmomnt",
+  "level": "2",
+  "url": "subsec-ang_momnt.html#angmomnt",
+  "type": "Figure",
+  "number": "7.3.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-150",
+  "level": "2",
+  "url": "subsec-ang_momnt.html#figure-150",
+  "type": "Figure",
+  "number": "7.3.4",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-gyros",
+  "level": "1",
+  "url": "subsec-gyros.html",
+  "type": "Subsection",
+  "number": "7.3.4",
+  "title": "The Gyroscope",
+  "body": " The Gyroscope                It is a spinning disc or wheel in which the axis of rotation is free to orient in any direction. It is used to detect rotational movement. It is very useful in navigation, especially where magnetic compasses can't be used, such as in spacecraft, intercontinental ballistic missiles, and satellites. Wheels on a bicycle, for example, act as gyroscopes as they spin up to speed, making it easier to stay upright and harder to upset momentum.  In the figure , and are initial and final angular momentum after time respectively. is angular velocity of wheel rotation and is a precessional velocity. is the distance of wheel from the axis of rotation, . is the direction of torque being acted on the wheel because of its weight. The direction of torque can be given by right hand thumb rule. When the right hand fingers are curled from the direction along to the direction along weight then the direction of thumb will be pointed along the torque. Because of torque the direction of angular momentum changes every second hence the orientation of new angular momentum is given by    Earth precesses because of the torque produced on it due to gravitational tidal force of the Sun and the Moon.  "
+},
+{
+  "id": "gyroscope",
+  "level": "2",
+  "url": "subsec-gyros.html#gyroscope",
+  "type": "Figure",
+  "number": "7.3.5",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "sec_seventh-examplesB",
+  "level": "1",
+  "url": "sec_seventh-examplesB.html",
   "type": "Section",
-  "number": "7.3",
-  "title": "Examples",
-  "body": " Examples  "
+  "number": "7.4",
+  "title": "Examples B",
+  "body": " Examples B    A body rotates according to the equation , where and . Find:                     Given:                             A tire of mass 30 kg, radius of gyration 20 cm, and diameter 50 cm accelerates uniformly from rest. A small nail is embedded in the outer tread of the tire. After 100 revolutions the tire is rotating at 400 rpm. At that time, find each of the following:  What is its angular acceleration?  How much time did it take to get up to speed?  What is the speed of the nail?  What is the acceleration of the nail?  What is the moment of inertia of the wheel?  What torque is required to make the wheel rotate?  How much energy was imparted to the wheel?  How much power is required to rotate the wheel?  What is the angular momentum of the wheel?      Given:                                       An automobile engine with a moment of inertia of is revved up to 2400 rpm. The clutch is then popped and the car lurches forward. The effective moment of inertia of the clutch plate (including the gears, drive train, wheels, and mass of the car) is .  What is the angular velocity of the clutch plate after the clutch is popped?  If the gear ratio in the transmission is a 4 to 1 reduction, what is the angular velocity of the wheels after the clutch is popped?  If the wheel has a radius of 30 cm, what is the speed of the car after the clutch is popped?                        The 20-kg disk of radius R=0.25m is at rest when the constant 10 N-m counterclockwise torque is applied. Determine the disk's angular velocity (in rpm) when it has rotated through four revolutions  by applying the equation of angular motion and  by applying the principle of work and energy.        Given:     Now,                    Two blocks of mass and are connected through a rope over a pulley of mass and radius as shown in figure  . What is the acceleration of the blocks and the tension in the rope on either side of the pulley?    From figure  .   Note: The tension on both sides a massive pulley must be different otherwise the pulley would not rotate. From figure  .   From figure    Now from eqns. and ,           A yo-yo has a mass , a moment of inertia , and an inner radius A string is wrapped around the inner cylinder of the yo-yo. A person ties the string to his finger and releases the yo-yo. As the yo-yo falls, it rolls on the string but does not slip. Find the acceleration of the yo-yo.         From eqns. and , we have -        A bucket of water of mass 10 kg is supported by a rope wrapped around a uniform cylinder of mass 20 kg and radius 10 cm as shown in the [Figure a]. If the system is released from rest, how long it takes the bucket to fall to the bottom of a well 3 m deep?      Given: and Now, from free-body diagram [Figure b],  From free-body diagram [Figure c],  From eqns. and , we have -  Now well is 3m deep, so time taken by the block to reach at bottom of well is given by         A thin ring of mass 2 kg and diameter 10 cm rolls without slipping down an inclined plane 1 m long with one end 10 cm higher than the other. If the system is released from rest,  What is the minimum coefficient of static friction that will cause the ring to roll without slipping?  How long does it take for the ring to get to the bottom of the incline?  How fast is the ring moving at that time?  What fraction of the kinetic energy of the ring is due to its rotation at that time?        Given:  From geometry of the figure,         For ring and From eqns. and , we get - Also from eqns. and , we get -   From eqns. and , we get -                       A block of mass and a disk of mass and radius are placed on a symmetric triangular slope connected with a massless string over a massless pulley [Figure (a)]. The string is connected to a center axle of the disk so that the disk is free to rotate. The moment of inertia of the disk about its axle is The coefficient of static friction between the slope and the block\/disk is 0.05 and the coefficient of kinetic friction between the slope and the block\/disk is 0.15. The angle is Find the maximum ratio such that the disk still rolls without slipping up the hill.      Since the disk is rolling without slipping, the maximum friction acting on the point of contact of disk and ramp must be static (i.e., ). Now, whether the system is accelerating or not for the maximum ratio of can be determined by the evaluation of final equation. From the free-body diagram construct equations as shown below. From [Figure (b)] consider the disk is accelerating upwards with an acceleration for now, then           From [Figure (c)] the disk is accelerating downwards with an acceleration because the block is connected to the disk through same rope via massless and frictionless pulley and hence has the same tension and acceleration, therefore     Now from eqns. , and , we get - and from eqns. , and , we get - Hence from eqns. and , and we have -   If the system is not accelerating but moving with constant velocity, then Hence in that case        The disk of mass 45 kg and radius R = 0.3 m is rolled to the left until the spring is compressed 0.5 m and then released from rest. If the spring constant is k = 600 N\/m, and  if the disk rolls without slipping, what is its angular acceleration at the instant it is released?  What is the minimum coefficient of static friction for which the disk will not slip when it is released?        Given: From free-body diagram,                      A uniform disk of mass m and radius R is attached to the uniform rod of mass M and length L. The rod rotates with an angular speed about an axis perpendicular to the xy-plane and that passes through one of its ends, point O as shown in figure. The center of mass of the disk is at a distance l with respect to point O. Calculate the angular momentum about this point.      The angular momentum of a composite object is obtained as the sum of the angular momentum of each of its constituents.  The composites have same angular velocity, . Now, moment of inertia of a rod about its end, Also, moment of inertia of a disk about point using parallel axis theorem,        A small ball of mass traveling with initial velocity hits a disk at rest of mass and radius at a vertical distance from the disk's center. The ball bounces back horizontally with a velocity and the disk begins rolling without slipping. Find the velocity of the disk after it has begun rolling without slipping.                   A uniform thin rod of length and mass can rotate in a horizontal plane about a vertical axis through its center. The rod is at rest when a bullet of mass traveling in the horizontal plane of the rod is fired into one end of the rod. The direction of the bullet's velocity makes an angle degrees with the rod. If the bullet lodges in the rod and the angular velocity of the rod is rad\/s immediately after the collision, what is the magnitude of the bullet's velocity, m\/s just before impact? Determine the kinetic energy of the bullet before the collision and total rotational kinetic energy after the collision.        Kinetic energy of bullet before collision, and total rotational kinetic energy after the collision,       A disk is spinning at a rate of 10 rad\/s. A second disk of the same mass and shape, with no spin, is placed on top of the first disk. Friction acts between the two disks until both are eventually traveling at the same speed. What is the final angular velocity of the two disks?               A particle attached to a string of length 2 m is given an initial velocity of 6 m\/s. The string is attached to a peg and, as the particle rotates about the peg, the string winds around the peg. What length of string has wound around the peg when the velocity of the particle is 20 m\/s?    when string is winding around the peg its length decreases gradually causing the radius of rotation to decrease accordingly. Hence its moment of inertia decreases gradually and from conservation of angular momentum, angular velocity of the particle increases gradually.     Hence of string has already wound around the peg when the velocity is 20 m\/s.      A rotating round object has an initial angular velocity placed onto the horizontal surface. It rolls with slipping till achieve a final angular velocity . If moment of inertia of the body is .  Find .  If find the shape of the round object.        when rotating object is placed on the surface its initial velocity Now due to frction translational velocity of the object is reduced after a time when object starts rolling without slipping with an angular velocity     also,   After time on rolling without slipping,         Hence the round object is a hollow sphere.      "
+},
+{
+  "id": "example-116",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-116",
+  "type": "Example",
+  "number": "7.4.1",
+  "title": "",
+  "body": "  A body rotates according to the equation , where and . Find:                     Given:                          "
+},
+{
+  "id": "example-117",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-117",
+  "type": "Example",
+  "number": "7.4.2",
+  "title": "",
+  "body": "  A tire of mass 30 kg, radius of gyration 20 cm, and diameter 50 cm accelerates uniformly from rest. A small nail is embedded in the outer tread of the tire. After 100 revolutions the tire is rotating at 400 rpm. At that time, find each of the following:  What is its angular acceleration?  How much time did it take to get up to speed?  What is the speed of the nail?  What is the acceleration of the nail?  What is the moment of inertia of the wheel?  What torque is required to make the wheel rotate?  How much energy was imparted to the wheel?  How much power is required to rotate the wheel?  What is the angular momentum of the wheel?      Given:                                    "
+},
+{
+  "id": "example-118",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-118",
+  "type": "Example",
+  "number": "7.4.3",
+  "title": "",
+  "body": "  An automobile engine with a moment of inertia of is revved up to 2400 rpm. The clutch is then popped and the car lurches forward. The effective moment of inertia of the clutch plate (including the gears, drive train, wheels, and mass of the car) is .  What is the angular velocity of the clutch plate after the clutch is popped?  If the gear ratio in the transmission is a 4 to 1 reduction, what is the angular velocity of the wheels after the clutch is popped?  If the wheel has a radius of 30 cm, what is the speed of the car after the clutch is popped?                     "
+},
+{
+  "id": "example-119",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-119",
+  "type": "Example",
+  "number": "7.4.4",
+  "title": "",
+  "body": "  The 20-kg disk of radius R=0.25m is at rest when the constant 10 N-m counterclockwise torque is applied. Determine the disk's angular velocity (in rpm) when it has rotated through four revolutions  by applying the equation of angular motion and  by applying the principle of work and energy.        Given:     Now,                 "
+},
+{
+  "id": "example-120",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-120",
+  "type": "Example",
+  "number": "7.4.5",
+  "title": "",
+  "body": "  Two blocks of mass and are connected through a rope over a pulley of mass and radius as shown in figure  . What is the acceleration of the blocks and the tension in the rope on either side of the pulley?    From figure  .   Note: The tension on both sides a massive pulley must be different otherwise the pulley would not rotate. From figure  .   From figure    Now from eqns. and ,        "
+},
+{
+  "id": "example-121",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-121",
+  "type": "Example",
+  "number": "7.4.6",
+  "title": "",
+  "body": "  A yo-yo has a mass , a moment of inertia , and an inner radius A string is wrapped around the inner cylinder of the yo-yo. A person ties the string to his finger and releases the yo-yo. As the yo-yo falls, it rolls on the string but does not slip. Find the acceleration of the yo-yo.         From eqns. and , we have -     "
+},
+{
+  "id": "example-122",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-122",
+  "type": "Example",
+  "number": "7.4.7",
+  "title": "",
+  "body": "  A bucket of water of mass 10 kg is supported by a rope wrapped around a uniform cylinder of mass 20 kg and radius 10 cm as shown in the [Figure a]. If the system is released from rest, how long it takes the bucket to fall to the bottom of a well 3 m deep?      Given: and Now, from free-body diagram [Figure b],  From free-body diagram [Figure c],  From eqns. and , we have -  Now well is 3m deep, so time taken by the block to reach at bottom of well is given by      "
+},
+{
+  "id": "example-123",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-123",
+  "type": "Example",
+  "number": "7.4.8",
+  "title": "",
+  "body": "  A thin ring of mass 2 kg and diameter 10 cm rolls without slipping down an inclined plane 1 m long with one end 10 cm higher than the other. If the system is released from rest,  What is the minimum coefficient of static friction that will cause the ring to roll without slipping?  How long does it take for the ring to get to the bottom of the incline?  How fast is the ring moving at that time?  What fraction of the kinetic energy of the ring is due to its rotation at that time?        Given:  From geometry of the figure,         For ring and From eqns. and , we get - Also from eqns. and , we get -   From eqns. and , we get -                    "
+},
+{
+  "id": "example-124",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-124",
+  "type": "Example",
+  "number": "7.4.9",
+  "title": "",
+  "body": "  A block of mass and a disk of mass and radius are placed on a symmetric triangular slope connected with a massless string over a massless pulley [Figure (a)]. The string is connected to a center axle of the disk so that the disk is free to rotate. The moment of inertia of the disk about its axle is The coefficient of static friction between the slope and the block\/disk is 0.05 and the coefficient of kinetic friction between the slope and the block\/disk is 0.15. The angle is Find the maximum ratio such that the disk still rolls without slipping up the hill.      Since the disk is rolling without slipping, the maximum friction acting on the point of contact of disk and ramp must be static (i.e., ). Now, whether the system is accelerating or not for the maximum ratio of can be determined by the evaluation of final equation. From the free-body diagram construct equations as shown below. From [Figure (b)] consider the disk is accelerating upwards with an acceleration for now, then           From [Figure (c)] the disk is accelerating downwards with an acceleration because the block is connected to the disk through same rope via massless and frictionless pulley and hence has the same tension and acceleration, therefore     Now from eqns. , and , we get - and from eqns. , and , we get - Hence from eqns. and , and we have -   If the system is not accelerating but moving with constant velocity, then Hence in that case     "
+},
+{
+  "id": "example-125",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-125",
+  "type": "Example",
+  "number": "7.4.10",
+  "title": "",
+  "body": "  The disk of mass 45 kg and radius R = 0.3 m is rolled to the left until the spring is compressed 0.5 m and then released from rest. If the spring constant is k = 600 N\/m, and  if the disk rolls without slipping, what is its angular acceleration at the instant it is released?  What is the minimum coefficient of static friction for which the disk will not slip when it is released?        Given: From free-body diagram,                   "
+},
+{
+  "id": "example-126",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-126",
+  "type": "Example",
+  "number": "7.4.11",
+  "title": "",
+  "body": "  A uniform disk of mass m and radius R is attached to the uniform rod of mass M and length L. The rod rotates with an angular speed about an axis perpendicular to the xy-plane and that passes through one of its ends, point O as shown in figure. The center of mass of the disk is at a distance l with respect to point O. Calculate the angular momentum about this point.      The angular momentum of a composite object is obtained as the sum of the angular momentum of each of its constituents.  The composites have same angular velocity, . Now, moment of inertia of a rod about its end, Also, moment of inertia of a disk about point using parallel axis theorem,     "
+},
+{
+  "id": "example-127",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-127",
+  "type": "Example",
+  "number": "7.4.12",
+  "title": "",
+  "body": "  A small ball of mass traveling with initial velocity hits a disk at rest of mass and radius at a vertical distance from the disk's center. The ball bounces back horizontally with a velocity and the disk begins rolling without slipping. Find the velocity of the disk after it has begun rolling without slipping.                "
+},
+{
+  "id": "example-128",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-128",
+  "type": "Example",
+  "number": "7.4.13",
+  "title": "",
+  "body": "  A uniform thin rod of length and mass can rotate in a horizontal plane about a vertical axis through its center. The rod is at rest when a bullet of mass traveling in the horizontal plane of the rod is fired into one end of the rod. The direction of the bullet's velocity makes an angle degrees with the rod. If the bullet lodges in the rod and the angular velocity of the rod is rad\/s immediately after the collision, what is the magnitude of the bullet's velocity, m\/s just before impact? Determine the kinetic energy of the bullet before the collision and total rotational kinetic energy after the collision.        Kinetic energy of bullet before collision, and total rotational kinetic energy after the collision,    "
+},
+{
+  "id": "example-129",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-129",
+  "type": "Example",
+  "number": "7.4.14",
+  "title": "",
+  "body": "  A disk is spinning at a rate of 10 rad\/s. A second disk of the same mass and shape, with no spin, is placed on top of the first disk. Friction acts between the two disks until both are eventually traveling at the same speed. What is the final angular velocity of the two disks?            "
+},
+{
+  "id": "example-130",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-130",
+  "type": "Example",
+  "number": "7.4.15",
+  "title": "",
+  "body": "  A particle attached to a string of length 2 m is given an initial velocity of 6 m\/s. The string is attached to a peg and, as the particle rotates about the peg, the string winds around the peg. What length of string has wound around the peg when the velocity of the particle is 20 m\/s?    when string is winding around the peg its length decreases gradually causing the radius of rotation to decrease accordingly. Hence its moment of inertia decreases gradually and from conservation of angular momentum, angular velocity of the particle increases gradually.     Hence of string has already wound around the peg when the velocity is 20 m\/s.   "
+},
+{
+  "id": "example-131",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-131",
+  "type": "Example",
+  "number": "7.4.16",
+  "title": "",
+  "body": "  A rotating round object has an initial angular velocity placed onto the horizontal surface. It rolls with slipping till achieve a final angular velocity . If moment of inertia of the body is .  Find .  If find the shape of the round object.        when rotating object is placed on the surface its initial velocity Now due to frction translational velocity of the object is reduced after a time when object starts rolling without slipping with an angular velocity     also,   After time on rolling without slipping,         Hence the round object is a hollow sphere.     "
+},
+{
+  "id": "subsec-shm",
+  "level": "1",
+  "url": "subsec-shm.html",
+  "type": "Subsection",
+  "number": "7.5.1",
+  "title": "Simple Harmonic Motion",
+  "body": " Simple Harmonic Motion    "
 },
 {
   "id": "ex_seventh",
   "level": "1",
   "url": "ex_seventh.html",
   "type": "Exercises",
-  "number": "7.4",
+  "number": "7.6",
   "title": "Exercise",
-  "body": "  Exercise   "
+  "body": "  Exercise   MI  A ball, a cylinder, and a ring each of mass 10 kg and radius 0.1 m are released from rest at the top of an inclined plane 2 m long. Which will reach the bottom of the plane the fastest? Why?  A meter stick of mass 500 g is pivoted about a point located at the 75 cm mark. What is the moment of inertia of the meter stick?  A wagon wheel consists of a rim of mass 50 kg and diameter 60 cm and eight spokes each with a mass of 2 kg. What is the moment of inertia of the wheel?  A rectangular block has a length of 20 cm, a width of 10 cm, a height of 5 cm, and a mass of 4 kg. What is its moment of inertia about its three principle axes?  Find the moment of inertia of the following uniform bodies about the axis indicated.            Find the moment of inertia of  a physical pendulum and    a square about the axis indicated.      Find the moment of inertia of an equilateral triangle about one of its vertices and perpendicular to its plane. The triangle is made out of three rods.    Rot Dyn  A body rotates according to the equation , where and . Find:                   An electric motor accelerates uniformly from rest to in   What is its angular acceleration?  How many revolutions does it make?  What was its angular velocity at the end of 2 s?  How fast was it rotating after making 10 revolutions?  How long did it take to make 10 revolutions?    A uniform cylinder of mass 100 kg has a radius of 30 cm and spins freely about its axis of symmetry. One end of a string is attached to the surface of the cylinder so that the string winds and unwinds as the cylinder rotates first one direction and then the other. A constant tension of 100 N is maintained in the string by a constant vector force applied to the other end of the string. At time t = 0, the string is completely unwound and the cylinder is spinning at 30 rad\/s.  What is the moment of inertia of the cylinder?  As long as or , the torque on the cylinder is constant in magnitude. Why? What is this torque?  Ignoring the first quarter revolution, how long does it take the cylinder to stop?  What is the angular acceleration of the cylinder when it is slowing down?  What is the minimum length of string that will stop the cylinder?  What is the initial kinetic energy of the cylinder?  What is the initial angular momentum of the cylinder?  If the cylinder is rotating counter-clockwise, what is the direction of the angular momentum vector?    An Atwood machine as shown at right consists of a mass of 10 kg supported by a rope draped over a uniform cylinder of mass 20 kg and radius 10 cm and then tied to a mass of 5 kg located 1.5 m below the first mass. If the system is released from rest,    find the tension in the rope supporting the $10-kg$ mass.  What is the maximum height ever attained by the second mass.    A thin ring of mass 5 kg and diameter 1 m is pivoted about a point on its rim. If the system is released from rest with the ring directly above the pivot point as shown in figure and if it swings downward, when it is exactly half way down to the bottom find    how fast it is moving,  the radial and tangential acceleration of its center of mass, and  the horizontal and vertical forces exerted on the ring by its pivot.    A 186.8 N sphere with radius R= 101.6 mm is placed on a horizontal surface with initial angular velocity The coefficient of kinetic friction between the sphere and the surface is What maximum velocity will the center of the sphere attain, and how long does it take to reach that velocity?  A 1 m long and 2 kg stick is nailed to the wall so that it can rotate freely about the end. A 1 kg ball, with speed 3 m\/s hits with the stick at some distance below the pivot point. The ball collides elastically with the stick, and stops dead after collision. Find the stick's resulting initial angular velocity. Find the distance   A 25 g bug crawls from the center to the outside edge of a 150 g disk of radius 15.0 cm. The disk was rotating at 15.0 rad\/s. What will be its final angular velocity? Treat the bug as a point mass.  A bicycle tire has a mass of 4.0 kg and a radius of 0.33 m. If it is rotating at 22 rad\/s what is its angular momentum? If it is used as a gyroscope with a 24 cm long pivot bar, what will be its precession speed?  Calculate the angular momentum of a phonograph record, LP (Long Play) rotating at rev\/min. An LP has a radius of 15 cm and a mass of 150 g. A typical phonograph can accelerate an LP from rest to its final speed in 0.35 s, what average torque would be exerted on the LP?   "
 },
 {
   "id": "exercise-167",
   "level": "2",
   "url": "ex_seventh.html#exercise-167",
   "type": "Exercise",
-  "number": "7.4.1",
+  "number": "7.6.1",
   "title": "",
-  "body": ""
+  "body": "A ball, a cylinder, and a ring each of mass 10 kg and radius 0.1 m are released from rest at the top of an inclined plane 2 m long. Which will reach the bottom of the plane the fastest? Why? "
+},
+{
+  "id": "exercise-168",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-168",
+  "type": "Exercise",
+  "number": "7.6.2",
+  "title": "",
+  "body": "A meter stick of mass 500 g is pivoted about a point located at the 75 cm mark. What is the moment of inertia of the meter stick? "
+},
+{
+  "id": "exercise-169",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-169",
+  "type": "Exercise",
+  "number": "7.6.3",
+  "title": "",
+  "body": "A wagon wheel consists of a rim of mass 50 kg and diameter 60 cm and eight spokes each with a mass of 2 kg. What is the moment of inertia of the wheel? "
+},
+{
+  "id": "exercise-170",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-170",
+  "type": "Exercise",
+  "number": "7.6.4",
+  "title": "",
+  "body": "A rectangular block has a length of 20 cm, a width of 10 cm, a height of 5 cm, and a mass of 4 kg. What is its moment of inertia about its three principle axes? "
+},
+{
+  "id": "exercise-171",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-171",
+  "type": "Exercise",
+  "number": "7.6.5",
+  "title": "",
+  "body": "Find the moment of inertia of the following uniform bodies about the axis indicated.           "
+},
+{
+  "id": "exercise-172",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-172",
+  "type": "Exercise",
+  "number": "7.6.6",
+  "title": "",
+  "body": "Find the moment of inertia of  a physical pendulum and    a square about the axis indicated.     "
+},
+{
+  "id": "exercise-173",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-173",
+  "type": "Exercise",
+  "number": "7.6.7",
+  "title": "",
+  "body": "Find the moment of inertia of an equilateral triangle about one of its vertices and perpendicular to its plane. The triangle is made out of three rods. "
+},
+{
+  "id": "exercise-174",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-174",
+  "type": "Exercise",
+  "number": "7.6.8",
+  "title": "",
+  "body": "A body rotates according to the equation , where and . Find:                  "
+},
+{
+  "id": "exercise-175",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-175",
+  "type": "Exercise",
+  "number": "7.6.9",
+  "title": "",
+  "body": "An electric motor accelerates uniformly from rest to in   What is its angular acceleration?  How many revolutions does it make?  What was its angular velocity at the end of 2 s?  How fast was it rotating after making 10 revolutions?  How long did it take to make 10 revolutions?   "
+},
+{
+  "id": "exercise-176",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-176",
+  "type": "Exercise",
+  "number": "7.6.10",
+  "title": "",
+  "body": "A uniform cylinder of mass 100 kg has a radius of 30 cm and spins freely about its axis of symmetry. One end of a string is attached to the surface of the cylinder so that the string winds and unwinds as the cylinder rotates first one direction and then the other. A constant tension of 100 N is maintained in the string by a constant vector force applied to the other end of the string. At time t = 0, the string is completely unwound and the cylinder is spinning at 30 rad\/s.  What is the moment of inertia of the cylinder?  As long as or , the torque on the cylinder is constant in magnitude. Why? What is this torque?  Ignoring the first quarter revolution, how long does it take the cylinder to stop?  What is the angular acceleration of the cylinder when it is slowing down?  What is the minimum length of string that will stop the cylinder?  What is the initial kinetic energy of the cylinder?  What is the initial angular momentum of the cylinder?  If the cylinder is rotating counter-clockwise, what is the direction of the angular momentum vector?   "
+},
+{
+  "id": "exercise-177",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-177",
+  "type": "Exercise",
+  "number": "7.6.11",
+  "title": "",
+  "body": "An Atwood machine as shown at right consists of a mass of 10 kg supported by a rope draped over a uniform cylinder of mass 20 kg and radius 10 cm and then tied to a mass of 5 kg located 1.5 m below the first mass. If the system is released from rest,    find the tension in the rope supporting the $10-kg$ mass.  What is the maximum height ever attained by the second mass.   "
+},
+{
+  "id": "exercise-178",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-178",
+  "type": "Exercise",
+  "number": "7.6.12",
+  "title": "",
+  "body": "A thin ring of mass 5 kg and diameter 1 m is pivoted about a point on its rim. If the system is released from rest with the ring directly above the pivot point as shown in figure and if it swings downward, when it is exactly half way down to the bottom find    how fast it is moving,  the radial and tangential acceleration of its center of mass, and  the horizontal and vertical forces exerted on the ring by its pivot.   "
+},
+{
+  "id": "exercise-179",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-179",
+  "type": "Exercise",
+  "number": "7.6.13",
+  "title": "",
+  "body": "A 186.8 N sphere with radius R= 101.6 mm is placed on a horizontal surface with initial angular velocity The coefficient of kinetic friction between the sphere and the surface is What maximum velocity will the center of the sphere attain, and how long does it take to reach that velocity? "
+},
+{
+  "id": "exercise-180",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-180",
+  "type": "Exercise",
+  "number": "7.6.14",
+  "title": "",
+  "body": "A 1 m long and 2 kg stick is nailed to the wall so that it can rotate freely about the end. A 1 kg ball, with speed 3 m\/s hits with the stick at some distance below the pivot point. The ball collides elastically with the stick, and stops dead after collision. Find the stick's resulting initial angular velocity. Find the distance  "
+},
+{
+  "id": "exercise-181",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-181",
+  "type": "Exercise",
+  "number": "7.6.15",
+  "title": "",
+  "body": "A 25 g bug crawls from the center to the outside edge of a 150 g disk of radius 15.0 cm. The disk was rotating at 15.0 rad\/s. What will be its final angular velocity? Treat the bug as a point mass. "
+},
+{
+  "id": "exercise-182",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-182",
+  "type": "Exercise",
+  "number": "7.6.16",
+  "title": "",
+  "body": "A bicycle tire has a mass of 4.0 kg and a radius of 0.33 m. If it is rotating at 22 rad\/s what is its angular momentum? If it is used as a gyroscope with a 24 cm long pivot bar, what will be its precession speed? "
+},
+{
+  "id": "exercise-183",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-183",
+  "type": "Exercise",
+  "number": "7.6.17",
+  "title": "",
+  "body": "Calculate the angular momentum of a phonograph record, LP (Long Play) rotating at rev\/min. An LP has a radius of 15 cm and a mass of 150 g. A typical phonograph can accelerate an LP from rest to its final speed in 0.35 s, what average torque would be exerted on the LP? "
 },
 {
   "id": "sec_eigth-intro",
@@ -3871,54 +4501,54 @@ var ptx_lunr_docs = [
   "body": " States of Equilibrium   There are three states of equilibrium:                      Stable equilibrium: The body is said to be in stable equilibrium if its center of gravity lies below lowest possible position. A funnel standing vertically on its base on the table is in stable equilibrium [ ]. If the funnel is tilted a little bit against any side and then allowed to fall, it will come back to its original position. When the funnel is tilted against any side its center of gravity is raised [ ]. The line of action of weight passes through the base of the funnel. As long as the line of action of weight remains inside the base area funnel will come back to the original position. A torque due to weight of the funnel brings it back to the original position. For the funnel to tip over the line of action of the weight arrow will have to form a clockwise moment (or to pass outside the point of support). The funnel needs to have been pushed a lot for tip over. Some examples of stable equilibrium are bodies lying on the floor such as chair, table, book, etc. If a system in stable equilibrium is disturbed slightly, it oscillates around that state first but eventually settles down in exactly the same position as it started [ ]. It does this because its center of gravity is already at the lowest possible position.                      Unstable equilibrium: The body is said to be in unstable equilibrium if the center of gravity of a body lies above the highest possible position. A funnel standing vertically on its stem on the table [ ] is in unstable equilibrium. If the funnel standing vertically is slightly disturbed from its position it will not come back to its original position rather fall down on the surface of table. when the funnel is slightly disturbed its center of gravity is lowered [ ]. The line of action of its weight lies outside the base of stem. The torque due to weight of the rod toppled it down. Other examples of unstable equilibrium are vertically standing cylinder and pencil etc. An unstable system moves away from its original equilibrium state when disturbed. It wants to move away from the original position as soon as it has been disturbed [ ]. It does this because its center of gravity is higher in this state and when disturbed the center of gravity continues to move to a lower position (a more stable one).                      Neutral equilibrium: The body is said to be in neutral equilibrium if the center of gravity of a body is at optimal position it is neither lowered nor is raised up. The object with lower center of gravity is more stable than the one with the higher center of gravity. A funnel lying horizontally on its side at rest on the surface of a table [ ] is in natural equilibrium. If a funnel is pushed slightly to roll, it will neither come back to its original position nor it will roll forward rather it will remain at rest. If the funnel is rolled, its center of gravity is neither raised nor lowered [ ]. This means that its center of gravity is at the same height as before. A neutral system is one where the center of gravity of the system is always at the same level. If it has been disturbed slightly it will therefore settle in the new position without a need to move further on or to move back [ ]. For example, a rolling ball lying on the table.     "
 },
 {
-  "id": "figure-117",
+  "id": "figure-158",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-117",
+  "url": "sec_ninth-intro.html#figure-158",
   "type": "Figure",
   "number": "9.1.1",
   "title": "",
   "body": "                "
 },
 {
-  "id": "p-772",
+  "id": "p-876",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-772",
+  "url": "sec_ninth-intro.html#p-876",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Stable equilibrium: "
 },
 {
-  "id": "figure-121",
+  "id": "figure-162",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-121",
+  "url": "sec_ninth-intro.html#figure-162",
   "type": "Figure",
   "number": "9.1.2",
   "title": "",
   "body": "                "
 },
 {
-  "id": "p-773",
+  "id": "p-877",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-773",
+  "url": "sec_ninth-intro.html#p-877",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Unstable equilibrium: "
 },
 {
-  "id": "figure-125",
+  "id": "figure-166",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-125",
+  "url": "sec_ninth-intro.html#figure-166",
   "type": "Figure",
   "number": "9.1.3",
   "title": "",
   "body": "                "
 },
 {
-  "id": "p-774",
+  "id": "p-878",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-774",
+  "url": "sec_ninth-intro.html#p-878",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

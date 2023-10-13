@@ -177,7 +177,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_seventh.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="ex_seventh.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-rad_gyr.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_seventh.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_seventh-rotdyn.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -416,14 +416,82 @@ window.MathJax = {
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="sec_seventh-intro.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Moment of Inertia</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="subsec-rwep.html" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Rotational Work, Energy, and Power</span></a></div></li></ul>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-paral_axis.html" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Parallel axis theorem</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-perpend_axis.html" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Perpendicular axis theorem</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-mi_ring.html" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Moment of Inertia of a Ring or Hoop</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_ring.html#subsubsec-miring_cm" class="internal"><span class="codenumber">7.1.3.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_ring.html#subsubsec-miring_rim" class="internal"><span class="codenumber">7.1.3.2</span> <span class="title">About an axis passing through its rim and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_ring.html#subsubsec-miring_diam" class="internal"><span class="codenumber">7.1.3.3</span> <span class="title">About an axis through its diameter</span></a></div></li>
+</ul>
 </li>
 <li>
-<div class="toc-item"><a href="sec_seventh-oscil.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Oscillatory Motion</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="subsec-.html" class="internal"><span class="codenumber">7.2.1</span> <span class="title"></span></a></div></li></ul>
+<div class="toc-item"><a href="subsec-mi_rod.html" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Moment of Inertia of a Rod</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_rod.html#subsubsec-mirod_cm" class="internal"><span class="codenumber">7.1.4.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_rod.html#subsubsec-mirod_edge" class="internal"><span class="codenumber">7.1.4.2</span> <span class="title">About an axis passing through its one edge and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_rod.html#subsubsec-mirod_length" class="internal"><span class="codenumber">7.1.4.3</span> <span class="title">About an axis passing along its length and through the center of mass</span></a></div></li>
+</ul>
 </li>
-<li class="active"><div class="toc-item"><a href="sec_seventh-examples.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Examples</span></a></div></li>
-<li><div class="toc-item"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Exercise</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-mi_disk.html" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Moment of Inertia of a Disk</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_disk.html#subsubsec-midisk_cm" class="internal"><span class="codenumber">7.1.5.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_disk.html#subsubsec-midisk_diam" class="internal"><span class="codenumber">7.1.5.2</span> <span class="title">About an axis through its diameter</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_disk.html#subsubsec-midisk_edge" class="internal"><span class="codenumber">7.1.5.3</span> <span class="title">About an axis passing through its edge and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-mi_plate.html" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Moment of Inertia of a Plate</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_plate.html#subsubsec-miplate_cmlength" class="internal"><span class="codenumber">7.1.6.1</span> <span class="title">About an axis <span class="process-math">\(I_{x}\)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_plate.html#subsubsec-miplate_cmwide" class="internal"><span class="codenumber">7.1.6.2</span> <span class="title">About an axis <span class="process-math">\(I_{y} \)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_plate.html#subsubsec-miplate_perpnd" class="internal"><span class="codenumber">7.1.6.3</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-mi_cylnd.html" class="internal"><span class="codenumber">7.1.7</span> <span class="title">Moment of Inertia of a Cylinder</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_cylnd.html#subsubsec-micyl_cm" class="internal"><span class="codenumber">7.1.7.1</span> <span class="title">Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_cylnd.html#subsubsec-micyl_percm" class="internal"><span class="codenumber">7.1.7.2</span> <span class="title">Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_cylnd.html#subsubsec-micyl_cmsolid" class="internal"><span class="codenumber">7.1.7.3</span> <span class="title">Moment of inertia of a solid cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-mi_cone.html" class="internal"><span class="codenumber">7.1.8</span> <span class="title">Moment of Inertia of a Cone</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_cone.html#subsubsec-miscone_symtr" class="internal"><span class="codenumber">7.1.8.1</span> <span class="title">Moment of Inertia of a Solid Cone about an axis of symmetry</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_cone.html#subsubsec-miscone_vertx" class="internal"><span class="codenumber">7.1.8.2</span> <span class="title">Moment of Inertia of a Solid Cone about a Vertex Parallel to the Base</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_cone.html#subsubsec-mihcone_symt" class="internal"><span class="codenumber">7.1.8.3</span> <span class="title">Moment of Inertia of a Hollow Cone about an axis of symmetry</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-mi_spher.html" class="internal"><span class="codenumber">7.1.9</span> <span class="title">Moment of Inertia of a Sphere</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_spher.html#subsubsec-mihspher" class="internal"><span class="codenumber">7.1.9.1</span> <span class="title">Moment of inertia of a hollow sphere about its diameter</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_spher.html#subsubsec-misspher" class="internal"><span class="codenumber">7.1.9.2</span> <span class="title">Moment of inertia of a solid sphere about its diameter</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-rad_gyr.html" class="internal"><span class="codenumber">7.1.10</span> <span class="title">Radius of Gyration</span></a></div></li>
+</ul>
+</li>
+<li class="active"><div class="toc-item"><a href="sec_seventh-examples.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Examples</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_seventh-rotdyn.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Rotational Dynamics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-rot_overview.html" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Rotational Overview</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-rwep.html" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Rotational Energy, Work, and Power</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ang_momnt.html" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Angular Momentum</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-gyros.html" class="internal"><span class="codenumber">7.3.4</span> <span class="title">The Gyroscope</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_seventh-oscil.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Oscillatory Motion</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-shm.html" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Simple Harmonic Motion</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li>
@@ -449,10 +517,274 @@ window.MathJax = {
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_seventh-examples"><h2 class="heading hide-type">
-<span class="type">Section</span> <span class="codenumber">7.3</span> <span class="title">Examples</span>
-</h2></section></div>
+<span class="type">Section</span> <span class="codenumber">7.2</span> <span class="title">Examples</span>
+</h2>
+<article class="example example-like" id="example-111"><a href="" data-knowl="" class="id-ref example-knowl original has-image" data-refid="hk-example-111"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.1</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-111"><article class="example example-like"><div class="para logical" id="p-798">
+<div class="para">Find the moment of inertia of the following mass distribution for the following axes,</div>
+<ol class="lower-alpha">
+<li id="li-711"><div class="para" id="p-derived-li-711">x,</div></li>
+<li id="li-712"><div class="para" id="p-derived-li-712">x’,</div></li>
+<li id="li-713"><div class="para" id="p-derived-li-713">y,</div></li>
+<li id="li-714"><div class="para" id="p-derived-li-714">z (out of the paper through the (x,y) origin).</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-111" id="solution-111"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-111"><div class="solution solution-like">
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/mi1.png" class="contained"></div> <div class="para logical" id="p-799">
+<div class="para">Given:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+m_{1}  =  1 kg, \quad m_{2}  =  2 kg, \quad m_{3}  =  3 kg,\quad m_{4}  =  4 kg
+\end{equation*}
+</div>
+<ol class="lower-alpha">
+<li id="li-715"><div class="para" id="p-derived-li-715">
+<div class="displaymath process-math">
+\begin{equation*}
+r_{1}  =  0,  \quad r_{2}  =  0 m, \quad r_{3}  =  1 m,\quad  r_{4}  =  1 m
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore I_{x}  = \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 0+0+3\cdot 1^{2}+4\cdot 1^{2} = 7\, kg m^{2} 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-716"><div class="para" id="p-derived-li-716">
+<div class="displaymath process-math">
+\begin{equation*}
+r_{1}  =  1 m,\quad r_{2}  =  1 m, \quad r_{3}  =  0, \quad r_{4} =  0 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore I_{x'}  =  \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 1+2+0+0=3\, kg m^{2} 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-717"><div class="para" id="p-derived-li-717">
+<div class="displaymath process-math">
+\begin{equation*}
+r_{1}  =  0,\quad r_{2}  =  1 m,\quad r_{3}  =  1 m,\quad r_{4}  =  0 m,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad I_{y} =  \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 0+2+3+0=5\, kg m^{2} 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-718"><div class="para" id="p-derived-li-718">
+<div class="displaymath process-math">
+\begin{equation*}
+r_{1}  =  0, \quad r_{2}  =  1 m,\quad r_{3}  =  m,\quad r_{4}  =  1 m,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{z}  =  \sum m r^{2} = 12 \, kg m^{2}
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div>
+</div></div>
+</div></article></div>
+<article class="example example-like" id="example-112"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-112"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.2</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-112"><article class="example example-like"><div class="para" id="p-800">Two rods, each of mass m and length l, are welded together to form the T-shaped object. Use the parallel-axis theorem to determine the moment of inertia of the object about the axis through point O that is perpendicular to the bars.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-112" id="solution-112"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-112"><div class="solution solution-like"><div class="para logical" id="p-801">
+<div class="para">Divide the object into two pieces, each corresponding to a bar of mass m. Moment of inertia of first rod about its one end,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{1} =\frac{1}{3}ml^{2}. 
+\end{equation*}
+</div>
+<div class="para">Moment of inertia of second rod about its center,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{2} =\frac{1}{12}ml^{2}.
+\end{equation*}
+</div>
+<div class="para">Moment of inertia of CM of second rod about point o using <span class="process-math">\(||^{l}\)</span> axis theorem,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{2cm} =ml^{2}. 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore I = I_{1}+(I_{2}+I_{2cm}) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{3}ml^{2}+ \frac{1}{12}ml^{2}+ml^{2} = \frac{17}{12}ml^{2}
+\end{equation*}
+</div>
+</div></div></div>
+</div></article></div>
+<article class="example example-like" id="example-113"><a href="" data-knowl="" class="id-ref example-knowl original has-image" data-refid="hk-example-113"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.3</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-113"><article class="example example-like"><div class="para logical" id="p-802">
+<div class="para">Calculate the moment of inertia of each of the uniform bodies</div>
+<ol class="lower-alpha">
+<li id="li-719">uniform block about its long axis, <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/mi3.png" class="contained"></div>
+</li>
+<li id="li-720">square ring about its center, and <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/mi3b.png" class="contained"></div>
+</li>
+<li id="li-721">hula hoop about its rim. <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/mi3c.png" class="contained"></div>
+</li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-113" id="solution-113"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-113"><div class="solution solution-like"><div class="para logical" id="p-803"><ol class="lower-alpha">
+<li id="li-722"><div class="para" id="p-derived-li-722"><div class="displaymath process-math">
+\begin{equation*}
+I  =  1/12 M(a^{2} + a^{2})  =  1/6 M a^{2};
+\end{equation*}
+</div></div></li>
+<li id="li-723"><div class="para" id="p-derived-li-723">
+<div class="displaymath process-math">
+\begin{equation*}
+I  =  4 I_{1}, \, I_{1}  =  I_{1cm} + M_{1} R^{2}_{1},\, I_{1cm}=  1/12 M_{1} R^{2}_{1},
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+M_{1} =  M/4,\,	R_{1} =  L/2,\, I  =  13/24 M L^{2};
+\end{equation*}
+</div>
+</div></li>
+<li id="li-724"><div class="para" id="p-derived-li-724"><div class="displaymath process-math">
+\begin{equation*}
+I  =  I_{cm} + M R^{2},\, I_{cm} = 2/5 M R^{2}, \, I =  7/5 M R^{2}.
+\end{equation*}
+</div></div></li>
+</ol></div></div></div>
+</div></article></div>
+<article class="example example-like" id="example-114"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-114"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.4</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-114"><article class="example example-like"><div class="para logical" id="p-804">
+<div class="para">4. A rod of nonuniform mass distribution has a length, <span class="process-math">\(L\)</span> and mass, <span class="process-math">\(M\text{.}\)</span> The linear mass density is given as <span class="process-math">\(\lambda = \lambda_{o}x\)</span> where <span class="process-math">\(\lambda_{o}\)</span> is constant.</div>
+<ol class="lower-alpha">
+<li id="li-725"><div class="para" id="p-derived-li-725">Find the center of mass of a rod.</div></li>
+<li id="li-726"><div class="para" id="p-derived-li-726">Find the moment of inertia of the rod about about an axis passing through one of its edges and perpendicular to its length.</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-114" id="solution-114"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-114"><div class="solution solution-like">
+<div class="para logical" id="p-805">
+<div class="para">Linear mass density,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lambda = \frac{\,dm}{\,dl}.
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad \,dm = \lambda \,dl = \lambda_{o} x \,dx.
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad M = \int \,dm  = \int_{0}^{L} \lambda_{o} x \,dx
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lambda_{o} \left. \frac{x^{2}}{2}\right\vert_{0}^{L} = \frac{\lambda_{o}L^{2}}{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Hence, \quad \lambda_{o} = \frac{2M}{L^{2}} 
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-806"><ol class="lower-alpha">
+<li id="li-727"><div class="para" id="p-derived-li-727"><div class="displaymath process-math">
+\begin{equation*}
+x_{cm} = \dfrac{\int_{0}^{M}x\,dm}{\int_{0}^{M}\,dm} = \frac{2}{\lambda_{o}L^{2}}\int_{0}^{L}x(\lambda_{o}x)\,dx = \frac{2}{3} L 
+\end{equation*}
+</div></div></li>
+<li id="li-728"><div class="para" id="p-derived-li-728">
+<div class="displaymath process-math">
+\begin{equation*}
+\,dI  = x^{2}\,dm = x^{2}\lambda \,dx = x^{2}\lambda_{o} x\,dx  \
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad I = \int \,dI = \lambda_{o}\int_{0}^{L}x^{3} \,dx 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lambda_{o}\left.\frac{x^{4}}{4} \right\vert_{o}^{L} = \frac{\lambda_{o}L^{4}}{4} = \frac{1}{2}ML^{2}
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
+</div></div>
+</div></article></div>
+<article class="example example-like" id="example-115"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-115"><h2 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.5</span><span class="period">.</span>
+</h2></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-115"><article class="example example-like"><div class="para logical" id="p-807">
+<div class="para">A disk of nonuniform mass distribution has a radius, <span class="process-math">\(R\)</span> mass and <span class="process-math">\(M\text{.}\)</span> The surface mass density varies as <span class="process-math">\(\sigma = \sigma_{o} r^{2}\)</span> where <span class="process-math">\(\sigma_{o}\)</span> is a constant and <span class="process-math">\(r\)</span> is measured from its center.</div>
+<ol class="lower-alpha">
+<li id="li-729"><div class="para" id="p-derived-li-729">Find its center of mass and</div></li>
+<li id="li-730"><div class="para" id="p-derived-li-730">moment of inertia about an axis passing through its geometric center and perpendicular to its plane.</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-115" id="solution-115"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-115"><div class="solution solution-like"><div class="para logical" id="p-808">
+<div class="para">Surface mass density,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sigma = \frac{\,dm}{\,dA}.
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad \, dm = \sigma \, dA = \sigma_{o} r^{2} (2\pi r \,dr) = 2\pi \sigma_{o}r^{3}\,dr 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad M = \int \,dm = 2\pi\sigma_{o}\int^{R}_{0} r^{3}\,dr =  2\pi\sigma_{o} \frac{R^{4}}{4} = \frac{1}{2}\pi \sigma_{o}R^{4}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Hence, \quad \sigma_{o} = \frac{2M}{\pi R^{4}} 
+\end{equation*}
+</div>
+<ol class="lower-alpha">
+<li id="li-731"><div class="para" id="p-derived-li-731"><div class="displaymath process-math">
+\begin{equation*}
+r_{cm} = \frac{1}{M}\int_{0}^{M}r\,dm = \frac{2}{\pi \sigma_{o}R^{4}} \int_{0}^{R}2\pi \sigma_{o}r^{4}\,dr = \frac{4}{5} R 
+\end{equation*}
+</div></div></li>
+<li id="li-732"><div class="para" id="p-derived-li-732">
+<div class="displaymath process-math">
+\begin{equation*}
+\,dI = r^{2}\,dm =r^{2} 2\pi \sigma_{o}r^{3}\,dr 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad I = \int \,dI = 2\pi\sigma_{o}\int_{o}^{R}r^{5}\,dr = \frac{1}{3}\pi\sigma_{o}R^{6} = \frac{2}{3}MR^{2}.
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div></div></div>
+</div></article></div></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="subsec-.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="ex_seventh.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="subsec-rad_gyr.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_seventh-rotdyn.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer">

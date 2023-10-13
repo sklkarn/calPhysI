@@ -8,7 +8,7 @@
 <html lang="en-US">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Rotational Work, Energy, and Power</title>
+<title>Rotational Energy, Work, and Power</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -177,7 +177,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_seventh-intro.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_seventh-intro.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_seventh-oscil.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-rot_overview.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_seventh-rotdyn.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="subsec-ang_momnt.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -416,14 +416,83 @@ window.MathJax = {
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="sec_seventh-intro.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Moment of Inertia</span></a></div>
-<ul class="structural"><li class="active"><div class="toc-item"><a href="subsec-rwep.html" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Rotational Work, Energy, and Power</span></a></div></li></ul>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-paral_axis.html" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Parallel axis theorem</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-perpend_axis.html" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Perpendicular axis theorem</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-mi_ring.html" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Moment of Inertia of a Ring or Hoop</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_ring.html#subsubsec-miring_cm" class="internal"><span class="codenumber">7.1.3.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_ring.html#subsubsec-miring_rim" class="internal"><span class="codenumber">7.1.3.2</span> <span class="title">About an axis passing through its rim and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_ring.html#subsubsec-miring_diam" class="internal"><span class="codenumber">7.1.3.3</span> <span class="title">About an axis through its diameter</span></a></div></li>
+</ul>
 </li>
 <li>
-<div class="toc-item"><a href="sec_seventh-oscil.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Oscillatory Motion</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="subsec-.html" class="internal"><span class="codenumber">7.2.1</span> <span class="title"></span></a></div></li></ul>
+<div class="toc-item"><a href="subsec-mi_rod.html" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Moment of Inertia of a Rod</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_rod.html#subsubsec-mirod_cm" class="internal"><span class="codenumber">7.1.4.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_rod.html#subsubsec-mirod_edge" class="internal"><span class="codenumber">7.1.4.2</span> <span class="title">About an axis passing through its one edge and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_rod.html#subsubsec-mirod_length" class="internal"><span class="codenumber">7.1.4.3</span> <span class="title">About an axis passing along its length and through the center of mass</span></a></div></li>
+</ul>
 </li>
-<li><div class="toc-item"><a href="sec_seventh-examples.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Examples</span></a></div></li>
-<li><div class="toc-item"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Exercise</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-mi_disk.html" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Moment of Inertia of a Disk</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_disk.html#subsubsec-midisk_cm" class="internal"><span class="codenumber">7.1.5.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_disk.html#subsubsec-midisk_diam" class="internal"><span class="codenumber">7.1.5.2</span> <span class="title">About an axis through its diameter</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_disk.html#subsubsec-midisk_edge" class="internal"><span class="codenumber">7.1.5.3</span> <span class="title">About an axis passing through its edge and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-mi_plate.html" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Moment of Inertia of a Plate</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_plate.html#subsubsec-miplate_cmlength" class="internal"><span class="codenumber">7.1.6.1</span> <span class="title">About an axis <span class="process-math">\(I_{x}\)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_plate.html#subsubsec-miplate_cmwide" class="internal"><span class="codenumber">7.1.6.2</span> <span class="title">About an axis <span class="process-math">\(I_{y} \)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_plate.html#subsubsec-miplate_perpnd" class="internal"><span class="codenumber">7.1.6.3</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-mi_cylnd.html" class="internal"><span class="codenumber">7.1.7</span> <span class="title">Moment of Inertia of a Cylinder</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_cylnd.html#subsubsec-micyl_cm" class="internal"><span class="codenumber">7.1.7.1</span> <span class="title">Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_cylnd.html#subsubsec-micyl_percm" class="internal"><span class="codenumber">7.1.7.2</span> <span class="title">Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_cylnd.html#subsubsec-micyl_cmsolid" class="internal"><span class="codenumber">7.1.7.3</span> <span class="title">Moment of inertia of a solid cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-mi_cone.html" class="internal"><span class="codenumber">7.1.8</span> <span class="title">Moment of Inertia of a Cone</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_cone.html#subsubsec-miscone_symtr" class="internal"><span class="codenumber">7.1.8.1</span> <span class="title">Moment of Inertia of a Solid Cone about an axis of symmetry</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_cone.html#subsubsec-miscone_vertx" class="internal"><span class="codenumber">7.1.8.2</span> <span class="title">Moment of Inertia of a Solid Cone about a Vertex Parallel to the Base</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_cone.html#subsubsec-mihcone_symt" class="internal"><span class="codenumber">7.1.8.3</span> <span class="title">Moment of Inertia of a Hollow Cone about an axis of symmetry</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-mi_spher.html" class="internal"><span class="codenumber">7.1.9</span> <span class="title">Moment of Inertia of a Sphere</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mi_spher.html#subsubsec-mihspher" class="internal"><span class="codenumber">7.1.9.1</span> <span class="title">Moment of inertia of a hollow sphere about its diameter</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mi_spher.html#subsubsec-misspher" class="internal"><span class="codenumber">7.1.9.2</span> <span class="title">Moment of inertia of a solid sphere about its diameter</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-rad_gyr.html" class="internal"><span class="codenumber">7.1.10</span> <span class="title">Radius of Gyration</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_seventh-examplesA.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_seventh-rotdyn.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Rotational Dynamics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-rot_overview.html" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Rotational Overview</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="subsec-rwep.html" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Rotational Energy, Work, and Power</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ang_momnt.html" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Angular Momentum</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-gyros.html" class="internal"><span class="codenumber">7.3.4</span> <span class="title">The Gyroscope</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_seventh-examplesB.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Examples B</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_seventh-oscil.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Oscillatory Motion</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-shm.html" class="internal"><span class="codenumber">7.5.1</span> <span class="title">Simple Harmonic Motion</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li>
@@ -449,11 +518,65 @@ window.MathJax = {
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsec-rwep"><h2 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">7.1.1</span> <span class="title">Rotational Work, Energy, and Power</span>
+<span class="type">Subsection</span> <span class="codenumber">7.3.2</span> <span class="title">Rotational Energy, Work, and Power</span>
 </h2>
-<div class="para" id="p-765"></div></section></div>
+<div class="para logical" id="p-812">
+<div class="para">Whenever a rigid body is set into rotation about an axis, work is done by the torques. Consider a rigid body pivoted at point <span class="process-math">\(O\)</span> is acted upon by a force <span class="process-math">\(\vec{F}\)</span> at point <span class="process-math">\(P\)</span> so that it rotates by a small arc length  <span class="process-math">\(\,ds,\)</span> then work done by the force is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dW = \vec{F}\cdot\vec{ds} =\vec{F}\cdot\left(\,d\vec{\theta}\times\vec{r}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\,d\vec{\theta}\cdot \left(\vec{r}\times \vec{F}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+[\because \vec{a}\cdot(\vec{b}\times\vec{c})= \vec{b}\cdot (\vec{c}\times\vec{a})
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore W=\int \vec{\Gamma}\cdot\,d\vec{\theta}=\int\Gamma\,d\theta
+\end{equation*}
+</div>
+<div class="para">Since the direction of the angular displacement is measured along the axis, and the torque is acting along the same direction on the body. If a constant torque acts on a rigid body which is rotating about a fixed axis, then from the principle of conservation of mechanical energy, assuming no loss due to friction, the work done by the torque will produce a change in the kinetic energy of the body given by</div>
+</div>
+<figure class="figure figure-like" id="rotwork"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rotwork.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.3.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-813">
+<div class="para">For maximum torque, <span class="process-math">\(\theta =90^{o}\text{,}\)</span>  and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Gamma =\vec{r}\times \vec{F} = rF\sin\theta = Fr.
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,d W =Fr\,d\theta = \Gamma\,d\theta= I\alpha\,d\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,d K = \frac{1}{2}I\omega^{2}= \frac{1}{2}I\left(\omega^{2}_{f}-\omega^{2}_{i}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{2}I \left(2\alpha\,d \theta\right)=I\alpha\,d\theta =\,d W
+\end{equation*}
+</div>
+<div class="para">From rotational kinematics,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\omega^{2}_{f}=\omega^{2}_{i}+2\alpha\theta.
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\omega_{f},\)</span>  and  <span class="process-math">\(\omega_{i}\)</span>  are  the final and initial angular velocity of the body, respectively  and <span class="process-math">\(\theta\)</span> is angular displacement through which the torque is applied.</div>
+</div></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec_seventh-intro.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_seventh-oscil.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="subsec-rot_overview.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="subsec-ang_momnt.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer">
