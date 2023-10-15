@@ -47,7 +47,7 @@
   <xi:include href="./sec_seventh-rotdyn.ptx" />
   <xi:include href="./sec_seventh-examplesB.ptx" />  
   <xi:include href="./sec_seventh-oscil.ptx" />
-
+  <xi:include href="./sec_seventh-examplesC.ptx" />  
   <xi:include href="./ex_seventh.ptx"/> 
 
 </chapter>

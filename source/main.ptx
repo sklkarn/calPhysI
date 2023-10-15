@@ -98,9 +98,9 @@
             This book is organized into two volumes and ten chapters that covers the syllabus 
             of introductory physics at undergraduate level in various universities and colleges. 
            This a <term>Volume I</term> designeted as <term>PHYS211</term> that contains the 
-           <em>Basics of Mechanics, Simple Harmonic Motion, Fluid Mechanics, and Thermodynamics. </em>
+           <em>Basics of Mechanics,  Fluid Mechanics, and Thermodynamics. </em>
             <term>Volume II</term> designeted as <term>PHYS212</term> contains <em>Electricity, 
-              Magnetism, Waves, Acoustics, and Optics</em>. 
+              Magnetism, Simple Harmonic Motion, Waves, Acoustics, and Optics</em>. 
               These topics have been carefully chosen to provide an introduction to the 
             basic concepts in physics and to give an opportunity to sharpen critical thinking 
             and problem solving skills. The main objective of this book is to learn how to 
@@ -144,7 +144,7 @@
      <xi:include href="./ch_fifth.ptx" />
      <xi:include href="./ch_sixth.ptx" />
      <xi:include href="./ch_seventh.ptx" /> 
-     <xi:include href="./ch_eigth.ptx" /> 
+     <xi:include href="./ch_eighth.ptx" /> 
      <xi:include href="./ch_ninth.ptx" /> 
      <xi:include href="./ch_tenth.ptx" /> 
 

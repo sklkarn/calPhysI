@@ -226,7 +226,7 @@
               <me>
                 W = \int\limits_{0}^{x}F_{s}\,dx =\int\limits_{0}^{x}(-kx)\,dx=-\frac{1}{2}kx^{2}=E_{s}
               </me>
-              where <m>F = -k x,</m> is the restoring force <fn>[read <xref ref="ch_eigth"/> for more details]</fn>, 
+              where <m>F = -k x,</m> is the restoring force <fn>[read <xref ref="ch_eighth"/> for more details]</fn>, 
               <m>k</m> is elastic (or, spring) constant (it defines the stiffness of the spring), 
               and <m>x</m> is extension in the spring. 
             </p>

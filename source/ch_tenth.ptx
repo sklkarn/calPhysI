@@ -13,10 +13,10 @@
       </introduction>
 
  
-  <!-- <xi:include href="./sec_tenth-intro.ptx" />
+  <xi:include href="./sec_tenth-intro.ptx" />
 
-  <xi:include href="./sec_tenth-examples.ptx" />  
+  <xi:include href="./sec_tenth-examplesA.ptx" />  
 
-  <xi:include href="./ex_tenth.ptx"/> -->
+  <xi:include href="./ex_tenth.ptx"/> 
 
 </chapter>
