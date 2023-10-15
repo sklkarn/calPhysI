@@ -11,15 +11,55 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">An Atwood machine as shown at right consists of a mass of 10 kg supported by a rope draped over a uniform cylinder of mass 20 kg and radius 10 cm and then tied to a mass of 5 kg located 1.5 m below the first mass. If the system is released from rest, <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/rotdq1.png" class="contained"></div>
+<div class="para">A compound pendulum consists of a rigid body that oscillates about a horizontal frictionless axis passing through a point <span class="process-math">\(S\text{.}\)</span> It is also called a physical pendulum. When a body is displaced from its equilibrium position by an angle <span class="process-math">\(\theta,\)</span> then the restoring torque starts acting on the center of gravity G of the body which is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tau = I \alpha = -mga\sin\theta
+\end{equation*}
 </div>
-<ol class="lower-alpha">
-<li><div class="para">find the tension <span class="process-math">\(T_{1}\)</span> in the rope supporting the $10-kg$ mass.</div></li>
-<li><div class="para">What is the maximum height ever attained by the second mass.</div></li>
-</ol>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad I\ddot{\theta}=-mga\theta \quad [\text{for small angle approximation}]
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_seventh.html#p-865" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \ddot{\theta}+\frac{mga}{I}\theta =0
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \ddot{\theta}+\omega^{2}\theta =0
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\omega^{2}=\frac{mga}{I} \)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, \omega = \sqrt{\frac{mga}{I}} =\frac{2\pi}{T} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad T = \sqrt{\frac{I}{mga}} 
+\end{equation*}
+</div>
+<div class="para">here,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I = I_{cm}+Ma^{2} = Mk^{2}+Ma^{2} 
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(k\)</span> is radius of gyration</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad T = 2\pi\sqrt{\frac{k^{2}+a^{2}}{ga}}
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="subsec-comp_pendulum.html#p-865" class="internal">in-context</a></span>
 </body>
 </html>

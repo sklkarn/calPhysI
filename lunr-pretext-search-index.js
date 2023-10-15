@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Preface",
-  "body": " Principles of physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students as a regular practice, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes and ten chapters that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. This a Volume I designeted as PHYS211 that contains the Basics of Mechanics, Simple Harmonic Motion, Fluid Mechanics, and Thermodynamics.  Volume II designeted as PHYS212 contains Electricity, Magnetism, Waves, Acoustics, and Optics . These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted. -- Author   "
+  "body": " Principles of physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students as a regular practice, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes and ten chapters that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. This a Volume I designeted as PHYS211 that contains the Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  Volume II designeted as PHYS212 contains Electricity, Magnetism, Simple Harmonic Motion, Waves, Acoustics, and Optics . These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted. -- Author   "
 },
 {
   "id": "p-4",
@@ -4318,23 +4318,212 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.5.1",
   "title": "Simple Harmonic Motion",
-  "body": " Simple Harmonic Motion    "
+  "body": " Simple Harmonic Motion   Phasor Diagram     If a body oscillates repeatedly ( to and fro ) between two extremes in equal interval of time then the motion is called a simple harmonic motion. It is the simplest form of oscillatory motion. The moving particle follows the same velocity at the same displacement of its oscillation and the restoring force always pointed towards the mean position. The bouncing ball motion is oscillatory but not simple harmonic. A particle moving in a uniform circular motion in a given phasor diagram [ ] can be seen as a foot ( ) of the particle executing SHM.  The angular velocity of the particle is therefore the same as angular frequency of the foot of the particle executing SHM as shown in . As the particle moves on a circle its foot, M executes up and down motion which traces a sinusoidal curve with respect to time. Some important terminologies are given below to understand SHM.   Amplitude, :  amplitude The maximum displacement of the oscillating particle on either side of its mean position.   Time Period, :  time period Time taken by oscillatory particle to complete one oscillation is called time period.   Frequency, :  frequency The number of oscillation completed per unit time is called frequency. If is the time period, then frequency, is given by    Angular frequency, :  angular frequency It is a circular frequency which measures angular displacement per unit time. Its unit is radians\/sec. It is a scalar quantity. In circular motion, angular frequency and angular velocity is used interchangeably.   Phase, :  phase It is the initial position (in angle) of a particle at time If the particle executing SHM is at mean position when then if it is at its extreme positions then         The followings are some features to recognize simple harmonic motion (SHM). Any of these features guarantee the motion is SHM in nature.  Restoring force is proportional to displacement from equilibrium position, i.e., where is a proportionality constant and is a displacement from the equilibrium.  ime period, is independent of the amplitude of oscillation.  Potential energy is proportional to .  The graphs for position vs time, ( ); velocity vs time, ( ); and acceleration vs time, ( ) are all sinusoidal [ ].      Equation of SHM  Equation for simple harmonic oscillation can be obtained by considering a spring-mass system, but the equation can be used for any other system performing SHM. Consider a block of mass attached to the spring and one end of spring is fixed to the wall. If the block is displaced by the distance from the mean position of spring-block system and released on a frictionless surface then restoring force of spring is proportional to the displacement. That is,  Where is proportionality constant, called a force constant. It defines the elastic property of material, hence it is also called elastic constant. For spring we may also called as stiffness constant. However, if the restoring force has some other source then elastic property of material then is simply a proportionality constant and depends on the nature of space, e.g. gravitational field in case of simple pendulum. sign here shows restoring force is always opposite to the displacement from the mean position. Equation is Hook's Law, we can discuss this law in the chapter Elasticity .   Where is the angular frequency (velocity) of the object executing SHM or performing circular motion. Angular frequency, is taken as because phaser always revolves anticlockwise. In the , is a mean length of spring-mass system and is displacement from the equilibrium position at any time . Here point is equilibrium position and points and are two extremes. Now as acceleration, is a function of and is also a function of we can also have velocity, . Therefore,                 put, or      Where is a phase of oscillating particle. The displacement of oscillating particle can also be obtained by using Either solutions will work perfectly fine in solving shm problems. However, we can use cosine term solution if time when the particle is at its extreme position. If time when the particle is at mean position sine term solution will suffice. Here we are using as a solution for the differential equation. Hence the velocity of such particle at any time is given by and the acceleration of this particle is Time period of oscillation in spring-mass system is given by     Alternative solution to   We can find the solution of by the following way  This is second order differential equation with constant coefficient. The solution of such equation can be found by guessing which depends upon the nature of the curve that we precept in SHM, which is sinusoidal in this case. Hence we can guess that  will be the solution of given differential equation. The advanced way of finding the solution of such type of differential equation is to find the nature of roots of the equation and then the solution can be given by . Where and are arbitrary constants, and and are roots of the auxiliary equation. (see Chapter 4 in Mathematical Methods of Physics for Undergraduate - Sunil Karna)    Algebric derivation of particle's velocity in SHM:      Energy in SHM  Consider a vibrating spring with mass attached to its end, then the kinetic energy of the mass , and potential energy stored in the spring with a displacement is . [ ] Now since restoring force involved in spring mass system is conservative, the total mechanical energy is conserved [ ]. Here is a spring constant, is the amplitude of vibrating spring and the velocity of the particle executing SHM is zero at extremes. Let the spring oscillates in vertical up and down then the solution for SHM is given by      From eqn. , we have -  means mass is oscillating in up and down direction, i.e. Now  Note: The same result could be obtained by considering equation of SHM as        Summary of Phasor Diagram for    Points    s      KE  PE                                                                    "
+},
+{
+  "id": "rfcc",
+  "level": "2",
+  "url": "subsec-shm.html#rfcc",
+  "type": "Figure",
+  "number": "7.5.1",
+  "title": "",
+  "body": " Phasor Diagram   "
+},
+{
+  "id": "p-855",
+  "level": "2",
+  "url": "subsec-shm.html#p-855",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Amplitude, : Time Period, : Frequency, : Angular frequency, : Phase, : "
+},
+{
+  "id": "rfcc2",
+  "level": "2",
+  "url": "subsec-shm.html#rfcc2",
+  "type": "Figure",
+  "number": "7.5.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "shm1",
+  "level": "2",
+  "url": "subsec-shm.html#shm1",
+  "type": "Figure",
+  "number": "7.5.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-859",
+  "level": "2",
+  "url": "subsec-shm.html#p-859",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Alternative solution to "
+},
+{
+  "id": "p-860",
+  "level": "2",
+  "url": "subsec-shm.html#p-860",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Mathematical Methods of Physics for Undergraduate "
+},
+{
+  "id": "p-861",
+  "level": "2",
+  "url": "subsec-shm.html#p-861",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Algebric derivation of particle's velocity in SHM: "
+},
+{
+  "id": "p-862",
+  "level": "2",
+  "url": "subsec-shm.html#p-862",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "phasor1",
+  "level": "2",
+  "url": "subsec-shm.html#phasor1",
+  "type": "Figure",
+  "number": "7.5.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "table-5",
+  "level": "2",
+  "url": "subsec-shm.html#table-5",
+  "type": "Table",
+  "number": "7.5.5",
+  "title": "Summary of Phasor Diagram for <span class=\"process-math\">\\(x= A\\cos\\phi\\)<\/span>",
+  "body": " Summary of Phasor Diagram for    Points    s      KE  PE                                                                  "
+},
+{
+  "id": "subsec-simp_pendulum",
+  "level": "1",
+  "url": "subsec-simp_pendulum.html",
+  "type": "Subsection",
+  "number": "7.5.2",
+  "title": "Simple Pendulum",
+  "body": " Simple Pendulum      A simple pendulum consists of a heavy bob of mass hanging from an inextensible and massless string of length When the bob is displaced from its mean position and released, it will swing back and forth with periodic motion as shown in . From free body diagram, it is clear that is balanced by tension in the string but unbalanced force provides the restoring force. Hence   where is the angular velocity of the bob performing circular motion. The time period of simple pendulum can be given as     Alternative: The restoring torque acting on the bob is given by  As a restoring torque is giving a clockwise rotation when angular displacement is counterclockwise.    This is second order differential equation the solution of which can be written as where is called an angular amplitude.  "
+},
+{
+  "id": "sp1a",
+  "level": "2",
+  "url": "subsec-simp_pendulum.html#sp1a",
+  "type": "Figure",
+  "number": "7.5.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-864",
+  "level": "2",
+  "url": "subsec-simp_pendulum.html#p-864",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Alternative: "
+},
+{
+  "id": "subsec-comp_pendulum",
+  "level": "1",
+  "url": "subsec-comp_pendulum.html",
+  "type": "Subsection",
+  "number": "7.5.3",
+  "title": "Compound Pendulum",
+  "body": " Compound Pendulum      A compound pendulum consists of a rigid body that oscillates about a horizontal frictionless axis passing through a point . It is also called a physical pendulum. When a body is displaced from its equilibrium position by an angle then the restoring torque starts acting on the center of gravity G of the body which is given by    where   here,  is radius of gyration   Comparing time period of simple pendulum and compound pendulums we will get - This is the length of equivalent simple pendulum. If all the mass of a rigid body were concentrated at a point [ ] such that then we will get a simple pendulum of same time period. The point is called the center of oscillation . Now from we have - Which is a quadratic in a, whose roots are Therefore and Thus both and are positive. That is there are two positions of the center of suspension and center of oscillation about which the time periods are the same. The distance between two such positions of the centers of suspension, asymmetrically located on either side of C.G, is the length of the simple equivalent pendulum. Thus time period through point or is same. If the body is supported by an axis through , the time period of oscillation would be infinite.  "
+},
+{
+  "id": "cp1",
+  "level": "2",
+  "url": "subsec-comp_pendulum.html#cp1",
+  "type": "Figure",
+  "number": "7.5.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-largeangl_approx",
+  "level": "1",
+  "url": "subsec-largeangl_approx.html",
+  "type": "Subsection",
+  "number": "7.5.4",
+  "title": "Simple Pendulum with Large Angle Approximation",
+  "body": " Simple Pendulum with Large Angle Approximation                  This is a non-linear differential equation. At first extremum, and angular velocity at that moment is where stands for maximum value of   Therefore eqn. becomes -   At mean position at and  Here,    Set  and oscillates between Now,  Differentiating eqn. , we get -   From eqn. , we have -   This a first kind of elliptical integral.  From power series,  At the swing is at the lowest point, and hence  see eqn. . Hence, from eqn. ,        "
+},
+{
+  "id": "spelliptical",
+  "level": "2",
+  "url": "subsec-largeangl_approx.html#spelliptical",
+  "type": "Figure",
+  "number": "7.5.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_seventh-examplesC",
+  "level": "1",
+  "url": "sec_seventh-examplesC.html",
+  "type": "Section",
+  "number": "7.6",
+  "title": "Examples C",
+  "body": " Examples C    A mass of 1 kg resting on a frictionless horizontal surface is pressed against a spring of constant 100 N\/m compressing the spring 25 cm and released from rest as shown in the figure below.    Where will the block attain its fastest velocity?  How fast will it be moving at that time?  Where will it stop again?  What will it do after it stops?  Where does the block attain its greatest acceleration?  What is that acceleration?  Describe the motion of the block as time progresses.  Write the equation of motion for the block.  Write the equation for the velocity of the block.  Write the equation for the acceleration of the block.  Compare (h) with (j) to obtain a relationship between and for the block.  Apply Newton's Second Law to the block so as to find in terms of   Compare (k) with (l) to obtain a relationship between and at ( ) for the block.  How long does it take for the block to reach the equilibrium point the first time?  How fast is the block moving when it is 10 cm beyond the equilibrium point?  What is the energy of the block when it is 10 cm beyond the equilibrium point?      Given:      The velocity particle in shm is given by For to be maximum, . Hence the position of the particle at that time is i.e., at the equilibrium position:     At equilibrium position, velocity of the block is    Alternatively: The total potential energy at extreme position is converted into total kinetic energy at mean position, i.e.,     Velocity, Therefore, Hence at 25 cm to the right of equilibrium:     Because of maximum restoring force it starts accelerate to the left.    Since the restoring force is maximum at extremes, it attains maximum acceleration ( ) at that points. Hence at the extremes, where it stops:          It speeds up, coasts through equilibrium, slows down, stops, and reverses itself.                                                       A pendulum is hanging from the roof of a tall building which oscillates 10 times in 1 minute, find the height of the building.    Given:           A spring-mass system executing SHM with a period of 0.80 s and has a maximum displacement of 10 cm. Initially the mass is at 5.0 cm left of equilibrium and moving to the left.    What is its position at and in what direction it is moving at that time?  What is its velocity and direction at that time?      Initial condition at    Hence,     to the right of mean position.    to the right of mean position going to towards       "
+},
+{
+  "id": "example-132",
+  "level": "2",
+  "url": "sec_seventh-examplesC.html#example-132",
+  "type": "Example",
+  "number": "7.6.1",
+  "title": "",
+  "body": "  A mass of 1 kg resting on a frictionless horizontal surface is pressed against a spring of constant 100 N\/m compressing the spring 25 cm and released from rest as shown in the figure below.    Where will the block attain its fastest velocity?  How fast will it be moving at that time?  Where will it stop again?  What will it do after it stops?  Where does the block attain its greatest acceleration?  What is that acceleration?  Describe the motion of the block as time progresses.  Write the equation of motion for the block.  Write the equation for the velocity of the block.  Write the equation for the acceleration of the block.  Compare (h) with (j) to obtain a relationship between and for the block.  Apply Newton's Second Law to the block so as to find in terms of   Compare (k) with (l) to obtain a relationship between and at ( ) for the block.  How long does it take for the block to reach the equilibrium point the first time?  How fast is the block moving when it is 10 cm beyond the equilibrium point?  What is the energy of the block when it is 10 cm beyond the equilibrium point?      Given:      The velocity particle in shm is given by For to be maximum, . Hence the position of the particle at that time is i.e., at the equilibrium position:     At equilibrium position, velocity of the block is    Alternatively: The total potential energy at extreme position is converted into total kinetic energy at mean position, i.e.,     Velocity, Therefore, Hence at 25 cm to the right of equilibrium:     Because of maximum restoring force it starts accelerate to the left.    Since the restoring force is maximum at extremes, it attains maximum acceleration ( ) at that points. Hence at the extremes, where it stops:          It speeds up, coasts through equilibrium, slows down, stops, and reverses itself.                                                    "
+},
+{
+  "id": "example-133",
+  "level": "2",
+  "url": "sec_seventh-examplesC.html#example-133",
+  "type": "Example",
+  "number": "7.6.2",
+  "title": "",
+  "body": "  A pendulum is hanging from the roof of a tall building which oscillates 10 times in 1 minute, find the height of the building.    Given:        "
+},
+{
+  "id": "example-134",
+  "level": "2",
+  "url": "sec_seventh-examplesC.html#example-134",
+  "type": "Example",
+  "number": "7.6.3",
+  "title": "",
+  "body": "  A spring-mass system executing SHM with a period of 0.80 s and has a maximum displacement of 10 cm. Initially the mass is at 5.0 cm left of equilibrium and moving to the left.    What is its position at and in what direction it is moving at that time?  What is its velocity and direction at that time?      Initial condition at    Hence,     to the right of mean position.    to the right of mean position going to towards      "
 },
 {
   "id": "ex_seventh",
   "level": "1",
   "url": "ex_seventh.html",
   "type": "Exercises",
-  "number": "7.6",
+  "number": "7.7",
   "title": "Exercise",
-  "body": "  Exercise   MI  A ball, a cylinder, and a ring each of mass 10 kg and radius 0.1 m are released from rest at the top of an inclined plane 2 m long. Which will reach the bottom of the plane the fastest? Why?  A meter stick of mass 500 g is pivoted about a point located at the 75 cm mark. What is the moment of inertia of the meter stick?  A wagon wheel consists of a rim of mass 50 kg and diameter 60 cm and eight spokes each with a mass of 2 kg. What is the moment of inertia of the wheel?  A rectangular block has a length of 20 cm, a width of 10 cm, a height of 5 cm, and a mass of 4 kg. What is its moment of inertia about its three principle axes?  Find the moment of inertia of the following uniform bodies about the axis indicated.            Find the moment of inertia of  a physical pendulum and    a square about the axis indicated.      Find the moment of inertia of an equilateral triangle about one of its vertices and perpendicular to its plane. The triangle is made out of three rods.    Rot Dyn  A body rotates according to the equation , where and . Find:                   An electric motor accelerates uniformly from rest to in   What is its angular acceleration?  How many revolutions does it make?  What was its angular velocity at the end of 2 s?  How fast was it rotating after making 10 revolutions?  How long did it take to make 10 revolutions?    A uniform cylinder of mass 100 kg has a radius of 30 cm and spins freely about its axis of symmetry. One end of a string is attached to the surface of the cylinder so that the string winds and unwinds as the cylinder rotates first one direction and then the other. A constant tension of 100 N is maintained in the string by a constant vector force applied to the other end of the string. At time t = 0, the string is completely unwound and the cylinder is spinning at 30 rad\/s.  What is the moment of inertia of the cylinder?  As long as or , the torque on the cylinder is constant in magnitude. Why? What is this torque?  Ignoring the first quarter revolution, how long does it take the cylinder to stop?  What is the angular acceleration of the cylinder when it is slowing down?  What is the minimum length of string that will stop the cylinder?  What is the initial kinetic energy of the cylinder?  What is the initial angular momentum of the cylinder?  If the cylinder is rotating counter-clockwise, what is the direction of the angular momentum vector?    An Atwood machine as shown at right consists of a mass of 10 kg supported by a rope draped over a uniform cylinder of mass 20 kg and radius 10 cm and then tied to a mass of 5 kg located 1.5 m below the first mass. If the system is released from rest,    find the tension in the rope supporting the $10-kg$ mass.  What is the maximum height ever attained by the second mass.    A thin ring of mass 5 kg and diameter 1 m is pivoted about a point on its rim. If the system is released from rest with the ring directly above the pivot point as shown in figure and if it swings downward, when it is exactly half way down to the bottom find    how fast it is moving,  the radial and tangential acceleration of its center of mass, and  the horizontal and vertical forces exerted on the ring by its pivot.    A 186.8 N sphere with radius R= 101.6 mm is placed on a horizontal surface with initial angular velocity The coefficient of kinetic friction between the sphere and the surface is What maximum velocity will the center of the sphere attain, and how long does it take to reach that velocity?  A 1 m long and 2 kg stick is nailed to the wall so that it can rotate freely about the end. A 1 kg ball, with speed 3 m\/s hits with the stick at some distance below the pivot point. The ball collides elastically with the stick, and stops dead after collision. Find the stick's resulting initial angular velocity. Find the distance   A 25 g bug crawls from the center to the outside edge of a 150 g disk of radius 15.0 cm. The disk was rotating at 15.0 rad\/s. What will be its final angular velocity? Treat the bug as a point mass.  A bicycle tire has a mass of 4.0 kg and a radius of 0.33 m. If it is rotating at 22 rad\/s what is its angular momentum? If it is used as a gyroscope with a 24 cm long pivot bar, what will be its precession speed?  Calculate the angular momentum of a phonograph record, LP (Long Play) rotating at rev\/min. An LP has a radius of 15 cm and a mass of 150 g. A typical phonograph can accelerate an LP from rest to its final speed in 0.35 s, what average torque would be exerted on the LP?   "
+  "body": "  Exercise   MI  A ball, a cylinder, and a ring each of mass 10 kg and radius 0.1 m are released from rest at the top of an inclined plane 2 m long. Which will reach the bottom of the plane the fastest? Why?  A meter stick of mass 500 g is pivoted about a point located at the 75 cm mark. What is the moment of inertia of the meter stick?  A wagon wheel consists of a rim of mass 50 kg and diameter 60 cm and eight spokes each with a mass of 2 kg. What is the moment of inertia of the wheel?  A rectangular block has a length of 20 cm, a width of 10 cm, a height of 5 cm, and a mass of 4 kg. What is its moment of inertia about its three principle axes?  Find the moment of inertia of the following uniform bodies about the axis indicated.            Find the moment of inertia of  a physical pendulum and    a square about the axis indicated.      Find the moment of inertia of an equilateral triangle about one of its vertices and perpendicular to its plane. The triangle is made out of three rods.    Rot Dyn  A body rotates according to the equation , where and . Find:                   An electric motor accelerates uniformly from rest to in   What is its angular acceleration?  How many revolutions does it make?  What was its angular velocity at the end of 2 s?  How fast was it rotating after making 10 revolutions?  How long did it take to make 10 revolutions?    A uniform cylinder of mass 100 kg has a radius of 30 cm and spins freely about its axis of symmetry. One end of a string is attached to the surface of the cylinder so that the string winds and unwinds as the cylinder rotates first one direction and then the other. A constant tension of 100 N is maintained in the string by a constant vector force applied to the other end of the string. At time t = 0, the string is completely unwound and the cylinder is spinning at 30 rad\/s.  What is the moment of inertia of the cylinder?  As long as or , the torque on the cylinder is constant in magnitude. Why? What is this torque?  Ignoring the first quarter revolution, how long does it take the cylinder to stop?  What is the angular acceleration of the cylinder when it is slowing down?  What is the minimum length of string that will stop the cylinder?  What is the initial kinetic energy of the cylinder?  What is the initial angular momentum of the cylinder?  If the cylinder is rotating counter-clockwise, what is the direction of the angular momentum vector?    An Atwood machine as shown at right consists of a mass of 10 kg supported by a rope draped over a uniform cylinder of mass 20 kg and radius 10 cm and then tied to a mass of 5 kg located 1.5 m below the first mass. If the system is released from rest,    find the tension in the rope supporting the $10-kg$ mass.  What is the maximum height ever attained by the second mass.    A thin ring of mass 5 kg and diameter 1 m is pivoted about a point on its rim. If the system is released from rest with the ring directly above the pivot point as shown in figure and if it swings downward, when it is exactly half way down to the bottom find    how fast it is moving,  the radial and tangential acceleration of its center of mass, and  the horizontal and vertical forces exerted on the ring by its pivot.    A 186.8 N sphere with radius R= 101.6 mm is placed on a horizontal surface with initial angular velocity The coefficient of kinetic friction between the sphere and the surface is What maximum velocity will the center of the sphere attain, and how long does it take to reach that velocity?  A 1 m long and 2 kg stick is nailed to the wall so that it can rotate freely about the end. A 1 kg ball, with speed 3 m\/s hits with the stick at some distance below the pivot point. The ball collides elastically with the stick, and stops dead after collision. Find the stick's resulting initial angular velocity. Find the distance   A 25 g bug crawls from the center to the outside edge of a 150 g disk of radius 15.0 cm. The disk was rotating at 15.0 rad\/s. What will be its final angular velocity? Treat the bug as a point mass.  A bicycle tire has a mass of 4.0 kg and a radius of 0.33 m. If it is rotating at 22 rad\/s what is its angular momentum? If it is used as a gyroscope with a 24 cm long pivot bar, what will be its precession speed?  Calculate the angular momentum of a phonograph record, LP (Long Play) rotating at rev\/min. An LP has a radius of 15 cm and a mass of 150 g. A typical phonograph can accelerate an LP from rest to its final speed in 0.35 s, what average torque would be exerted on the LP?    Osc_Motion  What are the simple harmonic motion equations for a particle starting out from rest at when ?  What are the simple harmonic motion equations for a particle passing through with velocity when ?  The piston in the engine of an automobile oscillates at 1000 rpm in simple harmonic motion of amplitude 5 cm. If its mass is 0.25 kg, find  its period of oscillation,  its angular frequency,  its maximum displacement,  its maximum velocity,  its maximum acceleration,  the maximum force exerted on the piston.    A simple harmonic oscillator of mass 10 kg on a spring of constant 100 N\/m starts out at x = 10 cm moving in the +x direction with a velocity of 10 m\/s. Find                                        A pendulum of mass 2 kg and length 2 m is displaced 10 cm from its equilibrium position and released.  What is the equation giving the horizontal force F(x) required to displace the mass a horizontal distance x for small values of x?  Is this equation valid for x = 10 cm? Why or why not?  What is the effective spring constant of the pendulum?  What is the period of the pendulum?  What is the equation of motion for this pendulum?  What is the kinetic energy of the pendulum when it is 5 cm from the equilibrium position?    A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.    A 250 gram bob is hanging on a 80 cm long string. Its velocity is 0.25 m\/s when observed at mean position. What maximum angle does it reach?      Two pendula have strings of equal length but the mass of the second pendulum is four times the mass of the first pendulum. If is the frequency of the first pendulum and is the frequency of the second pendulum, then determine the relationship between and .  Determine the effect on time period of a simple pendulum if the iron bob is replaced by a wooden one of same mass? Neglect air resistance.  A simple pendulum has a length L and a time period T on the surface of the earth. What would be its time period when it is taken to the surface of a planet of acceleration due to gravity is   A block of mass 2 kg is attached to the spring - mass system of spring constant 200 N\/m. A system is executing SHM and has velocity 40 m\/s at 3 m away from equlibrium position. Determine its amplitude of oscillation.   "
 },
 {
   "id": "exercise-167",
   "level": "2",
   "url": "ex_seventh.html#exercise-167",
   "type": "Exercise",
-  "number": "7.6.1",
+  "number": "7.7.1",
   "title": "",
   "body": "A ball, a cylinder, and a ring each of mass 10 kg and radius 0.1 m are released from rest at the top of an inclined plane 2 m long. Which will reach the bottom of the plane the fastest? Why? "
 },
@@ -4343,7 +4532,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-168",
   "type": "Exercise",
-  "number": "7.6.2",
+  "number": "7.7.2",
   "title": "",
   "body": "A meter stick of mass 500 g is pivoted about a point located at the 75 cm mark. What is the moment of inertia of the meter stick? "
 },
@@ -4352,7 +4541,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-169",
   "type": "Exercise",
-  "number": "7.6.3",
+  "number": "7.7.3",
   "title": "",
   "body": "A wagon wheel consists of a rim of mass 50 kg and diameter 60 cm and eight spokes each with a mass of 2 kg. What is the moment of inertia of the wheel? "
 },
@@ -4361,7 +4550,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-170",
   "type": "Exercise",
-  "number": "7.6.4",
+  "number": "7.7.4",
   "title": "",
   "body": "A rectangular block has a length of 20 cm, a width of 10 cm, a height of 5 cm, and a mass of 4 kg. What is its moment of inertia about its three principle axes? "
 },
@@ -4370,7 +4559,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-171",
   "type": "Exercise",
-  "number": "7.6.5",
+  "number": "7.7.5",
   "title": "",
   "body": "Find the moment of inertia of the following uniform bodies about the axis indicated.           "
 },
@@ -4379,7 +4568,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-172",
   "type": "Exercise",
-  "number": "7.6.6",
+  "number": "7.7.6",
   "title": "",
   "body": "Find the moment of inertia of  a physical pendulum and    a square about the axis indicated.     "
 },
@@ -4388,7 +4577,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-173",
   "type": "Exercise",
-  "number": "7.6.7",
+  "number": "7.7.7",
   "title": "",
   "body": "Find the moment of inertia of an equilateral triangle about one of its vertices and perpendicular to its plane. The triangle is made out of three rods. "
 },
@@ -4397,7 +4586,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-174",
   "type": "Exercise",
-  "number": "7.6.8",
+  "number": "7.7.8",
   "title": "",
   "body": "A body rotates according to the equation , where and . Find:                  "
 },
@@ -4406,7 +4595,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-175",
   "type": "Exercise",
-  "number": "7.6.9",
+  "number": "7.7.9",
   "title": "",
   "body": "An electric motor accelerates uniformly from rest to in   What is its angular acceleration?  How many revolutions does it make?  What was its angular velocity at the end of 2 s?  How fast was it rotating after making 10 revolutions?  How long did it take to make 10 revolutions?   "
 },
@@ -4415,7 +4604,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-176",
   "type": "Exercise",
-  "number": "7.6.10",
+  "number": "7.7.10",
   "title": "",
   "body": "A uniform cylinder of mass 100 kg has a radius of 30 cm and spins freely about its axis of symmetry. One end of a string is attached to the surface of the cylinder so that the string winds and unwinds as the cylinder rotates first one direction and then the other. A constant tension of 100 N is maintained in the string by a constant vector force applied to the other end of the string. At time t = 0, the string is completely unwound and the cylinder is spinning at 30 rad\/s.  What is the moment of inertia of the cylinder?  As long as or , the torque on the cylinder is constant in magnitude. Why? What is this torque?  Ignoring the first quarter revolution, how long does it take the cylinder to stop?  What is the angular acceleration of the cylinder when it is slowing down?  What is the minimum length of string that will stop the cylinder?  What is the initial kinetic energy of the cylinder?  What is the initial angular momentum of the cylinder?  If the cylinder is rotating counter-clockwise, what is the direction of the angular momentum vector?   "
 },
@@ -4424,7 +4613,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-177",
   "type": "Exercise",
-  "number": "7.6.11",
+  "number": "7.7.11",
   "title": "",
   "body": "An Atwood machine as shown at right consists of a mass of 10 kg supported by a rope draped over a uniform cylinder of mass 20 kg and radius 10 cm and then tied to a mass of 5 kg located 1.5 m below the first mass. If the system is released from rest,    find the tension in the rope supporting the $10-kg$ mass.  What is the maximum height ever attained by the second mass.   "
 },
@@ -4433,7 +4622,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-178",
   "type": "Exercise",
-  "number": "7.6.12",
+  "number": "7.7.12",
   "title": "",
   "body": "A thin ring of mass 5 kg and diameter 1 m is pivoted about a point on its rim. If the system is released from rest with the ring directly above the pivot point as shown in figure and if it swings downward, when it is exactly half way down to the bottom find    how fast it is moving,  the radial and tangential acceleration of its center of mass, and  the horizontal and vertical forces exerted on the ring by its pivot.   "
 },
@@ -4442,7 +4631,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-179",
   "type": "Exercise",
-  "number": "7.6.13",
+  "number": "7.7.13",
   "title": "",
   "body": "A 186.8 N sphere with radius R= 101.6 mm is placed on a horizontal surface with initial angular velocity The coefficient of kinetic friction between the sphere and the surface is What maximum velocity will the center of the sphere attain, and how long does it take to reach that velocity? "
 },
@@ -4451,7 +4640,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-180",
   "type": "Exercise",
-  "number": "7.6.14",
+  "number": "7.7.14",
   "title": "",
   "body": "A 1 m long and 2 kg stick is nailed to the wall so that it can rotate freely about the end. A 1 kg ball, with speed 3 m\/s hits with the stick at some distance below the pivot point. The ball collides elastically with the stick, and stops dead after collision. Find the stick's resulting initial angular velocity. Find the distance  "
 },
@@ -4460,7 +4649,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-181",
   "type": "Exercise",
-  "number": "7.6.15",
+  "number": "7.7.15",
   "title": "",
   "body": "A 25 g bug crawls from the center to the outside edge of a 150 g disk of radius 15.0 cm. The disk was rotating at 15.0 rad\/s. What will be its final angular velocity? Treat the bug as a point mass. "
 },
@@ -4469,7 +4658,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-182",
   "type": "Exercise",
-  "number": "7.6.16",
+  "number": "7.7.16",
   "title": "",
   "body": "A bicycle tire has a mass of 4.0 kg and a radius of 0.33 m. If it is rotating at 22 rad\/s what is its angular momentum? If it is used as a gyroscope with a 24 cm long pivot bar, what will be its precession speed? "
 },
@@ -4478,18 +4667,324 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_seventh.html#exercise-183",
   "type": "Exercise",
-  "number": "7.6.17",
+  "number": "7.7.17",
   "title": "",
   "body": "Calculate the angular momentum of a phonograph record, LP (Long Play) rotating at rev\/min. An LP has a radius of 15 cm and a mass of 150 g. A typical phonograph can accelerate an LP from rest to its final speed in 0.35 s, what average torque would be exerted on the LP? "
 },
 {
-  "id": "sec_eigth-intro",
+  "id": "exercise-184",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-184",
+  "type": "Exercise",
+  "number": "7.7.18",
+  "title": "",
+  "body": "What are the simple harmonic motion equations for a particle starting out from rest at when ? "
+},
+{
+  "id": "exercise-185",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-185",
+  "type": "Exercise",
+  "number": "7.7.19",
+  "title": "",
+  "body": "What are the simple harmonic motion equations for a particle passing through with velocity when ? "
+},
+{
+  "id": "exercise-186",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-186",
+  "type": "Exercise",
+  "number": "7.7.20",
+  "title": "",
+  "body": "The piston in the engine of an automobile oscillates at 1000 rpm in simple harmonic motion of amplitude 5 cm. If its mass is 0.25 kg, find  its period of oscillation,  its angular frequency,  its maximum displacement,  its maximum velocity,  its maximum acceleration,  the maximum force exerted on the piston.   "
+},
+{
+  "id": "exercise-187",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-187",
+  "type": "Exercise",
+  "number": "7.7.21",
+  "title": "",
+  "body": "A simple harmonic oscillator of mass 10 kg on a spring of constant 100 N\/m starts out at x = 10 cm moving in the +x direction with a velocity of 10 m\/s. Find                                       "
+},
+{
+  "id": "exercise-188",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-188",
+  "type": "Exercise",
+  "number": "7.7.22",
+  "title": "",
+  "body": "A pendulum of mass 2 kg and length 2 m is displaced 10 cm from its equilibrium position and released.  What is the equation giving the horizontal force F(x) required to displace the mass a horizontal distance x for small values of x?  Is this equation valid for x = 10 cm? Why or why not?  What is the effective spring constant of the pendulum?  What is the period of the pendulum?  What is the equation of motion for this pendulum?  What is the kinetic energy of the pendulum when it is 5 cm from the equilibrium position?   "
+},
+{
+  "id": "exercise-189",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-189",
+  "type": "Exercise",
+  "number": "7.7.23",
+  "title": "",
+  "body": "A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.   "
+},
+{
+  "id": "exercise-190",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-190",
+  "type": "Exercise",
+  "number": "7.7.24",
+  "title": "",
+  "body": "A 250 gram bob is hanging on a 80 cm long string. Its velocity is 0.25 m\/s when observed at mean position. What maximum angle does it reach?     "
+},
+{
+  "id": "exercise-191",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-191",
+  "type": "Exercise",
+  "number": "7.7.25",
+  "title": "",
+  "body": "Two pendula have strings of equal length but the mass of the second pendulum is four times the mass of the first pendulum. If is the frequency of the first pendulum and is the frequency of the second pendulum, then determine the relationship between and . "
+},
+{
+  "id": "exercise-192",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-192",
+  "type": "Exercise",
+  "number": "7.7.26",
+  "title": "",
+  "body": "Determine the effect on time period of a simple pendulum if the iron bob is replaced by a wooden one of same mass? Neglect air resistance. "
+},
+{
+  "id": "exercise-193",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-193",
+  "type": "Exercise",
+  "number": "7.7.27",
+  "title": "",
+  "body": "A simple pendulum has a length L and a time period T on the surface of the earth. What would be its time period when it is taken to the surface of a planet of acceleration due to gravity is  "
+},
+{
+  "id": "exercise-194",
+  "level": "2",
+  "url": "ex_seventh.html#exercise-194",
+  "type": "Exercise",
+  "number": "7.7.28",
+  "title": "",
+  "body": "A block of mass 2 kg is attached to the spring - mass system of spring constant 200 N\/m. A system is executing SHM and has velocity 40 m\/s at 3 m away from equlibrium position. Determine its amplitude of oscillation. "
+},
+{
+  "id": "subsec-elst_mod",
   "level": "1",
-  "url": "sec_eigth-intro.html",
+  "url": "subsec-elst_mod.html",
+  "type": "Subsection",
+  "number": "8.1.1",
+  "title": "Elastic Modulus",
+  "body": " Elastic Modulus   From Hook's law,  where is a proportionality constant, called modulus of elasticity. It is a material property which defines how stiff is the material. Hence modulus of elasticity, defines stress per unit strain. Its unit is Pascal (Pa). In the deformation process material stores energy in the form of potential energy or dissipates energy plastically. Stress is not directly measurable. We can calculate stress differently using applied tension, tangential force, compressional force, etc.    Young's Modulus or Elasticity of Length      Consider a rod of length whose top face is fixed and a normal force is being applied on its bottom face as shown in , then from Hook's law, normal (tensile) stress longitudinal strain, that is where is called Young's modulus, is cross-sectional area of wire, and is an original length. Hence Its unit is When a wire under tension is elongated, its width is slightly diminished. This lateral shrinkage constitutes a transverse strain that is equal to the change in the width divided by the original width, i.e., The ratio of the lateral contraction (transverse strain) to the elongation (longitudinal strain) is called Poisson's ratio . Tensile deformation is considered positive and compressive deformation is considered negative. The material which does not contract is brittle and the one which contracts is ductile. Poisson ratio of any material lies between 0 to 0.5.    Bulk Modulus or Elasticity of Volume      Consider a cube of surface area whose volume is being compressed by applying a deforming force as shown in . Now from Hook's law, volumetric stress volumetric strain, that is where is called bulk modulus or coefficient of volumetric elasticity. Hence Here is a deforming force, is surface area of a cube, is change in volume , and sign shows compression.    Shear Modulus (Modulus of Rigidity) or Elasticity of Shape  When a tangential force is applied on one of the faces of any material keeping opposite face fixed, it deforms its shape. Hence from Hook's law, shear stress shear strain. The elastic property of a body that causes the shape of the body to be changed when a stress is applied is called shear stress. The angle of shear, which is a measure of how much the body's shape has been deformed is called shear strain. When the shear stress is removed the body returns to its original shape.      Consider a cube of sides y whose bottom face is fixed and a tangential force is being applied on its top face as shown in , then from Hook's law, shear stress shear strain, that is   where is called modulus of shape or shear modulus. Hence Here is a deforming force, is surface area of a cube, and is a shear angle.   "
+},
+{
+  "id": "youngmod1",
+  "level": "2",
+  "url": "subsec-elst_mod.html#youngmod1",
+  "type": "Figure",
+  "number": "8.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-924",
+  "level": "2",
+  "url": "subsec-elst_mod.html#p-924",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Poisson's ratio "
+},
+{
+  "id": "bulkmod",
+  "level": "2",
+  "url": "subsec-elst_mod.html#bulkmod",
+  "type": "Figure",
+  "number": "8.1.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "shearmod1a",
+  "level": "2",
+  "url": "subsec-elst_mod.html#shearmod1a",
+  "type": "Figure",
+  "number": "8.1.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-hook_spring",
+  "level": "1",
+  "url": "subsec-hook_spring.html",
+  "type": "Subsection",
+  "number": "8.1.2",
+  "title": "Hook’s Law for a Spring",
+  "body": " Hook's Law for a Spring      From Hook's law,    Since cross-sectional area, , length of spring, , and elastic constant of spring material, are constant, we can assume which provides stiffness constant of a spring it is also called a force constant. where .  "
+},
+{
+  "id": "oscil2",
+  "level": "2",
+  "url": "subsec-hook_spring.html#oscil2",
+  "type": "Figure",
+  "number": "8.1.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-elast_potenrg",
+  "level": "1",
+  "url": "subsec-elast_potenrg.html",
+  "type": "Subsection",
+  "number": "8.1.3",
+  "title": "Elastic Potential Energy",
+  "body": " Elastic Potential Energy  When a force is applied to deform the shape of a material work has been done against the restoring force of a material hence this work is stored in a material in the form of elastic potential energy. Suppose a wire is stretched to a distance by applying a deforming force, then work done by the force is given by But for a restoring force, Hence work done by a restoring force is given by and the work done by a deforming force is given by This work is stored in the spring as potential energy. That is,   "
+},
+{
+  "id": "sec_eighth-examplesA",
+  "level": "1",
+  "url": "sec_eighth-examplesA.html",
   "type": "Section",
-  "number": "8.1",
-  "title": "Hooke’s Law",
-  "body": " Hooke's Law      "
+  "number": "8.2",
+  "title": "Examples A",
+  "body": " Examples A    A mass of 10 kg is supported by a steel wire of iameter 0.5 mm and length 2 m.  What is the stress in the wire?  What is the strain of the wire?  How much does the wire stretch?  What is the effective force constant of the wire?  How much energy is stored in the wire?      Given:                             Water has a Bulk modulus of . What is the percent change in volume for a drop of water which circulates from the top of a lake to the bottom if the lake is 1000 m deep where the pressure has increased by 9.8 MPa?    Given:        A solid copper sphere of volume is placed 30.5 m below the ocean surface where the pressure is . What is the change in volume of the sphere? The bulk modulus for copper is     Given:    -ve sign shows that volume has decreased.      A copper and aluminum wires are welded together at their ends. The original length of each wire is 50.0 cm and each has a diameter of 0.750 mm. A mass of 10.0 kg is suspended from the combined wire. By how much will the combined wire stretch? Given: and       Given:   The combined stretch is gieven by          A brass cube, 5.00 cm on a side, is subjected to a tangential force. If the angle of shear is measured in radians to be 0.010 rad, what is the magnitude of the tangential force?    Given:         A horizontal spring stretches 20.0 cm when a force of 10.0 N is applied to the spring. By how much will it stretch if a 30.0 N force is now applied to the spring? If the same spring is placed in the vertical and a weight of 10.0 N is hung from the spring, will the results change?    Given . The restoring force in a spring   Now, If the applied force remains same then stretch made in the spring remains the same, orientation of spring does not have any effect on its elongation.      A copper rod, 0.400 cm in diameter, supports a load of 150 kg suspended from one end. Will the rod return to its initial length when the load is removed or has this load exceeded the elastic limit of the rod? Note: Elastic limit of copper =     Given:   Here the applied force, , is less then the maximum force the copper wire can hold, hence the rod regains its original length after the removal of applied force.    "
+},
+{
+  "id": "example-135",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#example-135",
+  "type": "Example",
+  "number": "8.2.1",
+  "title": "",
+  "body": "  A mass of 10 kg is supported by a steel wire of iameter 0.5 mm and length 2 m.  What is the stress in the wire?  What is the strain of the wire?  How much does the wire stretch?  What is the effective force constant of the wire?  How much energy is stored in the wire?      Given:                          "
+},
+{
+  "id": "example-136",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#example-136",
+  "type": "Example",
+  "number": "8.2.2",
+  "title": "",
+  "body": "  Water has a Bulk modulus of . What is the percent change in volume for a drop of water which circulates from the top of a lake to the bottom if the lake is 1000 m deep where the pressure has increased by 9.8 MPa?    Given:     "
+},
+{
+  "id": "example-137",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#example-137",
+  "type": "Example",
+  "number": "8.2.3",
+  "title": "",
+  "body": "  A solid copper sphere of volume is placed 30.5 m below the ocean surface where the pressure is . What is the change in volume of the sphere? The bulk modulus for copper is     Given:    -ve sign shows that volume has decreased.   "
+},
+{
+  "id": "example-138",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#example-138",
+  "type": "Example",
+  "number": "8.2.4",
+  "title": "",
+  "body": "  A copper and aluminum wires are welded together at their ends. The original length of each wire is 50.0 cm and each has a diameter of 0.750 mm. A mass of 10.0 kg is suspended from the combined wire. By how much will the combined wire stretch? Given: and       Given:   The combined stretch is gieven by       "
+},
+{
+  "id": "example-139",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#example-139",
+  "type": "Example",
+  "number": "8.2.5",
+  "title": "",
+  "body": "  A brass cube, 5.00 cm on a side, is subjected to a tangential force. If the angle of shear is measured in radians to be 0.010 rad, what is the magnitude of the tangential force?    Given:      "
+},
+{
+  "id": "example-140",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#example-140",
+  "type": "Example",
+  "number": "8.2.6",
+  "title": "",
+  "body": "  A horizontal spring stretches 20.0 cm when a force of 10.0 N is applied to the spring. By how much will it stretch if a 30.0 N force is now applied to the spring? If the same spring is placed in the vertical and a weight of 10.0 N is hung from the spring, will the results change?    Given . The restoring force in a spring   Now, If the applied force remains same then stretch made in the spring remains the same, orientation of spring does not have any effect on its elongation.   "
+},
+{
+  "id": "example-141",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#example-141",
+  "type": "Example",
+  "number": "8.2.7",
+  "title": "",
+  "body": "  A copper rod, 0.400 cm in diameter, supports a load of 150 kg suspended from one end. Will the rod return to its initial length when the load is removed or has this load exceeded the elastic limit of the rod? Note: Elastic limit of copper =     Given:   Here the applied force, , is less then the maximum force the copper wire can hold, hence the rod regains its original length after the removal of applied force.   "
+},
+{
+  "id": "ex_eighth",
+  "level": "1",
+  "url": "ex_eighth.html",
+  "type": "Exercises",
+  "number": "8.3",
+  "title": "Exercise",
+  "body": "  Exercise  A towline used to tow hang gliders is 500 m long and in cross-sectional area. It is found to stretch 10 m under a tension equal to one-fourth the weight of an 100 kg glider-pilot combination. What is Young's modulus for the material used to make the towline?  A brass wire and a steel wire are both used (in parallel) to support a single mass of 1000 kg. Both wires have a length of 2 m and a cross-sectional area of .  What is the change in length of each wire?  What is the tension in each wire?  What is the stress in each wire?  What is the strain in each wire?  How much elastic potential energy is stored in each wire?    The deepest part of the ocean is about 11 km and has a pressure of about 1000 atm. If the bulk modulus of sea water is and the surface density of sea water is , what is the density of sea water at the bottom of the ocean?  A horizontal rod of negligible mass and of length 1 m is supported on each end by a wire of length 1 m and diameter 0.1 mm. The wire on the left has a diameter of 0.1 mm and is made of aluminum . The wire on the the right has a diameter of 0.2 mm and is made of copper . A mass of 1 kg is then suspended from the rod.  Where should the mass be located in order to produce equal stresses in the two wires?  Where should it be located to produce equal strains?    A lead block 50.0 cm long, 10.0 cm wide, and 10.0 cm thick, has a force of placed on it. Find the stress, the strain, and the change in length if  the block is standing upright, and  the block is lying flat.    A coil spring stretches by 4.50 cm when a mass of 250 g is suspended from it. What force is necessary to stretch the spring an additional 2.50 cm?  Find the ratio of the density of water at the bottom of a 50.0 m lake to the density of water at the surface of the lake. The pressure at the bottom of the lake is The bulk modulus for water is   "
+},
+{
+  "id": "exercise-195",
+  "level": "2",
+  "url": "ex_eighth.html#exercise-195",
+  "type": "Exercise",
+  "number": "8.3.1",
+  "title": "",
+  "body": "A towline used to tow hang gliders is 500 m long and in cross-sectional area. It is found to stretch 10 m under a tension equal to one-fourth the weight of an 100 kg glider-pilot combination. What is Young's modulus for the material used to make the towline? "
+},
+{
+  "id": "exercise-196",
+  "level": "2",
+  "url": "ex_eighth.html#exercise-196",
+  "type": "Exercise",
+  "number": "8.3.2",
+  "title": "",
+  "body": "A brass wire and a steel wire are both used (in parallel) to support a single mass of 1000 kg. Both wires have a length of 2 m and a cross-sectional area of .  What is the change in length of each wire?  What is the tension in each wire?  What is the stress in each wire?  What is the strain in each wire?  How much elastic potential energy is stored in each wire?   "
+},
+{
+  "id": "exercise-197",
+  "level": "2",
+  "url": "ex_eighth.html#exercise-197",
+  "type": "Exercise",
+  "number": "8.3.3",
+  "title": "",
+  "body": "The deepest part of the ocean is about 11 km and has a pressure of about 1000 atm. If the bulk modulus of sea water is and the surface density of sea water is , what is the density of sea water at the bottom of the ocean? "
+},
+{
+  "id": "exercise-198",
+  "level": "2",
+  "url": "ex_eighth.html#exercise-198",
+  "type": "Exercise",
+  "number": "8.3.4",
+  "title": "",
+  "body": "A horizontal rod of negligible mass and of length 1 m is supported on each end by a wire of length 1 m and diameter 0.1 mm. The wire on the left has a diameter of 0.1 mm and is made of aluminum . The wire on the the right has a diameter of 0.2 mm and is made of copper . A mass of 1 kg is then suspended from the rod.  Where should the mass be located in order to produce equal stresses in the two wires?  Where should it be located to produce equal strains?   "
+},
+{
+  "id": "exercise-199",
+  "level": "2",
+  "url": "ex_eighth.html#exercise-199",
+  "type": "Exercise",
+  "number": "8.3.5",
+  "title": "",
+  "body": "A lead block 50.0 cm long, 10.0 cm wide, and 10.0 cm thick, has a force of placed on it. Find the stress, the strain, and the change in length if  the block is standing upright, and  the block is lying flat.   "
+},
+{
+  "id": "exercise-200",
+  "level": "2",
+  "url": "ex_eighth.html#exercise-200",
+  "type": "Exercise",
+  "number": "8.3.6",
+  "title": "",
+  "body": "A coil spring stretches by 4.50 cm when a mass of 250 g is suspended from it. What force is necessary to stretch the spring an additional 2.50 cm? "
+},
+{
+  "id": "exercise-201",
+  "level": "2",
+  "url": "ex_eighth.html#exercise-201",
+  "type": "Exercise",
+  "number": "8.3.7",
+  "title": "",
+  "body": "Find the ratio of the density of water at the bottom of a 50.0 m lake to the density of water at the surface of the lake. The pressure at the bottom of the lake is The bulk modulus for water is  "
 },
 {
   "id": "sec_ninth-intro",
@@ -4501,54 +4996,54 @@ var ptx_lunr_docs = [
   "body": " States of Equilibrium   There are three states of equilibrium:                      Stable equilibrium: The body is said to be in stable equilibrium if its center of gravity lies below lowest possible position. A funnel standing vertically on its base on the table is in stable equilibrium [ ]. If the funnel is tilted a little bit against any side and then allowed to fall, it will come back to its original position. When the funnel is tilted against any side its center of gravity is raised [ ]. The line of action of weight passes through the base of the funnel. As long as the line of action of weight remains inside the base area funnel will come back to the original position. A torque due to weight of the funnel brings it back to the original position. For the funnel to tip over the line of action of the weight arrow will have to form a clockwise moment (or to pass outside the point of support). The funnel needs to have been pushed a lot for tip over. Some examples of stable equilibrium are bodies lying on the floor such as chair, table, book, etc. If a system in stable equilibrium is disturbed slightly, it oscillates around that state first but eventually settles down in exactly the same position as it started [ ]. It does this because its center of gravity is already at the lowest possible position.                      Unstable equilibrium: The body is said to be in unstable equilibrium if the center of gravity of a body lies above the highest possible position. A funnel standing vertically on its stem on the table [ ] is in unstable equilibrium. If the funnel standing vertically is slightly disturbed from its position it will not come back to its original position rather fall down on the surface of table. when the funnel is slightly disturbed its center of gravity is lowered [ ]. The line of action of its weight lies outside the base of stem. The torque due to weight of the rod toppled it down. Other examples of unstable equilibrium are vertically standing cylinder and pencil etc. An unstable system moves away from its original equilibrium state when disturbed. It wants to move away from the original position as soon as it has been disturbed [ ]. It does this because its center of gravity is higher in this state and when disturbed the center of gravity continues to move to a lower position (a more stable one).                      Neutral equilibrium: The body is said to be in neutral equilibrium if the center of gravity of a body is at optimal position it is neither lowered nor is raised up. The object with lower center of gravity is more stable than the one with the higher center of gravity. A funnel lying horizontally on its side at rest on the surface of a table [ ] is in natural equilibrium. If a funnel is pushed slightly to roll, it will neither come back to its original position nor it will roll forward rather it will remain at rest. If the funnel is rolled, its center of gravity is neither raised nor lowered [ ]. This means that its center of gravity is at the same height as before. A neutral system is one where the center of gravity of the system is always at the same level. If it has been disturbed slightly it will therefore settle in the new position without a need to move further on or to move back [ ]. For example, a rolling ball lying on the table.     "
 },
 {
-  "id": "figure-158",
+  "id": "figure-170",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-158",
+  "url": "sec_ninth-intro.html#figure-170",
   "type": "Figure",
   "number": "9.1.1",
   "title": "",
   "body": "                "
 },
 {
-  "id": "p-876",
+  "id": "p-956",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-876",
+  "url": "sec_ninth-intro.html#p-956",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Stable equilibrium: "
 },
 {
-  "id": "figure-162",
+  "id": "figure-174",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-162",
+  "url": "sec_ninth-intro.html#figure-174",
   "type": "Figure",
   "number": "9.1.2",
   "title": "",
   "body": "                "
 },
 {
-  "id": "p-877",
+  "id": "p-957",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-877",
+  "url": "sec_ninth-intro.html#p-957",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Unstable equilibrium: "
 },
 {
-  "id": "figure-166",
+  "id": "figure-178",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-166",
+  "url": "sec_ninth-intro.html#figure-178",
   "type": "Figure",
   "number": "9.1.3",
   "title": "",
   "body": "                "
 },
 {
-  "id": "p-878",
+  "id": "p-958",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-878",
+  "url": "sec_ninth-intro.html#p-958",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4564,13 +5059,49 @@ var ptx_lunr_docs = [
   "body": " Examples C  "
 },
 {
-  "id": "ch_tenth",
+  "id": "sec_tenth-intro",
   "level": "1",
-  "url": "ch_tenth.html",
-  "type": "Chapter",
-  "number": "10",
-  "title": "Heat and Thermodynamics",
-  "body": " Heat and Thermodynamics       "
+  "url": "sec_tenth-intro.html",
+  "type": "Section",
+  "number": "10.1",
+  "title": "",
+  "body": "   There are three states of equilibrium:   "
+},
+{
+  "id": "sec_tenth-examplesA",
+  "level": "1",
+  "url": "sec_tenth-examplesA.html",
+  "type": "Section",
+  "number": "10.2",
+  "title": "Examples A",
+  "body": " Examples A            "
+},
+{
+  "id": "example-142",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-142",
+  "type": "Example",
+  "number": "10.2.1",
+  "title": "",
+  "body": "         "
+},
+{
+  "id": "ex_tenth",
+  "level": "1",
+  "url": "ex_tenth.html",
+  "type": "Exercises",
+  "number": "10.3",
+  "title": "Exercise",
+  "body": "  Exercise    "
+},
+{
+  "id": "exercise-202",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-202",
+  "type": "Exercise",
+  "number": "10.3.1",
+  "title": "",
+  "body": " "
 },
 {
   "id": "appendix-1",
@@ -4606,7 +5137,7 @@ var ptx_lunr_docs = [
   "type": "References",
   "number": "",
   "title": "References",
-  "body": " Mathematical Methods for Physicists, Arfken, Weber, Academic Press, 2005.  "
+  "body": " University Physics, Young, H. D. and Freedman, Roger A., Pearson, 2015.  Physics for Scientists and Engineers, Katz, D. M., Cengage Learning, 2015.  Thermal and Statistical Physics, Gupta, S., Pragati Prakashan, 1993.  Lecture Notes of Physics, Hewett, L. D., TAMUK, 2013.  An Introduction to Mechanics, Kleppner, D. and Kolenkow, R., Cambridge University Press, 2014.  Mathematical Physics for Undergraduate, Karna, S., Kindle Publication, 2018.  "
 }
 ]
 
