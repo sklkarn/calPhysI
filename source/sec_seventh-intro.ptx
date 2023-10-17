@@ -13,7 +13,7 @@
        mass and the square of perpendicular distance to the rotation axis. 
        If a point object has a mass <m>m</m> and is rotating about an  axis 
        then its moment of inertia, <m>I</m> is given by <m>I=mr^{2}.</m> 
-       where <m>r</m> is a distance  of the object from the axis of rotation [figure <xref ref="micont1a"/>]. 
+       where <m>r</m> is a distance  of the object from the axis of rotation [<xref ref="micont1a"/>]. 
        If there are an infinite number of point objects each at a distance <m>r_{i}</m> are 
        rotating about an axis, then the moment of inertia (M.I) of these discrete 
        objects are given as 
@@ -39,14 +39,14 @@
   <me>
     I=\sum\limits_{i=1}^{n} m_{i}r^{2}_{i} = m_{1} r^{2}_{1} + m_{2} r_{2}^{2}+\cdots ,
    </me>
-   as shown in figure <xref ref="micont1b"/>. An extended object consists of a 
+   as shown in <xref ref="micont1b"/>. An extended object consists of a 
    continuous distribution of mass at a continually varying distance from 
    the axis of rotation, its moment of inertia can be written as, 
    <me>
     I=\int\,dI=\int\limits_{0}^{M} r^{2}\,dm 
    </me>
    where <m>\,dm</m> is a differential (infinitely small) mass of the object 
-   [figure <xref ref="micont1c"/>] and <m>r</m> is a distance of this differential 
+   [<xref ref="micont1c"/>] and <m>r</m> is a distance of this differential 
    mass from axis of rotation.
 </p>
    </introduction>
@@ -67,7 +67,7 @@
   <p>
     Consider an elementary mass <m>m_{i}</m> at a distance <m>r_{i}</m> 
     from the center of mass of a body and at a distance <m>r</m> from the 
-    axis of rotation through a point p [figure <xref ref="miparallel1"/>], then the moment of 
+    axis of rotation through a point p [<xref ref="miparallel1"/>], then the moment of 
     inertia of that point mass is given by 
     <me>
       I=\sum_{i} m_{i}r^{2} = \sum_{i} m_{i}\left(d+r_{i}\right)^{2}
@@ -149,7 +149,7 @@
   <p>
     Consider a small element of mass <m>\,dm </m> of a rim of the ring of radius 
    <m>r</m> is rotating about an axis passing passing through its center of 
-   mass and perpendicular to its plane [figure <xref ref="miring1"/>], 
+   mass and perpendicular to its plane [<xref ref="miring1"/>], 
    then the moment of inertia of that elemental mass is given by
    <me>
     \,dI=\,dm r^{2}.
@@ -167,7 +167,7 @@
   <p>
     Consider a ring of mass <m>M</m> and radius <m>r</m>  is rotating about an 
     axis passing passing through its rim and perpendicular to its plane 
-    [figure <xref ref="miring2"/>], then the moment of inertia of that ring can be obtained by
+    [<xref ref="miring2"/>], then the moment of inertia of that ring can be obtained by
     <me>
       I_{rim}=I_{cm}+Md^{2} = Mr^{2}+Mr^{2} =2Mr^{2}
     </me>
@@ -178,7 +178,7 @@
   <title>About an axis through its diameter</title>
   <p>
     The moment of inertia of a ring about its center of mass and 
-    perpendicular to its plane [figure <xref ref="miring3"/>], is 
+    perpendicular to its plane [<xref ref="miring3"/>], is 
     <me>
       I_{cm}=Mr^{2}.
     </me>
@@ -222,7 +222,7 @@
       <title>About an axis passing through its center of mass and perpendicular to its plane</title>
       <p>
         The moment of inertia of a rod of length <m>L</m> and mass <m>M</m> about 
-        an axis passing through its center of mass [figure <xref ref="mirod2"/>] 
+        an axis passing through its center of mass [<xref ref="mirod2"/>] 
         can be find by considering an elementary mass <m>\,dm </m> of a rod of 
         infinitesimal thickness <m>\,dx</m> at a distance <m>x</m> from the 
         axis of rotation, then the moment of inertia of this elementary mass (strip) is given by
@@ -257,7 +257,7 @@
       <title>About an axis passing through its one edge and perpendicular to its plane</title>
       <p>
         Consider a rod of length <m>L</m> and mass <m>M</m> is rotating about an axis 
-        passing through one of its edges as shown in figure <xref ref="mirod1"/>. 
+        passing through one of its edges as shown in <xref ref="mirod1"/>. 
         To find the moment of inertia of such a rod consider an elementary mass 
         <m>\,dm </m> of a rod of infinitesimal thickness <m>\,dx</m> at a distance 
         <m>x</m> from the axis of rotation, then the moment of inertia of this elementary mass is given by
@@ -334,7 +334,7 @@
     <title>About an axis passing through its center of mass and perpendicular to its plane</title>
     <p>
       Consider a disk of radius <m>R</m> and mass <m>M</m> is rotating about an axis 
-      passing through its center of mass and perpendicular to its plane [figure <xref ref="midisk1"/>]. 
+      passing through its center of mass and perpendicular to its plane [<xref ref="midisk1"/>]. 
       To find the moment of inertia of such a disk consider an elementary ring of radius 
       <m>r</m>, thickness <m>\,dx</m>, and mass <m>\,dm</m> then the moment of inertia 
       of this elementary ring (annulus) is given by
@@ -362,7 +362,7 @@
   <subsubsection xml:id="subsubsec-midisk_diam">
     <title>About an axis through its diameter</title>
     <p>
-      Using perpendicular axis theorem, [figure <xref ref="midisk2"/>] 
+      Using perpendicular axis theorem, [<xref ref="midisk2"/>] 
       <me>
         I_{z}=I_{x}+I_{y}
       </me>
@@ -381,7 +381,7 @@
   <subsubsection xml:id="subsubsec-midisk_edge">
     <title>About an axis passing through its edge and perpendicular to its plane</title>
     <p>
-      Using parallel axis theorem, [figure <xref ref="midisk3"/>] 
+      Using parallel axis theorem, [<xref ref="midisk3"/>] 
       <me>
         I_{edge}=I_{cm}+Md^{2}=\frac{1}{2}MR^{2} +MR^{2}= \frac{3}{2}MR^{2}
       </me>
@@ -519,7 +519,7 @@ here <m>\,dm</m> = (mass per unit area)(area of a rod), by considering neglible 
     <title>Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</title>
     <p>
       Consider an elemental ring  of thickness <m>\,dx</m> at a distance 
-      <m>x</m> from the center of mass of a hollow cylinder [Figure <xref ref="mihcyl1"/>], 
+      <m>x</m> from the center of mass of a hollow cylinder [<xref ref="mihcyl1"/>], 
       then the moment of inertia of this ring is given by 
       <me>
         \,dI=\,dm\,R^{2}
@@ -538,7 +538,7 @@ here <m>\,dm</m> = (mass per unit area)(area of a rod), by considering neglible 
       Consider an elemental thin cylinder of length <m>l</m>,  
       thickness <m>\,dr</m> at a distance <m>r</m> from the center of 
       mass of a thick hollow cylinder of outer radius <m>R_{2}</m> and inner radius 
-      <m>R_{1}</m> [Figure <xref ref="mithcyl1"/>], then the moment of inertia of this cylinder is given by 
+      <m>R_{1}</m> [<xref ref="mithcyl1"/>], then the moment of inertia of this cylinder is given by 
       <me>
         \,dI=\,dm\,r^{2} = \left[\frac{M}{\pi\left(R^{2}_{2}-R^{2}_{1}\right)l}\right]\left(2\pi r\,dr l\right)r^{2}
       </me>
@@ -563,7 +563,7 @@ here <m>\,dm</m> = (mass per unit area)(area of a rod), by considering neglible 
     <p>
       Consider a concentric cylindrical shell of length <m>l</m>, radius <m>r</m>, 
       and thickness <m>\,dr</m> in a solid cylinder of mass <m>M</m> and  
-      radius <m>R</m> [Figure <xref ref="miscyl1"/>], then the moment of inertia of the shell is given by 
+      radius <m>R</m> [<xref ref="miscyl1"/>], then the moment of inertia of the shell is given by 
       <me>
         \,dI_{z}=\,dm\,r^{2} = \left[\frac{M}{\pi R^{2}l}\right]\left(2\pi r\,dr l\right)r^{2}
       </me>
@@ -612,7 +612,7 @@ here <m>\,dm</m> = (mass per unit area)(area of a rod), by considering neglible 
   <p>
     Consider a concentric disk of radius <m>r</m> and thickness <m>\,dx</m> 
     at a distance <m>x</m> from the vertex in a solid cone of mass <m>M</m> and  
-    radius <m>R</m> [Figure <xref ref="miscone1"/>], then the moment of inertia 
+    radius <m>R</m> [<xref ref="miscone1"/>], then the moment of inertia 
     of this disk about its center of mass can be given as
 <me>
   \,dI=\frac{1}{2}\,dm\,r^{2} = \frac{1}{2}\left[\frac{M}{\frac{1}{3}\pi R^{2}h}\right]\left(\pi r^{2}\,dx\right)r^{2}
@@ -644,7 +644,7 @@ here <m>\,dm</m> = (mass per unit area)(area of a rod), by considering neglible 
   <p>
     Consider a concentric disk of radius <m>r</m> and thickness <m>\,dx</m> 
     at a distance <m>x</m> from the vertex in a solid cone of mass <m>M</m> and 
-     radius <m>R</m> [Figure <xref ref="miscone3"/>], then the moment of inertia 
+     radius <m>R</m> [<xref ref="miscone3"/>], then the moment of inertia 
      of this disk about its diameter can be given as
 <me>
   \,dI_{cm}=\frac{1}{4}\,dm\,r^{2} 
@@ -695,7 +695,7 @@ Hence moment of inertia of a solid cone about its vertex is given by
  <p>
   Consider an elemetary ring of radius <m>r</m> and thickness <m>\,dx</m> at 
   a slanted distance <m>x</m> from the vertex in a hollow cone of mass <m>M</m> 
-  and  radius <m>R</m> [Figure <xref ref="mihcone2"/>], then the moment of 
+  and  radius <m>R</m> [<xref ref="mihcone2"/>], then the moment of 
   inertia of this ring about its center of mass can be given as
   <me>
     \,dI=\,dm\,r^{2} = \left[\frac{M}{\pi R d}\right]\left(2\pi r\,dx\right)r^{2}
@@ -745,7 +745,7 @@ Hence moment of inertia of a solid cone about its vertex is given by
   <title>Moment of inertia of a hollow sphere about its diameter</title>
   <p>
     Consider an elementary ring of radius <m>r</m> with thickness <m>\,dr</m>  
-    in a hollow sphere of mass <m>M</m> and  radius <m>R</m> [Figure <xref ref="mihsphere"/>], 
+    in a hollow sphere of mass <m>M</m> and  radius <m>R</m> [<xref ref="mihsphere"/>], 
     then the moment of inertia of this ring about its center of mass can be given as
     <me>
       \,dI=\,dm\,r^{2} = \,dm(R\sin\theta)^{2}=\left[\frac{M}{4\pi R^{2}}\right]\left(2\pi R\sin\theta\right) R\,d\theta (R\sin\theta)^{2} 
@@ -777,7 +777,7 @@ Hence moment of inertia of a solid cone about its vertex is given by
   <p>
     Consider a concentric hollow spherical shell of radius <m>r</m> and 
     thickness <m>\,dr</m>  in a hollow sphere of mass <m>M</m> and  
-    radius <m>R</m> [Figure <xref ref="missphere"/>], then the 
+    radius <m>R</m> [<xref ref="missphere"/>], then the 
     moment of inertia of this shell about its center of mass is given by
     <me>
       \,dI=\frac{2}{3}\,dm\,r^{2} = \frac{2}{3}\left(\frac{M}{\frac{4}{3}\pi R^{3}}\right)\left(4\pi r^{2}\,dr\right)\,r^{2}

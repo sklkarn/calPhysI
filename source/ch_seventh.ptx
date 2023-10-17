@@ -31,7 +31,7 @@
         particle of the system follows the same angular velocity but has different tangential velocities 
         which depends upon their position from the axis of rotation. The further the particle from 
         the axis of rotation, the higher will be their tangential velocities. The angular measurements 
-        is described in radian rather than degree in the rigid body. In figure <xref ref="rb1"/>, angular velocity, 
+        is described in radian rather than degree in the rigid body. In <xref ref="rb1"/>, angular velocity, 
         <m>\omega</m>  is pointed along the axis of rotation which is given by the right 
         hand thumb's rule, where if fingers of right hand are curled in the direction of 
         rotation then thumb is directed along the angular velocity. Point <m>O</m> is a point 

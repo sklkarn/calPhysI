@@ -256,7 +256,7 @@ These equations can help sove the 2D collision problems.
         <m>e = 1,</m> then the change in kinetic energy is zero. Collisions in which 
         no change in kinetic energy occurs are called elastic collisions, <m>\Delta k =0</m>. 
         If the magnitude of the final relative velocity  is less than the magnitude 
-        of the initial relative velocity, $<m>e \lt 1,</m> then the change in kinetic 
+        of the initial relative velocity, <m>e \lt 1,</m> then the change in kinetic 
         energy is negative. Collisions in which the kinetic energy decreases are called 
         inelastic collisions, <m>\Delta K \lt 0</m>. If the two objects stick together 
         after the collision, then the relative final velocity is zero, <m>e = 0.</m> 

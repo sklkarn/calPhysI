@@ -19,7 +19,7 @@
   </figure>
     <p>
       Johannes Kepler established three laws for planetary motion from his 
-      years of observation in <m>16^{th}</m> century [Figure <xref ref="kepler1"/>]. They are 
+      years of observation in <m>16^{th}</m> century [<xref ref="kepler1"/>]. They are 
       <ol>
         <li>
           The planets move along elliptical paths, and the sun is located at one of the focii.
@@ -48,7 +48,7 @@
       The distance of closest approach <m>d_{1}</m> is called the periapsis and the distance 
       of maximum separation, <m>d_{2} </m> is called the apoapsis. For the earth around 
       the sun perihelion is the distance of closest approach and "aphelion" is distance 
-      of the maximum separation (helio means sun in Greek) [Figure <xref ref="kepler2"/>]. For earth-moon system, 
+      of the maximum separation (helio means sun in Greek) [<xref ref="kepler2"/>]. For earth-moon system, 
       "perigee" is the distance of closest approach and "apogee" is distance of the 
       maximum separation (gee means earth in Greek). 
     </p>
@@ -87,7 +87,7 @@
       <title>Derivation of Kepler's II law</title>
       <p>
         If planet is considered at very close to the semimajor axis, so that point 
-        <m>P</m> is very close to point <m>O</m>, then from <m>\triangle PSO</m> [figure <xref ref="kepler2"/>], we have -  
+        <m>P</m> is very close to point <m>O</m>, then from <m>\triangle PSO</m> [<xref ref="kepler2"/>], we have -  
         <me>
           \Delta A =\frac{1}{2}base\times height = \frac{1}{2}(r)(r \Delta \theta)
         </me>

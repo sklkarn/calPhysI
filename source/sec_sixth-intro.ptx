@@ -51,7 +51,7 @@ is the force on mass 1 due to mass 2, the force <m> F_{21}</m> is the force on m
         surface of the earth, and the radius of the earth, respectively. The shape of 
         earth is not a perfect sphere, rather, it is an oblate spheroid. That is, 
         the radius of the earth at the equator <m> R_{eq}</m> is slightly greater 
-        than the radius of the earth at the poles <m>R_{pol}</m> as shown in figure 
+        than the radius of the earth at the poles <m>R_{pol}</m> as shown in 
         <xref ref="NLG1"/>. Hence the value of <m>g</m> varies slightly with  latitude 
         on the surface of the earth as <m>g \varpropto \frac{1}{R^{2}},</m> since G and M 
         are constants. The value of 
@@ -80,7 +80,7 @@ is the force on mass 1 due to mass 2, the force <m> F_{21}</m> is the force on m
         force that is acting on a rotating body, but it is the required force that must be 
         applied to keep the body in that rotational motion. Hence the part of gravitational 
         force must be acting on a body to provide a necessary centripetal force to keep 
-        that object moving on a circle with the rotation of the earth as shown in figure <xref ref="NLG3"/>. 
+        that object moving on a circle with the rotation of the earth as shown in <xref ref="NLG3"/>. 
       </p>
       <p>
         Since the centripetal force <m>\vec{F}_{c}=m\vec{a}_{c}</m> required by the mass 
@@ -161,7 +161,7 @@ is the force on mass 1 due to mass 2, the force <m> F_{21}</m> is the force on m
    <me>
     M'=\frac{4}{3}\pi (R-d)^{3} \rho
    </me>
-    [Figure <xref ref="NLG5"/>]. Therefore the acceleration due to gravity at that depth is given by
+    [<xref ref="NLG5"/>]. Therefore the acceleration due to gravity at that depth is given by
     <me>
       g_{d} = \frac{GM'}{(R-d)^{2}} = \frac{\frac{4}{3}G\pi (R-d)^{3} \rho}{(R-d)^{2}} 
     </me>
@@ -192,7 +192,7 @@ is the force on mass 1 due to mass 2, the force <m> F_{21}</m> is the force on m
         \,dw=\vec{F}_{r}\cdot\,d\vec{r} = F_{r}\,dr = G\frac{Mm}{r^{2}}\,dr 
       </me>
          If a body is displaced from a position <m>A</m> of distance <m>r_{1}</m> 
-          to a position <m>B</m> at distance <m>r_{2}</m> against the gravity [Figure <xref ref="NLG6"/>], then 
+          to a position <m>B</m> at distance <m>r_{2}</m> against the gravity [<xref ref="NLG6"/>], then 
           <me>
             W=\int\,dw=\int\limits_{r_{1}}^{r_{2}} G\frac{Mm}{r^{2}}\,dr
           </me>

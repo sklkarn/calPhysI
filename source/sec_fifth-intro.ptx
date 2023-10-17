@@ -371,7 +371,7 @@
     of the equilibrium point, the force pushes the particle back towards equilibrium. 
     Points where the force is zero and small displacements cause a restoring force to 
     bring the particle  back to the same points are called <term>stable equilibrium</term> 
-    points [<xref ref="sec_ninth-intro"/>]. 
+    points [<xref ref="subsec-st_equlbrm"/>]. 
   </p>
   <p>
     Remember force is a negative gradient of the potential energy, i.e., 
@@ -395,7 +395,7 @@
     The forces between neutral atoms are extremely small, nearly zero, if atoms 
     are very far away from one another. This is illustrated as an extended region 
     where the potential energy is flat for large r as shown in <xref ref="potEcurve"/>. 
-    Such region is called <term>neutral equilibrium</term> [<xref ref="sec_ninth-intro"/>] 
+    Such region is called <term>neutral equilibrium</term> [<xref ref="subsec-st_equlbrm"/>] 
     because there are no forces that either restore or repel the two atoms. 
     When two atoms reaches closer, their interaction becomes first weakly attractive 
     due to quantum dipole-induced dipole interactions and then weakly repulsive as the 
@@ -406,12 +406,12 @@
     interaction between them followed by a hard core repulsion as the electron clouds 
     are prevented from interpenetrating by the Pauli exclusion principle. This second 
     potential energy well is often modeled by a Lenard-Jones potential energy corresponding 
-    to the inverse powers of r. It also has a point of stable equilibrium. In between, 
+    to the inverse powers of <m>r</m>. It also has a point of stable equilibrium. In between, 
     there is a point where the growing attraction of the inner potential energy well 
     and the growing repulsion of the outer potential energy well balance, so that the 
     potential energy function has a maximum. At this maximum the slope is zero, 
     a position of force equilibrium but because the force on either side of this 
-    point pushes the particle away from it, this is a point of <term>unstable equilibrium</term>. 
+    point pushes the particle away from it, this is a point of <term>unstable equilibrium</term> [<xref ref="subsec-st_equlbrm"/>]. 
     Unstable equilibria occur at isolated maxima in the potential energy function, 
     just as stable equilibria occur at isolated minima. <fn>Introductory Physics-I, Robert Brown, Duke University</fn>
     </p>

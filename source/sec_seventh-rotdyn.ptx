@@ -238,7 +238,7 @@
         Hence angular momentum is also called moment of momentum. It is a vector quantity. 
         It is acting along the direction perpendicular to the plane subtends by <m>\vec{r}</m> and <m>\vec{v}.</m> 
         The angular momentum of a point particle is a measure of the <em>circulation</em> of 
-        the particle's linear momentum about some specific point. In figure <xref ref="angmomnt"/>, <m>r</m> 
+        the particle's linear momentum about some specific point. In <xref ref="angmomnt"/>, <m>r</m> 
         is a position vector of mass, <m>m</m> measured from point <m>O.</m>
         <me>
           |\vec{L}|=  |\vec{r}\times\vec{p}| =| m\left(\vec{r}\times\vec{v}\right)| = mrv\sin\theta 
@@ -247,7 +247,7 @@
              vector <m>r</m>. If the position vector and the velocity are contained in the x-y 
              plane then the angular momentum is either along the +z axis or along the -z axis. 
              If the right hand fingers pointed along the position vector curl along the velocity 
-             vector, then thumb will give the direction of angular momentum. In the figure <xref ref="angmomnt"/>
+             vector, then thumb will give the direction of angular momentum. In the <xref ref="angmomnt"/>
              if the right hand fingers are along the red dashed line curled towards the momentum 
              vector then thumb is pointed out of the paper. 
        </p>
@@ -273,7 +273,7 @@
         The angular momentum vector depends on the position vector of the point particle, 
         therefore it depends on the point from which the particle's position is measured. 
         Consider a particle of mass <m>m</m> moving along the <m>+x</m> axis with velocity <m>v</m> 
-        as shown in figure <xref ref="angmomnt2"/>, then the angular momentum of this 
+        as shown in <xref ref="angmomnt2"/>, then the angular momentum of this 
         particle is given with respect to points  <m>A</m> and <m>B</m> are 
         <me>
           |\vec{L}_{A}|  = |\vec{r}_{A}\times\vec{p}| 
@@ -321,7 +321,7 @@
      making it easier to stay upright and harder to upset momentum. 
   </p>
   <p>
-    In the figure <xref ref="gyroscope"/>, <m>L</m>  and <m>L'</m> are initial and 
+    In the <xref ref="gyroscope"/>, <m>L</m>  and <m>L'</m> are initial and 
     final angular momentum after time <m>\Delta t,</m> respectively. <m>\omega</m> is 
     angular velocity of wheel rotation and <m>\Omega</m> is a precessional velocity. 
     <m>\vec{r}</m> is the distance of wheel from the axis of rotation, <m>O</m>. <m>\tau</m> 
