@@ -13,34 +13,28 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Consider a concentric cylindrical shell of length <span class="process-math">\(l\text{,}\)</span> radius <span class="process-math">\(r\text{,}\)</span> and thickness <span class="process-math">\(\,dr\)</span> in a solid cylinder of mass <span class="process-math">\(M\)</span> and radius <span class="process-math">\(R\)</span> [Figure <a href="" class="xref" data-knowl="./knowl/miscyl1.html" title="Figure 7.1.10.(c)">Figure 7.1.10.(c)</a>], then the moment of inertia of the shell is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
+<div class="para">Hence the moment of inertia of a plate about center of mass is given by</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\,dI_{z}=\,dm\,r^{2} = \left[\frac{M}{\pi R^{2}l}\right]\left(2\pi r\,dr l\right)r^{2}
+I_{z}=\int\,dI_{z} = \frac{M}{a}\int\limits_{-\frac{a}{2}}^{\frac{a}{2}}\left[\frac{1}{12}b^{2}\,dx +x^{2}\,dx \right]
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad I_{z} = \frac{2M}{R^{2}} \int\limits_{0}^{R}r^{3}\,dr
+= \frac{M}{a}\left[\frac{1}{12}b^{2}\left.x\right\vert_{-\frac{a}{2}}^{\frac{a}{2}} +\left.\frac{x^{3}}{3}\right\vert_{-\frac{a}{2}}^{\frac{a}{2}} \right] 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
+<div class="displaymath process-math">
 \begin{equation*}
-=\frac{2M}{R^{2}}\left(\frac{r^{4}}{4}\right)_{0}^{R}
+I_{z} =\frac{M}{a}\left[\frac{1}{12}b^{2}\left(\frac{a}{2}+\frac{a}{2}\right)+\frac{1}{3}\left(\frac{a^{3}}{8}+ \frac{a^{3}}{8}\right)\right]
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\therefore\quad I_{z} = \frac{1}{2}\left(\frac{M}{R^{2}}\right)\left(R^{4}-0\right) = \frac{1}{2}MR^{2}
-\end{equation*}
-</div>
-<div class="para">Show that moment of inertia of a solid cylinder about</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
-\begin{equation*}
-I_{x} =I_{y} = \frac{M}{12}\left(3R^{2}+l^{2}\right).
+=\frac{M}{12}\left[a^{2}+b^{2}\right]
 \end{equation*}
 </div>
 </div>
-<span class="incontext"><a href="subsec-mi_cylnd.html#p-789" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-mi_plate.html#p-789" class="internal">in-context</a></span>
 </body>
 </html>

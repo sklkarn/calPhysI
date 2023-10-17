@@ -1891,6 +1891,69 @@ var ptx_lunr_docs = [
   "body": " Rotational Equilibrium  If the force is applied at an angle to the radius vector, then the lever arm is . An object in rotational equilibrium has no net external torque, i.e., sum of all external torques = 0. Remember that \"rotational equilibrium\" may mean that the object is either not rotating or may be rotating with a constant angular velocity. (3-D vector problems.)  "
 },
 {
+  "id": "subsec-st_equlbrm",
+  "level": "1",
+  "url": "subsec-st_equlbrm.html",
+  "type": "Subsection",
+  "number": "4.11.2",
+  "title": "States of Equilibrium",
+  "body": " States of Equilibrium  There are three states of equilibrium:                      Stable equilibrium: The body is said to be in stable equilibrium if its center of gravity lies below lowest possible position. A funnel standing vertically on its base on the table is in stable equilibrium [ ]. If the funnel is tilted a little bit against any side and then allowed to fall, it will come back to its original position. When the funnel is tilted against any side its center of gravity is raised [ ]. The line of action of weight passes through the base of the funnel. As long as the line of action of weight remains inside the base area funnel will come back to the original position. A torque due to weight of the funnel brings it back to the original position. For the funnel to tip over the line of action of the weight arrow will have to form a clockwise moment (or to pass outside the point of support). The funnel needs to have been pushed a lot for tip over. Some examples of stable equilibrium are bodies lying on the floor such as chair, table, book, etc. If a system in stable equilibrium is disturbed slightly, it oscillates around that state first but eventually settles down in exactly the same position as it started [ ]. It does this because its center of gravity is already at the lowest possible position.                      Unstable equilibrium: The body is said to be in unstable equilibrium if the center of gravity of a body lies above the highest possible position. A funnel standing vertically on its stem on the table [ ] is in unstable equilibrium. If the funnel standing vertically is slightly disturbed from its position it will not come back to its original position rather fall down on the surface of table. when the funnel is slightly disturbed its center of gravity is lowered [ ]. The line of action of its weight lies outside the base of stem. The torque due to weight of the rod toppled it down. Other examples of unstable equilibrium are vertically standing cylinder and pencil etc. An unstable system moves away from its original equilibrium state when disturbed. It wants to move away from the original position as soon as it has been disturbed [ ]. It does this because its center of gravity is higher in this state and when disturbed the center of gravity continues to move to a lower position (a more stable one).                      Natural equilibrium: The body is said to be in natural (neutral) equilibrium if the center of gravity of a body is at optimal position it is neither lowered nor is raised up. The object with lower center of gravity is more stable than the one with the higher center of gravity. A funnel lying horizontally on its side at rest on the surface of a table [ ] is in natural equilibrium. If a funnel is pushed slightly to roll, it will neither come back to its original position nor it will roll forward rather it will remain at rest. If the funnel is rolled, its center of gravity is neither raised nor lowered [ ]. This means that its center of gravity is at the same height as before. A neutral system is one where the center of gravity of the system is always at the same level. If it has been disturbed slightly it will therefore settle in the new position without a need to move further on or to move back [ ]. For example, a rolling ball lying on the table.    "
+},
+{
+  "id": "figure-71",
+  "level": "2",
+  "url": "subsec-st_equlbrm.html#figure-71",
+  "type": "Figure",
+  "number": "4.11.3",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-419",
+  "level": "2",
+  "url": "subsec-st_equlbrm.html#p-419",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Stable equilibrium: "
+},
+{
+  "id": "figure-75",
+  "level": "2",
+  "url": "subsec-st_equlbrm.html#figure-75",
+  "type": "Figure",
+  "number": "4.11.4",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-420",
+  "level": "2",
+  "url": "subsec-st_equlbrm.html#p-420",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Unstable equilibrium: "
+},
+{
+  "id": "figure-79",
+  "level": "2",
+  "url": "subsec-st_equlbrm.html#figure-79",
+  "type": "Figure",
+  "number": "4.11.5",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-421",
+  "level": "2",
+  "url": "subsec-st_equlbrm.html#p-421",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Natural equilibrium: "
+},
+{
   "id": "sec_fourth-examplesE",
   "level": "1",
   "url": "sec_fourth-examplesE.html",
@@ -2503,18 +2566,18 @@ var ptx_lunr_docs = [
   "body": " Work   If an object is displaced along the same direction as the force is applied then the work is said to be done. If a force displaces a body to a distance along the direction of force then work can be calculated by . Work is a scalar quantity as it is a measure of transfer of energy from one object to another. The physical quantities which can be obtained by dot product of two vectors are scalar. The unit of work is joule in SI system, ; in FPS system, ft-lb = foot.pound; and in CGS system, erg = dyne.cm.               Suppose a block of mass is displaced to a distance along the horizontal direction by the application of force [ ]. If the force is acting along a direction to the horizontal, then work done by the force is given by The work done by a force is defined as the product of component of the force in the direction of displacement and the magnitude of displacement. Work in physics is different than our daily life work. Suppose you are pushing a rigid brick wall very hard, after some time you get exhausted because you lose your body energy. In our daily life we called this action as a work, but in physics this is not a work because the object did not displace from its position. Hence in physics, whether the force or the displacement is zero, there is no work. Depending upon the angle between the applied force and the displacement, work could be negative, positive, or zero. For example, work done by a frictional force, or work done by a force acting opposite to the motion of object, work done by a force acting parallel to the motion of object, and work done by a force acting perpendicular to the motion of object,   If a force displaces an object to a small distance where then work done by this force is given by If then   The terms like are area under the curve [ ]. The sum of these area between initial position to final position along each direction is equal to work done by a variable force F(r), such as force of spring.   "
 },
 {
-  "id": "p-525",
+  "id": "p-529",
   "level": "2",
-  "url": "subsec-work.html#p-525",
+  "url": "subsec-work.html#p-529",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "work "
 },
 {
-  "id": "figure-71",
+  "id": "figure-83",
   "level": "2",
-  "url": "subsec-work.html#figure-71",
+  "url": "subsec-work.html#figure-83",
   "type": "Figure",
   "number": "5.1.1",
   "title": "",
@@ -2530,27 +2593,27 @@ var ptx_lunr_docs = [
   "body": " Energy   The capacity of doing work is known as energy. It is a scalar quantity and it's unit in SI system is Joule. Energy exists in many different forms, such as thermal energy, sound energy, electrical energy, magnetic energy, gravitational energy, chemical energy, mechanical energy, etc. The energy associated with the motion and position of an object is termed as mechanical energy. We focus our understanding here in mechanical energy. Mechanical energy is of two types, kinetic energy and potential energy. The kinetic energy is associated with the motion of the object and potential energy is associated with the position of the object with respect to some other object. For example: elastic potential energy due to a spring force, gravitational potential energy due to gravity, etc. The sum of kinetic and potential energy gives the total mechanical energy of the object.    Work-Energy Theorem  From equations of motion, we have where , , and are final velocity, initial velocity, acceleration, and distance covered by the particle, respectively. From Newton's second law of motion, we have - From eqns. and , we have -  Here the term is called final kinetic energy, , the term is called initial kinetic energy, , and the term is work done by a force. Hence, Which is known as work-energy theorem . It states that work done by a net force acting on a body is equal to the chnage in its kinetic energy.    Kinetic Energy:  It is the energy associated with a body during its motion. Suppose is the work done by a force on a body to displace it to a distance , then  The quantity is called the kinetic energy, i.e., Since this kinetic energy is associated with a body in translational motion, it is called a translational (linear) kinetic energy. The kinetic energy in rotational motion is called rotational kinetic energy which we will discuss in .    Potential Energy:  The energy stored in a body due to its position is known as potential energy. If work is done by a force to change the position of a body, then this work is stored in the body at that position in the form of potential energy. The restoring force plays a crucial role to acquire potential energy. For example, a charged particle near or far from another charge; a squashed or stretched rubber ball, a body above the surface of the earth. The potential energy of the body at any position is the work done against the restoring force in moving the body from the zero point (reference point) to that position. The reference point The zero point is so chosen that it could be infinitely far away. Such as at infinity, at the center of the earth, at sea level, at the floor, at the table top, or at any other point. This is because only potential energy differences between two positions are physically measurable and cannot depend on the a rbitrary choice of the zero point. (or, the zero point ) is the point where potential energy is assumed to be zero. If work has to be done on a body to take it to a new location, then the potential energy increases in the process. If the external force does the work then the potential energy change is negative.     Gravitational Potential Energy: Suppose a body of mass is lifted to a height against gravity without acceleration, then work done by the applied force, is given by This work is stored in the body in the form of gravitational potential energy. Hence when this body is released from the position the body drops down to the ground again. Therefore, the work done by the gravity to pull that object towards earth's surface is given by This is gravitational potential energy in a uniform gravitational field, . The gravitational potential energy due to two point masses is given by Where is the mass of an object at the origin, is the mass of an object at a radial distance from the origin and the zero point is chosen at infinity.     Elastic Potential Energy: When the body (or, spring) is compressed or stretched external force has to do the work, this work is stored in a body (or, spring) in the form of elastic potential energy. It is the energy due to work done by a restoring force. where is the restoring force [read for more details] , is elastic (or, spring) constant (it defines the stiffness of the spring), and is extension in the spring.    Since work done by a force in principle depends on the path taken by the body, (as can be seen in where is a frictional force), but if the force is conservative then work done is independent on the path taken by the body rather it depends on the initial and final position of the body [ ].   "
 },
 {
-  "id": "p-529",
+  "id": "p-533",
   "level": "2",
-  "url": "subsec-energy.html#p-529",
+  "url": "subsec-energy.html#p-533",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "work-energy theorem "
 },
 {
-  "id": "p-532",
+  "id": "p-536",
   "level": "2",
-  "url": "subsec-energy.html#p-532",
+  "url": "subsec-energy.html#p-536",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Gravitational Potential Energy: "
 },
 {
-  "id": "p-533",
+  "id": "p-537",
   "level": "2",
-  "url": "subsec-energy.html#p-533",
+  "url": "subsec-energy.html#p-537",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2599,30 +2662,30 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "5.1.5",
   "title": "Energy Diagram",
-  "body": " Energy Diagram               From the principle of conservation of energy as kinetic energy of the system increases its potential energy decreases. This means the force acting on a particle is the rate at which the potential energy decreases in any given direction as shown in . At point a, the slope of is positive, i.e., the x-component of the force is in the negative x direction. At the point b, the slope is negative and hence the force is positive. The force increases as the slope of increases. The point in the middle, at , is is a minimum of and hence the slope is zero. Therefore the x-directed force F at that point is zero as well. A point at which the force on an object is zero is a point of static equilibrium [ ], i.e., a particle is at rest and will remain there at rest. If the particle is displaced by a small distance to the right or the left of the equilibrium point, the force pushes the particle back towards equilibrium. Points where the force is zero and small displacements cause a restoring force to bring the particle back to the same points are called stable equilibrium points [ ].  Remember force is a negative gradient of the potential energy, i.e.,    That is, the force is a negative slope of the potential energy function in its direction. If a particle moves in the direction of the (conservative) force, it speeds up and its kinetic energy increases.  The forces between neutral atoms are extremely small, nearly zero, if atoms are very far away from one another. This is illustrated as an extended region where the potential energy is flat for large r as shown in . Such region is called neutral equilibrium [ ] because there are no forces that either restore or repel the two atoms. When two atoms reaches closer, their interaction becomes first weakly attractive due to quantum dipole-induced dipole interactions and then weakly repulsive as the two atoms start to touch each other. There is a potential energy minimum in between where two atoms separated by a certain distance can be in stable equilibrium without being chemically bound. If atoms approaches more closely then they encounter a second potential energy well that is at first strongly attractive to an actual chemical interaction between them followed by a hard core repulsion as the electron clouds are prevented from interpenetrating by the Pauli exclusion principle. This second potential energy well is often modeled by a Lenard-Jones potential energy corresponding to the inverse powers of r. It also has a point of stable equilibrium. In between, there is a point where the growing attraction of the inner potential energy well and the growing repulsion of the outer potential energy well balance, so that the potential energy function has a maximum. At this maximum the slope is zero, a position of force equilibrium but because the force on either side of this point pushes the particle away from it, this is a point of unstable equilibrium . Unstable equilibria occur at isolated maxima in the potential energy function, just as stable equilibria occur at isolated minima. Introductory Physics-I, Robert Brown, Duke University   "
+  "body": " Energy Diagram               From the principle of conservation of energy as kinetic energy of the system increases its potential energy decreases. This means the force acting on a particle is the rate at which the potential energy decreases in any given direction as shown in . At point a, the slope of is positive, i.e., the x-component of the force is in the negative x direction. At the point b, the slope is negative and hence the force is positive. The force increases as the slope of increases. The point in the middle, at , is is a minimum of and hence the slope is zero. Therefore the x-directed force F at that point is zero as well. A point at which the force on an object is zero is a point of static equilibrium [ ], i.e., a particle is at rest and will remain there at rest. If the particle is displaced by a small distance to the right or the left of the equilibrium point, the force pushes the particle back towards equilibrium. Points where the force is zero and small displacements cause a restoring force to bring the particle back to the same points are called stable equilibrium points [ ].  Remember force is a negative gradient of the potential energy, i.e.,    That is, the force is a negative slope of the potential energy function in its direction. If a particle moves in the direction of the (conservative) force, it speeds up and its kinetic energy increases.  The forces between neutral atoms are extremely small, nearly zero, if atoms are very far away from one another. This is illustrated as an extended region where the potential energy is flat for large r as shown in . Such region is called neutral equilibrium [ ] because there are no forces that either restore or repel the two atoms. When two atoms reaches closer, their interaction becomes first weakly attractive due to quantum dipole-induced dipole interactions and then weakly repulsive as the two atoms start to touch each other. There is a potential energy minimum in between where two atoms separated by a certain distance can be in stable equilibrium without being chemically bound. If atoms approaches more closely then they encounter a second potential energy well that is at first strongly attractive to an actual chemical interaction between them followed by a hard core repulsion as the electron clouds are prevented from interpenetrating by the Pauli exclusion principle. This second potential energy well is often modeled by a Lenard-Jones potential energy corresponding to the inverse powers of . It also has a point of stable equilibrium. In between, there is a point where the growing attraction of the inner potential energy well and the growing repulsion of the outer potential energy well balance, so that the potential energy function has a maximum. At this maximum the slope is zero, a position of force equilibrium but because the force on either side of this point pushes the particle away from it, this is a point of unstable equilibrium [ ]. Unstable equilibria occur at isolated maxima in the potential energy function, just as stable equilibria occur at isolated minima. Introductory Physics-I, Robert Brown, Duke University   "
 },
 {
-  "id": "figure-76",
+  "id": "figure-88",
   "level": "2",
-  "url": "subsec-ediagram.html#figure-76",
+  "url": "subsec-ediagram.html#figure-88",
   "type": "Figure",
   "number": "5.1.4",
   "title": "",
   "body": "            "
 },
 {
-  "id": "p-539",
+  "id": "p-543",
   "level": "2",
-  "url": "subsec-ediagram.html#p-539",
+  "url": "subsec-ediagram.html#p-543",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "static equilibrium stable equilibrium "
 },
 {
-  "id": "p-541",
+  "id": "p-545",
   "level": "2",
-  "url": "subsec-ediagram.html#p-541",
+  "url": "subsec-ediagram.html#p-545",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2665,63 +2728,63 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-547",
-  "level": "2",
-  "url": "subsec-sm.html#p-547",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "lever "
-},
-{
-  "id": "p-549",
-  "level": "2",
-  "url": "subsec-sm.html#p-549",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Class 1 Levers: "
-},
-{
-  "id": "figure-81",
-  "level": "2",
-  "url": "subsec-sm.html#figure-81",
-  "type": "Figure",
-  "number": "5.2.2",
-  "title": "",
-  "body": "            "
-},
-{
-  "id": "p-550",
-  "level": "2",
-  "url": "subsec-sm.html#p-550",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Class 2 Levers: "
-},
-{
-  "id": "figure-84",
-  "level": "2",
-  "url": "subsec-sm.html#figure-84",
-  "type": "Figure",
-  "number": "5.2.3",
-  "title": "",
-  "body": "            "
-},
-{
   "id": "p-551",
   "level": "2",
   "url": "subsec-sm.html#p-551",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
+  "body": "lever "
+},
+{
+  "id": "p-553",
+  "level": "2",
+  "url": "subsec-sm.html#p-553",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Class 1 Levers: "
+},
+{
+  "id": "figure-93",
+  "level": "2",
+  "url": "subsec-sm.html#figure-93",
+  "type": "Figure",
+  "number": "5.2.2",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-554",
+  "level": "2",
+  "url": "subsec-sm.html#p-554",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Class 2 Levers: "
+},
+{
+  "id": "figure-96",
+  "level": "2",
+  "url": "subsec-sm.html#figure-96",
+  "type": "Figure",
+  "number": "5.2.3",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-555",
+  "level": "2",
+  "url": "subsec-sm.html#p-555",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
   "body": "Class 3 levers: "
 },
 {
-  "id": "figure-87",
+  "id": "figure-99",
   "level": "2",
-  "url": "subsec-sm.html#figure-87",
+  "url": "subsec-sm.html#figure-99",
   "type": "Figure",
   "number": "5.2.4",
   "title": "",
@@ -2737,63 +2800,63 @@ var ptx_lunr_docs = [
   "body": " Pulley                Another type of simple machine is a pulley. The pulley is just a lever in disguise. A single fixed pulley acts like a lever with equal arms. It changes only the direction of the input force. When a person pulls down on the rope, the load is lifted up as shown in . In a single movable pulley, the load can be lifted with an input force that is only half of the load's true weight .    Mechanical Advantage  Simple machine makes work easier to do. Mechanical advantage is used to quantify how easy to do the work by using simple machine. The number of times input force is multiplied under ideal conditions, i.e., when no friction present, is called an Ideal Mechanical Advantage , IMA. The number of times input force is multiplied under real world conditions, i.e., when friction is present, is called an Actual Mechanical Advantage , AMA.     Types of Pulley                              Single Fixed Pulley: This pulley does not multiply the input force. It does change the direction of the force from up to down [ ].        One Fixed and One Movable Pulley: This pulley does multiply the input force and change the direction of the force as well [ ].           Two Fixed and One Movable Pulley: This pulley change the direction of the force, and it also multiplies it [ ].            Two Fixed and Two Movable Pulley: This pulley change the direction of the force, and it also multiplies it [ ].      Suppose the load, then the actual input force would be a little greater than the ideal value of , say 25N in this case, It might be 30 N. The extra 5 newtons is used to overcome the friction.  The AMA will always be less than the IMA.    The value of IMA in case of pulley can be easily determined by just looking at the picture. Just count the number of strands of rope that directly support the load. In , there is 4 strands of rope supporting the load, In , 3 strands of rope supporting the load, In , there is 5 strands supporting the load, Besides lever and pulley, there are four other simple machines. They are the screw, the inclined plane, the wedge, and the wheel & axle.   Efficiency       "
 },
 {
-  "id": "figure-90",
+  "id": "figure-102",
   "level": "2",
-  "url": "subsec-pulley.html#figure-90",
+  "url": "subsec-pulley.html#figure-102",
   "type": "Figure",
   "number": "5.2.5",
   "title": "",
   "body": "            "
 },
 {
-  "id": "p-554",
+  "id": "p-558",
   "level": "2",
-  "url": "subsec-pulley.html#p-554",
+  "url": "subsec-pulley.html#p-558",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Ideal Mechanical Advantage Actual Mechanical Advantage "
 },
 {
-  "id": "figure-93",
+  "id": "figure-105",
   "level": "2",
-  "url": "subsec-pulley.html#figure-93",
+  "url": "subsec-pulley.html#figure-105",
   "type": "Figure",
   "number": "5.2.6",
   "title": "",
   "body": "                        "
 },
 {
-  "id": "p-555",
+  "id": "p-559",
   "level": "2",
-  "url": "subsec-pulley.html#p-555",
+  "url": "subsec-pulley.html#p-559",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Single Fixed Pulley: "
 },
 {
-  "id": "p-556",
+  "id": "p-560",
   "level": "2",
-  "url": "subsec-pulley.html#p-556",
+  "url": "subsec-pulley.html#p-560",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "One Fixed and One Movable Pulley: "
 },
 {
-  "id": "p-557",
+  "id": "p-561",
   "level": "2",
-  "url": "subsec-pulley.html#p-557",
+  "url": "subsec-pulley.html#p-561",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Two Fixed and One Movable Pulley: "
 },
 {
-  "id": "p-558",
+  "id": "p-562",
   "level": "2",
-  "url": "subsec-pulley.html#p-558",
+  "url": "subsec-pulley.html#p-562",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2950,7 +3013,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "5.4.1",
   "title": "Collision",
-  "body": " Collision   A collision collision is an interaction between two objects that may or may not have made physical contact. In a collision the colliding objects experience a pair of forces acting on them. The direction of the force on the first object is opposite to the direction of the force on the second object and these forces are equal in magnitude. These forces are Newton's III law pair. In an isolated system, total momentum is always conserved, hence such forces often increase the momentum of one object and decrease the momentum of the other. There are two kinds of collisions, elastic collision and inelastic collision.  Total energy is always conserved in any types of collision. In collision three steps are considered to understand the problems. They are before collision: objects approach each other with a kinetic energy due to their movement, during collision: objects interact and transfer their momentum. The kinetic energy is transformed into elastic potential energy stored in the spring-like molecular bonds, and after collision: the stored elastic potential energy is converted into kinetic energy as the objects move away from each other [ ].      Here and are velocities of body 1 and 2 before and after collision, respectively.  Consider two objects of mass and having velocity and , respectively are moving in 1-dimension and that so that they collide along their way. Suppose that both objects are subject to zero net force unless they are in contact with one another. During the collision, the first object exerts a large transitory force on the second, whereas the second object exerts an equal and opposite force on the first. That is, they transfer equal and opposite impulses on one another at the instant of collision. If and are the velocity of the objects after collision, and there is no external force acting on the objects then from the principle of conservation of momentum, we have  This equation is valid for any 1-dimensional collision, irrespective of its nature.    Inelastic Collision  A collision in which total momentum is conserved but the total kinetic energy is not conserved before and after the collision is known as inelastic collision. That is, some of their kinetic energy is converted into heat, or sound, or deformation. If the two objects stick together after the collision and move with a common velocity then the collision is said to be perfectly inelastic. Most collisions in practice are inelastic. Perfectly inelastic collisions usually involve easily deformed obj ects e.g. wet clay. Since momentum is conserved in an inelastic collision eqn. can help solve the problem. In perfectly inelastic collision , after the collision, hence from eqn. , we have -     Elastic Collision  A collision in which total momentum and total kinetic energy are conserved before and after the collision is known as elastic collision. That is there is no dissipative force acting during the collision and that all of the kinetic energy of the objects before the collision is still in the form of kinetic energy afterward. Any macroscopic collision between objects will convert some of the kinetic energy into internal energy and other forms of energy, so no large scale impacts are perfectly elastic. Elastic collisions usually involve sub-atomic particles or highly rigid objects e.g. steel or glass balls. If both objects have same mass, their velocities swap after perfectly elastic collision, e.g. Newton's cradle. \"Collisions\" in which the objects do not touch each other, such as Rutherford scattering or the slingshot orbit of a satellite off a planet, are elastic collisions. In atomic or nuclear scattering, the collisions are typically elastic because the repulsive Coulomb force keeps the particles out of contact with each other. Collisions in ideal gases are very nearly elastic, and this fact is used in the development of the expressions for gas pressure in a container. Since total momentum and total kinetic energy is conserved in elastic collision, eqn. along with eqn. can help solve the problem,      Collision in 2D  A collision in two dimensions obeys the same rules as a collision in one dimension. That is,  Total momentum in each direction is always the same before and after the collision, and  Total kinetic energy is the same before and after an elastic collision.    Consider the first object of mass , initially moves along the -axis with speed and the second object of mass , initially moves at an angle to the -axis with speed .                  For inelastic collision: If the two objects stick together and move off at an angle to the -axis with speed [ ]. Then from principle of conservation of momentum,     For elastic collision [ ]:     These equations can help sove the 2D collision problems.    Coefficient of Restitution, e  The coefficient of restitution, is defined as the ratio of relative speeds after and before an impact, taken along the line of impact. If represents how fast the objects are separating from one another after collision, and represents how fast the objects are approaching one another before collision, then where, , , are final and initial velocities of the two particles, respectively. The coefficient of restitution, for perfectly inelastic collision and for perfectly elastic collision, i.e., .  If the magnitude of the relative velocity does not change during a collision, then the change in kinetic energy is zero. Collisions in which no change in kinetic energy occurs are called elastic collisions, . If the magnitude of the final relative velocity is less than the magnitude of the initial relative velocity, $ then the change in kinetic energy is negative. Collisions in which the kinetic energy decreases are called inelastic collisions, . If the two objects stick together after the collision, then the relative final velocity is zero, Such collisions are called totally inelastic. If the magnitude of the final relative velocity is greater than the magnitude of the initial relative velocity, then the change in kinetic energy is positive. Collisions in which the kinetic energy increases are called superelastic collisions,    "
+  "body": " Collision   A collision collision is an interaction between two objects that may or may not have made physical contact. In a collision the colliding objects experience a pair of forces acting on them. The direction of the force on the first object is opposite to the direction of the force on the second object and these forces are equal in magnitude. These forces are Newton's III law pair. In an isolated system, total momentum is always conserved, hence such forces often increase the momentum of one object and decrease the momentum of the other. There are two kinds of collisions, elastic collision and inelastic collision.  Total energy is always conserved in any types of collision. In collision three steps are considered to understand the problems. They are before collision: objects approach each other with a kinetic energy due to their movement, during collision: objects interact and transfer their momentum. The kinetic energy is transformed into elastic potential energy stored in the spring-like molecular bonds, and after collision: the stored elastic potential energy is converted into kinetic energy as the objects move away from each other [ ].      Here and are velocities of body 1 and 2 before and after collision, respectively.  Consider two objects of mass and having velocity and , respectively are moving in 1-dimension and that so that they collide along their way. Suppose that both objects are subject to zero net force unless they are in contact with one another. During the collision, the first object exerts a large transitory force on the second, whereas the second object exerts an equal and opposite force on the first. That is, they transfer equal and opposite impulses on one another at the instant of collision. If and are the velocity of the objects after collision, and there is no external force acting on the objects then from the principle of conservation of momentum, we have  This equation is valid for any 1-dimensional collision, irrespective of its nature.    Inelastic Collision  A collision in which total momentum is conserved but the total kinetic energy is not conserved before and after the collision is known as inelastic collision. That is, some of their kinetic energy is converted into heat, or sound, or deformation. If the two objects stick together after the collision and move with a common velocity then the collision is said to be perfectly inelastic. Most collisions in practice are inelastic. Perfectly inelastic collisions usually involve easily deformed obj ects e.g. wet clay. Since momentum is conserved in an inelastic collision eqn. can help solve the problem. In perfectly inelastic collision , after the collision, hence from eqn. , we have -     Elastic Collision  A collision in which total momentum and total kinetic energy are conserved before and after the collision is known as elastic collision. That is there is no dissipative force acting during the collision and that all of the kinetic energy of the objects before the collision is still in the form of kinetic energy afterward. Any macroscopic collision between objects will convert some of the kinetic energy into internal energy and other forms of energy, so no large scale impacts are perfectly elastic. Elastic collisions usually involve sub-atomic particles or highly rigid objects e.g. steel or glass balls. If both objects have same mass, their velocities swap after perfectly elastic collision, e.g. Newton's cradle. \"Collisions\" in which the objects do not touch each other, such as Rutherford scattering or the slingshot orbit of a satellite off a planet, are elastic collisions. In atomic or nuclear scattering, the collisions are typically elastic because the repulsive Coulomb force keeps the particles out of contact with each other. Collisions in ideal gases are very nearly elastic, and this fact is used in the development of the expressions for gas pressure in a container. Since total momentum and total kinetic energy is conserved in elastic collision, eqn. along with eqn. can help solve the problem,      Collision in 2D  A collision in two dimensions obeys the same rules as a collision in one dimension. That is,  Total momentum in each direction is always the same before and after the collision, and  Total kinetic energy is the same before and after an elastic collision.    Consider the first object of mass , initially moves along the -axis with speed and the second object of mass , initially moves at an angle to the -axis with speed .                  For inelastic collision: If the two objects stick together and move off at an angle to the -axis with speed [ ]. Then from principle of conservation of momentum,     For elastic collision [ ]:     These equations can help sove the 2D collision problems.    Coefficient of Restitution, e  The coefficient of restitution, is defined as the ratio of relative speeds after and before an impact, taken along the line of impact. If represents how fast the objects are separating from one another after collision, and represents how fast the objects are approaching one another before collision, then where, , , are final and initial velocities of the two particles, respectively. The coefficient of restitution, for perfectly inelastic collision and for perfectly elastic collision, i.e., .  If the magnitude of the relative velocity does not change during a collision, then the change in kinetic energy is zero. Collisions in which no change in kinetic energy occurs are called elastic collisions, . If the magnitude of the final relative velocity is less than the magnitude of the initial relative velocity, then the change in kinetic energy is negative. Collisions in which the kinetic energy decreases are called inelastic collisions, . If the two objects stick together after the collision, then the relative final velocity is zero, Such collisions are called totally inelastic. If the magnitude of the final relative velocity is greater than the magnitude of the initial relative velocity, then the change in kinetic energy is positive. Collisions in which the kinetic energy increases are called superelastic collisions,    "
 },
 {
   "id": "col1d",
@@ -2962,18 +3025,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "figure-100",
+  "id": "figure-112",
   "level": "2",
-  "url": "subsec-collision.html#figure-100",
+  "url": "subsec-collision.html#figure-112",
   "type": "Figure",
   "number": "5.4.2",
   "title": "",
   "body": "            "
 },
 {
-  "id": "p-618",
+  "id": "p-622",
   "level": "2",
-  "url": "subsec-collision.html#p-618",
+  "url": "subsec-collision.html#p-622",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3526,7 +3589,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "6.1.1",
   "title": "Acceleration Due to Gravity, <span class=\"process-math\">\\(g\\)<\/span>",
-  "body": " Acceleration Due to Gravity,        From Newton's II law of motion, when an external unbalanced force acts on an object, it will give an acceleration to that object, that is, . But, if the gravitational force is acting on the body near the surface of the earth, then the body experiences the acceleration for a freely falling body. This force is called weight of the body, . Hence, Where and are the mass of earth, mass of a body on the surface of the earth, and the radius of the earth, respectively. The shape of earth is not a perfect sphere, rather, it is an oblate spheroid. That is, the radius of the earth at the equator is slightly greater than the radius of the earth at the poles as shown in figure . Hence the value of varies slightly with latitude on the surface of the earth as since G and M are constants. The value of The mean value of Even though the variation in the radius of the earth seems quite small, the variation in the acceleration due to gravity on the earth goes from as low as at the equator to as high as at the north Pole.    Effect of the Rotation of the Earth on g      The value of on the surface of the earth does not only vary with the radius of the earth but it is also affected by the rotation of the earth. Any mass rotating in a circular motion needs a centripetal force which is acting towards the center of the circular path. Remember that a centripetal force is not a real force that is acting on a rotating body, but it is the required force that must be applied to keep the body in that rotational motion. Hence the part of gravitational force must be acting on a body to provide a necessary centripetal force to keep that object moving on a circle with the rotation of the earth as shown in figure .  Since the centripetal force required by the mass m to follow a circle of radius r, then this force must be provided by the vector difference in force of gravity and a real force , i.e.,   The magnitude of can be found by   where R is the radius of the earth, and the acceleration due to gravity on a non-rotating earth is     Effect of Altitude of the Earth on g      Acceleration due to gravity on the surface of the earth is given by At height from the surface of the earth [Figure ], acceleration due to gravity is given by  using binomial theorem     Effect of Depth of the Earth on g      Acceleration due to gravity on the surface of the earth is given by where mass of the entire earth, At depth from the surface of the earth, mass of the earth [Figure ]. Therefore the acceleration due to gravity at that depth is given by      "
+  "body": " Acceleration Due to Gravity,        From Newton's II law of motion, when an external unbalanced force acts on an object, it will give an acceleration to that object, that is, . But, if the gravitational force is acting on the body near the surface of the earth, then the body experiences the acceleration for a freely falling body. This force is called weight of the body, . Hence, Where and are the mass of earth, mass of a body on the surface of the earth, and the radius of the earth, respectively. The shape of earth is not a perfect sphere, rather, it is an oblate spheroid. That is, the radius of the earth at the equator is slightly greater than the radius of the earth at the poles as shown in . Hence the value of varies slightly with latitude on the surface of the earth as since G and M are constants. The value of The mean value of Even though the variation in the radius of the earth seems quite small, the variation in the acceleration due to gravity on the earth goes from as low as at the equator to as high as at the north Pole.    Effect of the Rotation of the Earth on g      The value of on the surface of the earth does not only vary with the radius of the earth but it is also affected by the rotation of the earth. Any mass rotating in a circular motion needs a centripetal force which is acting towards the center of the circular path. Remember that a centripetal force is not a real force that is acting on a rotating body, but it is the required force that must be applied to keep the body in that rotational motion. Hence the part of gravitational force must be acting on a body to provide a necessary centripetal force to keep that object moving on a circle with the rotation of the earth as shown in .  Since the centripetal force required by the mass m to follow a circle of radius r, then this force must be provided by the vector difference in force of gravity and a real force , i.e.,   The magnitude of can be found by   where R is the radius of the earth, and the acceleration due to gravity on a non-rotating earth is     Effect of Altitude of the Earth on g      Acceleration due to gravity on the surface of the earth is given by At height from the surface of the earth [Figure ], acceleration due to gravity is given by  using binomial theorem     Effect of Depth of the Earth on g      Acceleration due to gravity on the surface of the earth is given by where mass of the entire earth, At depth from the surface of the earth, mass of the earth [ ]. Therefore the acceleration due to gravity at that depth is given by      "
 },
 {
   "id": "NLG2",
@@ -3571,7 +3634,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "6.1.2",
   "title": "Gravitational Potential Energy, U",
-  "body": " Gravitational Potential Energy, U      The gravitational potential energy of a body is work required to bring that body from infinity to the particular position in a gravitational field. Let a body of mass is displaced without acceleration by a distance against the force of gravity, then work done by the external force is given by If a body is displaced from a position of distance to a position at distance against the gravity [Figure ], then  Hence work done by the gravity, (or the gravitational potential energy) is given by If a body is brought from infinity to any point at a distance in the gravitational field then, In calculus form, potential energy is defined as where is a conservative foece, and therefore force can be written as   "
+  "body": " Gravitational Potential Energy, U      The gravitational potential energy of a body is work required to bring that body from infinity to the particular position in a gravitational field. Let a body of mass is displaced without acceleration by a distance against the force of gravity, then work done by the external force is given by If a body is displaced from a position of distance to a position at distance against the gravity [ ], then  Hence work done by the gravity, (or the gravitational potential energy) is given by If a body is brought from infinity to any point at a distance in the gravitational field then, In calculus form, potential energy is defined as where is a conservative foece, and therefore force can be written as   "
 },
 {
   "id": "NLG6",
@@ -3643,7 +3706,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "6.2.1",
   "title": "Periapsis and Apoapsis:",
-  "body": " Periapsis and Apoapsis:  The asymmetric position of a massive object within the elliptical orbit renders the orbiting object moves in a varying distance from the massive object. The distance of closest approach is called the periapsis and the distance of maximum separation, is called the apoapsis. For the earth around the sun perihelion is the distance of closest approach and \"aphelion\" is distance of the maximum separation (helio means sun in Greek) [Figure ]. For earth-moon system, \"perigee\" is the distance of closest approach and \"apogee\" is distance of the maximum separation (gee means earth in Greek).   Derivation of Kepler's III law using Newton's law of gravitation:  A planet moving around a circular path needs a centripetal force which is provided by the force of attraction between the planet and the sun. where and are the mass of the sun, mass of the planet, and radius of a circular path, respectively. But, the velocity of the planet in the orbit is given by where is the time period of revolution of the planet around the sun.       Derivation of Kepler's II law  If planet is considered at very close to the semimajor axis, so that point is very close to point , then from [figure ], we have - where height = and base = for the triangle. For small time consider angle subtends by the earth is Now, angular momentum of the planet,   since angular momentum of a planet in an orbit and its mass remains constant.    Derivation of Kepler's I law          Now,   Let so that Also, Now, Therefore from eqn ,     This is second order linear differential equation with constant coefficient. The solution of which can be given as It is a solution for a simple harmonic motion equation. Set the coordinate in such a way that and hence   where Eqn. is the general form of an ellipse in polar coordinates, with the origin placed at a focus. In solid state geometry, the parameter is often called the eccentricity. When the eccentricity of a planet's orbit is zero, the orbit is perfectly circular. The curve is an ellipse, a parabola, or a hyperbola, according as its  or   where is a semi-major axis of the ellipse, at apoapsis, and at periapsis    "
+  "body": " Periapsis and Apoapsis:  The asymmetric position of a massive object within the elliptical orbit renders the orbiting object moves in a varying distance from the massive object. The distance of closest approach is called the periapsis and the distance of maximum separation, is called the apoapsis. For the earth around the sun perihelion is the distance of closest approach and \"aphelion\" is distance of the maximum separation (helio means sun in Greek) [ ]. For earth-moon system, \"perigee\" is the distance of closest approach and \"apogee\" is distance of the maximum separation (gee means earth in Greek).   Derivation of Kepler's III law using Newton's law of gravitation:  A planet moving around a circular path needs a centripetal force which is provided by the force of attraction between the planet and the sun. where and are the mass of the sun, mass of the planet, and radius of a circular path, respectively. But, the velocity of the planet in the orbit is given by where is the time period of revolution of the planet around the sun.       Derivation of Kepler's II law  If planet is considered at very close to the semimajor axis, so that point is very close to point , then from [ ], we have - where height = and base = for the triangle. For small time consider angle subtends by the earth is Now, angular momentum of the planet,   since angular momentum of a planet in an orbit and its mass remains constant.    Derivation of Kepler's I law          Now,   Let so that Also, Now, Therefore from eqn ,     This is second order linear differential equation with constant coefficient. The solution of which can be given as It is a solution for a simple harmonic motion equation. Set the coordinate in such a way that and hence   where Eqn. is the general form of an ellipse in polar coordinates, with the origin placed at a focus. In solid state geometry, the parameter is often called the eccentricity. When the eccentricity of a planet's orbit is zero, the orbit is perfectly circular. The curve is an ellipse, a parabola, or a hyperbola, according as its  or   where is a semi-major axis of the ellipse, at apoapsis, and at periapsis    "
 },
 {
   "id": "sec_sixth-examples",
@@ -3814,7 +3877,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.1.1",
   "title": "Parallel axis theorem",
-  "body": " Parallel axis theorem  The moment of inertia of a body depends upon the axis of rotation and there are many axes possible about which a body can rotate. Hence the parallel axis theorem provides a relationship between the moment of inertia of a body about an axis passing through its center of mass to any other axis of a body which is parallel to the axis through center of mass.      Consider an elementary mass at a distance from the center of mass of a body and at a distance from the axis of rotation through a point p [figure ], then the moment of inertia of that point mass is given by   In this expression a moment of inertia of the body about an axis through center of mass, , the mass of a body, , moment of inertia of a body about an axis parallel to the axis through the center of mass, a distance between parallel axes, and   Since the position of the center of mass lies at origin (0,0), i.e.,  The parallel axis theorem states that the moment of inertia of a body about an axis parallel to an axis passing through the center of mass is equal to the sum of the moment of inertia of body about an axis passing through center of mass and product of mass and square of the distance between the two axes.  "
+  "body": " Parallel axis theorem  The moment of inertia of a body depends upon the axis of rotation and there are many axes possible about which a body can rotate. Hence the parallel axis theorem provides a relationship between the moment of inertia of a body about an axis passing through its center of mass to any other axis of a body which is parallel to the axis through center of mass.      Consider an elementary mass at a distance from the center of mass of a body and at a distance from the axis of rotation through a point p [ ], then the moment of inertia of that point mass is given by   In this expression a moment of inertia of the body about an axis through center of mass, , the mass of a body, , moment of inertia of a body about an axis parallel to the axis through the center of mass, a distance between parallel axes, and   Since the position of the center of mass lies at origin (0,0), i.e.,  The parallel axis theorem states that the moment of inertia of a body about an axis parallel to an axis passing through the center of mass is equal to the sum of the moment of inertia of body about an axis passing through center of mass and product of mass and square of the distance between the two axes.  "
 },
 {
   "id": "miparallel1",
@@ -3826,9 +3889,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-768",
+  "id": "p-772",
   "level": "2",
-  "url": "subsec-paral_axis.html#p-768",
+  "url": "subsec-paral_axis.html#p-772",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3853,9 +3916,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-769",
+  "id": "p-773",
   "level": "2",
-  "url": "subsec-perpend_axis.html#p-769",
+  "url": "subsec-perpend_axis.html#p-773",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3868,12 +3931,12 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.1.3",
   "title": "Moment of Inertia of a Ring or Hoop",
-  "body": " Moment of Inertia of a Ring or Hoop                    As moment inertia depends upon the shape, mass distribution, and position of axis of rotation. Here are some conditions discussed below for a ring.    About an axis passing through its center of mass and perpendicular to its plane  Consider a small element of mass of a rim of the ring of radius is rotating about an axis passing passing through its center of mass and perpendicular to its plane [figure ], then the moment of inertia of that elemental mass is given by Therefore moment of inertia of a whole ring about that axis is where is the mass of the ring.    About an axis passing through its rim and perpendicular to its plane  Consider a ring of mass and radius is rotating about an axis passing passing through its rim and perpendicular to its plane [figure ], then the moment of inertia of that ring can be obtained by     About an axis through its diameter  The moment of inertia of a ring about its center of mass and perpendicular to its plane [figure ], is Now using the perpendicular axis theorem, we have As ring is a symmetrical object is considered as equal to . Hence     "
+  "body": " Moment of Inertia of a Ring or Hoop                    As moment inertia depends upon the shape, mass distribution, and position of axis of rotation. Here are some conditions discussed below for a ring.    About an axis passing through its center of mass and perpendicular to its plane  Consider a small element of mass of a rim of the ring of radius is rotating about an axis passing passing through its center of mass and perpendicular to its plane [ ], then the moment of inertia of that elemental mass is given by Therefore moment of inertia of a whole ring about that axis is where is the mass of the ring.    About an axis passing through its rim and perpendicular to its plane  Consider a ring of mass and radius is rotating about an axis passing passing through its rim and perpendicular to its plane [ ], then the moment of inertia of that ring can be obtained by     About an axis through its diameter  The moment of inertia of a ring about its center of mass and perpendicular to its plane [ ], is Now using the perpendicular axis theorem, we have As ring is a symmetrical object is considered as equal to . Hence     "
 },
 {
-  "id": "figure-123",
+  "id": "figure-135",
   "level": "2",
-  "url": "subsec-mi_ring.html#figure-123",
+  "url": "subsec-mi_ring.html#figure-135",
   "type": "Figure",
   "number": "7.1.4",
   "title": "",
@@ -3886,12 +3949,12 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.1.4",
   "title": "Moment of Inertia of a Rod",
-  "body": " Moment of Inertia of a Rod                  About an axis passing through its center of mass and perpendicular to its plane  The moment of inertia of a rod of length and mass about an axis passing through its center of mass [figure ] can be find by considering an elementary mass of a rod of infinitesimal thickness at a distance from the axis of rotation, then the moment of inertia of this elementary mass (strip) is given by            About an axis passing through its one edge and perpendicular to its plane  Consider a rod of length and mass is rotating about an axis passing through one of its edges as shown in figure . To find the moment of inertia of such a rod consider an elementary mass of a rod of infinitesimal thickness at a distance from the axis of rotation, then the moment of inertia of this elementary mass is given by        Alternative Using parallel axis theorem,  here, is the distance between axis of rotation and an axis through center of mass of a rod.    About an axis passing along its length and through the center of mass  If the rod is negligibly thin (slender rod), then , otherwise depends upon of its shape, its moment of inertia can be obtained similar to that for a solid cylinder or as for a rectangular prism    "
+  "body": " Moment of Inertia of a Rod                  About an axis passing through its center of mass and perpendicular to its plane  The moment of inertia of a rod of length and mass about an axis passing through its center of mass [ ] can be find by considering an elementary mass of a rod of infinitesimal thickness at a distance from the axis of rotation, then the moment of inertia of this elementary mass (strip) is given by            About an axis passing through its one edge and perpendicular to its plane  Consider a rod of length and mass is rotating about an axis passing through one of its edges as shown in . To find the moment of inertia of such a rod consider an elementary mass of a rod of infinitesimal thickness at a distance from the axis of rotation, then the moment of inertia of this elementary mass is given by        Alternative Using parallel axis theorem,  here, is the distance between axis of rotation and an axis through center of mass of a rod.    About an axis passing along its length and through the center of mass  If the rod is negligibly thin (slender rod), then , otherwise depends upon of its shape, its moment of inertia can be obtained similar to that for a solid cylinder or as for a rectangular prism    "
 },
 {
-  "id": "figure-127",
+  "id": "figure-139",
   "level": "2",
-  "url": "subsec-mi_rod.html#figure-127",
+  "url": "subsec-mi_rod.html#figure-139",
   "type": "Figure",
   "number": "7.1.5",
   "title": "",
@@ -3904,12 +3967,12 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.1.5",
   "title": "Moment of Inertia of a Disk",
-  "body": " Moment of Inertia of a Disk                      About an axis passing through its center of mass and perpendicular to its plane  Consider a disk of radius and mass is rotating about an axis passing through its center of mass and perpendicular to its plane [figure ]. To find the moment of inertia of such a disk consider an elementary ring of radius , thickness , and mass then the moment of inertia of this elementary ring (annulus) is given by          About an axis through its diameter  Using perpendicular axis theorem, [figure ]  and by symmetry,      About an axis passing through its edge and perpendicular to its plane  Using parallel axis theorem, [figure ]    "
+  "body": " Moment of Inertia of a Disk                      About an axis passing through its center of mass and perpendicular to its plane  Consider a disk of radius and mass is rotating about an axis passing through its center of mass and perpendicular to its plane [ ]. To find the moment of inertia of such a disk consider an elementary ring of radius , thickness , and mass then the moment of inertia of this elementary ring (annulus) is given by          About an axis through its diameter  Using perpendicular axis theorem, [ ]  and by symmetry,      About an axis passing through its edge and perpendicular to its plane  Using parallel axis theorem, [ ]    "
 },
 {
-  "id": "figure-130",
+  "id": "figure-142",
   "level": "2",
-  "url": "subsec-mi_disk.html#figure-130",
+  "url": "subsec-mi_disk.html#figure-142",
   "type": "Figure",
   "number": "7.1.6",
   "title": "",
@@ -3958,12 +4021,12 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.1.7",
   "title": "Moment of Inertia of a Cylinder",
-  "body": " Moment of Inertia of a Cylinder                      Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane  Consider an elemental ring of thickness at a distance from the center of mass of a hollow cylinder [Figure ], then the moment of inertia of this ring is given by  [Mass of an elemental ring = (mass per unit area of a cylinder) (area of a ring).] Here is mass of the cylinder, is its radius, and is its length.    Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane  Consider an elemental thin cylinder of length , thickness at a distance from the center of mass of a thick hollow cylinder of outer radius and inner radius [Figure ], then the moment of inertia of this cylinder is given by     [Mass of an elemental cylinder = (mass per unit volume of a thick cylinder) (volume of elemental cylinder).]    Moment of inertia of a solid cylinder about an axis passing through its center of mass and perpendicular to its plane  Consider a concentric cylindrical shell of length , radius , and thickness in a solid cylinder of mass and radius [Figure ], then the moment of inertia of the shell is given by    Show that moment of inertia of a solid cylinder about    "
+  "body": " Moment of Inertia of a Cylinder                      Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane  Consider an elemental ring of thickness at a distance from the center of mass of a hollow cylinder [ ], then the moment of inertia of this ring is given by  [Mass of an elemental ring = (mass per unit area of a cylinder) (area of a ring).] Here is mass of the cylinder, is its radius, and is its length.    Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane  Consider an elemental thin cylinder of length , thickness at a distance from the center of mass of a thick hollow cylinder of outer radius and inner radius [ ], then the moment of inertia of this cylinder is given by     [Mass of an elemental cylinder = (mass per unit volume of a thick cylinder) (volume of elemental cylinder).]    Moment of inertia of a solid cylinder about an axis passing through its center of mass and perpendicular to its plane  Consider a concentric cylindrical shell of length , radius , and thickness in a solid cylinder of mass and radius [ ], then the moment of inertia of the shell is given by    Show that moment of inertia of a solid cylinder about    "
 },
 {
-  "id": "figure-137",
+  "id": "figure-149",
   "level": "2",
-  "url": "subsec-mi_cylnd.html#figure-137",
+  "url": "subsec-mi_cylnd.html#figure-149",
   "type": "Figure",
   "number": "7.1.10",
   "title": "",
@@ -3976,12 +4039,12 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.1.8",
   "title": "Moment of Inertia of a Cone",
-  "body": " Moment of Inertia of a Cone                      Moment of Inertia of a Solid Cone about an axis of symmetry  Consider a concentric disk of radius and thickness at a distance from the vertex in a solid cone of mass and radius [Figure ], then the moment of inertia of this disk about its center of mass can be given as           Moment of Inertia of a Solid Cone about a Vertex Parallel to the Base  Consider a concentric disk of radius and thickness at a distance from the vertex in a solid cone of mass and radius [Figure ], then the moment of inertia of this disk about its diameter can be given as      Moment of inertia of this disk about the vertex of the cone can be    Hence moment of inertia of a solid cone about its vertex is given by       Moment of Inertia of a Hollow Cone about an axis of symmetry  Consider an elemetary ring of radius and thickness at a slanted distance from the vertex in a hollow cone of mass and radius [Figure ], then the moment of inertia of this ring about its center of mass can be given as          "
+  "body": " Moment of Inertia of a Cone                      Moment of Inertia of a Solid Cone about an axis of symmetry  Consider a concentric disk of radius and thickness at a distance from the vertex in a solid cone of mass and radius [ ], then the moment of inertia of this disk about its center of mass can be given as           Moment of Inertia of a Solid Cone about a Vertex Parallel to the Base  Consider a concentric disk of radius and thickness at a distance from the vertex in a solid cone of mass and radius [ ], then the moment of inertia of this disk about its diameter can be given as      Moment of inertia of this disk about the vertex of the cone can be    Hence moment of inertia of a solid cone about its vertex is given by       Moment of Inertia of a Hollow Cone about an axis of symmetry  Consider an elemetary ring of radius and thickness at a slanted distance from the vertex in a hollow cone of mass and radius [ ], then the moment of inertia of this ring about its center of mass can be given as          "
 },
 {
-  "id": "figure-141",
+  "id": "figure-153",
   "level": "2",
-  "url": "subsec-mi_cone.html#figure-141",
+  "url": "subsec-mi_cone.html#figure-153",
   "type": "Figure",
   "number": "7.1.11",
   "title": "",
@@ -3994,21 +4057,21 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.1.9",
   "title": "Moment of Inertia of a Sphere",
-  "body": " Moment of Inertia of a Sphere                  Moment of inertia of a hollow sphere about its diameter  Consider an elementary ring of radius with thickness in a hollow sphere of mass and radius [Figure ], then the moment of inertia of this ring about its center of mass can be given as mass of a ring = (mass per unit area of sphere) (area of a ring)  Therefore the moment of inertia of a hollow sphere about its diameter is given by         Moment of inertia of a solid sphere about its diameter  Consider a concentric hollow spherical shell of radius and thickness in a hollow sphere of mass and radius [Figure ], then the moment of inertia of this shell about its center of mass is given by mass of a shell = (mass per unit volume of sphere) (volume of a shell)  Therefore the moment of inertia of a solid sphere about its diameter is given by   Note: All the above calculations were made by considering uniform mass distribution of a symmetrical object.   "
+  "body": " Moment of Inertia of a Sphere                  Moment of inertia of a hollow sphere about its diameter  Consider an elementary ring of radius with thickness in a hollow sphere of mass and radius [ ], then the moment of inertia of this ring about its center of mass can be given as mass of a ring = (mass per unit area of sphere) (area of a ring)  Therefore the moment of inertia of a hollow sphere about its diameter is given by         Moment of inertia of a solid sphere about its diameter  Consider a concentric hollow spherical shell of radius and thickness in a hollow sphere of mass and radius [ ], then the moment of inertia of this shell about its center of mass is given by mass of a shell = (mass per unit volume of sphere) (volume of a shell)  Therefore the moment of inertia of a solid sphere about its diameter is given by   Note: All the above calculations were made by considering uniform mass distribution of a symmetrical object.   "
 },
 {
-  "id": "figure-145",
+  "id": "figure-157",
   "level": "2",
-  "url": "subsec-mi_spher.html#figure-145",
+  "url": "subsec-mi_spher.html#figure-157",
   "type": "Figure",
   "number": "7.1.12",
   "title": "",
   "body": "            "
 },
 {
-  "id": "p-796",
+  "id": "p-800",
   "level": "2",
-  "url": "subsec-mi_spher.html#p-796",
+  "url": "subsec-mi_spher.html#p-800",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4120,7 +4183,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.3.3",
   "title": "Angular Momentum",
-  "body": " Angular Momentum  A rigid body rotating with angular velocity, about a fixed axis has an angular momentum about this axis which is given by where is the moment of inertia of the body about this axis. To change the angular momentum of a body, an external torque must be applied to it. Similar to in linear dynamics, we have in rotational dynamics That is, the torque acting on a rigid body is equal to the rate of change of the angular momentum. The direction of torque is along the change in angular momentum. The direction of angular momentum is along the angular velocity, which is along the axis of rotation. In the absence of external torques, the angular momentum of a rigid body must be constant, in other words, there is no change in the angular momentum when the sum of the external torques is zero. This is known as the principle of conservation of angular momentum, i.e., Similarly, the angular impulse Thus the change in angular momentum is equal to the angular impulse. Again,       Hence angular momentum is also called moment of momentum. It is a vector quantity. It is acting along the direction perpendicular to the plane subtends by and The angular momentum of a point particle is a measure of the circulation of the particle's linear momentum about some specific point. In figure , is a position vector of mass, measured from point  here is a component of velocity (or momentum) along position vector . If the position vector and the velocity are contained in the x-y plane then the angular momentum is either along the +z axis or along the -z axis. If the right hand fingers pointed along the position vector curl along the velocity vector, then thumb will give the direction of angular momentum. In the figure if the right hand fingers are along the red dashed line curled towards the momentum vector then thumb is pointed out of the paper.                   The angular momentum vector depends on the position vector of the point particle, therefore it depends on the point from which the particle's position is measured. Consider a particle of mass moving along the axis with velocity as shown in figure , then the angular momentum of this particle is given with respect to points and are   where is pointed into the paper [figure ]. Similarly,  and is pointed out of the paper [figure ].  "
+  "body": " Angular Momentum  A rigid body rotating with angular velocity, about a fixed axis has an angular momentum about this axis which is given by where is the moment of inertia of the body about this axis. To change the angular momentum of a body, an external torque must be applied to it. Similar to in linear dynamics, we have in rotational dynamics That is, the torque acting on a rigid body is equal to the rate of change of the angular momentum. The direction of torque is along the change in angular momentum. The direction of angular momentum is along the angular velocity, which is along the axis of rotation. In the absence of external torques, the angular momentum of a rigid body must be constant, in other words, there is no change in the angular momentum when the sum of the external torques is zero. This is known as the principle of conservation of angular momentum, i.e., Similarly, the angular impulse Thus the change in angular momentum is equal to the angular impulse. Again,       Hence angular momentum is also called moment of momentum. It is a vector quantity. It is acting along the direction perpendicular to the plane subtends by and The angular momentum of a point particle is a measure of the circulation of the particle's linear momentum about some specific point. In , is a position vector of mass, measured from point  here is a component of velocity (or momentum) along position vector . If the position vector and the velocity are contained in the x-y plane then the angular momentum is either along the +z axis or along the -z axis. If the right hand fingers pointed along the position vector curl along the velocity vector, then thumb will give the direction of angular momentum. In the if the right hand fingers are along the red dashed line curled towards the momentum vector then thumb is pointed out of the paper.                   The angular momentum vector depends on the position vector of the point particle, therefore it depends on the point from which the particle's position is measured. Consider a particle of mass moving along the axis with velocity as shown in , then the angular momentum of this particle is given with respect to points and are   where is pointed into the paper [figure ]. Similarly,  and is pointed out of the paper [figure ].  "
 },
 {
   "id": "angmomnt",
@@ -4132,9 +4195,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "figure-150",
+  "id": "figure-162",
   "level": "2",
-  "url": "subsec-ang_momnt.html#figure-150",
+  "url": "subsec-ang_momnt.html#figure-162",
   "type": "Figure",
   "number": "7.3.4",
   "title": "",
@@ -4147,7 +4210,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.3.4",
   "title": "The Gyroscope",
-  "body": " The Gyroscope                It is a spinning disc or wheel in which the axis of rotation is free to orient in any direction. It is used to detect rotational movement. It is very useful in navigation, especially where magnetic compasses can't be used, such as in spacecraft, intercontinental ballistic missiles, and satellites. Wheels on a bicycle, for example, act as gyroscopes as they spin up to speed, making it easier to stay upright and harder to upset momentum.  In the figure , and are initial and final angular momentum after time respectively. is angular velocity of wheel rotation and is a precessional velocity. is the distance of wheel from the axis of rotation, . is the direction of torque being acted on the wheel because of its weight. The direction of torque can be given by right hand thumb rule. When the right hand fingers are curled from the direction along to the direction along weight then the direction of thumb will be pointed along the torque. Because of torque the direction of angular momentum changes every second hence the orientation of new angular momentum is given by    Earth precesses because of the torque produced on it due to gravitational tidal force of the Sun and the Moon.  "
+  "body": " The Gyroscope                It is a spinning disc or wheel in which the axis of rotation is free to orient in any direction. It is used to detect rotational movement. It is very useful in navigation, especially where magnetic compasses can't be used, such as in spacecraft, intercontinental ballistic missiles, and satellites. Wheels on a bicycle, for example, act as gyroscopes as they spin up to speed, making it easier to stay upright and harder to upset momentum.  In the , and are initial and final angular momentum after time respectively. is angular velocity of wheel rotation and is a precessional velocity. is the distance of wheel from the axis of rotation, . is the direction of torque being acted on the wheel because of its weight. The direction of torque can be given by right hand thumb rule. When the right hand fingers are curled from the direction along to the direction along weight then the direction of thumb will be pointed along the torque. Because of torque the direction of angular momentum changes every second hence the orientation of new angular momentum is given by    Earth precesses because of the torque produced on it due to gravitational tidal force of the Sun and the Moon.  "
 },
 {
   "id": "gyroscope",
@@ -4330,9 +4393,9 @@ var ptx_lunr_docs = [
   "body": " Phasor Diagram   "
 },
 {
-  "id": "p-855",
+  "id": "p-859",
   "level": "2",
-  "url": "subsec-shm.html#p-855",
+  "url": "subsec-shm.html#p-859",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4357,36 +4420,36 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-859",
+  "id": "p-863",
   "level": "2",
-  "url": "subsec-shm.html#p-859",
+  "url": "subsec-shm.html#p-863",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Alternative solution to "
 },
 {
-  "id": "p-860",
+  "id": "p-864",
   "level": "2",
-  "url": "subsec-shm.html#p-860",
+  "url": "subsec-shm.html#p-864",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Mathematical Methods of Physics for Undergraduate "
 },
 {
-  "id": "p-861",
+  "id": "p-865",
   "level": "2",
-  "url": "subsec-shm.html#p-861",
+  "url": "subsec-shm.html#p-865",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric derivation of particle's velocity in SHM: "
 },
 {
-  "id": "p-862",
+  "id": "p-866",
   "level": "2",
-  "url": "subsec-shm.html#p-862",
+  "url": "subsec-shm.html#p-866",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4429,9 +4492,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-864",
+  "id": "p-868",
   "level": "2",
-  "url": "subsec-simp_pendulum.html#p-864",
+  "url": "subsec-simp_pendulum.html#p-868",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4789,9 +4852,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-924",
+  "id": "p-928",
   "level": "2",
-  "url": "subsec-elst_mod.html#p-924",
+  "url": "subsec-elst_mod.html#p-928",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4987,76 +5050,445 @@ var ptx_lunr_docs = [
   "body": "Find the ratio of the density of water at the bottom of a 50.0 m lake to the density of water at the surface of the lake. The pressure at the bottom of the lake is The bulk modulus for water is  "
 },
 {
-  "id": "sec_ninth-intro",
+  "id": "subsec-pascle_prncpl",
   "level": "1",
-  "url": "sec_ninth-intro.html",
-  "type": "Section",
-  "number": "9.1",
-  "title": "States of Equilibrium",
-  "body": " States of Equilibrium   There are three states of equilibrium:                      Stable equilibrium: The body is said to be in stable equilibrium if its center of gravity lies below lowest possible position. A funnel standing vertically on its base on the table is in stable equilibrium [ ]. If the funnel is tilted a little bit against any side and then allowed to fall, it will come back to its original position. When the funnel is tilted against any side its center of gravity is raised [ ]. The line of action of weight passes through the base of the funnel. As long as the line of action of weight remains inside the base area funnel will come back to the original position. A torque due to weight of the funnel brings it back to the original position. For the funnel to tip over the line of action of the weight arrow will have to form a clockwise moment (or to pass outside the point of support). The funnel needs to have been pushed a lot for tip over. Some examples of stable equilibrium are bodies lying on the floor such as chair, table, book, etc. If a system in stable equilibrium is disturbed slightly, it oscillates around that state first but eventually settles down in exactly the same position as it started [ ]. It does this because its center of gravity is already at the lowest possible position.                      Unstable equilibrium: The body is said to be in unstable equilibrium if the center of gravity of a body lies above the highest possible position. A funnel standing vertically on its stem on the table [ ] is in unstable equilibrium. If the funnel standing vertically is slightly disturbed from its position it will not come back to its original position rather fall down on the surface of table. when the funnel is slightly disturbed its center of gravity is lowered [ ]. The line of action of its weight lies outside the base of stem. The torque due to weight of the rod toppled it down. Other examples of unstable equilibrium are vertically standing cylinder and pencil etc. An unstable system moves away from its original equilibrium state when disturbed. It wants to move away from the original position as soon as it has been disturbed [ ]. It does this because its center of gravity is higher in this state and when disturbed the center of gravity continues to move to a lower position (a more stable one).                      Neutral equilibrium: The body is said to be in neutral equilibrium if the center of gravity of a body is at optimal position it is neither lowered nor is raised up. The object with lower center of gravity is more stable than the one with the higher center of gravity. A funnel lying horizontally on its side at rest on the surface of a table [ ] is in natural equilibrium. If a funnel is pushed slightly to roll, it will neither come back to its original position nor it will roll forward rather it will remain at rest. If the funnel is rolled, its center of gravity is neither raised nor lowered [ ]. This means that its center of gravity is at the same height as before. A neutral system is one where the center of gravity of the system is always at the same level. If it has been disturbed slightly it will therefore settle in the new position without a need to move further on or to move back [ ]. For example, a rolling ball lying on the table.     "
+  "url": "subsec-pascle_prncpl.html",
+  "type": "Subsection",
+  "number": "9.1.1",
+  "title": "Pascal’s Principle",
+  "body": " Pascal's Principle   Pascal's principle states that pressure applied to an enclosed fluid is transmitted equally to every portion of the fluid and the walls of the container. This principle is valid only for an incompressible fluid which is most of the liquid. Hydraulic press  hydraulic press is one of the good examples of Pascal's principle. It is a device to lift heavy objects. It has two cylindrical opening attached the horizontal tube as shown in . An incompressible liquid is filled in the device. It works on Pascal's principle and obeys the conservation of energy. Work done on the a pump (small cylindrical piston) to push it down is equal to the work done by the big piston to lift heavy objects like vehicle, elephant, etc. Let a force is applied on one piston to push it to a distance then it lifts the weight to a distance on the other pan attached to the second piston.          Since the hydraulic fluid is incompressible  which is the Pascal's principle. Also  Since area of cross-section, is greater than area of cross-section, a small force can generate a compressive force     Measurement of Fluid Pressure  Pressure measurement is important in many occasions in our daily life. To check tire pressure, pressure in balloon filled with air, pressure inside a pipe carrying fluid, pressure in gas cylinder, pressure in boiler used in industries, and pressure inside an airplane cabin. Two basic types of pressure measuring devices have been discussed here.     Manometer:  manometer Manometer is is a U-shaped tube used to measure pressure of a fluid at rest. It contains water, mercury, or any other suitable fluid in the tube. When a pressure line is connected to one column of manometer, the fluid in the column will be forced down, and the fluid in the other will rise as shown in . By measuring the difference in height of the fluid in the two columns, the pressure of the inlet can be expressed in length.            Here is an atmospheric pressure acting on the open end of manometer, and are densities of fluids in container A and in U-tube, respectively. Pressure at points A and B are same and the pressure at points C and D are same. Hence pressure in column BC is balanced by pressure in column DE.   alternate:         Barometer  barometer It is the simplest pressure gauge used for measuring atmospheric pressure. It is designed by Torricelli . A meter long tube completely filled with mercury is inverted in a mercury container in such a way that the open end of the tube is under the pool of mercury. Now on balancing the atmospheric pressure acting on the mercury container the mercury column in the tube drops to a certain height and creating a complete vacuum at the top of the tube and hence the pressure is zero at point C. In the , points A and B are at the same level so they have the same pressure.       This device measures atmospheric pressure, rather than gauge pressure, because there is a nearly pure vacuum above the mercury in the tube.     "
 },
 {
-  "id": "figure-170",
+  "id": "p-967",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-170",
+  "url": "subsec-pascle_prncpl.html#p-967",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Hydraulic press "
+},
+{
+  "id": "hpress",
+  "level": "2",
+  "url": "subsec-pascle_prncpl.html#hpress",
   "type": "Figure",
   "number": "9.1.1",
   "title": "",
-  "body": "                "
+  "body": "   "
 },
 {
-  "id": "p-956",
+  "id": "p-970",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-956",
+  "url": "subsec-pascle_prncpl.html#p-970",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Stable equilibrium: "
+  "body": "Manometer: "
 },
 {
-  "id": "figure-174",
+  "id": "manometer",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-174",
+  "url": "subsec-pascle_prncpl.html#manometer",
   "type": "Figure",
   "number": "9.1.2",
   "title": "",
-  "body": "                "
+  "body": "   "
 },
 {
-  "id": "p-957",
+  "id": "p-972",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-957",
+  "url": "subsec-pascle_prncpl.html#p-972",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Unstable equilibrium: "
+  "body": "alternate: "
 },
 {
-  "id": "figure-178",
+  "id": "p-973",
   "level": "2",
-  "url": "sec_ninth-intro.html#figure-178",
+  "url": "subsec-pascle_prncpl.html#p-973",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Barometer "
+},
+{
+  "id": "barometer",
+  "level": "2",
+  "url": "subsec-pascle_prncpl.html#barometer",
   "type": "Figure",
   "number": "9.1.3",
   "title": "",
-  "body": "                "
+  "body": "   "
 },
 {
-  "id": "p-958",
+  "id": "subsec-archm_princp",
+  "level": "1",
+  "url": "subsec-archm_princp.html",
+  "type": "Subsection",
+  "number": "9.1.2",
+  "title": "Archimedes’ Principle",
+  "body": " Archimedes' Principle  When an object is placed in a fluid it experiences an upthrust force called a buoyant force . It is arising due to changes of the pressure inside fluid. This phenomenon is known as Archimedes' principle. It states that when a body is fully or partially immersed in a fluid, the fluid exerts an upward force on the body equal to the weight of liquid displaced . That is, buoyant force (B) = weight of displaced fluid. Liquid does not distinguish between the volume of its own or the volume of some thing else. Meaning if we replace some arbitrary volume of the liquid with some other object of the same volume then the liquid applies the same force on its surface, and .                           If and are the mass and volume of displaced fluid and is the density of fluid then weight of displaced fluid is given by Due to buoyant force body appear lighter than it really is. Hence, the weight of a body in the fluid is called an apparent weight. Weight loss of a body is equal to weight of liquid displaced. That is, Where and are weight of a body in air and in the fluid, respectively. Apparent weight is the net downward force.  Hence apparent loss in weight = buoyant force = weight of water displaced.  If an object floats, then its apparent weight is zero. If its apparent weight is more than zero, it sinks. A floating object loss all of its weight.    If the body is completely submerged but suspended in the fluid [ ], then from Newton's second law net force acting on the body is zero. That is, buoyant force is equal to weight of the body  Since body is completely immersed in the fluid, . Hence,  The body will suspend in a fluid if their densities are same.  If the body is floating in the fluid [ ], then buoyant force is greater than the weight of the body. Hence body comes to a float, but at the surface of the fluid, net force acting on the body is zero.  Since body is floating in the fluid, volume of the displaced fluid is then only equal to immersed portion of the body. Hence   The body will float in a fluid if the densities of fluid is greater than that of the body.  If the body is sinking in the fluid [ ], then buoyant force is less than the weight of the body. Hence body sinks, but at the bottom of the fluid, net force acting on the body is zero.  Since Hence for to be +ve, must be positive. Here is the apparent weight of the body in the fluid.     "
+},
+{
+  "id": "p-975",
   "level": "2",
-  "url": "sec_ninth-intro.html#p-958",
+  "url": "subsec-archm_princp.html#p-975",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Neutral equilibrium: "
+  "body": "buoyant force "
 },
 {
-  "id": "sec_ninth-examplesC",
+  "id": "figure-189",
+  "level": "2",
+  "url": "subsec-archm_princp.html#figure-189",
+  "type": "Figure",
+  "number": "9.1.4",
+  "title": "",
+  "body": "                        "
+},
+{
+  "id": "subsec-eq_contnty",
   "level": "1",
-  "url": "sec_ninth-examplesC.html",
+  "url": "subsec-eq_contnty.html",
+  "type": "Subsection",
+  "number": "9.2.1",
+  "title": "Equation of Continuity",
+  "body": " Equation of Continuity  As a fluid is in steady motion and its flow progresses with time, it must be that the amount of mass flowing per unit time across to areas perpendicular to the flow is conserved. The flow rate is a measure of the flow of mass (volume) of fluid per unit time.      Consider a tube [ ] with areas of cross-section at one end and at another end. If mass of fluid is entering into the tube in time then the same amount of fluid must be leaving out of the tube in the same interval of time because fluid is incompressible. Hence, flow rate of fluid in laminar flow is same throughout its path, i.e.,     The quantity is called a flow rate. This equation is called an equation of continuity.  "
+},
+{
+  "id": "econt1",
+  "level": "2",
+  "url": "subsec-eq_contnty.html#econt1",
+  "type": "Figure",
+  "number": "9.2.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-bernols",
+  "level": "1",
+  "url": "subsec-bernols.html",
+  "type": "Subsection",
+  "number": "9.2.2",
+  "title": "Bernoulli’s Principle",
+  "body": " Bernoulli's Principle  It explains the movement of fluid through a pressure difference. work done by external force is equal to change in total energy of the fluid. If and are energy of the fluid at the ends of the tube where external forces and are acting normally on the cross-section of the tube, then       Consider a fluid is moving in a tube as shown in . Let fluid is entering into the tube with velocity and coming out of the tube with velocity The and are the heights of tube at its ends, respectively and is the mass of fluid flowing through the tube in time Now, Here and are the distances of the fluid moves in time at its ends. Hence,  This equation tells us that as the velocity of fluid flow increases, its pressure decreases. This is the conservation of energy principle in fluid motion. Bernoulli's equation says that the sum of the pressure, , (or, the energy per unit volume), the kinetic energy per unit volume ( ), and the gravitational potential energy per unit volume ( ) has the same value at all points along a streamline.  "
+},
+{
+  "id": "brnp1",
+  "level": "2",
+  "url": "subsec-bernols.html#brnp1",
+  "type": "Figure",
+  "number": "9.2.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-appl_bernl",
+  "level": "1",
+  "url": "subsec-appl_bernl.html",
+  "type": "Subsection",
+  "number": "9.2.3",
+  "title": "Applications of Bernoulli’s Principle:",
+  "body": " Applications of Bernoulli's Principle:     Airplane Wing  The top of the airplane wing is curved, while the bottom of the wing is totally flat. When an airplane runs air travels across the top of the wing is faster then it travels below the bottom part of the wing so that the air molecules travel equal distance in equal time ( equal transit theory ) to catch each other at the end of the wing. This phenomenon creates high pressure at the bottom and less pressure at the top. This pressure difference creates lift and allows planes to fly or take off easily [ ].        Spinning Ball  The ball spins in such a way that it decreases the velocity of air at top and increases the the velocity of air on the bottom. Which allows more air pressure on the top of the ball and less air pressure at the bottom of the ball. Due to which the ball accelerates downwards faster than the top part and the ball curves downward, which causes the batter to miscalculate the ball's position [ ].        Venturi Meter  It is a device used to measure the speed of the fluid. It is a broad tube with constriction at the middle as shown in . A manometer of U-shape is attached to it with one arm at the broad side and the other at the constriction. When the speed of incompressible fluid increases at the constriction, it lowers the pressure at that point. The pressure difference causes the manometer fluid (water) in the tube to rise in one arm and depressed at the other arm. The difference in height, measures the pressure difference. From Bernoulli's principle        Since the horizontal axis of the venturi meter is passing through the points M and N is at same height. Therefore  From equation of continuity,  where and are area of cross-section of the venturi tube at wide section and at the constriction.  The pressure difference between points M and N is also the pressure difference between the manaometer fluid at two points. That is the top of the water column on the left-hand side of the U-tube and the water column on the right-hand side. Hence, where is a gauge pressure in manometer. This equation will help find the speed of fluid (gas or liquid) entering into the venturi tube.    Siphon Effect  when one end of a pipe is deep into liquid and suck the air out from another end then there is vacuum created in the pipe and pressure gets low with respect to the atmospheric pressure at the surface of reservoir. This reduced pressure sucks the liquid up against the gravity and hence once the liquid rises up to the top of the pipe and due to gravity it begins flowing to the lower end of the siphon pipe to exit [ ].         There are numerous applications of Bernoulli's principle found in our daily life, e.g., spray atomizer, throwing of frisbees, flying of kites, Bird's wing design, water pump, etc.  "
+},
+{
+  "id": "brnairplane",
+  "level": "2",
+  "url": "subsec-appl_bernl.html#brnairplane",
+  "type": "Figure",
+  "number": "9.2.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "brnspnball",
+  "level": "2",
+  "url": "subsec-appl_bernl.html#brnspnball",
+  "type": "Figure",
+  "number": "9.2.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "venturi",
+  "level": "2",
+  "url": "subsec-appl_bernl.html#venturi",
+  "type": "Figure",
+  "number": "9.2.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "siphon",
+  "level": "2",
+  "url": "subsec-appl_bernl.html#siphon",
+  "type": "Figure",
+  "number": "9.2.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_ninth-examplesA",
+  "level": "1",
+  "url": "sec_ninth-examplesA.html",
   "type": "Section",
-  "number": "9.2",
-  "title": "Examples C",
-  "body": " Examples C  "
+  "number": "9.3",
+  "title": "Examples A",
+  "body": " Examples A    A cylindrical bottle can hold 400 g of water when filled to a depth of 7.95 cm. Find its inner radius.    If m is mass of water, V is its volume, and is its density., then   where is inner area of cross-scetion of the cylinder of radius and is the height of water in the cylindrical bottle.       A girl is standing on her one foot which has high heeled shoes of surface area . If she weigh 75 kg calculate the pressure in Pascal exerted on the floor by the heel.    Given:          A piston of a hydraulic system has a surface area of and pushes the hydraulic fluid with a pressure of 20,000 pascals. What pressure pushes on another piston in the same system?    Given: From Pascal's principle, So the other piston gets pushed by the same pressure.      The specific gravity of mercury is 13.6.  What is the density of mercury in MKS units?  How high in meter will atmospheric pressure push a column of mercury up an evacuated tube?  How many meter deep into water must a swimmer go in order to experience an increase in pressure equal to one atmosphere?  How large a force (in Newtons) is pushing inward on a submarine window 25 cm in diameter if the specific gravity of sea water is 1.03, the submarine is 1 km deep, and the pressure inside the submarine is 1 atm?        Given: and         Atmospheric pressure in mercury reservoir is equal to gauge pressure in evacuated tube. Hence,         and           A 1.10 kg hollow steel ball is submerged in water. Its weight in water is 8.75 N. what is the volume of the cavity inside the ball, if density of steel is ?      Given: Mass of steel ball, m=1.10 kg, its weight in water, w'=8.75N, and its density, Suppose w and w' are weights of the ball in air and in water, respectively. B is the bouyant force which is equal to the weight of displaced liquid. Since body loses weight due to buoyant force it is also equal to the weight loss of a body in the liquid. That is, The ball is totally submerged in water, volume of liquid displaced is the same as volume of ball itself. Hence  is the density of water and is weight loss of ball in water.    where, and are the volumes of cavity and steel in the ball.        A robber takes a chest full of gold put it on their horse and ride off into the distance. The size of the chest is about 18 inches long, 10 inches wide, and 8 inches high.  How many pounds would such a chest weigh if it were filled with gold ( )?  What would be the buoyant force (in pounds) on the chest if it were placed under water?  What would be the apparent weight (in pounds) of the chest while under water?      Given:                      The density of fresh water is and the specific gravity of ice is 0.917. What is the minimum surface area of a slab of ice 50 cm thick that would support a man weighing 75 kg?    Given:  and Density of ice,   Buoyant force = wt. of a man + wt. of submerged portion of ice.  For a minimum surface area consider the entire ice is suspended inside the surface of water.   As ice is completely submerged volume of displaced water is the same as volume of ice   but        A solid body when suspended by a string in air shows 40 N tension in the string. When it is completely submerged in water the tension in string will be 30 N and when it is completely submerged in unknown liquid, the tension will be 20 N. Find the density of unknown liquid.    Given: Tension in string in air, T=40 N, tension in string in water, and tension in string in unknown liquid,           From first figure From second figure From third figure From eqns. and ,    From eqns. and , we have -       alternate:  where is a weight of a body in air and is a weight of a body in fluid.      A solid body of density is suspended at the interface of two liquids. A liquid is sitting on top of liquid without mixing to each other and the specific gravity of liquids and is 0.8 and 1.2, respectively. If fraction of the volume of the body immersed in liquid is . Find the value of       Given:  Specific gravity of a body, Total volume of the body, Since the body is suspended at the interface of two liquids, buoyant force must be equal to its weight.       Hence, from           A water rocket of length 20 cm and cross sectional area has half its volume initially filled with water. The air inside the rocket is pressurized to 10 atm and the area of the exhaust nozzle is .  What is the initial exhaust velocity of the rocket?  What is the initial volume flow rate for the rocket?  What is the initial rate of decrease of mass of the rocket?        Given: Length of the rocket, l=20cm = 0.2m, cross-sectional area of bottle, pressure inside the water bottle, area of cross-section of nozzle,   From Bernoulli's principle,  From equation of continuity,        Here is density of water and .  initial volume flow rate,   initial rate of decrease of mass,         A U-tube manometer is used to measure the pressure of oil of specific gravity 0.85 flowing in a pipe line. Its left end is connected to the pipe and right end is open to atmosphere. The center of the pipe is 100 mm below the level of mercury in the right limb. If the difference in mercury level in the two limbs is 160 mm. Find pressure at the center of the pipe.      Given:             "
+},
+{
+  "id": "example-142",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-142",
+  "type": "Example",
+  "number": "9.3.1",
+  "title": "",
+  "body": "  A cylindrical bottle can hold 400 g of water when filled to a depth of 7.95 cm. Find its inner radius.    If m is mass of water, V is its volume, and is its density., then   where is inner area of cross-scetion of the cylinder of radius and is the height of water in the cylindrical bottle.    "
+},
+{
+  "id": "example-143",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-143",
+  "type": "Example",
+  "number": "9.3.2",
+  "title": "",
+  "body": "  A girl is standing on her one foot which has high heeled shoes of surface area . If she weigh 75 kg calculate the pressure in Pascal exerted on the floor by the heel.    Given:       "
+},
+{
+  "id": "example-144",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-144",
+  "type": "Example",
+  "number": "9.3.3",
+  "title": "",
+  "body": "  A piston of a hydraulic system has a surface area of and pushes the hydraulic fluid with a pressure of 20,000 pascals. What pressure pushes on another piston in the same system?    Given: From Pascal's principle, So the other piston gets pushed by the same pressure.   "
+},
+{
+  "id": "example-145",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-145",
+  "type": "Example",
+  "number": "9.3.4",
+  "title": "",
+  "body": "  The specific gravity of mercury is 13.6.  What is the density of mercury in MKS units?  How high in meter will atmospheric pressure push a column of mercury up an evacuated tube?  How many meter deep into water must a swimmer go in order to experience an increase in pressure equal to one atmosphere?  How large a force (in Newtons) is pushing inward on a submarine window 25 cm in diameter if the specific gravity of sea water is 1.03, the submarine is 1 km deep, and the pressure inside the submarine is 1 atm?        Given: and         Atmospheric pressure in mercury reservoir is equal to gauge pressure in evacuated tube. Hence,         and        "
+},
+{
+  "id": "example-146",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-146",
+  "type": "Example",
+  "number": "9.3.5",
+  "title": "",
+  "body": "  A 1.10 kg hollow steel ball is submerged in water. Its weight in water is 8.75 N. what is the volume of the cavity inside the ball, if density of steel is ?      Given: Mass of steel ball, m=1.10 kg, its weight in water, w'=8.75N, and its density, Suppose w and w' are weights of the ball in air and in water, respectively. B is the bouyant force which is equal to the weight of displaced liquid. Since body loses weight due to buoyant force it is also equal to the weight loss of a body in the liquid. That is, The ball is totally submerged in water, volume of liquid displaced is the same as volume of ball itself. Hence  is the density of water and is weight loss of ball in water.    where, and are the volumes of cavity and steel in the ball.     "
+},
+{
+  "id": "example-147",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-147",
+  "type": "Example",
+  "number": "9.3.6",
+  "title": "",
+  "body": "  A robber takes a chest full of gold put it on their horse and ride off into the distance. The size of the chest is about 18 inches long, 10 inches wide, and 8 inches high.  How many pounds would such a chest weigh if it were filled with gold ( )?  What would be the buoyant force (in pounds) on the chest if it were placed under water?  What would be the apparent weight (in pounds) of the chest while under water?      Given:                 "
+},
+{
+  "id": "example-148",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-148",
+  "type": "Example",
+  "number": "9.3.7",
+  "title": "",
+  "body": "    The density of fresh water is and the specific gravity of ice is 0.917. What is the minimum surface area of a slab of ice 50 cm thick that would support a man weighing 75 kg?    Given:  and Density of ice,   Buoyant force = wt. of a man + wt. of submerged portion of ice.  For a minimum surface area consider the entire ice is suspended inside the surface of water.   As ice is completely submerged volume of displaced water is the same as volume of ice   but     "
+},
+{
+  "id": "example-149",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-149",
+  "type": "Example",
+  "number": "9.3.8",
+  "title": "",
+  "body": "  A solid body when suspended by a string in air shows 40 N tension in the string. When it is completely submerged in water the tension in string will be 30 N and when it is completely submerged in unknown liquid, the tension will be 20 N. Find the density of unknown liquid.    Given: Tension in string in air, T=40 N, tension in string in water, and tension in string in unknown liquid,           From first figure From second figure From third figure From eqns. and ,    From eqns. and , we have -       alternate:  where is a weight of a body in air and is a weight of a body in fluid.   "
+},
+{
+  "id": "example-150",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-150",
+  "type": "Example",
+  "number": "9.3.9",
+  "title": "",
+  "body": "  A solid body of density is suspended at the interface of two liquids. A liquid is sitting on top of liquid without mixing to each other and the specific gravity of liquids and is 0.8 and 1.2, respectively. If fraction of the volume of the body immersed in liquid is . Find the value of       Given:  Specific gravity of a body, Total volume of the body, Since the body is suspended at the interface of two liquids, buoyant force must be equal to its weight.       Hence, from        "
+},
+{
+  "id": "example-151",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-151",
+  "type": "Example",
+  "number": "9.3.10",
+  "title": "",
+  "body": "  A water rocket of length 20 cm and cross sectional area has half its volume initially filled with water. The air inside the rocket is pressurized to 10 atm and the area of the exhaust nozzle is .  What is the initial exhaust velocity of the rocket?  What is the initial volume flow rate for the rocket?  What is the initial rate of decrease of mass of the rocket?        Given: Length of the rocket, l=20cm = 0.2m, cross-sectional area of bottle, pressure inside the water bottle, area of cross-section of nozzle,   From Bernoulli's principle,  From equation of continuity,        Here is density of water and .  initial volume flow rate,   initial rate of decrease of mass,      "
+},
+{
+  "id": "example-152",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#example-152",
+  "type": "Example",
+  "number": "9.3.11",
+  "title": "",
+  "body": "  A U-tube manometer is used to measure the pressure of oil of specific gravity 0.85 flowing in a pipe line. Its left end is connected to the pipe and right end is open to atmosphere. The center of the pipe is 100 mm below the level of mercury in the right limb. If the difference in mercury level in the two limbs is 160 mm. Find pressure at the center of the pipe.      Given:            "
+},
+{
+  "id": "subsec-coef_visc",
+  "level": "1",
+  "url": "subsec-coef_visc.html",
+  "type": "Subsection",
+  "number": "9.4.1",
+  "title": "Coefficient of Viscosit",
+  "body": " Coefficient of Viscosit  If we observe the flow of water in a river flowing continuously and smoothly, we will be able to notice that water near the edge of the river flows slower than the water flowing near the middle of the river. When a fluid is flowing past a stationary wall, the fluid right close to the wall is almost at rest but the fluid away from the wall flows with relatively higher speed. So a velocity gradient exists between layers in fluid flow. This is due to adhesive, cohesive, and frictional forces acting between adjacent layers of the fluid. The velocity gradient (i.e., the change in speed with distances) is a characteristic of the fluid. This is used to define the coefficient of viscosity We limit our discussion here only on laminar flow of liquid.  In a layer has higher speed than its adjacent layer , so layer A applies force on B to move it faster, but layer B pushes layer A backward so that they go together. Such pushing and pulling between the layers creates a drag force called a viscous force . Consider a shear force F is required to keep the layer of fluid moving at a constant velocity v, then it can be observed through the experiments that this force depends on the following four factors. This force   is proportional to velocity of the layer of liquid ( ),  is proportional to the surface area of layer having the velocity v ( )  is inversely proportional to the distance of the layer from the stationary wall ( ) Mathematically,    If is the distance between adjacent layers and is the difference in their velocities, then the viscous force is given in differential form as where, is a proportionality constant, called coefficient of viscosity and it defines the property of the fluid. The greater the coefficient of viscosity , the greater the force required to move the layer of fluid at a velocity v. The term is called a velocity gradient. The fluids which obey this equation are called Newtonian fluids and is independent of the speed of flow. If does depend on the velocity of flow the fluids are called non-Newtonian . Blood is an example of a non-Newtonian fluid. The SI unit of viscosity is or, . A common unit of viscosity is the poise where   Viscosity is temperature dependent. Viscosity of a liquid decreases with increasing temperature and that for a gas increases with increasing temperature.  "
+},
+{
+  "id": "p-1024",
+  "level": "2",
+  "url": "subsec-coef_visc.html#p-1024",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "viscous force "
+},
+{
+  "id": "subsec-pois_law",
+  "level": "1",
+  "url": "subsec-pois_law.html",
+  "type": "Subsection",
+  "number": "9.4.2",
+  "title": "Poiseuille’s Law",
+  "body": " Poiseuille's Law   Turbulent flow    Liquid could flow in a tube freely but because of viscosity it needs pressure difference between the ends of the tube to flow. The rate of flow of fluid in a tube is dependent on its viscosity, pressure difference between the two ends of the tube (or, pressure gradient), and the radius of the tube. Posiseuille assume the laminar flow of incompressible fluid (mostly liquid) to obtain the Poiseuille's equation.  Consider a uniform circular cylindrical tube of radius and length in which liquid has a laminar flow. Consider a layer of liquid at distance from the center of the tube is moving with velocity , then the viscous force acting on this layer is given by  sign indicates that the viscous force is acting opposite to the direction of otion of the liquid, is the surface area of the liquid, and is the velocity gradient of the layer. The force due to pressure difference on the area of cross-section of the liquid is given by If the layer is moving with constant velocity, then    At axis of the tube,   is maximum, at . Integrating eqn. , we get -  Eqn. represents a parabolic ( ) nature of velocity profile.  From equation of continuity, the rate of volume flow is given by The velocity and cross-sectional area of fluid are along the same direction.    This is Poiseuille's equation, also known as Poiseuille's law.  "
+},
+{
+  "id": "poise",
+  "level": "2",
+  "url": "subsec-pois_law.html#poise",
+  "type": "Figure",
+  "number": "9.4.2",
+  "title": "",
+  "body": " Turbulent flow   "
+},
+{
+  "id": "subsec-stok_law",
+  "level": "1",
+  "url": "subsec-stok_law.html",
+  "type": "Subsection",
+  "number": "9.4.3",
+  "title": "Stoke’s Law",
+  "body": " Stoke's Law   The viscous force acting on a small spherical body moving through a fluid is directly proportional to viscosity, of the fluid, radius of the body, and its velocity, That is, Using dimensional analysis, we have  From the principle of homogeneity,    From experiment, , Therefore Which is a stoke's equation.    Terminal velocity of a body moving through a fluid   Turbulent flow    As the body falls through a medium, its velocity goes on increasing due to gravity. As the viscous force is velocity dependent, it also goes on goes on increasing till it reaches a constant velocity called terminal velocity. This happen when the weight of the body is just equal to the sum of the upward thrust due to buoyancy and the upward viscous drag. At this stage, there is no net force to accelerate the body. Let be the density of the material of the spherical body of radius r and be the density of the medium. Hence, where F is viscous drag force, B is bouyant force, and W is weight of the body.   The initial acceleration, of the body can be found by using the concept of Archimedes principle.  The apparent weight of the body = weight of the body in air - buoyant force.        "
+},
+{
+  "id": "stoke",
+  "level": "2",
+  "url": "subsec-stok_law.html#stoke",
+  "type": "Figure",
+  "number": "9.4.3",
+  "title": "",
+  "body": " Turbulent flow   "
+},
+{
+  "id": "sec_ninth-examplesB",
+  "level": "1",
+  "url": "sec_ninth-examplesB.html",
+  "type": "Section",
+  "number": "9.5",
+  "title": "Examples B",
+  "body": " Examples B  "
+},
+{
+  "id": "ex_ninth",
+  "level": "1",
+  "url": "ex_ninth.html",
+  "type": "Exercises",
+  "number": "9.6",
+  "title": "Exercise",
+  "body": "  Exercise   Fluid Basics  A block of aluminum has a size of .  What is the mass?  What is its weight?  If immersed in water, what would be the volume of the displaced water?  What would be the weight of the displaced water?  How large a force would be required to keep the block from sinking in the water?    A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its top face 2 cm above the surface of the oil. What is  the density of the oil,  the volume of the displaced oil,  the mass of the displaced oil,  the weight of the displaced oil,  the weight of the cube,  the volume of the cube,  the density of the cube,  the pressure at the bottom of the cube, and  the force exerted by the oil on the bottom of the cube?    An aluminum weight of mass 200 g is attached by a short string to the bottom of a float of density which is supported by another string attached to a mass balance. When both the weight and the float are completely immersed in water the balance reads 50 g. What is  the volume of the float,  the mass of the float,  the buoyant force of the water on the float, and  the buoyant force of the water on the aluminum weight.  What would the balance read if only the weight were under water?    The weight density of fresh water is and the specific gravity of ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft thick that would support a man weighing 180 lbs?  A hang glider has a wing area of weighs 70 lb (pounds), and caries a pilot weighing 200 lb with his equipment. If the velocity of the air under the wing is half that over the top, what is the average airspeed of the glider in miles per hour? Hint: This problem can be worked in the FPS system by using the fact that the specific gravity of air is and the weight density of water is .  Water is flowing through a pipe with a constriction. The area of the narrow section is one half the area of the wide section. If the velocity of the incompressible fluid is in the wide section, then what is the velocity of the fluid in the narrow section?  A hose lying on the ground has water coming out of it at a speed of If the nozzle of the hose is lifted to a height of 1.3 m above the ground. Find the speed of water coming out of the hose.  A large tank of water open to the air at the top has a hose attached to its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water leaving the nozzle is 6 m\/s.  How high would the water squirt if the nozzle were aimed straight up?  What is the volume flow rate of the water leaving the tank?  What is the pressure in the water as it leaves the nozzle?  What is the pressure in the water at the top of the tank?  What is the velocity of the water at the top of the tank?  What is the height of the water in the tank?  If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose?  What is the gauge pressure in the hose?  What is the absolute pressure in the hose?    A balloon filled with helium gas is floating in air with acceleration . If the density of air and helium gas is and , respectively and volume of balloon is Find the value of     Viscosity      Surface Tension     "
+},
+{
+  "id": "exercise-202",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-202",
+  "type": "Exercise",
+  "number": "9.6.1",
+  "title": "",
+  "body": "A block of aluminum has a size of .  What is the mass?  What is its weight?  If immersed in water, what would be the volume of the displaced water?  What would be the weight of the displaced water?  How large a force would be required to keep the block from sinking in the water?   "
+},
+{
+  "id": "exercise-203",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-203",
+  "type": "Exercise",
+  "number": "9.6.2",
+  "title": "",
+  "body": "A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its top face 2 cm above the surface of the oil. What is  the density of the oil,  the volume of the displaced oil,  the mass of the displaced oil,  the weight of the displaced oil,  the weight of the cube,  the volume of the cube,  the density of the cube,  the pressure at the bottom of the cube, and  the force exerted by the oil on the bottom of the cube?   "
+},
+{
+  "id": "exercise-204",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-204",
+  "type": "Exercise",
+  "number": "9.6.3",
+  "title": "",
+  "body": "An aluminum weight of mass 200 g is attached by a short string to the bottom of a float of density which is supported by another string attached to a mass balance. When both the weight and the float are completely immersed in water the balance reads 50 g. What is  the volume of the float,  the mass of the float,  the buoyant force of the water on the float, and  the buoyant force of the water on the aluminum weight.  What would the balance read if only the weight were under water?   "
+},
+{
+  "id": "exercise-205",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-205",
+  "type": "Exercise",
+  "number": "9.6.4",
+  "title": "",
+  "body": "The weight density of fresh water is and the specific gravity of ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft thick that would support a man weighing 180 lbs? "
+},
+{
+  "id": "exercise-206",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-206",
+  "type": "Exercise",
+  "number": "9.6.5",
+  "title": "",
+  "body": "A hang glider has a wing area of weighs 70 lb (pounds), and caries a pilot weighing 200 lb with his equipment. If the velocity of the air under the wing is half that over the top, what is the average airspeed of the glider in miles per hour? Hint: This problem can be worked in the FPS system by using the fact that the specific gravity of air is and the weight density of water is . "
+},
+{
+  "id": "exercise-207",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-207",
+  "type": "Exercise",
+  "number": "9.6.6",
+  "title": "",
+  "body": "Water is flowing through a pipe with a constriction. The area of the narrow section is one half the area of the wide section. If the velocity of the incompressible fluid is in the wide section, then what is the velocity of the fluid in the narrow section? "
+},
+{
+  "id": "exercise-208",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-208",
+  "type": "Exercise",
+  "number": "9.6.7",
+  "title": "",
+  "body": "A hose lying on the ground has water coming out of it at a speed of If the nozzle of the hose is lifted to a height of 1.3 m above the ground. Find the speed of water coming out of the hose. "
+},
+{
+  "id": "exercise-209",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-209",
+  "type": "Exercise",
+  "number": "9.6.8",
+  "title": "",
+  "body": "A large tank of water open to the air at the top has a hose attached to its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water leaving the nozzle is 6 m\/s.  How high would the water squirt if the nozzle were aimed straight up?  What is the volume flow rate of the water leaving the tank?  What is the pressure in the water as it leaves the nozzle?  What is the pressure in the water at the top of the tank?  What is the velocity of the water at the top of the tank?  What is the height of the water in the tank?  If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose?  What is the gauge pressure in the hose?  What is the absolute pressure in the hose?   "
+},
+{
+  "id": "exercise-210",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-210",
+  "type": "Exercise",
+  "number": "9.6.9",
+  "title": "",
+  "body": "A balloon filled with helium gas is floating in air with acceleration . If the density of air and helium gas is and , respectively and volume of balloon is Find the value of  "
 },
 {
   "id": "sec_tenth-intro",
@@ -5077,9 +5509,9 @@ var ptx_lunr_docs = [
   "body": " Examples A            "
 },
 {
-  "id": "example-142",
+  "id": "example-153",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-142",
+  "url": "sec_tenth-examplesA.html#example-153",
   "type": "Example",
   "number": "10.2.1",
   "title": "",
@@ -5095,9 +5527,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-202",
+  "id": "exercise-211",
   "level": "2",
-  "url": "ex_tenth.html#exercise-202",
+  "url": "ex_tenth.html#exercise-211",
   "type": "Exercise",
   "number": "10.3.1",
   "title": "",

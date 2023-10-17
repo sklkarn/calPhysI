@@ -13,68 +13,122 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Consider a vibrating spring with mass <span class="process-math">\(m\)</span> attached to its end, then the kinetic energy of the mass <span class="process-math">\(K=\frac{1}{2}mv^{2}\text{,}\)</span> and potential energy stored in the spring with a displacement <span class="process-math">\(x\)</span> is <span class="process-math">\(U=\frac{1}{2}kx^{2}\text{.}\)</span> [<a href="ch_eighth.html" class="internal" title="Chapter 8: Elasticity">Chapter 8</a>] Now since restoring force involved in spring mass system is conservative, the total mechanical energy <span class="process-math">\(E=K+U\)</span> is conserved [<a href="subsec-ediagram.html" class="internal" title="Subsection 5.1.5: Energy Diagram">Subsection 5.1.5</a>].</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+<div class="displaymath process-math">
 \begin{equation*}
-E = \frac{1}{2}mv^{2} +  \frac{1}{2}kx^{2} = \frac{1}{2}kA^{2} =constant.
+a=\frac{\,dv}{\,dt} =-\omega^{2}x 
 \end{equation*}
 </div>
-<div class="para">Here <span class="process-math">\(k\)</span> is a spring constant, <span class="process-math">\(A\)</span> is the amplitude of vibrating spring and the velocity of the particle executing SHM is zero at extremes. Let the spring oscillates in vertical up and down then the solution for SHM is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+<div class="displaymath process-math">
 \begin{equation*}
-y=A\sin[\omega t +\phi]
+\text{or,}\quad \frac{\,dv}{\,dt} =\frac{\,dv}{\,dx}\frac{\,dx}{\,dt}=-\omega^{2}x 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\text{then}\quad v =\frac{\,dy}{\,dt} =-\omega A\cos[\omega t +\phi]
+\text{or,}\quad v\frac{\,dv}{\,dx} =-\omega^{2}x 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \int\limits_{v_{o}}^{v} v\,dv =-\omega^{2}\int\limits_{x_{o}}^{x} x\,dx
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \left.v^{2}\right|_{v_{o}}^{v} =-\omega^{2} \left.x^{2}\right|_{x_{o}}^{x}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad v^{2}-v_{o}^{2} =-\omega^{2} \left(x^{2}-x_{o}^{2}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad v^{2} =\omega^{2} \left[  \frac{v_{o}^{2}}{\omega^{2}} - \left(x^{2}-x_{o}^{2}\right)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad v =\omega\sqrt{ \left[  \frac{v_{o}^{2}}{\omega^{2}} +x_{o}^{2}-x^{2}\right]}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \omega\sqrt{A^{2}-x^{2}}  \qquad [put,  \frac{v_{o}^{2}}{\omega^{2}} +x_{o}^{2} =A^{2}]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad v =\frac{\,dx}{\,dt} =\omega\sqrt{A^{2}-x^{2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \int\limits_{x_{o}}^{x}\frac{\,dx}{\sqrt{A^{2}-x^{2}}} =\omega \int\limits_{0}^{t}\,dt 
+\end{equation*}
+</div>
+<div class="para">put, <span class="process-math">\(x=A\sin\theta \)</span> or <span class="process-math">\(\,dx=A\cos\theta\,d\theta\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Now,}\quad \int\frac{A\cos\theta\,d\theta}{\sqrt{A^{2}\cos^{2}\theta}} = \int\,d\theta =\theta =\sin^{-1}\frac{x}{A}. 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \left.\sin^{-1}\frac{x}{A}\right|\int\limits_{x_{o}}^{x} =\omega \left.t\right|_{0}^{t}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \sin^{-1}\frac{x}{A}- \sin^{-1}\frac{x_{o}}{A} =\omega t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \sin^{-1}\frac{x}{A} = \omega t+\sin^{-1}\frac{x_{o}}{A} = \omega t+\phi
+\end{equation*}
+</div>
+<div class="displaymath process-math">
 \begin{equation}
-\text{or,}\quad E = \frac{1}{2}mv^{2} +  \frac{1}{2}ky^{2}\tag{7.5.8}
+\therefore \quad x=A\sin(\omega t + \phi) \tag{7.5.3}
 \end{equation}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+<div class="para">Where <span class="process-math">\(\phi =\sin^{-1}\left(\frac{x_{o}}{A}\right)\)</span> is a phase of oscillating particle. The displacement of oscillating particle can also be obtained by using</div>
+<div class="displaymath process-math">
 \begin{equation*}
-= \frac{1}{2}m \left(-\omega A\cos[\omega t +\phi]\right)^{2}+ \frac{1}{2}k\left(A\sin[\omega t +\phi]\right)^{2}
+x=A\cos(\omega t + \phi).
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+<div class="para">Either solutions will work perfectly fine in solving shm problems. However, we can use cosine term solution if time <span class="process-math">\(t = 0 \)</span> when the particle is at its extreme position. If time <span class="process-math">\(t = 0\)</span> when the particle is at mean position sine term solution will suffice. Here we are using</div>
+<div class="displaymath process-math">
+\begin{equation}
+x=A\cos(\omega t +\phi) \tag{7.5.4}
+\end{equation}
+</div>
+<div class="para">as a solution for the differential equation. Hence the velocity of such particle at any time <span class="process-math">\(t\)</span> is given by</div>
+<div class="displaymath process-math">
+\begin{equation}
+v   =  -\omega A \sin (\omega t + \phi) \tag{7.5.5}
+\end{equation}
+</div>
+<div class="para">and the acceleration of this particle is</div>
+<div class="displaymath process-math">
+\begin{equation}
+a   =  -\omega^{2} A\cos (\omega t + \phi)  =  -\omega^{2} x  \tag{7.5.6}
+\end{equation}
+</div>
+<div class="para">Time period of oscillation in spring-mass system is given by</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad E = \frac{1}{2}kA^{2}\left(\cos^{2}[\omega t +\phi]+\sin^{2}[\omega t +\phi]\right)
+\omega = \frac{2\pi}{T} = \sqrt{\frac{k}{m}}.
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
-\begin{equation*}
-= \frac{1}{2}kA^{2} \quad [\because \omega^{2}=\frac{k}{m}]
-\end{equation*}
-</div>
-<div class="para">From eqn. <a href="" class="xref" data-knowl="./knowl/eqn-shm_enrg1.html" title="Equation 7.5.8">(7.5.8)</a>, we have -</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
-\begin{equation*}
-v=\pm\omega\sqrt{A^{2}-y^{2}}
-\end{equation*}
-</div>
-<div class="para">
-<span class="process-math">\(\pm\)</span> means mass <span class="process-math">\(m\)</span> is oscillating in up and down direction, i.e.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
-\begin{equation*}
-y=\pm A/2.
-\end{equation*}
-</div>
-<div class="para">Now</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
-\begin{equation*}
-v = \pm\sqrt{\frac{k}{m}}A =\pm\omega A  \quad \text{at}\quad y=0
-\end{equation*}
-</div>
-<div class="para">
-<dfn class="terminology">Note:</dfn> The same result could be obtained by considering equation of SHM as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
-\begin{equation*}
-y=A\cos[\omega t +\phi].
-\end{equation*}
+<div class="displaymath process-math">
+\begin{equation}
+\therefore\quad T = 2\pi\sqrt{\frac{m}{k}} \tag{7.5.7}
+\end{equation}
 </div>
 </div>
 <span class="incontext"><a href="subsec-shm.html#p-862" class="internal">in-context</a></span>

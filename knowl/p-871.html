@@ -13,21 +13,178 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">The velocity particle in shm is given by</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
 \begin{equation*}
-v=A\omega\sin\omega t.
+x=l\theta
 \end{equation*}
 </div>
-<div class="para">For <span class="process-math">\(v\)</span> to be maximum, <span class="process-math">\(\sin\omega t=1 \Rightarrow\omega t=\frac{\pi}{2}\text{.}\)</span> Hence the position of the particle at that time is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
 \begin{equation*}
-x=A\cos\omega t = A\cos\frac{\pi}{2}=0 
+\text{or,}\quad \dot{x} =l\dot{\theta} 
 \end{equation*}
 </div>
-<div class="para">i.e., at the equilibrium position: <span class="process-math">\(x = 0.\)</span>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+V =-mgl\cos\theta
+\end{equation*}
 </div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+K=\frac{1}{2}m\dot{x}^{2} = \frac{1}{2}ml^{2}\dot{\theta}^{2} 
+\end{equation*}
 </div>
-<span class="incontext"><a href="sec_seventh-examplesC.html#p-871" class="internal">in-context</a></span>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+T=K+V = \frac{1}{2}ml^{2}\dot{\theta}^{2}-mgl\cos\theta =const. 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{Now,}\quad \frac{\,dT}{\,dt} =0 =\frac{1}{2}ml^{2}2\dot{\theta}\ddot{\theta}+mgl\sin\theta\dot{\theta}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{and}\quad \dot{\theta}\ddot{\theta} =-\frac{g}{l}\sin\theta\dot{\theta}  \qquad [\because \theta \quad \text{is large}]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,d\theta}{\,dt}\left[\frac{\,d}{\,dt}\left(\frac{\,d\theta}{\,dt}\right)\right] =-\frac{g}{l}\sin\theta\left(\frac{\,d\theta}{\,dt}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,d\theta}{\,dt}\left[\,d\left(\frac{\,d\theta}{\,dt}\right)\right] =-\frac{g}{l}\sin\theta\,d\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{or,}\quad \int\dot{\theta}\left(\,d\dot{\theta}\right) =-\frac{g}{l}\int\sin\theta\,d\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{or,}\quad \frac{\dot{\theta}^{2}}{2}=\frac{g}{l}cos\theta+k. \qquad [\text{where k is a constant.}]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation}
+\text{or,}\quad \frac{\dot{\theta}^{2}}{2}-\omega^{2}cos\theta=k. \qquad \left[\because \omega=\sqrt{\frac{g}{l}}\right]\tag{7.5.9}
+\end{equation}
+</div>
+<div class="para">This is a non-linear differential equation. At first extremum, <span class="process-math">\(\theta \to \theta_{i},\)</span> and angular velocity at that moment is <span class="process-math">\(\dot{\theta}_{i}=0\)</span> where <span class="process-math">\(i\)</span> stands for maximum value of <span class="process-math">\(\theta.\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{or,}\quad 0 = \omega^{2}cos\theta_{i}+k
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\therefore\quad k = -\omega^{2}cos\theta_{i}
+\end{equation*}
+</div>
+<div class="para">Therefore eqn. <a href="" class="xref" data-knowl="./knowl/eqn-larg_sp1.html" title="Equation 7.5.9">(7.5.9)</a> becomes -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\frac{\dot{\theta}^{2}}{2}=\omega^{2}cos\theta-\omega^{2}cos\theta_{i}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{or,}\quad \dot{\theta} = \omega\sqrt{2\left(\cos\theta-\cos\theta_{i}\right)} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,d\theta}{\,dt} = \omega \sqrt{2\left(\cos\theta-\cos\theta_{i}\right)}
+\end{equation*}
+</div>
+<div class="para">At mean position at <span class="process-math">\(t=0,\theta=0,\)</span> and <span class="process-math">\(\dot{\theta} \gt 0.\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\therefore\quad \int\limits_{0}^{t} \omega\,dt =\int\limits_{0}^{\theta_{i}}  \frac{\,d\theta}{\sqrt{2\left(\cos\theta-\cos\theta_{i}\right)}} 
+\end{equation*}
+</div>
+<div class="para">Here,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\left(\cos\theta-\cos\theta_{i}\right) =1-2\sin^{2}\frac{\theta}{2} - 1+2\sin^{2}\frac{\theta_{i}}{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+= 2\left(\sin^{2}\frac{\theta_{i}}{2} -\sin^{2}\frac{\theta}{2}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\therefore\quad  \omega t =\frac{1}{2}\int\limits_{0}^{\theta_{i}}  \frac{\,d\theta}{\sqrt{\left(\sin^{2}\frac{\theta_{i}}{2} -\sin^{2}\frac{\theta}{2}\right)}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation}
+= \frac{1}{2}\int\limits_{0}^{\theta_{i}}  \frac{\,d\theta}{\sin\frac{\theta_{i}}{2} \sqrt{\left( 1-\frac{\sin^{2}\frac{\theta}{2}}{\sin^{2}\frac{\theta_{i}}{2}}\right)}}  \tag{7.5.10}
+\end{equation}
+</div>
+<div class="para">Set</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\sin\phi= \frac{\sin\frac{\theta}{2}}{\sin\frac{\theta_{i}}{2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{and say}\quad  \sin\frac{\theta_{i}}{2} =b 
+\end{equation*}
+</div>
+<div class="para">and <span class="process-math">\(\sin\phi\)</span> oscillates between <span class="process-math">\(-1 \quad\text{to}\quad  +1.\)</span> Now,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation}
+\sin\frac{\theta}{2} = b\sin\phi \tag{7.5.11}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation}
+\therefore \quad \omega t= \frac{1}{2}\int \frac{\,d\theta}{b \sqrt{ 1-\sin^{2}\phi}} = \frac{1}{2}\int \frac{\,d\theta}{b \cos\phi} \tag{7.5.12}
+\end{equation}
+</div>
+<div class="para">Differentiating eqn. <a href="" class="xref" data-knowl="./knowl/eqn-larg_sp3.html" title="Equation 7.5.11">(7.5.11)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\sin\frac{\theta}{2} =b\sin\phi
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{or,}\quad \frac{1}{2} \cos\frac{\theta}{2}\,d\theta = b\cos\phi\,d\phi
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\text{or,}\quad \,d\theta = \frac{2b\cos\phi\,d\phi}{\cos\frac{\theta}{2}}
+\end{equation*}
+</div>
+<div class="para">From eqn. <a href="" class="xref" data-knowl="./knowl/eqn-larg_sp4.html" title="Equation 7.5.12">(7.5.12)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+\omega t = \frac{1}{2}\int \frac{2b\cos\phi\,d\phi}{\cos\frac{\theta}{2}b\cos\phi}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation*}
+= \int \frac{\,d\phi}{\cos\frac{\theta}{2}} = \int \frac{\,d\phi}{1-\sin^{2}\frac{\theta}{2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp1.html ./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp4.html">
+\begin{equation}
+\therefore\quad \omega t  = \int \frac{\,d\phi}{1-b^{2}\sin^{2}\phi}  \tag{7.5.13}
+\end{equation}
+</div>
+<div class="para">This a first kind of elliptical integral.</div>
+</div>
+<span class="incontext"><a href="subsec-largeangl_approx.html#p-871" class="internal">in-context</a></span>
 </body>
 </html>

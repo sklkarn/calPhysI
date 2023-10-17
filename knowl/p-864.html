@@ -11,49 +11,33 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h3 class="heading"><span class="type">Paragraph</span></h3>
+<h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">
-<dfn class="terminology">Alternative:</dfn> The restoring torque <a href="subsec-rot_overview.html" class="internal" title="Subsection 7.3.1: Rotational Overview">Subsection 7.3.1</a> acting on the bob is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+<div class="para">We can find the solution of <span class="process-math">\(a=-\omega^{2}x\)</span> by the following way</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\tau=-mgl\sin\theta 
+a=\frac{\,dv}{\,dt} =\frac{\,d^{2}x}{\,dt^{2}} = -\omega^{2}x
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+<div class="displaymath process-math">
 \begin{equation*}
-or, \, I \alpha =ml^{2}\frac{\,d\omega}{\,dt}= ml^{2}\ddot{\theta}
+\text{or,}\quad \frac{\,d^{2}x}{\,dt^{2}}+\omega^{2}x  =0
 \end{equation*}
 </div>
-<div class="para">As a restoring torque is giving a clockwise rotation when angular displacement is counterclockwise.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+<div class="para">This is second order differential equation with constant coefficient. The solution of such equation can be found by guessing which depends upon the nature of the curve that we precept in SHM, which is sinusoidal in this case. Hence we can guess that</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad ml^{2}\ddot{\theta} =-mgl\sin\theta 
+x=A\sin(\omega t +\phi) 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad l\ddot{\theta} =-g\sin\theta =-g\theta \qquad [\text{small angle approximation}]
+\text{or,}\quad x=A\cos(\omega t +\phi)
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
-\begin{equation*}
-\text{or,}\quad \ddot{\theta}+\frac{g}{l}\theta= 0 
-\end{equation*}
+<div class="para">will be the solution of given differential equation. <a href="" class="fn-knowl original" data-knowl="./knowl/fn-8-hidden.html" title="Footnote 7.5.2"><sup> 2 </sup></a>
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
-\begin{equation*}
-\text{or,}\quad \ddot{\theta}+\omega^{2}\theta = 0  \qquad   \left[\omega = \sqrt{\frac{g}{l}}\right] 
-\end{equation*}
 </div>
-<div class="para">This is second order differential equation the solution of which can be written as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
-\begin{equation*}
-\theta(t) = \Theta(\sin\omega t + \phi)
-\end{equation*}
-</div>
-<div class="para">where <span class="process-math">\(\Theta\)</span> is called an angular amplitude.</div>
-</div>
-<span class="incontext"><a href="subsec-simp_pendulum.html#p-864" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-shm.html#p-864" class="internal">in-context</a></span>
 </body>
 </html>

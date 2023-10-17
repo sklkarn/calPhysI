@@ -13,20 +13,29 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Consider a plate of length <span class="process-math">\(a\)</span> and width <span class="process-math">\(b\)</span> is made out off number of elementary rods of thickness <span class="process-math">\(\,dy\text{,}\)</span> then moment of inertia of that rod about y-axis is given by</div>
-<div class="displaymath process-math">
+<div class="para">Using perpendicular axis theorem, [<a href="" class="xref" data-knowl="./knowl/midisk2.html" title="Figure 7.1.6.(b)">Figure 7.1.6.(b)</a>]</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/midisk2.html">
 \begin{equation*}
-I_{y} = \int y^{2}\,dm = \int\limits_{0}^{b}\frac{1}{12}\,dma^{2}
+I_{z}=I_{x}+I_{y}
 \end{equation*}
 </div>
-<div class="para">
-<span class="process-math">\(\,dm\)</span>  = (mass per unit area)(area of a rod), by considering neglible plate thickness.</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/midisk2.html">
 \begin{equation*}
-\therefore \quad I_{y} = \frac{1}{12}a^{2}\int\limits_{0}^{b}\frac{M}{ab}a\,dy =  \frac{1}{12}Ma^{2}
+\text{But}\quad I_{z}=I_{cm}=\frac{1}{2}MR^{2}
+\end{equation*}
+</div>
+<div class="para">and by symmetry,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/midisk2.html">
+\begin{equation*}
+I_{x}=I_{y}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/midisk2.html">
+\begin{equation*}
+\therefore\quad I_{z}=2I_{x} \Rightarrow\quad  I_{x}=\frac{I_{z}}{2}= \frac{1}{4}MR^{2}
 \end{equation*}
 </div>
 </div>
-<span class="incontext"><a href="subsec-mi_plate.html#p-783" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-mi_disk.html#p-783" class="internal">in-context</a></span>
 </body>
 </html>

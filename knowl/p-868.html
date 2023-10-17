@@ -13,49 +13,47 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">From power series,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="para">
+<dfn class="terminology">Alternative:</dfn> The restoring torque <a href="subsec-rot_overview.html" class="internal" title="Subsection 7.3.1: Rotational Overview">Subsection 7.3.1</a> acting on the bob is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
 \begin{equation*}
-\left(1-b^{2}\sin^{2}\phi\right)^{-\frac{1}{2}} = 1+\frac{1}{2}b^{2}\sin^{2}\phi+\frac{3}{2^{3}}b^{4}\sin^{4}\phi+\cdots
+\tau=-mgl\sin\theta 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
-\begin{equation}
-\therefore\quad \omega t = \int \left[1+\frac{1}{2}b^{2}\sin^{2}\phi+\frac{3}{8}b^{4}\sin^{4}\phi+\cdots\right]\,d\phi  \tag{7.5.14}
-\end{equation}
-</div>
-<div class="para">At <span class="process-math">\(t=0, \,\theta=0,\)</span> the swing is at the lowest point, and hence <span class="process-math">\(\sin\phi=0\)</span> <span class="process-math">\(\Rightarrow \phi=0\)</span> see eqn.<a href="" class="xref" data-knowl="./knowl/eqn-larg_sp3.html" title="Equation 7.5.11">(7.5.11)</a>. Hence, from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-larg_sp6.html" title="Equation 7.5.14">(7.5.14)</a>,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
 \begin{equation*}
-\omega T_{1} = \int\limits_{0}^{2\pi}\,d\phi =2\pi
+or, \, I \alpha =ml^{2}\frac{\,d\omega}{\,dt}= ml^{2}\ddot{\theta}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="para">As a restoring torque is giving a clockwise rotation when angular displacement is counterclockwise.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
 \begin{equation*}
-\omega T_{2} = \int\limits_{0}^{2\pi}\frac{b^{2}}{2}\sin^{2}\phi\,d\phi 
+\text{or,}\quad ml^{2}\ddot{\theta} =-mgl\sin\theta 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
 \begin{equation*}
-=\int\limits_{0}^{2\pi}\frac{b^{2}}{2}\frac{\left(1-\cos2\phi\right)}{2}\,d\phi 
+\text{or,}\quad l\ddot{\theta} =-g\sin\theta =-g\theta \qquad [\text{small angle approximation}]
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
 \begin{equation*}
-= \frac{b^{2}}{2}\pi = \frac{1}{2}\pi\sin^{2}\frac{\theta_{i}}{2} 
+\text{or,}\quad \ddot{\theta}+\frac{g}{l}\theta= 0 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
 \begin{equation*}
-\omega T = 2\pi+\frac{\pi}{2}\sin^{2}\frac{\theta_{i}}{2} +\cdots 
+\text{or,}\quad \ddot{\theta}+\omega^{2}\theta = 0  \qquad   \left[\omega = \sqrt{\frac{g}{l}}\right] 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
-\begin{equation}
-\therefore\quad T = 2\pi\sqrt{\frac{l}{g}}\left[1+\frac{1}{4}\sin^{2}\frac{\theta_{i}}{2}+\cdots \right]\tag{7.5.15}
-\end{equation}
+<div class="para">This is second order differential equation the solution of which can be written as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+\begin{equation*}
+\theta(t) = \Theta(\sin\omega t + \phi)
+\end{equation*}
 </div>
+<div class="para">where <span class="process-math">\(\Theta\)</span> is called an angular amplitude.</div>
 </div>
-<span class="incontext"><a href="subsec-largeangl_approx.html#p-868" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-simp_pendulum.html#p-868" class="internal">in-context</a></span>
 </body>
 </html>

@@ -13,29 +13,37 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">In the figure <a href="" class="xref" data-knowl="./knowl/gyroscope.html" title="Figure 7.3.5">Figure 7.3.5</a>, <span class="process-math">\(L\)</span>  and <span class="process-math">\(L'\)</span> are initial and final angular momentum after time <span class="process-math">\(\Delta t,\)</span> respectively. <span class="process-math">\(\omega\)</span> is angular velocity of wheel rotation and <span class="process-math">\(\Omega\)</span> is a precessional velocity. <span class="process-math">\(\vec{r}\)</span> is the distance of wheel from the axis of rotation, <span class="process-math">\(O\text{.}\)</span> <span class="process-math">\(\tau\)</span> is the direction of torque being acted on the wheel because of its weight. The direction of torque can be given by right hand thumb rule. When the right hand fingers are curled from the direction along <span class="process-math">\(\hat{r}\)</span>  to the direction along weight then the direction of thumb will be pointed along the torque. Because of torque the direction of angular momentum changes every second hence the orientation of new angular momentum is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/gyroscope.html">
+<div class="para">A rigid body rotating with angular velocity, <span class="process-math">\(\omega\)</span> about a fixed axis has an angular momentum <span class="process-math">\(L\)</span> about this axis which is given by</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\Delta L = L\Delta\theta
+\vec{L}=I\vec{\omega}.
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/gyroscope.html">
+<div class="para">where <span class="process-math">\(I\)</span> is the moment of inertia of the body about this axis. To change the angular momentum of a body, an external torque must be applied to it. Similar to</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad \frac{\Delta L }{\Delta t}= L\frac{\Delta\theta}{\Delta t} 
+F=\frac{\,dp}{\,dt} = ma, 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/gyroscope.html">
+<div class="para">in linear dynamics,  we have in rotational dynamics</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\tau = L\Omega 
+\Gamma=\frac{\,dL}{\,dt} =I \alpha = I\frac{\,d\omega}{\,dt}.
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/gyroscope.html">
+<div class="para">That is, the torque acting on a rigid body is equal to the rate of change of the angular momentum. The direction of torque is along the change in angular momentum. The direction of angular momentum <span class="process-math">\(\vec{L}=I\vec{\omega}\)</span> is along the angular velocity, which is along the axis of rotation. In the absence of external torques, the angular momentum of a rigid body must be constant, in other words, there is no change in the angular momentum when the sum of the external torques is zero. This is known as the principle of conservation of angular momentum, i.e., <span class="process-math">\(\Delta L =0.\)</span>   Similarly, the angular impulse</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\therefore \quad \Omega = \frac{\tau}{L} = \frac{mgr}{I\omega}
+\Delta J_{\theta} = \Gamma \Delta t =\Delta L.
 \end{equation*}
 </div>
-<div class="para">Earth precesses because of the torque produced on  it due to gravitational tidal force of the Sun and the Moon.</div>
+<div class="para">Thus the change in angular momentum is equal to the angular impulse. Again,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{\Delta L}=\vec{r}\times\vec{F}\Delta t = \vec{r}\times\frac{\Delta p}{\Delta t}\Delta t=\vec{r}\times\vec{\Delta p}.
+\end{equation*}
 </div>
-<span class="incontext"><a href="subsec-gyros.html#p-818" class="internal">in-context</a></span>
+</div>
+<span class="incontext"><a href="subsec-ang_momnt.html#p-818" class="internal">in-context</a></span>
 </body>
 </html>

@@ -11,39 +11,43 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h3 class="heading"><span class="type">Paragraph</span></h3>
+<h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">A geosynchronous satellite orbits the earth in such a way that it reaches at the same point above the earth in every 24 hours. It orbits in a polar orbit. The special kind of geosynchronous satellite is called geostationary satellite which seems to be at rest at the same position above the earth. It takes an equatorial orbit. The only force which provides the necessary centripetal force of such satellite is the gravitational force. Such satellites are used for weather forecasting and signal transmission.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
-\begin{equation}
-F_{g}=\frac{GMm}{r^{2}} = \frac{mv^{2}_{o}}{r}\tag{6.1.1}
-\end{equation}
-</div>
-<div class="para">Where <span class="process-math">\(m,\)</span> <span class="process-math">\(v_{o},\)</span> and <span class="process-math">\(r\)</span> are mass, orbital velocity, and the orbital radius of the  satellite, respectively. Also</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
-\begin{equation}
-v_{o} = \frac{2\pi r}{T} \tag{6.1.2}
-\end{equation}
-</div>
-<div class="para">Where <span class="process-math">\(T\)</span> is orbiting time period of satellite. From eqns. <a href="" class="xref" data-knowl="./knowl/eqn-geosync1.html" title="Equation 6.1.1">(6.1.1)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-geosync2.html" title="Equation 6.1.2">(6.1.2)</a>, we have -</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
-\begin{equation}
-r =\sqrt[3]{\frac{GMT^{2}}{4\pi^{2}}}\tag{6.1.3}
-\end{equation}
-</div>
-<div class="para">Since the angular speed of satellite in its orbit must be the same as that of the earth about its axis, the orbiting time period of satellite must be equal to 1 day. Therefore,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
+<div class="para">Acceleration due to gravity on the surface of the earth is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG5.html">
 \begin{equation*}
-T = 1 day = 24 h \times 60 \frac{min}{h}\times 60 \frac{sec}{min} = 86400 s
+g=\frac{GM}{R^{2}}= \frac{G}{R^{2}}\left(\frac{4}{3}\pi R^{3}\rho\right) = \frac{4}{3}G\pi R\rho
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
+<div class="para">where mass of the entire earth,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG5.html">
 \begin{equation*}
-\therefore \quad r=4.23\times10^{7} m
+M=Volume\times density = \left(\frac{4}{3}\pi R^{3}\right)\times \rho
 \end{equation*}
 </div>
-<div class="para">A geostationary satellite must orbit at a distance of about 36000 km above the surface of the earth, [<span class="process-math">\(\because\quad r=R+h\)</span>].</div>
+<div class="para">At depth <span class="process-math">\(d\)</span> from the surface of the earth, mass of the earth</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG5.html">
+\begin{equation*}
+M'=\frac{4}{3}\pi (R-d)^{3} \rho
+\end{equation*}
 </div>
-<span class="incontext"><a href="subsec-geo_sync.html#p-729" class="internal">in-context</a></span>
+<div class="para">[<a href="" class="xref" data-knowl="./knowl/NLG5.html" title="Figure 6.1.5">Figure 6.1.5</a>]. Therefore the acceleration due to gravity at that depth is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG5.html">
+\begin{equation*}
+g_{d} = \frac{GM'}{(R-d)^{2}} = \frac{\frac{4}{3}G\pi (R-d)^{3} \rho}{(R-d)^{2}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG5.html">
+\begin{equation*}
+=\frac{4}{3}G\pi (R-d) \rho = \frac{4}{3}G\pi \rho R\left(1-\frac{d}{R}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG5.html">
+\begin{equation*}
+\therefore \quad g_{h} =g\left(1-\frac{d}{R}\right)
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="subsec-accl_grav.html#p-729" class="internal">in-context</a></span>
 </body>
 </html>

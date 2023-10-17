@@ -11,25 +11,50 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h2 class="heading"><span class="type">Paragraph</span></h2>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Johannes Kepler established three laws for planetary motion from his years of observation in <span class="process-math">\(16^{th}\)</span> century [Figure <a href="" class="xref" data-knowl="./knowl/kepler1.html" title="Figure 6.2.1.(a)">Figure 6.2.1.(a)</a>]. They are</div>
-<ol class="decimal">
-<li><div class="para">The planets move along elliptical paths, and the sun is located at one of the focii.</div></li>
-<li><div class="para">The planet sweeps out equal areas in equal interval of time<div class="displaymath process-math">
+<div class="para">The gravitational potential energy of a body is work required to bring that body from infinity to the particular position in a gravitational field. Let a body of mass <span class="process-math">\(m\)</span> is displaced without acceleration by a distance <span class="process-math">\(\,dr\)</span> against the force of gravity, then work done by the external force <span class="process-math">\(\vec{F}_{r}\)</span> is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG6.html">
 \begin{equation*}
-\frac{\,dA_{1}}{\,dt} = \frac{\,dA_{2}}{\,dt}
+\,dw=\vec{F}_{r}\cdot\,d\vec{r} = F_{r}\,dr = G\frac{Mm}{r^{2}}\,dr 
 \end{equation*}
 </div>
-</div></li>
-<li><div class="para">The square of the orbital period of a planet is directly proportional to the cube of the semimajor axis of its orbit<div class="displaymath process-math">
+<div class="para">If a body is displaced from a position <span class="process-math">\(A\)</span> of distance <span class="process-math">\(r_{1}\)</span> to a position <span class="process-math">\(B\)</span> at distance <span class="process-math">\(r_{2}\)</span> against the gravity [<a href="" class="xref" data-knowl="./knowl/NLG6.html" title="Figure 6.1.6">Figure 6.1.6</a>], then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG6.html">
 \begin{equation*}
-T^{2} \propto a^{3}.
+W=\int\,dw=\int\limits_{r_{1}}^{r_{2}} G\frac{Mm}{r^{2}}\,dr
 \end{equation*}
 </div>
-</div></li>
-</ol>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG6.html">
+\begin{equation*}
+= -GMm\left(\frac{1}{r}\right)_{r_{1}}^{r_{2}} =-GMm \left(\frac{1}{r_{2}}-\frac{1}{r_{1}}\right)
+\end{equation*}
 </div>
-<span class="incontext"><a href="sec_sixth-kepler.html#p-730" class="internal">in-context</a></span>
+<div class="para">Hence work done by the gravity, (or the gravitational potential energy) is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG6.html">
+\begin{equation*}
+U= -W = GMm \left(\frac{1}{r_{2}}-\frac{1}{r_{1}}\right)
+\end{equation*}
+</div>
+<div class="para">If a body is brought from infinity to any point at a distance <span class="process-math">\(r\)</span> in the gravitational field then,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG6.html">
+\begin{equation*}
+U(r) = GMm \left(\frac{1}{\infty}-\frac{1}{r}\right) = -\frac{GMm}{r} 
+\end{equation*}
+</div>
+<div class="para">In calculus form, potential energy is defined as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG6.html">
+\begin{equation*}
+U(r) = -\int\limits_{\infty}^{r}F_{r}\cdot\,dr
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(F_{r}\)</span> is a conservative foece, and therefore force can be written as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG6.html">
+\begin{equation*}
+F_{r}=-\frac{\,dU}{\,dr}.
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="subsec-grav_pot.html#p-730" class="internal">in-context</a></span>
 </body>
 </html>
