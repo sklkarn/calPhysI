@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Preface",
-  "body": " Principles of physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students as a regular practice, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes and ten chapters that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. This a Volume I designeted as PHYS211 that contains the Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  Volume II designeted as PHYS212 contains Electricity, Magnetism, Simple Harmonic Motion, Waves, Acoustics, and Optics . These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted. -- Author   "
+  "body": " General physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students as a regular practice, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. Volume I contains Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  Volume II contains Electricity, Magnetism, Waves, Acoustics, and Optics. . These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted. -- Author   "
 },
 {
   "id": "p-4",
@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Volume I PHYS211 Volume II PHYS212 "
+  "body": "Volume I Volume II "
 },
 {
   "id": "subsec_dimanal-subsection",
@@ -5392,29 +5392,182 @@ var ptx_lunr_docs = [
   "body": " Turbulent flow   "
 },
 {
+  "id": "subsec-capl_act",
+  "level": "1",
+  "url": "subsec-capl_act.html",
+  "type": "Subsection",
+  "number": "9.5.1",
+  "title": "Capillary Action",
+  "body": " Capillary Action               Surface tension arises due to strong intermolecular forces of attraction between the molecules. When those forces act between like molecules, they are referred to as cohesive forces . Cohesion is a tendency of the liquid to remain as one assembly of particles. Surface tension is due to cohesion between particles at the free surface. A liquid, however, is often in contact with a solid surface, such as glass. Hence the additional forces of attraction occur between molecules of the liquid and molecules of the solid surface. When the attractive forces act between unlike molecules, they are said to be adhesive forces . This property enables a liquid to stick to another body.  Capillary is a phenomenon by which a liquid rises up into a narrow tube (called capillary ) above or below its general level. The upper surface of a liquid in a tube is called the meniscus , and the shape of the meniscus depends on the relative strengths of the cohesive and adhesive forces. In liquids such as water, the meniscus is concave, because of high adhesive forces between water and glass molecules. In liquids such as mercury, the meniscus is convex because the molecules of mercury have very strong cohesive forces and weak adhesion to glass. The height to which the water rises depends on the diameter of the tube and the temperature of the water but not on the angle of tilt of the tube in water. The smaller the diameter, the higher the liquid rises.                   Capillary action provides wetting ability of liquids on the solid interfaces. The contact angle between the liquid boundary and the solid surface is a measure of the degree of wetting. Adhesion and surface tension together can produce capillary action. Capillary action occurs when the adhesion to the walls is stronger than the cohesive forces between the liquid molecules. Adhesion of water to the walls of a vessel results in an upward force on the liquid at the edges. The water keep rising in the capillary till the weight of this portion of water is balanced by the vertical component of such upward force. From , we have -     Here is density of liquid like water, is radius of capillary, and is angle of contact. A smaller contact angle and a smaller surface tension result in a greater the degree of wetting. When adhesive forces are greater than cohesive forces, the contact angle lies between 0 and When adhesive forces are smaller than cohesive forces, the contact angle lies between and [ and ]. When water is dripping from the narrow orifice its shape is a little bit oval because of gravity. However, the shape would be completely spherical in absence of gravity because of surface tension of the water.  "
+},
+{
+  "id": "figure-209",
+  "level": "2",
+  "url": "subsec-capl_act.html#figure-209",
+  "type": "Figure",
+  "number": "9.5.2",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-1033",
+  "level": "2",
+  "url": "subsec-capl_act.html#p-1033",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "cohesive forces adhesive forces "
+},
+{
+  "id": "figure-212",
+  "level": "2",
+  "url": "subsec-capl_act.html#figure-212",
+  "type": "Figure",
+  "number": "9.5.3",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-surfenergy",
+  "level": "1",
+  "url": "subsec-surfenergy.html",
+  "type": "Subsection",
+  "number": "9.5.2",
+  "title": "Equivalence between surface tension and surface energy",
+  "body": " Equivalence between surface tension and surface energy      The natural tendency of a liquid is to contract its surface area to minimum its size. Therefore, work is required to increase the surface area of a liquid film. Increasing the surface area increasing the energy of the film. Hence, surface tension is the energy (or work) required to increase the surface area of a liquid by unit. Consider a thin film of liquid, ABCD, contained in a rectangular wire frame of movable side CD, as shown in .  Now consider that the film is stretched by moving the side CD of the frame by to the new position PQ. If is the surface tension of the liquid and a force is applied, then work done by the force to stretch the film, The factor 2 is taken because of two open surface area of the film on both sides of wire mesh. If be the increased surface area of the film, then    Therefore, surface tension can also be defined in terms of energy, it is the ratio of change in surface energy to the change in surface area of the film. The surface tension is greatly dependent on temperature, so the definition of surface tension in terms of work per unit area is very useful in thermodynamics. The SI unit, in that case, is   "
+},
+{
+  "id": "surffilm",
+  "level": "2",
+  "url": "subsec-surfenergy.html#surffilm",
+  "type": "Figure",
+  "number": "9.5.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-buble",
+  "level": "1",
+  "url": "subsec-buble.html",
+  "type": "Subsection",
+  "number": "9.5.3",
+  "title": "Soap Bubble",
+  "body": " Soap Bubble      When the bubble is blown, the surface film tends to contract. This causes pressure inside the bubble to increase. The surface tension balances the outward force due to the pressure difference between the inside and the outside air. For the bubble to be stable and not collapse, the pressure inside the bubble must be higher than the pressure on the outside. In fact, there are two liquid-gas interfaces on a soap bubble, the one on the inside of the bubble and the one on the outside of the bubble . In between the two surfaces is a thin film of liquid. The spherical shape of a soap bubble is caused by the minimization of the surface area. For a given volume, a sphere always acquires the least surface area.  The force from surface tension is where the factor 2 is taken because of two surfaces of the soap bubble. The force do to the pressure difference must balance the force from the surface tension. The force to the pressure difference is     "
+},
+{
+  "id": "soapbubble",
+  "level": "2",
+  "url": "subsec-buble.html#soapbubble",
+  "type": "Figure",
+  "number": "9.5.5",
+  "title": "",
+  "body": "   "
+},
+{
   "id": "sec_ninth-examplesB",
   "level": "1",
   "url": "sec_ninth-examplesB.html",
   "type": "Section",
-  "number": "9.5",
+  "number": "9.6",
   "title": "Examples B",
-  "body": " Examples B  "
+  "body": " Examples B   Viscosity    A fluid moves along length 0.75 m with velocity 2m\/s and has shearing stress of . Calculate its viscosity.    Given: Velocity, v = 2m\/s, length, L = 0.75 m, shearing stress,   The shearing stress is given by,          A plate 0.025 mm apart from a fixed plate moves at 60 cm\/s and requires force of to maintain the speed. Determine the fluid viscosity between the plates.    Given: Velocity, v = 60 cm\/s = 0.6m\/s, length, L = 0.025 mm = , shearing stress,   The shearing stress is given by,          The space between two flat parallel plates is filled with an oil. Each side of the plate is 60 cm. The thickness of the oil plate is 12.5 mm. The upper plate which moves at 2.55 m\/s requires a force of 98.1 N to maintain the speed. Determine, the dynamic viscosity of oil in cP.    Given: b=60 cm=0.6 m, L=12.5 mm = , v=2.55 m\/s, F = 98.1 N, and   The shearing stress is given by,         The flow of blood through a large artery extending from heart to lungs with a radius of 2.5 mm and is found to be 15 cm long. The pressure across the artery ends is found to be 380 Pa then what is the blood's average speed?    The blood viscosity the arterial radius, , the artery length, , and the difference of pressure, .  The volume flow rate is given by The volume flow rate is also given by From these equantions, we get the velocity of blood flow as         A total volume of 3 ml of a viscous fluid is delivered into a patient in 10 s. When the needle is changed, 3 ml of the same fluid takes 8 s to be delivered into the patient under the identical conditions. If the radius of the original needle was 0.3 mm, what is the radius of the new needle?    The volume flow rate is given by           A 3 mm diameter glass ball ( ) is dropped into a fluid whose density is and the terminal velocity of the ball is measured to be 0.16 m\/s. Determine the viscosity of the fluid.    Given: and The viscous force in a fluid is given by But ball experiences buoyant force and viscous force while falling into a liquid. After achieving the terminal velocity, we have -  where is a density of the fluid. Hence on solving the above equation, we get - [ ]       Surface Tension    A 5 cm long needle is floating on the surface water without wetting. Find its weight, if surface tension       If is the weight of the needle, then    for a needle floating without wetting,        A thin ring of radius 3 cm is rested flat on the liquid surface. When the ring is raised 0.03 N of force difference is noted before and after the film breaks. What is the surface tension of the liquid?      When the ring is lifted gently form the surface of a liquid it forms a thin film around the ring. The film shrinks in it due to cohesive force as the ring pulled up and eventually the contact angle becomes zero just before it breaks. Hence in that case, with film adheres to ring, and when film breaks. where is a force due to surface tension of the film. The factor 2 is taken because of two surfaces of the film both inside and outside of the ring.        A rectangle wire frame has a length of 4 cm and breadth of 3 cm. What force does the side experience due to surface tension of the soap bubble? If        where, as liquid film has two surfaces around perimeter of the frame.      "
+},
+{
+  "id": "example-153",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-153",
+  "type": "Example",
+  "number": "9.6.1",
+  "title": "",
+  "body": "  A fluid moves along length 0.75 m with velocity 2m\/s and has shearing stress of . Calculate its viscosity.    Given: Velocity, v = 2m\/s, length, L = 0.75 m, shearing stress,   The shearing stress is given by,       "
+},
+{
+  "id": "example-154",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-154",
+  "type": "Example",
+  "number": "9.6.2",
+  "title": "",
+  "body": "  A plate 0.025 mm apart from a fixed plate moves at 60 cm\/s and requires force of to maintain the speed. Determine the fluid viscosity between the plates.    Given: Velocity, v = 60 cm\/s = 0.6m\/s, length, L = 0.025 mm = , shearing stress,   The shearing stress is given by,       "
+},
+{
+  "id": "example-155",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-155",
+  "type": "Example",
+  "number": "9.6.3",
+  "title": "",
+  "body": "  The space between two flat parallel plates is filled with an oil. Each side of the plate is 60 cm. The thickness of the oil plate is 12.5 mm. The upper plate which moves at 2.55 m\/s requires a force of 98.1 N to maintain the speed. Determine, the dynamic viscosity of oil in cP.    Given: b=60 cm=0.6 m, L=12.5 mm = , v=2.55 m\/s, F = 98.1 N, and   The shearing stress is given by,      "
+},
+{
+  "id": "example-156",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-156",
+  "type": "Example",
+  "number": "9.6.4",
+  "title": "",
+  "body": "  The flow of blood through a large artery extending from heart to lungs with a radius of 2.5 mm and is found to be 15 cm long. The pressure across the artery ends is found to be 380 Pa then what is the blood's average speed?    The blood viscosity the arterial radius, , the artery length, , and the difference of pressure, .  The volume flow rate is given by The volume flow rate is also given by From these equantions, we get the velocity of blood flow as      "
+},
+{
+  "id": "example-157",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-157",
+  "type": "Example",
+  "number": "9.6.5",
+  "title": "",
+  "body": "  A total volume of 3 ml of a viscous fluid is delivered into a patient in 10 s. When the needle is changed, 3 ml of the same fluid takes 8 s to be delivered into the patient under the identical conditions. If the radius of the original needle was 0.3 mm, what is the radius of the new needle?    The volume flow rate is given by        "
+},
+{
+  "id": "example-158",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-158",
+  "type": "Example",
+  "number": "9.6.6",
+  "title": "",
+  "body": "  A 3 mm diameter glass ball ( ) is dropped into a fluid whose density is and the terminal velocity of the ball is measured to be 0.16 m\/s. Determine the viscosity of the fluid.    Given: and The viscous force in a fluid is given by But ball experiences buoyant force and viscous force while falling into a liquid. After achieving the terminal velocity, we have -  where is a density of the fluid. Hence on solving the above equation, we get - [ ]    "
+},
+{
+  "id": "example-159",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-159",
+  "type": "Example",
+  "number": "9.6.7",
+  "title": "",
+  "body": "  A 5 cm long needle is floating on the surface water without wetting. Find its weight, if surface tension       If is the weight of the needle, then    for a needle floating without wetting,     "
+},
+{
+  "id": "example-160",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-160",
+  "type": "Example",
+  "number": "9.6.8",
+  "title": "",
+  "body": "  A thin ring of radius 3 cm is rested flat on the liquid surface. When the ring is raised 0.03 N of force difference is noted before and after the film breaks. What is the surface tension of the liquid?      When the ring is lifted gently form the surface of a liquid it forms a thin film around the ring. The film shrinks in it due to cohesive force as the ring pulled up and eventually the contact angle becomes zero just before it breaks. Hence in that case, with film adheres to ring, and when film breaks. where is a force due to surface tension of the film. The factor 2 is taken because of two surfaces of the film both inside and outside of the ring.     "
+},
+{
+  "id": "example-161",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-161",
+  "type": "Example",
+  "number": "9.6.9",
+  "title": "",
+  "body": "  A rectangle wire frame has a length of 4 cm and breadth of 3 cm. What force does the side experience due to surface tension of the soap bubble? If        where, as liquid film has two surfaces around perimeter of the frame.    "
 },
 {
   "id": "ex_ninth",
   "level": "1",
   "url": "ex_ninth.html",
   "type": "Exercises",
-  "number": "9.6",
+  "number": "9.7",
   "title": "Exercise",
-  "body": "  Exercise   Fluid Basics  A block of aluminum has a size of .  What is the mass?  What is its weight?  If immersed in water, what would be the volume of the displaced water?  What would be the weight of the displaced water?  How large a force would be required to keep the block from sinking in the water?    A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its top face 2 cm above the surface of the oil. What is  the density of the oil,  the volume of the displaced oil,  the mass of the displaced oil,  the weight of the displaced oil,  the weight of the cube,  the volume of the cube,  the density of the cube,  the pressure at the bottom of the cube, and  the force exerted by the oil on the bottom of the cube?    An aluminum weight of mass 200 g is attached by a short string to the bottom of a float of density which is supported by another string attached to a mass balance. When both the weight and the float are completely immersed in water the balance reads 50 g. What is  the volume of the float,  the mass of the float,  the buoyant force of the water on the float, and  the buoyant force of the water on the aluminum weight.  What would the balance read if only the weight were under water?    The weight density of fresh water is and the specific gravity of ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft thick that would support a man weighing 180 lbs?  A hang glider has a wing area of weighs 70 lb (pounds), and caries a pilot weighing 200 lb with his equipment. If the velocity of the air under the wing is half that over the top, what is the average airspeed of the glider in miles per hour? Hint: This problem can be worked in the FPS system by using the fact that the specific gravity of air is and the weight density of water is .  Water is flowing through a pipe with a constriction. The area of the narrow section is one half the area of the wide section. If the velocity of the incompressible fluid is in the wide section, then what is the velocity of the fluid in the narrow section?  A hose lying on the ground has water coming out of it at a speed of If the nozzle of the hose is lifted to a height of 1.3 m above the ground. Find the speed of water coming out of the hose.  A large tank of water open to the air at the top has a hose attached to its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water leaving the nozzle is 6 m\/s.  How high would the water squirt if the nozzle were aimed straight up?  What is the volume flow rate of the water leaving the tank?  What is the pressure in the water as it leaves the nozzle?  What is the pressure in the water at the top of the tank?  What is the velocity of the water at the top of the tank?  What is the height of the water in the tank?  If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose?  What is the gauge pressure in the hose?  What is the absolute pressure in the hose?    A balloon filled with helium gas is floating in air with acceleration . If the density of air and helium gas is and , respectively and volume of balloon is Find the value of     Viscosity      Surface Tension     "
+  "body": "  Exercise   Fluid Basics  A block of aluminum has a size of .  What is the mass?  What is its weight?  If immersed in water, what would be the volume of the displaced water?  What would be the weight of the displaced water?  How large a force would be required to keep the block from sinking in the water?    A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its top face 2 cm above the surface of the oil. What is  the density of the oil,  the volume of the displaced oil,  the mass of the displaced oil,  the weight of the displaced oil,  the weight of the cube,  the volume of the cube,  the density of the cube,  the pressure at the bottom of the cube, and  the force exerted by the oil on the bottom of the cube?    An aluminum weight of mass 200 g is attached by a short string to the bottom of a float of density which is supported by another string attached to a mass balance. When both the weight and the float are completely immersed in water the balance reads 50 g. What is  the volume of the float,  the mass of the float,  the buoyant force of the water on the float, and  the buoyant force of the water on the aluminum weight.  What would the balance read if only the weight were under water?    The weight density of fresh water is and the specific gravity of ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft thick that would support a man weighing 180 lbs?  A hang glider has a wing area of weighs 70 lb (pounds), and caries a pilot weighing 200 lb with his equipment. If the velocity of the air under the wing is half that over the top, what is the average airspeed of the glider in miles per hour? Hint: This problem can be worked in the FPS system by using the fact that the specific gravity of air is and the weight density of water is .  Water is flowing through a pipe with a constriction. The area of the narrow section is one half the area of the wide section. If the velocity of the incompressible fluid is in the wide section, then what is the velocity of the fluid in the narrow section?  A hose lying on the ground has water coming out of it at a speed of If the nozzle of the hose is lifted to a height of 1.3 m above the ground. Find the speed of water coming out of the hose.  A large tank of water open to the air at the top has a hose attached to its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water leaving the nozzle is 6 m\/s.  How high would the water squirt if the nozzle were aimed straight up?  What is the volume flow rate of the water leaving the tank?  What is the pressure in the water as it leaves the nozzle?  What is the pressure in the water at the top of the tank?  What is the velocity of the water at the top of the tank?  What is the height of the water in the tank?  If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose?  What is the gauge pressure in the hose?  What is the absolute pressure in the hose?    A balloon filled with helium gas is floating in air with acceleration . If the density of air and helium gas is and , respectively and volume of balloon is Find the value of     Viscosity  The velocity of water in river is 5m\/s at the surface. If river is 5 m deep, find the shear stress between the horizontal layers of water. The viscosity of water is poiseullie. [1 poiseullie = 10 pise]  The flow rate of a viscous fluid through a hose is measured to be The length of the hose is 1.8 m, the viscosity of the fluid is and the pressure difference across the hose is 55 Pa. Determine the radius of the hose.  An air bubble of radius 1 mm is allowed to rise through a long cylindrical tube of a viscous liquid of radius 5 cm and travels at a steady rate of 2 cm\/s. If the density of the liquid is , find its viscosity.  An oil drop of radius and density is falling freely in air of viscosity How much is the viscous force is acting on the drop at that speed? Neglect buoyancy on drop due to air.  A 1.5 liter of viscous fluid is draining through a needle will take 25 minutes. If the needle diameter is increased by 20\\%, how long will it take to drain the bottle?  Calculate the viscosity of an oil which is used for lubrication between a plate of size 0.8m by 0.8 m inclined plane with angle of inclination . The weight of the square plate is 300 N and it slides down the plane with uniform velocity of 0.3 m\/s. The thickness of oil film is 1.5 mm.    Surface Tension     "
 },
 {
   "id": "exercise-202",
   "level": "2",
   "url": "ex_ninth.html#exercise-202",
   "type": "Exercise",
-  "number": "9.6.1",
+  "number": "9.7.1",
   "title": "",
   "body": "A block of aluminum has a size of .  What is the mass?  What is its weight?  If immersed in water, what would be the volume of the displaced water?  What would be the weight of the displaced water?  How large a force would be required to keep the block from sinking in the water?   "
 },
@@ -5423,7 +5576,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_ninth.html#exercise-203",
   "type": "Exercise",
-  "number": "9.6.2",
+  "number": "9.7.2",
   "title": "",
   "body": "A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its top face 2 cm above the surface of the oil. What is  the density of the oil,  the volume of the displaced oil,  the mass of the displaced oil,  the weight of the displaced oil,  the weight of the cube,  the volume of the cube,  the density of the cube,  the pressure at the bottom of the cube, and  the force exerted by the oil on the bottom of the cube?   "
 },
@@ -5432,7 +5585,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_ninth.html#exercise-204",
   "type": "Exercise",
-  "number": "9.6.3",
+  "number": "9.7.3",
   "title": "",
   "body": "An aluminum weight of mass 200 g is attached by a short string to the bottom of a float of density which is supported by another string attached to a mass balance. When both the weight and the float are completely immersed in water the balance reads 50 g. What is  the volume of the float,  the mass of the float,  the buoyant force of the water on the float, and  the buoyant force of the water on the aluminum weight.  What would the balance read if only the weight were under water?   "
 },
@@ -5441,7 +5594,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_ninth.html#exercise-205",
   "type": "Exercise",
-  "number": "9.6.4",
+  "number": "9.7.4",
   "title": "",
   "body": "The weight density of fresh water is and the specific gravity of ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft thick that would support a man weighing 180 lbs? "
 },
@@ -5450,7 +5603,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_ninth.html#exercise-206",
   "type": "Exercise",
-  "number": "9.6.5",
+  "number": "9.7.5",
   "title": "",
   "body": "A hang glider has a wing area of weighs 70 lb (pounds), and caries a pilot weighing 200 lb with his equipment. If the velocity of the air under the wing is half that over the top, what is the average airspeed of the glider in miles per hour? Hint: This problem can be worked in the FPS system by using the fact that the specific gravity of air is and the weight density of water is . "
 },
@@ -5459,7 +5612,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_ninth.html#exercise-207",
   "type": "Exercise",
-  "number": "9.6.6",
+  "number": "9.7.6",
   "title": "",
   "body": "Water is flowing through a pipe with a constriction. The area of the narrow section is one half the area of the wide section. If the velocity of the incompressible fluid is in the wide section, then what is the velocity of the fluid in the narrow section? "
 },
@@ -5468,7 +5621,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_ninth.html#exercise-208",
   "type": "Exercise",
-  "number": "9.6.7",
+  "number": "9.7.7",
   "title": "",
   "body": "A hose lying on the ground has water coming out of it at a speed of If the nozzle of the hose is lifted to a height of 1.3 m above the ground. Find the speed of water coming out of the hose. "
 },
@@ -5477,7 +5630,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_ninth.html#exercise-209",
   "type": "Exercise",
-  "number": "9.6.8",
+  "number": "9.7.8",
   "title": "",
   "body": "A large tank of water open to the air at the top has a hose attached to its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water leaving the nozzle is 6 m\/s.  How high would the water squirt if the nozzle were aimed straight up?  What is the volume flow rate of the water leaving the tank?  What is the pressure in the water as it leaves the nozzle?  What is the pressure in the water at the top of the tank?  What is the velocity of the water at the top of the tank?  What is the height of the water in the tank?  If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose?  What is the gauge pressure in the hose?  What is the absolute pressure in the hose?   "
 },
@@ -5486,9 +5639,63 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_ninth.html#exercise-210",
   "type": "Exercise",
-  "number": "9.6.9",
+  "number": "9.7.9",
   "title": "",
   "body": "A balloon filled with helium gas is floating in air with acceleration . If the density of air and helium gas is and , respectively and volume of balloon is Find the value of  "
+},
+{
+  "id": "exercise-211",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-211",
+  "type": "Exercise",
+  "number": "9.7.10",
+  "title": "",
+  "body": "The velocity of water in river is 5m\/s at the surface. If river is 5 m deep, find the shear stress between the horizontal layers of water. The viscosity of water is poiseullie. [1 poiseullie = 10 pise] "
+},
+{
+  "id": "exercise-212",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-212",
+  "type": "Exercise",
+  "number": "9.7.11",
+  "title": "",
+  "body": "The flow rate of a viscous fluid through a hose is measured to be The length of the hose is 1.8 m, the viscosity of the fluid is and the pressure difference across the hose is 55 Pa. Determine the radius of the hose. "
+},
+{
+  "id": "exercise-213",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-213",
+  "type": "Exercise",
+  "number": "9.7.12",
+  "title": "",
+  "body": "An air bubble of radius 1 mm is allowed to rise through a long cylindrical tube of a viscous liquid of radius 5 cm and travels at a steady rate of 2 cm\/s. If the density of the liquid is , find its viscosity. "
+},
+{
+  "id": "exercise-214",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-214",
+  "type": "Exercise",
+  "number": "9.7.13",
+  "title": "",
+  "body": "An oil drop of radius and density is falling freely in air of viscosity How much is the viscous force is acting on the drop at that speed? Neglect buoyancy on drop due to air. "
+},
+{
+  "id": "exercise-215",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-215",
+  "type": "Exercise",
+  "number": "9.7.14",
+  "title": "",
+  "body": "A 1.5 liter of viscous fluid is draining through a needle will take 25 minutes. If the needle diameter is increased by 20\\%, how long will it take to drain the bottle? "
+},
+{
+  "id": "exercise-216",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-216",
+  "type": "Exercise",
+  "number": "9.7.15",
+  "title": "",
+  "body": "Calculate the viscosity of an oil which is used for lubrication between a plate of size 0.8m by 0.8 m inclined plane with angle of inclination . The weight of the square plate is 300 N and it slides down the plane with uniform velocity of 0.3 m\/s. The thickness of oil film is 1.5 mm. "
 },
 {
   "id": "sec_tenth-intro",
@@ -5509,9 +5716,9 @@ var ptx_lunr_docs = [
   "body": " Examples A            "
 },
 {
-  "id": "example-153",
+  "id": "example-162",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-153",
+  "url": "sec_tenth-examplesA.html#example-162",
   "type": "Example",
   "number": "10.2.1",
   "title": "",
@@ -5527,9 +5734,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-211",
+  "id": "exercise-217",
   "level": "2",
-  "url": "ex_tenth.html#exercise-211",
+  "url": "ex_tenth.html#exercise-217",
   "type": "Exercise",
   "number": "10.3.1",
   "title": "",
