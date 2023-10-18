@@ -167,6 +167,7 @@
    <xi:include href="./sec_ninth-fflow.ptx" />
    <xi:include href="./sec_ninth-examplesA.ptx" />  
    <xi:include href="./sec_ninth-visc.ptx" />
+   <xi:include href="./sec_ninth-surtens.ptx" />
 <xi:include href="./sec_ninth-examplesB.ptx" />  
 
   <xi:include href="./ex_ninth.ptx"/>
