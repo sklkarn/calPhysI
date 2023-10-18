@@ -5470,7 +5470,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.6",
   "title": "Examples B",
-  "body": " Examples B   Viscosity    A fluid moves along length 0.75 m with velocity 2m\/s and has shearing stress of . Calculate its viscosity.    Given: Velocity, v = 2m\/s, length, L = 0.75 m, shearing stress,   The shearing stress is given by,          A plate 0.025 mm apart from a fixed plate moves at 60 cm\/s and requires force of to maintain the speed. Determine the fluid viscosity between the plates.    Given: Velocity, v = 60 cm\/s = 0.6m\/s, length, L = 0.025 mm = , shearing stress,   The shearing stress is given by,          The space between two flat parallel plates is filled with an oil. Each side of the plate is 60 cm. The thickness of the oil plate is 12.5 mm. The upper plate which moves at 2.55 m\/s requires a force of 98.1 N to maintain the speed. Determine, the dynamic viscosity of oil in cP.    Given: b=60 cm=0.6 m, L=12.5 mm = , v=2.55 m\/s, F = 98.1 N, and   The shearing stress is given by,         The flow of blood through a large artery extending from heart to lungs with a radius of 2.5 mm and is found to be 15 cm long. The pressure across the artery ends is found to be 380 Pa then what is the blood's average speed?    The blood viscosity the arterial radius, , the artery length, , and the difference of pressure, .  The volume flow rate is given by The volume flow rate is also given by From these equantions, we get the velocity of blood flow as         A total volume of 3 ml of a viscous fluid is delivered into a patient in 10 s. When the needle is changed, 3 ml of the same fluid takes 8 s to be delivered into the patient under the identical conditions. If the radius of the original needle was 0.3 mm, what is the radius of the new needle?    The volume flow rate is given by           A 3 mm diameter glass ball ( ) is dropped into a fluid whose density is and the terminal velocity of the ball is measured to be 0.16 m\/s. Determine the viscosity of the fluid.    Given: and The viscous force in a fluid is given by But ball experiences buoyant force and viscous force while falling into a liquid. After achieving the terminal velocity, we have -  where is a density of the fluid. Hence on solving the above equation, we get - [ ]       Surface Tension    A 5 cm long needle is floating on the surface water without wetting. Find its weight, if surface tension       If is the weight of the needle, then    for a needle floating without wetting,        A thin ring of radius 3 cm is rested flat on the liquid surface. When the ring is raised 0.03 N of force difference is noted before and after the film breaks. What is the surface tension of the liquid?      When the ring is lifted gently form the surface of a liquid it forms a thin film around the ring. The film shrinks in it due to cohesive force as the ring pulled up and eventually the contact angle becomes zero just before it breaks. Hence in that case, with film adheres to ring, and when film breaks. where is a force due to surface tension of the film. The factor 2 is taken because of two surfaces of the film both inside and outside of the ring.        A rectangle wire frame has a length of 4 cm and breadth of 3 cm. What force does the side experience due to surface tension of the soap bubble? If        where, as liquid film has two surfaces around perimeter of the frame.      "
+  "body": " Examples B   Viscosity    A fluid moves along length 0.75 m with velocity 2m\/s and has shearing stress of . Calculate its viscosity.    Given: Velocity, v = 2m\/s, length, L = 0.75 m, shearing stress,   The shearing stress is given by,          A plate 0.025 mm apart from a fixed plate moves at 60 cm\/s and requires force of to maintain the speed. Determine the fluid viscosity between the plates.    Given: Velocity, v = 60 cm\/s = 0.6m\/s, length, L = 0.025 mm = , shearing stress,   The shearing stress is given by,          The space between two flat parallel plates is filled with an oil. Each side of the plate is 60 cm. The thickness of the oil plate is 12.5 mm. The upper plate which moves at 2.55 m\/s requires a force of 98.1 N to maintain the speed. Determine, the dynamic viscosity of oil in cP.    Given: b=60 cm=0.6 m, L=12.5 mm = , v=2.55 m\/s, F = 98.1 N, and   The shearing stress is given by,         The flow of blood through a large artery extending from heart to lungs with a radius of 2.5 mm and is found to be 15 cm long. The pressure across the artery ends is found to be 380 Pa then what is the blood's average speed?    The blood viscosity the arterial radius, , the artery length, , and the difference of pressure, .  The volume flow rate is given by The volume flow rate is also given by From these equantions, we get the velocity of blood flow as         A total volume of 3 ml of a viscous fluid is delivered into a patient in 10 s. When the needle is changed, 3 ml of the same fluid takes 8 s to be delivered into the patient under the identical conditions. If the radius of the original needle was 0.3 mm, what is the radius of the new needle?    The volume flow rate is given by           A 3 mm diameter glass ball ( ) is dropped into a fluid whose density is and the terminal velocity of the ball is measured to be 0.16 m\/s. Determine the viscosity of the fluid.    Given: and The viscous force in a fluid is given by But ball experiences buoyant force and viscous force while falling into a liquid. After achieving the terminal velocity, we have -  where is a density of the fluid. Hence on solving the above equation, we get - [ ]       Surface Tension    A 5 cm long needle is floating on the surface water without wetting. Find its weight, if surface tension       If is the weight of the needle, then    for a needle floating without wetting,        A thin ring of radius 3 cm is rested flat on the liquid surface. When the ring is raised 0.03 N of force difference is noted before and after the film breaks. What is the surface tension of the liquid?      When the ring is lifted gently form the surface of a liquid it forms a thin film around the ring. The film shrinks in it due to cohesive force as the ring pulled up and eventually the contact angle becomes zero just before it breaks. Hence in that case, with film adheres to ring, and when film breaks. where is a force due to surface tension of the film. The factor 2 is taken because of two surfaces of the film both inside and outside of the ring.        A rectangle wire frame has a length of 4 cm and breadth of 3 cm. What force does the side experience due to surface tension of the soap bubble? If        where, as liquid film has two surfaces around perimeter of the frame.        A U-shaped wire having a soap film on it can supports an extra mass m on its movable side. If the movable side of frame is 20 cm in length. Find the mass m, if .              A soap bubble 50 mm in diameter contains an excess pressure of 2 bar balancing the atmospheric pressure. Find the surface tension in the soap film.    Given:           Water has a surface tension of 0.4 N\/m. If the liquid rises 6 mm above the liquid surface in a 3 mm diameter vertical tube, calculate the contact angle.    Given:     Capillary rise due to surface tension is given by          Compare the capillary rise of water and mercury in a glass tube of 2 mm diameter at . Given that the surface tension of water and mercury at are 0.0736 N\/m and 0.051 N\/m respectively. Contact angles of water and mercury are and respectively.    Given:  specific weight of mercury and , specific weight of water , and   Capillary rise due to surface tension is given by   and        Find the work done in blowing a soap bubble of radius 10 cm. If     Given:    The factor 2 is due to two surfaces of the soap bubble.      A drop of mercury of radius 1 mm is broken into 8 droolets of the same size. Find the work done if the surface tension of mercury is 0.55 N\/m.    The volume of large drop = n (volume of small drops). Now, initial surface area of drop ,  final surface area of drop  A spherical drop of liquid has only one surface, rather than two surfaces, for there is no air within it.         Eight droplets of water each of radius 0.2 mm coalesce together to form a single drop. Find the change in total surface energy.     Given:   The volume of large drop = n (volume of small drops).   Now, initial surface area of drop ,  final surface area of drop   Since a spherical drop of liquid has only one surface, rather than two surfaces, for there is no air within it.         "
 },
 {
   "id": "example-153",
@@ -5551,7 +5551,70 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "9.6.9",
   "title": "",
-  "body": "  A rectangle wire frame has a length of 4 cm and breadth of 3 cm. What force does the side experience due to surface tension of the soap bubble? If        where, as liquid film has two surfaces around perimeter of the frame.    "
+  "body": "  A rectangle wire frame has a length of 4 cm and breadth of 3 cm. What force does the side experience due to surface tension of the soap bubble? If        where, as liquid film has two surfaces around perimeter of the frame.     "
+},
+{
+  "id": "example-162",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-162",
+  "type": "Example",
+  "number": "9.6.10",
+  "title": "",
+  "body": "  A U-shaped wire having a soap film on it can supports an extra mass m on its movable side. If the movable side of frame is 20 cm in length. Find the mass m, if .           "
+},
+{
+  "id": "example-163",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-163",
+  "type": "Example",
+  "number": "9.6.11",
+  "title": "",
+  "body": "  A soap bubble 50 mm in diameter contains an excess pressure of 2 bar balancing the atmospheric pressure. Find the surface tension in the soap film.    Given:        "
+},
+{
+  "id": "example-164",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-164",
+  "type": "Example",
+  "number": "9.6.12",
+  "title": "",
+  "body": "  Water has a surface tension of 0.4 N\/m. If the liquid rises 6 mm above the liquid surface in a 3 mm diameter vertical tube, calculate the contact angle.    Given:     Capillary rise due to surface tension is given by       "
+},
+{
+  "id": "example-165",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-165",
+  "type": "Example",
+  "number": "9.6.13",
+  "title": "",
+  "body": "  Compare the capillary rise of water and mercury in a glass tube of 2 mm diameter at . Given that the surface tension of water and mercury at are 0.0736 N\/m and 0.051 N\/m respectively. Contact angles of water and mercury are and respectively.    Given:  specific weight of mercury and , specific weight of water , and   Capillary rise due to surface tension is given by   and     "
+},
+{
+  "id": "example-166",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-166",
+  "type": "Example",
+  "number": "9.6.14",
+  "title": "",
+  "body": "  Find the work done in blowing a soap bubble of radius 10 cm. If     Given:    The factor 2 is due to two surfaces of the soap bubble.   "
+},
+{
+  "id": "example-167",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-167",
+  "type": "Example",
+  "number": "9.6.15",
+  "title": "",
+  "body": "  A drop of mercury of radius 1 mm is broken into 8 droolets of the same size. Find the work done if the surface tension of mercury is 0.55 N\/m.    The volume of large drop = n (volume of small drops). Now, initial surface area of drop ,  final surface area of drop  A spherical drop of liquid has only one surface, rather than two surfaces, for there is no air within it.      "
+},
+{
+  "id": "example-168",
+  "level": "2",
+  "url": "sec_ninth-examplesB.html#example-168",
+  "type": "Example",
+  "number": "9.6.16",
+  "title": "",
+  "body": "  Eight droplets of water each of radius 0.2 mm coalesce together to form a single drop. Find the change in total surface energy.     Given:   The volume of large drop = n (volume of small drops).   Now, initial surface area of drop ,  final surface area of drop   Since a spherical drop of liquid has only one surface, rather than two surfaces, for there is no air within it.       "
 },
 {
   "id": "ex_ninth",
@@ -5560,7 +5623,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "9.7",
   "title": "Exercise",
-  "body": "  Exercise   Fluid Basics  A block of aluminum has a size of .  What is the mass?  What is its weight?  If immersed in water, what would be the volume of the displaced water?  What would be the weight of the displaced water?  How large a force would be required to keep the block from sinking in the water?    A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its top face 2 cm above the surface of the oil. What is  the density of the oil,  the volume of the displaced oil,  the mass of the displaced oil,  the weight of the displaced oil,  the weight of the cube,  the volume of the cube,  the density of the cube,  the pressure at the bottom of the cube, and  the force exerted by the oil on the bottom of the cube?    An aluminum weight of mass 200 g is attached by a short string to the bottom of a float of density which is supported by another string attached to a mass balance. When both the weight and the float are completely immersed in water the balance reads 50 g. What is  the volume of the float,  the mass of the float,  the buoyant force of the water on the float, and  the buoyant force of the water on the aluminum weight.  What would the balance read if only the weight were under water?    The weight density of fresh water is and the specific gravity of ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft thick that would support a man weighing 180 lbs?  A hang glider has a wing area of weighs 70 lb (pounds), and caries a pilot weighing 200 lb with his equipment. If the velocity of the air under the wing is half that over the top, what is the average airspeed of the glider in miles per hour? Hint: This problem can be worked in the FPS system by using the fact that the specific gravity of air is and the weight density of water is .  Water is flowing through a pipe with a constriction. The area of the narrow section is one half the area of the wide section. If the velocity of the incompressible fluid is in the wide section, then what is the velocity of the fluid in the narrow section?  A hose lying on the ground has water coming out of it at a speed of If the nozzle of the hose is lifted to a height of 1.3 m above the ground. Find the speed of water coming out of the hose.  A large tank of water open to the air at the top has a hose attached to its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water leaving the nozzle is 6 m\/s.  How high would the water squirt if the nozzle were aimed straight up?  What is the volume flow rate of the water leaving the tank?  What is the pressure in the water as it leaves the nozzle?  What is the pressure in the water at the top of the tank?  What is the velocity of the water at the top of the tank?  What is the height of the water in the tank?  If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose?  What is the gauge pressure in the hose?  What is the absolute pressure in the hose?    A balloon filled with helium gas is floating in air with acceleration . If the density of air and helium gas is and , respectively and volume of balloon is Find the value of     Viscosity  The velocity of water in river is 5m\/s at the surface. If river is 5 m deep, find the shear stress between the horizontal layers of water. The viscosity of water is poiseullie. [1 poiseullie = 10 pise]  The flow rate of a viscous fluid through a hose is measured to be The length of the hose is 1.8 m, the viscosity of the fluid is and the pressure difference across the hose is 55 Pa. Determine the radius of the hose.  An air bubble of radius 1 mm is allowed to rise through a long cylindrical tube of a viscous liquid of radius 5 cm and travels at a steady rate of 2 cm\/s. If the density of the liquid is , find its viscosity.  An oil drop of radius and density is falling freely in air of viscosity How much is the viscous force is acting on the drop at that speed? Neglect buoyancy on drop due to air.  A 1.5 liter of viscous fluid is draining through a needle will take 25 minutes. If the needle diameter is increased by 20\\%, how long will it take to drain the bottle?  Calculate the viscosity of an oil which is used for lubrication between a plate of size 0.8m by 0.8 m inclined plane with angle of inclination . The weight of the square plate is 300 N and it slides down the plane with uniform velocity of 0.3 m\/s. The thickness of oil film is 1.5 mm.    Surface Tension     "
+  "body": "  Exercise   Fluid Basics  A block of aluminum has a size of .  What is the mass?  What is its weight?  If immersed in water, what would be the volume of the displaced water?  What would be the weight of the displaced water?  How large a force would be required to keep the block from sinking in the water?    A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its top face 2 cm above the surface of the oil. What is  the density of the oil,  the volume of the displaced oil,  the mass of the displaced oil,  the weight of the displaced oil,  the weight of the cube,  the volume of the cube,  the density of the cube,  the pressure at the bottom of the cube, and  the force exerted by the oil on the bottom of the cube?    An aluminum weight of mass 200 g is attached by a short string to the bottom of a float of density which is supported by another string attached to a mass balance. When both the weight and the float are completely immersed in water the balance reads 50 g. What is  the volume of the float,  the mass of the float,  the buoyant force of the water on the float, and  the buoyant force of the water on the aluminum weight.  What would the balance read if only the weight were under water?    The weight density of fresh water is and the specific gravity of ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft thick that would support a man weighing 180 lbs?  A hang glider has a wing area of weighs 70 lb (pounds), and caries a pilot weighing 200 lb with his equipment. If the velocity of the air under the wing is half that over the top, what is the average airspeed of the glider in miles per hour? Hint: This problem can be worked in the FPS system by using the fact that the specific gravity of air is and the weight density of water is .  Water is flowing through a pipe with a constriction. The area of the narrow section is one half the area of the wide section. If the velocity of the incompressible fluid is in the wide section, then what is the velocity of the fluid in the narrow section?  A hose lying on the ground has water coming out of it at a speed of If the nozzle of the hose is lifted to a height of 1.3 m above the ground. Find the speed of water coming out of the hose.  A large tank of water open to the air at the top has a hose attached to its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water leaving the nozzle is 6 m\/s.  How high would the water squirt if the nozzle were aimed straight up?  What is the volume flow rate of the water leaving the tank?  What is the pressure in the water as it leaves the nozzle?  What is the pressure in the water at the top of the tank?  What is the velocity of the water at the top of the tank?  What is the height of the water in the tank?  If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose?  What is the gauge pressure in the hose?  What is the absolute pressure in the hose?    A balloon filled with helium gas is floating in air with acceleration . If the density of air and helium gas is and , respectively and volume of balloon is Find the value of     Viscosity  The velocity of water in river is 5m\/s at the surface. If river is 5 m deep, find the shear stress between the horizontal layers of water. The viscosity of water is poiseullie. [1 poiseullie = 10 pise]  The flow rate of a viscous fluid through a hose is measured to be The length of the hose is 1.8 m, the viscosity of the fluid is and the pressure difference across the hose is 55 Pa. Determine the radius of the hose.  An air bubble of radius 1 mm is allowed to rise through a long cylindrical tube of a viscous liquid of radius 5 cm and travels at a steady rate of 2 cm\/s. If the density of the liquid is , find its viscosity.  An oil drop of radius and density is falling freely in air of viscosity How much is the viscous force is acting on the drop at that speed? Neglect buoyancy on drop due to air.  A 1.5 liter of viscous fluid is draining through a needle will take 25 minutes. If the needle diameter is increased by 20\\%, how long will it take to drain the bottle?  Calculate the viscosity of an oil which is used for lubrication between a plate of size 0.8m by 0.8 m inclined plane with angle of inclination . The weight of the square plate is 300 N and it slides down the plane with uniform velocity of 0.3 m\/s. The thickness of oil film is 1.5 mm.    Surface Tension  The base of an insect's leg is approximately spherical in shape with a radius of about The mass of the insect is and is supported equally by six legs. Calculate the contact angle . The coefficient of surface tension is 0.072 N\/m.    A circular loop of wire and a pan of soapy water is used to produce a soap bubble whose radius is 1.0 mm. The surface tension of the soapy water is Determine the pressure difference between the inside and outside of the bubble.  The same soapy water is used to produce a spherical droplet whose radius is 0.50 mm. Find the pressure difference between the inside and outside of the droplet.    If the bubble and drop had the same radius, then the pressure difference between the inside and outside of the bubble to be twice as large as that for the drop. Since a spherical drop of liquid has only one surface, rather than two surfaces, for there is no air within it.   A circular ring of radius = 5.0 cm is immersed in the liquid and then pulled upward, so a film is formed between the ring and the liquid. An upward force of is required in addition to the weight of the ring to lift them to the point where the film just breaks. What is the surface tension of the liquid?  A bubble of air in water ( ) has a radius of 0.10 mm. Find the difference in pressures between the inside and outside of the bubble.  A drop of oil ( ) has a radius of 0.01 mm. The drop is located a distance of 2 m below the surface of fresh water. The atmospheric pressure above the water is .  What is the absolute pressure in the water at this depth?  Determine the absolute pressure inside the oil drop.    A needle of length 3.2 cm is placed gently on the surface of the water ( ) so that it can float on the water. What is the weight of the heaviest needle that can be used in this demonstration?  A glass plate of length 10 cm and thickness 0.2 cm is pulled up from a liquid of surface tension 0.07 N\/m, find the force with which it is pulled up. Assume the angle of contact to be zero.   "
 },
 {
   "id": "exercise-202",
@@ -5698,13 +5761,112 @@ var ptx_lunr_docs = [
   "body": "Calculate the viscosity of an oil which is used for lubrication between a plate of size 0.8m by 0.8 m inclined plane with angle of inclination . The weight of the square plate is 300 N and it slides down the plane with uniform velocity of 0.3 m\/s. The thickness of oil film is 1.5 mm. "
 },
 {
-  "id": "sec_tenth-intro",
-  "level": "1",
-  "url": "sec_tenth-intro.html",
-  "type": "Section",
-  "number": "10.1",
+  "id": "exercise-217",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-217",
+  "type": "Exercise",
+  "number": "9.7.16",
   "title": "",
-  "body": "   There are three states of equilibrium:   "
+  "body": "The base of an insect's leg is approximately spherical in shape with a radius of about The mass of the insect is and is supported equally by six legs. Calculate the contact angle . The coefficient of surface tension is 0.072 N\/m. "
+},
+{
+  "id": "exercise-218",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-218",
+  "type": "Exercise",
+  "number": "9.7.17",
+  "title": "",
+  "body": "  A circular loop of wire and a pan of soapy water is used to produce a soap bubble whose radius is 1.0 mm. The surface tension of the soapy water is Determine the pressure difference between the inside and outside of the bubble.  The same soapy water is used to produce a spherical droplet whose radius is 0.50 mm. Find the pressure difference between the inside and outside of the droplet.    If the bubble and drop had the same radius, then the pressure difference between the inside and outside of the bubble to be twice as large as that for the drop. Since a spherical drop of liquid has only one surface, rather than two surfaces, for there is no air within it.  "
+},
+{
+  "id": "exercise-219",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-219",
+  "type": "Exercise",
+  "number": "9.7.18",
+  "title": "",
+  "body": "A circular ring of radius = 5.0 cm is immersed in the liquid and then pulled upward, so a film is formed between the ring and the liquid. An upward force of is required in addition to the weight of the ring to lift them to the point where the film just breaks. What is the surface tension of the liquid? "
+},
+{
+  "id": "exercise-220",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-220",
+  "type": "Exercise",
+  "number": "9.7.19",
+  "title": "",
+  "body": "A bubble of air in water ( ) has a radius of 0.10 mm. Find the difference in pressures between the inside and outside of the bubble. "
+},
+{
+  "id": "exercise-221",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-221",
+  "type": "Exercise",
+  "number": "9.7.20",
+  "title": "",
+  "body": "A drop of oil ( ) has a radius of 0.01 mm. The drop is located a distance of 2 m below the surface of fresh water. The atmospheric pressure above the water is .  What is the absolute pressure in the water at this depth?  Determine the absolute pressure inside the oil drop.   "
+},
+{
+  "id": "exercise-222",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-222",
+  "type": "Exercise",
+  "number": "9.7.21",
+  "title": "",
+  "body": "A needle of length 3.2 cm is placed gently on the surface of the water ( ) so that it can float on the water. What is the weight of the heaviest needle that can be used in this demonstration? "
+},
+{
+  "id": "exercise-223",
+  "level": "2",
+  "url": "ex_ninth.html#exercise-223",
+  "type": "Exercise",
+  "number": "9.7.22",
+  "title": "",
+  "body": "A glass plate of length 10 cm and thickness 0.2 cm is pulled up from a liquid of surface tension 0.07 N\/m, find the force with which it is pulled up. Assume the angle of contact to be zero. "
+},
+{
+  "id": "subsec-temp_therm",
+  "level": "1",
+  "url": "subsec-temp_therm.html",
+  "type": "Subsection",
+  "number": "10.1.1",
+  "title": "Temperature and Thermometers",
+  "body": " Temperature and Thermometers   There are varieties of thermometers in existence. Based on the phases of materials used in thermometer they are solid state thermometer, liquid thermometer, and gas thermometer. Many physical properties of materials change significantly with temperature can be used as the basis for constructing thermometers. Solid thermometer works upon the principle that resistances of solid objects are proportional to changes in its temperature. Liquid thermometer works upon the principle that expansion in liquid volume are proportional to changes in its temperature. Gas thermometer works upon the principle that changes in gas pressure are proportional to changes in gas temperature. Here mainly discussed about liquid thermometer. Liquid thermometers, such as mercury-in-glass or alcohol thermometers, have been widely used for temperature measurement for many years. However, due to toxic effect of mercury for living being mercury thermometers are not much in use these days. The different calibration process of thermometers produces different types of temperature scales. They are Centigrade (Celsius) scale [ ], Fahrenheit scale[ ], and Kelvin scale [ ]. There are some other types of scales like Rankine's or Reamer's thermometers available but they are almost obsolete. A centigrade thermometer has 100 divisions between the freezing point (0 degree Celsius) and the boiling point (100 degree Celsius) of water. Swedish astronomer Andres Celsius is credited for its development. A temperature of 76 degree Celsius is abbreviated as The Celsius scale is the most widely accepted temperature scale in the world except the United States. In Fahrenheit thermometer, there are 180 divisions between the freezing point (32 degree Fahrenheit) and the boiling point (212 degree Fahrenheit) of water. German physicist Daniel Fahrenheit is credited for its development. It is the first modern thermometer developed in 1714. A temperature of 76 degree Fahrenheit is abbreviated as    Thermometers    Celcius Scale     Fahrenheit Scale     Kelvin Scale      Kelvin scale of temperature is the standard metric system of temperature measurement and mostly used by scientists. The Kelvin scale has 100 equal degree increments between the freezing point and the boiling point of water just as the Celsius scale. However, the zero-degree mark on the Kelvin scale is 273.15 units cooler than it is on the Celsius scale. So a temperature of 0 Kelvin is equivalent to a temperature of Traditionally, degree symbol is not used with the Kelvin scale. So a temperature of 300 units above 0 Kelvin is referred to as 300 Kelvin and not 300 degree Kelvin. Hence 300 Kelvin is abbreviated as 300 K. Conversions among Celsius, Fahrenheit, and Kelvin scales are summarized below.  Consider these thermometers are placed in a cup of coffey where Celsius scale reads a temperature of C, Fahrenheit scale reads a temperature of F, and Kelvin scale reads a temperature of K, then we can find their relationship as follows Here and are unknown temperature, boiling point of water, and freezing point of water in the respective thermometers, respectively. We have used here freezing point of water as 273 K instead of 273.15 K, just for simplicity.  Eqn. provides the temperature conversion between any two scales. Such as for Celsius\/Kelvin scale,  For Fahrenheit\/Celsius scale,     "
+},
+{
+  "id": "figure-218",
+  "level": "2",
+  "url": "subsec-temp_therm.html#figure-218",
+  "type": "Figure",
+  "number": "10.1.1",
+  "title": "",
+  "body": " Thermometers    Celcius Scale     Fahrenheit Scale     Kelvin Scale     "
+},
+{
+  "id": "subsec-",
+  "level": "1",
+  "url": "subsec-.html",
+  "type": "Subsection",
+  "number": "10.1.2",
+  "title": "Absolute Scale",
+  "body": " Absolute Scale  A physical thermometer uses the physical properties of a material or substance to determine temperature. It relies on the fact that certain physical properties change in a predictable way with temperature. Examples of physical thermometers include mercury-in-glass thermometers, alcohol thermometers, and bimetallic strip thermometers. These thermometers use the expansion and contraction of materials (e.g., mercury or alcohol) to indicate temperature changes. The scale of normal thermometers depends upon the physical propertise (thermal expansion, electrical resistance, etc) of the substance which is used in the thermometer. The physical property (e.g. thermal expansion) of materials varies differently at the different range of temperatures hence all these thermometers have fixed uses. For example, a mercury thermometer can measure temperature ranges from approximately to ( to ). For alcohol thermometer, the typical temperature range is approximately to ( to ). That means, if we go to Antarctica we must bring with us an alcohol thermometer and when going to Lut Desert a hotest place on earth, we need a mercury thermometer. Mercury thermometer may freeze in Antarctica and alcohol thermometer may boil in Lut Desert. To remedy such problems of limitation of physical thermometers, Scottish physicist William Thomson, Baron Kelvin proposed to constructing a temperature scale which should be independent on the material properties on the basis of thermodynamics principles that the lowest possible temperature which could be achieved was in 1848. This minimum temperature is the zero point on Kelvin scale and is known as absolute zero . Kelvin scale is a hypothetical (theoretical) thermometer scale also known as absolute scale . From third law of thermodynamics, it is impossible to reach absolute zero temperature by any physical means.       Temperature is a measure of average kinetic energy per molecule of any substance. In classical mechanical point of view, molecular motion ceases completely at absolute zero and hence possesses zero kinetic energy. (However, in quantum mechanical point if view, at absolute zero molecular motion takes minimum speed of its vibration.) It has been seen from the gas laws that the product of pressure and volume is directly proportional to temperature [ ]. In fact, all gases have energy ( ) heading to zero at the same temperature called absolute zero. At absolute zero the pressure of an ideal gas would drop to zero.  "
+},
+{
+  "id": "p-1112",
+  "level": "2",
+  "url": "subsec-.html#p-1112",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "absolute zero "
+},
+{
+  "id": "abscale",
+  "level": "2",
+  "url": "subsec-.html#abscale",
+  "type": "Figure",
+  "number": "10.1.2",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec_tenth-examplesA",
@@ -5716,9 +5878,9 @@ var ptx_lunr_docs = [
   "body": " Examples A            "
 },
 {
-  "id": "example-162",
+  "id": "example-169",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-162",
+  "url": "sec_tenth-examplesA.html#example-169",
   "type": "Example",
   "number": "10.2.1",
   "title": "",
@@ -5734,9 +5896,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-217",
+  "id": "exercise-224",
   "level": "2",
-  "url": "ex_tenth.html#exercise-217",
+  "url": "ex_tenth.html#exercise-224",
   "type": "Exercise",
   "number": "10.3.1",
   "title": "",
