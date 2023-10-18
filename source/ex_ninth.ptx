@@ -230,10 +230,86 @@
 
 <paragraphs>
   <title>Surface Tension</title>
+ <exercise>
   <p>
-    
-    
+    The base of an insect's leg is approximately spherical in shape with a radius of 
+    about <m>2.0\times 10^{-5} \,m.</m> The mass of the insect is <m>3.00\times 10^{-6} \,kg</m> 
+    and is supported equally by six legs. Calculate the contact angle <m>\theta</m>. 
+    The coefficient of surface tension is 0.072 N/m.
   </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    <ol marker="a.">
+      <li>
+        A circular loop of wire and a pan of soapy water is used to produce a soap bubble whose radius is 1.0 mm.
+        The surface tension of the soapy water is <m>\gamma  = 2.5 \times 10^{-2} \,N/m.</m>
+        Determine the pressure difference between the inside and outside of the bubble.
+      </li>
+      <li>
+        The same soapy water is used to produce a spherical droplet whose radius is 0.50 mm.
+        Find the pressure difference between the inside and outside of the droplet.
+      </li>
+    </ol>
+  </p>
+  <hint>
+    <p>
+      If the bubble and drop had the same radius, then the pressure difference between 
+      the inside and outside of the bubble to be twice as large as that for the drop. 
+      Since a spherical drop of liquid has only one surface, rather than two surfaces, 
+      for there is no air within it.
+    </p>
+  </hint>
+ </exercise>
+
+ <exercise>
+  <p>
+    A circular ring of radius = 5.0 cm is immersed in the liquid and then pulled upward, 
+    so a film is formed between the ring and the liquid. An upward force of <m>3.6 \times  10^{-2} N </m> 
+    is required in addition to the weight of the ring to lift them to the point where 
+    the film just breaks. What is the surface tension of the liquid?  
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A bubble of air in water (<m> \gamma = 0.073 \,N/m</m> ) has a radius of 0.10 mm. 
+    Find the difference in pressures between the inside and outside of the bubble.
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A drop of oil (<m>\gamma = 0.0320 \,N/m</m>) has a radius of 0.01 mm. The drop is located a 
+    distance of 2 m below the surface of fresh water. The atmospheric pressure above the 
+    water is <m>1.01 \times 10^{5} \,Pa</m>. 
+    <ol marker="a.">
+      <li>
+        What is the absolute pressure in the water at this depth? 
+      </li>
+      <li>
+        Determine the absolute pressure inside the oil drop.
+      </li>
+    </ol>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A needle of length 3.2 cm is placed gently on the surface of the water (<m>\gamma =0.073 \,N/m</m>) 
+    so that it can float on the water. What is the weight of the heaviest needle 
+    that can be used in this demonstration?
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A glass plate of length 10 cm and thickness 0.2 cm is pulled up from a liquid 
+    of surface tension 0.07 N/m, find the force with which it is pulled up. 
+    Assume the angle of contact to be zero.
+  </p>
+ </exercise>
 </paragraphs>
 
  </exercises>
