@@ -13,33 +13,33 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Consider a concentric cylindrical shell of length <span class="process-math">\(l\text{,}\)</span> radius <span class="process-math">\(r\text{,}\)</span> and thickness <span class="process-math">\(\,dr\)</span> in a solid cylinder of mass <span class="process-math">\(M\)</span> and radius <span class="process-math">\(R\)</span> [<a href="" class="xref" data-knowl="./knowl/miscyl1.html" title="Figure 7.1.10.(c)">Figure 7.1.10.(c)</a>], then the moment of inertia of the shell is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
+<div class="para">Consider an elemental thin cylinder of length <span class="process-math">\(l\text{,}\)</span> thickness <span class="process-math">\(\,dr\)</span> at a distance <span class="process-math">\(r\)</span> from the center of mass of a thick hollow cylinder of outer radius <span class="process-math">\(R_{2}\)</span> and inner radius <span class="process-math">\(R_{1}\)</span> [<a href="" class="xref" data-knowl="./knowl/mithcyl1.html" title="Figure 7.1.10.(b)">Figure 7.1.10.(b)</a>], then the moment of inertia of this cylinder is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mithcyl1.html">
 \begin{equation*}
-\,dI_{z}=\,dm\,r^{2} = \left[\frac{M}{\pi R^{2}l}\right]\left(2\pi r\,dr l\right)r^{2}
+\,dI=\,dm\,r^{2} = \left[\frac{M}{\pi\left(R^{2}_{2}-R^{2}_{1}\right)l}\right]\left(2\pi r\,dr l\right)r^{2}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mithcyl1.html">
 \begin{equation*}
-\text{or,}\quad I_{z} = \frac{2M}{R^{2}} \int\limits_{0}^{R}r^{3}\,dr
+\text{or,}\quad I = \left(\frac{2M}{R_{2}^{2}-R_{1}^{2}}\right) \int\limits_{R_{1}}^{R_{2}}r^{3}\,dr
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mithcyl1.html">
 \begin{equation*}
-=\frac{2M}{R^{2}}\left(\frac{r^{4}}{4}\right)_{0}^{R}
+=\left(\frac{2M}{R_{2}^{2}-R_{1}^{2}}\right)\left(\frac{r^{4}}{4}\right)_{R_{1}}^{R_{2}}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mithcyl1.html">
 \begin{equation*}
-\therefore\quad I_{z} = \frac{1}{2}\left(\frac{M}{R^{2}}\right)\left(R^{4}-0\right) = \frac{1}{2}MR^{2}
+\therefore\quad I = \frac{1}{2}\left(\frac{M}{R_{2}^{2}-R_{1}^{2}}\right)\left(R_{2}^{4}-R_{1}^{4}\right) 
 \end{equation*}
 </div>
-<div class="para">Show that moment of inertia of a solid cylinder about</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mithcyl1.html">
 \begin{equation*}
-I_{x} =I_{y} = \frac{M}{12}\left(3R^{2}+l^{2}\right).
+= \frac{1}{2}M\left(R_{2}^{2}+R_{1}^{2}\right)
 \end{equation*}
 </div>
+<div class="para">[Mass of an elemental cylinder = (mass per unit volume of a thick cylinder) (volume of elemental cylinder).]</div>
 </div>
 <span class="incontext"><a href="subsec-mi_cylnd.html#p-793" class="internal">in-context</a></span>
 </body>

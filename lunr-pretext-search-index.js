@@ -259,7 +259,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "1.3",
   "title": "Exercise",
-  "body": "  Exercise  The SI unit of energy is ; that of speed v is and of acceleration a is . Which of the formulae for kinetic energy (K) given below can you rule out on the basis of dimensional arguments (m stands for the mass of the body):           Each side of a cube is measured to be 7.203 m. What are the total surface area and the volume of the cube to appropriate significant figures?  Write the sum of the numbers 362.50, 273.2, and 0.502 in a proper significant figures.  Round off the numbers 2.572, 2.566, and 2.725 to the three significant figures.  Which of the following pair of physical quantities does not have same dimensional formula.   Work and Torque,    Impulse and Linear momentum,   Angular momentum and Planck's constant,   Tension and Surface tension.   If the equation of state of gas is expressed as Find the dimensions of a and b.   has the same dimension as of P, and b has the same dimension as V.   Round the following numbers:   62.5347 to four significant figures.    3.78721 to three significant figures.    23.55 to the 0.1 place.    to four significant figures.   0.4203 to the nearest 0.01 place.  56.912 to the nearest whole number. [Answer: 57]   Write the answer for each expression using scientific notation with the appropriate number of significant figures.           to four significant figures.       Convert 1 light year into kilometer.  Convert 1 into .  Find the time taken by the light to reach to us if it is coming from a distant galaxy of m away.  Moon makes angular diameter if seen from the earth and earth makes angular diameter if seen from the moon. What must be their relative size.  "
+  "body": "  Exercise  The SI unit of energy is ; that of speed v is and of acceleration a is . Which of the formulae for kinetic energy (K) given below can you rule out on the basis of dimensional arguments (m stands for the mass of the body):           Each side of a cube is measured to be 7.203 m. What are the total surface area and the volume of the cube to appropriate significant figures?  Write the sum of the numbers 362.50, 273.2, and 0.502 in a proper significant figures.  Round off the numbers 2.572, 2.566, and 2.725 to the three significant figures.  Which of the following pair of physical quantities does not have same dimensional formula.   Work and Torque,    Impulse and Linear momentum,   Angular momentum and Planck's constant,   Tension and Surface tension.   If the equation of state of gas is expressed as Find the dimensions of a and b.   has the same dimension as of P, and b has the same dimension as V.   Round the following numbers:   62.5347 to four significant figures.    3.78721 to three significant figures.    23.55 to the 0.1 place.    to four significant figures.   0.4203 to the nearest 0.01 place.  56.912 to the nearest whole number.   57    Write the answer for each expression using scientific notation with the appropriate number of significant figures.           to four significant figures.       Convert 1 light year into kilometer.  Convert 1 into .  Find the time taken by the light to reach to us if it is coming from a distant galaxy of m away.  Moon makes angular diameter if seen from the earth and earth makes angular diameter if seen from the moon. What must be their relative size.  "
 },
 {
   "id": "exercise-1",
@@ -322,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.7",
   "title": "",
-  "body": "Round the following numbers:   62.5347 to four significant figures.    3.78721 to three significant figures.    23.55 to the 0.1 place.    to four significant figures.   0.4203 to the nearest 0.01 place.  56.912 to the nearest whole number. [Answer: 57]  "
+  "body": "Round the following numbers:   62.5347 to four significant figures.    3.78721 to three significant figures.    23.55 to the 0.1 place.    to four significant figures.   0.4203 to the nearest 0.01 place.  56.912 to the nearest whole number.   57   "
 },
 {
   "id": "exercise-8",
@@ -676,9 +676,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-170",
+  "id": "p-171",
   "level": "2",
-  "url": "subsec-slope.html#p-170",
+  "url": "subsec-slope.html#p-171",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -730,9 +730,9 @@ var ptx_lunr_docs = [
   "body": " Rules to follow while solving motion problems:     Linear Motion Problems: When motion problems become complex (say, more than one object involved, or a single object experiences complex motion) one must subdivide the problem into several sub-problems according to the following steps:  Draw pictures of the situation at the critical times denoting when one sub-problem begins and another ends. Label the drawings appropriately, indicating the positions, velocities, accelerations, and times involved. Use subscripts to distinguish the variables in one sub-problem from another.  Write the appropriate equations for each sub-problem.  Write the equations that relate one sub-problem with the others.  List the given quantities and solve the equations simultaneously for the unknowns.  To use equations of motion along vertical motion, take as negative and upward direction as positive.  Be careful on taking reference point (origin of coordinate). Choose the reference point at the position where event initiates or the ground in general.      Relative Velocity Problems: When relative velocities are involved, use the following steps:  List the given quantities in a form of notation that allows you to recognize which object is moving in what reference frame.  Draw a diagram showing the relationship between the vector velocities of the problem.  Write the equations relating the horizontal and vertical components of these vectors.  Solve the equations simultaneously for the unknowns of interest.      "
 },
 {
-  "id": "p-178",
+  "id": "p-179",
   "level": "2",
-  "url": "subsec-rule_solveMotion.html#p-178",
+  "url": "subsec-rule_solveMotion.html#p-179",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -892,227 +892,11 @@ var ptx_lunr_docs = [
   "body": "  An object is falling from rest in presence of air drag where Find the velocity of the particle at any instant .               "
 },
 {
-  "id": "ex_thirdA",
-  "level": "1",
-  "url": "ex_thirdA.html",
-  "type": "Exercises",
-  "number": "3.3",
-  "title": "Exercise A",
-  "body": "  Exercise A  Given the curve as shown below, produce and graphs.    Given , where all units are in the MKS system. Find each of the following:  x(3s),  v,  v(-2s),  a, and  a(1s).    A particle moves according to the equation , where all units are in the MKS system. Find each of the following:  x(4),  v,  v(4),  a, and  a(9).    A particle starts out at and moves according to the equation where all units are in the MKS system. Find each of the following:  x(2),  v,  v(4),  a, and  a(5).    A ball is rolled up an inclined plane and returns to its starting point at the bottom of the plane in 4 s. If the ball travels a total distance up the plane of 1.5 m, what was  its initial speed and  acceleration?  Express the acceleration in units of g?    During an air show, a jet aircraft passes the spectators who see the lights of its afterburners ignited 4 seconds later. One second after that, they hear the blast from the ignition. If the speed of sound is 345 m\/s,  how fast was the jet traveling before turning on its afterburners?  If the jet accelerates with the afterburners at a constant , how long (after igniting the afterburners) will it take for the jet to break the sound barrier?    A car traveling at a constant speed of 10 m\/s passes a policeman who is at rest and unseen. The car continues on a distance of 50 meters and then runs a red light. If it takes an additional 5 seconds for the policeman to start his motorcycle in order to pursue the law breaker and if he accelerates at a rate of one-quarter g,  how long after starting out does it take for the policeman to overtake the car?  How far does the policeman travel before overtaking the car?  How fast will the policeman be moving when he gets to the car ?    A man has a row boat which he can row at a steady speed of 3 kmh in calm water traveling on the average a distance of 2 m with every stroke of the oars. He decides to use the boat to cross a river 100 m wide flowing at 1 kmh and traveling straight to a point 200 m up stream of his starting point.  How long will it take him to reach his destination?  How many strokes will he have to make in order to get to his destination ?    A river is flowing due east with a speed A swimmer can swim in still water at a speed of .   If swimmer, starts swimming due north, what will be his resultant velocity?    If he wants to start from point A on south bank and reach opposite point B on north bank,  which direction should he swim ?  what will be his resultant speed ?      The engine of a boat drives it across a river that is 1800 m wide. The velocity of the boat relative to the water is 4.0 m\/s, directed perpendicular to the current. The velocity of the water relative to the shore is 2.0 m\/s.  What is the velocity of the boat relative to the shore?  How long does it take for the boat to cross the river?    A bucket is left out in the rain. The rain is coming down at 5 m\/s. If a crosswind starts to blow at 2 m\/s, will the bucket fill faster or slower?  A train is traveling relative to the ground at 15 m\/s and car is traveling relative to the train is 20 m\/s, find the velocity of car with respect to ground. If the car were traveling to left with velocity of 20m\/s with respect to train. Find ?  A race car starts from rest and accelerates at for 10 seconds. The brakes are then applied, and the car has a constant acceleration until it comes to rest. Determine  the maximum velocity,  the total distance traveled;  the total time of travel.    The car is traveling at 48 km\/h when the traffic light 90 m ahead turns yellow. The driver takes 1 s to react before he applies the accelerator. If the car has a constant acceleration of and the light remains yellow for 5 s, will the car reach the light before it turns red? How fast is the car moving when it reaches the light?  The rocket starts from rest at t = 0 and travels straight up. Its height above the ground as a function of time can be approximated by , where b and c are constants. At , the rocket's velocity and acceleration are and . Determine the time at which the rocket reaches supersonic speed (325 m\/s) and the altitude at that time.  The boat is moving at 10 m\/s when its engine is shut down. Due to hydrodynamic drag, its subsequent acceleration is , where v is the velocity of the boat in m\/s. What is the boat's velocity 4 s after the engine is shut down?  A stone is thrown vertically upward from a bridge 30.0 m high at an initial velocity of 15.0 m\/s. How long will it take for the stone to hit the water below?  A body moves in the x-direction with an acceleration given by . Find the equations for the velocity and displacement of the moving body at any time t. The body starts from rest at . Find the numerical values of the velocity, displacement, and acceleration at t = 5.00s.  A block slides down a smooth inclined plane that makes an angle of with the horizontal. Find the acceleration of the block. If the plane is 10.0 meters long and the block starts from rest, what is its velocity at the bottom of the plane? How long does it take for the block to get to the bottom?  use and to find a.   At the instant that the traffic light turns green, a car starting from rest with an acceleration of is passed by a truck moving at a constant velocity of 60.0 km\/hr.  How long will it take for the car to overtake the truck?  How far from the starting point will the car overtake the truck?  At what velocity will the car be moving when it overtakes the truck?    Find the distance covered by a particle in its time period . If the position vector of the particle is given by Where is constant.  If where and are constants. Find the acceleration of the particle.  A person goes to 15 m at north east and then goes to 30 m at south of west. What is his displacement?  "
-},
-{
-  "id": "exercise-27",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-27",
-  "type": "Exercise",
-  "number": "3.3.1",
-  "title": "",
-  "body": "Given the curve as shown below, produce and graphs.   "
-},
-{
-  "id": "exercise-28",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-28",
-  "type": "Exercise",
-  "number": "3.3.2",
-  "title": "",
-  "body": "Given , where all units are in the MKS system. Find each of the following:  x(3s),  v,  v(-2s),  a, and  a(1s).   "
-},
-{
-  "id": "exercise-29",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-29",
-  "type": "Exercise",
-  "number": "3.3.3",
-  "title": "",
-  "body": "A particle moves according to the equation , where all units are in the MKS system. Find each of the following:  x(4),  v,  v(4),  a, and  a(9).   "
-},
-{
-  "id": "exercise-30",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-30",
-  "type": "Exercise",
-  "number": "3.3.4",
-  "title": "",
-  "body": "A particle starts out at and moves according to the equation where all units are in the MKS system. Find each of the following:  x(2),  v,  v(4),  a, and  a(5).   "
-},
-{
-  "id": "exercise-31",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-31",
-  "type": "Exercise",
-  "number": "3.3.5",
-  "title": "",
-  "body": "A ball is rolled up an inclined plane and returns to its starting point at the bottom of the plane in 4 s. If the ball travels a total distance up the plane of 1.5 m, what was  its initial speed and  acceleration?  Express the acceleration in units of g?   "
-},
-{
-  "id": "exercise-32",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-32",
-  "type": "Exercise",
-  "number": "3.3.6",
-  "title": "",
-  "body": "During an air show, a jet aircraft passes the spectators who see the lights of its afterburners ignited 4 seconds later. One second after that, they hear the blast from the ignition. If the speed of sound is 345 m\/s,  how fast was the jet traveling before turning on its afterburners?  If the jet accelerates with the afterburners at a constant , how long (after igniting the afterburners) will it take for the jet to break the sound barrier?   "
-},
-{
-  "id": "exercise-33",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-33",
-  "type": "Exercise",
-  "number": "3.3.7",
-  "title": "",
-  "body": "A car traveling at a constant speed of 10 m\/s passes a policeman who is at rest and unseen. The car continues on a distance of 50 meters and then runs a red light. If it takes an additional 5 seconds for the policeman to start his motorcycle in order to pursue the law breaker and if he accelerates at a rate of one-quarter g,  how long after starting out does it take for the policeman to overtake the car?  How far does the policeman travel before overtaking the car?  How fast will the policeman be moving when he gets to the car ?   "
-},
-{
-  "id": "exercise-34",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-34",
-  "type": "Exercise",
-  "number": "3.3.8",
-  "title": "",
-  "body": "A man has a row boat which he can row at a steady speed of 3 kmh in calm water traveling on the average a distance of 2 m with every stroke of the oars. He decides to use the boat to cross a river 100 m wide flowing at 1 kmh and traveling straight to a point 200 m up stream of his starting point.  How long will it take him to reach his destination?  How many strokes will he have to make in order to get to his destination ?   "
-},
-{
-  "id": "exercise-35",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-35",
-  "type": "Exercise",
-  "number": "3.3.9",
-  "title": "",
-  "body": "A river is flowing due east with a speed A swimmer can swim in still water at a speed of .   If swimmer, starts swimming due north, what will be his resultant velocity?    If he wants to start from point A on south bank and reach opposite point B on north bank,  which direction should he swim ?  what will be his resultant speed ?     "
-},
-{
-  "id": "exercise-36",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-36",
-  "type": "Exercise",
-  "number": "3.3.10",
-  "title": "",
-  "body": "The engine of a boat drives it across a river that is 1800 m wide. The velocity of the boat relative to the water is 4.0 m\/s, directed perpendicular to the current. The velocity of the water relative to the shore is 2.0 m\/s.  What is the velocity of the boat relative to the shore?  How long does it take for the boat to cross the river?   "
-},
-{
-  "id": "exercise-37",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-37",
-  "type": "Exercise",
-  "number": "3.3.11",
-  "title": "",
-  "body": "A bucket is left out in the rain. The rain is coming down at 5 m\/s. If a crosswind starts to blow at 2 m\/s, will the bucket fill faster or slower? "
-},
-{
-  "id": "exercise-38",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-38",
-  "type": "Exercise",
-  "number": "3.3.12",
-  "title": "",
-  "body": "A train is traveling relative to the ground at 15 m\/s and car is traveling relative to the train is 20 m\/s, find the velocity of car with respect to ground. If the car were traveling to left with velocity of 20m\/s with respect to train. Find ? "
-},
-{
-  "id": "exercise-39",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-39",
-  "type": "Exercise",
-  "number": "3.3.13",
-  "title": "",
-  "body": "A race car starts from rest and accelerates at for 10 seconds. The brakes are then applied, and the car has a constant acceleration until it comes to rest. Determine  the maximum velocity,  the total distance traveled;  the total time of travel.   "
-},
-{
-  "id": "exercise-40",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-40",
-  "type": "Exercise",
-  "number": "3.3.14",
-  "title": "",
-  "body": "The car is traveling at 48 km\/h when the traffic light 90 m ahead turns yellow. The driver takes 1 s to react before he applies the accelerator. If the car has a constant acceleration of and the light remains yellow for 5 s, will the car reach the light before it turns red? How fast is the car moving when it reaches the light? "
-},
-{
-  "id": "exercise-41",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-41",
-  "type": "Exercise",
-  "number": "3.3.15",
-  "title": "",
-  "body": "The rocket starts from rest at t = 0 and travels straight up. Its height above the ground as a function of time can be approximated by , where b and c are constants. At , the rocket's velocity and acceleration are and . Determine the time at which the rocket reaches supersonic speed (325 m\/s) and the altitude at that time. "
-},
-{
-  "id": "exercise-42",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-42",
-  "type": "Exercise",
-  "number": "3.3.16",
-  "title": "",
-  "body": "The boat is moving at 10 m\/s when its engine is shut down. Due to hydrodynamic drag, its subsequent acceleration is , where v is the velocity of the boat in m\/s. What is the boat's velocity 4 s after the engine is shut down? "
-},
-{
-  "id": "exercise-43",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-43",
-  "type": "Exercise",
-  "number": "3.3.17",
-  "title": "",
-  "body": "A stone is thrown vertically upward from a bridge 30.0 m high at an initial velocity of 15.0 m\/s. How long will it take for the stone to hit the water below? "
-},
-{
-  "id": "exercise-44",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-44",
-  "type": "Exercise",
-  "number": "3.3.18",
-  "title": "",
-  "body": "A body moves in the x-direction with an acceleration given by . Find the equations for the velocity and displacement of the moving body at any time t. The body starts from rest at . Find the numerical values of the velocity, displacement, and acceleration at t = 5.00s. "
-},
-{
-  "id": "exercise-45",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-45",
-  "type": "Exercise",
-  "number": "3.3.19",
-  "title": "",
-  "body": "A block slides down a smooth inclined plane that makes an angle of with the horizontal. Find the acceleration of the block. If the plane is 10.0 meters long and the block starts from rest, what is its velocity at the bottom of the plane? How long does it take for the block to get to the bottom?  use and to find a.  "
-},
-{
-  "id": "exercise-46",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-46",
-  "type": "Exercise",
-  "number": "3.3.20",
-  "title": "",
-  "body": "At the instant that the traffic light turns green, a car starting from rest with an acceleration of is passed by a truck moving at a constant velocity of 60.0 km\/hr.  How long will it take for the car to overtake the truck?  How far from the starting point will the car overtake the truck?  At what velocity will the car be moving when it overtakes the truck?   "
-},
-{
-  "id": "exercise-47",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-47",
-  "type": "Exercise",
-  "number": "3.3.21",
-  "title": "",
-  "body": "Find the distance covered by a particle in its time period . If the position vector of the particle is given by Where is constant. "
-},
-{
-  "id": "exercise-48",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-48",
-  "type": "Exercise",
-  "number": "3.3.22",
-  "title": "",
-  "body": "If where and are constants. Find the acceleration of the particle. "
-},
-{
-  "id": "exercise-49",
-  "level": "2",
-  "url": "ex_thirdA.html#exercise-49",
-  "type": "Exercise",
-  "number": "3.3.23",
-  "title": "",
-  "body": "A person goes to 15 m at north east and then goes to 30 m at south of west. What is his displacement? "
-},
-{
   "id": "subsec-projtile_motion",
   "level": "1",
   "url": "subsec-projtile_motion.html",
   "type": "Subsection",
-  "number": "3.4.1",
+  "number": "3.3.1",
   "title": "Projtile Motion",
   "body": " Projtile Motion               Projectile is a particle which has both horizontal as well as vertical motions. For example, a baseball in flight is a projectile. To analyze the projectile motion, three basic assumptions are made:  acceleration due to gravity is constant and is directed downward,  the effect of air resistance is negligible, and  the surface of the earth is flat.  To analyze the projectile motion, two‐dimensional motion is separated into vertical and horizontal motions. The object in vertical motion experiences constant acceleration due to gravity. The object in horizontal motion on the other hand experiences no acceleration and hence it maintains a constant horizontal velocity through out its motion. Suppose a particle is thrown from the origin with an initial velocity ( ), along an angle from the ground level as shown in , then the x- and y- components of the initial velocity are given by and The horizontal distance covered by the projectile in any time is given by The vertical distance covered by the projectile in any time is given by here is taken as positive for downward direction. Hence velocities and angle of a projectile after time is given by  and   The time taken by the projectile to reach its highest point, and falls to the ground again is called a time of flight . The time for the projectile to reach the ground from its highest point is equal to the time of fall for a freely falling object that falls straight down from the same height. This is because an object in flight only experiences vertical force (weight of the object) in vertical motion but not in horizontal motion as soon as it is released from the thrower's hand. Projectile paths are parabolic and, therefore, symmetric. The object reaches the top of its rise in half of the total time of flight . At the top of the rise, the vertical velocity is zero. These facts can be used to derive the horizontal distance traveled by the projectile, also called the range . At maximum height, and ; therefore, the time of flight using eqns. and   and the range, can be calculated using eqns. , , and , or,  The maximum height is given by   If , then is maximum using eqn. . sketches the trajectories of projectiles thrown with the same initial speed at different angles of inclination. The trajectory of a projectile is parabolic in nature as can be seen from eqns. and ,   which resembles the parabolic equation .  "
 },
@@ -1121,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-projtile_motion.html#figure-34",
   "type": "Figure",
-  "number": "3.4.1",
+  "number": "3.3.1",
   "title": "",
   "body": "            "
 },
@@ -1130,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "subsec-cir_kinem.html",
   "type": "Subsection",
-  "number": "3.4.2",
+  "number": "3.3.2",
   "title": "Circular Kinematics",
   "body": " Circular Kinematics       An object moving in a circular path is called a circular motion. In a uniform circular motion the direction of velocity is constantly changing but its magnitude remains constant. This constantly changing velocity vector produces the acceleration on an object which is pointed towards the center of a circle, called a centripetal acceleration. For this acceleration to happen there must exists a resultant force which is called the centripetal force. The centripetal force is not a physical force like frictional force, normal force, or gravity force, etc. it does not act on a body but it makes the body to rotate in a circle. This is a resulting force rather than a causing force like tension in a string, normal force acting on a body, frictional force between the surfaces of contact, and all fundamental forces. It is an unbalanced force. [ Note that the causing force always comes in pair.] If is the radius of the path, and is the time period, the time it takes to complete a circle, then its speed (linear) is given by For a uniform circular motion centripetal acceleration , is pointed along the radial direction towards its center and the tangential acceleration is zero. For a non-uniform circular motion there is still a radial acceleration but the tangential acceleration is non-zero pointed along the direction of velocity. If the centripetal force vanishes, the object flies off at a tangent to the circle.    Centripetal Acceleration:                   Consider a particle rotating in a circular path and reaches to point A from point B in a small time interval . The velocity vectors of the particle are at point A and at point B. The angular displacement subtends by the particle between point A and B is as shown in .  From quadrilateral OAMB of , and hence, as . Now from radian formula, Dividing both sides by , we get-  From , also, Dividing both sides by , we get-   using eqn. where , is a centripetal acceleration. In uniform circular motion is called the radial acceleration. In non-uniform circular motion the magnitude of a linear velocity is changing with time, and hence there is another acceleration presents along the tangential direction of motion, also called tangential acceleration. Which can be obtained by differentiating eqn. w.r.t. 't',  Hence the resultant acceleration in non-uniform circular motion [ ] is given by     Angular Displacement, :  The angle subtends by an object when rotating in a circular path about an axis is called the angular displacement. In a 2D space, angular displacement describes a rotation of an object and is a simply number, a scalar. However, in 3D space, direction of the axis of rotation of an object need to be specified and hence it behaves as a vector. The direction of the vector is the direction of the axis of rotation, and the magnitude is how big the rotation was. Since angular displacement does not follow all the vectors rule in 2 dimension hence it is not taken as a vector quantity. For angular rotation in 2D, , i.e. not commutative for large angles. Suppose you have two pencils parallel to each other facing tips opposite to you. You rotate first pencil to about vertical axis so that tip facing left side, then rotate it again by about a horizontal axis so that its tip facing upward. Now rotate the second pencil by about the horizontal axis so that its tip facing upward and again rotate it by about a another horizontal axis so that tip facing left. Now you can see that they have different orientations, not parallel any more.    Angular Velocity, :  The angular velocity, of an object is defined as the rate of change of angular displacement, . That is, . It is measured in unit ( ). It is a vector quantity and its direction is along the direction of axis of rotation defined by right hand thumb rule. If fingers of right hand are curled in the direction of rotation of the body then thumb pointed along the direction of angular velocity. The average angular velocity is given by and the instantaneous angular velocity is given by     Angular Frequency, :  It is also known as circular frequency which measures angular displacement per unit time. Its unit is therefore radians per second. It is a scalar quantity. It is related to angular velocity in the same way as circular motion is related to simple harmonic motion. If an object goes around a circle path once in a certain time T (in seconds), then it has subtended radians angle, and its angular velocity is thus radians per second. , frequency and hence the angular frequency.    Angular Acceleration, :  It is the rate of change of angular velocity. The average angular acceleration is given by and the instantaneous angular acceleration is given by       Equations of motion in a circular motion:      "
 },
@@ -1139,14 +923,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-cir_kinem.html#cir1",
   "type": "Figure",
-  "number": "3.4.2",
+  "number": "3.3.2",
   "title": "",
   "body": "   "
 },
 {
-  "id": "p-254",
+  "id": "p-229",
   "level": "2",
-  "url": "subsec-cir_kinem.html#p-254",
+  "url": "subsec-cir_kinem.html#p-229",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1157,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-cir_kinem.html#figure-38",
   "type": "Figure",
-  "number": "3.4.3",
+  "number": "3.3.3",
   "title": "",
   "body": "                "
 },
@@ -1166,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-cir_kinem.html#cirkint",
   "type": "Figure",
-  "number": "3.4.4",
+  "number": "3.3.4",
   "title": "",
   "body": "   "
 },
@@ -1175,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "subsec-polar_coord.html",
   "type": "Subsection",
-  "number": "3.4.3",
+  "number": "3.3.3",
   "title": "Motion in Polar Coordinates",
   "body": " Motion in Polar Coordinates  In polar coordinates, the position of a particle P, is determined by the position vector, and the angle of the vector with the horizontal axis. The trajectory of the particle is given by a function of .      From ,  where and are unit vectors at point P along radial and circumferential directions and are perpendicular to each other. Now,      Where , and are radial and circumferential component of velocity, respectively. The radial velocity describe the rate at which stretches and circumferential velocity describe the rate at which swings. Now,        "
 },
@@ -1184,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-polar_coord.html#polarcord",
   "type": "Figure",
-  "number": "3.4.5",
+  "number": "3.3.5",
   "title": "",
   "body": "   "
 },
@@ -1193,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_third-examplesB.html",
   "type": "Section",
-  "number": "3.5",
+  "number": "3.4",
   "title": "Examples B",
   "body": " Examples B    A particle is moving according to the equation where , , and . Find   ,  ,  ,  ,  ,  , and  .          ,               and           A particle is moving in a circle of radius with a constant speed of . It's equation of motion is , where . Find:   ,  ,  ,  ,  ,  ,   and                               The earth is spinning about its axis with a period of 23 hours 56 min and 4 sec. The equatorial radius of the earth is m.  Find the velocity of a person at Barbourville, KY (latitude = ) as they undergo circular motion about the earth's axis of rotation.  Find the person's centripetal acceleration.      Given: Time period, T= 23 h 56 min and 4 sec= ,  Radius of the circle at the position of a person,               A baseball is hit at a angle with an initial speed of 30 m\/s toward a wall 5 m high located 50 m away. Find each of the following:    How fast is the ball initially traveling horizontally?  How fast is the ball initially traveling vertically?  When does the ball get to the wall?  How high is the ball at that time?  How fast is the ball traveling at that time?  Does the ball clear the fence? By how much?                Yes, by 10.7 m - 5 m = 5.7 m.        A football is punted at an angle and travels down field a distance of 40 yards from the kicker toward a receiver located 60 yards away.  What was the initial speed of the football?  How long was it in the air?  How high did it go?  How fast must the receiver run to catch the ball?                      A man stands on the roof of a 150 m tall building and throws a rock with a velocity of 30m\/s at an angle of above the horizontal. Ignore air resistance. Calculate:    The maximum height above the roof reached by the rock.  The magnitude and direction of the velocity of the rock just before it strikes the ground.  The horizontal distance from the base of the building to the point where the rock strikes the ground.      Given: and                   In a test of a volunteer is rotated in horizontal circle of radius 7.0 m. what is the period of rotation at which the centripetal acceleration has a magnitude of 10.0 g?            A 20kg rock is thrown horizontally from the top of a cliff of height 20m from the ground. What must be the minimum speed of the rock so that it falls in a 10 m deep well which is located at 50 m away from the cliff?    Given: Height of cliff, distance of well from the cliff, depth of the well, . Now     Hence,        A ball kicked at an angle of hits the window of the building 15 m away. If the window is at height of 2 m above the ground find the time taken by the ball to hits it.    Given: x=15m, , h=2m.            A hunter fires the dart on a monkey with 15 m\/s velocity at tree 20 m away from him. The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired.  How long does it take for the dart to get him? and  Find the vertical position of where the monkey meets his end.      Given: Position of monkey on the tree, distance of tree from the hunter, nozle velocity of dart, .                    The golf is bouncing from the floor with components of velocity and   Determine the horizontal distance from the point where the ball left the floor to the point where it hits the floor again.  The ball leaves the floor at x = 0, y = 0. Determine the ball's y coordinate as a function of x.      Given:     When it hits the ground,   At any point of the flight, we have           A centrifuge machine can run with a high acceleration has a radius of 8 m. It starts from rest at t = 0, and during its two-minute acceleration phase it is programmed so that its angular acceleration is given as a function of time in seconds by . At what is the magnitude of the acceleration?    The angular velocity,  The normal and tangential components of acceleration are  Since the tangential component is zero, then the total acceleration is the same as the normal acceleration .      A boat moves in flat spiral curve at 2.00 m\/s and follows the path m, where is in radians. When rad, determine the boat's velocity in terms of polar coordinates.      The velocity along the path, . The path function is The radial component of velocity is The circumferential component of velocity is  At           A football is kicked from 40 m away from the goalpost at 25 m\/s. The goalpost crossbar is 3.5 m above the ground. Determine the minimum and maximum kicking angles which will take the goal.    Given:  and m.                 A point P on wheel of radius 0.5 m which was touching the road initially had made a 3\/4 revolution on the road. Find its displacement.     Note: is the distance of center to center displacement on x axis but point P is still r distance ahead of new point of contact.        "
 },
@@ -1202,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-35",
   "type": "Example",
-  "number": "3.5.1",
+  "number": "3.4.1",
   "title": "",
   "body": "  A particle is moving according to the equation where , , and . Find   ,  ,  ,  ,  ,  , and  .          ,               and        "
 },
@@ -1211,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-36",
   "type": "Example",
-  "number": "3.5.2",
+  "number": "3.4.2",
   "title": "",
   "body": "  A particle is moving in a circle of radius with a constant speed of . It's equation of motion is , where . Find:   ,  ,  ,  ,  ,  ,   and                            "
 },
@@ -1220,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-37",
   "type": "Example",
-  "number": "3.5.3",
+  "number": "3.4.3",
   "title": "",
   "body": "  The earth is spinning about its axis with a period of 23 hours 56 min and 4 sec. The equatorial radius of the earth is m.  Find the velocity of a person at Barbourville, KY (latitude = ) as they undergo circular motion about the earth's axis of rotation.  Find the person's centripetal acceleration.      Given: Time period, T= 23 h 56 min and 4 sec= ,  Radius of the circle at the position of a person,            "
 },
@@ -1229,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-38",
   "type": "Example",
-  "number": "3.5.4",
+  "number": "3.4.4",
   "title": "",
   "body": "  A baseball is hit at a angle with an initial speed of 30 m\/s toward a wall 5 m high located 50 m away. Find each of the following:    How fast is the ball initially traveling horizontally?  How fast is the ball initially traveling vertically?  When does the ball get to the wall?  How high is the ball at that time?  How fast is the ball traveling at that time?  Does the ball clear the fence? By how much?                Yes, by 10.7 m - 5 m = 5.7 m.     "
 },
@@ -1238,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-39",
   "type": "Example",
-  "number": "3.5.5",
+  "number": "3.4.5",
   "title": "",
   "body": "  A football is punted at an angle and travels down field a distance of 40 yards from the kicker toward a receiver located 60 yards away.  What was the initial speed of the football?  How long was it in the air?  How high did it go?  How fast must the receiver run to catch the ball?                   "
 },
@@ -1247,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-40",
   "type": "Example",
-  "number": "3.5.6",
+  "number": "3.4.6",
   "title": "",
   "body": "  A man stands on the roof of a 150 m tall building and throws a rock with a velocity of 30m\/s at an angle of above the horizontal. Ignore air resistance. Calculate:    The maximum height above the roof reached by the rock.  The magnitude and direction of the velocity of the rock just before it strikes the ground.  The horizontal distance from the base of the building to the point where the rock strikes the ground.      Given: and                "
 },
@@ -1256,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-41",
   "type": "Example",
-  "number": "3.5.7",
+  "number": "3.4.7",
   "title": "",
   "body": "  In a test of a volunteer is rotated in horizontal circle of radius 7.0 m. what is the period of rotation at which the centripetal acceleration has a magnitude of 10.0 g?         "
 },
@@ -1265,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-42",
   "type": "Example",
-  "number": "3.5.8",
+  "number": "3.4.8",
   "title": "",
   "body": "  A 20kg rock is thrown horizontally from the top of a cliff of height 20m from the ground. What must be the minimum speed of the rock so that it falls in a 10 m deep well which is located at 50 m away from the cliff?    Given: Height of cliff, distance of well from the cliff, depth of the well, . Now     Hence,     "
 },
@@ -1274,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-43",
   "type": "Example",
-  "number": "3.5.9",
+  "number": "3.4.9",
   "title": "",
   "body": "  A ball kicked at an angle of hits the window of the building 15 m away. If the window is at height of 2 m above the ground find the time taken by the ball to hits it.    Given: x=15m, , h=2m.         "
 },
@@ -1283,7 +1067,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-44",
   "type": "Example",
-  "number": "3.5.10",
+  "number": "3.4.10",
   "title": "",
   "body": "  A hunter fires the dart on a monkey with 15 m\/s velocity at tree 20 m away from him. The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired.  How long does it take for the dart to get him? and  Find the vertical position of where the monkey meets his end.      Given: Position of monkey on the tree, distance of tree from the hunter, nozle velocity of dart, .                 "
 },
@@ -1292,7 +1076,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-45",
   "type": "Example",
-  "number": "3.5.11",
+  "number": "3.4.11",
   "title": "",
   "body": "  The golf is bouncing from the floor with components of velocity and   Determine the horizontal distance from the point where the ball left the floor to the point where it hits the floor again.  The ball leaves the floor at x = 0, y = 0. Determine the ball's y coordinate as a function of x.      Given:     When it hits the ground,   At any point of the flight, we have        "
 },
@@ -1301,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-46",
   "type": "Example",
-  "number": "3.5.12",
+  "number": "3.4.12",
   "title": "",
   "body": "  A centrifuge machine can run with a high acceleration has a radius of 8 m. It starts from rest at t = 0, and during its two-minute acceleration phase it is programmed so that its angular acceleration is given as a function of time in seconds by . At what is the magnitude of the acceleration?    The angular velocity,  The normal and tangential components of acceleration are  Since the tangential component is zero, then the total acceleration is the same as the normal acceleration .   "
 },
@@ -1310,7 +1094,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-47",
   "type": "Example",
-  "number": "3.5.13",
+  "number": "3.4.13",
   "title": "",
   "body": "  A boat moves in flat spiral curve at 2.00 m\/s and follows the path m, where is in radians. When rad, determine the boat's velocity in terms of polar coordinates.      The velocity along the path, . The path function is The radial component of velocity is The circumferential component of velocity is  At        "
 },
@@ -1319,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-48",
   "type": "Example",
-  "number": "3.5.14",
+  "number": "3.4.14",
   "title": "",
   "body": "  A football is kicked from 40 m away from the goalpost at 25 m\/s. The goalpost crossbar is 3.5 m above the ground. Determine the minimum and maximum kicking angles which will take the goal.    Given:  and m.              "
 },
@@ -1328,124 +1112,331 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesB.html#example-49",
   "type": "Example",
-  "number": "3.5.15",
+  "number": "3.4.15",
   "title": "",
   "body": "  A point P on wheel of radius 0.5 m which was touching the road initially had made a 3\/4 revolution on the road. Find its displacement.     Note: is the distance of center to center displacement on x axis but point P is still r distance ahead of new point of contact.       "
 },
 {
-  "id": "ex_thirdB",
+  "id": "ex_third",
   "level": "1",
-  "url": "ex_thirdB.html",
+  "url": "ex_third.html",
   "type": "Exercises",
-  "number": "3.6",
-  "title": "Exercise B",
-  "body": "  Exercise B  A particle is moving according to the equation where and . Find:              A boy uses a sling to throw a rock a distance of 100 m. If the rock is in the air for 5 s, find each of the following:  How fast is the rock initially traveling horizontally?  How fast is the rock initially traveling vertically?  How high does the rock get?  How fast does it hit the ground?  At what angle does it hit the ground?    A hang glider is flying in a horizontal circle of radius 20 m, completing the circle in a time period of 10 s.  What is the speed of the glider?  What is the tangential acceleration of the glider?  What is the radial acceleration of the glider?  Express this last answer in g's of acceleration.  How many g's of force would the pilot be experiencing? Would this be noticeable?    A boy uses a sling to throw a rock across the field by whirling the rock in a vertical circle of radius 0.5 m and frequency 2 Hz. If the rock is released when the sling makes an angle of below the horizontal when the rock is at a height of 1 m above the ground,  how high will the rock rise above the ground and  how far will it travel horizontally before hitting the ground?    A fighter plane is flying horizontally at an altitude of 1.5 km with speed 720 km\/h. At what angle of sight (w.r.t. horizontal) when the target is seen, should the pilot drop the bomb in order to attack the target ?  If the golf ball is hit in the direction of a tree which is from the golfer, will the ball pass over the tree or hit it?  Suppose a tennis player hits a ball when it is at a height of 1.5 m giving it a velocity of 15 m\/s at an angle of to the horizontal. Find when and where the ball will hit the ground.  A footballer kicks a ball on horizontal ground giving it an initial velocity of 25 m\/s at an angle of to the horizontal.  Where will the ball be 1.2 seconds after it is kicked?  What will be the greatest height reached by the ball?  Where will the ball land?    A ball is kicked at an angle . It is intended that the ball lands in the back of a moving truck which has a trunk of length L = 2.5 m. If the initial horizontal distance from the back of the truck to the ball, at the instant of the kick, is , and the truck moves directly away from the ball at velocity (as shown), what is the maximum and minimum velocity so that the ball lands in the trunk. Assume that the initial height of the ball is equal to the height of the ball at the instant it begins to enter the trunk.  An athlete releases the shot at 1.82 m above the ground and its initial velocity is . Determine the horizontal distance the shot travels from the point of release to the point where it hits the ground.  A pilot wants to drop survey markers at remote locations. If he flies at a constant velocity at altitude and the marker is released with zero velocity relative to the plane, at what horizontal distance from the desired impact point should the marker be released?  A point P moves along the spiral path here is in radian. The angular position rad, where t is in seconds, and r = 0 at t = 0. Determine the magnitudes of the velocity and acceleration of P at t = 1 s.  "
+  "number": "3.5",
+  "title": "Exercise",
+  "body": "  Exercise   1D Kinematics  Given the curve as shown below, produce and graphs.   Given , where all units are in the MKS system. Find each of the following:  x(3s),  v,  v(-2s),  a, and  a(1s).    A particle moves according to the equation , where all units are in the MKS system. Find each of the following:  x(4),  v,  v(4),  a, and  a(9).    A particle starts out at and moves according to the equation where all units are in the MKS system. Find each of the following:  x(2),  v,  v(4),  a, and  a(5).    A ball is rolled up an inclined plane and returns to its starting point at the bottom of the plane in 4 s. If the ball travels a total distance up the plane of 1.5 m, what was  its initial speed and  acceleration?  Express the acceleration in units of g?    During an air show, a jet aircraft passes the spectators who see the lights of its afterburners ignited 4 seconds later. One second after that, they hear the blast from the ignition. If the speed of sound is 345 m\/s,  how fast was the jet traveling before turning on its afterburners?  If the jet accelerates with the afterburners at a constant , how long (after igniting the afterburners) will it take for the jet to break the sound barrier?    A car traveling at a constant speed of 10 m\/s passes a policeman who is at rest and unseen. The car continues on a distance of 50 meters and then runs a red light. If it takes an additional 5 seconds for the policeman to start his motorcycle in order to pursue the law breaker and if he accelerates at a rate of one-quarter g,  how long after starting out does it take for the policeman to overtake the car?  How far does the policeman travel before overtaking the car?  How fast will the policeman be moving when he gets to the car ?    A man has a row boat which he can row at a steady speed of 3 kmh in calm water traveling on the average a distance of 2 m with every stroke of the oars. He decides to use the boat to cross a river 100 m wide flowing at 1 kmh and traveling straight to a point 200 m up stream of his starting point.  How long will it take him to reach his destination?  How many strokes will he have to make in order to get to his destination ?    A river is flowing due east with a speed A swimmer can swim in still water at a speed of .   If swimmer, starts swimming due north, what will be his resultant velocity?    If he wants to start from point A on south bank and reach opposite point B on north bank,  which direction should he swim ?  what will be his resultant speed ?      The engine of a boat drives it across a river that is 1800 m wide. The velocity of the boat relative to the water is 4.0 m\/s, directed perpendicular to the current. The velocity of the water relative to the shore is 2.0 m\/s.  What is the velocity of the boat relative to the shore?  How long does it take for the boat to cross the river?    A bucket is left out in the rain. The rain is coming down at 5 m\/s. If a crosswind starts to blow at 2 m\/s, will the bucket fill faster or slower?  A train is traveling relative to the ground at 15 m\/s and car is traveling relative to the train is 20 m\/s, find the velocity of car with respect to ground. If the car were traveling to left with velocity of 20m\/s with respect to train. Find ?  A race car starts from rest and accelerates at for 10 seconds. The brakes are then applied, and the car has a constant acceleration until it comes to rest. Determine  the maximum velocity,  the total distance traveled;  the total time of travel.    The car is traveling at 48 km\/h when the traffic light 90 m ahead turns yellow. The driver takes 1 s to react before he applies the accelerator. If the car has a constant acceleration of and the light remains yellow for 5 s, will the car reach the light before it turns red? How fast is the car moving when it reaches the light?  The rocket starts from rest at t = 0 and travels straight up. Its height above the ground as a function of time can be approximated by , where b and c are constants. At , the rocket's velocity and acceleration are and . Determine the time at which the rocket reaches supersonic speed (325 m\/s) and the altitude at that time.  The boat is moving at 10 m\/s when its engine is shut down. Due to hydrodynamic drag, its subsequent acceleration is , where v is the velocity of the boat in m\/s. What is the boat's velocity 4 s after the engine is shut down?  A stone is thrown vertically upward from a bridge 30.0 m high at an initial velocity of 15.0 m\/s. How long will it take for the stone to hit the water below?  A body moves in the x-direction with an acceleration given by . Find the equations for the velocity and displacement of the moving body at any time t. The body starts from rest at . Find the numerical values of the velocity, displacement, and acceleration at t = 5.00s.  A block slides down a smooth inclined plane that makes an angle of with the horizontal. Find the acceleration of the block. If the plane is 10.0 meters long and the block starts from rest, what is its velocity at the bottom of the plane? How long does it take for the block to get to the bottom?  use and to find a.   At the instant that the traffic light turns green, a car starting from rest with an acceleration of is passed by a truck moving at a constant velocity of 60.0 km\/hr.  How long will it take for the car to overtake the truck?  How far from the starting point will the car overtake the truck?  At what velocity will the car be moving when it overtakes the truck?    Find the distance covered by a particle in its time period . If the position vector of the particle is given by Where is constant.  If where and are constants. Find the acceleration of the particle.  A person goes to 15 m at north east and then goes to 30 m at south of west. What is his displacement?    2D Kinematics  A particle is moving according to the equation where and . Find:              A boy uses a sling to throw a rock a distance of 100 m. If the rock is in the air for 5 s, find each of the following:  How fast is the rock initially traveling horizontally?  How fast is the rock initially traveling vertically?  How high does the rock get?  How fast does it hit the ground?  At what angle does it hit the ground?    A hang glider is flying in a horizontal circle of radius 20 m, completing the circle in a time period of 10 s.  What is the speed of the glider?  What is the tangential acceleration of the glider?  What is the radial acceleration of the glider?  Express this last answer in g's of acceleration.  How many g's of force would the pilot be experiencing? Would this be noticeable?    A boy uses a sling to throw a rock across the field by whirling the rock in a vertical circle of radius 0.5 m and frequency 2 Hz. If the rock is released when the sling makes an angle of below the horizontal when the rock is at a height of 1 m above the ground,  how high will the rock rise above the ground and  how far will it travel horizontally before hitting the ground?    A fighter plane is flying horizontally at an altitude of 1.5 km with speed 720 km\/h. At what angle of sight (w.r.t. horizontal) when the target is seen, should the pilot drop the bomb in order to attack the target ?  If the golf ball is hit in the direction of a tree which is from the golfer, will the ball pass over the tree or hit it?  Suppose a tennis player hits a ball when it is at a height of 1.5 m giving it a velocity of 15 m\/s at an angle of to the horizontal. Find when and where the ball will hit the ground.  A footballer kicks a ball on horizontal ground giving it an initial velocity of 25 m\/s at an angle of to the horizontal.  Where will the ball be 1.2 seconds after it is kicked?  What will be the greatest height reached by the ball?  Where will the ball land?    A ball is kicked at an angle . It is intended that the ball lands in the back of a moving truck which has a trunk of length L = 2.5 m. If the initial horizontal distance from the back of the truck to the ball, at the instant of the kick, is , and the truck moves directly away from the ball at velocity (as shown), what is the maximum and minimum velocity so that the ball lands in the trunk. Assume that the initial height of the ball is equal to the height of the ball at the instant it begins to enter the trunk.  An athlete releases the shot at 1.82 m above the ground and its initial velocity is . Determine the horizontal distance the shot travels from the point of release to the point where it hits the ground.  A pilot wants to drop survey markers at remote locations. If he flies at a constant velocity at altitude and the marker is released with zero velocity relative to the plane, at what horizontal distance from the desired impact point should the marker be released?  A point P moves along the spiral path here is in radian. The angular position rad, where t is in seconds, and r = 0 at t = 0. Determine the magnitudes of the velocity and acceleration of P at t = 1 s.   "
+},
+{
+  "id": "exercise-27",
+  "level": "2",
+  "url": "ex_third.html#exercise-27",
+  "type": "Exercise",
+  "number": "3.5.1",
+  "title": "",
+  "body": "Given the curve as shown below, produce and graphs.  "
+},
+{
+  "id": "exercise-28",
+  "level": "2",
+  "url": "ex_third.html#exercise-28",
+  "type": "Exercise",
+  "number": "3.5.2",
+  "title": "",
+  "body": "Given , where all units are in the MKS system. Find each of the following:  x(3s),  v,  v(-2s),  a, and  a(1s).   "
+},
+{
+  "id": "exercise-29",
+  "level": "2",
+  "url": "ex_third.html#exercise-29",
+  "type": "Exercise",
+  "number": "3.5.3",
+  "title": "",
+  "body": "A particle moves according to the equation , where all units are in the MKS system. Find each of the following:  x(4),  v,  v(4),  a, and  a(9).   "
+},
+{
+  "id": "exercise-30",
+  "level": "2",
+  "url": "ex_third.html#exercise-30",
+  "type": "Exercise",
+  "number": "3.5.4",
+  "title": "",
+  "body": "A particle starts out at and moves according to the equation where all units are in the MKS system. Find each of the following:  x(2),  v,  v(4),  a, and  a(5).   "
+},
+{
+  "id": "exercise-31",
+  "level": "2",
+  "url": "ex_third.html#exercise-31",
+  "type": "Exercise",
+  "number": "3.5.5",
+  "title": "",
+  "body": "A ball is rolled up an inclined plane and returns to its starting point at the bottom of the plane in 4 s. If the ball travels a total distance up the plane of 1.5 m, what was  its initial speed and  acceleration?  Express the acceleration in units of g?   "
+},
+{
+  "id": "exercise-32",
+  "level": "2",
+  "url": "ex_third.html#exercise-32",
+  "type": "Exercise",
+  "number": "3.5.6",
+  "title": "",
+  "body": "During an air show, a jet aircraft passes the spectators who see the lights of its afterburners ignited 4 seconds later. One second after that, they hear the blast from the ignition. If the speed of sound is 345 m\/s,  how fast was the jet traveling before turning on its afterburners?  If the jet accelerates with the afterburners at a constant , how long (after igniting the afterburners) will it take for the jet to break the sound barrier?   "
+},
+{
+  "id": "exercise-33",
+  "level": "2",
+  "url": "ex_third.html#exercise-33",
+  "type": "Exercise",
+  "number": "3.5.7",
+  "title": "",
+  "body": "A car traveling at a constant speed of 10 m\/s passes a policeman who is at rest and unseen. The car continues on a distance of 50 meters and then runs a red light. If it takes an additional 5 seconds for the policeman to start his motorcycle in order to pursue the law breaker and if he accelerates at a rate of one-quarter g,  how long after starting out does it take for the policeman to overtake the car?  How far does the policeman travel before overtaking the car?  How fast will the policeman be moving when he gets to the car ?   "
+},
+{
+  "id": "exercise-34",
+  "level": "2",
+  "url": "ex_third.html#exercise-34",
+  "type": "Exercise",
+  "number": "3.5.8",
+  "title": "",
+  "body": "A man has a row boat which he can row at a steady speed of 3 kmh in calm water traveling on the average a distance of 2 m with every stroke of the oars. He decides to use the boat to cross a river 100 m wide flowing at 1 kmh and traveling straight to a point 200 m up stream of his starting point.  How long will it take him to reach his destination?  How many strokes will he have to make in order to get to his destination ?   "
+},
+{
+  "id": "exercise-35",
+  "level": "2",
+  "url": "ex_third.html#exercise-35",
+  "type": "Exercise",
+  "number": "3.5.9",
+  "title": "",
+  "body": "A river is flowing due east with a speed A swimmer can swim in still water at a speed of .   If swimmer, starts swimming due north, what will be his resultant velocity?    If he wants to start from point A on south bank and reach opposite point B on north bank,  which direction should he swim ?  what will be his resultant speed ?     "
+},
+{
+  "id": "exercise-36",
+  "level": "2",
+  "url": "ex_third.html#exercise-36",
+  "type": "Exercise",
+  "number": "3.5.10",
+  "title": "",
+  "body": "The engine of a boat drives it across a river that is 1800 m wide. The velocity of the boat relative to the water is 4.0 m\/s, directed perpendicular to the current. The velocity of the water relative to the shore is 2.0 m\/s.  What is the velocity of the boat relative to the shore?  How long does it take for the boat to cross the river?   "
+},
+{
+  "id": "exercise-37",
+  "level": "2",
+  "url": "ex_third.html#exercise-37",
+  "type": "Exercise",
+  "number": "3.5.11",
+  "title": "",
+  "body": "A bucket is left out in the rain. The rain is coming down at 5 m\/s. If a crosswind starts to blow at 2 m\/s, will the bucket fill faster or slower? "
+},
+{
+  "id": "exercise-38",
+  "level": "2",
+  "url": "ex_third.html#exercise-38",
+  "type": "Exercise",
+  "number": "3.5.12",
+  "title": "",
+  "body": "A train is traveling relative to the ground at 15 m\/s and car is traveling relative to the train is 20 m\/s, find the velocity of car with respect to ground. If the car were traveling to left with velocity of 20m\/s with respect to train. Find ? "
+},
+{
+  "id": "exercise-39",
+  "level": "2",
+  "url": "ex_third.html#exercise-39",
+  "type": "Exercise",
+  "number": "3.5.13",
+  "title": "",
+  "body": "A race car starts from rest and accelerates at for 10 seconds. The brakes are then applied, and the car has a constant acceleration until it comes to rest. Determine  the maximum velocity,  the total distance traveled;  the total time of travel.   "
+},
+{
+  "id": "exercise-40",
+  "level": "2",
+  "url": "ex_third.html#exercise-40",
+  "type": "Exercise",
+  "number": "3.5.14",
+  "title": "",
+  "body": "The car is traveling at 48 km\/h when the traffic light 90 m ahead turns yellow. The driver takes 1 s to react before he applies the accelerator. If the car has a constant acceleration of and the light remains yellow for 5 s, will the car reach the light before it turns red? How fast is the car moving when it reaches the light? "
+},
+{
+  "id": "exercise-41",
+  "level": "2",
+  "url": "ex_third.html#exercise-41",
+  "type": "Exercise",
+  "number": "3.5.15",
+  "title": "",
+  "body": "The rocket starts from rest at t = 0 and travels straight up. Its height above the ground as a function of time can be approximated by , where b and c are constants. At , the rocket's velocity and acceleration are and . Determine the time at which the rocket reaches supersonic speed (325 m\/s) and the altitude at that time. "
+},
+{
+  "id": "exercise-42",
+  "level": "2",
+  "url": "ex_third.html#exercise-42",
+  "type": "Exercise",
+  "number": "3.5.16",
+  "title": "",
+  "body": "The boat is moving at 10 m\/s when its engine is shut down. Due to hydrodynamic drag, its subsequent acceleration is , where v is the velocity of the boat in m\/s. What is the boat's velocity 4 s after the engine is shut down? "
+},
+{
+  "id": "exercise-43",
+  "level": "2",
+  "url": "ex_third.html#exercise-43",
+  "type": "Exercise",
+  "number": "3.5.17",
+  "title": "",
+  "body": "A stone is thrown vertically upward from a bridge 30.0 m high at an initial velocity of 15.0 m\/s. How long will it take for the stone to hit the water below? "
+},
+{
+  "id": "exercise-44",
+  "level": "2",
+  "url": "ex_third.html#exercise-44",
+  "type": "Exercise",
+  "number": "3.5.18",
+  "title": "",
+  "body": "A body moves in the x-direction with an acceleration given by . Find the equations for the velocity and displacement of the moving body at any time t. The body starts from rest at . Find the numerical values of the velocity, displacement, and acceleration at t = 5.00s. "
+},
+{
+  "id": "exercise-45",
+  "level": "2",
+  "url": "ex_third.html#exercise-45",
+  "type": "Exercise",
+  "number": "3.5.19",
+  "title": "",
+  "body": "A block slides down a smooth inclined plane that makes an angle of with the horizontal. Find the acceleration of the block. If the plane is 10.0 meters long and the block starts from rest, what is its velocity at the bottom of the plane? How long does it take for the block to get to the bottom?  use and to find a.  "
+},
+{
+  "id": "exercise-46",
+  "level": "2",
+  "url": "ex_third.html#exercise-46",
+  "type": "Exercise",
+  "number": "3.5.20",
+  "title": "",
+  "body": "At the instant that the traffic light turns green, a car starting from rest with an acceleration of is passed by a truck moving at a constant velocity of 60.0 km\/hr.  How long will it take for the car to overtake the truck?  How far from the starting point will the car overtake the truck?  At what velocity will the car be moving when it overtakes the truck?   "
+},
+{
+  "id": "exercise-47",
+  "level": "2",
+  "url": "ex_third.html#exercise-47",
+  "type": "Exercise",
+  "number": "3.5.21",
+  "title": "",
+  "body": "Find the distance covered by a particle in its time period . If the position vector of the particle is given by Where is constant. "
+},
+{
+  "id": "exercise-48",
+  "level": "2",
+  "url": "ex_third.html#exercise-48",
+  "type": "Exercise",
+  "number": "3.5.22",
+  "title": "",
+  "body": "If where and are constants. Find the acceleration of the particle. "
+},
+{
+  "id": "exercise-49",
+  "level": "2",
+  "url": "ex_third.html#exercise-49",
+  "type": "Exercise",
+  "number": "3.5.23",
+  "title": "",
+  "body": "A person goes to 15 m at north east and then goes to 30 m at south of west. What is his displacement? "
 },
 {
   "id": "exercise-50",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-50",
+  "url": "ex_third.html#exercise-50",
   "type": "Exercise",
-  "number": "3.6.1",
+  "number": "3.5.24",
   "title": "",
   "body": "A particle is moving according to the equation where and . Find:             "
 },
 {
   "id": "exercise-51",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-51",
+  "url": "ex_third.html#exercise-51",
   "type": "Exercise",
-  "number": "3.6.2",
+  "number": "3.5.25",
   "title": "",
   "body": "A boy uses a sling to throw a rock a distance of 100 m. If the rock is in the air for 5 s, find each of the following:  How fast is the rock initially traveling horizontally?  How fast is the rock initially traveling vertically?  How high does the rock get?  How fast does it hit the ground?  At what angle does it hit the ground?   "
 },
 {
   "id": "exercise-52",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-52",
+  "url": "ex_third.html#exercise-52",
   "type": "Exercise",
-  "number": "3.6.3",
+  "number": "3.5.26",
   "title": "",
   "body": "A hang glider is flying in a horizontal circle of radius 20 m, completing the circle in a time period of 10 s.  What is the speed of the glider?  What is the tangential acceleration of the glider?  What is the radial acceleration of the glider?  Express this last answer in g's of acceleration.  How many g's of force would the pilot be experiencing? Would this be noticeable?   "
 },
 {
   "id": "exercise-53",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-53",
+  "url": "ex_third.html#exercise-53",
   "type": "Exercise",
-  "number": "3.6.4",
+  "number": "3.5.27",
   "title": "",
   "body": "A boy uses a sling to throw a rock across the field by whirling the rock in a vertical circle of radius 0.5 m and frequency 2 Hz. If the rock is released when the sling makes an angle of below the horizontal when the rock is at a height of 1 m above the ground,  how high will the rock rise above the ground and  how far will it travel horizontally before hitting the ground?   "
 },
 {
   "id": "exercise-54",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-54",
+  "url": "ex_third.html#exercise-54",
   "type": "Exercise",
-  "number": "3.6.5",
+  "number": "3.5.28",
   "title": "",
   "body": "A fighter plane is flying horizontally at an altitude of 1.5 km with speed 720 km\/h. At what angle of sight (w.r.t. horizontal) when the target is seen, should the pilot drop the bomb in order to attack the target ? "
 },
 {
   "id": "exercise-55",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-55",
+  "url": "ex_third.html#exercise-55",
   "type": "Exercise",
-  "number": "3.6.6",
+  "number": "3.5.29",
   "title": "",
   "body": "If the golf ball is hit in the direction of a tree which is from the golfer, will the ball pass over the tree or hit it? "
 },
 {
   "id": "exercise-56",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-56",
+  "url": "ex_third.html#exercise-56",
   "type": "Exercise",
-  "number": "3.6.7",
+  "number": "3.5.30",
   "title": "",
   "body": "Suppose a tennis player hits a ball when it is at a height of 1.5 m giving it a velocity of 15 m\/s at an angle of to the horizontal. Find when and where the ball will hit the ground. "
 },
 {
   "id": "exercise-57",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-57",
+  "url": "ex_third.html#exercise-57",
   "type": "Exercise",
-  "number": "3.6.8",
+  "number": "3.5.31",
   "title": "",
   "body": "A footballer kicks a ball on horizontal ground giving it an initial velocity of 25 m\/s at an angle of to the horizontal.  Where will the ball be 1.2 seconds after it is kicked?  What will be the greatest height reached by the ball?  Where will the ball land?   "
 },
 {
   "id": "exercise-58",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-58",
+  "url": "ex_third.html#exercise-58",
   "type": "Exercise",
-  "number": "3.6.9",
+  "number": "3.5.32",
   "title": "",
   "body": "A ball is kicked at an angle . It is intended that the ball lands in the back of a moving truck which has a trunk of length L = 2.5 m. If the initial horizontal distance from the back of the truck to the ball, at the instant of the kick, is , and the truck moves directly away from the ball at velocity (as shown), what is the maximum and minimum velocity so that the ball lands in the trunk. Assume that the initial height of the ball is equal to the height of the ball at the instant it begins to enter the trunk. "
 },
 {
   "id": "exercise-59",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-59",
+  "url": "ex_third.html#exercise-59",
   "type": "Exercise",
-  "number": "3.6.10",
+  "number": "3.5.33",
   "title": "",
   "body": "An athlete releases the shot at 1.82 m above the ground and its initial velocity is . Determine the horizontal distance the shot travels from the point of release to the point where it hits the ground. "
 },
 {
   "id": "exercise-60",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-60",
+  "url": "ex_third.html#exercise-60",
   "type": "Exercise",
-  "number": "3.6.11",
+  "number": "3.5.34",
   "title": "",
   "body": "A pilot wants to drop survey markers at remote locations. If he flies at a constant velocity at altitude and the marker is released with zero velocity relative to the plane, at what horizontal distance from the desired impact point should the marker be released? "
 },
 {
   "id": "exercise-61",
   "level": "2",
-  "url": "ex_thirdB.html#exercise-61",
+  "url": "ex_third.html#exercise-61",
   "type": "Exercise",
-  "number": "3.6.12",
+  "number": "3.5.35",
   "title": "",
   "body": "A point P moves along the spiral path here is in radian. The angular position rad, where t is in seconds, and r = 0 at t = 0. Determine the magnitudes of the velocity and acceleration of P at t = 1 s. "
 },
@@ -1459,18 +1450,18 @@ var ptx_lunr_docs = [
   "body": " Fundamental and Mechanical Forces    There are four fundamental forces in nature: gravitational, electromagnetic, weak nuclear, and strong nuclear. Gravitational force is the weakest known forces in nature. It is a long range force. It exists due to mass of the objects. Electromagnetic force is also a long range force and is stronger than gravitational force. It exists due to charges of the objects. Strong nuclear force is the strongest known force but it is the shortest range force which only exists inside the nucleus. Its main job is to hold subatomic particles of the nucleus together. (i.e. binding the positively charged protons and neutral neutrons inside the nucleus). Weak nuclear force is weaker than strong nuclear force and electromagnetic force. It is also a very short range force and accounts for the radioactivity in unstable nuclei.    For a large-scale, electrically neutral objects such as those encountered in this course, the only force that acts at a distance is the gravitational force. All other forces we encounter will be contact forces (mechanical forces) that occur at the boundary of an object where that object physically touches some other object, e.g. tension, friction, normal, and other applied forces [ ]. Actually, mechanical force, or chemical force, or any other kinds of force are all electromagnetic forces. In our daily life almost all force we experienced are electromagnetic force except the force of gravity. Strong nuclear forces are very short range and we do not feel them dispite the fact that it is more powerful than the electromagnetic force. Weak forces are also short range and even weaker than electromagnetic force. mechanical forces     To identify forces acting on a body, first identify the boundary of that object and include the weight of everything inside that boundary. Then identify everything that touches the boundary from outside the object and include an appropriate force for each point of contact.    Look at the forces in .                 Note that massless, frictionless pulleys as shown below adjust themselves so that the tension is the same on both sides of the pulley. is a system of pulleys, is an isolated system, and a free-body diagram.                     "
 },
 {
-  "id": "p-311",
+  "id": "p-312",
   "level": "2",
-  "url": "subsec-types_forces.html#p-311",
+  "url": "subsec-types_forces.html#p-312",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Gravitational force Electromagnetic force Strong nuclear force Weak nuclear force "
 },
 {
-  "id": "p-312",
+  "id": "p-313",
   "level": "2",
-  "url": "subsec-types_forces.html#p-312",
+  "url": "subsec-types_forces.html#p-313",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1504,9 +1495,9 @@ var ptx_lunr_docs = [
   "body": " Newton's Laws of Motion    Newton's first law provides the definition of force which states that every object in a state of rest remains at rest or in a state of uniform motion tends to remain in that motion along the same direction, unless an external force is applied onto it. Force is not required to continue the motion of anything which is already in motion.  The first law is also called a law of inertia. Inertia is an ability of an object to resist changes in its motion. In other words, we can say the laziness of an object to change its mechanical state is called an inertia. Mass is related to inertia, the bigger the mass the more difficult it is to change its state of rest or motion.    Newton's second law provides the measurement of force which states that the rate of change of momentum is directly proportional to the applied force and its direction is along that change.      Newton's third law provides the property of force which states that for every action there is an equal and opposite reaction. Meaning, force always comes in pair. If an object applies the action force on object then the object applies the reaction force on the object . These pair of forces always act on two different objects. For example, if action force is acting on object B then reaction force must be acting on the object A.   If you stand on a weighing scale, your weight push the scale down with a force equal to your weight, then the scale applies the reaction force on you equal to your weight as a normal force. Remember that even if weight and normal force are equal they are not always equal and they are completely different forces. You get a normal force only when you are in contact with the other surface but you have the weight even if you are above the surface (while jumping) of anything. Suppose you are pushing the book against a wall, so that it does not fall. In that case, the book pushes against the wall and the wall pushes back. This interaction is the normal force and acts on both the book and the wall. None of these forces were equal to the gravitational force or weight of the book.    "
 },
 {
-  "id": "p-317",
+  "id": "p-318",
   "level": "2",
-  "url": "subsec-Nlaw_motion.html#p-317",
+  "url": "subsec-Nlaw_motion.html#p-318",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1522,9 +1513,9 @@ var ptx_lunr_docs = [
   "body": " Friction  Friction is a resistive force that opposes or tends to oppose relative motion between two objects. It is a force that exists between the surfaces of contact of the two objects [ ]. If two systems are in contact and stationary relative to each other, then the friction between them is called static friction . This force arises from mechanical interlocking at the microscopic level plus the electrostatic molecular forces that hold the surfaces themselves together. If two systems are in contact and moving relative to one another, then the friction between them is called kinetic friction . This force arises from forming and breaking of microscopic adhesive bonds between atoms on the surfaces plus some mechanical linkage between the small irregularities on the surfaces as shown in . Experimentally it is found that frictional force is proportional to normal force, i.e., as shown in .                    Where proportionality constant is called coefficient of friction. It defines the nature of roughness of the surfaces being in contact. It is a dimensional less quantity. The coefficient of friction is a property of materials and does not change with the angle. For static friction, N. The symbol implies that static friction can have a maximum value of . Static friction is a responsive force that increases to be equal and opposite to whatever force is being exerted, up to its maximum limit. Once the applied force exceeds , the object moves. Thus, . For kinetic friction, . Remember the direction of friction is always opposite to the direction of motion or applied force, not in the direction of normal. Hence the above equations has no vector form.  Friction decreases with increase in smoothness of the surfaces of contact as decreases, but if the surfaces are ultra smooth then friction increases because of inter molecular forces starts to act between the two surfaces as they come very close to each other, due to which it becomes harder to make them slide on each other. Friction is a complex force, and its behavior is still not completely understood. On molecular level friction has no existence. In microscopic level most surfaces look very rough as shown in . Thus, when an object is pushed to move it must raise the object until it can skip the tips of the surface hitting, breaking off the points, or both. A considerable force can be resisted by friction with no apparent motion. Part of the friction is due to adhesive forces between he surface molecules of the two objects, which explains the dependence of friction on the nature of the substances. For example, rubber-soled shoes slip less than those with leather soles. Adhesion varies with substances in contact. Once an object is moving, there are fewer points of contact so less force is required to keep the object moving. At small but nonzero speeds, friction is nearly independent of speed.      When an object is placed on the surface of an inclined plane and the angle of inclination is being increased slowly then at a particular angle the object just begins to slide, this angle is known an angle of repose, . At the angle of repose static frictional force is balanced by one of the components of weight of the object (see in section statics).    Force of Gravity: This force is acting on any object due to attraction of earth. Near the surface of the earth force of gravity is given by its weight, i.e., . Where is the acceleration due to gravity and the direction force is acting along the center of the earth. Normal:  normal This is a force of reaction from the surface where the object is placed. It is always perpendicular to the surface of contact. Tension:  tension This force is acting between two objects on opposite ends of the string, in the directions to taut string at the points of contact. This force stretches the string along fixed support. It is a pulling force. Spring force: A spring is a special medium that has ability to restore its shape, if deformed. All materials have elastic property which helps them to restore their shape, if an applied deforming force has been released. From Hook's law a material (spring) exerts a restoring force that is proportional to a deforming force in opposite direction in which it is stretched or compressed. In mathematical form, The proportionality constant is a measure of the spring's stiffness, also called an elastic constant. The line of action of this force is parallel to the spring axis, and acts along the opposite direction of the displacement vector. The displacement must be measured from the relaxed (equilibrium) position; when the spring is relaxed.  "
 },
 {
-  "id": "p-321",
+  "id": "p-322",
   "level": "2",
-  "url": "subsec-friction.html#p-321",
+  "url": "subsec-friction.html#p-322",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1549,9 +1540,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-324",
+  "id": "p-325",
   "level": "2",
-  "url": "subsec-friction.html#p-324",
+  "url": "subsec-friction.html#p-325",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1567,18 +1558,18 @@ var ptx_lunr_docs = [
   "body": " Statics   When more than one force acts on a body in such a way that their net effects become zero is called an equilibrium. Equilibrium refers to a state of balance. An object is considered to be in a state of equilibrium when two opposing forces acting on the object balance each other. There may be two possible cases for a body in equilibrium,   Static Equilibrium: sum of all forces, i.e., and net torques i.e.,    Translational Equilibrium: sum of all forces, , i.e., .   Rotational Equilibrium: sum of all torques about a point on an object, . (i.e., )      Static Equilibrium  A system is in static equilibrium whenever no part of the system is moving. An example of static equilibrium is a spider web suspending one or more bugs. Any segment of the web (any bug, any strand, any junction, or any combination thereof) may be treated as a body.    The vector sum of the forces acting on an object in static equilibrium is equal to zero. which is described by Newton First law or, equivalently  In static equilibrium, the total force acting on a body, , and also the velocity of a body .     Problem Solving Technique: To solve a static equilibrium problem one needs to:   Read problem, list given quantities, draw a figure of the physical situation, and label the forces involved.    Draw force diagrams (free-body diagrams) for each body in equilibrium.    Resolve the forces into components.    Sum the x- and y-components of forces and set them to zero.    Solve equations simultaneously for the quantities of interest.        "
 },
 {
-  "id": "p-325",
+  "id": "p-326",
   "level": "2",
-  "url": "subsec-statics.html#p-325",
+  "url": "subsec-statics.html#p-326",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Static Equilibrium: Translational Equilibrium: Rotational Equilibrium: "
 },
 {
-  "id": "p-328",
+  "id": "p-329",
   "level": "2",
-  "url": "subsec-statics.html#p-328",
+  "url": "subsec-statics.html#p-329",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1708,7 +1699,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.6",
   "title": "Examples C",
-  "body": " Examples C    A 10-kg block lying on the horizontal surface is pulled by a force F making an angle of above the horizontal. The coefficient of static friction between the block and the horizontal surface is 0.3 and the coefficient of kinetic friction is 0.2. Draw the appropriate diagrams, write the appropriate equations, and find the magnitude and direction of the acceleration of the block when              Given:     Equations:         In verticle direction,  In horizontal direction, assume then, and Since static friction can keep the block at rest as assumed. Therefore,    Assume and Since static friction cannot keep the block at rest as assumed. Therefore block slides and,      Assume Assume block slides,     Assume Since N cannot be negative, our assumption was false and block leaves the surface.            A block of mass rests on top of a larger block of mass = 25 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is and that of kinetic friction is . A constant force parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow to stay with it?  What is the force which causes this acceleration?      Given:   From figure,  we have -   also, now from eqn. , From figure,  we have -             A box of mass 100 kg is placed in the front end of the bed of a truck initially at rest. The coefficient of static friction between box and truck bed is 0.4, the coefficient of kinetic friction between box and truck bed is 0.25, the bed of the truck is 2 m long and 1 m above the ground, and the truck accelerates at a constant acceleration just fast enough to make the box start sliding.    What is the acceleration of the truck?  What is the acceleration of the box?  When does the box fall off the back of the truck?  How far does the truck travel before the box falls off?  How fast is the box traveling when it falls off the truck?  How far from its starting point does the box hit the ground?      Given:                                                  Pulley A is fixed to the ceiling, pulley B is suspended by the string whose one end is attached to the ceiling and another end is passing over pulley B and holding the block 1 of mass as shown in figure below. The block 2 of mass is hanging from the pulley B. If the pulleys and strings are massless and the strings do not stretch. What is the correct relationship between accelerations and of blocks 1 and 2?      Since the pulleys are massless, tensions of each section of the string in either side of pulleys are same as shown in figure.  To find the relation between and add the lengths of each section of the string and take its derivative as shown below. Let is the height of pulley A from reference level (ground level), then length of string from pulley A to block 1 is given as length of section of string from pulley A to B is and length of section of string from pulley B to level of pulley A is .  Ignore the lengths of string over pulleys and to the rest to ceiling. It does not contribute any thing to the derivative of the length. Now where and are distances of block 1 and pulley B from the reference level, respectively. Since the string does not stretch, we have -  That is velocity of block 1 is just the double velocity of block 2 and negative sign indicates the velocity of block 2 is opposite to that of block 1. Again,  From free-body diagram, we have -             A 30 N force is applied at an angle of to the horizontal to move the two boxes attached to each other with a string. If the force is applied on the box of mass 3kg and the mass of second box is 1 kg, find the acceleration of the boxes and tension in the string. Consider the kinetic friction between the surfaces of box and the road is 0.4.      Given: and   From free body diagram,  we have -      From free body diagram,  we have -    On solving eqns. and , we have - and     "
+  "body": " Examples C    A 10-kg block lying on the horizontal surface is pulled by a force F making an angle of above the horizontal. The coefficient of static friction between the block and the horizontal surface is 0.3 and the coefficient of kinetic friction is 0.2. Draw the appropriate diagrams, write the appropriate equations, and find the magnitude and direction of the acceleration of the block when              Given:     Equations:         In verticle direction,  In horizontal direction, assume then, and Since static friction can keep the block at rest as assumed. Therefore,    Assume and Since static friction cannot keep the block at rest as assumed. Therefore block slides and,      Assume Assume block slides,     Assume Since N cannot be negative, our assumption was false and block leaves the surface.            A block of mass rests on top of a larger block of mass = 25 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is and that of kinetic friction is . A constant force parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow to stay with it?  What is the force which causes this acceleration?      Given:   From figure,  we have -   also, now from eqn. , From figure,  we have -             A box of mass 100 kg is placed in the front end of the bed of a truck initially at rest. The coefficient of static friction between box and truck bed is 0.4, the coefficient of kinetic friction between box and truck bed is 0.25, the bed of the truck is 2 m long and 1 m above the ground, and the truck accelerates at a constant acceleration just fast enough to make the box start sliding.    What is the acceleration of the truck?  What is the acceleration of the box?  When does the box fall off the back of the truck?  How far does the truck travel before the box falls off?  How fast is the box traveling when it falls off the truck?  How far from its starting point does the box hit the ground?      Given:                                                   Pulley A is fixed to the ceiling, pulley B is suspended by the string whose one end is attached to the ceiling and another end is passing over pulley B and holding the block 1 of mass as shown in figure below. The block 2 of mass is hanging from the pulley B. If the pulleys and strings are massless and the strings do not stretch. What is the correct relationship between accelerations and of blocks 1 and 2?      Since the pulleys are massless, tensions of each section of the string in either side of pulleys are same as shown in figure.  To find the relation between and add the lengths of each section of the string and take its derivative as shown below. Let is the height of pulley A from reference level (ground level), then length of string from pulley A to block 1 is given as length of section of string from pulley A to B is and length of section of string from pulley B to level of pulley A is .  Ignore the lengths of string over pulleys and to the rest to ceiling. It does not contribute any thing to the derivative of the length. Now where and are distances of block 1 and pulley B from the reference level, respectively. Since the string does not stretch, we have -  That is velocity of block 1 is just the double velocity of block 2 and negative sign indicates the velocity of block 2 is opposite to that of block 1. Again,  From free-body diagram, we have -              A 30 N force is applied at an angle of to the horizontal to move the two boxes attached to each other with a string. If the force is applied on the box of mass 3kg and the mass of second box is 1 kg, find the acceleration of the boxes and tension in the string. Consider the kinetic friction between the surfaces of box and the road is 0.4.      Given: and   From free body diagram,  we have -      From free body diagram,  we have -    On solving eqns. and , we have - and     "
 },
 {
   "id": "example-56",
@@ -1735,7 +1726,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.6.3",
   "title": "",
-  "body": "  A box of mass 100 kg is placed in the front end of the bed of a truck initially at rest. The coefficient of static friction between box and truck bed is 0.4, the coefficient of kinetic friction between box and truck bed is 0.25, the bed of the truck is 2 m long and 1 m above the ground, and the truck accelerates at a constant acceleration just fast enough to make the box start sliding.    What is the acceleration of the truck?  What is the acceleration of the box?  When does the box fall off the back of the truck?  How far does the truck travel before the box falls off?  How fast is the box traveling when it falls off the truck?  How far from its starting point does the box hit the ground?      Given:                                               "
+  "body": "  A box of mass 100 kg is placed in the front end of the bed of a truck initially at rest. The coefficient of static friction between box and truck bed is 0.4, the coefficient of kinetic friction between box and truck bed is 0.25, the bed of the truck is 2 m long and 1 m above the ground, and the truck accelerates at a constant acceleration just fast enough to make the box start sliding.    What is the acceleration of the truck?  What is the acceleration of the box?  When does the box fall off the back of the truck?  How far does the truck travel before the box falls off?  How fast is the box traveling when it falls off the truck?  How far from its starting point does the box hit the ground?      Given:                                                "
 },
 {
   "id": "example-59",
@@ -1744,7 +1735,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.6.4",
   "title": "",
-  "body": "  Pulley A is fixed to the ceiling, pulley B is suspended by the string whose one end is attached to the ceiling and another end is passing over pulley B and holding the block 1 of mass as shown in figure below. The block 2 of mass is hanging from the pulley B. If the pulleys and strings are massless and the strings do not stretch. What is the correct relationship between accelerations and of blocks 1 and 2?      Since the pulleys are massless, tensions of each section of the string in either side of pulleys are same as shown in figure.  To find the relation between and add the lengths of each section of the string and take its derivative as shown below. Let is the height of pulley A from reference level (ground level), then length of string from pulley A to block 1 is given as length of section of string from pulley A to B is and length of section of string from pulley B to level of pulley A is .  Ignore the lengths of string over pulleys and to the rest to ceiling. It does not contribute any thing to the derivative of the length. Now where and are distances of block 1 and pulley B from the reference level, respectively. Since the string does not stretch, we have -  That is velocity of block 1 is just the double velocity of block 2 and negative sign indicates the velocity of block 2 is opposite to that of block 1. Again,  From free-body diagram, we have -          "
+  "body": "  Pulley A is fixed to the ceiling, pulley B is suspended by the string whose one end is attached to the ceiling and another end is passing over pulley B and holding the block 1 of mass as shown in figure below. The block 2 of mass is hanging from the pulley B. If the pulleys and strings are massless and the strings do not stretch. What is the correct relationship between accelerations and of blocks 1 and 2?      Since the pulleys are massless, tensions of each section of the string in either side of pulleys are same as shown in figure.  To find the relation between and add the lengths of each section of the string and take its derivative as shown below. Let is the height of pulley A from reference level (ground level), then length of string from pulley A to block 1 is given as length of section of string from pulley A to B is and length of section of string from pulley B to level of pulley A is .  Ignore the lengths of string over pulleys and to the rest to ceiling. It does not contribute any thing to the derivative of the length. Now where and are distances of block 1 and pulley B from the reference level, respectively. Since the string does not stretch, we have -  That is velocity of block 1 is just the double velocity of block 2 and negative sign indicates the velocity of block 2 is opposite to that of block 1. Again,  From free-body diagram, we have -           "
 },
 {
   "id": "example-60",
@@ -1855,9 +1846,9 @@ var ptx_lunr_docs = [
   "body": " Center of Mass   The center of mass of a system of particles is a point in space at which the net mass of the system seems to be located. It is the mean position of the mass of a system or a body. Center of gravity is an imaginary point in a body where the entire weight of the body may be assumed to be concentrated or it is a point at which the gravity appears to act. In a uniform gravitational field the center of gravity is identical to the center of mass, but they do not coincide in a non-uniform gravitational field. Imagine that you are lying horizontally in space above the planet where you are experiencing a greater gravitational field strength towards your head than towards your feet, then your center of gravity is located somewhere near your shoulder rather than your belly button (i.e. navel or your center of mass). The center of gravity (or center of mass) may coincide with a geometric center of the body if it has a uniform mass distribution and possess symmetrical shape. An asymmetrical object composed of a variety of materials with different masses, however, has a center of gravity located at some distance from its geometric center. In some cases, such as hollow bodies or irregularly shaped objects, the center of gravity (or center of mass) may occur in space at a point external to the physical material. For example, the center of mass of binary stars lies between the stars and in the center of a tennis ball.      The center of (mass) gravity (point ) of any body can be determined by suspending the body by a cord attached at point and then by a cord attached at . When the body is suspended from , the line is vertical; when it is suspended from , the line is vertical. The center of gravity is at the intersection of and [ ]. When an object is suspended from any single point, its center of gravity lies directly beneath that point. For a group of discrete masses the location of center of mass can be defined as: Vector position of center of mass.  or, or equivalently      Problem Solving Technique: To determine the center of mass of a uniformly distributed body, one performs the following steps:  Break the body down into its constituent parts.  Specify the length, area, or volume of each constituent part.  Locate the coordinates of the center of mass of each constituent part.  Utilize the equations shown above using length, area, or volume in place of the mass. for a unifrom sheet  If an object has a uniform mass distribution (uniform density), then its geometric center is taken as center of mass.     "
 },
 {
-  "id": "p-406",
+  "id": "p-407",
   "level": "2",
-  "url": "sec_fourth-cm.html#p-406",
+  "url": "sec_fourth-cm.html#p-407",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1873,9 +1864,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-409",
+  "id": "p-410",
   "level": "2",
-  "url": "sec_fourth-cm.html#p-409",
+  "url": "sec_fourth-cm.html#p-410",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1909,9 +1900,9 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-419",
+  "id": "p-420",
   "level": "2",
-  "url": "subsec-st_equlbrm.html#p-419",
+  "url": "subsec-st_equlbrm.html#p-420",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1927,9 +1918,9 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-420",
+  "id": "p-421",
   "level": "2",
-  "url": "subsec-st_equlbrm.html#p-420",
+  "url": "subsec-st_equlbrm.html#p-421",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1945,9 +1936,9 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-421",
+  "id": "p-422",
   "level": "2",
-  "url": "subsec-st_equlbrm.html#p-421",
+  "url": "subsec-st_equlbrm.html#p-422",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2095,7 +2086,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "4.13",
   "title": "Exercise",
-  "body": "  Exercise   Static Equilibrium  Find the tension in each of the cords illustrated below.    A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire.  A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?    A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.    A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?    Draw force diagrams for each of the bodies shown below:                Translational Equilibrium  A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?    A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?    Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.    A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?      Dynamics  A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box.  Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?    A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.    A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?    A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.    A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?    Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground.  A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .       A projectile with air resistance: A projectile of mass 1 kg is shot into the air with an initial velocity of 100 m\/s at an angle of . If the air resistive force is proportional to the velocity and directed opposite the velocity with a proportionality constant of c = 0.0, 0.01, 0.1, 1.0 N.s\/m, in each case find  the maximum height it reaches,  the range of the projectile, and  the time of flight.    Use formula        Banking of a Curve    A level highway curve of radius 100 m is banked for cars traveling at a speed of 20 m\/s. What is the bank angle?  If a car rounds the above curve at 40 m\/s what is the minimum coefficient of friction that will keep it on the road?      An airplane traveling at 40 m\/s pulls out of a dive in a circle of radius 200 m. How many g's of force does the pilot experience at the bottom of the pull-out?  The above pilot makes a loop of radius 200 m having slowed down to 30 m\/s at the top.  How many g's of force does he experience at the top?    A mass of 500 g is whirled in a horizontal circle on the end of a string 1.5 m long at the rate of 200 rpm.  What is the speed of the rock?  What is the angle that the string makes with the horizontal?  What is the tension in the string?    A child of mass 50 kg is standing at the edge of a playground merry-go-round of diameter 3 m. Other children push the merry-go-round faster and faster until the first child's feet begin to slip.  If the friction between shoes and rotating surface is 0.2, how long does it take the merry-go-round to make one revolution?  How fast is the first child traveling when he begins to slip?  What is the angle between the first child\\rq s body and a vertical line before he begins to slip?    A car traveling at 80 mph rounds a curve of radius 50 m which is banked for a speed of 50 mph. What is the minimum coefficient of friction that would keep the car on the road?  At what angle from vertical a cyclist has to lean in order to make a turn on 10 m radius curve path, if his speed is 5 m\/s?  A small sphere of mass m is dropped from a great height. After it has fallen 100 m, it has attained its terminal velocity and continues to fall at that speed. Calculate the work done by air friction against the sphere during the first 100 m of fall.  An automobile traveling at 60 mph rounds a curve banked at . The radius of the curve is 200 ft.  What is the minimum coefficient of friction that will keep the car on the road?  What would the bank angle need to be in order for the car to stay on the road without any friction?       and      Center of Mass  Find the center-of-mass coordinates of the masses shown below:    Find the coordinates of the center of mass of the system of particles shown at right:    In the figure at right,    find the center of mass of each segment,  recognize that the mass of each segment is proportional to the length of each segment and write down the length of each segment,  write the coordinates of the center of each segment,  calculate the coordinates of the center of mass of the L shaped figure, and  locate the center of mass on the figure.    Calculate the center of mass of uniform sheet of metal shaped as shown in figure below.    On the figure below place a dot at the center of mass of the object shown, assuming its mass is distributed uniformly.    Find the location of the center of mass of the object illustrated below if    the object consists of two circles connected by a rectangle all of uniform mass distribution,  the object consists of two spheres each of density connected by a cylindrical rod of density .    A man of weight 200 lb is sitting at one end of a canoe of weight 60 lb which is 10 ft long and at rest in the water. If the man walks to the other end of the canoe how far does the canoe move through the water? (Assume the water has no friction.)    To weigh a fish, a person hangs a fish at a point of the length of a rigid rod which is suspended by a rope attached to its center. If there is 3.5 kg mass is hanging at one end near to fish and a 5 kg mass is hanging at another end to balance the system. What is the weight of the fish.  A 60 kg man and his 40 kg dog are sitting together at the left end of a 8.0 m long boat. The boat is 100 kg, and its center of mass lies at the geometric center. The boat starts out at rest in the middle of a calm lake. Ignore all friction and water resistance throughout this problem.  Where is the center of mass of the boat + man + dog system? Consider the origin of coordinates lies at left end of the boat.  Suppose that the dog moves to the other end of the boat, while the man stays still. How far does the boat move and in which direction? (left or right).  After reaching the other end of the boat, the dog jumps off with a horizontal velocity of 2.0 m\/s, directed to the right, as measured relative to the water. What is the speed with which the boat and the man drift in the opposite direction?    A system consists of three balls. Ball 1 has a mass of 2 kg and is located at (-2cm,0); ball 2 has an unknown mass and is located at (4cm,3cm); ball 3 has a mass of 1 kg and is located at (x,y). The center of mass of the system is located (0,2cm). Calculate the mass ball 2 and find the location of ball 3.    Rotational Equilibrium  Given the vectors and , find a vector of unit length perpendicular to both and .  Write down the results of all possible cross products between and .  Prove that for any two vectors and .  Prove that for any vector .  Prove that the determinant form of the cross product renders the same result as the component form.    Draw the forces acting on the ladder shown below if there is no friction on the vertical surface.      What is the torque equation for an axis located at the bottom of the ladder?      What is the torque equation for an axis located at the top of the ladder?      What is the torque equation for an axis located at the point in space labeled P?      A uniform sheet of metal in the shape of a hemisphere of radius 1 m is used as a sign. The hemisphere has a mass of 200 kg and is suspended by two vertical wires attached to points along its horizontal diameter. One wire is attached to the left end of the diameter and the other is attached to a point three-quarters of the way to the other end.  Write the torque equation for the left end of the diameter.  Write the torque equation for the right end of the diameter.  What is the tension in each wire?    A ladder 10 m long and weighing 200 N is placed against a frictionless wall with its base 6 m from the bottom of the wall. If the coefficient of static friction between the floor and the bottom of the ladder is 0.2, how far up the ladder can a man weighing 800 N climb before the base of the ladder starts to slip?  A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and B as shown in the figure below. The tension T in a support cable making an angle of is adjusted until the horizontal force at hinge A is zero. Find     the tension T,    the horizontal component of the force exerted on the gate by hinge B, and    the sum of the vertical components of the forces exerted on the gate by hinges A and B.    A uniform block of weight 10 N, height 20 cm, and base 10 cm is placed base down on a horizontal plane 1 m long resting on a table. The coefficient of static friction is 0.3 and that of kinetic friction is 0.2. One end of the plane is slowly raised until the block either tips over or begins sliding.  Which of the two possibilities happens first?  What is the angle between the plane and the table when this happens?    A wheel of diameter 0.6 m and weight 100 N is pushed over a curb of height 10 cm by a horizontal force F. What is the magnitude of this force if it is applied   at the top of the wheel as shown in figure below?      at the axle as shown in figure below?      If the bowling ball weighs 25 N is lying between two inclined planes which make an angle and with the horizontal. what is the value of the normal exerted on each point of tangency? Each surface is frictionless.    A rope is supporting a 200 kg uniform beam which is 10 m long. One end of the beam is hinged at a wall and the other end of supports a 1000 kg load. The rope is attached to the end of the beam and makes an angle of with the horizontal beam. What is the tension in the rope?  A 3 m long stepladder is hinged at point C and spreads on the frictionless floor. The ladder is massless and has a 1m tie rod, BD fixed at halfway up. A man weighing 800N is standing at 2.75 m along the ladder. Find     the tension in the tie-rod and    the magnitudes of the forces on the floor at points A and E.      "
+  "body": "  Exercise   Static Equilibrium  Find the tension in each of the cords illustrated below.    A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire.  A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?    A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.    A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?    Draw force diagrams for each of the bodies shown below:                Translational Equilibrium  A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?    A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?    Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.    A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?      Dynamics  A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box.  Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?    A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.    A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?    A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.    A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?    Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground.  A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .       A projectile with air resistance: A projectile of mass 1 kg is shot into the air with an initial velocity of 100 m\/s at an angle of . If the air resistive force is proportional to the velocity and directed opposite the velocity with a proportionality constant of c = 0.0, 0.01, 0.1, 1.0 N.s\/m, in each case find  the maximum height it reaches,  the range of the projectile, and  the time of flight.    Use formula        Banking of a Curve    A level highway curve of radius 100 m is banked for cars traveling at a speed of 20 m\/s. What is the bank angle?  If a car rounds the above curve at 40 m\/s what is the minimum coefficient of friction that will keep it on the road?      An airplane traveling at 40 m\/s pulls out of a dive in a circle of radius 200 m. How many g's of force does the pilot experience at the bottom of the pull-out?  The above pilot makes a loop of radius 200 m having slowed down to 30 m\/s at the top.  How many g's of force does he experience at the top?    A mass of 500 g is whirled in a horizontal circle on the end of a string 1.5 m long at the rate of 200 rpm.  What is the speed of the rock?  What is the angle that the string makes with the horizontal?  What is the tension in the string?    A child of mass 50 kg is standing at the edge of a playground merry-go-round of diameter 3 m. Other children push the merry-go-round faster and faster until the first child's feet begin to slip.  If the friction between shoes and rotating surface is 0.2, how long does it take the merry-go-round to make one revolution?  How fast is the first child traveling when he begins to slip?  What is the angle between the first child\\rq s body and a vertical line before he begins to slip?    A car traveling at 80 mph rounds a curve of radius 50 m which is banked for a speed of 50 mph. What is the minimum coefficient of friction that would keep the car on the road?  At what angle from vertical a cyclist has to lean in order to make a turn on 10 m radius curve path, if his speed is 5 m\/s?  A small sphere of mass m is dropped from a great height. After it has fallen 100 m, it has attained its terminal velocity and continues to fall at that speed. Calculate the work done by air friction against the sphere during the first 100 m of fall.  An automobile traveling at 60 mph rounds a curve banked at . The radius of the curve is 200 ft.  What is the minimum coefficient of friction that will keep the car on the road?  What would the bank angle need to be in order for the car to stay on the road without any friction?       and      Center of Mass  Find the center-of-mass coordinates of the masses shown below:    Find the coordinates of the center of mass of the system of particles shown at right:    In the figure at right,    find the center of mass of each segment,  recognize that the mass of each segment is proportional to the length of each segment and write down the length of each segment,  write the coordinates of the center of each segment,  calculate the coordinates of the center of mass of the L shaped figure, and  locate the center of mass on the figure.    Calculate the center of mass of uniform sheet of metal shaped as shown in figure below.    On the figure below place a dot at the center of mass of the object shown, assuming its mass is distributed uniformly.    Find the location of the center of mass of the object illustrated below if    the object consists of two circles connected by a rectangle all of uniform mass distribution,  the object consists of two spheres each of density connected by a cylindrical rod of density .    A man of weight 200 lb is sitting at one end of a canoe of weight 60 lb which is 10 ft long and at rest in the water. If the man walks to the other end of the canoe how far does the canoe move through the water? (Assume the water has no friction.)    To weigh a fish, a person hangs a fish at a point of the length of a rigid rod which is suspended by a rope attached to its center. If there is 3.5 kg mass is hanging at one end near to fish and a 5 kg mass is hanging at another end to balance the system. What is the weight of the fish.  A 60 kg man and his 40 kg dog are sitting together at the left end of a 8.0 m long boat. The boat is 100 kg, and its center of mass lies at the geometric center. The boat starts out at rest in the middle of a calm lake. Ignore all friction and water resistance throughout this problem.  Where is the center of mass of the boat + man + dog system? Consider the origin of coordinates lies at left end of the boat.  Suppose that the dog moves to the other end of the boat, while the man stays still. How far does the boat move and in which direction? (left or right).  After reaching the other end of the boat, the dog jumps off with a horizontal velocity of 2.0 m\/s, directed to the right, as measured relative to the water. What is the speed with which the boat and the man drift in the opposite direction?    A system consists of three balls. Ball 1 has a mass of 2 kg and is located at (-2cm,0); ball 2 has an unknown mass and is located at (4cm,3cm); ball 3 has a mass of 1 kg and is located at (x,y). The center of mass of the system is located (0,2cm). Calculate the mass ball 2 and find the location of ball 3.    Rotational Equilibrium  Given the vectors and , find a vector of unit length perpendicular to both and .  Write down the results of all possible cross products between and .  Prove that for any two vectors and .  Prove that for any vector .  Prove that the determinant form of the cross product renders the same result as the component form.    Draw the forces acting on the ladder shown below if there is no friction on the vertical surface.      What is the torque equation for an axis located at the bottom of the ladder?      What is the torque equation for an axis located at the top of the ladder?      What is the torque equation for an axis located at the point in space labeled P?      A uniform sheet of metal in the shape of a hemisphere of radius 1 m is used as a sign. The hemisphere has a mass of 200 kg and is suspended by two vertical wires attached to points along its horizontal diameter. One wire is attached to the left end of the diameter and the other is attached to a point three-quarters of the way to the other end.  Write the torque equation for the left end of the diameter.  Write the torque equation for the right end of the diameter.  What is the tension in each wire?    A ladder 10 m long and weighing 200 N is placed against a frictionless wall with its base 6 m from the bottom of the wall. If the coefficient of static friction between the floor and the bottom of the ladder is 0.2, how far up the ladder can a man weighing 800 N climb before the base of the ladder starts to slip?  A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and B as shown in the figure below. The tension T in a support cable making an angle of is adjusted until the horizontal force at hinge A is zero. Find    the tension T,    the horizontal component of the force exerted on the gate by hinge B, and    the sum of the vertical components of the forces exerted on the gate by hinges A and B.    A uniform block of weight 10 N, height 20 cm, and base 10 cm is placed base down on a horizontal plane 1 m long resting on a table. The coefficient of static friction is 0.3 and that of kinetic friction is 0.2. One end of the plane is slowly raised until the block either tips over or begins sliding.  Which of the two possibilities happens first?  What is the angle between the plane and the table when this happens?    A wheel of diameter 0.6 m and weight 100 N is pushed over a curb of height 10 cm by a horizontal force F. What is the magnitude of this force if it is applied   at the top of the wheel as shown in figure below?      at the axle as shown in figure below?      If the bowling ball weighs 25 N is lying between two inclined planes which make an angle and with the horizontal. what is the value of the normal exerted on each point of tangency? Each surface is frictionless.   A rope is supporting a 200 kg uniform beam which is 10 m long. One end of the beam is hinged at a wall and the other end of supports a 1000 kg load. The rope is attached to the end of the beam and makes an angle of with the horizontal beam. What is the tension in the rope?  A 3 m long stepladder is hinged at point C and spreads on the frictionless floor. The ladder is massless and has a 1m tie rod, BD fixed at halfway up. A man weighing 800N is standing at 2.75 m along the ladder. Find     the tension in the tie-rod and    the magnitudes of the forces on the floor at points A and E.      "
 },
 {
   "id": "exercise-62",
@@ -2509,7 +2500,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.13.46",
   "title": "",
-  "body": "A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and B as shown in the figure below. The tension T in a support cable making an angle of is adjusted until the horizontal force at hinge A is zero. Find     the tension T,    the horizontal component of the force exerted on the gate by hinge B, and    the sum of the vertical components of the forces exerted on the gate by hinges A and B.   "
+  "body": "A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and B as shown in the figure below. The tension T in a support cable making an angle of is adjusted until the horizontal force at hinge A is zero. Find    the tension T,    the horizontal component of the force exerted on the gate by hinge B, and    the sum of the vertical components of the forces exerted on the gate by hinges A and B.   "
 },
 {
   "id": "exercise-108",
@@ -2536,7 +2527,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.13.49",
   "title": "",
-  "body": "If the bowling ball weighs 25 N is lying between two inclined planes which make an angle and with the horizontal. what is the value of the normal exerted on each point of tangency? Each surface is frictionless.   "
+  "body": "If the bowling ball weighs 25 N is lying between two inclined planes which make an angle and with the horizontal. what is the value of the normal exerted on each point of tangency? Each surface is frictionless.  "
 },
 {
   "id": "exercise-111",
@@ -2566,9 +2557,9 @@ var ptx_lunr_docs = [
   "body": " Work   If an object is displaced along the same direction as the force is applied then the work is said to be done. If a force displaces a body to a distance along the direction of force then work can be calculated by . Work is a scalar quantity as it is a measure of transfer of energy from one object to another. The physical quantities which can be obtained by dot product of two vectors are scalar. The unit of work is joule in SI system, ; in FPS system, ft-lb = foot.pound; and in CGS system, erg = dyne.cm.               Suppose a block of mass is displaced to a distance along the horizontal direction by the application of force [ ]. If the force is acting along a direction to the horizontal, then work done by the force is given by The work done by a force is defined as the product of component of the force in the direction of displacement and the magnitude of displacement. Work in physics is different than our daily life work. Suppose you are pushing a rigid brick wall very hard, after some time you get exhausted because you lose your body energy. In our daily life we called this action as a work, but in physics this is not a work because the object did not displace from its position. Hence in physics, whether the force or the displacement is zero, there is no work. Depending upon the angle between the applied force and the displacement, work could be negative, positive, or zero. For example, work done by a frictional force, or work done by a force acting opposite to the motion of object, work done by a force acting parallel to the motion of object, and work done by a force acting perpendicular to the motion of object,   If a force displaces an object to a small distance where then work done by this force is given by If then   The terms like are area under the curve [ ]. The sum of these area between initial position to final position along each direction is equal to work done by a variable force F(r), such as force of spring.   "
 },
 {
-  "id": "p-529",
+  "id": "p-530",
   "level": "2",
-  "url": "subsec-work.html#p-529",
+  "url": "subsec-work.html#p-530",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2593,27 +2584,27 @@ var ptx_lunr_docs = [
   "body": " Energy   The capacity of doing work is known as energy. It is a scalar quantity and it's unit in SI system is Joule. Energy exists in many different forms, such as thermal energy, sound energy, electrical energy, magnetic energy, gravitational energy, chemical energy, mechanical energy, etc. The energy associated with the motion and position of an object is termed as mechanical energy. We focus our understanding here in mechanical energy. Mechanical energy is of two types, kinetic energy and potential energy. The kinetic energy is associated with the motion of the object and potential energy is associated with the position of the object with respect to some other object. For example: elastic potential energy due to a spring force, gravitational potential energy due to gravity, etc. The sum of kinetic and potential energy gives the total mechanical energy of the object.    Work-Energy Theorem  From equations of motion, we have where , , and are final velocity, initial velocity, acceleration, and distance covered by the particle, respectively. From Newton's second law of motion, we have - From eqns. and , we have -  Here the term is called final kinetic energy, , the term is called initial kinetic energy, , and the term is work done by a force. Hence, Which is known as work-energy theorem . It states that work done by a net force acting on a body is equal to the chnage in its kinetic energy.    Kinetic Energy:  It is the energy associated with a body during its motion. Suppose is the work done by a force on a body to displace it to a distance , then  The quantity is called the kinetic energy, i.e., Since this kinetic energy is associated with a body in translational motion, it is called a translational (linear) kinetic energy. The kinetic energy in rotational motion is called rotational kinetic energy which we will discuss in .    Potential Energy:  The energy stored in a body due to its position is known as potential energy. If work is done by a force to change the position of a body, then this work is stored in the body at that position in the form of potential energy. The restoring force plays a crucial role to acquire potential energy. For example, a charged particle near or far from another charge; a squashed or stretched rubber ball, a body above the surface of the earth. The potential energy of the body at any position is the work done against the restoring force in moving the body from the zero point (reference point) to that position. The reference point The zero point is so chosen that it could be infinitely far away. Such as at infinity, at the center of the earth, at sea level, at the floor, at the table top, or at any other point. This is because only potential energy differences between two positions are physically measurable and cannot depend on the a rbitrary choice of the zero point. (or, the zero point ) is the point where potential energy is assumed to be zero. If work has to be done on a body to take it to a new location, then the potential energy increases in the process. If the external force does the work then the potential energy change is negative.     Gravitational Potential Energy: Suppose a body of mass is lifted to a height against gravity without acceleration, then work done by the applied force, is given by This work is stored in the body in the form of gravitational potential energy. Hence when this body is released from the position the body drops down to the ground again. Therefore, the work done by the gravity to pull that object towards earth's surface is given by This is gravitational potential energy in a uniform gravitational field, . The gravitational potential energy due to two point masses is given by Where is the mass of an object at the origin, is the mass of an object at a radial distance from the origin and the zero point is chosen at infinity.     Elastic Potential Energy: When the body (or, spring) is compressed or stretched external force has to do the work, this work is stored in a body (or, spring) in the form of elastic potential energy. It is the energy due to work done by a restoring force. where is the restoring force [read for more details] , is elastic (or, spring) constant (it defines the stiffness of the spring), and is extension in the spring.    Since work done by a force in principle depends on the path taken by the body, (as can be seen in where is a frictional force), but if the force is conservative then work done is independent on the path taken by the body rather it depends on the initial and final position of the body [ ].   "
 },
 {
-  "id": "p-533",
+  "id": "p-534",
   "level": "2",
-  "url": "subsec-energy.html#p-533",
+  "url": "subsec-energy.html#p-534",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "work-energy theorem "
 },
 {
-  "id": "p-536",
+  "id": "p-537",
   "level": "2",
-  "url": "subsec-energy.html#p-536",
+  "url": "subsec-energy.html#p-537",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Gravitational Potential Energy: "
 },
 {
-  "id": "p-537",
+  "id": "p-538",
   "level": "2",
-  "url": "subsec-energy.html#p-537",
+  "url": "subsec-energy.html#p-538",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2674,18 +2665,18 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-543",
+  "id": "p-544",
   "level": "2",
-  "url": "subsec-ediagram.html#p-543",
+  "url": "subsec-ediagram.html#p-544",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "static equilibrium stable equilibrium "
 },
 {
-  "id": "p-545",
+  "id": "p-546",
   "level": "2",
-  "url": "subsec-ediagram.html#p-545",
+  "url": "subsec-ediagram.html#p-546",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2728,18 +2719,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-551",
+  "id": "p-552",
   "level": "2",
-  "url": "subsec-sm.html#p-551",
+  "url": "subsec-sm.html#p-552",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "lever "
 },
 {
-  "id": "p-553",
+  "id": "p-554",
   "level": "2",
-  "url": "subsec-sm.html#p-553",
+  "url": "subsec-sm.html#p-554",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2755,9 +2746,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-554",
+  "id": "p-555",
   "level": "2",
-  "url": "subsec-sm.html#p-554",
+  "url": "subsec-sm.html#p-555",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2773,9 +2764,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-555",
+  "id": "p-556",
   "level": "2",
-  "url": "subsec-sm.html#p-555",
+  "url": "subsec-sm.html#p-556",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2809,9 +2800,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-558",
+  "id": "p-559",
   "level": "2",
-  "url": "subsec-pulley.html#p-558",
+  "url": "subsec-pulley.html#p-559",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2827,22 +2818,13 @@ var ptx_lunr_docs = [
   "body": "                        "
 },
 {
-  "id": "p-559",
-  "level": "2",
-  "url": "subsec-pulley.html#p-559",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Single Fixed Pulley: "
-},
-{
   "id": "p-560",
   "level": "2",
   "url": "subsec-pulley.html#p-560",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "One Fixed and One Movable Pulley: "
+  "body": "Single Fixed Pulley: "
 },
 {
   "id": "p-561",
@@ -2851,12 +2833,21 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Two Fixed and One Movable Pulley: "
+  "body": "One Fixed and One Movable Pulley: "
 },
 {
   "id": "p-562",
   "level": "2",
   "url": "subsec-pulley.html#p-562",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Two Fixed and One Movable Pulley: "
+},
+{
+  "id": "p-563",
+  "level": "2",
+  "url": "subsec-pulley.html#p-563",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3034,9 +3025,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-622",
+  "id": "p-623",
   "level": "2",
-  "url": "subsec-collision.html#p-622",
+  "url": "subsec-collision.html#p-623",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3067,7 +3058,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.5",
   "title": "Examples B",
-  "body": " Examples B    A body of mass traveling with a speed collides with a stationary body of mass and they stick together. What speed do the two bodies have after the collision?            Two initially stationary particles of mass 50 g are involved in an explosion that released 150 mJ of kinetic energy. What speed do they both have after the explosion?    Given:          A 10 kg mass traveling 2 m\/s meets and collides elastically with a 2 kg mass traveling 4 m\/s in the opposite direction. Find the final velocities of both objects.    Given: Now, from momentum conservation  and from kinetic energy conservation  Solving these two equations, we get -       In an accident the 190 kg car with velocity collides head on with the 280 kg car with velocity . The coefficient of restitution of the impact is The duration of the collision is What are the velocities of the cars immediately after the collision? Determine the magnitude of the average acceleration to which the occupants of each car are subjected.    The velocities before collision are  The coefficient of restitution, .  From momemtum conservation,       on Solving eqns. and , we get the velocities after collision as  The average accelerations are        A baseball of mass 300 g thrown at a speed of 50 m\/s hits a bat of mass 3 kg moving in the opposite direction at 25 m\/s. After being in contact with the bat for 1 ms, the ball rebounds with a speed of 60 m\/s.  What is the impulse delivered to the ball?  What is the average force exerted by the bat on the ball during the collision?  What is the speed of the bat immediately after the collision?                             A mass of 2 kg moving to the right with a speed of 40 m\/s collides with a second mass of 3 kg moving to the left with a speed of 10 m\/s. For each of the following three cases find  the final velocity of each mass,  the coefficient of restitution, and  the energy loss during the collision.       Case I: Perfectly inelastic collision.   Given:                       Case II: The first mass stops.   Given:                      Case III: Perfectly elastic collision.   Given:                           A 5-g bullet moving north at 300 m\/s ricochets off a 1 kg rock at a speed of 200 m\/s in the northwest direction.  With what speed and in what direction does the rock rebound?  How much energy was turned into heat as a result of the collision?        Given:                   A bullet of mass 0.1 kg moving horizontally embeds itself in a wooden block of mass 10 kg initially at rest and supported by a string of length 1 m. The block with the bullet inside recoils and swings upward through an angle of before coming to rest. What was the initial speed of the bullet.    Given: Equation:          A spring of a force constant is compressed using a block of mass to a distance . The spring is fixed to a L-shaped block of mass which is free to slid on frictionless ground surface as shown in figure below. There is friction between the two blocks, howewver and when the block 1 is released and spring reaches to its equilibrium position, then block 1 is moving leftward with velocity and block 2 is moving rightward with velocity       After the entire system comes to rest, blocks 1 and 2 have slid a distance relative to each other. Find the distance covered by the block 1 from its initial position.  After the entire system comes to rest, blocks 1 and 2 have slid a distance relative to each other. Find the coefficient of kinetic friction, between blocks 1 and 2.           Since the center of mass of the system is at rest, we have     From principle of conservation of momentum, From principle of conservation of energy, we have -                A projectile of mass 10 kg is shot into the air with an initial speed of 100 m\/s at an angle of above the horizontal. At the very top of the trajectory, the projectile explodes into two fragments of equal mass, one of which falls straight down starting at rest.  How high does the projectile go?  How far has the projectile traveled horizontally when it reaches the top of its trajectory?  What is speed of the projectile when it reaches the top of its trajectory?  What is the velocity of the second fragment after the projectile explodes?  How far from the original projectile launch point does the second fragment strike the horizontal ground.      From the principle of conservation of momentum,      Now from equation of motion, Just before it explodes at top, we have -                         A bullet of mass is shot at speed toward a pendulum block of mass . The bullet penetrates through the block and emerges on the other side traveling at speed .  What is the speed of block immediately after the bullet emerges out from the block?  What is the final height of block?          From the principle of conservation of momentum,      From the principle of conservation of energy,          A ball is thrown from a table of height 2m horizontally with a velocity 3 m\/s. Determine the distance D between the ball's first and second bounces, if the coefficient of restitution is e = 0.6.      Given: The vertical velocity after first bounce (impact) is given by  From equation of motion, Final upward velocity becomes zero ( ) after first bounce.  Hence the total height attained by the ball after first bounce can be determined by using conservation of energy principle. Time to reach the highest point by the ball after first bounce is given by Time to return by the ball to the ground for second bounce is given by      "
+  "body": " Examples B    A body of mass traveling with a speed collides with a stationary body of mass and they stick together. What speed do the two bodies have after the collision?            Two initially stationary particles of mass 50 g are involved in an explosion that released 150 mJ of kinetic energy. What speed do they both have after the explosion?    Given:          A 10 kg mass traveling 2 m\/s meets and collides elastically with a 2 kg mass traveling 4 m\/s in the opposite direction. Find the final velocities of both objects.    Given: Now, from momentum conservation  and from kinetic energy conservation  Solving these two equations, we get -       In an accident the 190 kg car with velocity collides head on with the 280 kg car with velocity . The coefficient of restitution of the impact is The duration of the collision is What are the velocities of the cars immediately after the collision? Determine the magnitude of the average acceleration to which the occupants of each car are subjected.    The velocities before collision are  The coefficient of restitution, .  From momemtum conservation,       on Solving eqns. and , we get the velocities after collision as  The average accelerations are        A baseball of mass 300 g thrown at a speed of 50 m\/s hits a bat of mass 3 kg moving in the opposite direction at 25 m\/s. After being in contact with the bat for 1 ms, the ball rebounds with a speed of 60 m\/s.  What is the impulse delivered to the ball?  What is the average force exerted by the bat on the ball during the collision?  What is the speed of the bat immediately after the collision?                             A mass of 2 kg moving to the right with a speed of 40 m\/s collides with a second mass of 3 kg moving to the left with a speed of 10 m\/s. For each of the following three cases find  the final velocity of each mass,  the coefficient of restitution, and  the energy loss during the collision.       Case I: Perfectly inelastic collision.   Given:                        Case II: The first mass stops.   Given:                      Case III: Perfectly elastic collision.   Given:                           A 5-g bullet moving north at 300 m\/s ricochets off a 1 kg rock at a speed of 200 m\/s in the northwest direction.  With what speed and in what direction does the rock rebound?  How much energy was turned into heat as a result of the collision?        Given:                   A bullet of mass 0.1 kg moving horizontally embeds itself in a wooden block of mass 10 kg initially at rest and supported by a string of length 1 m. The block with the bullet inside recoils and swings upward through an angle of before coming to rest. What was the initial speed of the bullet.    Given: Equation:          A spring of a force constant is compressed using a block of mass to a distance . The spring is fixed to a L-shaped block of mass which is free to slid on frictionless ground surface as shown in figure below. There is friction between the two blocks, howewver and when the block 1 is released and spring reaches to its equilibrium position, then block 1 is moving leftward with velocity and block 2 is moving rightward with velocity       After the entire system comes to rest, blocks 1 and 2 have slid a distance relative to each other. Find the distance covered by the block 1 from its initial position.  After the entire system comes to rest, blocks 1 and 2 have slid a distance relative to each other. Find the coefficient of kinetic friction, between blocks 1 and 2.           Since the center of mass of the system is at rest, we have     From principle of conservation of momentum, From principle of conservation of energy, we have -                A projectile of mass 10 kg is shot into the air with an initial speed of 100 m\/s at an angle of above the horizontal. At the very top of the trajectory, the projectile explodes into two fragments of equal mass, one of which falls straight down starting at rest.  How high does the projectile go?  How far has the projectile traveled horizontally when it reaches the top of its trajectory?  What is speed of the projectile when it reaches the top of its trajectory?  What is the velocity of the second fragment after the projectile explodes?  How far from the original projectile launch point does the second fragment strike the horizontal ground.      From the principle of conservation of momentum,      Now from equation of motion, Just before it explodes at top, we have -                         A bullet of mass is shot at speed toward a pendulum block of mass . The bullet penetrates through the block and emerges on the other side traveling at speed .  What is the speed of block immediately after the bullet emerges out from the block?  What is the final height of block?          From the principle of conservation of momentum,      From the principle of conservation of energy,          A ball is thrown from a table of height 2m horizontally with a velocity 3 m\/s. Determine the distance D between the ball's first and second bounces, if the coefficient of restitution is e = 0.6.      Given: The vertical velocity after first bounce (impact) is given by  From equation of motion, Final upward velocity becomes zero ( ) after first bounce.  Hence the total height attained by the ball after first bounce can be determined by using conservation of energy principle. Time to reach the highest point by the ball after first bounce is given by Time to return by the ball to the ground for second bounce is given by      "
 },
 {
   "id": "example-93",
@@ -3121,7 +3112,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.5.6",
   "title": "",
-  "body": "  A mass of 2 kg moving to the right with a speed of 40 m\/s collides with a second mass of 3 kg moving to the left with a speed of 10 m\/s. For each of the following three cases find  the final velocity of each mass,  the coefficient of restitution, and  the energy loss during the collision.       Case I: Perfectly inelastic collision.   Given:                       Case II: The first mass stops.   Given:                      Case III: Perfectly elastic collision.   Given:                        "
+  "body": "  A mass of 2 kg moving to the right with a speed of 40 m\/s collides with a second mass of 3 kg moving to the left with a speed of 10 m\/s. For each of the following three cases find  the final velocity of each mass,  the coefficient of restitution, and  the energy loss during the collision.       Case I: Perfectly inelastic collision.   Given:                        Case II: The first mass stops.   Given:                      Case III: Perfectly elastic collision.   Given:                        "
 },
 {
   "id": "example-99",
@@ -3184,7 +3175,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "5.6",
   "title": "Exercise",
-  "body": "  Exercise   Work  Given the two vectors and What is their dot product?  A horizontal force is given by the equation , where . How much work is expended by that force when moving an object from to ?  A force has the components , , where and . Find the work done by this force along the paths  from (0,0) to (1m,0) to (1m,2m),  from (0,0) to (0,2m) to (1m,2m),  from (0,0) to (1m, 2m) along a straight line.    An object of mass 10 kg is lifted a vertical distance of 3 m and a horizontal distance of 4 m. How much work is done?  A force of 100 N moves a block of mass 10 kg up a plane of length 2 m at an angle of . If the force is parallel to the plane, if the block starts from rest, and if the coefficient of friction is 0.1, how much work is done  by the force,  by gravity, and  by friction.  How fast will the block be moving when it gets to the top?    A force of 100 N at an angle of above the horizontal moves a block of mass 10 kg along a horizontal surface a distance of 3 m. If the block starts from rest and if the coefficient of friction is 0.2, how much work is done  by the force,  by gravity,  by friction.  by the normal force, and  by the net force on the block.      Energy  A bullet of mass 10 g has a speed of 500 m\/s.  What is its kinetic energy?  If it penetrates a block of wood a distance of 10 cm before coming to rest, what is the average frictional force stopping the bullet? A second bullet identical to the first is shot through a sheet of wood 5 cm thick.  With what speed does the second bullet exit the wood?      How much energy would be required to lift a 70 kg man to a height of 100 m?  How much energy would be required to lift a 70 kg man to a height of 10,000 km?    A spring requires a force of 100 N to stretch it a distance of 20 cm.  What is the force constant of the spring?  How much force is required to stretch the spring a distance of 50 cm?  How much energy is required to stretch the spring a distance of 0.5 m?  What is the potential energy of the spring when it is stretched 20 cm?  How much energy is required to stretch the spring from 20 cm to 50 cm?    A block of mass 10 kg is pulled to the right at constant speed on a horizontal surface by a horizontal force of 10 N.  What is the coefficient of friction?  How much work is done in overcoming the friction?    A water skier of mass 80 kg traveling at 15 m\/s releases from tow and travels a distance of 50 m before starting to sink into the water.  If he begins sinking when his speed is 4 m\/s, how much energy did friction consume before he began sinking?  If the skier is 1.8 m high and his center of gravity is in the middle of his body, how much energy is consumed by friction while he is sinking?       A spring of mass 2 kg and spring constant 300 N\/m is compressed a distance of 0.5 m and clamped in that position. When the clamped spring is 4 m above the ground traveling horizontally with a speed of 5 m\/s find each of the following:    What is its kinetic energy?    What is its gravitational potential energy?    What is its elastic potential energy?    What is its total energy?      If the clamp holding the spring is released so the spring returns to its original length by the time the system falls all the way to the ground and comes to rest, find each of the following:    What is its kinetic energy?    What is its gravitational potential energy?    What is its elastic potential energy?    What is its total energy?    How much energy is turned into heat by the time the system comes to rest on the ground?       A mass of 2 kg is placed against the end of spring compressed a distance of 50 cm as shown in the figure below. The system is released, the mass moves horizontally a total distance of 1 meter over a surface with a coefficient of kinetic friction of 0.2, slides up a smooth ramp of radius 25 cm, and then flies straight up a distance of 25 cm above the top of the ramp.    What is the equation for the total energy of the mass when it starts out?  What is the equation for the total energy of the mass when it reaches its highest point?  What is the equation for the amount of energy dissipated by friction?  What is the relationship between the above quantities?  What are the additional equations are needed to find the spring constant of the spring?  Where is the mass when it reaches its maximum speed?  What are the additional equations needed to find the maximum speed of the mass?  After the mass comes back down, where does it finally come to rest?    A ball of mass 1 kg is dropped from a height of 2 m onto a spring of force constant 500 N\/m. What is the maximum speed attained by the ball?  A portion of a roller coaster is shaped like a sine wave according to the equation where A = 50 ft and k = 0.04\/ft. Assume that friction consumes approximately 10\\% of the energy as the coaster moves from the high point to the next low point and that the coaster is moving at 10 ft\/s at the top, find the speed of the coaster at the bottom.  A rocket of mass 5 kg accelerates upward at a constant 4 g's for 5 sec starting from rest. Assume the mass of the fuel is negligible so the mass of the rocket can be considered constant throughout the acceleration.  How much energy is imparted to the rocket during the first second?  How much energy is imparted to the rocket during the last second?  Is chemical energy that drives the rocket being expended at the same rate during the first second as during the last second?  Explain why answers a and b are not the same. Where does the extra energy go?    A small pellet of mass m = 0.2 kg starts from rest at position A and slides down the smooth surface of the cylinder to position B. The radius R = 0.8 m. Use conservation of energy to determine the magnitude of the pellet's velocity at position B if .    A spring gun has a spring constant of 200 N\/m and shoots a projectile of mass 500 g. If the spring is compressed a distance of 10 cm into the barrel of the gun and the friction force in the gun barrel is 4 N, how high will the projectile rise above the tip of the gun barrel if  the gun is shot straight up, and  if the gun is aimed at above the horizontal.    A rock of mass 200 g is placed in a sling and whirled in a vertical circle of radius 50 cm. The rock is released when traveling vertically and rises to a height of 4 m above its starting point.  What was the velocity of the rock when it was released from the sling?  What was the tension in each of the two strings of the sling immediately before the rock was released?  Assuming no energy is added to the rock while it is whirling in the circle, what was the velocity of the rock at the bottom of the circle?  What is the maximum force that the hand must exert on the sling to keep the rock going in its circle?  What is the minimum force required to keep the rock going in its circle?      Power  An elevator lifts a load of 1000 lb to a height of 300 ft in 30 s.  What is the horsepower output of the motor running the elevator?  How many watts of electricity are required to run the motor?    A strongman sitting in the back of a motor boat of mass 2000 kg is holding a rope tied to the front of a canoe with its contents of 500 kg. The motor boat starts out towing the canoe and eventually attains a constant speed of 10 m\/s for a distance of 100 m. During that time the man feels a constant tension in the tow rope of 100 N.  How much energy does the man expend while towing the canoe?  How much energy does the motor boat expend while towing the canoe?  How much power is required to tow the canoe?  How much power is converted into heat through friction?    An electric motor starts revving up, consuming energy according to the equation , where .  How long does it take for the engine to consume 1000 J of energy?  What is the equation giving the power output of the motor?  How long does it take for the motor to develop a power output of 1 hp?    The power required to move an object is , where is the time and the constant . How much energy is required to move the object during the first 4 seconds?  A simple machine requires a force of 3 N moving through a distance of 4 m to lift a weight of 10 N through a height of 1 m.  What is the AMA of the machine?  What is the IMA of the machine?  What is the efficiency of the machine?    The pulley system shown at right requires a tension of 10 lb to lift a weight of 30 lb.  What is the actual mechanical advantage of the machine?  If there were no friction in the machine, how much weight could the 10 lb force lift?  What is the ideal mechanical advantage of the machine?  How far must the free end of the rope move in order to lift the weight 3 ft?  What is the efficiency of the pulley system?    A lever system has a AMA = 9 and an IMA = 10. How much work would be required to use this machine to lift a 200 lb weight a height of 2 ft?  The belt on an automobile engine transfers power from the engine pulley to the alternator pulley.  If the diameter of the engine pulley is 15 cm and that of the alternator pulley is 10 cm, what is the IMA of the pulley system?  If the AMA of the pulley system is 0.6, what is the efficiency of the pulley system?  If the energy conversion from mechanical energy to electrical energy in the alternator is , how much power must the motor deliver in order to generate 50 Watts of electrical power?    Find the value of IMA for the given figure.      Collision    A force of 1000 N is applied to an object that travels a distance of 10 m in 3 s. What is the impulse of the force?  A force rises linearly from zero to 106 Newtons in two milliseconds and then decreases linearly back to zero in the next two milliseconds. What is the total impulse of that force.  A force is described mathematically by the equation , where and t is expressed in seconds and ranges from zero to 2 seconds. What is the impulse of this force?    A 500 g hammer traveling at 30 m\/s hits a nail driving it into a block of wood during a period of time of 1 ms.  What is the change in momentum of the hammer if it does not bounce?  What is the change in momentum of the hammer if it bounces back at 20 m\/s?  What is the average force stopping the hammer if it doesn't bounce?  What is the average force if it bounces back at 20 m\/s?  Use energy considerations to find out how far the nail moves in each case.    A block of mass 2 kg moving at 10 m\/s collides with a second mass of 1 kg at rest. How fast does each mass move afterward  if the collision is perfectly inelastic, and  if the collision is perfectly elastic.    A ball is dropped from a height of 2 m and rebounds to a height of 1.5 m.  What is the coefficient of restitution between the ball and the table?  How high would a superball bounce if its coefficient of restitution is 0.95?    A block of mass 1 kg moving to the right with a speed of 1 m\/s strikes a second block of mass 2 kg moving to the left with a speed of 2 m\/s. The first mass bounces back with a speed of 2 m\/s.  What is the velocity (magnitude and direction) of the second mass after the collision?  What is the coefficient of restitution of the collision?  How much energy was lost during the collision?    A machine gun shoots 3 times per second. Each bullet has a mass of 20 g and the muzzle velocity is 300 m\/s.  What is the momentum of each bullet?  What is the average recoil force acting on the machine gun?  If the gun is mounted on a 1,000 kg boat whose friction through the water is proportional to velocity according to the equation f = cv, where c = 10 kg\/s, then how fast could the machine gun make the boat travel across the water?    A block of mass 2 kg moving at right at 10 m\/s collides with a 4 kg block at rest. If the coefficient of restitution is 0.5,  what will be the velocity of each block after the collision?  How much energy is lost in the collision?  If the collision lasts 10 ms, what is the average force between the two blocks?    A pool ball traveling along the x-axis at strikes a second ball of equal mass and glances off at an angle of above the x-axis. If the collision is perfectly elastic,  what is the direction that the second ball moves after the collision?  What is the speed of each ball after the collision?    A bullet of mass 50 g traveling at 400 m\/s due north strikes a rock of mass 500 g at rest and ricochets off the rock going due east. The rock recoils in a direction west of north.  What is the speed of the ricochetting bullet?  What is the recoil speed of the rock?  How much energy was lost in the collision?  What was the coefficient of restitution between the bullet and the rock?    A car of mass 700 kg moving west at a speed of 72 km\/h makes an inelastic collisions with a truck initially moving northward. If the tangled mass of car and truck slides off in the north-west direction a distance of 10 m when the coefficient of friction is 0.8, what was  the mass of the truck,  its speed before the collision,  the energy loss during the collision,  the average force between the car and truck during an impact lasting 0.1 s, and  the amount the car\/truck combination is compressed?    A bullet of mass 0.1 kg moving horizontally passes through a wooden block of mass 10 kg initially at rest and looses 90\\% of its kinetic energy. The recoiling block slides a distance of 1 m on a horizontal surface of friction constant 0.3 before coming to rest. What was the initial speed of the bullet.  A block of wood of mass 1 kg is balanced on the end of a pistol barrel and the pistol is fired. The block of wood flies upward a distance of 1 m with the bullet embedded inside. What is the muzzle velocity of the bullet if its mass is 10 g?  A 0.1-kg mass of putty drops from a height of 1 m onto a platform of 1 kg setting on a spring of constant 100 N\/m. The putty sticks to the platform causing it to recoil downward and compress the spring. How much is the spring is compressed before it comes to rest again.  A spherical ball of mass 1 kg and radius 3 cm is attached to a wire of length 2 m to form a pendulum. The top of the pendulum is attached to a wall near the top. The wire is pulled straight out horizontally and the ball is released from rest. The ball strikes the wall and rebounds a horizontal distance of 1 m. The wall is dented a distance of 1 cm.  What is the speed of the ball when it strikes the wall?  What is the speed of the ball when it leaves the wall?  How much energy did the ball lose?  What is the average force exerted by the ball on the wall?  What is the change in momentum of the ball?  How long was the ball in contact with the wall?    A 500 N boy sitting in a stationary 90 N wagon is start throwing bricks out of the wagon. If the boy has three bricks weighing 45 N each and throws them with a horizontal velocity of $3 m\/s$ relative to the wagon, determine the velocity he attains  if he throws the bricks one at a time and  if he throws them all at once.    A bullet of mass m penetrates a block of mass M lying on a frictionless table. If the initial velocity of bullet is and it exits form the block with velocity , find the time taken by the block to fly off the table if it is at a distance L from the edge of the table. If the table has a height h how far from the edge of the table will it land?   "
+  "body": "  Exercise   Work  Given the two vectors and What is their dot product?  A horizontal force is given by the equation , where . How much work is expended by that force when moving an object from to ?  A force has the components , , where and . Find the work done by this force along the paths  from (0,0) to (1m,0) to (1m,2m),  from (0,0) to (0,2m) to (1m,2m),  from (0,0) to (1m, 2m) along a straight line.    An object of mass 10 kg is lifted a vertical distance of 3 m and a horizontal distance of 4 m. How much work is done?  A force of 100 N moves a block of mass 10 kg up a plane of length 2 m at an angle of . If the force is parallel to the plane, if the block starts from rest, and if the coefficient of friction is 0.1, how much work is done  by the force,  by gravity, and  by friction.  How fast will the block be moving when it gets to the top?    A force of 100 N at an angle of above the horizontal moves a block of mass 10 kg along a horizontal surface a distance of 3 m. If the block starts from rest and if the coefficient of friction is 0.2, how much work is done  by the force,  by gravity,  by friction.  by the normal force, and  by the net force on the block.      Energy  A bullet of mass 10 g has a speed of 500 m\/s.  What is its kinetic energy?  If it penetrates a block of wood a distance of 10 cm before coming to rest, what is the average frictional force stopping the bullet? A second bullet identical to the first is shot through a sheet of wood 5 cm thick.  With what speed does the second bullet exit the wood?      How much energy would be required to lift a 70 kg man to a height of 100 m?  How much energy would be required to lift a 70 kg man to a height of 10,000 km?    A spring requires a force of 100 N to stretch it a distance of 20 cm.  What is the force constant of the spring?  How much force is required to stretch the spring a distance of 50 cm?  How much energy is required to stretch the spring a distance of 0.5 m?  What is the potential energy of the spring when it is stretched 20 cm?  How much energy is required to stretch the spring from 20 cm to 50 cm?    A block of mass 10 kg is pulled to the right at constant speed on a horizontal surface by a horizontal force of 10 N.  What is the coefficient of friction?  How much work is done in overcoming the friction?    A water skier of mass 80 kg traveling at 15 m\/s releases from tow and travels a distance of 50 m before starting to sink into the water.  If he begins sinking when his speed is 4 m\/s, how much energy did friction consume before he began sinking?  If the skier is 1.8 m high and his center of gravity is in the middle of his body, how much energy is consumed by friction while he is sinking?       A spring of mass 2 kg and spring constant 300 N\/m is compressed a distance of 0.5 m and clamped in that position. When the clamped spring is 4 m above the ground traveling horizontally with a speed of 5 m\/s find each of the following:    What is its kinetic energy?    What is its gravitational potential energy?    What is its elastic potential energy?    What is its total energy?      If the clamp holding the spring is released so the spring returns to its original length by the time the system falls all the way to the ground and comes to rest, find each of the following:    What is its kinetic energy?    What is its gravitational potential energy?    What is its elastic potential energy?    What is its total energy?    How much energy is turned into heat by the time the system comes to rest on the ground?       A mass of 2 kg is placed against the end of spring compressed a distance of 50 cm as shown in the figure below. The system is released, the mass moves horizontally a total distance of 1 meter over a surface with a coefficient of kinetic friction of 0.2, slides up a smooth ramp of radius 25 cm, and then flies straight up a distance of 25 cm above the top of the ramp.    What is the equation for the total energy of the mass when it starts out?  What is the equation for the total energy of the mass when it reaches its highest point?  What is the equation for the amount of energy dissipated by friction?  What is the relationship between the above quantities?  What are the additional equations are needed to find the spring constant of the spring?  Where is the mass when it reaches its maximum speed?  What are the additional equations needed to find the maximum speed of the mass?  After the mass comes back down, where does it finally come to rest?    A ball of mass 1 kg is dropped from a height of 2 m onto a spring of force constant 500 N\/m. What is the maximum speed attained by the ball?  A portion of a roller coaster is shaped like a sine wave according to the equation where A = 50 ft and k = 0.04\/ft. Assume that friction consumes approximately 10\\% of the energy as the coaster moves from the high point to the next low point and that the coaster is moving at 10 ft\/s at the top, find the speed of the coaster at the bottom.  A rocket of mass 5 kg accelerates upward at a constant 4 g's for 5 sec starting from rest. Assume the mass of the fuel is negligible so the mass of the rocket can be considered constant throughout the acceleration.  How much energy is imparted to the rocket during the first second?  How much energy is imparted to the rocket during the last second?  Is chemical energy that drives the rocket being expended at the same rate during the first second as during the last second?  Explain why answers a and b are not the same. Where does the extra energy go?    A small pellet of mass m = 0.2 kg starts from rest at position A and slides down the smooth surface of the cylinder to position B. The radius R = 0.8 m. Use conservation of energy to determine the magnitude of the pellet's velocity at position B if .    A spring gun has a spring constant of 200 N\/m and shoots a projectile of mass 500 g. If the spring is compressed a distance of 10 cm into the barrel of the gun and the friction force in the gun barrel is 4 N, how high will the projectile rise above the tip of the gun barrel if  the gun is shot straight up, and  if the gun is aimed at above the horizontal.    A rock of mass 200 g is placed in a sling and whirled in a vertical circle of radius 50 cm. The rock is released when traveling vertically and rises to a height of 4 m above its starting point.  What was the velocity of the rock when it was released from the sling?  What was the tension in each of the two strings of the sling immediately before the rock was released?  Assuming no energy is added to the rock while it is whirling in the circle, what was the velocity of the rock at the bottom of the circle?  What is the maximum force that the hand must exert on the sling to keep the rock going in its circle?  What is the minimum force required to keep the rock going in its circle?      Power  An elevator lifts a load of 1000 lb to a height of 300 ft in 30 s.  What is the horsepower output of the motor running the elevator?  How many watts of electricity are required to run the motor?    A strongman sitting in the back of a motor boat of mass 2000 kg is holding a rope tied to the front of a canoe with its contents of 500 kg. The motor boat starts out towing the canoe and eventually attains a constant speed of 10 m\/s for a distance of 100 m. During that time the man feels a constant tension in the tow rope of 100 N.  How much energy does the man expend while towing the canoe?  How much energy does the motor boat expend while towing the canoe?  How much power is required to tow the canoe?  How much power is converted into heat through friction?    An electric motor starts revving up, consuming energy according to the equation , where .  How long does it take for the engine to consume 1000 J of energy?  What is the equation giving the power output of the motor?  How long does it take for the motor to develop a power output of 1 hp?    The power required to move an object is , where is the time and the constant . How much energy is required to move the object during the first 4 seconds?  A simple machine requires a force of 3 N moving through a distance of 4 m to lift a weight of 10 N through a height of 1 m.  What is the AMA of the machine?  What is the IMA of the machine?  What is the efficiency of the machine?    The pulley system shown at right requires a tension of 10 lb to lift a weight of 30 lb.  What is the actual mechanical advantage of the machine?  If there were no friction in the machine, how much weight could the 10 lb force lift?  What is the ideal mechanical advantage of the machine?  How far must the free end of the rope move in order to lift the weight 3 ft?  What is the efficiency of the pulley system?    A lever system has a AMA = 9 and an IMA = 10. How much work would be required to use this machine to lift a 200 lb weight a height of 2 ft?  The belt on an automobile engine transfers power from the engine pulley to the alternator pulley.  If the diameter of the engine pulley is 15 cm and that of the alternator pulley is 10 cm, what is the IMA of the pulley system?  If the AMA of the pulley system is 0.6, what is the efficiency of the pulley system?  If the energy conversion from mechanical energy to electrical energy in the alternator is , how much power must the motor deliver in order to generate 50 Watts of electrical power?    Find the value of IMA for the given figure.      Collision    A force of 1000 N is applied to an object that travels a distance of 10 m in 3 s. What is the impulse of the force?  A force rises linearly from zero to 106 Newtons in two milliseconds and then decreases linearly back to zero in the next two milliseconds. What is the total impulse of that force.  A force is described mathematically by the equation , where and t is expressed in seconds and ranges from zero to 2 seconds. What is the impulse of this force?    A 500 g hammer traveling at 30 m\/s hits a nail driving it into a block of wood during a period of time of 1 ms.  What is the change in momentum of the hammer if it does not bounce?  What is the change in momentum of the hammer if it bounces back at 20 m\/s?  What is the average force stopping the hammer if it doesn't bounce?  What is the average force if it bounces back at 20 m\/s?  Use energy considerations to find out how far the nail moves in each case.    A block of mass 2 kg moving at 10 m\/s collides with a second mass of 1 kg at rest. How fast does each mass move afterward  if the collision is perfectly inelastic, and  if the collision is perfectly elastic.    A ball is dropped from a height of 2 m and rebounds to a height of 1.5 m.  What is the coefficient of restitution between the ball and the table?  How high would a superball bounce if its coefficient of restitution is 0.95?    A block of mass 1 kg moving to the right with a speed of 1 m\/s strikes a second block of mass 2 kg moving to the left with a speed of 2 m\/s. The first mass bounces back with a speed of 2 m\/s.  What is the velocity (magnitude and direction) of the second mass after the collision?  What is the coefficient of restitution of the collision?  How much energy was lost during the collision?    A machine gun shoots 3 times per second. Each bullet has a mass of 20 g and the muzzle velocity is 300 m\/s.  What is the momentum of each bullet?  What is the average recoil force acting on the machine gun?  If the gun is mounted on a 1,000 kg boat whose friction through the water is proportional to velocity according to the equation f = cv, where c = 10 kg\/s, then how fast could the machine gun make the boat travel across the water?    A block of mass 2 kg moving at right at 10 m\/s collides with a 4 kg block at rest. If the coefficient of restitution is 0.5,  what will be the velocity of each block after the collision?  How much energy is lost in the collision?  If the collision lasts 10 ms, what is the average force between the two blocks?    A pool ball traveling along the x-axis at strikes a second ball of equal mass and glances off at an angle of above the x-axis. If the collision is perfectly elastic,  what is the direction that the second ball moves after the collision?  What is the speed of each ball after the collision?    A bullet of mass 50 g traveling at 400 m\/s due north strikes a rock of mass 500 g at rest and ricochets off the rock going due east. The rock recoils in a direction west of north.  What is the speed of the ricochetting bullet?  What is the recoil speed of the rock?  How much energy was lost in the collision?  What was the coefficient of restitution between the bullet and the rock?    A car of mass 700 kg moving west at a speed of 72 km\/h makes an inelastic collisions with a truck initially moving northward. If the tangled mass of car and truck slides off in the north-west direction a distance of 10 m when the coefficient of friction is 0.8, what was  the mass of the truck,  its speed before the collision,  the energy loss during the collision,  the average force between the car and truck during an impact lasting 0.1 s, and  the amount the car\/truck combination is compressed?    A bullet of mass 0.1 kg moving horizontally passes through a wooden block of mass 10 kg initially at rest and looses 90\\% of its kinetic energy. The recoiling block slides a distance of 1 m on a horizontal surface of friction constant 0.3 before coming to rest. What was the initial speed of the bullet.  A block of wood of mass 1 kg is balanced on the end of a pistol barrel and the pistol is fired. The block of wood flies upward a distance of 1 m with the bullet embedded inside. What is the muzzle velocity of the bullet if its mass is 10 g?  A 0.1-kg mass of putty drops from a height of 1 m onto a platform of 1 kg setting on a spring of constant 100 N\/m. The putty sticks to the platform causing it to recoil downward and compress the spring. How much is the spring is compressed before it comes to rest again.  A spherical ball of mass 1 kg and radius 3 cm is attached to a wire of length 2 m to form a pendulum. The top of the pendulum is attached to a wall near the top. The wire is pulled straight out horizontally and the ball is released from rest. The ball strikes the wall and rebounds a horizontal distance of 1 m. The wall is dented a distance of 1 cm.  What is the speed of the ball when it strikes the wall?  What is the speed of the ball when it leaves the wall?  How much energy did the ball lose?  What is the average force exerted by the ball on the wall?  What is the change in momentum of the ball?  How long was the ball in contact with the wall?    A 500 N boy sitting in a stationary 90 N wagon is start throwing bricks out of the wagon. If the boy has three bricks weighing 45 N each and throws them with a horizontal velocity of relative to the wagon, determine the velocity he attains  if he throws the bricks one at a time and  if he throws them all at once.    A bullet of mass m penetrates a block of mass M lying on a frictionless table. If the initial velocity of bullet is and it exits form the block with velocity , find the time taken by the block to fly off the table if it is at a distance L from the edge of the table. If the table has a height h how far from the edge of the table will it land?   "
 },
 {
   "id": "exercise-113",
@@ -3571,7 +3562,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.6.43",
   "title": "",
-  "body": "A 500 N boy sitting in a stationary 90 N wagon is start throwing bricks out of the wagon. If the boy has three bricks weighing 45 N each and throws them with a horizontal velocity of $3 m\/s$ relative to the wagon, determine the velocity he attains  if he throws the bricks one at a time and  if he throws them all at once.   "
+  "body": "A 500 N boy sitting in a stationary 90 N wagon is start throwing bricks out of the wagon. If the boy has three bricks weighing 45 N each and throws them with a horizontal velocity of relative to the wagon, determine the velocity he attains  if he throws the bricks one at a time and  if he throws them all at once.   "
 },
 {
   "id": "exercise-156",
@@ -3889,9 +3880,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-772",
+  "id": "p-773",
   "level": "2",
-  "url": "subsec-paral_axis.html#p-772",
+  "url": "subsec-paral_axis.html#p-773",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3916,9 +3907,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-773",
+  "id": "p-774",
   "level": "2",
-  "url": "subsec-perpend_axis.html#p-773",
+  "url": "subsec-perpend_axis.html#p-774",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4069,9 +4060,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-800",
+  "id": "p-801",
   "level": "2",
-  "url": "subsec-mi_spher.html#p-800",
+  "url": "subsec-mi_spher.html#p-801",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4381,7 +4372,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "7.5.1",
   "title": "Simple Harmonic Motion",
-  "body": " Simple Harmonic Motion   Phasor Diagram     If a body oscillates repeatedly ( to and fro ) between two extremes in equal interval of time then the motion is called a simple harmonic motion. It is the simplest form of oscillatory motion. The moving particle follows the same velocity at the same displacement of its oscillation and the restoring force always pointed towards the mean position. The bouncing ball motion is oscillatory but not simple harmonic. A particle moving in a uniform circular motion in a given phasor diagram [ ] can be seen as a foot ( ) of the particle executing SHM.  The angular velocity of the particle is therefore the same as angular frequency of the foot of the particle executing SHM as shown in . As the particle moves on a circle its foot, M executes up and down motion which traces a sinusoidal curve with respect to time. Some important terminologies are given below to understand SHM.   Amplitude, :  amplitude The maximum displacement of the oscillating particle on either side of its mean position.   Time Period, :  time period Time taken by oscillatory particle to complete one oscillation is called time period.   Frequency, :  frequency The number of oscillation completed per unit time is called frequency. If is the time period, then frequency, is given by    Angular frequency, :  angular frequency It is a circular frequency which measures angular displacement per unit time. Its unit is radians\/sec. It is a scalar quantity. In circular motion, angular frequency and angular velocity is used interchangeably.   Phase, :  phase It is the initial position (in angle) of a particle at time If the particle executing SHM is at mean position when then if it is at its extreme positions then         The followings are some features to recognize simple harmonic motion (SHM). Any of these features guarantee the motion is SHM in nature.  Restoring force is proportional to displacement from equilibrium position, i.e., where is a proportionality constant and is a displacement from the equilibrium.  ime period, is independent of the amplitude of oscillation.  Potential energy is proportional to .  The graphs for position vs time, ( ); velocity vs time, ( ); and acceleration vs time, ( ) are all sinusoidal [ ].      Equation of SHM  Equation for simple harmonic oscillation can be obtained by considering a spring-mass system, but the equation can be used for any other system performing SHM. Consider a block of mass attached to the spring and one end of spring is fixed to the wall. If the block is displaced by the distance from the mean position of spring-block system and released on a frictionless surface then restoring force of spring is proportional to the displacement. That is,  Where is proportionality constant, called a force constant. It defines the elastic property of material, hence it is also called elastic constant. For spring we may also called as stiffness constant. However, if the restoring force has some other source then elastic property of material then is simply a proportionality constant and depends on the nature of space, e.g. gravitational field in case of simple pendulum. sign here shows restoring force is always opposite to the displacement from the mean position. Equation is Hook's Law, we can discuss this law in the chapter Elasticity .   Where is the angular frequency (velocity) of the object executing SHM or performing circular motion. Angular frequency, is taken as because phaser always revolves anticlockwise. In the , is a mean length of spring-mass system and is displacement from the equilibrium position at any time . Here point is equilibrium position and points and are two extremes. Now as acceleration, is a function of and is also a function of we can also have velocity, . Therefore,                 put, or      Where is a phase of oscillating particle. The displacement of oscillating particle can also be obtained by using Either solutions will work perfectly fine in solving shm problems. However, we can use cosine term solution if time when the particle is at its extreme position. If time when the particle is at mean position sine term solution will suffice. Here we are using as a solution for the differential equation. Hence the velocity of such particle at any time is given by and the acceleration of this particle is Time period of oscillation in spring-mass system is given by     Alternative solution to   We can find the solution of by the following way  This is second order differential equation with constant coefficient. The solution of such equation can be found by guessing which depends upon the nature of the curve that we precept in SHM, which is sinusoidal in this case. Hence we can guess that  will be the solution of given differential equation. The advanced way of finding the solution of such type of differential equation is to find the nature of roots of the equation and then the solution can be given by . Where and are arbitrary constants, and and are roots of the auxiliary equation. (see Chapter 4 in Mathematical Methods of Physics for Undergraduate - Sunil Karna)    Algebric derivation of particle's velocity in SHM:      Energy in SHM  Consider a vibrating spring with mass attached to its end, then the kinetic energy of the mass , and potential energy stored in the spring with a displacement is . [ ] Now since restoring force involved in spring mass system is conservative, the total mechanical energy is conserved [ ]. Here is a spring constant, is the amplitude of vibrating spring and the velocity of the particle executing SHM is zero at extremes. Let the spring oscillates in vertical up and down then the solution for SHM is given by      From eqn. , we have -  means mass is oscillating in up and down direction, i.e. Now  Note: The same result could be obtained by considering equation of SHM as        Summary of Phasor Diagram for    Points    s      KE  PE                                                                    "
+  "body": " Simple Harmonic Motion   Phasor Diagram     If a body oscillates repeatedly ( to and fro ) between two extremes in equal interval of time then the motion is called a simple harmonic motion. It is the simplest form of oscillatory motion. The moving particle follows the same velocity at the same displacement of its oscillation and the restoring force always pointed towards the mean position. The bouncing ball motion is oscillatory but not simple harmonic. A particle moving in a uniform circular motion in a given phasor diagram [ ] can be seen as a foot ( ) of the particle executing SHM.  The angular velocity of the particle is therefore the same as angular frequency of the foot of the particle executing SHM as shown in . As the particle moves on a circle its foot, M executes up and down motion which traces a sinusoidal curve with respect to time. Some important terminologies are given below to understand SHM.   Amplitude, :  amplitude The maximum displacement of the oscillating particle on either side of its mean position.   Time Period, :  time period Time taken by oscillatory particle to complete one oscillation is called time period.   Frequency, :  frequency The number of oscillation completed per unit time is called frequency. If is the time period, then frequency, is given by    Angular frequency, :  angular frequency It is a circular frequency which measures angular displacement per unit time. Its unit is radians\/sec. It is a scalar quantity. In circular motion, angular frequency and angular velocity is used interchangeably.   Phase, :  phase It is the initial position (in angle) of a particle at time If the particle executing SHM is at mean position when then if it is at its extreme positions then         The followings are some features to recognize simple harmonic motion (SHM). Any of these features guarantee the motion is SHM in nature.  Restoring force is proportional to displacement from equilibrium position, i.e., where is a proportionality constant and is a displacement from the equilibrium.  ime period, is independent of the amplitude of oscillation.  Potential energy is proportional to .  The graphs for position vs time, ( ); velocity vs time, ( ); and acceleration vs time, ( ) are all sinusoidal [ ].      Equation of SHM  Equation for simple harmonic oscillation can be obtained by considering a spring-mass system, but the equation can be used for any other system performing SHM. Consider a block of mass attached to the spring and one end of spring is fixed to the wall. If the block is displaced by the distance from the mean position of spring-block system and released on a frictionless surface then restoring force of spring is proportional to the displacement. That is,  Where is proportionality constant, called a force constant. It defines the elastic property of material, hence it is also called elastic constant. For spring we may also called as stiffness constant. However, if the restoring force has some other source then elastic property of material then is simply a proportionality constant and depends on the nature of space, e.g. gravitational field in case of simple pendulum. sign here shows restoring force is always opposite to the displacement from the mean position. Equation is Hook's Law, we can discuss this law in the chapter Elasticity .   Where is the angular frequency (velocity) of the object executing SHM or performing circular motion. Angular frequency, is taken as because phaser always revolves anticlockwise. In the , is a mean length of spring-mass system and is displacement from the equilibrium position at any time . Here point is equilibrium position and points and are two extremes. Now as acceleration, is a function of and is also a function of we can also have velocity, . Therefore,                 put, or      Where is a phase of oscillating particle. The displacement of oscillating particle can also be obtained by using Either solutions will work perfectly fine in solving shm problems. However, we can use cosine term solution if time when the particle is at its extreme position. If time when the particle is at mean position sine term solution will suffice. Here we are using as a solution for the differential equation. Hence the velocity of such particle at any time is given by and the acceleration of this particle is Time period of oscillation in spring-mass system is given by     Alternative solution to   We can find the solution of by the following way  This is second order differential equation with constant coefficient. The solution of such equation can be found by guessing which depends upon the nature of the curve that we precept in SHM, which is sinusoidal in this case. Hence we can guess that  will be the solution of given differential equation. The advanced way of finding the solution of such type of differential equation is to find the nature of roots of the equation and then the solution can be given by . Where and are arbitrary constants, and and are roots of the auxiliary equation. (see Chapter 4 )in Mathematical Methods of Physics     Algebric derivation of particle's velocity in SHM:      Energy in SHM  Consider a vibrating spring with mass attached to its end, then the kinetic energy of the mass , and potential energy stored in the spring with a displacement is . [ ] Now since restoring force involved in spring mass system is conservative, the total mechanical energy is conserved [ ]. Here is a spring constant, is the amplitude of vibrating spring and the velocity of the particle executing SHM is zero at extremes. Let the spring oscillates in vertical up and down then the solution for SHM is given by      From eqn. , we have -  means mass is oscillating in up and down direction, i.e. Now  Note: The same result could be obtained by considering equation of SHM as        Summary of Phasor Diagram for    Points    s      KE  PE                                                                    "
 },
 {
   "id": "rfcc",
@@ -4393,9 +4384,9 @@ var ptx_lunr_docs = [
   "body": " Phasor Diagram   "
 },
 {
-  "id": "p-859",
+  "id": "p-860",
   "level": "2",
-  "url": "subsec-shm.html#p-859",
+  "url": "subsec-shm.html#p-860",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4420,36 +4411,27 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-863",
-  "level": "2",
-  "url": "subsec-shm.html#p-863",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Alternative solution to "
-},
-{
   "id": "p-864",
   "level": "2",
   "url": "subsec-shm.html#p-864",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Mathematical Methods of Physics for Undergraduate "
+  "body": "Alternative solution to "
 },
 {
-  "id": "p-865",
+  "id": "p-866",
   "level": "2",
-  "url": "subsec-shm.html#p-865",
+  "url": "subsec-shm.html#p-866",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric derivation of particle's velocity in SHM: "
 },
 {
-  "id": "p-866",
+  "id": "p-867",
   "level": "2",
-  "url": "subsec-shm.html#p-866",
+  "url": "subsec-shm.html#p-867",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4492,9 +4474,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-868",
+  "id": "p-869",
   "level": "2",
-  "url": "subsec-simp_pendulum.html#p-868",
+  "url": "subsec-simp_pendulum.html#p-869",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4852,9 +4834,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-928",
+  "id": "p-929",
   "level": "2",
-  "url": "subsec-elst_mod.html#p-928",
+  "url": "subsec-elst_mod.html#p-929",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5059,9 +5041,9 @@ var ptx_lunr_docs = [
   "body": " Pascal's Principle   Pascal's principle states that pressure applied to an enclosed fluid is transmitted equally to every portion of the fluid and the walls of the container. This principle is valid only for an incompressible fluid which is most of the liquid. Hydraulic press  hydraulic press is one of the good examples of Pascal's principle. It is a device to lift heavy objects. It has two cylindrical opening attached the horizontal tube as shown in . An incompressible liquid is filled in the device. It works on Pascal's principle and obeys the conservation of energy. Work done on the a pump (small cylindrical piston) to push it down is equal to the work done by the big piston to lift heavy objects like vehicle, elephant, etc. Let a force is applied on one piston to push it to a distance then it lifts the weight to a distance on the other pan attached to the second piston.          Since the hydraulic fluid is incompressible  which is the Pascal's principle. Also  Since area of cross-section, is greater than area of cross-section, a small force can generate a compressive force     Measurement of Fluid Pressure  Pressure measurement is important in many occasions in our daily life. To check tire pressure, pressure in balloon filled with air, pressure inside a pipe carrying fluid, pressure in gas cylinder, pressure in boiler used in industries, and pressure inside an airplane cabin. Two basic types of pressure measuring devices have been discussed here.     Manometer:  manometer Manometer is is a U-shaped tube used to measure pressure of a fluid at rest. It contains water, mercury, or any other suitable fluid in the tube. When a pressure line is connected to one column of manometer, the fluid in the column will be forced down, and the fluid in the other will rise as shown in . By measuring the difference in height of the fluid in the two columns, the pressure of the inlet can be expressed in length.            Here is an atmospheric pressure acting on the open end of manometer, and are densities of fluids in container A and in U-tube, respectively. Pressure at points A and B are same and the pressure at points C and D are same. Hence pressure in column BC is balanced by pressure in column DE.   alternate:         Barometer  barometer It is the simplest pressure gauge used for measuring atmospheric pressure. It is designed by Torricelli . A meter long tube completely filled with mercury is inverted in a mercury container in such a way that the open end of the tube is under the pool of mercury. Now on balancing the atmospheric pressure acting on the mercury container the mercury column in the tube drops to a certain height and creating a complete vacuum at the top of the tube and hence the pressure is zero at point C. In the , points A and B are at the same level so they have the same pressure.       This device measures atmospheric pressure, rather than gauge pressure, because there is a nearly pure vacuum above the mercury in the tube.     "
 },
 {
-  "id": "p-967",
+  "id": "p-968",
   "level": "2",
-  "url": "subsec-pascle_prncpl.html#p-967",
+  "url": "subsec-pascle_prncpl.html#p-968",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5077,9 +5059,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-970",
+  "id": "p-971",
   "level": "2",
-  "url": "subsec-pascle_prncpl.html#p-970",
+  "url": "subsec-pascle_prncpl.html#p-971",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5095,18 +5077,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-972",
+  "id": "p-973",
   "level": "2",
-  "url": "subsec-pascle_prncpl.html#p-972",
+  "url": "subsec-pascle_prncpl.html#p-973",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "alternate: "
 },
 {
-  "id": "p-973",
+  "id": "p-974",
   "level": "2",
-  "url": "subsec-pascle_prncpl.html#p-973",
+  "url": "subsec-pascle_prncpl.html#p-974",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5131,9 +5113,9 @@ var ptx_lunr_docs = [
   "body": " Archimedes' Principle  When an object is placed in a fluid it experiences an upthrust force called a buoyant force . It is arising due to changes of the pressure inside fluid. This phenomenon is known as Archimedes' principle. It states that when a body is fully or partially immersed in a fluid, the fluid exerts an upward force on the body equal to the weight of liquid displaced . That is, buoyant force (B) = weight of displaced fluid. Liquid does not distinguish between the volume of its own or the volume of some thing else. Meaning if we replace some arbitrary volume of the liquid with some other object of the same volume then the liquid applies the same force on its surface, and .                           If and are the mass and volume of displaced fluid and is the density of fluid then weight of displaced fluid is given by Due to buoyant force body appear lighter than it really is. Hence, the weight of a body in the fluid is called an apparent weight. Weight loss of a body is equal to weight of liquid displaced. That is, Where and are weight of a body in air and in the fluid, respectively. Apparent weight is the net downward force.  Hence apparent loss in weight = buoyant force = weight of water displaced.  If an object floats, then its apparent weight is zero. If its apparent weight is more than zero, it sinks. A floating object loss all of its weight.    If the body is completely submerged but suspended in the fluid [ ], then from Newton's second law net force acting on the body is zero. That is, buoyant force is equal to weight of the body  Since body is completely immersed in the fluid, . Hence,  The body will suspend in a fluid if their densities are same.  If the body is floating in the fluid [ ], then buoyant force is greater than the weight of the body. Hence body comes to a float, but at the surface of the fluid, net force acting on the body is zero.  Since body is floating in the fluid, volume of the displaced fluid is then only equal to immersed portion of the body. Hence   The body will float in a fluid if the densities of fluid is greater than that of the body.  If the body is sinking in the fluid [ ], then buoyant force is less than the weight of the body. Hence body sinks, but at the bottom of the fluid, net force acting on the body is zero.  Since Hence for to be +ve, must be positive. Here is the apparent weight of the body in the fluid.     "
 },
 {
-  "id": "p-975",
+  "id": "p-976",
   "level": "2",
-  "url": "subsec-archm_princp.html#p-975",
+  "url": "subsec-archm_princp.html#p-976",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5347,9 +5329,9 @@ var ptx_lunr_docs = [
   "body": " Coefficient of Viscosit  If we observe the flow of water in a river flowing continuously and smoothly, we will be able to notice that water near the edge of the river flows slower than the water flowing near the middle of the river. When a fluid is flowing past a stationary wall, the fluid right close to the wall is almost at rest but the fluid away from the wall flows with relatively higher speed. So a velocity gradient exists between layers in fluid flow. This is due to adhesive, cohesive, and frictional forces acting between adjacent layers of the fluid. The velocity gradient (i.e., the change in speed with distances) is a characteristic of the fluid. This is used to define the coefficient of viscosity We limit our discussion here only on laminar flow of liquid.  In a layer has higher speed than its adjacent layer , so layer A applies force on B to move it faster, but layer B pushes layer A backward so that they go together. Such pushing and pulling between the layers creates a drag force called a viscous force . Consider a shear force F is required to keep the layer of fluid moving at a constant velocity v, then it can be observed through the experiments that this force depends on the following four factors. This force   is proportional to velocity of the layer of liquid ( ),  is proportional to the surface area of layer having the velocity v ( )  is inversely proportional to the distance of the layer from the stationary wall ( ) Mathematically,    If is the distance between adjacent layers and is the difference in their velocities, then the viscous force is given in differential form as where, is a proportionality constant, called coefficient of viscosity and it defines the property of the fluid. The greater the coefficient of viscosity , the greater the force required to move the layer of fluid at a velocity v. The term is called a velocity gradient. The fluids which obey this equation are called Newtonian fluids and is independent of the speed of flow. If does depend on the velocity of flow the fluids are called non-Newtonian . Blood is an example of a non-Newtonian fluid. The SI unit of viscosity is or, . A common unit of viscosity is the poise where   Viscosity is temperature dependent. Viscosity of a liquid decreases with increasing temperature and that for a gas increases with increasing temperature.  "
 },
 {
-  "id": "p-1024",
+  "id": "p-1025",
   "level": "2",
-  "url": "subsec-coef_visc.html#p-1024",
+  "url": "subsec-coef_visc.html#p-1025",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5410,9 +5392,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-1033",
+  "id": "p-1034",
   "level": "2",
-  "url": "subsec-capl_act.html#p-1033",
+  "url": "subsec-capl_act.html#p-1034",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5851,9 +5833,9 @@ var ptx_lunr_docs = [
   "body": " Absolute Scale  A physical thermometer uses the physical properties of a material or substance to determine temperature. It relies on the fact that certain physical properties change in a predictable way with temperature. Examples of physical thermometers include mercury-in-glass thermometers, alcohol thermometers, and bimetallic strip thermometers. These thermometers use the expansion and contraction of materials (e.g., mercury or alcohol) to indicate temperature changes. The scale of normal thermometers depends upon the physical propertise (thermal expansion, electrical resistance, etc) of the substance which is used in the thermometer. The physical property (e.g. thermal expansion) of materials varies differently at the different range of temperatures hence all these thermometers have fixed uses. For example, a mercury thermometer can measure temperature ranges from approximately to ( to ). For alcohol thermometer, the typical temperature range is approximately to ( to ). That means, if we go to Antarctica we must bring with us an alcohol thermometer and when going to Lut Desert a hotest place on earth, we need a mercury thermometer. Mercury thermometer may freeze in Antarctica and alcohol thermometer may boil in Lut Desert. To remedy such problems of limitation of physical thermometers, Scottish physicist William Thomson, Baron Kelvin proposed to constructing a temperature scale which should be independent on the material properties on the basis of thermodynamics principles that the lowest possible temperature which could be achieved was in 1848. This minimum temperature is the zero point on Kelvin scale and is known as absolute zero . Kelvin scale is a hypothetical (theoretical) thermometer scale also known as absolute scale . From third law of thermodynamics, it is impossible to reach absolute zero temperature by any physical means.       Temperature is a measure of average kinetic energy per molecule of any substance. In classical mechanical point of view, molecular motion ceases completely at absolute zero and hence possesses zero kinetic energy. (However, in quantum mechanical point if view, at absolute zero molecular motion takes minimum speed of its vibration.) It has been seen from the gas laws that the product of pressure and volume is directly proportional to temperature [ ]. In fact, all gases have energy ( ) heading to zero at the same temperature called absolute zero. At absolute zero the pressure of an ideal gas would drop to zero.  "
 },
 {
-  "id": "p-1112",
+  "id": "p-1113",
   "level": "2",
-  "url": "subsec-.html#p-1112",
+  "url": "subsec-.html#p-1113",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5869,40 +5851,778 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
+  "id": "subsec-lin_exp",
+  "level": "1",
+  "url": "subsec-lin_exp.html",
+  "type": "Subsection",
+  "number": "10.2.1",
+  "title": "Linear Expansion",
+  "body": " Linear Expansion  Suppose a rod of original length is heated for a temperature difference of , then we can find that the change in its length is proportional to the change in temperature, i.e., . If increases also increases by itself. We can also see that the change in length is also proportional to its original length [ ], i.e., Hence by combining these properties, we can have  where is a proportionality constant called coefficient of linear expansion or linear expansivity. It is a material property. This distinguishes the expansion properties of one material to another.  Hence, linear expansivity is defined as the change in length of a rod per unit original length per unit rise of temperature.  "
+},
+{
+  "id": "subsec-super_exp",
+  "level": "1",
+  "url": "subsec-super_exp.html",
+  "type": "Subsection",
+  "number": "10.2.2",
+  "title": "Superficial Expansion",
+  "body": " Superficial Expansion  If a thin plate of original area [ ] is heated for a temperature difference of , then we can find that the change in its area  where is a proportionality constant called coefficient of superficial expansion or superficial expansivity. It is a material property.  Hence, superficial expansivity is defined as the change in area of a plate per unit original area per unit rise of temperature.  "
+},
+{
+  "id": "subsec-vol_exp",
+  "level": "1",
+  "url": "subsec-vol_exp.html",
+  "type": "Subsection",
+  "number": "10.2.3",
+  "title": "Volumetric (Cubic) Expansion",
+  "body": " Volumetric (Cubic) Expansion  If a cuboid of original volume [ ] is heated for a temperature difference of , then we can find that the change in its volume,  where is a proportionality constant called coefficient of volumetric expansion or volumetric expansivity. It is a material property.  Most materials expand on heating and possess positive coefficient of expansion, e.g., metals, glass, etc. However, some materials contract on heating and possess negative coefficient of expansion, e.g., water, bismuth, welding rods, etc.  "
+},
+{
+  "id": "subsec-rel_therexp",
+  "level": "1",
+  "url": "subsec-rel_therexp.html",
+  "type": "Subsection",
+  "number": "10.2.4",
+  "title": "Relationship between <span class=\"process-math\">\\(\\alpha, \\,\\beta,\\)<\/span>  and <span class=\"process-math\">\\(\\gamma\\)<\/span>",
+  "body": " Relationship between and  Consider a solid cube of side at temperature and at temperature Hence from linear expansion, we have The volume of a cube is therefore,  Now since is very small, is very very small. Hence the quantities and are neglected.  By comparing eqns. and , we get - Similarly the area of a cube is given by -    is very small. By comparing eqns. and , we get -    "
+},
+{
+  "id": "subsec-water_anom",
+  "level": "1",
+  "url": "subsec-water_anom.html",
+  "type": "Subsection",
+  "number": "10.2.5",
+  "title": "Anomalous expansion of water",
+  "body": " Anomalous expansion of water  Normally, substances expand on heating and contract on cooling. Water exists in three phases solid, liquid, and gas. At temperatures below water exists as a solid ice, occupying a bigger volume. When heated, it expands like normal solid up to It begins melting at to liquid water without any change in temperature. Melting is accompanied by a decrease in its volume by about . As temperature increases above water contracts further up to and occupies the minimum volume at . Therefore water has maximum density at which is about Above , water expands like any other liquid. This behavior of water is described as anomalous, unusual, irregular, or peculiar behavior of water. The importance of anomalous properties of water can be summarized as:  During cold weather, the temperature of lakes drops and water contracts, becomes denser and sinks. A circulation of water is thus set up until all the water attain maximum density i.e. at . If further cooling occurs (below ), then any water below will stay at the top due to its lower density. At ice forms on top and this acts as an insulator to the layers below. Hence the relatively warm water underneath ice layer can help sustain aquatic life.  Ice has a slightly lower density than that of water and hence it floats with a small portion above the water surface. The rest and a larger portion of the ice rests under water. This is called an iceberg. Icebergs pose a great danger to ships as the submerged parts cannot be seen easily by navigators.    "
+},
+{
+  "id": "subsec-sp_heat",
+  "level": "1",
+  "url": "subsec-sp_heat.html",
+  "type": "Subsection",
+  "number": "10.3.1",
+  "title": "Specific Heat Capacity",
+  "body": " Specific Heat Capacity  Heat absorbing capacity of a material is known as specific heat capacity. Suppose we have two marbles at room temperature , one has mass 1 kg and another has mass 2 kg. If we want to heat them to , then from our experience we know that 2 kg marble will take longer than 1 kg marble to reach at the same temperature. Hence, the amount of heat (Q) put into the material is directly proportional to the mass (m) of the material. That is, Now suppose both of our marbles has a mass of 1 kg each and we want to heat one of them for and another for temperature We can again tell that the marble which has to be heated for will take longer than the other. That is, where . For marble of mass 1 kg, and for the marble of mass 2 kg By combining these two expressions, we have -  where is a proportionality constant and is called specific heat capacity of the material. It is the properties of a material. Different materials have different specific heat capacities and hence they absorb or release heat differently. If m=1 kg, , then , i.e., specific heat capacity of a material is the amount of heat added into or taken out from the material of unit mass to the unit degree rise or fall of temperature. In SI system, unit of is . In heat and thermodynamics, we normally measure heat in calorie unit but other physical quantities in SI unit . Hence the mixture of systems of unit can be seen in this chapter. In cgs system, unit of specific heat capacity of water is  The capacity of a material to absorb heat per degree rise of temperature is called heat capacity . It is defined as . The amount of heat required to raise the temperature of one mole of a substance by one degree (Celsius or Kelvin) is known as molar (specific) heat capacity .  "
+},
+{
+  "id": "p-1122",
+  "level": "2",
+  "url": "subsec-sp_heat.html#p-1122",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "heat capacity molar (specific) heat capacity "
+},
+{
+  "id": "subsec-latent",
+  "level": "1",
+  "url": "subsec-latent.html",
+  "type": "Subsection",
+  "number": "10.3.2",
+  "title": "Latent Heat",
+  "body": " Latent Heat  Heat absorbed or released by the material during phase change is called latent heat. There is no temperature change during a phase change hence this energy is hidden from temperature scale. The energy dissipated or released during phase change is in adjustment of particles potential energy in the bonds. Hence the amount of heat during phase change is proportional to the mass of a material. That is,  where is a latent heat during phase change. It is also a material property. The latent (hidden) heat of fusion for water at is approximately (79.7 calories\/g), and the latent heat of vaporization at is about 2,230 joules per gram (or, 533 calories per gram) .  "
+},
+{
+  "id": "subsec-phase_change",
+  "level": "1",
+  "url": "subsec-phase_change.html",
+  "type": "Subsection",
+  "number": "10.3.3",
+  "title": "Phase Changes of Matter",
+  "body": " Phase Changes of Matter  We know that ice is solid water, even steam is water as well. Any material can exist in three different states solid, liquid, and gas are also known as the phases of matter. When ice is heated it melts into liquid water and then evaporates into water vapor. These changes from one phase to another are referred to as phase changes .      We may also have noticed that the temperature of water doesn't change during boiling. The temperature of water increases up to boiling and then remains constant as it boils. The following diagram illustrates the relationship between temperature and amount of heat needed to change the phases of water. We can see that the temperature increases as heat is added to water within a phase. Adding heat into the water increases the kinetic energy of water molecules within the ice. During the phase change, the added heat doesn't make the molecules move faster, but make them further apart. The heat energy added during the phase change is consumed to overcome intermolecular force of attraction and stored within the material in the form of potential energy of the molecules. Where amount of heat added to the system can be obtained by    and   While cooling process heat is taken out from the system, then latent heat of vaporization becomes latent heat of condensation and latent heat of melting becomes latent heat of fusion. For water, latent heat of melting and latent heat of fusion are same. Similarly, latent heat of vaporization and latent heat of condensation are same but they are not same for many other materials. Phase of matter changes from solid to liquid is called melting or fusion , from solid to gas is called sublimation , from liquid to solid is called freezing , from liquid to gas is called evaporation or boiling, from gas to solid is called deposition , from gas to liquid is called condensation , from plasma state to gaseous state is called recombination , and from gaseous state to plasma state is called ionization .  "
+},
+{
+  "id": "p-1124",
+  "level": "2",
+  "url": "subsec-phase_change.html#p-1124",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "phase changes "
+},
+{
+  "id": "phasechanges",
+  "level": "2",
+  "url": "subsec-phase_change.html#phasechanges",
+  "type": "Figure",
+  "number": "10.3.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-calrmtr",
+  "level": "1",
+  "url": "subsec-calrmtr.html",
+  "type": "Subsection",
+  "number": "10.3.4",
+  "title": "Calorimetry",
+  "body": " Calorimetry      It is a process to measure amounts of heat (calories) transferred to or from a substance. A device used to measure the amount of heat involved in the process is called a calorimeter . A basic calorimeter consists of a metal container of water, in which a thermometer is used to measure the change in water temperature and a stirrer to stir water frequently to maintain uniform temperature. The principle of calorimetry states that in an isolated system heat lost by one component of calorimeter is equal to heat gained by the another components of the calorimeter. A calorie is the amount of energy required to raise one gram of water by one degree Celsius. From the principle of calorimetry, i.e., heat loss = heat gain.  "
+},
+{
+  "id": "calorim",
+  "level": "2",
+  "url": "subsec-calrmtr.html#calorim",
+  "type": "Figure",
+  "number": "10.3.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1127",
+  "level": "2",
+  "url": "subsec-calrmtr.html#p-1127",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "calorimeter "
+},
+{
+  "id": "subsec-triple_pnt",
+  "level": "1",
+  "url": "subsec-triple_pnt.html",
+  "type": "Subsection",
+  "number": "10.3.5",
+  "title": "Triple Point of Water",
+  "body": " Triple Point of Water      It is a point in the phase diagram at which the solid, liquid, and vapor can co-exist. Phase diagram is characteristic curves of the material between pressure, volume, and temperature. Figure 10.8 is a PT curve shown as a phase diagram of water at constant volume. The of temperature at which the solid and liquid states are in equilibrium is called melting point and the line at which they co-exist is called the ice line . The temperatures at which the solid and gaseous states are in equilibrium is called sublimation point and the line at which they co-exist is called the sublimation line or hoar-frost line. The values of these temperatures change with the pressure. The steam line shows the variation of boiling point of water with the pressure. Ice line shows the variation of melting point of water with the pressure. The negative slope of this line shows the melting point of ice decreases with the increase of pressure. Sublimation line or Hoar-frost line, shows the equilibrium between the ice and steam. These three lines meet at a single point 'p' called the triple point of water . The triple point of water is 273.16 K at pressure 0.006 atm pressure.  "
+},
+{
+  "id": "tpoint",
+  "level": "2",
+  "url": "subsec-triple_pnt.html#tpoint",
+  "type": "Figure",
+  "number": "10.3.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-heat_trans",
+  "level": "1",
+  "url": "subsec-heat_trans.html",
+  "type": "Subsection",
+  "number": "10.3.6",
+  "title": "Heat Transfer",
+  "body": " Heat Transfer   It is process by which heat transfers from one location to another due to temperature difference. Heat can only flow from high temperature to low temperature. There are three processes involved in heat transfer. They are conduction, convection, and radiation.   Conduction  In this process heat is transferred through stationary matter by physical contact. In microscopic level atoms and molecules are always in random motion at any temperature above absolute zero. When heated these particles (atoms and molecules) gain thermal energy and begin vibrating even higher amplitude knocking the neighboring particles. By doing so they impart some of their energy to their neighboring particles, and so on. Eventually heat is carried away from one end of a substance to another. In conduction, heat carrying particles do not physically move from its place rather they transfer their energy to neighbors when they knock one another. Every time they knock pass some of their energy to next one and returns to their original place. Heat transfers from the burner of a stove through the bottom of a pan to food in the pan is transferred by conduction. Conduction occurs in all states of substances solid, liquid, and gas. In solids, conduction happens due to molecular vibration. In gases and liquids, it is due to collisions and diffusion of the molecules during their random motion.  Consider one end of a metallic bar [ ] of length and area of cross-section is kept at hot temperature and another end is kept at cold temperature , then the amount of heat, transfers through this bar at time can be found experimentally as    combining these all, we get -  where is a proportionality constant, known as coefficient of thermal conduction or conductivity of a material. It is a material property.      In differential form, where is a length of the bar. That is, the rate of heat flow at any point is proportional to the temperature gradient (how fast the temperature is changing with position). The ratio of thickness to the conductivity of a material can be known as R-values . Hence, and the rate of heat flow can be given by     Convection  In this process heat transfer occurs by the actual movement of fluid particles. Convection heat transfer is energy transport due to bulk fluid motion. Convection happens in gases and liquids.      When a fluid is heated, its molecules which are in contact with the hot surface get hot and expand. That is, the fluid above a hot surface expands, becomes less dense, and rises. It carries the thermal energy along when rises up. The relatively cold fluid on the upper surface is heavier and sink down near the heat source. Hence a current of heat cycle develops in the convection process, called convection cycle. The rate of heat flow in convection process is given by where is known as convective heat transfer coefficient, is surface area of fluid receiving heat, and are temperature of hot surface and cold fluid, respectively. The unit of is     Radiation  It is the process in which heat transfer without the need of intervening medium. Heat transfer occurs in this process when electromagnetic waves emitted or absorbed. The warming of the earth surface by the Sun is due to radiation. Heat transfer by this process is the fastest one. All bodies above absolute zero emit thermal radiation. At room temperature the radiation is in the infrared range, wavelengths longer than those of the visible spectrum. In atomic domain, the radiation is caused because of oscillating ions and electrons in a warm solid are accelerating electric charges, such charges radiate. Different substances radiate with different efficiencies. The good radiator of radiation is a good absorber of radiation. A perfect absorber is called a black body (such perfection is not found in nature, but some things are close). Hence a black body is also a perfect radiator. A black body absorbs and emits radiation of all most all frequencies. It was found experimentally that heat energy radiated per unit time per unit surface area of a perfectly black body is proportional to the fourth power of its absolute temperature. This statement is also called Stefan-Boltzmann law . That is,  where is called Stefan-Boltzmann constant and is called emissivity of the object. For a perfect black body If and be the temperatures of the body and its surroundings then, net rate of heat loss, For any particular wavelength and temperature the amount of thermal radiation emitted depends on the emissivity of the object's surface. Emissivity is defined as the ratio of the energy radiated from a material's surface to that radiated from a blackbody at the same temperature and wavelength under the same viewing conditions. It is a dimensionless number between 0 (for a perfect reflector) and 1 (for a perfect emitter). The emissivity of a surface depends not only on the material but also on the nature of the surface . For example, a clean and polished metal surface will have a low emissivity, whereas a roughened and oxidized metal surface will have a high emissivity. The emissivity also depends on the temperature of the surface as well as wavelength and angle.     To calculate temperature, heat transfer, and energy balance in various systems or to understand the transfer of energy (heat) as electromagnetic radiation between objects the following terminologies are very important to know.   Emissive Power  It is defined as the radiant energy emitted per unit time per unit surface area of the body at a particular temperature within a unit wavelength range. Emissive power represents the rate at which an object emits electromagnetic radiation, typically in the form of thermal radiation (infrared radiation) due to its temperature. Emissive power depends on the temperature of the object and its emissivity. Emissivity is a material property that describes how efficiently an object can emit radiation compared to an ideal black body, which has an emissivity of 1. Objects with higher emissivity values emit radiation more effectively.    Absorptive Power  It is defined as the ratio of radiant energy absorbed per unit time per unit surface area of the body to the total energy falling per unit time on the same area at a particular temperature within a unit wavelength range. Absorptive power represents the ability of an object to absorb electromagnetic radiation. It is the complement of reflectivity and is related to how efficiently a material can absorb incoming radiation. Materials with high absorptivity values absorb more radiation and convert it into thermal energy. Absorptivity, like emissivity, is also a material property and varies with wavelength. It is a unitless value between 0 and 1.    Kirchhoff's Law  Kirchhoff has two fundamental principles in the study of thermal radiation and the behavior of materials with regard to electromagnetic radiation. The details of Kirchhoff's law is not a part of discussion here but only taken here for some information. Kirchhoff's first law states that at any temperature, the ratio of the emissive power to the absorptive power for a given wavelength is the same for all bodies and is equal to the emissive power of a perfectly black body.  In other words, this law states that the emissivity ( ) of an object at a particular wavelength is equal to its absorptivity ( ) at that same wavelength. That is, the amount of radiation that an object emits at a specific wavelength is equal to the amount of radiation it absorbs at that same wavelength when the object is in thermal equilibrium with its surroundings.  Kirchhoff's second law states that at every temperature and for every wavelength, the emissivity ( ) of a perfect black body is equal to 1. That is, a perfect black body is an idealized object that absorbs all incident radiation and emits radiation at the maximum possible rate for a given temperature. It is often used as a reference to compare the behavior of real objects in radiative heat transfer.      "
+},
+{
+  "id": "p-1129",
+  "level": "2",
+  "url": "subsec-heat_trans.html#p-1129",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "black body Stefan-Boltzmann law Emissivity "
+},
+{
+  "id": "p-1136",
+  "level": "2",
+  "url": "subsec-heat_trans.html#p-1136",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Emissive Power Absorptive Power Kirchhoff's Law "
+},
+{
+  "id": "subsec-newton_cool",
+  "level": "1",
+  "url": "subsec-newton_cool.html",
+  "type": "Subsection",
+  "number": "10.3.7",
+  "title": "Newton’s Law of Cooling",
+  "body": " Newton's Law of Cooling  The rate of loss of heat by a body is directly proportional to the temperature difference between the body and its surroundings, provided that the temperature difference is small.  Let and be the temperature of a body and its surroundings, respectively. Let be the rate of loss of heat, then from Newton's law of cooling -  where is a constant. If be the mass of a body and be its specific heat capacity, then  From eqns. and we have -   This is known as Newton's law of cooling. Here and are constant.  "
+},
+{
+  "id": "subsec-solar_const",
+  "level": "1",
+  "url": "subsec-solar_const.html",
+  "type": "Subsection",
+  "number": "10.3.8",
+  "title": "Solar Constant",
+  "body": " Solar Constant      It is the rate at which solar energy received by the unit surface area of the earth, when it is placed at the mean sun-earth distance. Solar constant,  solar constant   If be the radius of the sun and be its surface temperature, then by considering the sun as a perfect black body, solar energy radiated by the sun surface is given by If be the mean sun-earth distance then sun's energy is radiated in the spherical surface of area . Hence the energy received by unit surface on the earth is        "
+},
+{
+  "id": "solarconst",
+  "level": "2",
+  "url": "subsec-solar_const.html#solarconst",
+  "type": "Figure",
+  "number": "10.3.6",
+  "title": "",
+  "body": "   "
+},
+{
   "id": "sec_tenth-examplesA",
   "level": "1",
   "url": "sec_tenth-examplesA.html",
   "type": "Section",
-  "number": "10.2",
+  "number": "10.4",
   "title": "Examples A",
-  "body": " Examples A            "
+  "body": " Examples A   Temperature & Expansion    Nitrogen liquefies at 63 K. What is this temperature in  degrees Celsius?  degrees Fahrenheit?      Given:               A steel rail 50 m long and cross sectional area is laid out on a hot summer day when the temperature is . The next winter the temperature drops to below zero. How great a force would be required to keep the ends of the rail from moving? For steel, ,  .      Given:                 A sheet of aluminum 2 m long, 1 m wide, and 1 mm thick at is heated to . If , how much does the area of the sheet increase?    Given:            A 1 L glass flask is filled to the mark with ethyl alcohol at . If the system is heated to ,    how much does the glass flask expand?  How much does the alcohol expand?  How high does the alcohol flow up the neck of the flask if its cross-sectional area is ?      Given:                          Calorimeter    How much heat is required to convert a 100 g ice cube taken from the refrigerator at into super heated steam at if the conversion is performed at atmospheric pressure? Note: c(ice) = c(steam) =       Given:          A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 100 g of ice at .  How much ice melts?  What is the final temperature of the system? Note:   .      Given: Mass of aluminum calorimeter, mass of ice, and mass of iron, Initial temperature of ice and calorimeter, initial temperature of iron, When hot iron is placed in calorimeter iron losses its heat and calorimeter and contents gains heat till the final temperature of the mixture reaches to equilibrium at     Now first calculate amount of heat needed for ice to melt completely, Heat lost by iron if cool to = Hence more heat is available in container than ice requires to melt completely.    All ice melts, i.e.,   Now from principle of calorimetry, Heat loss by iron = heat gained by calorimeter + ice.               Table salt has the chemical formula of and a specific heat capacity of The atomic mass of sodium is 22.99 and of chlorine is 35.453.  What is the molar mass of salt?  What is the molar heat capacity of salt?  How many joules of heat are required to heat 2 moles of salt from room temperature to boiling temperature ?      Given:      Molecular mass    Molar heat capacity,            A lead bullet of mass 10 g, traveling at 500 m\/s, strikes a target and comes to rest. The specific heat of solid lead is , lead melts at , and its heat of fusion is . If the bullet is at before hitting the target and all the heat generated by the collision goes into the bullet, what is the final temperature of the bullet?    Given:      Heat produced by bullet = change in kinetic energy of bullet.             A piece of iron ( ) having a mass of 300 g and temperature of is placed in a wall insulated and massless calorimeter containing 500 g water ( ) at   What is the final temperature of the system?  What is the change in entropy of the iron?  What is the change in entropy of the water?  What is the change in entropy of the universe?  Is this result consistent with the second law of thermodynamics. Why?      Given:      Heat loss = heat gain                   yes, entropy always increases in irreversible process.        Heat Transfer    The wall of a house is 6 m high, 7 m wide and 0.3 m thick made out of brick of thermal conductivity, The interior temperature of the house is and that at the exterior is find the rate of heat loss through the wall.    Given:   and Now the rate of heat transfers due to conduction,        A carpenter builds the walls of a basement out of solid concrete 4 inches thick. In order to reduce the heat loss to the ground, he surrounds the wall with styrofoam sheets 2 inches thick before filling in the dirt. The average ground temperature at that location is and the interior temperature of the basement is kept at a comfortable year round.  How much heat flows through the wall of the basement per square meter during the course of one year?  If the basement measures 10 m long, 5 m wide, and 3 m high how much heat flows out the walls in one year?  If electricity costs 10 cents per kilowatt-hour, how much would it cost to heat the basement per year? Note:       Given:           Since rate of heat flow from the wall is constant, We can find the value of T and plug that value in either or to get get by using formula       for 4 walls                 The wall of a house is 4 m wide and 3 m high. Except for the windows the wall consists of a sheet of rock , inches of fiberglass insulation , and wooden siding . There are two windows in the wall, each 1 m wide and 1.5 m tall consisting of single pane glass .  If the temperature outside is and inside is , how much heat flows out the wall and windows in 1 hour?  If the conductivity of window glass is and the window is 3.2 mm thick, what is the effective R-value of each of the two layers of \"dead\" air in contact with the window?      Given:                   and                     Assume that the total surface area of the human body is about and the surface temperature of the skin is .  What is the rate of heat loss through radiation by the body if the emissivity of the body is 0.9?  What is the net rate of heat loss through radiation by the body into an environment at ?      Given:                  Two metal rods, one lead and the other copper, are connected in end-to-end in series. Each rod is 0.5 m in length and has a square cross section 1.5 cm on a side. The temperature at the lead end of the rods is ; the temperature at the copper end is .  The average temperature of the two ends is . Is the temperature in the middle, at the lead-copper interface, greater than, less than, or equal to ? Explain.  Find the temperature at the lead-copper interface.  Given: and       Since and the rate of heat flow through both of the rods must be equal, then temperature at the junction must be greater than the average temperature , otherwise lead can not dissipate the same amount of heat every second as the copper does.        Hence, the lead requires a larger temperature difference across it than the copper, to get the same heat flow.              A copper pipe of radius 10mm is carrying a hot water. The external surface of the pipe is subjected to a material of convective heat transfer coefficient of find the heat lost by the convection per unit length of the pipe when external surface temperature is and the surroundings are at Assuming a black body radiation what is the heat lost by radiation?    For 1 m long pipe,  Now for radiation by assuming a pipe as black body          A solid aluminum sphere coated with lampblack (emissivity=0.97) is suspended in an evacuated container. The sphere has a radius of 0.020 m and is initially at The container is maintained at a temperature of   Assuming that the temperature of the sphere does not change very much, what is the net energy gained by the sphere in 10.0 s?  Estimate the change in temperature of the sphere.        The energy lost must be supplied at the same rate at which it is being lost by radiation. At equilibrium, power emitted = power absorbed. Therefore, the energy lost per second by the sphere is                  "
 },
 {
   "id": "example-169",
   "level": "2",
   "url": "sec_tenth-examplesA.html#example-169",
   "type": "Example",
-  "number": "10.2.1",
+  "number": "10.4.1",
   "title": "",
-  "body": "         "
+  "body": "  Nitrogen liquefies at 63 K. What is this temperature in  degrees Celsius?  degrees Fahrenheit?      Given:            "
+},
+{
+  "id": "example-170",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-170",
+  "type": "Example",
+  "number": "10.4.2",
+  "title": "",
+  "body": "  A steel rail 50 m long and cross sectional area is laid out on a hot summer day when the temperature is . The next winter the temperature drops to below zero. How great a force would be required to keep the ends of the rail from moving? For steel, ,  .      Given:              "
+},
+{
+  "id": "example-171",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-171",
+  "type": "Example",
+  "number": "10.4.3",
+  "title": "",
+  "body": "  A sheet of aluminum 2 m long, 1 m wide, and 1 mm thick at is heated to . If , how much does the area of the sheet increase?    Given:         "
+},
+{
+  "id": "example-172",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-172",
+  "type": "Example",
+  "number": "10.4.4",
+  "title": "",
+  "body": "  A 1 L glass flask is filled to the mark with ethyl alcohol at . If the system is heated to ,    how much does the glass flask expand?  How much does the alcohol expand?  How high does the alcohol flow up the neck of the flask if its cross-sectional area is ?      Given:                       "
+},
+{
+  "id": "example-173",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-173",
+  "type": "Example",
+  "number": "10.4.5",
+  "title": "",
+  "body": "  How much heat is required to convert a 100 g ice cube taken from the refrigerator at into super heated steam at if the conversion is performed at atmospheric pressure? Note: c(ice) = c(steam) =       Given:       "
+},
+{
+  "id": "example-174",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-174",
+  "type": "Example",
+  "number": "10.4.6",
+  "title": "",
+  "body": "  A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 100 g of ice at .  How much ice melts?  What is the final temperature of the system? Note:   .      Given: Mass of aluminum calorimeter, mass of ice, and mass of iron, Initial temperature of ice and calorimeter, initial temperature of iron, When hot iron is placed in calorimeter iron losses its heat and calorimeter and contents gains heat till the final temperature of the mixture reaches to equilibrium at     Now first calculate amount of heat needed for ice to melt completely, Heat lost by iron if cool to = Hence more heat is available in container than ice requires to melt completely.    All ice melts, i.e.,   Now from principle of calorimetry, Heat loss by iron = heat gained by calorimeter + ice.            "
+},
+{
+  "id": "example-175",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-175",
+  "type": "Example",
+  "number": "10.4.7",
+  "title": "",
+  "body": "  Table salt has the chemical formula of and a specific heat capacity of The atomic mass of sodium is 22.99 and of chlorine is 35.453.  What is the molar mass of salt?  What is the molar heat capacity of salt?  How many joules of heat are required to heat 2 moles of salt from room temperature to boiling temperature ?      Given:      Molecular mass    Molar heat capacity,         "
+},
+{
+  "id": "example-176",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-176",
+  "type": "Example",
+  "number": "10.4.8",
+  "title": "",
+  "body": "  A lead bullet of mass 10 g, traveling at 500 m\/s, strikes a target and comes to rest. The specific heat of solid lead is , lead melts at , and its heat of fusion is . If the bullet is at before hitting the target and all the heat generated by the collision goes into the bullet, what is the final temperature of the bullet?    Given:      Heat produced by bullet = change in kinetic energy of bullet.          "
+},
+{
+  "id": "example-177",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-177",
+  "type": "Example",
+  "number": "10.4.9",
+  "title": "",
+  "body": "  A piece of iron ( ) having a mass of 300 g and temperature of is placed in a wall insulated and massless calorimeter containing 500 g water ( ) at   What is the final temperature of the system?  What is the change in entropy of the iron?  What is the change in entropy of the water?  What is the change in entropy of the universe?  Is this result consistent with the second law of thermodynamics. Why?      Given:      Heat loss = heat gain                   yes, entropy always increases in irreversible process.     "
+},
+{
+  "id": "example-178",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-178",
+  "type": "Example",
+  "number": "10.4.10",
+  "title": "",
+  "body": "  The wall of a house is 6 m high, 7 m wide and 0.3 m thick made out of brick of thermal conductivity, The interior temperature of the house is and that at the exterior is find the rate of heat loss through the wall.    Given:   and Now the rate of heat transfers due to conduction,     "
+},
+{
+  "id": "example-179",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-179",
+  "type": "Example",
+  "number": "10.4.11",
+  "title": "",
+  "body": "  A carpenter builds the walls of a basement out of solid concrete 4 inches thick. In order to reduce the heat loss to the ground, he surrounds the wall with styrofoam sheets 2 inches thick before filling in the dirt. The average ground temperature at that location is and the interior temperature of the basement is kept at a comfortable year round.  How much heat flows through the wall of the basement per square meter during the course of one year?  If the basement measures 10 m long, 5 m wide, and 3 m high how much heat flows out the walls in one year?  If electricity costs 10 cents per kilowatt-hour, how much would it cost to heat the basement per year? Note:       Given:           Since rate of heat flow from the wall is constant, We can find the value of T and plug that value in either or to get get by using formula       for 4 walls              "
+},
+{
+  "id": "example-180",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-180",
+  "type": "Example",
+  "number": "10.4.12",
+  "title": "",
+  "body": "  The wall of a house is 4 m wide and 3 m high. Except for the windows the wall consists of a sheet of rock , inches of fiberglass insulation , and wooden siding . There are two windows in the wall, each 1 m wide and 1.5 m tall consisting of single pane glass .  If the temperature outside is and inside is , how much heat flows out the wall and windows in 1 hour?  If the conductivity of window glass is and the window is 3.2 mm thick, what is the effective R-value of each of the two layers of \"dead\" air in contact with the window?      Given:                   and                  "
+},
+{
+  "id": "example-181",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-181",
+  "type": "Example",
+  "number": "10.4.13",
+  "title": "",
+  "body": "  Assume that the total surface area of the human body is about and the surface temperature of the skin is .  What is the rate of heat loss through radiation by the body if the emissivity of the body is 0.9?  What is the net rate of heat loss through radiation by the body into an environment at ?      Given:               "
+},
+{
+  "id": "example-182",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-182",
+  "type": "Example",
+  "number": "10.4.14",
+  "title": "",
+  "body": "  Two metal rods, one lead and the other copper, are connected in end-to-end in series. Each rod is 0.5 m in length and has a square cross section 1.5 cm on a side. The temperature at the lead end of the rods is ; the temperature at the copper end is .  The average temperature of the two ends is . Is the temperature in the middle, at the lead-copper interface, greater than, less than, or equal to ? Explain.  Find the temperature at the lead-copper interface.  Given: and       Since and the rate of heat flow through both of the rods must be equal, then temperature at the junction must be greater than the average temperature , otherwise lead can not dissipate the same amount of heat every second as the copper does.        Hence, the lead requires a larger temperature difference across it than the copper, to get the same heat flow.           "
+},
+{
+  "id": "example-183",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-183",
+  "type": "Example",
+  "number": "10.4.15",
+  "title": "",
+  "body": "  A copper pipe of radius 10mm is carrying a hot water. The external surface of the pipe is subjected to a material of convective heat transfer coefficient of find the heat lost by the convection per unit length of the pipe when external surface temperature is and the surroundings are at Assuming a black body radiation what is the heat lost by radiation?    For 1 m long pipe,  Now for radiation by assuming a pipe as black body       "
+},
+{
+  "id": "example-184",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#example-184",
+  "type": "Example",
+  "number": "10.4.16",
+  "title": "",
+  "body": "  A solid aluminum sphere coated with lampblack (emissivity=0.97) is suspended in an evacuated container. The sphere has a radius of 0.020 m and is initially at The container is maintained at a temperature of   Assuming that the temperature of the sphere does not change very much, what is the net energy gained by the sphere in 10.0 s?  Estimate the change in temperature of the sphere.        The energy lost must be supplied at the same rate at which it is being lost by radiation. At equilibrium, power emitted = power absorbed. Therefore, the energy lost per second by the sphere is                "
+},
+{
+  "id": "subsec-gas_pres",
+  "level": "1",
+  "url": "subsec-gas_pres.html",
+  "type": "Subsection",
+  "number": "10.5.1",
+  "title": "Pressure of an Ideal Gas",
+  "body": " Pressure of an Ideal Gas  When the molecules of a gas collide on the walls of the container (or each other) they exert a pressure. Let us consider a cube of sides cm encloses number of molecules and mass of each molecule is . Since time during the collision of molecules is so small there is no transfer of momentum hence no exertion of force (Newton's II law) or no pressure, we ignore therefore the collision of molecules amongst themselves here. Let a molecule at point is moving with velocity in any direction. This velocity can be resolved into x,y, and z directions as and respectively, such that       Let a molecule collide elastically on the face BCDG along x-axis [ ]. The momentum of the molecule along x-axis before collision is Since the collision is elastic the molecule rebound with the same velocity along opposite to x-axis. Therefore the momentum in this case will be The change in momentum of the molecule due to this collision along x-axis will be Now once this molecule collide to the face EFAO while moving along -ve axis and rebounds it again comes to collide with the same face BCDG. The distance traveled by the molecule for collision on the same face is Hence, the time taken between each successive collision on face BCDG is given by Therefore, the force exerted on the face BCDG by molecule is given by Newton's II law of motion, Since there are molecules hence total force exerted on the face BCDG is given by  The pressure on the face BCDG will be  Similarly, pressures and along the y- and z- axes, respectively are and Hence, the average pressure in the container     where and Here, is called a root-mean square velocity of the molecule and is an average molecular speed and the mass of total gas in a container of volume    where = average transational kinetic energy of the gas and is the average transational kinetic energy of each moleucle. That is, pressure is two-thirds of the total transational kinetic energy of the molecules per unit volume. Now from postulates average kinetic energy of the molecules of the gas depends only on temperature, we have  where is a degree of freedom for a gas molecules and is called the Boltzmann constant . In SI system,   "
+},
+{
+  "id": "idealgas1",
+  "level": "2",
+  "url": "subsec-gas_pres.html#idealgas1",
+  "type": "Figure",
+  "number": "10.5.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1189",
+  "level": "2",
+  "url": "subsec-gas_pres.html#p-1189",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Boltzmann constant "
+},
+{
+  "id": "subsec-dg_freedom",
+  "level": "1",
+  "url": "subsec-dg_freedom.html",
+  "type": "Subsection",
+  "number": "10.5.2",
+  "title": "Degree of Freedom:",
+  "body": " Degree of Freedom:                   The degree of freedom is the number of independent motions possible to a particle or the number of independent coordinates required to specify particle's dynamic position or the number of independent ways of exchanging particle's energy. It depends on the atomic arrangement of an ideal gas molecule and types of motion it could have in the container. For example, it could have the combination of translation, rotational, and vibrational motion. For a monoatomic gas molecules (like helium, argon), consists of a single atom and can be represented by a point in space [ ]. Such molecule therefore can have only translational motion in any of x-,y-,and z- direction. Thus it can have three independent motion and hence three degrees of freedom. degree of freedom   The molecule of a diatomic gas (like hydrogen, oxygen) is made up of two atoms joined rigidly like a dumbbell [ ]. Such a molecule can translate as well as rotate about any one of the three mutually perpendicular axes. However, rotational inertia about an axis along the rigid rod will be negligible as compared to the other two rotational axes. Hence it can have only two rotational motions and three translational motions. The degrees of freedom for diatomic molecule is therefore five. A triatomic molecule either have linear arrangement of atoms (like ) or tringular arrangement (like ), hence it may have either 7 (3 rotational, 1 vibrational, and 3 translational motions) degrees of freedom or 6 (3 rotational, and 3 translational motions) [ ]. If we consider each molecule has three translational motions , and the atoms are constrained to move along the rigid support, then degrees of freedom, . Hence for monoatomic gas, for diatomic gas, and for triatomic gas, in triangular arrangement of atoms, and in linear arrangement of atoms. If the container has moles of a gas, then total number of molecules in the container can be given as where molecules\/mole is known as Avogadro's number . Hence, for n mole of a gas, where or and is known as universal gas constant . Hence, eqn. is called the equation of state of an ideal gas.  From eqns. and , we have -  and  If n=1 mole, then M is a molar mass and we get- and if N=1, then The eqn. shows that of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molar mass. The eqn. shows that of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molecular mass.   Note: Molar mass [ ] is the mass of one mole of a substance, while molecular mass is the mass of one molecule of a substance. For examples, mass of 1 mole of H-atom is 1.008 gram, mass of 1 H-atom is Mass of 1 mole of molecule is 2.016 gram, mass of 1 molecule of   "
+},
+{
+  "id": "figure-234",
+  "level": "2",
+  "url": "subsec-dg_freedom.html#figure-234",
+  "type": "Figure",
+  "number": "10.5.2",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-1191",
+  "level": "2",
+  "url": "subsec-dg_freedom.html#p-1191",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Avogadro's number "
+},
+{
+  "id": "p-1193",
+  "level": "2",
+  "url": "subsec-dg_freedom.html#p-1193",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "subsec-equip_law",
+  "level": "1",
+  "url": "subsec-equip_law.html",
+  "type": "Subsection",
+  "number": "10.5.3",
+  "title": "Law of Equipartition of Energy",
+  "body": " Law of Equipartition of Energy   According to Maxwell, total kinetic energy of a dynamical system consisting of large number of particles is equally distributed among its various degrees of freedom. The average kinetic energy of a monoatomic gas molecule is given by   Hence, the average kinetic energy per molecule in each degree of freedom is     Avogadro's Number,  It is the number of molecules in one gram of hydrogen gas or the number of atoms in 12 grams of the carbon-12 isotope. The value of molecules in one mole of carbon-12 atoms. The mole is a base unit in the SI system for an amount of substance. The symbol of mole is [mol]. The mole is defined as the amount of any substance (entity) that contains as many atoms as there are in 12 grams of atom. At standard temperature and pressure (STP, T = 273 K, p = 1 atm) 1 mole of any substance occupies Avogadro's number of molecules. At STP, volume of an ideal gas V=22.4 liter. If we weigh one mole of any substance its comes out to be the molecular weight of that substance in gram . Molecular weight and molar weight are related terms that are often used interchangeably, but they have slightly different meanings. Molecular weight refers to the mass of a single molecule of a substance in atomic mass units (amu) or unified atomic mass units (u). Molar weight, also known as molar mass , refers to the mass of one mole of a substance in unit of grams per mole (g\/mol). The molar mass of a compound is numerically equal to its molecular weight but has units of grams per mole. For example, the molar mass of water ( ) is approximately 18.015 g\/mol, which is the same as its molecular weight (18.015 amu). One mole of water weighs 18.015 g. One mole of ethyl alcohol, , weighs 46.069 g. If we weigh whether one mole of iron or one mole of sulfur they contain the same number of atoms equal to Avogadro's number. This is an important aspect of the mole. Avogadro's number     Atomic Mass Unit, u   amu It is the mass of one hydrogen atom. It is normally a sum of number of protons and neutrons in a nucleus. The weight of 1 atom of weighs 12.00 amu. A 12 g of carbon contains atoms, each weighing exactly 12 amu. Therefore, or,    "
+},
+{
+  "id": "p-1195",
+  "level": "2",
+  "url": "subsec-equip_law.html#p-1195",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "molar mass "
+},
+{
+  "id": "subsec-internal_energy",
+  "level": "1",
+  "url": "subsec-internal_energy.html",
+  "type": "Subsection",
+  "number": "10.5.4",
+  "title": "Internal Energy of a Gas",
+  "body": " Internal Energy of a Gas  A liquid freezes into solid gives heat energy, Zinc reacts with copper sulfate in a voltaic cell produces electric energy. A mixture of hydrogen and oxygen explodes to release mechanical energy. This production of energy is actually a conversion of stored energy of a system. The apparently stored energy of a system is called an internal energy . Real gas molecules posses both kinetic energy (due to motion of the molecules) and potential energy (due to intermolecular force of attraction) and hence the internal energy of the real gas is the sum of all of its internal kinetic and internal potential energy of the molecules. Ideal gas molecules are very far away from each other hence they do not have internal potential energy. The internal energy of an ideal is therefore solely due to the internal kinetic energy of all of its gas molecules and it is denoted by Therefore the internal energy of one molecule of a gas, Hence, for N molecules of a gas, the internal energy is given by and n moles of a gas,  and  It must be noted that the internal energy of an ideal gas is directly proportional to the absolute temperature, i.e.,   "
+},
+{
+  "id": "subsec-gas_laws",
+  "level": "1",
+  "url": "subsec-gas_laws.html",
+  "type": "Subsection",
+  "number": "10.5.5",
+  "title": "Gas Laws",
+  "body": " Gas Laws                   From equation of state, and if T of a gas remains constant, then   This is called a Boyle's law, the pV diagram of Boyle's law is shown in . At constant temperature, the average force of each particle striking the surface will be the same. But as the area of the container has increased, there will be fewer of these collisions per unit area and the pressure will decrease. Volume is inversely proportional to pressure , if the number of particles and the temperature are constant.  If pressure remains constant, then   This is called a Charle's law, the diagram is shown in . To keep the pressure constant as the volume increases is to raise the average force that each particle exerts on the surface. This happens when the temperature is increased. So if the number of particles and the pressure are constant, temperature is proportional to the volume .  If volume remains constant, then   This is called a pressure law (or Gay-Lussac's law), the diagram is shown in . As the temperature increases, the average kinetic energy increases as does the velocity of the gas particles hitting the walls of the container. The force exerted by the particles per unit of area on the container is the pressure, so as the temperature increases the pressure must also increase. Pressure is proportional to temperature , if the number of particles and the volume of the container are constant.   Avogadro's law: Volume of a gas is directly proportional to the amount of gas at a constant temperature and pressure, i.e.,  The Combined Gas Law: If number moles of a gas only remains constant, then we have - The volume of a given amount of gas is proportional to the ratio of its absolute temperature and its pressure, i.e.,   "
+},
+{
+  "id": "figure-238",
+  "level": "2",
+  "url": "subsec-gas_laws.html#figure-238",
+  "type": "Figure",
+  "number": "10.5.3",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-1198",
+  "level": "2",
+  "url": "subsec-gas_laws.html#p-1198",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Volume is inversely proportional to pressure "
+},
+{
+  "id": "p-1199",
+  "level": "2",
+  "url": "subsec-gas_laws.html#p-1199",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "temperature is proportional to the volume "
+},
+{
+  "id": "p-1200",
+  "level": "2",
+  "url": "subsec-gas_laws.html#p-1200",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Pressure is proportional to temperature "
+},
+{
+  "id": "p-1201",
+  "level": "2",
+  "url": "subsec-gas_laws.html#p-1201",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Avogadro's law: The Combined Gas Law: "
+},
+{
+  "id": "sec_tenth-thermdyn",
+  "level": "1",
+  "url": "sec_tenth-thermdyn.html",
+  "type": "Section",
+  "number": "10.6",
+  "title": "Thermodynamics",
+  "body": " Thermodynamics  "
+},
+{
+  "id": "sec_tenth-examplesB",
+  "level": "1",
+  "url": "sec_tenth-examplesB.html",
+  "type": "Section",
+  "number": "10.7",
+  "title": "Examples B",
+  "body": " Examples B   KTG    The rms speed of molecules is 1.84 km\/sec. What will be the rms speed of molecules at the same temperature? The molecular weights of hydrogen and oxygen are 2 and 32 respectively.    We know that         At what temperature does the kinetic energy of an atom be 1.0 eV? .    Average kinetic energy of an atom is given by  for a monoatomic molecule        At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.    We have - At NTP, . At NTP,          "
+},
+{
+  "id": "example-185",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-185",
+  "type": "Example",
+  "number": "10.7.1",
+  "title": "",
+  "body": "  The rms speed of molecules is 1.84 km\/sec. What will be the rms speed of molecules at the same temperature? The molecular weights of hydrogen and oxygen are 2 and 32 respectively.    We know that      "
+},
+{
+  "id": "example-186",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-186",
+  "type": "Example",
+  "number": "10.7.2",
+  "title": "",
+  "body": "  At what temperature does the kinetic energy of an atom be 1.0 eV? .    Average kinetic energy of an atom is given by  for a monoatomic molecule     "
+},
+{
+  "id": "example-187",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-187",
+  "type": "Example",
+  "number": "10.7.3",
+  "title": "",
+  "body": "  At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.    We have - At NTP, . At NTP,        "
 },
 {
   "id": "ex_tenth",
   "level": "1",
   "url": "ex_tenth.html",
   "type": "Exercises",
-  "number": "10.3",
+  "number": "10.8",
   "title": "Exercise",
-  "body": "  Exercise    "
+  "body": "  Exercise   Temperature & Expansion  An absolute temperature of 300 K is  how many degrees Fahrenheit?  How many degrees Celcius?    Find the temeprature at which Fahrenheit and Celcius scales have the same reading.  An aluminum wire 0.05 mm in diameter and 2 m long is heated from to . How much does it contract?  A steel gas tank is filled with 80 L (about 20 gallons) of gasoline at a temperature of .  How much gasoline flows out of the tank when the temperature rises to ?  If the hose of the tank is 4 cm in diameter, what is the minimum length of the hose in order to keep the gasoline from spilling?    A thin steel wire   of length 60 cm and diameter 0.5 mm has its ends attached to a large brass rod   of the same length. The system is heated from to .  How much does the brass rod expand?  How much would the steel wire have expanded if it had not been attached to the brass rod?  What is the thermal strain in the steel wire attached to the brass rod?  What is the thermal stress in the steel wire?  What is the tension in the wire?    The coefficient of linear expansion of lead is . What change in temperature will cause a 2 m long lead bar to change in length by 3.0 mm?  An aluminum can is filled to the brim with a liquid. The can and the liquid are heated so their temperatures change by the same amount. The can's initial volume at is . The coefficient of volume expansion for aluminum is When the can and the liquid are heated to  of liquid spills over. What is the coefficient of volume expansion for the liquid.    Calorimeter  If 100 g of steam condense into 1 kg of water initially at , what is the final temperature of the combination?   How much heat is required to take 10 moles of ice at to water at ?  A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 200 g of ice at .  How much ice melts?  What is the final temperature of the system?    A water fall is 500 m high.  What is the difference in temperature between the water at the top and bottom if no water evaporates while falling?  What fraction of the water must evaporate to keep the temperatures the same?    A man warms his hands by rubbing them together. Assume that his hands are made mostly of water, that they are 15 cm long and 5 cm wide, that he presses his hands together with 50 N of force, that the coefficient of friction between his hands is 0.5, that the hands move 10 cm with each stroke, that 30 strokes are made, and that the temperature of the surface of his hands increases . How thick is the surface of his hands which is being heated?  A 1.55 g of methanol is burnt in a calorimeter. If the molar heat of combustion of methanol is -725 \\,kJ\/mole, and assuming that the 2.0 L of water absorbed all of the heat of combustion, what temperature change did the water experience?  A 20g sample of iron at a temperature of is placed into a container of water. There are 300 ml of water in the container at a temperature of . What is the final temperature of the water?  and     Heat transfer  A copper rod of length 40 cm and diameter 2 cm is placed end to end with an iron rod of length 60 cm and diameter 2 cm. The combined rod is then insulated on its sides and the two ends subject to different temperatures. If the copper end is at and the iron end is at ,  what is the temperature at the copper-iron interface?  How many joules of heat energy flow through the system in 1 hour?    A Styrofoam ice chest is cubic in shape with each edge 30 cm long. Each face is a square sheet of Styrofoam 2 cm thick. If a 4 kg bag of ice is placed in the chest and the outside temperature is a constant ,  how long does it take the ice to melt?  How long after the ice melts does it take for the interior of the ice chest to heat up to ?    A solar home has 4 solar collectors each 1 m by 2 m with an average efficiency of . If the sun radiates of solar power upon the earth,  how many Btu's of heat are collected on an average day?  If the house is well insulated on the sides and bottom and if the roof\/ceiling is 20 ft by 40 ft consisting of lapped shingles (R = 0.87), dead air space (R = 1.01), 6 inch fiberglass insulation (R = 18.80), and sheetrock (R = 0.45), what will be the average interior temperature of the house if the outside temperature is a freezing ?    Two rods, one of aluminum and the other of copper are joined end to end. The cross-sectional area of each is and the length of each is 0.04 m. The free end of the aluminum rod is kept at while the free end of the copper rod is kept at . The loss of heat through the sides of the rods may be ignored.  What is the temperature at the aluminum-copper interface?  How much heat is conducted through the unit in 2.0 s?     The surface of the Sun has a temperature of   Treating the Sun as a perfect blackbody, with an emissivity of 1.0, find the power that it radiates into space. The radius of the sun is and the temperature of space can be taken to be 3.0 K.  The solar constant is the number of watts of sunlight power falling on a square meter of the Earth's upper atmosphere. Use your result from part (a) to calculate the solar constant, given that the distance from the Sun to the Earth is     A long copper rod of diameter 2.0cm is initially at a uniform temperature of It is now exposed to an air stream at with a heat transfer coefficient of How long would it take for the copper rod to cool at an average temperature of     KTG  How many molecules are in a cube of aluminum 2 cm on a side if the density of aluminum is and the atomic mass of aluminum is 26.98 u?  What is the rms speed of a diatomic oxygen molecule at a room temperature of 300 K? Assume ,   .  On first day a tank of oxygen having a volume of 100 L is filled to a gauge pressure of at a temperature of . On the second day the temperature is and the gauge pressure of the tank is .  How many moles of oxygen were initially in the container?  How many grams of oxygen were used before the second day measurements were made?    At high enough temperatures a diatomic molecule like hydrogen has three degrees of translational freedom, two degrees of rotational freedom, and two degrees of vibrational freedom. How much heat Q must be added to n moles of hydrogen to raise its temperature from such a high temperature to one even higher by an amount if the volume of the gas remains constant?  At what temperature does the oxygen molecules have the same rms speed as those of hydrogen at Molar mass of oxygen and hydrogen are 32 and 2, respectively.   "
 },
 {
   "id": "exercise-224",
   "level": "2",
   "url": "ex_tenth.html#exercise-224",
   "type": "Exercise",
-  "number": "10.3.1",
+  "number": "10.8.1",
   "title": "",
-  "body": " "
+  "body": "An absolute temperature of 300 K is  how many degrees Fahrenheit?  How many degrees Celcius?   "
+},
+{
+  "id": "exercise-225",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-225",
+  "type": "Exercise",
+  "number": "10.8.2",
+  "title": "",
+  "body": "Find the temeprature at which Fahrenheit and Celcius scales have the same reading. "
+},
+{
+  "id": "exercise-226",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-226",
+  "type": "Exercise",
+  "number": "10.8.3",
+  "title": "",
+  "body": "An aluminum wire 0.05 mm in diameter and 2 m long is heated from to . How much does it contract? "
+},
+{
+  "id": "exercise-227",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-227",
+  "type": "Exercise",
+  "number": "10.8.4",
+  "title": "",
+  "body": "A steel gas tank is filled with 80 L (about 20 gallons) of gasoline at a temperature of .  How much gasoline flows out of the tank when the temperature rises to ?  If the hose of the tank is 4 cm in diameter, what is the minimum length of the hose in order to keep the gasoline from spilling?   "
+},
+{
+  "id": "exercise-228",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-228",
+  "type": "Exercise",
+  "number": "10.8.5",
+  "title": "",
+  "body": "A thin steel wire   of length 60 cm and diameter 0.5 mm has its ends attached to a large brass rod   of the same length. The system is heated from to .  How much does the brass rod expand?  How much would the steel wire have expanded if it had not been attached to the brass rod?  What is the thermal strain in the steel wire attached to the brass rod?  What is the thermal stress in the steel wire?  What is the tension in the wire?   "
+},
+{
+  "id": "exercise-229",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-229",
+  "type": "Exercise",
+  "number": "10.8.6",
+  "title": "",
+  "body": "The coefficient of linear expansion of lead is . What change in temperature will cause a 2 m long lead bar to change in length by 3.0 mm? "
+},
+{
+  "id": "exercise-230",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-230",
+  "type": "Exercise",
+  "number": "10.8.7",
+  "title": "",
+  "body": "An aluminum can is filled to the brim with a liquid. The can and the liquid are heated so their temperatures change by the same amount. The can's initial volume at is . The coefficient of volume expansion for aluminum is When the can and the liquid are heated to  of liquid spills over. What is the coefficient of volume expansion for the liquid. "
+},
+{
+  "id": "exercise-231",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-231",
+  "type": "Exercise",
+  "number": "10.8.8",
+  "title": "",
+  "body": "If 100 g of steam condense into 1 kg of water initially at , what is the final temperature of the combination?  "
+},
+{
+  "id": "exercise-232",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-232",
+  "type": "Exercise",
+  "number": "10.8.9",
+  "title": "",
+  "body": "How much heat is required to take 10 moles of ice at to water at ? "
+},
+{
+  "id": "exercise-233",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-233",
+  "type": "Exercise",
+  "number": "10.8.10",
+  "title": "",
+  "body": "A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 200 g of ice at .  How much ice melts?  What is the final temperature of the system?   "
+},
+{
+  "id": "exercise-234",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-234",
+  "type": "Exercise",
+  "number": "10.8.11",
+  "title": "",
+  "body": "A water fall is 500 m high.  What is the difference in temperature between the water at the top and bottom if no water evaporates while falling?  What fraction of the water must evaporate to keep the temperatures the same?   "
+},
+{
+  "id": "exercise-235",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-235",
+  "type": "Exercise",
+  "number": "10.8.12",
+  "title": "",
+  "body": "A man warms his hands by rubbing them together. Assume that his hands are made mostly of water, that they are 15 cm long and 5 cm wide, that he presses his hands together with 50 N of force, that the coefficient of friction between his hands is 0.5, that the hands move 10 cm with each stroke, that 30 strokes are made, and that the temperature of the surface of his hands increases . How thick is the surface of his hands which is being heated? "
+},
+{
+  "id": "exercise-236",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-236",
+  "type": "Exercise",
+  "number": "10.8.13",
+  "title": "",
+  "body": "A 1.55 g of methanol is burnt in a calorimeter. If the molar heat of combustion of methanol is -725 \\,kJ\/mole, and assuming that the 2.0 L of water absorbed all of the heat of combustion, what temperature change did the water experience? "
+},
+{
+  "id": "exercise-237",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-237",
+  "type": "Exercise",
+  "number": "10.8.14",
+  "title": "",
+  "body": "A 20g sample of iron at a temperature of is placed into a container of water. There are 300 ml of water in the container at a temperature of . What is the final temperature of the water?  and  "
+},
+{
+  "id": "exercise-238",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-238",
+  "type": "Exercise",
+  "number": "10.8.15",
+  "title": "",
+  "body": "A copper rod of length 40 cm and diameter 2 cm is placed end to end with an iron rod of length 60 cm and diameter 2 cm. The combined rod is then insulated on its sides and the two ends subject to different temperatures. If the copper end is at and the iron end is at ,  what is the temperature at the copper-iron interface?  How many joules of heat energy flow through the system in 1 hour?   "
+},
+{
+  "id": "exercise-239",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-239",
+  "type": "Exercise",
+  "number": "10.8.16",
+  "title": "",
+  "body": "A Styrofoam ice chest is cubic in shape with each edge 30 cm long. Each face is a square sheet of Styrofoam 2 cm thick. If a 4 kg bag of ice is placed in the chest and the outside temperature is a constant ,  how long does it take the ice to melt?  How long after the ice melts does it take for the interior of the ice chest to heat up to ?   "
+},
+{
+  "id": "exercise-240",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-240",
+  "type": "Exercise",
+  "number": "10.8.17",
+  "title": "",
+  "body": "A solar home has 4 solar collectors each 1 m by 2 m with an average efficiency of . If the sun radiates of solar power upon the earth,  how many Btu's of heat are collected on an average day?  If the house is well insulated on the sides and bottom and if the roof\/ceiling is 20 ft by 40 ft consisting of lapped shingles (R = 0.87), dead air space (R = 1.01), 6 inch fiberglass insulation (R = 18.80), and sheetrock (R = 0.45), what will be the average interior temperature of the house if the outside temperature is a freezing ?   "
+},
+{
+  "id": "exercise-241",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-241",
+  "type": "Exercise",
+  "number": "10.8.18",
+  "title": "",
+  "body": "Two rods, one of aluminum and the other of copper are joined end to end. The cross-sectional area of each is and the length of each is 0.04 m. The free end of the aluminum rod is kept at while the free end of the copper rod is kept at . The loss of heat through the sides of the rods may be ignored.  What is the temperature at the aluminum-copper interface?  How much heat is conducted through the unit in 2.0 s?    "
+},
+{
+  "id": "exercise-242",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-242",
+  "type": "Exercise",
+  "number": "10.8.19",
+  "title": "",
+  "body": "The surface of the Sun has a temperature of   Treating the Sun as a perfect blackbody, with an emissivity of 1.0, find the power that it radiates into space. The radius of the sun is and the temperature of space can be taken to be 3.0 K.  The solar constant is the number of watts of sunlight power falling on a square meter of the Earth's upper atmosphere. Use your result from part (a) to calculate the solar constant, given that the distance from the Sun to the Earth is    "
+},
+{
+  "id": "exercise-243",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-243",
+  "type": "Exercise",
+  "number": "10.8.20",
+  "title": "",
+  "body": "A long copper rod of diameter 2.0cm is initially at a uniform temperature of It is now exposed to an air stream at with a heat transfer coefficient of How long would it take for the copper rod to cool at an average temperature of  "
+},
+{
+  "id": "exercise-244",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-244",
+  "type": "Exercise",
+  "number": "10.8.21",
+  "title": "",
+  "body": "How many molecules are in a cube of aluminum 2 cm on a side if the density of aluminum is and the atomic mass of aluminum is 26.98 u? "
+},
+{
+  "id": "exercise-245",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-245",
+  "type": "Exercise",
+  "number": "10.8.22",
+  "title": "",
+  "body": "What is the rms speed of a diatomic oxygen molecule at a room temperature of 300 K? Assume ,   . "
+},
+{
+  "id": "exercise-246",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-246",
+  "type": "Exercise",
+  "number": "10.8.23",
+  "title": "",
+  "body": "On first day a tank of oxygen having a volume of 100 L is filled to a gauge pressure of at a temperature of . On the second day the temperature is and the gauge pressure of the tank is .  How many moles of oxygen were initially in the container?  How many grams of oxygen were used before the second day measurements were made?   "
+},
+{
+  "id": "exercise-247",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-247",
+  "type": "Exercise",
+  "number": "10.8.24",
+  "title": "",
+  "body": "At high enough temperatures a diatomic molecule like hydrogen has three degrees of translational freedom, two degrees of rotational freedom, and two degrees of vibrational freedom. How much heat Q must be added to n moles of hydrogen to raise its temperature from such a high temperature to one even higher by an amount if the volume of the gas remains constant? "
+},
+{
+  "id": "exercise-248",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-248",
+  "type": "Exercise",
+  "number": "10.8.25",
+  "title": "",
+  "body": "At what temperature does the oxygen molecules have the same rms speed as those of hydrogen at Molar mass of oxygen and hydrogen are 32 and 2, respectively. "
 },
 {
   "id": "appendix-1",
@@ -5919,8 +6639,8 @@ var ptx_lunr_docs = [
   "url": "append_partdiff.html",
   "type": "Appendix",
   "number": "B",
-  "title": "",
-  "body": "     "
+  "title": "Appendix",
+  "body": " Appendix    "
 },
 {
   "id": "index-1",

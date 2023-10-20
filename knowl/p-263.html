@@ -12,82 +12,33 @@
 </head>
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
-<div class="para logical">
-<div class="para">From <a href="" class="xref" data-knowl="./knowl/polarcord.html" title="Figure 3.4.5">Figure 3.4.5</a>,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
+<div class="para logical"><ol class="lower-alpha">
+<li><div class="para">When it hits the ground,<div class="displaymath process-math">
+\begin{align*}
+h\amp =v_{yo}t+\frac{1}{2}gt^{2}\\
+0 \amp  =3.66t-\frac{1}{2}(9.8)t^{2}\\
+\therefore \quad t \amp = \frac{2\times3.66}{9.8}=0.747 s\\
+and \quad x \amp =v_{xo}t = 0.662\times0.747 = 0.494m
+\end{align*}
+</div>
+</div></li>
+<li><div class="para">At any point of the flight, we have<div class="displaymath process-math">
+\begin{align*}
+y_{f} \amp =y_{o}+v_{i}t+\frac{1}{2}gt^{2}
+\end{align*}
+</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\hat{e}_{r}=\cos\theta\hat{i}+\sin\theta\hat{j} 
+\text{or,}\quad y = 0 + v_{yo}\left[ \frac{x}{v_{xo}}\right]-\frac{1}{2}(9.8) \left[\frac{x}{v_{xo}}\right]^{2} \quad [\because \quad x = v_{xo}t]
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\text{and} \quad \hat{e}_{\theta}=-\sin\theta\hat{i}+\cos\theta\hat{j} 
+\therefore y = 5.53 x - (11.2/m) x^{2} 
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(\hat{e}_{r}\)</span> and <span class="process-math">\(\hat{e}_{\theta}\)</span> are unit vectors at point P along radial and circumferential directions and are perpendicular to each other. Now,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\vec{r}=x\hat{i}+y\hat{j} = r\cos\theta\hat{i}+r\sin\theta\hat{j} = r\left(\cos\theta\hat{i}+\sin\theta\hat{j}\right) =r\hat{e}_{r}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\frac{\,d\hat{e}_{r}}{\,dr} =0, \qquad \frac{\,d\hat{e}_{\theta}}{\,dr} =0
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\frac{\,d\hat{e}_{r}}{\,d\theta} =-\sin\theta\hat{i}+\cos\theta\hat{j} = \hat{e}_{\theta}, 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\text{and} \quad \frac{\,d\hat{e}_{\theta}}{\,d\theta} =-\cos\theta\hat{i}-\sin\theta\hat{j} = -\hat{e}_{r}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\therefore v= \dot{\vec{r}}  = \dot{r} \hat{e}_{r} +r\dot{\theta}\hat{e}_{\theta} =v_{r}\hat{e}_{r}+v_{\theta} \hat{e}_{\theta}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-Hence, \quad v_{r}= \dot{r} \quad \text{and}\quad v_{\theta}=r\dot{\theta} 
-\end{equation*}
-</div>
-<div class="para">Where <span class="process-math">\(v_{r}\text{,}\)</span> and <span class="process-math">\(v_{\theta}\)</span>  are radial and circumferential component of velocity, respectively. The radial velocity describe the rate at which <span class="process-math">\(r\)</span> stretches and circumferential velocity describe the rate at which <span class="process-math">\(r\)</span> swings. Now,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\vec{a} = \dot{\vec{v}} = \ddot{r}\hat{e}_{r}+\dot{r}\hat{\dot{e}}_{r} +\dot{r}\dot{\theta}\hat{e}_{\theta}+r\ddot{\theta} \hat{e}_{\theta}+ r\dot{\theta}\hat{\dot{e}}_{\theta}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\because \quad \hat{\dot{e}}_{r} = -\sin\theta\dot{\theta}\hat{i}+\cos\theta\dot{\theta}\hat{j} =\dot{\theta}\hat{e}_{\theta}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-also, \quad \hat{\dot{e}}_{\theta} = -\cos\theta\dot{\theta}\hat{i}-\sin\theta\dot{\theta}\hat{j} 
-=-\dot{\theta}\hat{e}_{r}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\therefore \vec{a} = \left(\ddot{r} -r\dot{\theta}^{2}\right)\hat{e}_{r} +\left(r\ddot{\theta}+2\dot{r}\dot{\theta}\right)\hat{e}_{\theta} =a_{r}+a_{\theta}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\therefore a_{r} =  \left(\ddot{r} -r\dot{\theta}^{2}\right) 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/polarcord.html">
-\begin{equation*}
-\text{and}\quad a_{\theta} =  \left(r\ddot{\theta}+2\dot{r}\dot{\theta}\right)
-\end{equation*}
-</div>
-</div>
-<span class="incontext"><a href="subsec-polar_coord.html#p-263" class="internal">in-context</a></span>
+</div></li>
+</ol></div>
+<span class="incontext"><a href="sec_third-examplesB.html#p-263" class="internal">in-context</a></span>
 </body>
 </html>

@@ -13,15 +13,96 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">A 10-kg block lying on the horizontal surface is pulled by a force F making an angle of <span class="process-math">\(60^{o}\)</span> above the horizontal. The coefficient of static friction between the block and the horizontal surface is 0.3 and the coefficient of kinetic friction is 0.2. Draw the appropriate diagrams, write the appropriate equations, and find the magnitude and direction of the acceleration of the block when <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn1a.png" class="contained"></div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation}
+\therefore v(t) = v_{t}+\left(u-v_{t}\right)e^{-kt} \tag{4.5.11}
+\end{equation}
 </div>
-<ol class="lower-alpha">
-<li><div class="para"><span class="process-math">\(\displaystyle F = 30 N,\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle F = 60 N,\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle F = 90 N,\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle F = 120 N.\)</span></div></li>
-</ol>
+<div class="para">and eqn. <a href="" class="xref" data-knowl="./knowl/eqn-air_drag2.html" title="Equation 4.5.7">(4.5.7)</a> becomes</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation}
+a(t) = \frac{c}{m}\left(v_{t}-v\right) \tag{4.5.12}
+\end{equation}
 </div>
-<span class="incontext"><a href="sec_fourth-examplesC.html#p-362" class="internal">in-context</a></span>
+<div class="para">Now at <span class="process-math">\(t=0,\)</span> eqn.<a href="" class="xref" data-knowl="./knowl/eqn-air_drag6.html" title="Equation 4.5.11">(4.5.11)</a> gives</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+v(t) =v_{t}+\left(u-v_{t}\right)\cdot 1 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+\therefore v(t) =u
+\end{equation*}
+</div>
+<div class="para">At <span class="process-math">\(t \to \infty\)</span> eqn. <a href="" class="xref" data-knowl="./knowl/eqn-air_drag5.html" title="Equation 4.5.10">(4.5.10)</a> gives -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+v(t) = v_{t}+\left(u-v_{t}\right)\cdot 0 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+\therefore v(t) = v_{t}
+\end{equation*}
+</div>
+<div class="para">Again from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-air_drag6.html" title="Equation 4.5.11">(4.5.11)</a>,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+v(t) =\frac{\,dy(t)}{\,dt}= v_{t}+\left(u-v_{t}\right)e^{-kt}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+y(t) =\int\,dy=\int v_{t}\,dt+\int\left(u-v_{t}\right)e^{-kt}\,dt
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation}
+\therefore y(t) = v_{t}t -\frac{1}{k}\left(u-v_{t}\right)e^{-kt} +B  \tag{4.5.13}
+\end{equation}
+</div>
+<div class="para">At <span class="process-math">\(t=0, \quad y=y_{o}\)</span> (initial position) and <span class="process-math">\(v=u\)</span> (initial velocity).</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+\therefore y_{o} = -\frac{1}{k}\left(u-v_{t}\right)\cdot 1+B 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+\therefore B = y_{o} -\frac{1}{k}\left(v_{t}-u\right) 
+\end{equation*}
+</div>
+<div class="para">Therefore from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-air_drag8.html" title="Equation 4.5.13">(4.5.13)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+y=y_{o}-\frac{1}{k}\left(v_{t}-u\right)+v_{t}\cdot t - \frac{1}{k}\left(v_{t}-u\right)e^{-kt}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+y= y_{o}+v_{t}\cdot t-\frac{1}{k}\left(v_{t}-u\right)\{1-e^{-kt}\}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation}
+\therefore y= y_{o}+v_{t}\cdot t+\frac{1}{k}\left(v_{t}-u\right)\{e^{-kt}-1\} \tag{4.5.14}
+\end{equation}
+</div>
+<div class="para">Without air resistance, the position of an object is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+y=y_{o}+ut+\frac{1}{2}gt^{2} 
+\end{equation*}
+</div>
+<div class="para">If <span class="process-math">\(y_{o}=0, \quad y=ut+\frac{1}{2}gt^{2}\)</span> for falling object. In case if the object is thrown upward, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag2.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag5.html ./knowl/eqn-air_drag6.html ./knowl/eqn-air_drag8.html">
+\begin{equation*}
+y= y_{o}-v_{ter}\cdot t+\frac{1}{k}\left(u+v_{t}\right)\{1-e^{-kt}\} 
+\end{equation*}
+</div>
+<div class="para">If <span class="process-math">\(y_{o}=0,\quad y =-v_{t}\cdot t + \frac{1}{k}\left(u+v_{t}\right)\{1-e^{-kt}\}. \)</span> Without air resistance in upward motion, <span class="process-math">\(y=ut-\frac{1}{2}gt^{2}\text{.}\)</span> [since <span class="process-math">\(c=0=k\)</span>]</div>
+</div>
+<span class="incontext"><a href="subsec-air_drag.html#p-362" class="internal">in-context</a></span>
 </body>
 </html>

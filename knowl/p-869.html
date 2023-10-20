@@ -13,53 +13,47 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">A compound pendulum consists of a rigid body that oscillates about a horizontal frictionless axis passing through a point <span class="process-math">\(S\text{.}\)</span> It is also called a physical pendulum. When a body is displaced from its equilibrium position by an angle <span class="process-math">\(\theta,\)</span> then the restoring torque starts acting on the center of gravity G of the body which is given by</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\tau = I \alpha = -mga\sin\theta
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{or,}\quad I\ddot{\theta}=-mga\theta \quad [\text{for small angle approximation}]
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{or,}\quad \ddot{\theta}+\frac{mga}{I}\theta =0
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{or,}\quad \ddot{\theta}+\omega^{2}\theta =0
-\end{equation*}
-</div>
-<div class="para">where <span class="process-math">\(\omega^{2}=\frac{mga}{I} \)</span>
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-or, \, \omega = \sqrt{\frac{mga}{I}} =\frac{2\pi}{T} 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore\quad T = \sqrt{\frac{I}{mga}} 
-\end{equation*}
-</div>
-<div class="para">here,</div>
-<div class="displaymath process-math">
-\begin{equation*}
-I = I_{cm}+Ma^{2} = Mk^{2}+Ma^{2} 
-\end{equation*}
-</div>
 <div class="para">
-<span class="process-math">\(k\)</span> is radius of gyration</div>
-<div class="displaymath process-math">
+<dfn class="terminology">Alternative:</dfn> The restoring torque <a href="subsec-rot_overview.html" class="internal" title="Subsection 7.3.1: Rotational Overview">Subsection 7.3.1</a> acting on the bob is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
 \begin{equation*}
-\therefore\quad T = 2\pi\sqrt{\frac{k^{2}+a^{2}}{ga}}
+\tau=-mgl\sin\theta 
 \end{equation*}
 </div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+\begin{equation*}
+or, \, I \alpha =ml^{2}\frac{\,d\omega}{\,dt}= ml^{2}\ddot{\theta}
+\end{equation*}
 </div>
-<span class="incontext"><a href="subsec-comp_pendulum.html#p-869" class="internal">in-context</a></span>
+<div class="para">As a restoring torque is giving a clockwise rotation when angular displacement is counterclockwise.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+\begin{equation*}
+\text{or,}\quad ml^{2}\ddot{\theta} =-mgl\sin\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+\begin{equation*}
+\text{or,}\quad l\ddot{\theta} =-g\sin\theta =-g\theta \qquad [\text{small angle approximation}]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+\begin{equation*}
+\text{or,}\quad \ddot{\theta}+\frac{g}{l}\theta= 0 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+\begin{equation*}
+\text{or,}\quad \ddot{\theta}+\omega^{2}\theta = 0  \qquad   \left[\omega = \sqrt{\frac{g}{l}}\right] 
+\end{equation*}
+</div>
+<div class="para">This is second order differential equation the solution of which can be written as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-rot_overview.html">
+\begin{equation*}
+\theta(t) = \Theta(\sin\omega t + \phi)
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\Theta\)</span> is called an angular amplitude.</div>
+</div>
+<span class="incontext"><a href="subsec-simp_pendulum.html#p-869" class="internal">in-context</a></span>
 </body>
 </html>

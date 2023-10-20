@@ -13,27 +13,48 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Acceleration due to gravity on the surface of the earth is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG4.html">
+<div class="para">Since the centripetal force <span class="process-math">\(\vec{F}_{c}=m\vec{a}_{c}\)</span> required by the mass m to follow a circle of radius r, then this force must be provided by the vector difference in force of gravity <span class="process-math">\(\vec{F_{e}}=m\vec{g}_{e} \)</span> and a real force <span class="process-math">\(F=m\vec{g}\text{,}\)</span> i.e.,</div>
+<div class="displaymath process-math">
 \begin{equation*}
-g=\frac{GM}{R^{2}}
+\vec{F}_{c}=\vec{F_{e}}-\vec{F} 
 \end{equation*}
 </div>
-<div class="para">At height <span class="process-math">\(h\)</span> from the surface of the earth [Figure <a href="" class="xref" data-knowl="./knowl/NLG4.html" title="Figure 6.1.4">Figure 6.1.4</a>], acceleration due to gravity is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG4.html">
+<div class="displaymath process-math">
 \begin{equation*}
-g_{h} = \frac{GM}{(R+h)^{2}} = \frac{GM}{R^{2}\left(1+\frac{h}{R}\right)^{2}}
+\text{or,}\quad m\vec{a}_{c} = m\vec{g}_{e}-m\vec{g} 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG4.html">
+<div class="displaymath process-math">
 \begin{equation*}
-=\frac{g}{\left(1+\frac{h}{R}\right)^{2}}=g\left(1+\frac{h}{R}\right)^{-2} =g\left(1-\frac{2h}{R} +\cdots\right)
+\therefore \vec{g}=\vec{g}_{e}-\vec{a}_{c}
 \end{equation*}
 </div>
-<div class="para">using binomial theorem</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/NLG4.html">
+<div class="para">The magnitude of <span class="process-math">\(\vec{g}\)</span> can be found by</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\therefore \quad g_{h} =g\left(1-\frac{2h}{R}\right)
+\vec{g}\cdot\vec{g} =g^{2}= \left(\vec{g}_{e}-\vec{a}_{c}\right) \cdot\left(\vec{g}_{e}-\vec{a}_{c}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \vec{g}_{e}\cdot\vec{g}_{e} + \vec{a}_{c}\cdot\vec{a}_{c}-2\vec{g}_{e}\cdot\vec{a}_{c} =g^{2}_{e}+a^{2}_{c}-2g_{e}a_{c}\cos\lambda 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore g= \sqrt{g^{2}_{e}+a^{2}_{c}-2g_{e}a_{c}\cos\lambda} 
+\end{equation*}
+</div>
+<div class="para">where</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a_{c}=r\omega^{2} = R\omega^{2}\cos\lambda,
+\end{equation*}
+</div>
+<div class="para">R is the radius of the earth, and the acceleration due to gravity on a non-rotating earth is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+g_{e}= \frac{GM}{R^{2}}.
 \end{equation*}
 </div>
 </div>

@@ -13,36 +13,48 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">At <span class="process-math">\(t=0, \quad v=u,\)</span> initial velocity with which the ball is thrown.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag3.html">
+<div class="para">When an object of mass <span class="process-math">\(m\)</span> is thrown vertically down ward with air resistance  given as <span class="process-math">\(f=cv\text{.}\)</span> Equation of motion with air resistance, <span class="process-math">\(\sum F=ma.\)</span>
+</div>
+<div class="displaymath process-math">
 \begin{equation}
-\therefore g-ku = e^{-kA} \tag{4.5.9}
+F=ma=w-f = mg-cv  \tag{4.5.6}
 \end{equation}
 </div>
-<div class="para">Now from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-air_drag3.html" title="Equation 4.5.8">(4.5.8)</a>, we have -</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag3.html">
+<div class="displaymath process-math">
 \begin{equation*}
-g-kv = e^{-kt} (g-ku) 
+a=g-\frac{c}{m}v
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag3.html">
-\begin{equation*}
--kv = -g+e^{-kt} (g-ku)
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag3.html">
+<div class="displaymath process-math">
 \begin{equation}
-\therefore v(t) = \frac{g}{k}-\left(\frac{g}{k}-u\right)e^{-kt} \tag{4.5.10}
+a= g-kv  \qquad \text{[where $k=\frac{c}{m}$]} \tag{4.5.7}
 \end{equation}
 </div>
-<div class="para">Again after a very long time, <span class="process-math">\(t \to \infty\text{,}\)</span> <span class="process-math">\(e^{-kt} \to e^{-\infty}=0\text{.}\)</span>
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-air_drag3.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\therefore v(t) = \frac{g}{k} =\frac{gm}{c} =constant = v_{t}
+\text{or,}\quad \frac{\,dv}{\,dt} = g-kv
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(v_{t} = \frac{gm}{c}\)</span> is called the terminal velocity.  </div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \int \frac{\,dv}{g-kv} =\int \,dt
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{\ln(g-kv)}{-k} =t + A
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \ln(g-kv) =-kt-kA 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation}
+\text{or,} \quad g-kv = e^{-kt}\cdot e^{-kA} \tag{4.5.8}
+\end{equation}
+</div>
 </div>
 <span class="incontext"><a href="subsec-air_drag.html#p-360" class="internal">in-context</a></span>
 </body>

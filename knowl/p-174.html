@@ -13,80 +13,33 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Again,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
+<div class="para">The equations of motion relate the displacement of an object with its velocity, acceleration and time. The motion of a particle can follow many different paths, but here we will discuss the motion in a straight line, i.e. in one dimension. We are driving three equations of motion when acceleration is constant. From eqn. <a href="" class="xref" data-knowl="./knowl/eqn-inst_accel.html" title="Equation 3.1.4">(3.1.4)</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-inst_accel.html">
 \begin{equation*}
-a = \frac{\,dv}{\,dt} = \frac{\,d^{2}x}{\,dt^{2}} =\frac{\,d}{\,dt}\left(\frac{\,dx}{\,dt}\right) 
+a=\frac{\,dv}{\,dt}\quad \Rightarrow \quad \,dv=a\,dt
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-inst_accel.html">
 \begin{equation*}
-\text{or,}\quad \,d\left(\frac{\,dx}{\,dt}\right) = a\,dt 
+\text{or,} \quad \int\limits_{v_{o}}^{v_{f}}\,dv=\int\limits_{0}^{t} a\,dt 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-inst_accel.html">
 \begin{equation*}
-\text{or,}\quad\int \,d\left(\frac{\,dx}{\,dt}\right) = \int a\,dt 
+\text{or,} \quad  \left.v\right\vert_{v_{o}}^{v_{f}}=a \left.t\right\vert_{0}^{t}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-inst_accel.html">
 \begin{equation*}
-\text{or,}\quad \frac{\,dx}{\,dt} =  a\,t  + c \quad [\text{here c is a constant.]}
+\Rightarrow v_{f} - v_{o}=a t \quad [\because a =constant]
 \end{equation*}
 </div>
-<div class="para">Now at <span class="process-math">\(t = 0\text{,}\)</span> <span class="process-math">\(\frac{\,dx}{\,dt} = c= v_{o}\text{,}\)</span> the initial velocity.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
-\begin{equation*}
-\therefore  \frac{\,dx}{\,dt} =  a\,t  + v_{o} 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
-\begin{equation*}
-\text{or,} \quad \,dx = (a\,t  + v_{o})\,dt
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
-\begin{equation*}
-\text{or,} \quad \int\limits_{x_{o}}^{x_{f}} \,dx  = \int\limits_{0}^{t} v_{o}\,dt +\int\limits_{0}^{t} a\,t\,dt 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
-\begin{equation*}
-\text{or,} \quad \left.x\right\vert_{x_{o}}^{x_{f}}  = v_{o}\left.t\right\vert_{0}^{t}  + a\left.t\right\vert_{0}^{t}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-inst_accel.html">
 \begin{equation}
-\therefore x_{f}=x_{o}+v_{o}t+\frac{1}{2}at^{2} \tag{3.1.6}
+\therefore \quad v_{f}= v_{o}+at \tag{3.1.5}
 \end{equation}
 </div>
-<div class="para">Again,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
-\begin{equation*}
-a = \frac{\,dv}{\,dt} = \frac{\,dv}{\,ds}\frac{\,ds}{\,dt} = v\frac{\,dv}{\,ds} 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
-\begin{equation*}
-\text{or,} \quad a\,ds = v\,dv 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
-\begin{equation*}
-\text{or,} \quad \int\limits_{0}^{s} a\,ds = \int\limits_{v_{o}}^{v_{f}} v\,dv
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
-\begin{equation*}
-\text{or,}\quad a \left[s\right]_{0}^{s} = \left.\frac{v^{2}}{2}\right\vert_{v_{o}}^{v_{f}}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mot2.html">
-\begin{equation}
-\therefore \quad v^{2}_{f}=v^{2}_{o}+2as \qquad [here \quad s=x_{f}-x_{o}]\tag{3.1.7}
-\end{equation}
-</div>
-<div class="para">From eqn. <a href="" class="xref" data-knowl="./knowl/eqn-mot2.html" title="Equation 3.1.6">(3.1.6)</a> if velocity is constant, then <span class="process-math">\(s  =  v_o t = vt \)</span> and for free fall: <span class="process-math">\(a  =  g\text{,}\)</span>	(the acceleration due to gravity).</div>
 </div>
 <span class="incontext"><a href="subsec-eqns_motion.html#p-174" class="internal">in-context</a></span>
 </body>

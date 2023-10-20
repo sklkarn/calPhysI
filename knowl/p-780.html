@@ -13,19 +13,32 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">
-<em class="alert">Alternative</em> Using parallel axis theorem,</div>
-<div class="displaymath process-math">
+<div class="para">Consider a rod of length <span class="process-math">\(L\)</span> and mass <span class="process-math">\(M\)</span> is rotating about an axis passing through one of its edges as shown in <a href="" class="xref" data-knowl="./knowl/mirod1.html" title="Figure 7.1.5.(b)">Figure 7.1.5.(b)</a>. To find the moment of inertia of such a rod consider an elementary mass <span class="process-math">\(\,dm \)</span> of a rod of infinitesimal thickness <span class="process-math">\(\,dx\)</span> at a distance <span class="process-math">\(x\)</span> from the axis of rotation, then the moment of inertia of this elementary mass is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mirod1.html">
 \begin{equation*}
-I_{edge} = I_{cm}+Md^{2}
+\,dI = \,dm x^{2}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mirod1.html">
 \begin{equation*}
-=\frac{1}{12}ML^{2} +M\left(\frac{L}{2}\right)^{2}=\frac{1}{3}ML^{2}
+\text{or,}\quad I = \int \,dI = \int\limits_{0}^{L}\left(\frac{M}{L}\,dx\right)x^{2}
 \end{equation*}
 </div>
-<div class="para">here, <span class="process-math">\(d\)</span> is the distance between axis of rotation and an axis through center of mass of a rod.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mirod1.html">
+\begin{equation*}
+\therefore\quad I =\frac{M}{L}\int\limits_{0}^{L} x^{2} \,dx
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mirod1.html">
+\begin{equation*}
+= \frac{M}{L}\left(\frac{x^{3}}{3}\right)_{0}^{L}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mirod1.html">
+\begin{equation*}
+= \frac{M}{3L}(L^{3}-0)=\frac{1}{3}ML^{2}
+\end{equation*}
+</div>
 </div>
 <span class="incontext"><a href="subsec-mi_rod.html#p-780" class="internal">in-context</a></span>
 </body>

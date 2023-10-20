@@ -11,36 +11,72 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h3 class="heading"><span class="type">Paragraph</span></h3>
+<h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">A simple pendulum consists of a heavy bob of mass <span class="process-math">\(m\)</span>  hanging from an inextensible and massless string of length <span class="process-math">\(l.\)</span> When the bob is displaced from its mean position and released, it will swing back and forth with periodic motion as shown in <a href="" class="xref" data-knowl="./knowl/sp1a.html" title="Figure 7.5.6">Figure 7.5.6</a>. From free body diagram, it is clear that <span class="process-math">\(mg\cos\theta \)</span> is balanced by tension <span class="process-math">\(T\)</span> in the string but unbalanced force <span class="process-math">\(mg\sin\theta \)</span> provides the restoring force. Hence</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/sp1a.html">
+<div class="para">Consider a vibrating spring with mass <span class="process-math">\(m\)</span> attached to its end, then the kinetic energy of the mass <span class="process-math">\(K=\frac{1}{2}mv^{2}\text{,}\)</span> and potential energy stored in the spring with a displacement <span class="process-math">\(x\)</span> is <span class="process-math">\(U=\frac{1}{2}kx^{2}\text{.}\)</span> [<a href="ch_eighth.html" class="internal" title="Chapter 8: Elasticity">Chapter 8</a>] Now since restoring force involved in spring mass system is conservative, the total mechanical energy <span class="process-math">\(E=K+U\)</span> is conserved [<a href="subsec-ediagram.html" class="internal" title="Subsection 5.1.5: Energy Diagram">Subsection 5.1.5</a>].</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-F_{s} = -mg\sin\theta 
+E = \frac{1}{2}mv^{2} +  \frac{1}{2}kx^{2} = \frac{1}{2}kA^{2} =constant.
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/sp1a.html">
+<div class="para">Here <span class="process-math">\(k\)</span> is a spring constant, <span class="process-math">\(A\)</span> is the amplitude of vibrating spring and the velocity of the particle executing SHM is zero at extremes. Let the spring oscillates in vertical up and down then the solution for SHM is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\text{or,}\quad ma = -mg\frac{x}{l}
+y=A\sin[\omega t +\phi]
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/sp1a.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\text{or,}\quad a = -\frac{g}{l}x =-\omega^{2}x 
+\text{then}\quad v =\frac{\,dy}{\,dt} =-\omega A\cos[\omega t +\phi]
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(\omega = \sqrt{\frac{g}{l}} \)</span> is the angular velocity of the bob performing circular motion. The time period of simple pendulum can be given as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/sp1a.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+\begin{equation}
+\text{or,}\quad E = \frac{1}{2}mv^{2} +  \frac{1}{2}ky^{2}\tag{7.5.8}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\omega = \frac{2\pi}{T}=\sqrt{\frac{g}{l}} 
+= \frac{1}{2}m \left(-\omega A\cos[\omega t +\phi]\right)^{2}+ \frac{1}{2}k\left(A\sin[\omega t +\phi]\right)^{2}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/sp1a.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\therefore \quad T = 2\pi\sqrt{\frac{l}{g}} 
+\text{or,}\quad E = \frac{1}{2}kA^{2}\left(\cos^{2}[\omega t +\phi]+\sin^{2}[\omega t +\phi]\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+\begin{equation*}
+= \frac{1}{2}kA^{2} \quad [\because \omega^{2}=\frac{k}{m}]
+\end{equation*}
+</div>
+<div class="para">From eqn. <a href="" class="xref" data-knowl="./knowl/eqn-shm_enrg1.html" title="Equation 7.5.8">(7.5.8)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+\begin{equation*}
+v=\pm\omega\sqrt{A^{2}-y^{2}}
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(\pm\)</span> means mass <span class="process-math">\(m\)</span> is oscillating in up and down direction, i.e.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+\begin{equation*}
+y=\pm A/2.
+\end{equation*}
+</div>
+<div class="para">Now</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+\begin{equation*}
+v = \pm\sqrt{\frac{k}{m}}A =\pm\omega A  \quad \text{at}\quad y=0
+\end{equation*}
+</div>
+<div class="para">
+<dfn class="terminology">Note:</dfn> The same result could be obtained by considering equation of SHM as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+\begin{equation*}
+y=A\cos[\omega t +\phi].
 \end{equation*}
 </div>
 </div>
-<span class="incontext"><a href="subsec-simp_pendulum.html#p-867" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-shm.html#p-867" class="internal">in-context</a></span>
 </body>
 </html>

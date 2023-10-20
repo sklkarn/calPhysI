@@ -11,31 +11,53 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">As the body falls through a medium, its velocity goes on increasing due to gravity. As the viscous force is velocity dependent, it also goes on goes on increasing till it reaches a constant velocity called terminal velocity. This happen when the weight of the body is just equal to the sum of the upward thrust due to buoyancy and the upward viscous drag. At this stage, there is no net force to accelerate the body. Let <span class="process-math">\(\rho \)</span> be the density of the material of the spherical body of radius r and <span class="process-math">\(\sigma\)</span> be the density of the medium. Hence,</div>
+<div class="para">The viscous force acting on a small spherical body moving through a fluid is directly proportional to viscosity, <span class="process-math">\(\eta,\)</span> of the fluid, radius <span class="process-math">\(r\)</span> of the body, and its velocity, <span class="process-math">\(v.\)</span> That is,</div>
 <div class="displaymath process-math">
 \begin{equation*}
-F+B=W
+F\propto r^{a}v^{b}\eta^{c}
 \end{equation*}
 </div>
-<div class="para">where F is viscous drag force, B is bouyant force, and W is weight of the body.</div>
+<div class="para">Using dimensional analysis, we have</div>
 <div class="displaymath process-math">
 \begin{equation*}
-6\eta r v + V\sigma g = V\rho g
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{or,}\quad 6\eta r v =  V(\rho-\sigma) g =\frac{4}{3}\pi r^{3}(\rho-\sigma) g
+F = kr^{a}v^{b}\eta^{c} 
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore\quad v= \frac{2r^{2}(\rho-\sigma) g}{9\eta} 
+\text{or,}\quad [MLT^{-2}] = k [L]^{a}[LT^{-1}]^{b}[ML^{-1}T^{-1}]^{c} =k [M]^{c}[L]^{a+b-c}[T]^{-b-c}
 \end{equation*}
 </div>
-<div class="para">The initial acceleration, <span class="process-math">\(a\)</span> of the  body can be found by using the concept of Archimedes principle.</div>
+<div class="para">From the principle of homogeneity,</div>
+<div class="displaymath process-math">
+\begin{equation}
+c=1  \tag{9.4.6}
+\end{equation}
+</div>
+<div class="displaymath process-math">
+\begin{equation}
+-b-c = -2 \quad \Rightarrow\quad b=1 \tag{9.4.7}
+\end{equation}
+</div>
+<div class="displaymath process-math">
+\begin{equation}
+a+b-c =1    \quad \Rightarrow\quad   a=1 \tag{9.4.8}
+\end{equation}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad F = k\eta r v 
+\end{equation*}
+</div>
+<div class="para">From experiment, <span class="process-math">\(k=6\pi\text{,}\)</span> Therefore</div>
+<div class="displaymath process-math">
+\begin{equation}
+F = 6\pi \eta r v \tag{9.4.9}
+\end{equation}
+</div>
+<div class="para">Which is a stoke’s equation.</div>
 </div>
 <span class="incontext"><a href="subsec-stok_law.html#p-1030" class="internal">in-context</a></span>
 </body>

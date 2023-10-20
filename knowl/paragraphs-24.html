@@ -11,142 +11,40 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<section class="paragraphs"><h3 class="heading"><span class="title">Derivation of Kepler’s I law.</span></h3> <div class="para logical">
+<section class="paragraphs"><h3 class="heading"><span class="title">Derivation of Kepler’s III law using Newton’s law of gravitation:.</span></h3> <div class="para logical">
+<div class="para">A planet moving around a circular path needs a centripetal force which is provided by the force of attraction between the planet and the sun.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-F=ma=-\frac{GMm}{r^{2}}
+F=\frac{GMm}{r^{2}}=\frac{mv^{2}}{r}
 \end{equation*}
 </div>
+<div class="para">where <span class="process-math">\(M,\quad m,\)</span> and <span class="process-math">\(r\)</span> are the mass of the sun, mass of the planet, and radius of a circular path, respectively.</div>
 <div class="displaymath process-math">
 \begin{equation}
-\text{or,}\quad \ddot{r}-r\dot{\theta}^{2}=-\frac{GM}{r^{2}}  \tag{6.2.3}
+\therefore\quad v=\sqrt{\frac{GM}{r}} \tag{6.2.1}
 \end{equation}
 </div>
+<div class="para">But, the velocity of the planet in the orbit is given by</div>
 <div class="displaymath process-math">
-\begin{equation*}
-x=r\cos\theta, \qquad y=r\sin\theta
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\dot{x}=\dot{r}\cos\theta -r\sin\theta\dot{\theta},
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\dot{y}=\dot{r}\sin\theta +r\cos\theta\dot{\theta}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-v^{2}=\dot{x}^{2}+\dot{y}^{2} = \dot{r}^{2}+r^{2}\dot{\theta}^{2}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\ddot{x}=\ddot{r}\cos\theta -\dot{r}\dot{\theta}\sin\theta -\dot{r}\dot{\theta}\sin\theta -r\dot{\theta}^{2}\cos\theta-r\ddot{\theta}\sin\theta, 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\ddot{y}=\ddot{r}\sin\theta +\dot{r}\dot{\theta}\cos\theta +\dot{r}\dot{\theta}\cos\theta -r\dot{\theta}^{2}\sin\theta+r\ddot{\theta}\cos\theta
-\end{equation*}
-</div>
-<div class="para">Now,</div>
-<div class="displaymath process-math">
-\begin{align*}
-a\amp =\ddot{x}\cos\theta+\ddot{y}\sin\theta \\
-\amp =(\ddot{r}\cos^{2}\theta -2\dot{r}\dot{\theta}\sin\theta\cos\theta -r\dot{\theta}^{2}\cos^{2}\theta-r\ddot{\theta}\sin\theta\cos\theta) \\
-\amp  +(\ddot{r}\sin^{2}\theta +2\dot{r}\dot{\theta}\sin\theta\cos\theta -r\dot{\theta}^{2}\sin^{2}\theta+r\ddot{\theta}\sin\theta\cos\theta) \\
-\amp  =\ddot{r}-r\dot{\theta}^{2} 
-\end{align*}
-</div>
-</div> <div class="para logical">
-<div class="para">Let</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-\frac{1}{r}=u 
-\end{equation*}
-</div>
-<div class="para">so that</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-\dot{r}=-r^{2}\dot{u} =-r^{2}\frac{\,du}{\,d\theta}\dot{\theta}
-\end{equation*}
-</div>
-<div class="para">Also,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-L=mr^{2}\dot{\theta}\quad \Rightarrow\quad \dot{\theta}= \frac{L}{mr^{2}}=hu^{2}
-\end{equation*}
-</div>
-<div class="para">Now,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-\dot{r}=-r^{2}\frac{\,du}{\,d\theta} hu^{2}=-h\frac{\,du}{\,d\theta}
-\end{equation*}
-</div>
-<div class="para">Therefore from eqn <a href="" class="xref" data-knowl="./knowl/eqn-kepler3.html" title="Equation 6.2.3">(6.2.3)</a>,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-\frac{\,d}{\,dt}\left(\dot{r}\right) -r(hu^{2})^{2}=-GMu^{2}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-\text{or,}\quad \frac{\,d}{\,dt}\left(-h\frac{\,du}{\,d\theta}\right) -h^{2}u^{3}=-ku^{2} 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-\text{or,}\quad -h\left[\frac{\,d\theta}{\,dt}\frac{\,d}{\,d\theta}\left(\frac{\,du}{\,d\theta}\right)\right] -h^{2}u^{3}=-ku^{2} 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-\text{or,}\quad -h\left[hu^{2}\frac{\,d^{2}u}{\,d\theta^{2}}\right] -h^{2}u^{3}=-ku^{2} 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
 \begin{equation}
-\therefore\quad  \frac{\,d^{2}u}{\,d\theta^{2}} +u=\frac{k}{h^{2}} \tag{6.2.4}
+v=\frac{2\pi r}{T} \tag{6.2.2}
 \end{equation}
 </div>
-<div class="para">This is second order linear differential equation with constant coefficient. The solution of which can be given as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
+<div class="para">where <span class="process-math">\(T\)</span> is the time period of revolution of the planet around the sun.</div>
+<div class="displaymath process-math">
 \begin{equation*}
-u=A\cos(\theta+\delta)+\frac{k}{h^{2}} 
+\therefore\quad \frac{4\pi^{2} r^{2}}{T^{2}} = \frac{GM}{r}
 \end{equation*}
 </div>
-<div class="para">It is a solution for a simple harmonic motion equation. Set the coordinate in such a way that <span class="process-math">\(\delta=0,\)</span> and hence</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
+<div class="displaymath process-math">
 \begin{equation*}
-u=\frac{1}{r} = A\cos\theta+\frac{k}{h^{2}}
+\text{or,}\quad T^{2} = r^{3}\left(\frac{4\pi^{2}}{GM}\right)
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad r=\frac{1}{A\cos\theta+\frac{k}{h^{2}}} =\frac{1}{A\cos\theta+\frac{GMm^{2}}{L^{2}}}
+\text{or,}\quad  T^{2}\propto r^{3}
 \end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation}
-\therefore\quad r=\frac{1}{\frac{GMm^{2}}{L^{2}}\left(e\cos\theta+1\right)}\tag{6.2.5}
-\end{equation}
-</div>
-<div class="para">where <span class="process-math">\(e= \frac{AL^{2}}{GMm^{2}}\)</span> Eqn. <a href="" class="xref" data-knowl="./knowl/eqn-kepler5.html" title="Equation 6.2.5">(6.2.5)</a> is the general form of an ellipse in polar coordinates, with the origin placed at a focus. In solid state geometry, the parameter <span class="process-math">\(e\)</span> is often called the eccentricity. When the eccentricity of a planet’s orbit is zero, the orbit is perfectly circular. The curve is an ellipse, a parabola, or a hyperbola, according as its <span class="process-math">\(e \lt 1, \)</span> <span class="process-math">\(e = 1, \)</span> or <span class="process-math">\(e \gt 1. \)</span>
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-\therefore \quad a=\frac{1}{2}\left(r_{min}+r_{max}\right)
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kepler3.html ./knowl/eqn-kepler5.html">
-\begin{equation*}
-=\frac{L^{2}}{GMm^{2}}\left(\frac{1}{e+1}+\frac{1}{1-e}\right)= \frac{L^{2}}{GMm^{2}}\left(1-e^{2}\right)^{-1} 
-\end{equation*}
-</div>
-<div class="para">where <span class="process-math">\(a\)</span> is a semi-major axis of the ellipse, at apoapsis, <span class="process-math">\(\cos\theta=-1 \)</span> and at periapsis <span class="process-math">\(\cos\theta=1.\)</span>
 </div>
 </div></section><span class="incontext"><a href="subsec-periap.html#paragraphs-24" class="internal">in-context</a></span>
 </body>

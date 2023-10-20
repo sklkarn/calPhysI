@@ -13,52 +13,35 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">The viscous force acting on a small spherical body moving through a fluid is directly proportional to viscosity, <span class="process-math">\(\eta,\)</span> of the fluid, radius <span class="process-math">\(r\)</span> of the body, and its velocity, <span class="process-math">\(v.\)</span> That is,</div>
+<div class="para">From equation of continuity, the rate of volume flow is given by</div>
 <div class="displaymath process-math">
 \begin{equation*}
-F\propto r^{a}v^{b}\eta^{c}
+\frac{\,dV}{\,dt} = \int (\vec{v}\cdot\,d\vec{A}) = \int v\,dA 
 \end{equation*}
 </div>
-<div class="para">Using dimensional analysis, we have</div>
+<div class="para">The velocity and cross-sectional area of fluid are along the same direction.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-F = kr^{a}v^{b}\eta^{c} 
+\frac{\,dV}{\,dt} = \int\limits_{0}^{R} \left(\frac{\Delta p}{4\eta l}\right)(R^{2}-r^{2})(2\pi r)\,dr
 \end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{or,}\quad [MLT^{-2}] = k [L]^{a}[LT^{-1}]^{b}[ML^{-1}T^{-1}]^{c} =k [M]^{c}[L]^{a+b-c}[T]^{-b-c}
-\end{equation*}
-</div>
-<div class="para">From the principle of homogeneity,</div>
-<div class="displaymath process-math">
-\begin{equation}
-c=1  \tag{9.4.6}
-\end{equation}
-</div>
-<div class="displaymath process-math">
-\begin{equation}
--b-c = -2 \quad \Rightarrow\quad b=1 \tag{9.4.7}
-\end{equation}
-</div>
-<div class="displaymath process-math">
-\begin{equation}
-a+b-c =1    \quad \Rightarrow\quad   a=1 \tag{9.4.8}
-\end{equation}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore\quad F = k\eta r v 
+= \left(\frac{\Delta p \pi}{2\eta l}\right) \int\limits_{0}^{R}(R^{2}r-r^{3})\,dr
 \end{equation*}
 </div>
-<div class="para">From experiment, <span class="process-math">\(k=6\pi\text{,}\)</span> Therefore</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{\,dV}{\,dt} =  \left(\frac{\Delta p \pi}{2\eta l}\right)\left(\frac{R^{4}}{2}-\frac{R^{4}}{4}\right) 
+\end{equation*}
+</div>
 <div class="displaymath process-math">
 \begin{equation}
-F = 6\pi \eta r v \tag{9.4.9}
+\therefore\quad  \frac{\,dV}{\,dt}  = \left(\frac{\pi \Delta p}{8\eta l}\right)R^{4} \tag{9.4.5}
 \end{equation}
 </div>
-<div class="para">Which is a stoke’s equation.</div>
+<div class="para">This is Poiseuille’s equation, also known as Poiseuille’s law.</div>
 </div>
-<span class="incontext"><a href="subsec-stok_law.html#p-1029" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-pois_law.html#p-1029" class="internal">in-context</a></span>
 </body>
 </html>

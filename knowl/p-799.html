@@ -13,13 +13,32 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Consider a concentric hollow spherical shell of radius <span class="process-math">\(r\)</span> and thickness <span class="process-math">\(\,dr\)</span>  in a hollow sphere of mass <span class="process-math">\(M\)</span> and radius <span class="process-math">\(R\)</span> [<a href="" class="xref" data-knowl="./knowl/missphere.html" title="Figure 7.1.12.(b)">Figure 7.1.12.(b)</a>], then the moment of inertia of this shell about its center of mass is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/missphere.html">
+<div class="para">Therefore the moment of inertia of a hollow sphere about its diameter is given by</div>
+<div class="displaymath process-math">
+\begin{equation}
+\therefore\quad I =\int\,dI = \frac{MR^{2}}{2}\int\limits_{0}^{\pi}\sin^{3}\theta\,d\theta \tag{7.1.1}
+\end{equation}
+</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\,dI=\frac{2}{3}\,dm\,r^{2} = \frac{2}{3}\left(\frac{M}{\frac{4}{3}\pi R^{3}}\right)\left(4\pi r^{2}\,dr\right)\,r^{2}
+Now, \quad \sin^{3}\theta = \frac{3\sin\theta-\sin 3\theta}{4} 
 \end{equation*}
 </div>
-<div class="para">mass of a shell = (mass per unit volume of sphere) (volume of a shell)</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad I = \frac{MR^{2}}{2} \frac{1}{4}\left[-3\cos\theta - \frac{\cos3\theta}{3}\right]_{0}^{\pi}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{8}MR^{2}\left[-3(-1-1)+\frac{1}{3}(-1-1)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad I =\frac{1}{8}MR^{2}\left[6-\frac{2}{3}\right]=\frac{16}{3}\times\frac{1}{8}MR^{2}=\frac{2}{3}MR^{2}
+\end{equation*}
+</div>
 </div>
 <span class="incontext"><a href="subsec-mi_spher.html#p-799" class="internal">in-context</a></span>
 </body>

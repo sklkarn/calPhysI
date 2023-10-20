@@ -12,7 +12,125 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para"><dfn class="terminology">Alternative solution to <span class="process-math">\(a=-\omega^{2}x\)</span></dfn></div>
+<div class="para logical">
+<div class="displaymath process-math">
+\begin{equation*}
+a=\frac{\,dv}{\,dt} =-\omega^{2}x 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{\,dv}{\,dt} =\frac{\,dv}{\,dx}\frac{\,dx}{\,dt}=-\omega^{2}x 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad v\frac{\,dv}{\,dx} =-\omega^{2}x 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \int\limits_{v_{o}}^{v} v\,dv =-\omega^{2}\int\limits_{x_{o}}^{x} x\,dx
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \left.v^{2}\right|_{v_{o}}^{v} =-\omega^{2} \left.x^{2}\right|_{x_{o}}^{x}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad v^{2}-v_{o}^{2} =-\omega^{2} \left(x^{2}-x_{o}^{2}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad v^{2} =\omega^{2} \left[  \frac{v_{o}^{2}}{\omega^{2}} - \left(x^{2}-x_{o}^{2}\right)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad v =\omega\sqrt{ \left[  \frac{v_{o}^{2}}{\omega^{2}} +x_{o}^{2}-x^{2}\right]}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \omega\sqrt{A^{2}-x^{2}}  \qquad [put,  \frac{v_{o}^{2}}{\omega^{2}} +x_{o}^{2} =A^{2}]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad v =\frac{\,dx}{\,dt} =\omega\sqrt{A^{2}-x^{2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \int\limits_{x_{o}}^{x}\frac{\,dx}{\sqrt{A^{2}-x^{2}}} =\omega \int\limits_{0}^{t}\,dt 
+\end{equation*}
+</div>
+<div class="para">put, <span class="process-math">\(x=A\sin\theta \)</span> or <span class="process-math">\(\,dx=A\cos\theta\,d\theta\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Now,}\quad \int\frac{A\cos\theta\,d\theta}{\sqrt{A^{2}\cos^{2}\theta}} = \int\,d\theta =\theta =\sin^{-1}\frac{x}{A}. 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \left.\sin^{-1}\frac{x}{A}\right|\int\limits_{x_{o}}^{x} =\omega \left.t\right|_{0}^{t}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \sin^{-1}\frac{x}{A}- \sin^{-1}\frac{x_{o}}{A} =\omega t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \sin^{-1}\frac{x}{A} = \omega t+\sin^{-1}\frac{x_{o}}{A} = \omega t+\phi
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation}
+\therefore \quad x=A\sin(\omega t + \phi) \tag{7.5.3}
+\end{equation}
+</div>
+<div class="para">Where <span class="process-math">\(\phi =\sin^{-1}\left(\frac{x_{o}}{A}\right)\)</span> is a phase of oscillating particle. The displacement of oscillating particle can also be obtained by using</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x=A\cos(\omega t + \phi).
+\end{equation*}
+</div>
+<div class="para">Either solutions will work perfectly fine in solving shm problems. However, we can use cosine term solution if time <span class="process-math">\(t = 0 \)</span> when the particle is at its extreme position. If time <span class="process-math">\(t = 0\)</span> when the particle is at mean position sine term solution will suffice. Here we are using</div>
+<div class="displaymath process-math">
+\begin{equation}
+x=A\cos(\omega t +\phi) \tag{7.5.4}
+\end{equation}
+</div>
+<div class="para">as a solution for the differential equation. Hence the velocity of such particle at any time <span class="process-math">\(t\)</span> is given by</div>
+<div class="displaymath process-math">
+\begin{equation}
+v   =  -\omega A \sin (\omega t + \phi) \tag{7.5.5}
+\end{equation}
+</div>
+<div class="para">and the acceleration of this particle is</div>
+<div class="displaymath process-math">
+\begin{equation}
+a   =  -\omega^{2} A\cos (\omega t + \phi)  =  -\omega^{2} x  \tag{7.5.6}
+\end{equation}
+</div>
+<div class="para">Time period of oscillation in spring-mass system is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\omega = \frac{2\pi}{T} = \sqrt{\frac{k}{m}}.
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation}
+\therefore\quad T = 2\pi\sqrt{\frac{m}{k}} \tag{7.5.7}
+\end{equation}
+</div>
+</div>
 <span class="incontext"><a href="subsec-shm.html#p-863" class="internal">in-context</a></span>
 </body>
 </html>
