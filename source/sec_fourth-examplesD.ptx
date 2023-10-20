@@ -13,8 +13,8 @@
   </statement>
   <solution>
     <p>
-      Given:  <m>v_{1}  =  50 km/h = 50 \times \frac{5}{18} \frac{m}{s}=13.88 m/s r=100m</m>, 
-      <m>v_{2}=80km/h=22.22 m/s</m>, <m>\mu=?</m>
+      Given:  <m>v_{1}  =  50\, km/h = 50 \times \frac{5}{18} \frac{m}{s}=13.88 \,m/s r=100\,m</m>, 
+      <m>v_{2}=80\,km/h=22.22 \,m/s</m>, <m>\mu=?</m>
       <image source="cd1b.png" width="50%"> </image>
     </p>
     <p>
@@ -118,7 +118,7 @@
             a_{r}  =  \frac{v^{2}}{r}, 
           </m>
           <me>
-            T  =  21.96 N 
+            T  =  21.96 \,N 
           </me>
           </p>
       </li>
@@ -133,13 +133,13 @@
             a_{r}  =  \frac{v^{2}}{r},
           </m>
           <me>
-            T  =  10.84 N 
+            T  =  10.84 \,N 
           </me>
           </p>
       </li>
       <li>
         <p>
-          <m>v  =  9 m/s,</m>
+          <m>v  =  9\, m/s,</m>
           <me>
             \sum F_{r}  =  T   =  m a_{r},
           </me>
@@ -148,7 +148,7 @@
              a_{r}  =  \frac{v^{2}}{r},
           </m>
           <me>
-            T  =  16.2 N  
+            T  =  16.2 \,N  
           </me>
           </p>
       </li>
@@ -161,7 +161,7 @@
           </me>
           <m>w  =  m g,</m>
              <m>
-            a_{t}  =  9.8 m/s^{2} 
+            a_{t}  =  9.8 \,m/s^{2} 
           </m>
          </p>
       </li>
@@ -176,7 +176,7 @@
          </me>
          <m>a_{r}=100 m/s^{2};</m> <m> w  =  m g,</m>
          <me>
-          a_{t}  =  6.93 m/s^{2} 
+          a_{t}  =  6.93 \,m/s^{2} 
          </me>
          </p>
       </li>

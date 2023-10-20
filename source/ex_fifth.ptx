@@ -19,15 +19,15 @@
 
      <exercise>
       <p>
-        A horizontal force is given by the equation <m>F = k x</m>, where <m>k = 100 N/m</m>. 
-        How much work is expended by that force when moving an object from <m>x = -1 m</m> to <m>x = +3 m</m>?
+        A horizontal force is given by the equation <m>F = k x</m>, where <m>k = 100 \,N/m</m>. 
+        How much work is expended by that force when moving an object from <m>x = -1 \,m</m> to <m>x = +3 \,m</m>?
       </p>
      </exercise>
 
      <exercise>
       <p>
         A force has the components <m>F_{x} = A(x+y)</m>, <m>F_{y} = Bxy</m>, 
-        where <m>A = 2 N/m</m> and <m>B = 3 N/m^{2}</m>. Find the work done by this 
+        where <m>A = 2 \,N/m</m> and <m>B = 3 \,N/m^{2}</m>. Find the work done by this 
         force along the paths 
         <ol marker ="a.">
           <li>
@@ -428,7 +428,7 @@ system falls all the way to the ground and comes to rest, find each of the follo
    <exercise>
     <p>
       An electric motor starts revving up, consuming energy according to the equation <m>W = C t^2</m>, 
-      where <m>C = 200 J/s^{2}</m>. 
+      where <m>C = 200 \,J/s^{2}</m>. 
       <ol marker="a.">
         <li>
           How long does it take for the engine to consume 1000 J of energy? 
@@ -446,7 +446,7 @@ system falls all the way to the ground and comes to rest, find each of the follo
   <exercise>
     <p>
       The power required to move an object is <m>P = K t^{3}</m>, where <m>t </m> is the 
-      time and the constant <m>K = 3 W/s^{3}</m>. How much energy is required 
+      time and the constant <m>K = 3 \,W/s^{3}</m>. How much energy is required 
       to move the object during the first 4 seconds?
     </p>
   </exercise>
@@ -544,7 +544,7 @@ system falls all the way to the ground and comes to rest, find each of the follo
         </li>
         <li>
           A force is described mathematically by the equation <m>F = F_{o}[1 - (t - 1)^{2}]</m>, 
-          where <m>F_{o} = 100 N</m> and t is expressed in seconds and ranges from zero to 2 seconds. 
+          where <m>F_{o} = 100 \,N</m> and t is expressed in seconds and ranges from zero to 2 seconds. 
           What is the impulse of this force?
         </li>
       </ol>
@@ -664,7 +664,7 @@ system falls all the way to the ground and comes to rest, find each of the follo
 
   <exercise>
     <p>
-      A pool ball traveling along the x-axis at <m>2 m/s</m> strikes a second ball of 
+      A pool ball traveling along the x-axis at <m>2 \,m/s</m> strikes a second ball of 
       equal mass and glances off at an angle of <m>30^{o}</m> above the x-axis. 
       If the collision is perfectly elastic, 
       <ol marker="a.">
@@ -785,7 +785,7 @@ system falls all the way to the ground and comes to rest, find each of the follo
     <p>
       A 500 N boy sitting in a stationary 90 N wagon is start throwing bricks out 
       of the wagon. If the boy has three bricks weighing 45 N each and throws them 
-      with a horizontal velocity of $3 m/s$ relative to the wagon, determine 
+      with a horizontal velocity of <m>3 \,m/s</m> relative to the wagon, determine 
       the velocity he attains 
       <ol marker="a.">
         <li>

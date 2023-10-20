@@ -654,26 +654,26 @@
         <li>
           <p> 
           Draw the forces acting on the ladder shown below if there is no friction on the vertical surface.
+          </p>
           <image source ="rd3a.png" width="20%"> </image>
-        </p>
         </li>
         <li>
           <p>
             What is the torque equation for an axis located at the bottom of the ladder? 
-          <image source="rd3b.png" width="15%"> </image>
-          </p>
+             </p>
+             <image source="rd3b.png" width="15%"> </image>
         </li>
         <li>
           <p>
             What is the torque equation for an axis located at the top of the ladder? 
-          <image source="rd3c.png" width="20%"> </image>
-          </p>
+            </p>
+            <image source="rd3c.png" width="20%"> </image>
         </li>
         <li>
           <p>
             What is the torque equation for an axis located at the point in space labeled P?
-          <image source="rd3d.png" width="25%"> </image>
-          </p>
+               </p>
+               <image source="rd3d.png" width="25%"> </image>
         </li>
       </ol>
    </exercise>
@@ -714,8 +714,9 @@
       A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and 
       B as shown in the figure below. The tension T in a support cable making an angle 
       of <m>30^{o}</m> is adjusted until the horizontal force at hinge A is zero. 
-      Find <image source="rd7.png" width="30%"> </image>
+      Find 
     </p>
+    <image source="rd7.png" width="30%"> </image>
       <ol marker="a.">
         <li>
         <p>
@@ -762,13 +763,15 @@
       <ol marker="a.">
         <li>
           <p>
-            at the top of the wheel as shown in figure below? <image source="rd8a.png" width="30%"> </image>
+            at the top of the wheel as shown in figure below? 
           </p>
+          <image source="rd8a.png" width="30%"> </image>
         </li>
         <li>
         <p>
-          at the axle as shown in figure below? <image source="rd8b.png" width="30%"> </image>
+          at the axle as shown in figure below? 
         </p>
+        <image source="rd8b.png" width="30%"> </image>
         </li>
          </ol>
          </exercise>
@@ -778,8 +781,8 @@
             If the bowling ball weighs 25 N is lying between two inclined planes which make 
             an angle <m>40^{o}</m> and <m>50^{o}</m> with the horizontal. what is the value 
             of the normal exerted on each point of tangency? Each surface is frictionless.
+            </p>
             <image source="bowlingplank.png" width="30%"> </image>
-          </p>
          </exercise>
 
          <exercise>

@@ -29,12 +29,12 @@
       <image source ="mi1.png" width="40%"> </image>
       <p>
         Given: <me>
-          m_{1}  =  1 kg, \quad m_{2}  =  2 kg, \quad m_{3}  =  3 kg,\quad m_{4}  =  4 kg
+          m_{1}  =  1 \,kg, \quad m_{2}  =  2 \,kg, \quad m_{3}  =  3 \,kg,\quad m_{4}  =  4 \,kg
         </me>
         <ol marker="a.">
           <li>
             <me>
-              r_{1}  =  0,  \quad r_{2}  =  0 m, \quad r_{3}  =  1 m,\quad  r_{4}  =  1 m
+              r_{1}  =  0,  \quad r_{2}  =  0 \,m, \quad r_{3}  =  1 \,m,\quad  r_{4}  =  1 \,m
             </me>
             <me>
               \therefore I_{x}  = \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 0+0+3\cdot 1^{2}+4\cdot 1^{2} = 7\, kg m^{2} 
@@ -42,7 +42,7 @@
               </li>
           <li>
            <me>
-            r_{1}  =  1 m,\quad r_{2}  =  1 m, \quad r_{3}  =  0, \quad r_{4} =  0 
+            r_{1}  =  1 \,m,\quad r_{2}  =  1 \,m, \quad r_{3}  =  0, \quad r_{4} =  0 
            </me>
            <me>
             \therefore I_{x'}  =  \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 1+2+0+0=3\, kg m^{2} 
@@ -50,7 +50,7 @@
             </li>
           <li>
            <me>
-            r_{1}  =  0,\quad r_{2}  =  1 m,\quad r_{3}  =  1 m,\quad r_{4}  =  0 m,
+            r_{1}  =  0,\quad r_{2}  =  1 \,m,\quad r_{3}  =  1 \,m,\quad r_{4}  =  0 \,m,
            </me>
            <me>
             \therefore \quad I_{y} =  \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 0+2+3+0=5\, kg m^{2} 
@@ -58,7 +58,7 @@
               </li>
           <li>
            <me>
-            r_{1}  =  0, \quad r_{2}  =  1 m,\quad r_{3}  =  m,\quad r_{4}  =  1 m,
+            r_{1}  =  0, \quad r_{2}  =  1 \,m,\quad r_{3}  = \sqrt{2}\, m,\quad r_{4}  =  1\, m,
            </me>
            <me>
            I_{z}  =  \sum m r^{2} = 12 \, kg m^{2}
@@ -129,20 +129,20 @@
         <ol marker="a.">
           <li>
            <me>
-            I  =  1/12 M(a^{2} + a^{2})  =  1/6 M a^{2};
+            I  =  1/12 M(a^{2} + a^{2})  =  \frac{1}{6} M a^{2};
            </me>
                </li>
           <li>
            <me>
-            I  =  4 I_{1}, \, I_{1}  =  I_{1cm} + M_{1} R^{2}_{1},\, I_{1cm}=  1/12 M_{1} R^{2}_{1},
+            I  =  4 I_{1}, \, I_{1}  =  I_{1cm} + M_{1} R^{2}_{1},\, I_{1cm}=  \frac{1}{12} M_{1} R^{2}_{1},
            </me>
            <me>
-            M_{1} =  M/4,\,	R_{1} =  L/2,\, I  =  13/24 M L^{2};
+            M_{1} =  M/4,\,	R_{1} =  L/2,\, I  =  \frac{13}{24} M L^{2};
            </me>
             </li>
           <li>
           <me>
-            I  =  I_{cm} + M R^{2},\, I_{cm} = 2/5 M R^{2}, \, I =  7/5 M R^{2}.
+            I  =  I_{cm} + M R^{2},\, I_{cm} = \frac{2}{5} M R^{2}, \, I =  \frac{7}{5} M R^{2}.
           </me>
              </li>
             </ol>

@@ -264,7 +264,8 @@ as a solution for the differential equation. Hence the velocity of such particle
   find the nature of roots <m>\alpha\pm i\beta </m> of the equation and then the solution can be given 
   by <m>x=Ae^{\alpha t}[\sin(\beta t+\gamma)] </m>. Where <m>A</m> and  <m>\gamma</m> are arbitrary 
   constants, and <m> \alpha</m> and <m>\beta</m> are roots of the auxiliary equation. 
-  (see <em>Chapter 4</em> in <term>Mathematical Methods of Physics for Undergraduate</term> - Sunil Karna)</fn>
+  (see <em>Chapter 4</em>)in <url href="https://sklkarn.github.io/Math-Physics/frontmatter.html"><c>Mathematical Methods of Physics</c></url>
+  </fn>
        </p>
        <p> <term>Algebric derivation of particle's velocity in SHM:</term> 
         <me>

@@ -50,19 +50,19 @@
     <p>
       <term>Step 5.</term> Solve equations simultaneously for unknowns:
       <me>
-        T_{4}  =  w_{2} =  10 N 
+        T_{4}  =  w_{2} =  10 \,N 
       </me>
       <me>
-        T_{3}  =  T_{4} + w_{1} = 30 N
+        T_{3}  =  T_{4} + w_{1} = 30 \,N
       </me>
       <me>
         Now,\quad T_{2} = \frac{T_{1}\sin\theta}{\cos\theta}= T_{1}\tan\theta
       </me>
       <me>
-        also,\quad T_{1} = \frac{T_{3}}{\tan\theta\sin\theta-\cos\theta} = 30N; 
+        also,\quad T_{1} = \frac{T_{3}}{\tan\theta\sin\theta-\cos\theta} = 30 \,N; 
       </me>
       <me>
-        \therefore T_{2} =52 N
+        \therefore T_{2} =52 \,N
       </me>
       </p>
   </solution>
@@ -71,7 +71,7 @@
 <example>
   <statement>
     <p>
-      Find the tension in each of the strings of the system below if the weight <m>w=80N</m> 
+      Find the tension in each of the strings of the system below if the weight <m>w=80 \,N</m> 
       and the angle <m>\theta=30^{o}</m>.   
     </p>
     <image source="fe1a.png" width="35%"> </image>
@@ -102,7 +102,7 @@
       </men>
       from eqns. <xref ref="eqn-fe1a"/>, <xref ref="eqn-fe1b"/>, and <xref ref="eqn-fe1c"/>, we have
       <me>
-        T_{2}=70N  \quad \text{and} \quad T_{1}=40N 
+        T_{2}=70 \,N  \quad \text{and} \quad T_{1}=40 \,N 
       </me>
       </p>
   </solution>
@@ -126,19 +126,19 @@
   <solution>
     <image source="steq2ab.png" width="20%"> </image> 
     <p>
-      Given: <m>m= 5kg, \quad w= mg = 5kg\cdot9.8 m/s^{2} =49N,\quad F=100 N.</m>
+      Given: <m>m= 5\,kg, \quad w= mg = 5\,kg\cdot9.8 \,m/s^{2} =49 \,N,\quad F=100 \,N.</m>
        <ol marker="a.">
         <li>
           <me>
-            \sum F_{x}=F-N=0 \quad\Rightarrow\quad F=N=100N
+            \sum F_{x}=F-N=0 \quad\Rightarrow\quad F=N=100\,N
           </me>
           <me>
-            \sum F_{y}=f-w=0\quad\Rightarrow\quad f=w=49N
+            \sum F_{y}=f-w=0\quad\Rightarrow\quad f=w=49\,N
           </me>
           </li>
         <li>
           <me>
-            f=\mu_{s}N \qquad\Rightarrow\quad N=\frac{f}{\mu_{s}}=\frac{49N}{0.4}=122N
+            f=\mu_{s}N \qquad\Rightarrow\quad N=\frac{f}{\mu_{s}}=\frac{49N}{0.4}=122\,N
           </me>
           </li>
       </ol>

@@ -78,7 +78,12 @@
   <li> <p>23.55 to the 0.1 place.</p> </li>
 <li><p> <m>2.16347 \times 10^{5}</m> to four significant figures.</p> </li>
 <li><p>0.4203 to the nearest 0.01 place. </p></li>
-<li><p>56.912 to the nearest whole number. [Answer: 57] </p></li>
+<li><p>56.912 to the nearest whole number. </p> 
+  <answer>
+  <p>
+   57 
+  </p>
+</answer></li>
 </ol>
   </exercise>
 

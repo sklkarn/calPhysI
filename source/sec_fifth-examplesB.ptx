@@ -6,8 +6,8 @@
 <example>
   <statement>
     <p>
-      A body of mass <m>m_{1}=1 kg</m> traveling with a speed <m>u_{1}=3 m/s</m> 
-      collides with a stationary body of mass <m>m_{2}=0.5kg,</m> and they 
+      A body of mass <m>m_{1}=1 \,kg</m> traveling with a speed <m>u_{1}=3 \,m/s</m> 
+      collides with a stationary body of mass <m>m_{2}=0.5 \,kg,</m> and they 
       stick together. What speed do the two bodies have after the collision?
     </p>
   </statement>
@@ -17,7 +17,7 @@
         m_{1}u_{1}+0 = [m_{1}+ m_{2}] v 
       </me>
       <me>
-        \therefore v=\frac{m_{1}u_{1}}{m_{1}+m_{2}}=2m/s 
+        \therefore v=\frac{m_{1}u_{1}}{m_{1}+m_{2}}=2 \,m/s 
       </me>
       </p>
   </solution>
@@ -34,7 +34,7 @@
     <p>
       Given: 
       <me>
-        m_{1}=m_{2}=50\times10^{-3}kg, \quad u_{1}=u_{2}=0, \quad \Delta E = 150\times10^{-3} J
+        m_{1}=m_{2}=50\times10^{-3}\,kg, \quad u_{1}=u_{2}=0, \quad \Delta E = 150\times10^{-3} \,J
       </me>
       <me>
         \therefore 0=m_{1}v_{1} +m_{2}v_{2}\quad \Rightarrow\quad v_{1}=-v_{2}
@@ -43,7 +43,7 @@
         \text{also,}\quad 150\times10^{-3}  =\frac{1}{2}m_{1}v_{1}^{2} +\frac{1}{2} m_{2}v_{2}^{2}
       </me>
       <me>
-        \therefore \quad 3=v_{1}^{2} \quad \Rightarrow\quad v_{1}=\sqrt{3}=1.73 m/s
+        \therefore \quad 3=v_{1}^{2} \quad \Rightarrow\quad v_{1}=\sqrt{3}=1.73 \,m/s
       </me>
        </p>
   </solution>
@@ -60,7 +60,7 @@
     <p>
       Given: 
       <me>
-        m_{1} = 10 kg,\quad m_{2} = 2kg, \quad u_{1}=2m/s, \quad u_{2}=-4m/s
+        m_{1} = 10 \,kg,\quad m_{2} = 2\,kg, \quad u_{1}=2\,m/s, \quad u_{2}=-4\,m/s
       </me>
      Now, from momentum conservation 
      <me>
@@ -78,7 +78,7 @@
      </me>
      Solving these two equations, we get -
      <me>
-      v_{1}=2m/s, v_{2} =-4 m/s
+      v_{1}=0\,m/s, v_{2} =6 \,m/s
      </me>
       </p>
   </solution>
@@ -87,10 +87,10 @@
  <example>
   <statement>
     <p>
-      In an accident the 190 kg car with velocity <m>u_{A} = 30 km/h </m> 
-      collides head on with the 280 kg car with velocity <m>u_{B}=20 km/h</m>. 
+      In an accident the 190 kg car with velocity <m>u_{A} = 30 \,km/h </m> 
+      collides head on with the 280 kg car with velocity <m>u_{B}=20 \,km/h</m>. 
       The coefficient of restitution of the impact is <m>e = 0.15.</m> 
-      The duration of the collision is <m>0.22 s.</m> What are the velocities 
+      The duration of the collision is <m>0.22 \,s.</m> What are the velocities 
       of the cars immediately after the collision? Determine the magnitude 
       of the average acceleration to which the occupants of each car are subjected.
     </p>
@@ -99,10 +99,10 @@
     <p>
       The velocities before collision are 
       <me>
-        u_{A} = 30 km/h = 30\times \frac{5}{18} m/s = 8.33 m/s,
+        u_{A} = 30 \,km/h = 30\times \frac{5}{18}\, m/s = 8.33 \,m/s,
       </me>
       <me>
-        u_{B} = -20 km/h = -5.55 m/s.
+        u_{B} = -20 \,km/h = -5.55 \,m/s.
       </me>
       The coefficient of restitution, <m>e = 0.15</m>. 
     </p>
@@ -130,13 +130,13 @@
       </men>
       on Solving eqns. <xref ref="eqn-coef_imp1"/> and <xref ref="eqn-coef_imp2"/>, we get the 
       velocities after collision as
-      <m>v_{A}= -1.18 m/s,</m> <m>v_{B}= 0.9 m/ s.</m>
+      <m>v_{A}= -1.18 \,m/s,</m> <m>v_{B}= 0.9 \,m/ s.</m>
        The average accelerations are 
        <me>
-        a_{A}=\frac{\Delta v}{\Delta t} = \frac{v_{A}-u_{A}}{\Delta t}  =\frac{-1.18-8.33}{0.22} =-43.23 m/s^{2}
+        a_{A}=\frac{\Delta v}{\Delta t} = \frac{v_{A}-u_{A}}{\Delta t}  =\frac{-1.18-8.33}{0.22} =-43.23 \,m/s^{2}
        </me>
        <me>
-        a_{B}=\frac{\Delta v}{\Delta t} = \frac{v_{B}-u_{B}}{\Delta t}  =\frac{0.9-(-5.55)}{0.22} =29.32 m/s^{2}
+        a_{B}=\frac{\Delta v}{\Delta t} = \frac{v_{B}-u_{B}}{\Delta t}  =\frac{0.9-(-5.55)}{0.22} =29.32 \,m/s^{2}
        </me>
        </p>
   </solution>
@@ -166,30 +166,30 @@
       <ol marker="a.">
         <li>
           <m>
-            m_{1}  =  0.3 kg, \quad v_{1i}  =  50 m/s,\quad v_{1f}  =  -60 m/s, 
+            m_{1}  =  0.3 \,kg, \quad v_{1i}  =  50\, m/s,\quad v_{1f}  =  -60 \,m/s, 
           </m>
           <m>
-             p_{1i}  =  m_{1} v_{1i}	= 15 kg.m/s,\quad  p_{1f}  =  m_{1} v_{1f}	= -18 kg.m/s,
+             p_{1i}  =  m_{1} v_{1i}	= 15 \,kg.m/s,\quad  p_{1f}  =  m_{1} v_{1f}	= -18\, kg.m/s,
           </m>
-          <m> \Delta p_{1}  =  p_{1f} - p_{1i}	= -33 kg.m/s,</m>
+          <m> \Delta p_{1}  =  p_{1f} - p_{1i}	= -33 \,kg.m/s,</m>
           <m>
-            \therefore J_{1}  =  \Delta p_{1}	= -33 N.s
+            \therefore J_{1}  =  \Delta p_{1}	= -33 \,N.s
           </m>
            </li>
         <li>
         <m>
-          t  =  1\times 10^{-3} s,\quad J_{1}  =  F_{avg}t,\quad F_{avg}  =  -3.3\times 10^{4} N.
+          t  =  1\times 10^{-3} \,s,\quad J_{1}  =  F_{avg}t,\quad F_{avg}  =  -3.3\times 10^{4} \,N.
         </m>
          </li>
         <li>
           <m>
-            v_{2i}  =  -25 m/s, \quad m_{2}  =  3 kg,\quad p_{2i}  =  m_{2} v_{2i}	=  -75 kg.m/s, 
+            v_{2i}  =  -25 \,m/s, \quad m_{2}  =  3 \,kg,\quad p_{2i}  =  m_{2} v_{2i}	=  -75 \,kg.m/s, 
           </m>
-          <m>  \Delta p_{2}  =  - \Delta p_{1}	=  33 kg.m/s,</m>
+          <m>  \Delta p_{2}  =  - \Delta p_{1}	=  33 \,kg.m/s,</m>
           <m>
-            \Delta p_{2}  =  p_{2f} - p_{2i},\quad	p_{2f}  =  -42 kg.m/s,\quad p_{2f}  =  m_{2} v_{2f},	
+            \Delta p_{2}  =  p_{2f} - p_{2i},\quad	p_{2f}  =  -42 \,kg.m/s,\quad p_{2f}  =  m_{2} v_{2f},	
           </m>
-          <m> v_{2f}  =  -14 m/s.</m>
+          <m> v_{2f}  =  -14 \,m/s.</m>
          </li>
       </ol>
     </p>
@@ -219,9 +219,10 @@
     <p>
       <term>Case I: Perfectly inelastic collision.</term> </p>
      <p> Given:	
-      <me>
-        m_{1}  =  2 kg,\quad v_{1i}  =  40 m/s, \quad m_{2}  =  3 kg,\quad v_{2i}  =  10 m/s,\quad v_{1f}  =  v_{2f} =  v
-      </me>
+      <m>
+        m_{1}  =  2 \,kg,\quad v_{1i}  =  40 \,m/s, \quad m_{2}  =  3 \,kg,
+      </m>
+      <m>\quad v_{2i}  =  10 \,m/s,\quad v_{1f}  =  v_{2f} =  v</m>
       </p>
      <ol marker ="a.">
     <li>
@@ -230,7 +231,7 @@
     p_{i}  =  p_{f},\quad p_{i}  =  m_{1} v_{1i} - m_{2} v_{2i}, \quad p_{f}  =  m v_{f},
   </me>
   <me>
-    m  =  m_{1} + m_{2}, \quad v_{f}  =  10 m/s
+    m  =  m_{1} + m_{2}, \quad v_{f}  =  10 \,m/s
   </me>
    </p>
     </li>
@@ -247,7 +248,7 @@
           \Delta E  =  E_{i}  -  E_{f},\quad E_{i}  = \frac{1}{2}m_{1} v^{2}_{1i} + \frac{1}{2}m_{2} v^{2}_{2i},
         </me>
         <me>
-           E_{f}  = \frac{1}{2} m v_{f}^{2},\quad \Delta E  =  1500 J
+           E_{f}  = \frac{1}{2} m v_{f}^{2},\quad \Delta E  =  1500 \,J
         </me>
          </p>
     </li>
@@ -257,14 +258,14 @@
     <term>Case II: The first mass stops.</term> </p>
    <p> Given:	
     <me>
-     m_{1}  =  2 kg,\quad v_{1i}  =  40 m/s,\quad m_{2}  =  3 kg, \quad v_{2i}  =  10 m/s,\quad v_{1f}  =  0
+     m_{1}  =  2 \,kg,\quad v_{1i}  =  40 \,m/s,\quad m_{2}  =  3\, kg, \quad v_{2i}  =  10 \,m/s,\quad v_{1f}  =  0
     </me>
     </p>
    <ol marker ="a.">
   <li>
 <p>
 <me>
-  p_{i}  =  p_{f},\quad p_{i}  =  m_{1} v_{1i} - m_{2} v_{2i},\quad p_{2f}  =  m_{2} v_{2f},\quad v_{2f}  =  16.67 m/s
+  p_{i}  =  p_{f},\quad p_{i}  =  m_{1} v_{1i} - m_{2} v_{2i},\quad p_{2f}  =  m_{2} v_{2f},\quad v_{2f}  =  16.67 \,m/s
 </me>
  </p>
   </li>
@@ -281,7 +282,7 @@
         \Delta E  =  E_{i}  -  E_{f},\quad E_{i}  = 1/2 m_{1} v^{2}_{1i} + 1/2 m_{2} v^{2}_{2i}, 
       </me>
       <me>
-         E_{f}  = 1/2 m_{2} v_{2_{f}}^{2}, \quad \Delta E  =  1333 J
+         E_{f}  = 1/2 m_{2} v_{2_{f}}^{2}, \quad \Delta E  =  1333\, J
       </me>
        </p>
   </li>
@@ -292,7 +293,7 @@
   <term>Case III: Perfectly elastic collision.</term> </p>
  <p> Given:	
   <me>
-    m_{1}  =  2 kg,\quad v_{1i}  =  40 m/s,\quad m_{2}  =  3 kg,\quad v_{2i}  =  -10 m/s, \quad e = 1
+    m_{1}  =  2 \,kg,\quad v_{1i}  =  40 \,m/s,\quad m_{2}  =  3 \,kg,\quad v_{2i}  =  -10 \,m/s, \quad e = 1
   </me>
   </p>
  <ol marker ="a.">
@@ -305,7 +306,7 @@
   \quad e  =  \frac{v_{sep}}{v_{app}}, \quad v_{sep}  =  v_{2f} - v_{1f},
 </me>
 <me>
-  v_{app}  =  v_{1i}- v_{2i}, \quad	v_{1f}  =  -20 m/s, v_{2f}  =  30 m/s
+  v_{app}  =  v_{1i}- v_{2i}, \quad	v_{1f}  =  -20 \,m/s, v_{2f}  =  30 \,m/s
 </me>
 </p>
 </li>
@@ -349,8 +350,8 @@
   <solution>
     <image source="collision1.png" width="35%"> </image>
     <p>
-      Given: <m>m_{1}  =  0.005 kg,\quad  v_{1i}  =  300 m/s, \quad v_{2i}  =  0, </m> 
-      <m>m_{2}  =  1 kg,\quad v_{1f}  =  200 m/s,  \quad \theta_{1}  =  45^{o}.</m>
+      Given: <m>m_{1}  =  0.005 \,kg,\quad  v_{1i}  =  300 \,m/s, \quad v_{2i}  =  0, </m> 
+      <m>m_{2}  =  1 \,kg,\quad v_{1f}  =  200 \,m/s,  \quad \theta_{1}  =  45^{o}.</m>
       <ol marker="a.">
         <li>
          <me>
@@ -368,7 +369,7 @@
             \Delta E  =  E_{i}  -  E_{f},\quad E_{i}  = 1/2 m_{1} v^{2}_{1i},
           </me>
           <me>
-            E  = 1/2 m_{1} v_{1f}^{2} + 1/2 m_{2} v_{2f}^{2}, \Delta E  =  125. J
+            E  = 1/2 m_{1} v_{1f}^{2} + 1/2 m_{2} v_{2f}^{2}, \Delta E  =  125 \,J
           </me>
             </li>
       </ol>
@@ -388,14 +389,14 @@
   <solution>
     <p>
       Given: <me>
-        m=0.1kg, \quad M=10kg,\quad l=1m,\quad\theta=60^{o}.
+        m=0.1 \,kg, \quad M=10 \,kg,\quad l=1 \,m,\quad\theta=60^{o}.
       </me>
      Equation: <me>
       v_{o}=\left(1+\frac{M}{m}\right)\sqrt{2gl(1-\cos\theta)}
      </me>
      <answer>
          <me>
-          y  =  0.5 m, \quad v  =  1 m/s, \quad v_{o}  =  101 m/s
+          y  =  0.5 \,m, \quad v  =  1 \,m/s, \quad v_{o}  =  101 \,m/s
         </me>
        </answer>
     </p>
@@ -522,7 +523,7 @@
   m_{o}v_{o}\cos\theta = \frac{m_{o}}{2}\times 0 +\frac{m_{o}}{2}\times v_{2x}
 </me>
 <men xml:id="eqn-proj_explod3">
-  \therefore \quad v_{2x} = 2v_{o}\cos\theta =2\times100\times\cos60^{o}= 100m/s
+  \therefore \quad v_{2x} = 2v_{o}\cos\theta =2\times100\times\cos60^{o}= 100 \,m/s
 </men>
   </p>
   <p>
@@ -540,12 +541,12 @@
    <ol marker="a.">
     <li>
      <me>
-      h=v_{0y}t_{rise}-\frac{1}{2}gt_{rise}^{2} =v_{0}\sin60^{o}t_{rise}-\frac{1}{2}gt_{rise}^{2} =382.6m 
+      h=v_{0y}t_{rise}-\frac{1}{2}gt_{rise}^{2} =v_{0}\sin60^{o}t_{rise}-\frac{1}{2}gt_{rise}^{2} =382.6 \,m 
      </me>
        </li>
     <li>
       <me>
-        x_{1} =v_{ox}t_{rise}=v_{o}\cos60^{o}(8.8)= 440 m
+        x_{1} =v_{ox}t_{rise}=v_{o}\cos60^{o}(8.8)= 440\, m
       </me>
           </li>
     <li>
@@ -555,12 +556,12 @@
           </li>
     <li>
       <me>
-        v_{2x}=2v_{ox} =100m/s.
+        v_{2x}=2v_{ox} =100 \,m/s.
       </me>
           </li>
     <li>
       <me>
-        x=x_{1}+x_{2} =v_{ox}t_{rise} + v_{2x}t_{fall}=v_{o}\cos60^{o}(8.8)+100(8.8)=1320 m.
+        x=x_{1}+x_{2} =v_{ox}t_{rise} + v_{2x}t_{fall}=v_{o}\cos60^{o}(8.8)+100(8.8)=1320 \,m.
       </me>
           </li>
   </ol>
@@ -644,20 +645,20 @@ Final upward velocity becomes zero (<m>v_{f}=v=0</m>) after first bounce.
   0=u^{2}-2gh \qquad \Rightarrow\quad u=\sqrt{2gh}  
 </men>
 <me>
-  \therefore\quad v = -e\sqrt{2gh} =-0.6\times \sqrt{2\times9.8\times2} = 3.757 m/s \quad (upward) 
+  \therefore\quad v = -e\sqrt{2gh} =-0.6\times \sqrt{2\times9.8\times2} = 3.757 \,m/s \quad (upward) 
 </me>
 Hence the total height attained by the ball after first bounce can be determined by 
 using conservation of energy principle.
 <me>
-  \frac{1}{2}mv^{2}=mgh' \qquad \Rightarrow\quad  h' = \frac{v^{2}}{2g} = \frac{e^{2}2gh}{2g}=e^{2}h=0.72 m
+  \frac{1}{2}mv^{2}=mgh' \qquad \Rightarrow\quad  h' = \frac{v^{2}}{2\,g} = \frac{e^{2}2gh}{2g}=e^{2}h=0.72 \,m
 </me>
 Time to reach the highest point by the ball after first bounce is given by 
 <me>
-  v_{f}=v_{i}-gt \qquad \Rightarrow\quad  0 = v -gt \qquad \Rightarrow\quad t =\frac{v}{g}=\frac{3.757}{9.8} = 0.383 s
+  v_{f}=v_{i}-gt \qquad \Rightarrow\quad  0 = v -gt \qquad \Rightarrow\quad t =\frac{v}{g}=\frac{3.757}{9.8} = 0.383 \,s
 </me>
-Time to return by the ball to the ground for second bounce is given by <m>T =2t= 0.767 s.</m> 
+Time to return by the ball to the ground for second bounce is given by <m>T =2t= 0.767 \,s.</m> 
 <me>
-  \therefore \quad D = v_{x}T = 3\times0.767 =2.30m.
+  \therefore \quad D = v_{x}T = 3\times0.767 =2.30 \,m.
 </me>
     </p>
   </solution>

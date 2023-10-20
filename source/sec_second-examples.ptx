@@ -210,7 +210,7 @@ i.e., the distance between two points is invariant upon the rotation of a coordi
 <example>
   <statement>
     <p>
-      Given the vectors in figure, <image source="fig2hi.png" width="30%"> </image> Do the following:
+      Given the vectors in figure, <image source="fig2hi.png" width="50%"> </image> Do the following:
       <ol marker ="A.">
         <li>
           From the scale on the diagram, estimate the magnitude of each vector, its x-component, and its y-component. 
@@ -228,22 +228,22 @@ i.e., the distance between two points is invariant upon the rotation of a coordi
       <ol marker ="A.">
         <li>
          <me>
-          A  = 10m;	\quad A_{x} =A\sin37^{o}= 6.018 \approx 6m;
+          A  = 10\,m;	\quad A_{x} =A\sin37^{o}= 6.018 \approx 6\,m;
          </me>
         <me>
-          A_{y}=A\cos37^{o}=7.986 \approx 8m 
+          A_{y}=A\cos37^{o}=7.986 \approx 8\,m 
         </me>
         <me>
-          B  = 10m;\quad B_{x}=  B\cos45^{o}=7.07 \approx -7m;
+          B  = 10m;\quad B_{x}=  B\cos45^{o}=7.07 \approx -7\,m;
         </me>
         <me>
-          B_{y} =  B\sin45^{o}= 7.07 \approx  7m
+          B_{y} =  B\sin45^{o}= 7.07 \approx  7\,m
         </me>
         <me>
-          C  = 10m;\qquad C_{x}  = -8m;	\qquad C_{y} = -6m
+          C  = 10m;\qquad C_{x}  = -8m;	\qquad C_{y} = -6\,m
         </me>
         <me>
-          D  = 10m;\qquad D_{x}  = 9m;	\qquad D_{y} = -5m
+          D  = 10m;\qquad D_{x}  = 9m;	\qquad D_{y} = -5\,m
         </me>
         <me>
           \left[\theta_{c}\approx 36.87^{o};  \quad \theta_{d}\approx 30^{o} \quad\text{from x-axis}\right]
@@ -251,16 +251,16 @@ i.e., the distance between two points is invariant upon the rotation of a coordi
         </li>
         <li>
           <me>
-            \vec{A}  =  6m\hat{i} +8m\hat{j}; \quad A = 10m
+            \vec{A}  =  6\,m\hat{i} +8\,m\hat{j}; \quad A = 10\,m
           </me>
           <me>
-            \vec{B}  =  -7m\hat{i} +7\hat{j}; \quad B =10m
+            \vec{B}  =  -7\,m\hat{i} +7\,m\hat{j}; \quad B =10\,m
           </me>
           <me>
-            \vec{C}  =  -8m\hat{i} -6m\hat{j};\quad C = 10
+            \vec{C}  =  -8\,m\hat{i} -6\,m\hat{j};\quad C = 10
           </me>
           <me>
-            \vec{D}  =  8.66m\hat{i} -5m\hat{j}; \quad D =10m
+            \vec{D}  =  8.66\,m\hat{i} -5\,m\hat{j}; \quad D =10\,m
           </me>
         Note: Distance between points, <m>d=\sqrt{x^{2}+y^{2}}</m>. </li>
         <li>
@@ -278,7 +278,7 @@ i.e., the distance between two points is invariant upon the rotation of a coordi
         </li>
         <li>
           <me>
-            R  = \sqrt{-0.34^{2}+4^{2}}=4.01m
+            R  = \sqrt{-0.34^{2}+4^{2}}=4.01\,m
           </me>
           </li>
           <li>
@@ -294,7 +294,7 @@ i.e., the distance between two points is invariant upon the rotation of a coordi
   <statement>
     <p>
       Two points <m>A</m> and <m>B</m> in the xy plane have the respective Cartesian 
-      and polar coordinates <m>(3 m, - 4 m)</m> and <m>(15 m, 30^{o})</m>. 
+      and polar coordinates <m>(3 \,m, - 4\, m)</m> and <m>(15 \,m, 30^{o})</m>. 
       <ol marker ="a.">
         <li>
           What are the polar coordinates of the first point? 
@@ -318,14 +318,14 @@ i.e., the distance between two points is invariant upon the rotation of a coordi
           </me>
         </li>
         <li>
-          <m>(	13m,7.5m	)</m>
+          <m>(13\,m,7.5\,m)</m>
           <me>
             <term>Use:</term> x=B\cos\theta;\quad y=B\sin\theta
           </me>
         </li>
         <li>
           <me>
-            AB=\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}=15.24m.
+            AB=\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}=15.24\,m.
           </me>
         </li>
       </ol>

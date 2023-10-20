@@ -262,7 +262,8 @@
 
   <exercise>
     <p>
-      What are the simple harmonic motion equations for a particle passing through <m>x = 0</m> with velocity <m>v_{o}</m> when <m>t = 0</m>?
+      What are the simple harmonic motion equations for a particle passing through <m>x = 0</m> 
+      with velocity <m>v_{o}</m> when <m>t = 0</m>?
     </p>
   </exercise>
 
@@ -343,7 +344,8 @@
       A pendulum of mass 2 kg and length 2 m is displaced 10 cm from its equilibrium position and released. 
       <ol marker="a.">
         <li>
-          What is the equation giving the horizontal force F(x) required to displace the mass a horizontal distance x for small values of x? 
+          What is the equation giving the horizontal force F(x) required to displace the mass a 
+          horizontal distance x for small values of x? 
         </li>
         <li>
           Is this equation valid for x = 10 cm? Why or why not?
@@ -428,7 +430,8 @@
   <exercise>
     <p>
       A simple pendulum has a length L and a time period T on the surface of the earth. 
-      What would be its time period when it is taken to the surface of a planet of acceleration due to gravity is <m>g/4?</m>
+      What would be its time period when it is taken to the surface of a planet of 
+      acceleration due to gravity is <m>g/4?</m>
     </p>
   </exercise>
 

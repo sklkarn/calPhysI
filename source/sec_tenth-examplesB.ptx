@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples B</title>
+  
+<paragraphs>
+  <title>KTG</title>
+  
+  <example>
+    <statement>
+      <p>
+        The rms speed of <m> H_{2} </m> molecules is 1.84 km/sec. What will be the rms 
+        speed of <m>O_{2} </m> molecules at the same temperature? The molecular weights of 
+        hydrogen and oxygen are 2 and 32 respectively.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We know that 
+        <me>
+          v_{rms} = \sqrt{\frac{3RT}{M}} 
+        </me>
+       <me>
+        \text{or,}\quad \frac{(v_{rms})_{O}}{(v_{rms})_{H}} = \sqrt{\frac{M_{H}}{M_{O}}} 
+       </me>
+       <me>
+        \therefore\quad (v_{rms})_{O} = (v_{rms})_{H}\times  \sqrt{\frac{M_{H}}{M_{O}}} =(1.84 km/s)\times \sqrt{\frac{2}{32}} =0.459 \,km/s.
+       </me>
+             </p>
+    </solution>
+  </example>
+
+
+ <example>
+  <statement>
+    <p>
+      At what temperature does the kinetic energy of an atom be 1.0 eV? <m>(k_{B}=1.38\times 10^{-23} \,J/K)</m>.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Average kinetic energy <m>e_{k}</m> of an atom is given by 
+      <me>
+        \frac{1}{2}mv_{rms}^{2}=\frac{f}{2}k_{B}T = \frac{3}{2}k_{B}T 
+      </me>
+      <m>\because f=3</m> for a monoatomic molecule
+<me>
+  \therefore\quad T = \frac{2}{3}\frac{e_{k}}{k_{B}}
+</me>
+<me>
+  = \frac{2}{3}\left(\frac{1.0\, eV\times 1.60\times 10^{-19} \,J/eV}{1.38\times 10^{-23} \,J/K}\right)= 7.729\times 10^{3} \,K
+</me>
+    </p>
+  </solution>
+ </example>
+
+
+ <example>
+  <statement>
+    <p>
+      At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      We have -
+      <me>
+        v_{rms}=\sqrt{\frac{3k_{B}T}{m}}
+      </me>
+            At  NTP, <m>T=0^{o}C=273 \,K</m>.
+            <me>
+              (v_{rms})_{1}=v_{rms}=\sqrt{\frac{3k_{B}\times 273}{m}}
+            </me>
+                 At  NTP, <m>T=T \,K</m>
+                 <me>
+                  (v_{rms})_{2}=2v_{rms} = \sqrt{\frac{3k_{B}\times T}{m}}
+                 </me>
+                 <me>
+                  \text{or,}\quad  2v_{rms} =\sqrt{\frac{3k_{B}\times T}{m}} = 2\sqrt{\frac{3k_{B}\times 273}{m}}
+                 </me>
+                 <me>
+                  \text{or,}\quad  \frac{T}{273} = 4
+                 </me>
+                 <me>
+                  \therefore\quad  T = 4\times 273=1092 \,K = 819 \,^{o}C
+                 </me>
+       </p>
+  </solution>
+ </example>
+</paragraphs>
+ 
+</section>

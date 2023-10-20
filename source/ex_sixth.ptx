@@ -7,7 +7,7 @@
  
   <exercise>
     <p>
-      An asteroid 1 mi in diameter of density <m>4 g/cm^{3}</m> enters the earth's gravity 
+      An asteroid 1 mi in diameter of density <m>4 \,g/cm^{3}</m> enters the earth's gravity 
       when it is at rest with respect to the solar system. 
       <ol marker ="a.">
         <li>
@@ -21,7 +21,7 @@
              </li>
              <li>
               How does this compare with the amount of solar energy which hits the 
-      surface of the earth every day if the solar constant is <m>1.37 kW/m^{2}</m>? 
+      surface of the earth every day if the solar constant is <m>1.37 \,kW/m^{2}</m>? 
              </li>
                </ol> 
     </p>
@@ -46,9 +46,9 @@
 
 <exercise>
   <p>
-    If the the earth were a sphere of radius <m>6.37\times 10^{6} m</m>, the acceleration 
-    due to gravity at the surface of the earth were <m>9.8 m/s^{2}</m>, and the universal 
-    gravitational constant were <m>6.67\times 10^{-11} N.m^{2}/kg^{2}</m>, what would be the mass of the earth?
+    If the the earth were a sphere of radius <m>6.37\times 10^{6} \,m</m>, the acceleration 
+    due to gravity at the surface of the earth were <m>9.8 \,m/s^{2}</m>, and the universal 
+    gravitational constant were <m>6.67\times 10^{-11} \,N.m^{2}/kg^{2}</m>, what would be the mass of the earth?
   </p>
 </exercise>
 
@@ -86,7 +86,7 @@
     <ol marker ="a.">
       <li>
         Io, a small moon of Jupiter, has an orbital period of 1.77 days 
-        and an orbital radius of <m>4.22\times 10^{5} km</m>.  From these data, determine the mass of Jupiter.
+        and an orbital radius of <m>4.22\times 10^{5} \,km</m>.  From these data, determine the mass of Jupiter.
             </li>
       <li>
         Ganymede, Jupiter's largest moon, has an orbital period of 7.16 days. What is its orbital radius?
@@ -97,9 +97,9 @@
 
 <exercise>
   <p>
-    Find the difference in potential energy of a satellite of mass <m>m_{s}=2.50\times10^{3}kg</m>, 
-    when it is at a distance of <m>2.55 \times10^{9} m</m> and when it is at 
-    the distance of <m>4.30\times10^{7} m</m> from the center of the earth.
+    Find the difference in potential energy of a satellite of mass <m>m_{s}=2.50\times10^{3}\,kg</m>, 
+    when it is at a distance of <m>2.55 \times10^{9} \,m</m> and when it is at 
+    the distance of <m>4.30\times10^{7} \,m</m> from the center of the earth.
   </p>
 </exercise>
 

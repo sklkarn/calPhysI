@@ -232,8 +232,8 @@
   <example>
     <statement>
       <p>
-        A block of mass <m>500 g</m> moving initially at <m>2 m/s</m> slides across 
-        a horizontal table coming to rest after sliding <m>2 m</m>. 
+        A block of mass <m>500 \,g</m> moving initially at <m>2\, m/s</m> slides across 
+        a horizontal table coming to rest after sliding <m>2 \,m</m>. 
         <ol marker="a.">
           <li>
             What is the coefficient of sliding friction between block and table? 
@@ -276,7 +276,7 @@
           <p>
             Heat dissipation = 
             <me>
-              W_{f} =f\cdot d =\mu\cdot mg d = 0.1\times 0.5\times 9.8\times2 = 0.98 J.
+              W_{f} =f\cdot d =\mu\cdot mg d = 0.1\times 0.5\times 9.8\times2 = 0.98 \,J.
             </me>
              </p>
         </li>
@@ -302,7 +302,7 @@
     </statement>
     <solution>
       <p>
-        Given: <m>m  =  2 kg, \quad y_{o}  =  1 m,\quad k  =  200 N/m. </m> 
+        Given: <m>m  =  2 \,kg, \quad y_{o}  =  1 m,\quad k  =  200 \,N/m. </m> 
       </p>
       <p>
       <ol marker="a.">
@@ -327,18 +327,18 @@
           \text{or,}\quad x = \frac{19.6\pm\sqrt{19.6^{2}+4\times 100\times19.6}}{2\times 19.6} 
         </me>
         <me>
-          \therefore x =  0.551 m \quad\text{or}, -0.36 m
+          \therefore x =  0.551 \,m \quad\text{or}, -0.36 \,m
         </me>
-        Where, <m>x=-0.36m</m> lies above reference line hence get discarded. 
+        Where, <m>x=-0.36\,m</m> lies above reference line hence get discarded. 
         <me>
-          \therefore x=0.551m.
+          \therefore x=0.551\,m.
         </me>
          </li>
          <li>
           Let <m>x'</m> be the new equilibrium position for mass and spring system. 
           At point C, <m>F = w.</m>
           <me>
-            \therefore\quad kx' =mg \quad \Rightarrow\quad x'=\frac{mg}{k} = 0.098 m
+            \therefore\quad kx' =mg \quad \Rightarrow\quad x'=\frac{mg}{k} = 0.098 \,m
           </me>
             Now, <m>x'</m> is new equilibrium position but spring is still compressed 
             from its original length hence spring contains some potential energy. 
@@ -354,7 +354,7 @@
           </me>
            On solving this equation, we get - 
            <me>
-            v_{max}=\sqrt{19.6-100\times 0.551^{2}+19.6\times0.098}=4.53 m/s.
+            v_{max}=\sqrt{19.6-100\times 0.551^{2}+19.6\times0.098}=4.53 \,m/s.
            </me>
           </li>
       </ol>
@@ -365,7 +365,7 @@
   <example>
     <statement>
       <p>
-        A spherical meteor of density <m>4 g/cm^{3}</m> and diameter <m>1 km</m> falls onto the 
+        A spherical meteor of density <m>4 \,g/cm^{3}</m> and diameter <m>1 \,km</m> falls onto the 
         earth from a long distance. 
         <ol marker="a.">
           <li>
@@ -375,7 +375,7 @@
             How how fast would it hit the earth?
           </li>
           <li>
-            If this energy were used to boil water at the rate of <m>2.256\times 10^{6} J/kg</m>, what volume of water would be vaporized?
+            If this energy were used to boil water at the rate of <m>2.256\times 10^{6} \,J/kg</m>, what volume of water would be vaporized?
           </li>
           <li>
             How big a cube would this be? 
@@ -385,10 +385,10 @@
     </statement>
     <solution>
       <p>
-        Given: <me>\rho =4 g/cm^{3}=4000kg/m^{3},\quad  r=0.5\times 10^{3}m, \quad R = 6.38\times 10^{6}m, </me> 
-        <me> M=5.97\times10^{24} kg, \quad G=6.67\times10^{-11}Nm^{2}/kg^{2},</me> 
-        <me>L_{v}=2.256\times10^{6}J/kg, \quad \rho_{o} =1000kg/m^{3},</me>
-        <me>  m=V\rho=\frac{4}{3}\pi r^{3}\rho = 2.094\times10^{12}kg</me>
+        Given: <me>\rho =4 \,g/cm^{3}=4000 \,kg/m^{3},\quad  r=0.5\times 10^{3} \,m, \quad R = 6.38\times 10^{6} \,m, </me> 
+        <me> M=5.97\times10^{24} \,kg, \quad G=6.67\times10^{-11} \,Nm^{2}/kg^{2},</me> 
+        <me>L_{v}=2.256\times10^{6} \,J/kg, \quad \rho_{o} =1000 \,kg/m^{3},</me>
+        <me>  m=V\rho=\frac{4}{3}\pi r^{3}\rho = 2.094\times10^{12} \,kg</me>
       </p>
         <ol marker="a.">
           <li>
@@ -406,7 +406,7 @@
                 =\frac{(6.67\times10^{-11})(5.97\times10^{24})(2.094\times10^{12})}{6.38\times 10^{6}} 
                </me> 
                <me>
-                =1.307\times10^{20} J
+                =1.307\times10^{20} \,J
                </me>
               </p>
           </li>
@@ -416,7 +416,7 @@
                 \frac{1}{2}mv^{2} =1.307\times10^{20}
               </me>
               <me>
-                \therefore v=\sqrt{\frac{2E_{e}}{m}}=\sqrt{\frac{2(1.307\times10^{20})}{(2.094\times10^{12})}} =1.117\times10^{4} m/s
+                \therefore v=\sqrt{\frac{2E_{e}}{m}}=\sqrt{\frac{2(1.307\times10^{20})}{(2.094\times10^{12})}} =1.117\times10^{4} \,m/s
               </me>
             </p>
           </li>
@@ -433,7 +433,7 @@
           <li>
             <p>
               <me>
-                V_{o}=L^{3} \quad \Rightarrow L=\sqrt[3]{V_{o}}  = 3.87\times10^{3} m
+                V_{o}=L^{3} \quad \Rightarrow L=\sqrt[3]{V_{o}}  = 3.87\times10^{3} \,m
                </me>
             </p>
           </li>
@@ -445,7 +445,7 @@
     <statement>
       <p>
         A small mass of 0.8 kg is launched by a compressed spring with force constant, 
-        <m>k=600 N/m.</m> The block slides along a horizontal frictionless surface and then 
+        <m>k=600 \,N/m.</m> The block slides along a horizontal frictionless surface and then 
         up an inclined plane that makes an angle <m>\theta=30^{o}</m> with the horizontal. 
         The coefficient of kinetic friction between the block and inclined plane is 
         <m>\mu_{k}=0.2. </m> Find the maximum height, <m>h</m> reached by the block.
@@ -455,7 +455,7 @@
     <solution>
       <image source="ce2b.png" width="40%"> </image>
       <p>
-        Given: <m>k=600 N/m, \quad m=0.8kg, \quad \theta=30^{o},\quad \mu_{k}=0.2, \quad x=0.12m</m>
+        Given: <m>k=600 \,N/m, \quad m=0.8 \,kg, \quad \theta=30^{o},\quad \mu_{k}=0.2, \quad x=0.12 \,m</m>
           </p>
       <p>
         Now from, <me>
@@ -463,7 +463,7 @@
         </me>
         we have - 
         <me>
-          \frac{1}{2}kx^{2}=\frac{1}{2}mv^{2}\quad \Rightarrow\quad v=\frac{kx^{2}}{m}=3.29m/s 
+          \frac{1}{2}kx^{2}=\frac{1}{2}mv^{2}\quad \Rightarrow\quad v=\frac{kx^{2}}{m}=3.29 \,m/s 
         </me>
         On inclined plane,
         <men xml:id="eqn-Spcon_energy1">
@@ -476,16 +476,16 @@
           mg\sin\theta +\mu_{k}mg\cos\theta = ma_{x}
         </me>
         <me>
-          \therefore \quad a_{x} = g\left(\sin\theta +\mu_{k}\cos\theta\right) = 6.60 m/s^{2}
+          \therefore \quad a_{x} = g\left(\sin\theta +\mu_{k}\cos\theta\right) = 6.60 \,m/s^{2}
         </me>
         <me>
           v_{f}^{2}=v_{i}^{2}-2a_{x}d
         </me>
         <me>
-          \text{or,}\quad 0=3.29^{2}-2(6.60)d  \qquad \Rightarrow\quad d=0.82 m
+          \text{or,}\quad 0=3.29^{2}-2(6.60)d  \qquad \Rightarrow\quad d=0.82 \,m
         </me>
         <me>
-          \text{Hence,}\quad \sin\theta=\frac{h}{d} \quad \Rightarrow\quad h=d\sin\theta = 0.41 m 
+          \text{Hence,}\quad \sin\theta=\frac{h}{d} \quad \Rightarrow\quad h=d\sin\theta = 0.41 \,m 
         </me>
          </p>
          <p>
@@ -529,7 +529,7 @@
                 \text{or,}\quad  y^{2} -2xy-2xh=0 
               </me>
               <me>
-                \therefore \quad y= 0.2897 m
+                \therefore \quad y= 0.2897 \,m
               </me>
               
             </p>
@@ -556,7 +556,7 @@
     <solution>
       <image source="cofenergy1.png" width="40%"> </image>
       <p>
-        Given: <m>m = 0.5 kg, \quad k = 100 N/m, \quad x_{1} = 0.2 m,\quad x_{2} = 1 m. </m>
+        Given: <m>m = 0.5 \,kg, \quad k = 100 \,N/m, \quad x_{1} = 0.2 m,\quad x_{2} = 1 \,m. </m>
      </p>
      <p>
       <ol marker="a.">
@@ -565,13 +565,13 @@
           E_{i}  =  E_{f} + W_{f},
          </me>
          <me>
-          E_{i}  =  \frac{1}{2} k x^{2}_{1} = 2J,
+          E_{i}  =  \frac{1}{2} k x^{2}_{1} = 2\,J,
          </me>
          <me>
-          E_{f} =  0, \quad  W_{f}  =f .x_{2} =  2 J, \quad \therefore \quad f  =  2 N.
+          E_{f} =  0, \quad  W_{f}  =f .x_{2} =  2 \,J, \quad \therefore \quad f  =  2\, N.
          </me>
          <me>
-          w  = mg = 4.9 N, \quad f  =  \mu N, \quad  N  =  w =  4.9 N,
+          w  = mg = 4.9\, N, \quad f  =  \mu N, \quad  N  =  w =  4.9 \,N,
          </me>
          <me>
           \therefore \quad \mu  =  0.408.
@@ -581,18 +581,18 @@
           At point <m>x</m> before origin, frictional force and restoring force must be equal.
         Hence <me>f = F = -kx.</me>
         <me>
-          \therefore, \quad x = - F/k = -2/100 = -0.02m. 
+          \therefore, \quad x = - F/k = -2/100 = -0.02 \,m. 
         </me>
             Now, workdone on the block by a spring or a friction, 
             <me>
-              W_{fb}  =  F (x1 - x) = 2(0.2-0.02) = 0.36 J.
+              W_{fb}  =  F (x1 - x) = 2(0.2-0.02) = 0.36 \,J.
             </me>
             At this point the block attains maximum speed.
             <me>
               \frac{1}{2} k x_{1}^{2}- W_{fb} =  \frac{1}{2} m v^{2}
             </me>
             <me>
-              \therefore \quad	v  =  2.56 m/s
+              \therefore \quad	v  =  2.56 \,m/s
             </me>
           </li>
       </ol>
@@ -668,7 +668,7 @@
               a_{R}  =  v^{2}_{d}/R  =  3 g, \quad a_{T}  =  g, \quad 
             </me>
             <me>
-              a  =\sqrt{a_{R}^{2}+a_{T}^{2}},\quad  a=\sqrt{10} g  =  3.16 g
+              a  =\sqrt{a_{R}^{2}+a_{T}^{2}},\quad  a=\sqrt{10} g  =  3.16 \, g
             </me>
              </li>
         </ol>
@@ -737,7 +737,7 @@
         \theta = \cos^{-1}\left(\frac{2}{3}\right)=48^{o} 
        </me>
        <me>
-        \therefore x=r\theta = 1m\times \frac{\pi}{180}\times 48^{o} =0.84m
+        \therefore x=r\theta = 1m\times \frac{\pi}{180}\times 48^{o} =0.84 \,m
        </me>
        [using radian formula]
 <me>
@@ -776,7 +776,7 @@ where <m>x</m> and <m>y</m> are the distance on the surface of sphere and depth 
       <ol marker="a.">
         <li>
           <me>
-            W  =  10 t^{3} \qquad \therefore W(2)  =  10 (2)^{3}  =  80 J	
+            W  =  10 t^{3} \qquad \therefore W(2)  =  10 (2)^{3}  =  80 \,J	
           </me>
          </li>
         <li>
@@ -784,12 +784,12 @@ where <m>x</m> and <m>y</m> are the distance on the surface of sphere and depth 
           P_{av}  = \frac{\,dW}{\,dt} = \frac{(W_{2} - W_{1})}{(t_{2} - t_{1})} 
          </me>
          <me>
-          \therefore P(0,2) = \frac{(W(2) - W(0))}{(2 - 0)} = 40 W 
+          \therefore P(0,2) = \frac{(W(2) - W(0))}{(2 - 0)} = 40\, W 
          </me>
           </li>
           <li>
             <me>
-              P  =  \frac{\,dW}{\,dt}  =  30 t^{2}\qquad \therefore P(3)  = 30 (3)^{2}  =  270 W
+              P  =  \frac{\,dW}{\,dt}  =  30 t^{2}\qquad \therefore P(3)  = 30 (3)^{2}  =  270 \,W
             </me>
            </li>
       </ol>
@@ -830,12 +830,12 @@ where <m>x</m> and <m>y</m> are the distance on the surface of sphere and depth 
           P_{av}  = \frac{\,dW}{\,dt} =  \frac{(W_{2} - W_{1})}{(t_{2} - t_{1})}
         </me>
       <me>
-        \therefore P(0,2) = \frac{(W(2) - W(0))}{2-0}= 20 W
+        \therefore P(0,2) = \frac{(W(2) - W(0))}{2-0}= 20 \,W
       </me>
         </li>
         <li>
         <me>
-          P  =  10 t^{3}\qquad \therefore P(3)  = 10 (3)3  =  270 W
+          P  =  10 t^{3}\qquad \therefore P(3)  = 10 (3)3  =  270 \,W
         </me>
          </li>
       </ol>
@@ -880,34 +880,34 @@ where <m>x</m> and <m>y</m> are the distance on the surface of sphere and depth 
       </statement>
   <solution>
     <p>
-      Given: <m>L = 10 m, \quad y = 5 m, 	\quad N = 100, \quad m_{1} = 2 kg, \quad  f  =  1 </m> rev/min = 0.016667 Hz.
+      Given: <m>L = 10 \,m, \quad y = 5 \,m, 	\quad N = 100, \quad m_{1} = 2 \,kg, \quad  f  =  1 </m> rev/min = 0.016667 Hz.
       <image source="power6.png" width="30%"> </image> 
     </p>
     <p>
       <ol marker="a.">
         <li>
           <me>
-            T = 1/f, \quad T  =  60 s,  \quad t  =  T/2 ,  \quad t  =  30 s
+            T = 1/f, \quad T  =  60 \,s,  \quad t  =  T/2 ,  \quad t  =  30 \,s
           </me>
             </li>
         <li>
           <me>
-            P = W/t,\quad m  =  200 kg, \quad W = w y,\quad w  =  1960 N,
+            P = W/t,\quad m  =  200 \,kg, \quad W = w y,\quad w  =  1960 \,N,
           </me>
           <me>
-            w  =  m g,\quad W  =  9800 J,
+            w  =  m g,\quad W  =  9800 \,J,
           </me>
            <me>
-            m  =  N m_{1},\quad  P  =  326.67 W,\quad  P  =  327 W  =  0.438 hp, 
+            m  =  N m_{1},\quad  P  =  326.67 \,W,\quad  P  =  327 W  =  0.438\, hp, 
           </me>
-          <m> \because(746 W  =  1 hp)</m>
+          <m> \because(746 \,W  =  1 \,hp)</m>
           </li>
         <li>
           <me>
-            P  =  F v,\quad  v  =  0.33333 m/s, \quad v  = L/t,
+            P  =  F v,\quad  v  =  0.33333\, m/s, \quad v  = L/t,
           </me> 
           <me>
-            F  =  P/v  =  980 N, \quad  F  =  980 N
+            F  =  P/v  =  980\, N, \quad  F  =  980 \,N
           </me>
           </li>
         <li>
@@ -915,18 +915,18 @@ where <m>x</m> and <m>y</m> are the distance on the surface of sphere and depth 
             \mu = 0.3,\quad \sin\theta  =  y/L,\quad	\theta  =  30^{o};
           </me>
           <me>
-            \sum F_{x} = F_{a} - f - w \sin\theta =0,\quad N =980N, 
+            \sum F_{x} = F_{a} - f - w \sin\theta =0,\quad N =980 \,N, 
           </me>
           <me>
             \sum F_{y}  =  N - w \cos\theta = 0,
           </me>
             <me>
-            f  =  294 N, \quad f  =  \mu N,\quad	Fa  =  1274 N
+            f  =  294 N, \quad f  =  \mu N,\quad	Fa  =  1274 \,N
           </me>
            </li>
         <li>
          <me>
-          AMA  =  \frac{F_{out}}{F_{in}}  =  \frac{w}{F_{a}}, \quad	AMA = 1.538 \simeq  1.54 N
+          AMA  =  \frac{F_{out}}{F_{in}}  =  \frac{w}{F_{a}}, \quad	AMA = 1.538 \simeq  1.54 \,N
          </me>
          </li>
         <li>
@@ -941,7 +941,7 @@ where <m>x</m> and <m>y</m> are the distance on the surface of sphere and depth 
           </li>
         <li>
          <me>
-          \varepsilon =  \frac{P_{out}}{P_{in}}  =  \frac{P}{P_{a}},	\quad P_{a}  =  424.667 W  \simeq  425 W  =  0.569 hp
+          \varepsilon =  \frac{P_{out}}{P_{in}}  =  \frac{P}{P_{a}},	\quad P_{a}  =  424.667 \,W  \simeq  425 \,W  =  0.569 \,hp
          </me>
          </li>
       </ol>

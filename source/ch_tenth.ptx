@@ -17,9 +17,13 @@
 
  
   <xi:include href="./sec_tenth-intro.ptx" />
-
+  <xi:include href="./sec_tenth-therm_exp.ptx" />
+  <xi:include href="./sec_tenth-heat_meas.ptx" />
   <xi:include href="./sec_tenth-examplesA.ptx" />  
-
+  <xi:include href="./sec_tenth-kt_gas.ptx" />
+  <xi:include href="./sec_tenth-thermdyn.ptx" />
+  <xi:include href="./sec_tenth-examplesB.ptx" />  
+ 
   <xi:include href="./ex_tenth.ptx"/> 
 
 </chapter>

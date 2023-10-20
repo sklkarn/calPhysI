@@ -93,7 +93,7 @@
   <example>
     <statement>
       <p>
-        A solid copper sphere of <m>0.25 m^{3}</m> volume is placed 30.5 m below the ocean surface 
+        A solid copper sphere of <m>0.25 \,m^{3}</m> volume is placed 30.5 m below the ocean surface 
         where the pressure is <m>3.00 \times 10^{5} \,N/m^{2}</m>. What is the change in 
         volume of the sphere? The bulk modulus for copper is <m>14 \times 10^{10} \,N/m^{2}.</m>
       </p>
@@ -213,7 +213,7 @@
         <me>
           \therefore \quad F_{max} = Stress_{max}A = (1.39\times 10^{8})(\pi d^{2}/4)  = 1746.73 \,N
         </me>
-         Here the applied force, <m>F =150\times 9.8=1470N</m>, is less then the maximum 
+         Here the applied force, <m>F =150\times 9.8=1470 \,N</m>, is less then the maximum 
          force the copper wire can hold, hence the rod regains its original length after the removal of applied force.
            </p>
     </solution>

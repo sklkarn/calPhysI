@@ -43,15 +43,10 @@
 
  
   <xi:include href="./sec_third-1D.ptx" />
-
   <xi:include href="./sec_third-examplesA.ptx" />  
-
-  <xi:include href="./ex_thirdA.ptx"/> 
-
-  <xi:include href="./sec_third-2D.ptx" />
-
+   <xi:include href="./sec_third-2D.ptx" />
   <xi:include href="./sec_third-examplesB.ptx" />  
-
-  <xi:include href="./ex_thirdB.ptx"/> 
+ 
+  <xi:include href="./ex_third.ptx"/> 
 
 </chapter>

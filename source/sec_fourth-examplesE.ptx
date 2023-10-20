@@ -43,7 +43,7 @@
         </md>
         <md>
           <mrow>y_{cm} \amp  =   \frac{\sum\limits_{i=1}^{n}{m_{i}y_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}} = \frac{m_{1}y_{1}+m_{2}y_{2}+m_{3}y_{3}}{m_{1}+m_{2}+m_{3}}  </mrow>
-        <mrow> \amp  = \frac{(1\times 3) +(4\times 6) + (7\times -9)}{1+4+7} = -3.00 m</mrow>
+        <mrow> \amp  = \frac{(1\times 3) +(4\times 6) + (7\times -9)}{1+4+7} = -3.00 \,m</mrow>
         </md>
         </p>
     </solution>
@@ -64,7 +64,7 @@
       <p> 
         2. Use the center of mass equations to calculate the coordinates of the center of mass. 
         </p>
-        <p><m>\therefore</m> the center of mass lies at point <m>D(1.75m,4.87m).</m></p>
+        <p><m>\therefore</m> the center of mass lies at point <m>D(1.75\,m,4.87\,m).</m></p>
        </solution>
   </example>
 
@@ -83,12 +83,12 @@
       2. Specify the area of each constituent part. 
       </p>
         <p>
-          <m>(8m \times 10m = 80 m^{2}</m> and <m> 6m \times 4m = 24 m^{2})</m>
+          <m>(8m \times 10\,m = 80 \,m^{2}</m> and <m> 6\,m \times 4\,m = 24 \,m^{2})</m>
       </p>
 	<p> 
     3.	Locate the coordinates of the center of mass of each constituent part. 
-    The center of mass of big surface of surface area <m>80 m^{2}</m> 
-    is at (4,5) and that for small surface of surface area <m>24 m^{2}</m> is at (11,2). 
+    The center of mass of big surface of surface area <m>80 \,m^{2}</m> 
+    is at (4,5) and that for small surface of surface area <m>24 \,m^{2}</m> is at (11,2). 
     (Note: For uniform object geometrical center is taken as its center of mass.)	
       </p>
       <p>
@@ -98,10 +98,10 @@
         <p>
           Note: mass is proportional to area for a uniform surface: 
           <me>
-            x_{cm} =\frac{80\times 4 + 24\times 11}{80+24}=5.62m; 
+            x_{cm} =\frac{80\times 4 + 24\times 11}{80+24}=5.62\,m; 
           </me>
           <me>
-            y_{cm} = \frac{80\times 5 + 24\times 2}{80+24}=4.31m.
+            y_{cm} = \frac{80\times 5 + 24\times 2}{80+24}=4.31\,m.
           </me>
           </p>
       </answer>
@@ -277,11 +277,11 @@
  <example>
   <statement>
     <p>
-      A symmetrical beam of weight <m>w_{1} = 400 N</m> and length <m>2 m</m> is 
+      A symmetrical beam of weight <m>w_{1} = 400 \,N</m> and length <m>2 \,m</m> is 
       suspended from the ceiling on one end by a hinge and on the other by a wire 
-      also of length <m>2 m</m> so that both beam and wire make an angle of <m>30^{o}</m> 
+      also of length <m>2 \,m</m> so that both beam and wire make an angle of <m>30^{o}</m> 
       with the ceiling as shown in the figure below. Suspended from the junction of wire 
-      and beam is a weight <m>w_{2}= 300 N</m>. What is the tension in the cable 
+      and beam is a weight <m>w_{2}= 300\, N</m>. What is the tension in the cable 
       and the horizontal and vertical components of the force on the beam at the hinge?
       <image source="rd5.png" width ="35%"> </image>
     </p>
@@ -290,7 +290,7 @@
       <p>
       <ol marker="A.">
         <li>
-          List given quantities <m>w_{1} = 400 N, \quad w_{2} = 400 N, \quad\theta = 30^{o}, \quad L = 2 m</m>.
+          List given quantities <m>w_{1} = 400 \,N, \quad w_{2} = 400\, N, \quad\theta = 30^{o}, \quad L = 2 \,m</m>.
         </li>
         <li>
           Draw the forces acting on the beam and resolve them into components.
@@ -316,13 +316,13 @@
            <li>
             Solve to get answers: 
             <me>
-              T=\frac{(\frac{w_{1}}{2}+w_{2})L\cos\theta}{2L\sin\theta\cos\theta} =500N;
+              T=\frac{(\frac{w_{1}}{2}+w_{2})L\cos\theta}{2L\sin\theta\cos\theta} =500\,N;
             </me>
             <me>
-              F_{x}=T\cos\theta =433N;
+              F_{x}=T\cos\theta =433\,N;
             </me>
             <me>
-              F_{y}=w_{1}+w_{2}-T\sin\theta =450N 
+              F_{y}=w_{1}+w_{2}-T\sin\theta =450\,N 
             </me>
           </li>
       </ol>
@@ -344,13 +344,13 @@
   </statement>
   <solution>
     <p>
-      Given: <m>L=1m,\quad w_{1}=10N, \quad w_{2}=20N, \quad x=0.5m,</m>
+      Given: <m>L=1\,m,\quad w_{1}=10\,N, \quad w_{2}=20\,N, \quad x=0.5\,m,</m>
            <image source="rd6b.png" width ="25%"> </image>
            <me>
             \frac{S}{L} =\frac{3}{4}; 
           </me>
           <me>
-            \cos\theta =\frac{x}{L} = \frac{0.5m}{1m} =0.5 
+            \cos\theta =\frac{x}{L} = \frac{0.5\,m}{1\,m} =0.5 
           </me>
           <me>\therefore\quad \theta=60^{o}</me>
         <me>
@@ -370,13 +370,13 @@
           \text{hence,}\quad N_{2}.1.\frac{\sqrt{3}}{2} =10(0.25)+20(\frac{3}{4})(0.5)
         </me>
         <me>
-          or,\quad N_{2}=11.547 N
+          or,\quad N_{2}=11.547 \,N
         </me>
        <me>
-        \text{and}\quad f=N_{2}=11.547 N; N_{1}=w_{1}+w_{2}=10+20=30N
+        \text{and}\quad f=N_{2}=11.547 N; N_{1}=w_{1}+w_{2}=10+20=30\,N
        </me>
        <me>
-        \therefore\quad \mu=\frac{f}{N_{1}}=\frac{11.547N}{30N} = 0.385
+        \therefore\quad \mu=\frac{f}{N_{1}}=\frac{11.547\,N}{30\,N} = 0.385
        </me>
       </p>
   </solution>
@@ -385,7 +385,7 @@
  <example>
   <statement>
     <p>
-      A uniform rod of length L = 1 meter and mass <m>m_{1} = 10 kg</m> is suspended as 
+      A uniform rod of length L = 1 meter and mass <m>m_{1} = 10 \,kg</m> is suspended as 
       shown in the figure below, making an angle of <m>\theta = 30^{o}</m> with the 
       horizontal and supporting a second unknown mass <m>m_{2}</m>. The support wire 
       on the left is horizontal, the support wire on the top makes an angle of 
@@ -415,7 +415,7 @@
         <image source="rd4b.png"> </image>
         <image source="rd4c.png"> </image>
       </sidebyside>
-      Given: <m>L=1m,\quad m_{1}=10 kg,\quad \theta=30^{o},\quad S =0.75m </m> 
+      Given: <m>L=1\,m,\quad m_{1}=10 \,kg,\quad \theta=30^{o},\quad S =0.75\,m </m> 
       <men xml:id="eqn-trq1">
         \sum F_{x} = T_{2}\sin\phi-T_{1}=0;
       </men>
@@ -454,7 +454,7 @@
       </me>
       from eqn. <xref ref="eqn-trq1"/>, we have -
       <me>
-        T_{1}=T_{2}\sin\phi= T_{2}\sin\theta=56.58N,
+        T_{1}=T_{2}\sin\phi= T_{2}\sin\theta=56.58\,N,
       </me>
       <me>
         w_{2}=T_{3}=0,
@@ -551,14 +551,14 @@
         \text{or,}\quad \frac{Ml}{2}-Mx =mx
        </me>
        <me>
-        \therefore \quad x= \frac{Ml}{2(M+m)} = \frac{300\times 10}{2\times(300+60)} =4.17m 
+        \therefore \quad x= \frac{Ml}{2(M+m)} = \frac{300\times 10}{2\times(300+60)} =4.17\,m 
        </me>
       <term> Alternative:</term> we can solve this problem using center of mass formula, 
       <me>
-        x_{cm} = \frac{m_{1}x_{1}+m_{2}x_{2}}{m_{1}+m_{2}} = \frac{300\times 5 + 60\times 10}{300+60} = 5.83m
+        x_{cm} = \frac{m_{1}x_{1}+m_{2}x_{2}}{m_{1}+m_{2}} = \frac{300\times 5 + 60\times 10}{300+60} = 5.83\,m
       </me>
       <me>
-        \therefore \quad x= l-x_{cm} =10-5.83 = 4.17m
+        \therefore \quad x= l-x_{cm} =10-5.83 = 4.17\,m
       </me>
       </p>
   </solution>
