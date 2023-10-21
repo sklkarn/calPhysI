@@ -96,7 +96,7 @@
       entities as there are atoms in exactly 12 grams of carbon-12 isotope. 
       One mole of anything is equal to Avogadro's number. <term>Candela</term> is the intensity of a light source that emits monochromatic 
       radiation of frequency <m>540\times 10^{12}</m> hertz and has 
-      a radiant intensity <m>1/683</m> watt per steradian in the same direction. 
+      a radiant intensity <m>\frac{1}{683}</m> watt per steradian in the same direction. 
       <term>Radian</term> is the ratio of length of arc <m>\,ds</m> to the radius 
       <m>r</m> of a circle [<xref ref="fig1a"/>]. <term>Sterad</term> is the ratio of the intercepted area <m>\,dA</m> 
       of the spherical surface, described about the apex O as the center, 
@@ -535,7 +535,7 @@ and <m>b=-c=\frac{1}{2},</m>
         precise measurement (227.2 g) is correct to only one decimal place. 
         Therefore, the final result should  be rounded off to 663.8 g. 
         Similarly, the difference in lengths of 66.25 m and 23.3055 m is  
-        <m>66.25 m - 23.3055 m = 42.9445 m</m>. Which can be expressed as 42.94 only.
+        <m>66.25 \,m - 23.3055 \,m = 42.9445 \,m</m>. Which can be expressed as 42.94 only.
       </p>
     </li>
     <li>
@@ -543,11 +543,11 @@ and <m>b=-c=\frac{1}{2},</m>
         <term>Multiplication or division:</term> The final result should retain 
         <em>as many significant figures as</em> are there in the original number with the 
         least significant figures. For example, if mass of an object is measured to be, 
-        say, 4.237 g (four significant figures) and its volume is measured to be <m>2.51 cm^{3}</m>, 
+        say, 4.237 g (four significant figures) and its volume is measured to be <m>2.51 \,cm^{3}</m>, 
         then its density, by mere arithmetic division, is 1.68804780876 <m>g/cm^{3}</m> 
         upto 11 decimal places. But density should be reported to three significant figures.
         <me>
-          Density  =\frac{4.237 g}{2.51 cm^{3}}= 1.69\quad g/cm^{3}.
+          Density  =\frac{4.237 \,g}{2.51 \,cm^{3}}= 1.69\,g/cm^{3}.
         </me>
       </p>
     </li>

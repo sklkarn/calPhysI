@@ -99,7 +99,7 @@
 
 
 <paragraphs>
-  <title>Calorimeter</title>
+  <title>Calorimetery</title>
   <exercise>
     <p>
       If 100 g of steam condense into 1 kg of water initially at <m>25^{o}C</m>, 
@@ -171,7 +171,7 @@
 </paragraphs>
 
 <paragraphs>
-  <title>Heat transfer</title>
+  <title>Heat Transfer</title>
   
   <exercise>
     <p>
@@ -322,5 +322,205 @@
     </p>
   </exercise>
 </paragraphs>
+
+<paragraphs>
+  <title>I Law of Thermodynamics</title>
+  <exercise>
+    <p>
+      An ideal monatomic gas containing 10 moles of Helium initially at <m>0\,^{o}C</m> 
+      and one atmosphere is allowed to expand to twice its initial volume. If the gas is 
+      first cooled at a constant volume to half its initial pressure and then allowed to 
+      expand at constant pressure to its final volume, find each of the following: 
+      <ol marker="a.">
+        <li>
+          the initial volume of the gas, 
+        </li>
+        <li>
+          the final pressure of the gas,
+        </li>
+        <li>
+          the final volume of the gas,
+        </li>
+        <li>
+          the final temperature of the gas, 
+        </li>
+        <li>
+          the work done by the gas,
+        </li>
+        <li>
+          the heat added to the gas, 
+        </li>
+        <li>
+          the change in internal energy of the gas.
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An ideal monatomic gas containing 10 moles of Helium initially at <m>0\,^{o}C</m> 
+      and one atmosphere is allowed to expand to twice its initial volume. If the gas 
+      is first allowed to expand at constant pressure to its final volume and then 
+      cooled at constant volume to half its initial pressure, find each of the following: 
+      <ol marker="a.">
+        <li>
+          the initial volume of the gas,
+        </li>
+        <li>
+          the final pressure of the gas, 
+        </li>
+        <li>
+          the final volume of the gas,
+        </li>
+        <li>
+          the final temperature of the gas,
+        </li>
+        <li>
+          the work done by the gas, 
+        </li>
+        <li>
+          the heat added to the gas,
+        </li>
+        <li>
+          the change in internal energy of the gas.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An ideal monatomic gas containing 10 moles of Helium initially at <m>0\,^{o}C</m> 
+      and one atmosphere is allowed to expand to twice its initial volume. If the gas 
+      is allowed to expand adiabadically <m>(\gamma = 5/3)</m> to twice its initial volume, 
+      find each of the following: 
+      <ol marker="a.">
+        <li>
+          the initial volume of the gas,
+        </li>
+        <li>
+          the final pressure of the gas, 
+        </li>
+        <li>
+          the final volume of the gas,
+        </li>
+        <li>
+          the final temperature of the gas, 
+        </li>
+        <li>
+          the work done by the gas,
+        </li>
+        <li>
+          the heat added to the gas,
+        </li>
+        <li>
+          the change in internal energy of the gas.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      <ol marker="a.">
+        <li>
+          With the assumption that the air temperature is a uniform <m>27\,^{o}C</m>, 
+          what is the atmospheric pressure at an altitude of 5000 m?
+        </li>
+        <li>
+          With the assumption that a bubble of air rises adiabatically from the surface of 
+          the earth to the pressure obtained in part (a) of this problem, what would be the 
+          temperature of the bubble at that altitude?  
+        </li>
+        <li>
+          Which of the previous two inconsistent assumptions is more realistic and why?
+        </li>
+          </ol>
+         </p>
+  </exercise>
+</paragraphs>
+
+
+<paragraphs>
+  <title>II Law of Thermodynamics</title>
+  <exercise>
+    <p>
+      A heat engine absorbs 1000 J of heat at a temperature of 400 K and deposits 900 J of 
+      heat at 300 K. What is the efficiency of this engine?
+    </p>
+  </exercise>
+  <exercise>
+    <p>
+      A Carnot engine absorb 1000 J of heat at temperature of 400 K and rejects heat 
+      at 300 K. How much heat does it reject?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An ideal heat pump pumps heat from an outside temperature of <m>0\,^{o}C</m> 
+      into an inside temperature of <m>30\,^{o}C</m>. If 1000 J of heat are deposited into 
+      the house every second and if electricity costs 10 cents per kilowatt-hour, 
+      then what is the cost of operating this heat pump for 24 h?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A refrigerator requires an amount of work W to extract heat Qc from a refrigerator 
+      and reject an amount of heat Qh into the surroundings. What is the coefficient of 
+      performance of the refrigerator?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      What is the coefficient of performance of a Carnot refrigerator whose inside temperature 
+      is <m>0\,^oC</m>  an whose outside temperature is <m>30\,^{o}C</m> 
+      if it takes 500 W of electrical power to operate it?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A gasoline engine operates approximately according to the Otto cycle which takes 
+      in a gas/air mixture at ambient temperature <m>T_{A}</m>, compresses that mixture 
+      adiabatically to a higher temperature <m>T_{B}</m>, ignites the mixture at constant 
+      volume to an even higher temperature <m>T_{C}</m>, expands the gas adiabatically 
+      to a cooler temperature <m>T_{D}</m>, reduces the pressure at constant volume 
+      back to <m>T_{A}</m>, and then expels the gas into the atmosphere. 
+      The efficiency of an Otto cycle is <m>1 - \frac{T_{A}}{T_{B}}</m>. 
+      Assume <m>T_{A} = 27\,^{o}C,\quad T_{B} = 127\,^{o}C</m>, and <m>T_{C} = 227^{o}C</m>. 
+      <ol marker ="a.">
+        <li>
+          What is the efficiency of this gasoline engine? 
+        </li>
+        <li>
+          What would be the maximum possible efficiency of an ideal heat engine utilizing these same temperatures? 
+        </li>
+        <li>
+          What is the efficiency ratio for this gasoline engine 
+          (i.e. the ratio of its efficiency to the maximum possible efficiency)?
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+</paragraphs>
+
+
+
+<paragraphs>
+  <title>Entropy</title>
+  <exercise>
+    <p>
+      
+    </p>
+  </exercise>
+
+</paragraphs>
+
+
  </exercises>
 
