@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Preface",
-  "body": " General physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students as a regular practice, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. Volume I contains Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  Volume II contains Electricity, Magnetism, Waves, Acoustics, and Optics. . These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted. -- Author   "
+  "body": " General physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level physics courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but designed to provide additional materials as my personal teaching activities in calculus-based physics. It is intended to support introductory level materials at a rapid and an efficient way. Students who want to use this text assume to have a prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization that have been built in many students as a regular practice, cannot work efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different pattern of study than simply trying to memorize lists of formulae or examples. This book is organized into two volumes that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. Volume I contains Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  Volume II contains Electricity, Magnetism, Waves, Acoustics, and Optics. These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' strategy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for.   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted. -- Author   "
 },
 {
   "id": "p-4",
@@ -6346,13 +6346,283 @@ var ptx_lunr_docs = [
   "body": "Avogadro's law: The Combined Gas Law: "
 },
 {
-  "id": "sec_tenth-thermdyn",
+  "id": "subsec-therm_varbls",
   "level": "1",
-  "url": "sec_tenth-thermdyn.html",
-  "type": "Section",
-  "number": "10.6",
-  "title": "Thermodynamics",
-  "body": " Thermodynamics  "
+  "url": "subsec-therm_varbls.html",
+  "type": "Subsection",
+  "number": "10.6.1",
+  "title": "Thermodynamical Variables",
+  "body": " Thermodynamical Variables  The state of a thermodynamic system can be specified in terms of macroscopic state variables such as volume, V, temperature, T, and pressure, p. Out of these three, two are independent variables while the third may be considered as their function. In general, two of these parameters are needed to completely specify a thermodynamical system. These two types of variables are also known as extensive and intensive variables. Variables that depend on the size of a system such as volume, V, amount of substance (moles, n ), entropy, S, etc. are called extensive variables . Variables that do not depend on the size of a system such as temperature, T, pressure, p , density, , etc. are called intensive variables .  "
+},
+{
+  "id": "p-1205",
+  "level": "2",
+  "url": "subsec-therm_varbls.html#p-1205",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "extensive variables intensive variables "
+},
+{
+  "id": "subsec-therm_laws",
+  "level": "1",
+  "url": "subsec-therm_laws.html",
+  "type": "Subsection",
+  "number": "10.6.2",
+  "title": "Laws of Thermodynamics",
+  "body": " Laws of Thermodynamics   The laws of thermodynamics define fundamental physical quantities such as temperature, energy, and entropy that characterize thermodynamic systems. There are four laws of thermodynamics.    Zeroth Law of Thermodynamics   isolated system    It defines the temperature and states the thermal equilibrium condition. Thermal equilibrium is a state achieved by two or more systems after being in contact with one another through a diathermic wall. If an object with a higher temperature comes in contact with another object at a lower temperature, it will transfer some of its heat energy to the object at lower temperature till they come to the same temperature. If two systems are each in thermal equilibrium with a third system, then they must be in thermal equilibrium with each other. If temperature of object A = temperature of object C and temperature of object B = temperature of object C, then temperature of object A = temperature of object B [ ].    First Law of Thermodynamics               The first law is a consequence of conservation of energy and requires that a system may exchange energy with its surroundings strictly by heat flow or work. Joule has established the equivalence between heat and mechanical work as where W is amount of work done (in joule) on the system, Q is the amount of heat (in calorie) produced in the system, and J is a mechanical equivalent of heat also known as Joule's constant. The value of is . The first law states that when a given amount of work, W is done on a system, an equivalent amount of heat, Q is produced or when a certain amount of heat, Q disappears from the system an equivalent amount of work W is obtained. The equivalence is given by the constant . Heat is thus a form of energy. mechanical equivalent of heat   The Joule apparatus [ ] consisted of a weight suspended by string over a pulley, which in turn was wound around a winding drum. As long as the drum remained stationary, the weight remained at rest. When the drum was released, the weight was set free to fall, and its potential energy began converting to kinetic energy. In the process, the string attached to the weight unwound from the drum, which caused the drum to turn and along with it the paddle wheel attached to it. The rotating paddles agitated the water, causing its temperature to rise. Joule concluded from this experiment that the mechanical energy of the spinning paddle wheel had been converted into heat energy, which raise the temperature of the water. Joule's experiment thus proved the link between potential, kinetic, mechanical, and heat energies. Joule's experiment thus helped establish the principle of conservation of energy. Joul's experiment   Let us consider a system which absorbed amount of heat and does work done while going from initial state to the final state . The final state reached by the system may be achieved by the different paths but the quantity is the same. The quantity is known as the change in internal energy of the system.  Consider a gas cylinder [ ] with frictionless piston placed on a hot bath, then the change in internal energy of the cylinder is given by where is the amount of heat energy absorbed by the gas, and is the amount of work done by the gas in moving its piston from position to . This is the mathematical form of I law of thermodynamics. The I law establishes an exact relation between heat and work. This tells us that it is impossible to get the work from any machine without giving it an equivalent amount of energy in any form .   Quasi static state: A process during which the system only deviates from equilibrium by an infinitessimal amount. This may happen if the gas is allowed to expand or compress very slowly. As the piston compresses the pressure inside the gas remains very nearly uniform at all times during the process. So, the system never deviates significantly from mechanical equilibrium. Quasi static process is also a reversible process. A system is in thermodynamical equilibrium if it has achieved: mechanical equilibrium, chemical equilibrium, and thermal equilibrium. Thermodynamic variables like temperature, pressure etc. can only be used to describe the system that has achieved thermodynamical equilibrium.   "
+},
+{
+  "id": "zeroth",
+  "level": "2",
+  "url": "subsec-therm_laws.html#zeroth",
+  "type": "Figure",
+  "number": "10.6.2",
+  "title": "",
+  "body": " isolated system   "
+},
+{
+  "id": "figure-247",
+  "level": "2",
+  "url": "subsec-therm_laws.html#figure-247",
+  "type": "Figure",
+  "number": "10.6.3",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-1212",
+  "level": "2",
+  "url": "subsec-therm_laws.html#p-1212",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Quasi static state: "
+},
+{
+  "id": "subsec-Ilaw_appl",
+  "level": "1",
+  "url": "subsec-Ilaw_appl.html",
+  "type": "Subsection",
+  "number": "10.6.3",
+  "title": "Application of I law of thermodynamics",
+  "body": " Application of I law of thermodynamics     Specific heat capacity of a gas: Consider a mole of gas is heated in the cylinder with frictionless piston, then the change in internal energy of the gas is given by the first law of thermodynamics  where is the infinitesimal work done by the gas in moving a piston from initial position to the final position , and is given by where is area of cross-section of the piston, is force applied by the gas molecules on the surface of the piston. If the piston is fixed from moving, then at constant volume, , and  But, for n mole of a gas where C is molar specific heat capacity of the gas. where is mass of the gas, but it is convenient to take mole instead of mass as an amount of gas. At constant volume, From eqns. and , we have - At constant pressure,  Now, differentiating eqn. with respect to , we get - But from euation of state of a gas , Differentiating this equation with respect to at constant , we get - substituting the values in eqn. from eqns. and , we get -  This is the relation between molar specific heat capacity of a gas at constant pressure and molar specific heat capacity of a gas at constant volume . From the kinetic theory of gas, the internal energy of a monoatomic gas [ ] is given by  Hence, from eqns. , , and , we have - Now, the ratio of the specific heat at constant pressure to the specific heat at constant volume of a monoatomic gas is given by The idea of degrees of freedom can be extended to diatomic and polytomic gases. It can be shown that the value of can be expressed as where is the number of degrees of freedom per molecule. For a monatomic gas, we find that since for a monoatomic gas. for a diatomic gas as .    Isothermal process: In an isothermal process system remains at constant temperature, , hence, As internal energy of an ideal gas [ ] is a function of temperature only, we have Therefore, from I law of thermodynamics, we have -      Adiabatic process: In an adiabatic process system does not exchange heat , with surroundings, hence, Therefore, from I law of thermodynamics, we have -    That is, internal energy increases exactly by the amount of work done on the system. Also, for 1 mole of a gas.      integrating both sides, we get -          Isobaric process: A process at constant pressure, is called an isobaric process. At the change of phase, temperature and pressure remains constant, i.e.,        Isochoric process: A process at constant volume, is called an isochoric process.      Free expansion: It is an adiabatic process in which no work is performed on or by the system. Consider two chambers of an isolated system, the one chamber of which contains a gas while the other is completely evacuated. Both the chambers are connected with a stopcock. When stopcock is suddenly open, the gas rushes into the evacuated chamber and expands freely. Free expansion means gas has to do no work at all. Since an isolated system does not exchange heat from outside world, and gas expands freely so Therefore from I law of thermodynamics, That is, initial internal energy of the gas is same as its final internal energy.     "
+},
+{
+  "id": "p-1213",
+  "level": "2",
+  "url": "subsec-Ilaw_appl.html#p-1213",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Specific heat capacity of a gas: Isothermal process: Adiabatic process: Isobaric process: Isochoric process: Free expansion: "
+},
+{
+  "id": "subsec-II_law",
+  "level": "1",
+  "url": "subsec-II_law.html",
+  "type": "Subsection",
+  "number": "10.6.4",
+  "title": "Second Law of Thermodunamics",
+  "body": " Second Law of Thermodunamics  The first law of thermodynamics gives an equivalence between the quantity of heat and the mechanical work or vice-versa. This law does not tell the limitation and condition of conversion. That is how much heat is converted into work and whether the transformaiton itself can take place or not. The first law does not tell anything about the direction of transformation of energy. It does not indicate whether heat can flow from a cold end to a hot end or not. The first law places no restriction on the direction of a process, and satisfying the first law does not guarantee that the process will occur. In practice, it is not possible to convert the heat energy into an equivalent amount of work. Thus, we need another general principle to identify whether a process can occur or not. The law specifying the condition of transformation of heat into work is called the second law of thermodynamics. The second law of thermodynamics tells the direction of the flow of heat. It also tells that heat energy cannot be completely converted into equivalent work.                        Kelvin-Plank statement of the second law: It is impossible for any device that operates on a cycle to receive heat from a single reservoir and produce a net amount of work [ ]. For heat engine to operate, the working fluid has to exchange heat with heat sink as well with the heat source. A heat engine that violates the Kelvin-Planck statement of the second law cannot be built.   Clausius statement of the second law: It is impossible to construct a device that operates in a cycle and produces no effect other than the transfer of heat from a cold body to a hot body. In other words, a refrigerator will not operate unless an external work is done on its compressor [ ].  The above two statements are equivalent to each other. Consider a refrigerator that transfers heat from a cold to a hot body without having any work done on it [ ], thus violating the Clausius statement. Now, suppose an engine working between the same hot and cold bodies takes in heat from a hot body and gives out heat to the cold body [ ]. The engine does not violate any law by itself, but if the refrigerator and engine combined together [ ], they form a device that takes in heat from the hot body and converts all into work without delivering any to the cold body. This is a violation of Kelvin's statement. Similarly, a violation of the Kelvin's statement leads to violation of the Clausius statement.  "
+},
+{
+  "id": "figure-250",
+  "level": "2",
+  "url": "subsec-II_law.html#figure-250",
+  "type": "Figure",
+  "number": "10.6.4",
+  "title": "",
+  "body": "                    "
+},
+{
+  "id": "p-1220",
+  "level": "2",
+  "url": "subsec-II_law.html#p-1220",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Kelvin-Plank statement of the second law: "
+},
+{
+  "id": "p-1221",
+  "level": "2",
+  "url": "subsec-II_law.html#p-1221",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Clausius statement of the second law: "
+},
+{
+  "id": "subsec-heat_engn",
+  "level": "1",
+  "url": "subsec-heat_engn.html",
+  "type": "Subsection",
+  "number": "10.6.5",
+  "title": "Heat Engines",
+  "body": " Heat Engines  Heat engine is a device of converting heat continuously into work. The device absorbs heat from a high temperature reservoir, converts part of this energy into work and rejects the rest of the energy as heat to a low temperature drain. Hence, it consists of three essential parts: Source or reservoir for the supply of heat at high temperature. Sink or drain for the rejection of heat at lower temperature. Working Substance which absorbs heat from the source.  The working substance undergoes a cycle of operation in which it absorbs certain quantity of heat from the source, converts a part of it into work and rejected rest to the sink as shown in . Finally it reaches to the initial stage where its internal energy is the same. By performing the same cycle again and again, heat is continuously converted into work.       Efficiency: Let is the amount of heat absorbed by the working substance from the source at high temperature It does the work W and reject amount of heat to the sink at lower temperature The efficiency of the heat engine then defined as the ratio of the work done (output) by the engine to the amount of heat supplied (input) to the engine. That is, If there is no dissipative losses (i.e., no frictional loss in engine, etc.) then heat rejected would be  Hence  Since, efficiency is normally defined in percentage.  "
+},
+{
+  "id": "he5",
+  "level": "2",
+  "url": "subsec-heat_engn.html#he5",
+  "type": "Figure",
+  "number": "10.6.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1225",
+  "level": "2",
+  "url": "subsec-heat_engn.html#p-1225",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Efficiency: "
+},
+{
+  "id": "subsec-carnot_engn",
+  "level": "1",
+  "url": "subsec-carnot_engn.html",
+  "type": "Subsection",
+  "number": "10.6.6",
+  "title": "Carnot’s Heat Engine",
+  "body": " Carnot's Heat Engine       Carnot's Assumption: Heat cannot be taken in at a certain temperature and converted to work with no other change in the system of surroundings. Carnot presented theoretically an ideal heat engine, free from all imperfection of actual engines. The engine operates between source and sink each of which is maintained at constant temperature. The engine is known as a Caront's engine and its cycle of operation as the Carnot's cycle. The schematics of engine is shown in . The working substance is an ideal gas contained in an insulated cylinder with conducting bottom surface. A hot body of high thermal capacity maintained at a constant temperature serves as a source. A cold body maintained at a constant temperature serves as a sink. A stand has a perfectly insulated wall.  The cylinder can be moved in cycle from source, stand, sink, stand, and back to source without doing any work.  "
+},
+{
+  "id": "carnte",
+  "level": "2",
+  "url": "subsec-carnot_engn.html#carnte",
+  "type": "Figure",
+  "number": "10.6.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-revs_heatengn",
+  "level": "1",
+  "url": "subsec-revs_heatengn.html",
+  "type": "Subsection",
+  "number": "10.6.7",
+  "title": "Reversible Heat Engines",
+  "body": " Reversible Heat Engines  A reversible process is defined as a process that can be reversed without leaving any trace on the surroundings. It means both system and surroundings are returned to their initial states at the end of the reverse process. Processes that are not reversible are called irreversible.  Reversible heat engine is just the heat engine which is running in the reverse direction of heat engine. In reversible heat engine all the three components re-assume exactly their original conditions and no changes are left in the surroundings. Such an engine can be realized if, the engine is free from friction, the process is infinitely slow, and working substance never differs appreciable from its surroundings. No heat engine can have efficiency greater than a reversible heat engine.  "
+},
+{
+  "id": "subsec-canot_cycl",
+  "level": "1",
+  "url": "subsec-canot_cycl.html",
+  "type": "Subsection",
+  "number": "10.6.8",
+  "title": "Carnot’s Cycle:",
+  "body": " Carnot's Cycle:  The Carnot engine operates in the four steps of Carnot cycle which are perfectly reversible. Carnot's cycle        Step 1, Isothermal Expansion:  isothermal expansion Consider a mole of gas as a working substance in a cylinder [ ]. The initial state of the gas is denoted by point A in the figure 10.25 and it's temperature is the same as that of source . Let the cylinder be placed on the source and allowed to expand so slowly that the temperature remains constant at throughout the expansion while amount of heat is being absorbed by the gas. The final state of the gas is represented by a point B. Because none of the heat goes into changing the temperature of the gas, all of the heat goes into pushing the piston up as the gas expands. Thus all of the heat, is turned into work, That is,      Step 2, Adiabatic Expansion:  adiabatic expansion Now the cylinder is removed from the source and placed on the stand. The gas is then allowed to expand adiabatically with no heat added to the system. The gas continues to expand, and the temperature of the gas drops to the temperature of the cold reservoir, . If the volume of the gas has expanded, and the pressure is constant, then the temperature has to drop to compensate when reaches to a point   The work done in this case is given by  for adiabatic process.         Step 3, Isothermal compression: The cylinder is removed from stand and placed on the sink. The gas is then compressed slowly at constant temperature when the gas reaches to a point The heat, is transferred to the cold reservoir by doing work on it.     Step 4, Adiabatic compression: In the last step, the cylinder is removed from sink and placed once again on the stand. The gas is compressed adiabatically to the initial state . Since the heat can not be extracted from the gas as it causes the temperature of the gas to rise back to . The work done on this compression is given by   Hence the total work done during the complete cycle of operation    Quantity of heat absorbed by the gas in full cycle   The efficiency of the Carnot cycle is therefore,  Now,   Since points B and C lie on the same adiabatic, we have - But,   Similarly, points D and A lie on the same adiabatic, we have - Comparing eqns. and , we get -  Hence from eqns. and , we have -  This is the efficiency of Carnot's heat engine. The Carnot's engine can not be realized in practice because - (i) The temperature of source and sink can not be kept constant. The body (source) which loses energy its temperature falls gradually and the one (sink) which gains energy its temperature rises gradually, meaning reservoirs of infinite thermal capacity do not exist. (ii) It is a perfectly reversible in action, if the cycle is reversed the working substance will take amount of heat from sink and gives out amount of heat to the source, meaning reversible heat transfers are not possible. (iii) Heat transfer takes place at infinitesimally slow in isothermal process having very small temperature difference between the source and the receiver. On the other hand, in adiabatic process, heat transfer is zero and a very fast process.  "
+},
+{
+  "id": "carntc",
+  "level": "2",
+  "url": "subsec-canot_cycl.html#carntc",
+  "type": "Figure",
+  "number": "10.6.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1231",
+  "level": "2",
+  "url": "subsec-canot_cycl.html#p-1231",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 1, Isothermal Expansion: "
+},
+{
+  "id": "p-1232",
+  "level": "2",
+  "url": "subsec-canot_cycl.html#p-1232",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 2, Adiabatic Expansion: "
+},
+{
+  "id": "p-1234",
+  "level": "2",
+  "url": "subsec-canot_cycl.html#p-1234",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 3, Isothermal compression: "
+},
+{
+  "id": "p-1235",
+  "level": "2",
+  "url": "subsec-canot_cycl.html#p-1235",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 4, Adiabatic compression: "
+},
+{
+  "id": "subsec-carnt_therm",
+  "level": "1",
+  "url": "subsec-carnt_therm.html",
+  "type": "Subsection",
+  "number": "10.6.9",
+  "title": "Carnot’s Theorem:",
+  "body": " Carnot's Theorem:   The efficiency of all reversible engines operating between the same two temperatures is the same, and no irreversible engine operating between these temperatures can be more efficient than a reversible engine working between the same two temperatures.       Consider two engines I and R working between the same two temperatures where I is irreversible and R is reversible. The two engines are so designed that they perform equal amount of work. If engine R draws amount of heat from source does W work done and rejects amount of heat to the sink then its efficiency, Similarly, if the engine I extracts amount of heat from the source, perform the same amount of work W, and rejects the to the sink, then its efficiency, Now, assume that the irreversible engine I is more efficient than the reversible engine R, then we have   That is, is a positive quantity.  Now combine these two engines in such a way that engine I drives the engine R in the backward direction, so that R behaves as a refrigerator. The refrigerator R then extracts heat from the sink, after work done on it by I it rejects heat to the source. The two engines are so coupled that they behave as a self acting machine. Since the work needed to run the refrigerator R is supplied by the irreversible engine I. The quantity of heat extracted from the sink is given by This is also the net amount of heat rejected to the source.That is this device transfers the same amount of heat from the sink to the source without the aid of any external source. This violates the second law of thermodynamics. Hence an irreversible engine never be more efficient than the reversible one.  Now consider the reversible engines and are working between the same source and sink. Let be driving backward, then as described above, can not be more efficient than . Similarly if is driving backward, then can not be more efficient than . Hence the two engines must have same efficiency.  "
+},
+{
+  "id": "crnt",
+  "level": "2",
+  "url": "subsec-carnt_therm.html#crnt",
+  "type": "Figure",
+  "number": "10.6.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-heat_pump",
+  "level": "1",
+  "url": "subsec-heat_pump.html",
+  "type": "Subsection",
+  "number": "10.6.10",
+  "title": "Heat Pump and Refrigerator",
+  "body": " Heat Pump and Refrigerator   Heat flows from hot body to cold body naturally. The reverse process, however, cannot occur by itself. To transfer heat from a low temperature region to a high temperature requires special devices called refrigerators or heat pump. Heat pumps transfer heat from a low temperature medium to a high temperature one. Refrigerators and heat pumps are essentially the same devices; they differ in their objectives only. Refrigerator is to maintain the refrigerated space at a low temperature. On the other hand, a heat pump absorbs heat from a low temperature source and supplies the heat to a warmer medium. Heat pumps and refrigerators are heat engine working in backward direction. They transfer heat from cold to hot.    Coefficient of Performance, COP:      The performance of refrigerators and heat pumps is expressed in terms of the coefficient of performance (COP) which is defined as coef. of perform.    Since it can be seen that    "
+},
+{
+  "id": "cop",
+  "level": "2",
+  "url": "subsec-heat_pump.html#cop",
+  "type": "Figure",
+  "number": "10.6.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-entropy",
+  "level": "1",
+  "url": "subsec-entropy.html",
+  "type": "Subsection",
+  "number": "10.6.11",
+  "title": "Entropy",
+  "body": " Entropy  A natural tendency of systems is to lose order. When sugar is dissolved in water it becomes more randomized and will not reconstitute itself in the crystalline form again, unless we apply heat energy from outside of the system to evaporate water. When a hot and a cold body are put in contact to each other, heat energy begins to flow from the hot body to the cold body until they reach at thermal equilibrium. Heat will never move back the other way. To move heat from a cold body to a hot body an external work must be done by an external source such as a heat pump. Entropy is a measure of that disorderness. It is a measure of the system's thermal energy per unit temperature that is unavailable for useful work. The concept of entropy provides the direction of spontaneous change for many process. It tells us that which process is allowed and which is completely prohibited even if it can not violet the fundamental law of conservation of energy. An ice cube placed on a hot pan surely melts, while the pan goes cooler. Such a process is called irreversible because no slight change will cause the melted water to turn back into ice while the pan goes hotter. In contrast, a block of ice placed in an ice water bath will either thaw a little more or freeze a little more, depending on whether a small amount of heat is added to or taken out from the system. Such a process is reversible because only an infinitesimal amount of heat is needed to change its direction from progressive freezing to progressive thawing.      Spontaneous change for an irreversible process in an isolated system always proceeds in a direction of increasing entropy. Entropy describes the degradation of energy to perform work. Crystals are more orderly than salt molecules in solution; however, vaporized water is more disordered than liquid water. The process taken as a whole results in a net increase in disorder. The first law of thermodynamics is the conservation of energy and is easy to express quantitatively. The second law explains that heat only flows from a hotter object to a colder one. It measures quantitatively that the efficiency of any reversible engine has to equal that of the Carnot cycle, and any irreversible engine has less efficiency. In the view of measuring the amount of irreversibility Clausius described a parameter, called entropy that doesn't change in a reversible process but always increases in an irreversible one.  The total work done by the gas is the area of the curve ABCD. Hence the work done must be just the difference between the heat supplied at and that dumped at Now the heat supplied along the initial hot isothermal path AB is equal to the work done along that curve, and the heat dumped into the cold reservoir along CD is   The difference between these two is the net work output. This can be simplified using the adiabatic equations for the other two sides of the cycle: and On dividing of these two equations, we get - and using that in the preceding equation for    So for the Carnot cycle the ratio of heat supplied to heat dumped is just the ratio of the absolute temperatures. If we draw many isotherms and many adiabatics curve, then we can find in general that This quantity is a definite thermal property of the working substance. During adiabatic change, there is no transfer of heat so this quantity is zero. Hence that thermal property of the substance which remains constant during an adiabatic change is termed as entropy .  Now let see what happen if we take the path ADCBA. The amount of heat absorbed at temperature when the gas passes from the state A to the state B remains constant even if a path other than the isotherm AB is followed. Now starting from the point A in reverse direction, let the path AD, DC, and CB be followed. Along the adiabatics AD and CB the quantity is zero and the quantity along the isothermal DC But we know that Hence the quantity is independent of the manner of transformation, i.e., the entropy is a definite function of the thermal state of a body and is not affected in any way by the manner in which the particular state is reached. In other words, entropy is a definite physical entity like pressure, volume, temperature, or internal energy but there is nothing physical to represent it . Entropy can not be felt like pressure or temperature. Further, we can not measure the absolute entropy of a substance in any situation, we can only measure the change in entropy as the substance moves from one state to another. Entropy is denoted by a letter, .  Change of entropy or, Change of entropy Temperature = Heat Energy.  That is the dimension of heat energy is same as that of the product of entropy and temperature. If we compare, gravitational potential energy mass height with the above expression then it seems like, entropy bears to heat motion in the same fashion as mass bears to linear motion. Hence entropy is also known as a thermal inertia. The second law of thermodynamics can be stated in terms of entropy. The total entropy of the universe is continually increasing because all natural process is irreversible and entropy increases in irreversible process where as there is no change in entropy in the reversible process. But reversible process barely happen in the universe.  Differential form of change of entropy, for reversible path.  Integral form for reversible path.  "
+},
+{
+  "id": "p-1245",
+  "level": "2",
+  "url": "subsec-entropy.html#p-1245",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Entropy "
+},
+{
+  "id": "heatcurve",
+  "level": "2",
+  "url": "subsec-entropy.html#heatcurve",
+  "type": "Figure",
+  "number": "10.6.10",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec_tenth-examplesB",
@@ -6361,7 +6631,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.7",
   "title": "Examples B",
-  "body": " Examples B   KTG    The rms speed of molecules is 1.84 km\/sec. What will be the rms speed of molecules at the same temperature? The molecular weights of hydrogen and oxygen are 2 and 32 respectively.    We know that         At what temperature does the kinetic energy of an atom be 1.0 eV? .    Average kinetic energy of an atom is given by  for a monoatomic molecule        At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.    We have - At NTP, . At NTP,          "
+  "body": " Examples B   KTG    The rms speed of molecules is 1.84 km\/sec. What will be the rms speed of molecules at the same temperature? The molecular weights of hydrogen and oxygen are 2 and 32 respectively.    We know that         At what temperature does the kinetic energy of an atom be 1.0 eV? .    Average kinetic energy of an atom is given by  for a monoatomic molecule        At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.    We have - At NTP, . At NTP,           I Law of Thermodynamics    A spherical balloon one foot in diameter contains helium at one atmosphere of pressure and at a temperature of . Find  the number of moles of helium in the balloon,  the number of molecules in the balloon,  the average kinetic energy of each helium molecule,  the rms velocity of a helium molecule,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of rubber that allows the pressure to remain at one atmosphere,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of non-stretching aluminum so the volume remains constant,  the final temperature of the balloon if it rises adiabatically to an altitude where the pressure is one-half atmosphere.      Given:       Here,                                   Now,          Use the principle of equipartition of energy to determine the equations for the internal energy, the molar specific heat capacity at constant volume, and the molar specific heat capacity at constant pressure for  a monatomic ideal gas,  diatomic ideal gas,  diatomic ideal gas with vibration, and  solid substance.      Internal energy per molecule of a gas,        for a monoatomic gas, f = 3 translational motion = 3 degrees of freedom.   for a diatomic gas, f = 3 translational + 2rotational motion = 5 degrees of freedom.   for a diatomic gas with vibration, f = 3 translational + 2rotational + 2 vibrational motions = 7 degrees of freedom. (in 2 vibrational motions we have: 1 dimensional stretch and 1 dimensional bend)   for solids, f = 3 D kinetic energy + 3 D potential energy = 6 degrees of freedom.         An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the temperature remains constant throughout the process, find each of the following:  the initial volume of the gas,  the final volume of the gas,  the final temperature of the gas,  the final pressure of the gas,  the work done by the gas,  the change in internal energy of the gas, and  the heat added to the gas.      Given:   and                                     Calculate the change in the internal energy when 5 gm of air is heated from to the specific heat of air at constant volume being  Note: 1 cal = 4.18 J.    From first law of thermodynamics, Since air is heated at constant volume          A system absorbs 2500 J of heat and at the same time does 90 J of external work.  Find the change in internal energy of the system.  Find the change in internal energy of the system if it absorbs 2500 J of heat at the same time 90 J of work done on it.  What will be the change in internal energy of the gas from which 400 J of heat is removed at constant volume.      From first law of thermodynamics,   Given:  We know that , hence if volume increases or is +ve, then is positive. That is, work done by the system is +ve.  Given:  We know that , hence if volume decreases or is -ve, then is negative. That is, work done on the system is -ve.  Given: and  -ve sign indicates that heat is taken out from the system.        II Law of Thermodynamics    A heat engine takes in 1000 J of heat from a reservoir at temperature 400 K and rejects 800 J of heat into a second heat reservoir at temperature 300 K.  How much work does the engine do per cycle.  If the engine makes 4000 rpm, what is the power output of the engine in Watts? In horsepower?  What is the actual efficiency of the engine?  What would be the efficiency of a Carnot engine utilizing the same temperatures?  Assuming the Carnot engine absorbed the same amount of heat per cycle as the original engine, how much work would it do per cycle?  Assuming it ran at the same speed as the original, what would be its power output?      Given:  and                                  A Carnot engine is used to make a heat pump. In winter time, the engine pumps heat from outside the house at a temperature of into the house at a temperature .  What is the COP of the heat pump?  How much heat is delivered into the house in 24 hours if the unit uses 1000 W of electrical power? In the summer time, the engine is used as an air conditioner pumping heat from an exterior temperature of to an interior temperature of .  What is the COP of this heat pump operating as an air conditioner?  What is the cooling capacity of this unit in Btu's per hour if it uses 1000 W of electrical power?        Given:    Given:      Given:    Given:              An engine works between the temperature and and develops 100 horse power. Assuming that its efficiency is equal to that of a Carnot engine working between the same temperature limits, calculate:  the heat supplied to the engine,  the heat rejected by the engine.        The efficiency of Carnot heat engine is given by Heat supplied by the engine per second is    The efficiency of heat engine is given by            A Carnot engine works at high temperature 600 K with the efficiency of . If the efficiency of the engine is and the low temperature kept constant, what is the high temperature?    For Carnot engine efficiency,   For heat engine efficiency,            A 10 moles of gas are allowed to expand isothermally at T = 300 K from an initial volume of 10 liters to a final volume of 30 liters. How much work does the gas do on the piston?  If the gas expands adiabatically from 10 to 30 liters. How much work does the gas do?        Work done by the gas in an isothermal process  Since n = 10 mole, R = 8.314 J\/mol\/K, and .  Work done by the gas in an adiabatic process  but,  where n = 10 mole, R = 8.314 J\/mol\/K, and for diatomic molecule.           If 3 moles of an ideal polyatomic gas initially with a volume of and a temperature of 273 K. This gas is compressed isothermally to 1\/2 its initial volume. How much heat must be added to the system during this compression?      Now, at constant T, . Hence,       The molar heat capacity of hydrogen gas at constant volume is It fills a volume of at pressure of 51 kPa. Determine the work done by the gas when it expands its volume five times  isothermally, and  adiabatically.        Work done in an isothermal process is given by     Work done in an adiabatic process is given by     Now,   Hence from eqn. ,           Entropy             "
 },
 {
   "id": "example-185",
@@ -6391,13 +6661,130 @@ var ptx_lunr_docs = [
   "body": "  At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.    We have - At NTP, . At NTP,        "
 },
 {
+  "id": "example-188",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-188",
+  "type": "Example",
+  "number": "10.7.4",
+  "title": "",
+  "body": "  A spherical balloon one foot in diameter contains helium at one atmosphere of pressure and at a temperature of . Find  the number of moles of helium in the balloon,  the number of molecules in the balloon,  the average kinetic energy of each helium molecule,  the rms velocity of a helium molecule,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of rubber that allows the pressure to remain at one atmosphere,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of non-stretching aluminum so the volume remains constant,  the final temperature of the balloon if it rises adiabatically to an altitude where the pressure is one-half atmosphere.      Given:       Here,                                   Now,       "
+},
+{
+  "id": "example-189",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-189",
+  "type": "Example",
+  "number": "10.7.5",
+  "title": "",
+  "body": "  Use the principle of equipartition of energy to determine the equations for the internal energy, the molar specific heat capacity at constant volume, and the molar specific heat capacity at constant pressure for  a monatomic ideal gas,  diatomic ideal gas,  diatomic ideal gas with vibration, and  solid substance.      Internal energy per molecule of a gas,        for a monoatomic gas, f = 3 translational motion = 3 degrees of freedom.   for a diatomic gas, f = 3 translational + 2rotational motion = 5 degrees of freedom.   for a diatomic gas with vibration, f = 3 translational + 2rotational + 2 vibrational motions = 7 degrees of freedom. (in 2 vibrational motions we have: 1 dimensional stretch and 1 dimensional bend)   for solids, f = 3 D kinetic energy + 3 D potential energy = 6 degrees of freedom.      "
+},
+{
+  "id": "example-190",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-190",
+  "type": "Example",
+  "number": "10.7.6",
+  "title": "",
+  "body": "  An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the temperature remains constant throughout the process, find each of the following:  the initial volume of the gas,  the final volume of the gas,  the final temperature of the gas,  the final pressure of the gas,  the work done by the gas,  the change in internal energy of the gas, and  the heat added to the gas.      Given:   and                                  "
+},
+{
+  "id": "example-191",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-191",
+  "type": "Example",
+  "number": "10.7.7",
+  "title": "",
+  "body": "  Calculate the change in the internal energy when 5 gm of air is heated from to the specific heat of air at constant volume being  Note: 1 cal = 4.18 J.    From first law of thermodynamics, Since air is heated at constant volume       "
+},
+{
+  "id": "example-192",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-192",
+  "type": "Example",
+  "number": "10.7.8",
+  "title": "",
+  "body": "  A system absorbs 2500 J of heat and at the same time does 90 J of external work.  Find the change in internal energy of the system.  Find the change in internal energy of the system if it absorbs 2500 J of heat at the same time 90 J of work done on it.  What will be the change in internal energy of the gas from which 400 J of heat is removed at constant volume.      From first law of thermodynamics,   Given:  We know that , hence if volume increases or is +ve, then is positive. That is, work done by the system is +ve.  Given:  We know that , hence if volume decreases or is -ve, then is negative. That is, work done on the system is -ve.  Given: and  -ve sign indicates that heat is taken out from the system.     "
+},
+{
+  "id": "example-193",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-193",
+  "type": "Example",
+  "number": "10.7.9",
+  "title": "",
+  "body": "  A heat engine takes in 1000 J of heat from a reservoir at temperature 400 K and rejects 800 J of heat into a second heat reservoir at temperature 300 K.  How much work does the engine do per cycle.  If the engine makes 4000 rpm, what is the power output of the engine in Watts? In horsepower?  What is the actual efficiency of the engine?  What would be the efficiency of a Carnot engine utilizing the same temperatures?  Assuming the Carnot engine absorbed the same amount of heat per cycle as the original engine, how much work would it do per cycle?  Assuming it ran at the same speed as the original, what would be its power output?      Given:  and                               "
+},
+{
+  "id": "example-194",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-194",
+  "type": "Example",
+  "number": "10.7.10",
+  "title": "",
+  "body": "  A Carnot engine is used to make a heat pump. In winter time, the engine pumps heat from outside the house at a temperature of into the house at a temperature .  What is the COP of the heat pump?  How much heat is delivered into the house in 24 hours if the unit uses 1000 W of electrical power? In the summer time, the engine is used as an air conditioner pumping heat from an exterior temperature of to an interior temperature of .  What is the COP of this heat pump operating as an air conditioner?  What is the cooling capacity of this unit in Btu's per hour if it uses 1000 W of electrical power?        Given:    Given:      Given:    Given:           "
+},
+{
+  "id": "example-195",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-195",
+  "type": "Example",
+  "number": "10.7.11",
+  "title": "",
+  "body": "  An engine works between the temperature and and develops 100 horse power. Assuming that its efficiency is equal to that of a Carnot engine working between the same temperature limits, calculate:  the heat supplied to the engine,  the heat rejected by the engine.        The efficiency of Carnot heat engine is given by Heat supplied by the engine per second is    The efficiency of heat engine is given by         "
+},
+{
+  "id": "example-196",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-196",
+  "type": "Example",
+  "number": "10.7.12",
+  "title": "",
+  "body": "  A Carnot engine works at high temperature 600 K with the efficiency of . If the efficiency of the engine is and the low temperature kept constant, what is the high temperature?    For Carnot engine efficiency,   For heat engine efficiency,       "
+},
+{
+  "id": "example-197",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-197",
+  "type": "Example",
+  "number": "10.7.13",
+  "title": "",
+  "body": "    A 10 moles of gas are allowed to expand isothermally at T = 300 K from an initial volume of 10 liters to a final volume of 30 liters. How much work does the gas do on the piston?  If the gas expands adiabatically from 10 to 30 liters. How much work does the gas do?        Work done by the gas in an isothermal process  Since n = 10 mole, R = 8.314 J\/mol\/K, and .  Work done by the gas in an adiabatic process  but,  where n = 10 mole, R = 8.314 J\/mol\/K, and for diatomic molecule.        "
+},
+{
+  "id": "example-198",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-198",
+  "type": "Example",
+  "number": "10.7.14",
+  "title": "",
+  "body": "  If 3 moles of an ideal polyatomic gas initially with a volume of and a temperature of 273 K. This gas is compressed isothermally to 1\/2 its initial volume. How much heat must be added to the system during this compression?      Now, at constant T, . Hence,    "
+},
+{
+  "id": "example-199",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-199",
+  "type": "Example",
+  "number": "10.7.15",
+  "title": "",
+  "body": "  The molar heat capacity of hydrogen gas at constant volume is It fills a volume of at pressure of 51 kPa. Determine the work done by the gas when it expands its volume five times  isothermally, and  adiabatically.        Work done in an isothermal process is given by     Work done in an adiabatic process is given by     Now,   Hence from eqn. ,        "
+},
+{
+  "id": "example-200",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#example-200",
+  "type": "Example",
+  "number": "10.7.16",
+  "title": "",
+  "body": "         "
+},
+{
   "id": "ex_tenth",
   "level": "1",
   "url": "ex_tenth.html",
   "type": "Exercises",
   "number": "10.8",
   "title": "Exercise",
-  "body": "  Exercise   Temperature & Expansion  An absolute temperature of 300 K is  how many degrees Fahrenheit?  How many degrees Celcius?    Find the temeprature at which Fahrenheit and Celcius scales have the same reading.  An aluminum wire 0.05 mm in diameter and 2 m long is heated from to . How much does it contract?  A steel gas tank is filled with 80 L (about 20 gallons) of gasoline at a temperature of .  How much gasoline flows out of the tank when the temperature rises to ?  If the hose of the tank is 4 cm in diameter, what is the minimum length of the hose in order to keep the gasoline from spilling?    A thin steel wire   of length 60 cm and diameter 0.5 mm has its ends attached to a large brass rod   of the same length. The system is heated from to .  How much does the brass rod expand?  How much would the steel wire have expanded if it had not been attached to the brass rod?  What is the thermal strain in the steel wire attached to the brass rod?  What is the thermal stress in the steel wire?  What is the tension in the wire?    The coefficient of linear expansion of lead is . What change in temperature will cause a 2 m long lead bar to change in length by 3.0 mm?  An aluminum can is filled to the brim with a liquid. The can and the liquid are heated so their temperatures change by the same amount. The can's initial volume at is . The coefficient of volume expansion for aluminum is When the can and the liquid are heated to  of liquid spills over. What is the coefficient of volume expansion for the liquid.    Calorimeter  If 100 g of steam condense into 1 kg of water initially at , what is the final temperature of the combination?   How much heat is required to take 10 moles of ice at to water at ?  A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 200 g of ice at .  How much ice melts?  What is the final temperature of the system?    A water fall is 500 m high.  What is the difference in temperature between the water at the top and bottom if no water evaporates while falling?  What fraction of the water must evaporate to keep the temperatures the same?    A man warms his hands by rubbing them together. Assume that his hands are made mostly of water, that they are 15 cm long and 5 cm wide, that he presses his hands together with 50 N of force, that the coefficient of friction between his hands is 0.5, that the hands move 10 cm with each stroke, that 30 strokes are made, and that the temperature of the surface of his hands increases . How thick is the surface of his hands which is being heated?  A 1.55 g of methanol is burnt in a calorimeter. If the molar heat of combustion of methanol is -725 \\,kJ\/mole, and assuming that the 2.0 L of water absorbed all of the heat of combustion, what temperature change did the water experience?  A 20g sample of iron at a temperature of is placed into a container of water. There are 300 ml of water in the container at a temperature of . What is the final temperature of the water?  and     Heat transfer  A copper rod of length 40 cm and diameter 2 cm is placed end to end with an iron rod of length 60 cm and diameter 2 cm. The combined rod is then insulated on its sides and the two ends subject to different temperatures. If the copper end is at and the iron end is at ,  what is the temperature at the copper-iron interface?  How many joules of heat energy flow through the system in 1 hour?    A Styrofoam ice chest is cubic in shape with each edge 30 cm long. Each face is a square sheet of Styrofoam 2 cm thick. If a 4 kg bag of ice is placed in the chest and the outside temperature is a constant ,  how long does it take the ice to melt?  How long after the ice melts does it take for the interior of the ice chest to heat up to ?    A solar home has 4 solar collectors each 1 m by 2 m with an average efficiency of . If the sun radiates of solar power upon the earth,  how many Btu's of heat are collected on an average day?  If the house is well insulated on the sides and bottom and if the roof\/ceiling is 20 ft by 40 ft consisting of lapped shingles (R = 0.87), dead air space (R = 1.01), 6 inch fiberglass insulation (R = 18.80), and sheetrock (R = 0.45), what will be the average interior temperature of the house if the outside temperature is a freezing ?    Two rods, one of aluminum and the other of copper are joined end to end. The cross-sectional area of each is and the length of each is 0.04 m. The free end of the aluminum rod is kept at while the free end of the copper rod is kept at . The loss of heat through the sides of the rods may be ignored.  What is the temperature at the aluminum-copper interface?  How much heat is conducted through the unit in 2.0 s?     The surface of the Sun has a temperature of   Treating the Sun as a perfect blackbody, with an emissivity of 1.0, find the power that it radiates into space. The radius of the sun is and the temperature of space can be taken to be 3.0 K.  The solar constant is the number of watts of sunlight power falling on a square meter of the Earth's upper atmosphere. Use your result from part (a) to calculate the solar constant, given that the distance from the Sun to the Earth is     A long copper rod of diameter 2.0cm is initially at a uniform temperature of It is now exposed to an air stream at with a heat transfer coefficient of How long would it take for the copper rod to cool at an average temperature of     KTG  How many molecules are in a cube of aluminum 2 cm on a side if the density of aluminum is and the atomic mass of aluminum is 26.98 u?  What is the rms speed of a diatomic oxygen molecule at a room temperature of 300 K? Assume ,   .  On first day a tank of oxygen having a volume of 100 L is filled to a gauge pressure of at a temperature of . On the second day the temperature is and the gauge pressure of the tank is .  How many moles of oxygen were initially in the container?  How many grams of oxygen were used before the second day measurements were made?    At high enough temperatures a diatomic molecule like hydrogen has three degrees of translational freedom, two degrees of rotational freedom, and two degrees of vibrational freedom. How much heat Q must be added to n moles of hydrogen to raise its temperature from such a high temperature to one even higher by an amount if the volume of the gas remains constant?  At what temperature does the oxygen molecules have the same rms speed as those of hydrogen at Molar mass of oxygen and hydrogen are 32 and 2, respectively.   "
+  "body": "  Exercise   Temperature & Expansion  An absolute temperature of 300 K is  how many degrees Fahrenheit?  How many degrees Celcius?    Find the temeprature at which Fahrenheit and Celcius scales have the same reading.  An aluminum wire 0.05 mm in diameter and 2 m long is heated from to . How much does it contract?  A steel gas tank is filled with 80 L (about 20 gallons) of gasoline at a temperature of .  How much gasoline flows out of the tank when the temperature rises to ?  If the hose of the tank is 4 cm in diameter, what is the minimum length of the hose in order to keep the gasoline from spilling?    A thin steel wire   of length 60 cm and diameter 0.5 mm has its ends attached to a large brass rod   of the same length. The system is heated from to .  How much does the brass rod expand?  How much would the steel wire have expanded if it had not been attached to the brass rod?  What is the thermal strain in the steel wire attached to the brass rod?  What is the thermal stress in the steel wire?  What is the tension in the wire?    The coefficient of linear expansion of lead is . What change in temperature will cause a 2 m long lead bar to change in length by 3.0 mm?  An aluminum can is filled to the brim with a liquid. The can and the liquid are heated so their temperatures change by the same amount. The can's initial volume at is . The coefficient of volume expansion for aluminum is When the can and the liquid are heated to  of liquid spills over. What is the coefficient of volume expansion for the liquid.    Calorimetery  If 100 g of steam condense into 1 kg of water initially at , what is the final temperature of the combination?   How much heat is required to take 10 moles of ice at to water at ?  A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 200 g of ice at .  How much ice melts?  What is the final temperature of the system?    A water fall is 500 m high.  What is the difference in temperature between the water at the top and bottom if no water evaporates while falling?  What fraction of the water must evaporate to keep the temperatures the same?    A man warms his hands by rubbing them together. Assume that his hands are made mostly of water, that they are 15 cm long and 5 cm wide, that he presses his hands together with 50 N of force, that the coefficient of friction between his hands is 0.5, that the hands move 10 cm with each stroke, that 30 strokes are made, and that the temperature of the surface of his hands increases . How thick is the surface of his hands which is being heated?  A 1.55 g of methanol is burnt in a calorimeter. If the molar heat of combustion of methanol is -725 \\,kJ\/mole, and assuming that the 2.0 L of water absorbed all of the heat of combustion, what temperature change did the water experience?  A 20g sample of iron at a temperature of is placed into a container of water. There are 300 ml of water in the container at a temperature of . What is the final temperature of the water?  and     Heat Transfer  A copper rod of length 40 cm and diameter 2 cm is placed end to end with an iron rod of length 60 cm and diameter 2 cm. The combined rod is then insulated on its sides and the two ends subject to different temperatures. If the copper end is at and the iron end is at ,  what is the temperature at the copper-iron interface?  How many joules of heat energy flow through the system in 1 hour?    A Styrofoam ice chest is cubic in shape with each edge 30 cm long. Each face is a square sheet of Styrofoam 2 cm thick. If a 4 kg bag of ice is placed in the chest and the outside temperature is a constant ,  how long does it take the ice to melt?  How long after the ice melts does it take for the interior of the ice chest to heat up to ?    A solar home has 4 solar collectors each 1 m by 2 m with an average efficiency of . If the sun radiates of solar power upon the earth,  how many Btu's of heat are collected on an average day?  If the house is well insulated on the sides and bottom and if the roof\/ceiling is 20 ft by 40 ft consisting of lapped shingles (R = 0.87), dead air space (R = 1.01), 6 inch fiberglass insulation (R = 18.80), and sheetrock (R = 0.45), what will be the average interior temperature of the house if the outside temperature is a freezing ?    Two rods, one of aluminum and the other of copper are joined end to end. The cross-sectional area of each is and the length of each is 0.04 m. The free end of the aluminum rod is kept at while the free end of the copper rod is kept at . The loss of heat through the sides of the rods may be ignored.  What is the temperature at the aluminum-copper interface?  How much heat is conducted through the unit in 2.0 s?     The surface of the Sun has a temperature of   Treating the Sun as a perfect blackbody, with an emissivity of 1.0, find the power that it radiates into space. The radius of the sun is and the temperature of space can be taken to be 3.0 K.  The solar constant is the number of watts of sunlight power falling on a square meter of the Earth's upper atmosphere. Use your result from part (a) to calculate the solar constant, given that the distance from the Sun to the Earth is     A long copper rod of diameter 2.0cm is initially at a uniform temperature of It is now exposed to an air stream at with a heat transfer coefficient of How long would it take for the copper rod to cool at an average temperature of     KTG  How many molecules are in a cube of aluminum 2 cm on a side if the density of aluminum is and the atomic mass of aluminum is 26.98 u?  What is the rms speed of a diatomic oxygen molecule at a room temperature of 300 K? Assume ,   .  On first day a tank of oxygen having a volume of 100 L is filled to a gauge pressure of at a temperature of . On the second day the temperature is and the gauge pressure of the tank is .  How many moles of oxygen were initially in the container?  How many grams of oxygen were used before the second day measurements were made?    At high enough temperatures a diatomic molecule like hydrogen has three degrees of translational freedom, two degrees of rotational freedom, and two degrees of vibrational freedom. How much heat Q must be added to n moles of hydrogen to raise its temperature from such a high temperature to one even higher by an amount if the volume of the gas remains constant?  At what temperature does the oxygen molecules have the same rms speed as those of hydrogen at Molar mass of oxygen and hydrogen are 32 and 2, respectively.    I Law of Thermodynamics  An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is first cooled at a constant volume to half its initial pressure and then allowed to expand at constant pressure to its final volume, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.    An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is first allowed to expand at constant pressure to its final volume and then cooled at constant volume to half its initial pressure, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.    An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is allowed to expand adiabadically to twice its initial volume, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.      With the assumption that the air temperature is a uniform , what is the atmospheric pressure at an altitude of 5000 m?  With the assumption that a bubble of air rises adiabatically from the surface of the earth to the pressure obtained in part (a) of this problem, what would be the temperature of the bubble at that altitude?  Which of the previous two inconsistent assumptions is more realistic and why?      II Law of Thermodynamics  A heat engine absorbs 1000 J of heat at a temperature of 400 K and deposits 900 J of heat at 300 K. What is the efficiency of this engine?  A Carnot engine absorb 1000 J of heat at temperature of 400 K and rejects heat at 300 K. How much heat does it reject?  An ideal heat pump pumps heat from an outside temperature of into an inside temperature of . If 1000 J of heat are deposited into the house every second and if electricity costs 10 cents per kilowatt-hour, then what is the cost of operating this heat pump for 24 h?  A refrigerator requires an amount of work W to extract heat Qc from a refrigerator and reject an amount of heat Qh into the surroundings. What is the coefficient of performance of the refrigerator?  What is the coefficient of performance of a Carnot refrigerator whose inside temperature is an whose outside temperature is if it takes 500 W of electrical power to operate it?  A gasoline engine operates approximately according to the Otto cycle which takes in a gas\/air mixture at ambient temperature , compresses that mixture adiabatically to a higher temperature , ignites the mixture at constant volume to an even higher temperature , expands the gas adiabatically to a cooler temperature , reduces the pressure at constant volume back to , and then expels the gas into the atmosphere. The efficiency of an Otto cycle is . Assume , and .  What is the efficiency of this gasoline engine?  What would be the maximum possible efficiency of an ideal heat engine utilizing these same temperatures?  What is the efficiency ratio for this gasoline engine (i.e. the ratio of its efficiency to the maximum possible efficiency)?      Entropy     "
 },
 {
   "id": "exercise-224",
@@ -6623,6 +7010,105 @@ var ptx_lunr_docs = [
   "number": "10.8.25",
   "title": "",
   "body": "At what temperature does the oxygen molecules have the same rms speed as those of hydrogen at Molar mass of oxygen and hydrogen are 32 and 2, respectively. "
+},
+{
+  "id": "exercise-249",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-249",
+  "type": "Exercise",
+  "number": "10.8.26",
+  "title": "",
+  "body": "An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is first cooled at a constant volume to half its initial pressure and then allowed to expand at constant pressure to its final volume, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.   "
+},
+{
+  "id": "exercise-250",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-250",
+  "type": "Exercise",
+  "number": "10.8.27",
+  "title": "",
+  "body": "An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is first allowed to expand at constant pressure to its final volume and then cooled at constant volume to half its initial pressure, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.   "
+},
+{
+  "id": "exercise-251",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-251",
+  "type": "Exercise",
+  "number": "10.8.28",
+  "title": "",
+  "body": "An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is allowed to expand adiabadically to twice its initial volume, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.   "
+},
+{
+  "id": "exercise-252",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-252",
+  "type": "Exercise",
+  "number": "10.8.29",
+  "title": "",
+  "body": "  With the assumption that the air temperature is a uniform , what is the atmospheric pressure at an altitude of 5000 m?  With the assumption that a bubble of air rises adiabatically from the surface of the earth to the pressure obtained in part (a) of this problem, what would be the temperature of the bubble at that altitude?  Which of the previous two inconsistent assumptions is more realistic and why?   "
+},
+{
+  "id": "exercise-253",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-253",
+  "type": "Exercise",
+  "number": "10.8.30",
+  "title": "",
+  "body": "A heat engine absorbs 1000 J of heat at a temperature of 400 K and deposits 900 J of heat at 300 K. What is the efficiency of this engine? "
+},
+{
+  "id": "exercise-254",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-254",
+  "type": "Exercise",
+  "number": "10.8.31",
+  "title": "",
+  "body": "A Carnot engine absorb 1000 J of heat at temperature of 400 K and rejects heat at 300 K. How much heat does it reject? "
+},
+{
+  "id": "exercise-255",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-255",
+  "type": "Exercise",
+  "number": "10.8.32",
+  "title": "",
+  "body": "An ideal heat pump pumps heat from an outside temperature of into an inside temperature of . If 1000 J of heat are deposited into the house every second and if electricity costs 10 cents per kilowatt-hour, then what is the cost of operating this heat pump for 24 h? "
+},
+{
+  "id": "exercise-256",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-256",
+  "type": "Exercise",
+  "number": "10.8.33",
+  "title": "",
+  "body": "A refrigerator requires an amount of work W to extract heat Qc from a refrigerator and reject an amount of heat Qh into the surroundings. What is the coefficient of performance of the refrigerator? "
+},
+{
+  "id": "exercise-257",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-257",
+  "type": "Exercise",
+  "number": "10.8.34",
+  "title": "",
+  "body": "What is the coefficient of performance of a Carnot refrigerator whose inside temperature is an whose outside temperature is if it takes 500 W of electrical power to operate it? "
+},
+{
+  "id": "exercise-258",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-258",
+  "type": "Exercise",
+  "number": "10.8.35",
+  "title": "",
+  "body": "A gasoline engine operates approximately according to the Otto cycle which takes in a gas\/air mixture at ambient temperature , compresses that mixture adiabatically to a higher temperature , ignites the mixture at constant volume to an even higher temperature , expands the gas adiabatically to a cooler temperature , reduces the pressure at constant volume back to , and then expels the gas into the atmosphere. The efficiency of an Otto cycle is . Assume , and .  What is the efficiency of this gasoline engine?  What would be the maximum possible efficiency of an ideal heat engine utilizing these same temperatures?  What is the efficiency ratio for this gasoline engine (i.e. the ratio of its efficiency to the maximum possible efficiency)?   "
+},
+{
+  "id": "exercise-259",
+  "level": "2",
+  "url": "ex_tenth.html#exercise-259",
+  "type": "Exercise",
+  "number": "10.8.36",
+  "title": "",
+  "body": " "
 },
 {
   "id": "appendix-1",
