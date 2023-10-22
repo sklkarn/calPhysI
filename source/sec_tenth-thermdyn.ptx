@@ -880,6 +880,8 @@
 
     <subsection xml:id="subsec-entropy">
         <title>Entropy</title>
+        <introduction>
+           
         <p>
             A natural tendency of systems is to lose order. When sugar is dissolved in water it becomes more randomized and 
             will not reconstitute itself in the crystalline form again, unless we apply heat energy from outside of the system 
@@ -1012,6 +1014,205 @@
                                         </me>
                                         for reversible path.
                                     </p>
+       </introduction>
+
+
+       <subsubsection xml:id="subsubsec-entropy_incrs">
+        <title>Principle of increase of entropy:</title>
+        <p>
+            According to this principle, entropy of the universe always increases 
+            for any irreversible process, or remains constant for a reversible process.
+
+<ol marker="i.">
+    <li>
+         <em>Change of entropy of the universe due to reversible process:</em> Consider a Carnot cycle 
+            in isothermal expansion. The increase of entropy of the working substance 
+            is equal to <m>\frac{Q_{h}}{T_{h}}.</m>  The decrease of entropy of the source is equal to 
+            <m>\frac{Q_{h}}{T_{h}}. </m> Thus the net change of entropy of universe during a reversible 
+            isothermal process is <em>zero</em>. There is no change of entropy during adiabatic process. 
+            Similarly, the decrease of entropy of the working substance during  isothermal compression 
+            is <m>\frac{Q_{c}}{T_{c}},</m> the increases of entropy of the sink during isothermal 
+            compression is <m>\frac{Q_{c}}{T_{c}}.</m>
+            Therefore, net change of entropy of the universe is zero. Now take the entire Carnot cycle 
+            at once, then loss of entropy of the source (surrounding) is 
+            <m>\frac{Q_{h}}{T_{h}}</m> and gains of entropy of the sink (surrounding) is <m>\frac{Q_{c}}{T_{c}}</m>, 
+            hence the net change of entropy of the universe,
+            <me>
+                \,dS=\frac{Q_{c}}{T_{c}} -\frac{Q_{h}}{T_{h}}=0
+            </me>
+            <me>
+                \therefore \quad \frac{Q_{c}}{T_{c}} =\frac{Q_{h}}{T_{h}}
+            </me>
+             The entropy of the whole system remains constant.  
+          </li>
+    <li>
+        <em>Change of entropy of the universe due to irreversible process:</em> 
+        Consider a heat transfer in conduction process. It is an irreversible process. 
+        Let a quantity <m>\,dQ </m> be transferred from a hot body A at a temperature 
+        <m>T_{h}</m> to a cold body B at temperature <m>T_{c}.</m> The loss of entropy 
+        of A is <m>\frac{\,dQ}{T_{h}}</m> and the gain of entropy of B is <m>\frac{\,dQ}{T_{c}}.</m> 
+        Thus the net change in entropy is 
+        <me>
+            \,dS= \frac{\,dQ}{T_{c}}-\frac{\,dQ}{T_{h}}  = +ve
+        </me>
+        Since <m>T_{h} \gt T_{c}</m>. Therefore the entropy of the system as a whole 
+        increase during this process. The entropy of the universe increases in the irreversible process.
+        </li>
+</ol>
+        </p>
+      </subsubsection>
+
+
+      <subsubsection xml:id="subsubsec-entropy_degrad">
+        <title>Principle of degradation of entropy:</title>
+        <p>
+            It states that the available energy of the universe is tending towards zero. 
+            From the second law whenever an irreversible process takes place, a certain 
+            quantity of energy of the universe is converted from a form in which it is 
+            unavailable for work. In Carnot engine, <m>Q_{h}</m> is the heat that is 
+            taken from a source and <m>Q_{c}</m> is the amount of heat given to the sink. 
+            The difference of this heat <m> Q_{h}-Q_{c}</m> is converted into work and 
+            is called the <term>available energy</term>. 
+            Available energy is therefore, 
+            <me>
+                Q_{h}-Q_{c} = Q_{h}\left(1-\frac{Q_{c}}{Q_{h}}\right)  = Q_{h}\left(1-\frac{T_{c}}{T_{h}}\right)
+            </me>
+            <m>\left[\because  \frac{Q_{c}}{Q_{h}}=\frac{T_{c}}{T_{h}} \right]</m>
+          Thus the lower the temperature <m>T_{c}</m> of the sink, the greater will be the available energy. 
+        </p>
+        <p>
+            Now consider an irreversible process in which heat Q is transferred from hot 
+            body at temperature <m>T_{h}</m> to a cold body at temperature <m>T_{c}.</m> 
+            Suppose <m>T_{o}</m> is the lowest available temperature in the system, 
+            then available energy to start with is <m>Q\left(1-\frac{T_{o}}{T_{h}}\right).</m>
+            After transfer it becomes <m>Q\left(1-\frac{T_{o}}{T_{c}}\right).</m> 
+            Hence the loss available energy in the process of transformation is 
+            <me>
+                Q\left(1-\frac{T_{o}}{T_{h}}\right)- Q\left(1-\frac{T_{o}}{T_{c}}\right)
+            </me>
+            <me>
+                = Q\left[\frac{T_{o}}{T_{c}}-\frac{T_{o}}{T_{h}}\right] = T_{o}\left(\frac{Q}{T_{c}}-\frac{Q}{T_{h}} \right)=T_{o}\,dS.
+            </me>
+            Since <m>\,dS</m> is increasing in irreversible process available energy is decreasing. 
+            All natural process are irreversible the available energy of the universe is 
+            continually decreasing.  When a state of maximum entropy of the universe is 
+            reached there would be no available energy to do any work, this condition 
+            is called the <term>heat-death</term>. 
+            </p>
+      </subsubsection>
+    </subsection>
+
+
+    <subsection xml:id="subsec-entropy_prob">
+        <title>Entropy and Probability</title>
+        <p>
+            Entropy is intimately connected with the probability. 
+            If you toss four pennies, then it has very less chance that all four 
+            will land heads up. It is six times more likely to get two heads and two 
+            tails up. The two heads - two tails state is the most likely, shows the most disorder, 
+            and has the highest entropy. Four heads is less likely, has the most order, 
+            and the lowest entropy. If you tossed more coins, it would be even less likely 
+            that they'd all land heads up, and even more likely that you'd end up 
+            with close to the same number of heads as tails. 
+        </p>
+        <p>
+            Let S be entropy and <m>\omega</m> be the maximum probability of the 
+            system in a definite state, then we can write 
+            <me>
+                S=f(\omega)
+            </me>
+           Now consider <m>S_{1}</m> and <m>S_{2}</m> are the entropies of the two 
+           system then total entropy of the combined system will be 
+           <me>
+            S =S_{1}+S_{2}
+           </me>
+           entropy is an additive quantity. The probability of a composite system 
+           is equal to the product of the probabilities of the individual system. That is,
+           <me>
+            \omega = \omega_{1}\omega_{2} 
+           </me>
+        Therefore, 
+        <men xml:id="eqn-entr_prob1">
+            S =S_{1}+S_{2}  
+        </men>
+        <men xml:id="eqn-entr_prob2">
+            f(\omega_{1}\omega_{2}) = f(\omega_{1})+f(\omega_{2}) 
+        </men>
+      Differentiating eqn. <xref ref="eqn-entr_prob2"/> with respect to <m>\omega_{1}</m>, 
+       keeping <m>\omega_{2} </m> constant, we get - 
+       <men xml:id="eqn-entr_prob3">
+        \omega_{2}f'(\omega_{1}\omega_{2}) = f'(\omega_{1}) 
+       </men>
+       Again differentiating this eqn. <xref ref="eqn-entr_prob2"/> 
+       with respect to <m>\omega_{2},</m>  keeping by <m> \omega_{1}</m> constant, we get - 
+       <men xml:id="eqn-entr_prob4">
+        \omega_{1}f'(\omega_{1}\omega_{2}) = f'(\omega_{2})  
+       </men>
+    Dividing eqns. <xref ref="eqn-entr_prob3"/> and <xref ref="eqn-entr_prob4"/>, we get - 
+    <men xml:id="eqn-entr_prob5">
+        \frac{\omega_{2}}{\omega_{1}} = \frac{f'(\omega_{1})}{f'(\omega_{2})}
+    </men>
+    <me>
+        \text{or,}\quad \omega_{1} f'(\omega_{1}) =\omega_{2} f'(\omega_{2}) = k,\quad \text{constant}
+    </me>
+    So that 
+    <me>
+        f'(\omega_{1}) = \frac{k}{\omega_{1}}\qquad \text{and}\quad  f'(\omega_{2}) = \frac{k}{\omega_{2}}
+    </me>
+    Integrating these expressions, we get - 
+    <me>
+        \int f'(\omega_{1})\,d\omega_{1} = \int \frac{k}{\omega_{1}}\,d\omega_{1}
+    </me>
+    <men xml:id="eqn-entr_prob6">
+        \therefore\quad f(\omega_{1}) = k\ln\omega_{1}+C 
+    </men>
+   also, 
+   <me>
+    \int f'(\omega_{2})\,d\omega_{2} = \int \frac{k}{\omega_{2}}\,d\omega_{2}
+   </me>
+   <men xml:id="eqn-entr_prob7">
+    \therefore\quad f(\omega_{2}) = k\ln\omega_{2}+C 
+   </men>
+   In general, 
+   <me>
+    f(\omega) = k\ln\omega+C
+   </me>
+   <me>
+    \text{or,}\quad S =   k\ln\omega+C 
+   </me>
+   Where C is a constant of integration which can be determined by 
+   initial conditions. In case of a perfect order, <m>\omega=1</m> 
+   and <m>S=0 </m>, then <m>C =0.</m> 
+   <me>
+    \therefore \quad S =k\ln \omega
+   </me>
+   Hence the microscopic definition of entropy is given by 
+   <men xml:id="eqn-entr_prob8">
+    S = N k_{B} ln \omega  
+   </men>
+   Where <m> k=Nk_{B}</m> for N number of molecules of gas and <m>k_{B} </m> is Boltzmann constant.
+        </p>
+    </subsection>
+   
+
+    <subsection xml:id="subsec-III_law">
+        <title>Third Law of Thermodynamics</title>
+        <p>
+            From now we may have known that the entropy difference between two points like the 
+            potential energy. Where we must define the base line to calculate the potential energy. 
+            We already have a natural base line thermodynamically, a system at absolute zero 
+            has zero entropy. This is sometimes called the third law of thermodynamics. 
+            The efficiency of Carnot engine, 
+            <me>
+                \eta= 1-\frac{T_{c}}{T_{h}} 
+            </me>
+            If <m> T_{c} =0,</m> <m>\eta =1,</m> i.e., <m>100\% </m>efficient. 
+            It means if the temperature of the sink be zero, then complete 
+            conversion of heat into work is possible.  But further lowering of 
+            temperature if it is already sufficiently low is not easy. 
+            Hence, third law states that it is impossible by any procedure 
+            to reduce temperature of any system to absolute zero.     
+        </p>
     </subsection>
   </section>
 

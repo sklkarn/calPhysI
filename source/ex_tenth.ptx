@@ -99,7 +99,7 @@
 
 
 <paragraphs>
-  <title>Calorimetery</title>
+  <title>Calorimetry</title>
   <exercise>
     <p>
       If 100 g of steam condense into 1 kg of water initially at <m>25^{o}C</m>, 
@@ -515,10 +515,120 @@
   <title>Entropy</title>
   <exercise>
     <p>
-      
+      The heat of fusion of a substance is <m>L_{f}</m>. What is the change in entropy 
+      of a mass m of the substance if it freezes at temperature <m>T_{f}</m>.?
     </p>
   </exercise>
 
+  <exercise>
+    <p>
+      A mass m with specific heat c is heated from temperature <m>T_{i}</m> to <m>T_{f}</m>. 
+      What is its change in entropy?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Water has a specific heat capacity of 4.18 J/g, a heat of fusion of 333 J/g, 
+      and a heat of vaporization of <m>2.26\times10^{3} \,J/g</m>. If 100 g of ice at 
+      <m>0\,^{o}C</m> is dropped into 100 g of water at <m>27\,^{o}C</m>, 
+      then what is the change in entropy of the universe? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Which has the greatest entropy 
+      <ol marker="a.">
+        <li>
+          ice below freezing temperature,
+        </li>
+        <li>
+          ice at freezing temperature, 
+        </li>
+        <li>
+          liquid water at freezing temperature, 
+        </li>
+        <li>
+          water above freezing temperature,
+        </li>
+        <li>
+          No general statement can be made.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A house has the least entropy when it is 
+      <ol marker="a.">
+        <li>
+          neat,
+        </li>
+        <li>
+          cluttered, 
+        </li>
+        <li>
+          clean and neat,
+        </li>
+        <li>
+          cluttered and dirty,
+        </li>
+        <li>
+          No general statement applies in this situation.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+
+  <exercise>
+    <p>
+      A gas expands adiabatically and reversibly. What is its change in entropy?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A Carnot engine in one cycle takes in 2000 J of heat at 500 K and discards heat at 300 K. 
+      <ol marker="a.">
+        <li>
+          How much work does it do?
+        </li>
+        <li>
+          How much heat does it discard? 
+        </li>
+        <li>
+          What is its change in entropy during its isothermal expansion?
+        </li>
+        <li>
+          What is its change in entropy during its adiabatic expansion? 
+        </li>
+        <li>
+          What is its change in entropy during its isothermal compression? 
+        </li>
+        <li>
+          What is its change in entropy during its adiabatic compression? 
+        </li>
+        <li>
+          What is its total change in entropy?
+        </li>
+        <li>
+          What is the change in entropy of the hot reservoir?
+        </li>
+        <li>
+          What is the change in entropy of the cold reservoir?
+        </li>
+        <li>
+          What is the change in entropy of the universe? 
+        </li>
+        <li>
+          Is this result consistent with the second law of thermodynamics?
+        </li>
+      </ol>
+       </p>
+  </exercise>
 </paragraphs>
 
 

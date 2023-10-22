@@ -886,16 +886,277 @@
 <example>
   <statement>
     <p>
-      
+      A cube of ice of mass 100 grams and temperature <m>0\,^{o}C</m> is placed 
+      in a beaker and heated until the ice melts and the water reaches <m>100\,^{o}C</m>. 
+      What is the change in entropy of the mass?
     </p>
   </statement>
   <solution>
     <p>
-      
+      Given: <m>m=100 \,g,\quad T_{1}=0\,^{o}C = 273 \,K,</m> 
+       <m>T_{2}=100\,^{o}C = 373 \,K, \quad L=334\,J/g,</m>   and <m> c=4.186 \,J/g-K.</m> 
+       Change in entropy for ice melts - 
+       <me>
+        \Delta S_{1} =\frac{\Delta Q_{1}}{T_{1}}
+       </me>
+       <me>
+        = \frac{mL}{T_{1}} = \frac{100 \,g\times 334 \,J/g}{273\,K} = 122.3 \,J/K
+       </me>
+       Change in entropy for water heating up - 
+       <me>
+        \Delta S_{2} =\int \frac{\,dQ}{T}
+       </me>
+       <me>
+        \text{but,}\quad \,dQ = mc\,dT
+       </me>
+       <me>
+        \therefore\quad \Delta S_{2} =mc\int\limits_{T_{1}}^{T_{2}} \frac{\,dT}{T}
+       </me>
+       <me>
+        = mc\ln\left(\frac{T_{2}}{T_{1}}\right) = 130.6 \,J/K
+       </me>
+   Therefore total change in entropy, 
+   <me>
+    \Delta S = \Delta S_{1}+\Delta S_{2} = 253 \,J/K.
+   </me>
+     </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      A piece of iron <m>(c = 448 \,J/kg.^{o}C)</m> having a mass of 300 g and 
+      temperature of <m>200\,^{o}C</m> is placed in a well insulated and massless 
+      calorimeter containing 500 g of water <m>(c = 4186\,J/kg.^{o}C)</m> at <m>30\,^{o}C</m>. 
+      <ol marker="a.">
+        <li>
+          What is the final temperature of the system? 
+        </li>
+        <li>
+          What is the change in entropy of the iron?
+        </li>
+        <li>
+          What is the change in entropy of the water? 
+        </li>
+        <li>
+          What is the change in entropy of the universe?
+        </li>
+        <li>
+          Is this result consistent with the second law of thermodynamics? Why?
+        </li>
+      </ol>
+        </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>m_{1}=300 \,g =0.3\,kg, \quad m_{2}=500 \,g =0.5\,kg, </m>  
+      <m>c_{1}=448 \,J/kg-K, \quad c_{2}=4186 \,J/kg-K,</m> <m>T_{1}=200\,^{o}C = 473 \,K </m> 
+       and  <m>T_{2}=30\,^{o}C = 303 \,K.</m>
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          From the principle of calorimetry, 
+          Heat lost by iron = heat gained by water. 
+          <me>
+            m_{1}c_{1}(T_{1}-T_{f}) = m_{2}c_{2}(T_{f}-T_{2}) 
+          </me>
+          <me>
+            \text{or,}\quad (0.3 \,kg)(448 \,J/kg.K) (473-T_{f}) = (0.5 \,kg)(4186 \,J/kg.K)(T_{f}-303) 
+          </me>
+          <me>
+            \therefore\quad T_{f}= 313 \,K 
+          </me>
+           </li>
+        <li>
+          <me>
+            \Delta S_{1} = \int\limits_{T_{1}}^{T_{2}} \frac{mc\,dT}{T}  = mc\ln\left(\frac{T_{f}}{T_{1}}\right) = -55.4 \,J/K
+          </me>
+             </li>
+        <li>
+          <me>
+            \Delta S_{2} = \int\limits_{T_{2}}^{T_{f}} \frac{mc\,dT}{T}  = mc\ln\left(\frac{T_{f}}{T_{2}}\right) = 69.7\,J/K
+          </me>
+              </li>
+        <li>
+        <me>
+          \Delta S = \Delta S_{1}+\Delta S_{2} =14.3 \,J/K
+        </me>
+           </li>
+        <li>
+          Yes, entropy of the universe increases.
+        </li>
+      </ol>
     </p>
   </solution>
 </example>
 
+<example>
+  <statement>
+    <p>
+      On the microscopic level entropy is defined as
+       <me>S = N k_{B} ln \omega</me>, where <m>\omega</m> is the number of microscopic 
+       states available to the system in its macroscopic state. For a single gas molecule, 
+       the number of available microscopic states is proportional to the volume V of 
+       the container so that  <me>
+        \omega_{1}  =  k V
+       </me>
+       where k is a constant of proportionality. 
+       <ol marker="a.">
+        <li>
+          If there are N such molecules in the same container, show that the number 
+          of available microscopic states is <m>\omega  =  \omega_{1}^{N}</m>
+        </li>
+        <li>
+          How many microscopic states are available for one mole of gas in a volume V? 
+        </li>
+        <li>
+          In terms of <m>k, \,V, \,N_{A},</m> and <m>k_{B}</m>, what is the entropy of a mole of gas in volume V? 
+        </li>
+        <li>
+          If one mole of gas initially in a volume of 1 L is allowed to expand freely into a 
+          vacuum of volume 2 L,  what is the change in entropy of the gas? 
+        </li>
+        <li>
+          Is this result consistent with the second law of thermodynamics? Why?
+        </li>
+       </ol>
+         </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          For each state <m>\omega_{1} </m> of one molecule a second molecule can be 
+          in any one of <m>\omega_{2}</m> states. Therefore, the total number of microstates 
+          for two particles is <m>\omega_{2} = W_{1}^{2}.</m>  For each of these states 
+          the third particle cab be in any one of <m>\omega_{1} </m> states, so <m>\omega_{3} = \omega_{1}^{3}. </m>
+            Generalizing to N particles gives, <m>\omega_{N}=\omega_{1}^{N}.</m>
+        </li>
+        <li>
+          For one mole of gas, there are <m> N_{A}</m> molecules, so the above equation becomes, 
+          <me>
+            \omega = \omega_{1}^{N_{A}} = (kV)^{N_{A}} 
+          </me>
+            </li>
+        <li>
+          Since <m>S=Nk_{B}\ln \omega,</m> then for one mole, 
+          <me>
+            S=N_{A}k_{B}\ln (kV)^{N_{A}} = N_{A}^{2}k_{B}\ln (kV)
+          </me>
+            </li>
+        <li>
+          <m>V_{1}= 1L, \quad V_{2} =2L</m> 
+          <me>
+            \Delta S = S_{2}-S_{1} = N_{A}^{2}k_{B}\ln (kV_{2}) - N_{A}^{2}k_{B}\ln (kV_{1})
+          </me>
+          <me>
+            = N_{A}^{2}k_{B}\ln \left(\frac{V_{2}}{V_{1}}\right)= N_{A}^{2}k_{B}\ln 2
+          </me>
+             </li>
+        <li>
+          Yes, entropy of the universe increases.
+        </li>
+       </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Calculate the change in entropy of 1 g of ice at <m> 0\,^{o}C</m> is concerted into 
+      steam at <m>100\,^{o}C</m>. Latent heat of fusion = 80 cal/g, latent heat of 
+      vaporization = 540 cal/g, and specific heat capacity of water is <m>1 \,cal/g/^{o}C.</m>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="i.">
+        <li>
+          When ice melts to water at <m>0\,^{o}C,</m> then change in entropy, 
+          <me>
+            \,dS_{1} = \frac{\,dQ}{T} = \frac{mL_{f}}{T} 
+          </me>
+          <me>
+            = \frac{1\times 80}{273} =0.293 \,cal/K
+          </me>
+                </li>
+        <li>
+          When water is heated from <m>0\,^{o}C </m> to <m>100\,^{o}C,</m> then change in entropy,
+          <me>
+            \,dS_{2} =\int \frac{\,dQ}{T}
+          </me>
+          <me>
+            = mc\ln \frac{T_{f}}{T_{i}}  = 1\times 1\times \ln \frac{373}{273} =0.312 \,cal/K
+          </me>
+            </li>
+        <li>
+          When water is converted into steam at <m>100\,^{o}C,</m> then change in entropy, 
+          <me>
+            \,dS_{3} = \frac{\,dQ}{T}
+          </me>
+          <me>
+            = \frac{mL_{v}}{T} = \frac{1\times 540}{373} =1.448 \,cal/K
+          </me>
+          Hence the total change in entropy when one gram of ice at <m> 0\,^{o}C</m> 
+          is converted into steam at <m>100\,^{o}C</m> is  
+          <me>
+            S=0.293+0.312+1.448 = 2.053 \,cal/K
+          </me>
+          </li>
+           </ol>
+     </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Calculate the change in entropy when 1 kg of water at <m>0^{o}C</m> is 
+      mixed with 1 kg of water at <m>100\,^{o}C.</m>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      If t be the final temperature of mixture then, heat lost by 1 kg of water 
+      at <me>
+        100\,^{o}C = 1000\times1\times (100-t)
+      </me> 
+      and heat gained by 1 kg of water at 
+      <me>
+        0\,^{o}C =1000\times1\times (t-0)
+      </me>
+    From the principle of calorimetry, 
+      </p>
+      <p>
+        Heat lost = Heat gained. Therefore,
+        <me>
+          1000\times1\times (100-t) = 1000\times1\times (t-0)
+        </me>
+        <me>
+          \therefore\quad t = 50\,^{o}C 
+        </me>
+         Now increase in entropy of 1kg of water in heating from <m>0\,^{o}C</m> to <m>50\,^{o}C</m>  is 
+         <me>
+          \,dS = \int \frac{\,dQ}{T}
+         </me>
+         <me>
+          = mc \ln\frac{T_{f}}{T_{i}} = 1000\times 1\times \ln \frac{323}{273} = 168 \,cal/K 
+         </me>
+         Decrease in entropy of 1kg of water in cooling from <m>100\,^{o}C</m> to <m>50\,^{o}C</m>  is 
+         <me>
+          \,dS = \int \frac{\,dQ}{T}
+         </me>
+         <me>
+          = mc \ln\frac{T_{f}}{T_{i}} = 1000\times 1\times \ln \frac{323}{373} = -144 \,cal/K 
+         </me>
+         Therefore the net increase in entropy of the system = 168-144 = 24 cal/K.
+      </p>
+  </solution>
+</example>
 </paragraphs>
 
 
