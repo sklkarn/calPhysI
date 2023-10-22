@@ -298,7 +298,7 @@ From eqns. <xref ref="eqn-sm1"/> and <xref ref="eqn-sm2"/>, we have -
       <me>
         \therefore\quad  IMA =  \frac{d_{in}}{d_{out}}=\frac{s}{h}=\frac{4h}{h} =4
       </me>
-        Suppose the load, <m>F_{out} =100N,</m> then the actual input force would 
+        Suppose the load, <m>F_{out} =100\,N,</m> then the actual input force would 
         be a little greater than the ideal value of <m>F_{in}</m>, say 25N in this case, 
          It might be 30 N. The extra 5 newtons is used to overcome the friction.
          <me>

@@ -27,7 +27,10 @@ between them, and <m>G  =  6.67 \times 10^{-11} N.m^{2}/kg^{2}</m>, is the propo
 constant, also called the universal gravitational constant. The value of G was first 
 measured by <em>Sir Henry Cavendish</em>  experimentally in 1798.  The force <m>F_{12}</m> 
 is the force on mass 1 due to mass 2, the force <m> F_{21}</m> is the force on mass 
-2 due to mass 1, and they are equal and opposite [<xref ref="NLG1"/>].
+2 due to mass 1, and they are equal and opposite [<xref ref="NLG1"/>]. <notation>
+  <usage><m>G</m></usage>
+  <description>universal gravitational constant</description>
+</notation>
     </p>
    </introduction>
 

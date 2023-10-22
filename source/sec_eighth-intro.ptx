@@ -84,6 +84,10 @@
      <me>
       Y= \frac{Fl_{o}}{A\Delta l}
      </me>
+     <notation>
+      <usage><m>Y</m></usage>
+       <description>Young's modulus</description>
+     </notation>
      Its unit is <m> N/m^{2} or, \,Pascal.</m>
  When a wire under tension is elongated, its width is slightly diminished. 
  This lateral shrinkage constitutes a transverse strain that is equal to the 
@@ -208,7 +212,11 @@
       </me>
       and the work done by a deforming force is given by 
       <me>
-        W_{d}= \frac{1}{2}kx^{2}.
+        W_{d}= \frac{1}{2}kx^{2}. 
+        <notation>
+          <usage><m>k</m></usage>
+          <description>spring constant</description>
+        </notation>
       </me>
     This work is stored in the spring as potential energy. That is, 
     <me>

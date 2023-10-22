@@ -240,6 +240,10 @@ These equations can help sove the 2D collision problems.
     <subsubsection xml:id="subsubsec-coef_restit">
       <title>Coefficient of Restitution, e</title>
       <p>
+        <idx>coefficient of restitution</idx> <notation>
+          <usage><m>e</m></usage>
+          <description>coefficient of restitution</description>
+        </notation>
         The coefficient of restitution, <m>e</m> is defined as the ratio of 
         relative speeds after and before an impact, taken along the line of impact.  
         If <m>v_{sep}</m> represents how fast the objects are separating from one another after collision, 

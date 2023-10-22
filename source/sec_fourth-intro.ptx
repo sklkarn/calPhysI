@@ -335,7 +335,10 @@
               </li>
               <li>
                 <term>Rotational Equilibrium:</term> sum of all torques about a point on an object, 
-                <m>\sum\tau_{net} = 0</m>. (i.e., <m>\alpha = 0,\quad \omega \neq 0</m>)
+                <m>\sum\tau_{net} = 0</m>. (i.e., <m>\alpha = 0,\quad \omega \neq 0</m>) <notation>
+                  <usage><m>\tau</m></usage>
+                  <description>torque</description>
+                </notation>
               </li>
             </ol>
           </p>
