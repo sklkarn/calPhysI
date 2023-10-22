@@ -648,7 +648,15 @@ window.MathJax = {
 <div class="toc-item"><a href="subsec-heat_pump.html" class="internal"><span class="codenumber">10.6.10</span> <span class="title">Heat Pump and Refrigerator</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="subsec-heat_pump.html#subsubsec-cop" class="internal"><span class="codenumber">10.6.10.1</span> <span class="title">Coefficient of Performance,	COP:</span></a></div></li></ul>
 </li>
-<li><div class="toc-item"><a href="subsec-entropy.html" class="internal"><span class="codenumber">10.6.11</span> <span class="title">Entropy</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-entropy.html" class="internal"><span class="codenumber">10.6.11</span> <span class="title">Entropy</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-entropy.html#subsubsec-entropy_incrs" class="internal"><span class="codenumber">10.6.11.1</span> <span class="title">Principle of increase of entropy:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-entropy.html#subsubsec-entropy_degrad" class="internal"><span class="codenumber">10.6.11.2</span> <span class="title">Principle of degradation of entropy:</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-entropy_prob.html" class="internal"><span class="codenumber">10.6.12</span> <span class="title">Entropy and Probability</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-III_law.html" class="internal"><span class="codenumber">10.6.13</span> <span class="title">Third Law of Thermodynamics</span></a></div></li>
 </ul>
 </li>
 <li><div class="toc-item"><a href="sec_tenth-examplesB.html" class="internal"><span class="codenumber">10.7</span> <span class="title">Examples B</span></a></div></li>
@@ -658,8 +666,8 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">List of Symbols</span></a></div></li>
-<li><div class="toc-item"><a href="append_partdiff.html" class="internal"><span class="codenumber">B</span> <span class="title">Appendix</span></a></div></li>
+<li><div class="toc-item"><a href="append_math.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Relations</span></a></div></li>
+<li><div class="toc-item"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
 <li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
 <li><div class="toc-item"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
 </ul>
@@ -669,173 +677,213 @@ window.MathJax = {
 <span class="type">Exercises</span> <span class="codenumber">10.8</span> <span class="title">Exercise</span>
 </h2>
 <section class="paragraphs" id="paragraphs-42"><h2 class="heading"><span class="title">Temperature &amp; Expansion.</span></h2> <article class="exercise exercise-like" id="exercise-224"><h3 class="heading"><span class="codenumber">1<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1290">
+<div class="para logical" id="p-1307">
 <div class="para">An absolute temperature of 300 K is</div>
 <ol class="lower-alpha">
-<li id="li-1123"><div class="para" id="p-derived-li-1123">how many degrees Fahrenheit?</div></li>
-<li id="li-1124"><div class="para" id="p-derived-li-1124">How many degrees Celcius?</div></li>
+<li id="li-1148"><div class="para" id="p-derived-li-1148">how many degrees Fahrenheit?</div></li>
+<li id="li-1149"><div class="para" id="p-derived-li-1149">How many degrees Celcius?</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-225"><h3 class="heading"><span class="codenumber">2<span class="period">.</span></span></h3>
-<div class="para" id="p-1291">Find the temeprature at which Fahrenheit and Celcius scales have the same reading.</div></article> <article class="exercise exercise-like" id="exercise-226"><h3 class="heading"><span class="codenumber">3<span class="period">.</span></span></h3>
-<div class="para" id="p-1292">An aluminum wire 0.05 mm in diameter and 2 m long is heated from <span class="process-math">\(15^{o}C\)</span> to <span class="process-math">\(50^{o}C\text{.}\)</span> How much does it contract?</div></article> <article class="exercise exercise-like" id="exercise-227"><h3 class="heading"><span class="codenumber">4<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1293">
+<div class="para" id="p-1308">Find the temeprature at which Fahrenheit and Celcius scales have the same reading.</div></article> <article class="exercise exercise-like" id="exercise-226"><h3 class="heading"><span class="codenumber">3<span class="period">.</span></span></h3>
+<div class="para" id="p-1309">An aluminum wire 0.05 mm in diameter and 2 m long is heated from <span class="process-math">\(15^{o}C\)</span> to <span class="process-math">\(50^{o}C\text{.}\)</span> How much does it contract?</div></article> <article class="exercise exercise-like" id="exercise-227"><h3 class="heading"><span class="codenumber">4<span class="period">.</span></span></h3>
+<div class="para logical" id="p-1310">
 <div class="para">A steel gas tank <span class="process-math">\((\alpha = 12\times 10^{-6} /^{o}C)\)</span> is filled with 80 L (about 20 gallons) of gasoline <span class="process-math">\((\beta = 9.5\times 10^{-4} /^{o}C)\)</span> at a temperature of <span class="process-math">\(0^{o}C\text{.}\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-1125"><div class="para" id="p-derived-li-1125">How much gasoline flows out of the tank when the temperature rises to <span class="process-math">\(30^{o}C\text{?}\)</span>
+<li id="li-1150"><div class="para" id="p-derived-li-1150">How much gasoline flows out of the tank when the temperature rises to <span class="process-math">\(30^{o}C\text{?}\)</span>
 </div></li>
-<li id="li-1126"><div class="para" id="p-derived-li-1126">If the hose of the tank is 4 cm in diameter, what is the minimum length of the hose in order to keep the gasoline from spilling?</div></li>
+<li id="li-1151"><div class="para" id="p-derived-li-1151">If the hose of the tank is 4 cm in diameter, what is the minimum length of the hose in order to keep the gasoline from spilling?</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-228"><h3 class="heading"><span class="codenumber">5<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1294">
+<div class="para logical" id="p-1311">
 <div class="para">A thin steel wire <span class="process-math">\((\alpha = 12\times 10^{-6} /^{o}C,\)</span> <span class="process-math">\(\rho = 7.8 g/cm^{3}, \)</span> <span class="process-math">\(Y = 20\times 10^{10} Pa)\)</span> of length 60 cm and diameter 0.5 mm has its ends attached to a large brass rod <span class="process-math">\((\alpha = 19\times 10^{-6} /^{o}C,\)</span> <span class="process-math">\(\rho = 8.6 g/cm^{3}, \)</span> <span class="process-math">\(Y = 9\times 10^{10} Pa)\)</span> of the same length. The system is heated from <span class="process-math">\(25^{o}C\)</span> to <span class="process-math">\(100^{o}C\text{.}\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-1127"><div class="para" id="p-derived-li-1127">How much does the brass rod expand?</div></li>
-<li id="li-1128"><div class="para" id="p-derived-li-1128">How much would the steel wire have expanded if it had not been attached to the brass rod?</div></li>
-<li id="li-1129"><div class="para" id="p-derived-li-1129">What is the thermal strain in the steel wire attached to the brass rod?</div></li>
-<li id="li-1130"><div class="para" id="p-derived-li-1130">What is the thermal stress in the steel wire?</div></li>
-<li id="li-1131"><div class="para" id="p-derived-li-1131">What is the tension in the wire?</div></li>
+<li id="li-1152"><div class="para" id="p-derived-li-1152">How much does the brass rod expand?</div></li>
+<li id="li-1153"><div class="para" id="p-derived-li-1153">How much would the steel wire have expanded if it had not been attached to the brass rod?</div></li>
+<li id="li-1154"><div class="para" id="p-derived-li-1154">What is the thermal strain in the steel wire attached to the brass rod?</div></li>
+<li id="li-1155"><div class="para" id="p-derived-li-1155">What is the thermal stress in the steel wire?</div></li>
+<li id="li-1156"><div class="para" id="p-derived-li-1156">What is the tension in the wire?</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-229"><h3 class="heading"><span class="codenumber">6<span class="period">.</span></span></h3>
-<div class="para" id="p-1295">The coefficient of linear expansion of lead is <span class="process-math">\(29\times 10^{-6} K^{-1}\text{.}\)</span> What change in temperature will cause a 2 m long lead bar to change in length by 3.0 mm?</div></article> <article class="exercise exercise-like" id="exercise-230"><h3 class="heading"><span class="codenumber">7<span class="period">.</span></span></h3>
-<div class="para" id="p-1296">An aluminum can is filled to the brim with a liquid. The can and the liquid are heated so their temperatures change by the same amount. The can’s initial volume at <span class="process-math">\(10^{o}C\)</span> is <span class="process-math">\(4.5\times 10^{-4} \,m^{3}\text{.}\)</span> The coefficient of volume expansion for aluminum is <span class="process-math">\(69\times 10^{-6} /^{o}C.\)</span> When the can and the liquid are heated to <span class="process-math">\(70^{o}C,\)</span> <span class="process-math">\(2.9\times 10^{-6} m^{3}\)</span> of liquid spills over. What is the coefficient of volume expansion for the liquid.</div></article></section><section class="paragraphs" id="paragraphs-43"><h2 class="heading"><span class="title">Calorimetery.</span></h2> <article class="exercise exercise-like" id="exercise-231"><h3 class="heading"><span class="codenumber">8<span class="period">.</span></span></h3>
-<div class="para" id="p-1297">If 100 g of steam condense into 1 kg of water initially at <span class="process-math">\(25^{o}C\text{,}\)</span> what is the final temperature of the combination? <span class="process-math">\((L_{v} = 540 \,cal/g)\)</span>
+<div class="para" id="p-1312">The coefficient of linear expansion of lead is <span class="process-math">\(29\times 10^{-6} K^{-1}\text{.}\)</span> What change in temperature will cause a 2 m long lead bar to change in length by 3.0 mm?</div></article> <article class="exercise exercise-like" id="exercise-230"><h3 class="heading"><span class="codenumber">7<span class="period">.</span></span></h3>
+<div class="para" id="p-1313">An aluminum can is filled to the brim with a liquid. The can and the liquid are heated so their temperatures change by the same amount. The can’s initial volume at <span class="process-math">\(10^{o}C\)</span> is <span class="process-math">\(4.5\times 10^{-4} \,m^{3}\text{.}\)</span> The coefficient of volume expansion for aluminum is <span class="process-math">\(69\times 10^{-6} /^{o}C.\)</span> When the can and the liquid are heated to <span class="process-math">\(70^{o}C,\)</span> <span class="process-math">\(2.9\times 10^{-6} m^{3}\)</span> of liquid spills over. What is the coefficient of volume expansion for the liquid.</div></article></section><section class="paragraphs" id="paragraphs-43"><h2 class="heading"><span class="title">Calorimetry.</span></h2> <article class="exercise exercise-like" id="exercise-231"><h3 class="heading"><span class="codenumber">8<span class="period">.</span></span></h3>
+<div class="para" id="p-1314">If 100 g of steam condense into 1 kg of water initially at <span class="process-math">\(25^{o}C\text{,}\)</span> what is the final temperature of the combination? <span class="process-math">\((L_{v} = 540 \,cal/g)\)</span>
 </div></article> <article class="exercise exercise-like" id="exercise-232"><h3 class="heading"><span class="codenumber">9<span class="period">.</span></span></h3>
-<div class="para" id="p-1298">How much heat is required to take 10 moles of ice at <span class="process-math">\(0^{o}C\)</span> to water at <span class="process-math">\(100^{o}C\text{?}\)</span>
+<div class="para" id="p-1315">How much heat is required to take 10 moles of ice at <span class="process-math">\(0^{o}C\)</span> to water at <span class="process-math">\(100^{o}C\text{?}\)</span>
 </div></article> <article class="exercise exercise-like" id="exercise-233"><h3 class="heading"><span class="codenumber">10<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1299">
+<div class="para logical" id="p-1316">
 <div class="para">A 400 g piece of iron is taken from an oven at <span class="process-math">\(300^{o}C\)</span> and placed in a 100 g aluminum calorimeter containing 200 g of ice at <span class="process-math">\(0^{o}C\text{.}\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-1132"><div class="para" id="p-derived-li-1132">How much ice melts?</div></li>
-<li id="li-1133"><div class="para" id="p-derived-li-1133">What is the final temperature of the system?</div></li>
+<li id="li-1157"><div class="para" id="p-derived-li-1157">How much ice melts?</div></li>
+<li id="li-1158"><div class="para" id="p-derived-li-1158">What is the final temperature of the system?</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-234"><h3 class="heading"><span class="codenumber">11<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1300">
+<div class="para logical" id="p-1317">
 <div class="para">A water fall is 500 m high.</div>
 <ol class="lower-alpha">
-<li id="li-1134"><div class="para" id="p-derived-li-1134">What is the difference in temperature between the water at the top and bottom if no water evaporates while falling?</div></li>
-<li id="li-1135"><div class="para" id="p-derived-li-1135">What fraction of the water must evaporate to keep the temperatures the same?</div></li>
+<li id="li-1159"><div class="para" id="p-derived-li-1159">What is the difference in temperature between the water at the top and bottom if no water evaporates while falling?</div></li>
+<li id="li-1160"><div class="para" id="p-derived-li-1160">What fraction of the water must evaporate to keep the temperatures the same?</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-235"><h3 class="heading"><span class="codenumber">12<span class="period">.</span></span></h3>
-<div class="para" id="p-1301">A man warms his hands by rubbing them together. Assume that his hands are made mostly of water, that they are 15 cm long and 5 cm wide, that he presses his hands together with 50 N of force, that the coefficient of friction between his hands is 0.5, that the hands move 10 cm with each stroke, that 30 strokes are made, and that the temperature of the surface of his hands increases <span class="process-math">\(20^{o}C\text{.}\)</span> How thick is the surface of his hands which is being heated?</div></article> <article class="exercise exercise-like" id="exercise-236"><h3 class="heading"><span class="codenumber">13<span class="period">.</span></span></h3>
-<div class="para" id="p-1302">A 1.55 g of methanol is burnt in a calorimeter. If the molar heat of combustion of methanol is -725 \,kJ/mole, and assuming that the 2.0 L of water absorbed all of the heat of combustion, what temperature change did the water experience?</div></article> <article class="exercise exercise-like" id="exercise-237"><h3 class="heading"><span class="codenumber">14<span class="period">.</span></span></h3>
-<div class="para" id="p-1303">A 20g sample of iron at a temperature of <span class="process-math">\(120^{o}C\)</span>  is placed into a container of water. There are 300 ml of water in the container at a temperature of <span class="process-math">\(30^{o}C\text{.}\)</span> What is the final temperature of the water? <span class="process-math">\(c_{iron}=0.444 \,J/g.^{o}C,\)</span>  <span class="process-math">\(c_{water}=4.184 \,J/g.^{o}C,\)</span>  and <span class="process-math">\(\rho_{water}=1 \,g/ml.\)</span>
+<div class="para" id="p-1318">A man warms his hands by rubbing them together. Assume that his hands are made mostly of water, that they are 15 cm long and 5 cm wide, that he presses his hands together with 50 N of force, that the coefficient of friction between his hands is 0.5, that the hands move 10 cm with each stroke, that 30 strokes are made, and that the temperature of the surface of his hands increases <span class="process-math">\(20^{o}C\text{.}\)</span> How thick is the surface of his hands which is being heated?</div></article> <article class="exercise exercise-like" id="exercise-236"><h3 class="heading"><span class="codenumber">13<span class="period">.</span></span></h3>
+<div class="para" id="p-1319">A 1.55 g of methanol is burnt in a calorimeter. If the molar heat of combustion of methanol is -725 \,kJ/mole, and assuming that the 2.0 L of water absorbed all of the heat of combustion, what temperature change did the water experience?</div></article> <article class="exercise exercise-like" id="exercise-237"><h3 class="heading"><span class="codenumber">14<span class="period">.</span></span></h3>
+<div class="para" id="p-1320">A 20g sample of iron at a temperature of <span class="process-math">\(120^{o}C\)</span>  is placed into a container of water. There are 300 ml of water in the container at a temperature of <span class="process-math">\(30^{o}C\text{.}\)</span> What is the final temperature of the water? <span class="process-math">\(c_{iron}=0.444 \,J/g.^{o}C,\)</span>  <span class="process-math">\(c_{water}=4.184 \,J/g.^{o}C,\)</span>  and <span class="process-math">\(\rho_{water}=1 \,g/ml.\)</span>
 </div></article></section><section class="paragraphs" id="paragraphs-44"><h2 class="heading"><span class="title">Heat Transfer.</span></h2> <article class="exercise exercise-like" id="exercise-238"><h3 class="heading"><span class="codenumber">15<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1304">
+<div class="para logical" id="p-1321">
 <div class="para">A copper rod <span class="process-math">\((k = 395 \,W/m.^{o}C)\)</span> of length 40 cm and diameter 2 cm is placed end to end with an iron rod <span class="process-math">\((k = 79.5 \,W/m.^{o}C)\)</span> of length 60 cm and diameter 2 cm. The combined rod is then insulated on its sides and the two ends subject to different temperatures. If the copper end is at <span class="process-math">\(100^{o}C\)</span> and the iron end is at <span class="process-math">\(20^{o}C\text{,}\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-1136"><div class="para" id="p-derived-li-1136">what is the temperature at the copper-iron interface?</div></li>
-<li id="li-1137"><div class="para" id="p-derived-li-1137">How many joules of heat energy flow through the system in 1 hour?</div></li>
+<li id="li-1161"><div class="para" id="p-derived-li-1161">what is the temperature at the copper-iron interface?</div></li>
+<li id="li-1162"><div class="para" id="p-derived-li-1162">How many joules of heat energy flow through the system in 1 hour?</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-239"><h3 class="heading"><span class="codenumber">16<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1305">
+<div class="para logical" id="p-1322">
 <div class="para">A Styrofoam ice chest <span class="process-math">\((k = 0.05 \,W/m.^{o}C)\)</span> is cubic in shape with each edge 30 cm long. Each face is a square sheet of Styrofoam 2 cm thick. If a 4 kg bag of ice is placed in the chest and the outside temperature is a constant <span class="process-math">\(30^{o}C\text{,}\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-1138"><div class="para" id="p-derived-li-1138">how long does it take the ice to melt?</div></li>
-<li id="li-1139"><div class="para" id="p-derived-li-1139">How long after the ice melts does it take for the interior of the ice chest to heat up to <span class="process-math">\(15^{o}C\text{?}\)</span>
+<li id="li-1163"><div class="para" id="p-derived-li-1163">how long does it take the ice to melt?</div></li>
+<li id="li-1164"><div class="para" id="p-derived-li-1164">How long after the ice melts does it take for the interior of the ice chest to heat up to <span class="process-math">\(15^{o}C\text{?}\)</span>
 </div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-240"><h3 class="heading"><span class="codenumber">17<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1306">
+<div class="para logical" id="p-1323">
 <div class="para">A solar home has 4 solar collectors each 1 m by 2 m with an average efficiency of <span class="process-math">\(20\%\text{.}\)</span> If the sun radiates <span class="process-math">\(1.36 kW/m^{2}\)</span> of solar power upon the earth,</div>
 <ol class="lower-alpha">
-<li id="li-1140"><div class="para" id="p-derived-li-1140">how many Btu’s of heat are collected on an average day?</div></li>
-<li id="li-1141"><div class="para" id="p-derived-li-1141">If the house is well insulated on the sides and bottom and if the roof/ceiling is 20 ft by 40 ft consisting of lapped shingles (R = 0.87), dead air space (R = 1.01), 6 inch fiberglass insulation (R = 18.80), and sheetrock (R = 0.45), what will be the average interior temperature of the house if the outside temperature is a freezing <span class="process-math">\(32^{o}F\text{?}\)</span>
+<li id="li-1165"><div class="para" id="p-derived-li-1165">how many Btu’s of heat are collected on an average day?</div></li>
+<li id="li-1166"><div class="para" id="p-derived-li-1166">If the house is well insulated on the sides and bottom and if the roof/ceiling is 20 ft by 40 ft consisting of lapped shingles (R = 0.87), dead air space (R = 1.01), 6 inch fiberglass insulation (R = 18.80), and sheetrock (R = 0.45), what will be the average interior temperature of the house if the outside temperature is a freezing <span class="process-math">\(32^{o}F\text{?}\)</span>
 </div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-241"><h3 class="heading"><span class="codenumber">18<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1307">
+<div class="para logical" id="p-1324">
 <div class="para">Two rods, one of aluminum and the other of copper are joined end to end. The cross-sectional area of each is <span class="process-math">\(4.0\times10^{-4} \,m^{2},\)</span> and the length of each is 0.04 m. The free end of the aluminum rod is kept at <span class="process-math">\(302^{o}C,\)</span> while the free end of the copper rod is kept at <span class="process-math">\(25^{o}C\text{.}\)</span> The loss of heat through the sides of the rods may be ignored.</div>
 <ol class="lower-alpha">
-<li id="li-1142"><div class="para" id="p-derived-li-1142">What is the temperature at the aluminum-copper interface?</div></li>
-<li id="li-1143"><div class="para" id="p-derived-li-1143">How much heat is conducted through the unit in 2.0 s? <span class="process-math">\((\kappa_{al} = 238 \,J/(sm.^{o}C), \quad \kappa_{cu} = 397 \,J/(s m.^{o}C)).\)</span>
+<li id="li-1167"><div class="para" id="p-derived-li-1167">What is the temperature at the aluminum-copper interface?</div></li>
+<li id="li-1168"><div class="para" id="p-derived-li-1168">How much heat is conducted through the unit in 2.0 s? <span class="process-math">\((\kappa_{al} = 238 \,J/(sm.^{o}C), \quad \kappa_{cu} = 397 \,J/(s m.^{o}C)).\)</span>
 </div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-242"><h3 class="heading"><span class="codenumber">19<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1308">
+<div class="para logical" id="p-1325">
 <div class="para">The surface of the Sun has a  temperature of <span class="process-math">\(5500^{o}C.\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-1144"><div class="para" id="p-derived-li-1144">Treating the Sun as a perfect blackbody, with an emissivity of 1.0, find the power that it radiates into space. The radius of the sun is <span class="process-math">\(7.0\times 10^{8} \,m\)</span> and the temperature of space can be taken to be 3.0 K.</div></li>
-<li id="li-1145"><div class="para" id="p-derived-li-1145">The solar constant is the number of watts of sunlight power falling on a square meter of the Earth’s upper atmosphere. Use  your result from part (a) to calculate the solar constant, given that the distance from the Sun to the Earth is <span class="process-math">\(1.5\times10^{11} \,m.\)</span>
+<li id="li-1169"><div class="para" id="p-derived-li-1169">Treating the Sun as a perfect blackbody, with an emissivity of 1.0, find the power that it radiates into space. The radius of the sun is <span class="process-math">\(7.0\times 10^{8} \,m\)</span> and the temperature of space can be taken to be 3.0 K.</div></li>
+<li id="li-1170"><div class="para" id="p-derived-li-1170">The solar constant is the number of watts of sunlight power falling on a square meter of the Earth’s upper atmosphere. Use  your result from part (a) to calculate the solar constant, given that the distance from the Sun to the Earth is <span class="process-math">\(1.5\times10^{11} \,m.\)</span>
 </div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-243"><h3 class="heading"><span class="codenumber">20<span class="period">.</span></span></h3>
-<div class="para" id="p-1309">A long copper rod of diameter 2.0cm is initially at a uniform temperature of <span class="process-math">\(100 \,^{o} C.\)</span> It is now exposed to an air stream at <span class="process-math">\(20\,^{o} C\)</span> with a heat transfer coefficient of <span class="process-math">\(200 \,W/m^{2}K.\)</span> How long would it take for the copper rod to cool at an average temperature of <span class="process-math">\(25\,^{o} C.\)</span>
+<div class="para" id="p-1326">A long copper rod of diameter 2.0cm is initially at a uniform temperature of <span class="process-math">\(100 \,^{o} C.\)</span> It is now exposed to an air stream at <span class="process-math">\(20\,^{o} C\)</span> with a heat transfer coefficient of <span class="process-math">\(200 \,W/m^{2}K.\)</span> How long would it take for the copper rod to cool at an average temperature of <span class="process-math">\(25\,^{o} C.\)</span>
 </div></article></section><section class="paragraphs" id="paragraphs-45"><h2 class="heading"><span class="title">KTG.</span></h2> <article class="exercise exercise-like" id="exercise-244"><h3 class="heading"><span class="codenumber">21<span class="period">.</span></span></h3>
-<div class="para" id="p-1310">How many molecules are in a cube of aluminum 2 cm on a side if the density of aluminum is <span class="process-math">\(2.7 \,g/cm^{3}\)</span> and the atomic mass of aluminum is 26.98 u?</div></article> <article class="exercise exercise-like" id="exercise-245"><h3 class="heading"><span class="codenumber">22<span class="period">.</span></span></h3>
-<div class="para" id="p-1311">What is the rms speed of a diatomic oxygen molecule at a room temperature of 300 K? Assume <span class="process-math">\(k_{B}  =  1.380\times 10^{-23} \,J/K\text{,}\)</span> <span class="process-math">\(1 \,u = 1.66\times10^{-27} \,kg, \)</span> <span class="process-math">\(Z(oxygen) = 8, \quad M(oxygen) = 15.999 \,u,\)</span> <span class="process-math">\(pa = 1 \,atm = 1.013\times10^{5} \,Pa\text{.}\)</span>
+<div class="para" id="p-1327">How many molecules are in a cube of aluminum 2 cm on a side if the density of aluminum is <span class="process-math">\(2.7 \,g/cm^{3}\)</span> and the atomic mass of aluminum is 26.98 u?</div></article> <article class="exercise exercise-like" id="exercise-245"><h3 class="heading"><span class="codenumber">22<span class="period">.</span></span></h3>
+<div class="para" id="p-1328">What is the rms speed of a diatomic oxygen molecule at a room temperature of 300 K? Assume <span class="process-math">\(k_{B}  =  1.380\times 10^{-23} \,J/K\text{,}\)</span> <span class="process-math">\(1 \,u = 1.66\times10^{-27} \,kg, \)</span> <span class="process-math">\(Z(oxygen) = 8, \quad M(oxygen) = 15.999 \,u,\)</span> <span class="process-math">\(pa = 1 \,atm = 1.013\times10^{5} \,Pa\text{.}\)</span>
 </div></article> <article class="exercise exercise-like" id="exercise-246"><h3 class="heading"><span class="codenumber">23<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1312">
+<div class="para logical" id="p-1329">
 <div class="para">On first day a tank of oxygen <span class="process-math">\((M = 32.0 \,g/mol)\)</span> having a volume of 100 L is filled to a gauge pressure of <span class="process-math">\(4.00\times 10^{5} \,Pa\)</span> at a temperature of <span class="process-math">\(43.0 \,^{o}C\text{.}\)</span> On the second day the temperature is <span class="process-math">\(22.0 \,^{o}C\)</span> and the gauge pressure of the tank is <span class="process-math">\(3.00\times 10^{5} \,Pa\text{.}\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-1146"><div class="para" id="p-derived-li-1146">How many moles of oxygen were initially in the container?</div></li>
-<li id="li-1147"><div class="para" id="p-derived-li-1147">How many grams of oxygen were used before the second day measurements were made?</div></li>
+<li id="li-1171"><div class="para" id="p-derived-li-1171">How many moles of oxygen were initially in the container?</div></li>
+<li id="li-1172"><div class="para" id="p-derived-li-1172">How many grams of oxygen were used before the second day measurements were made?</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-247"><h3 class="heading"><span class="codenumber">24<span class="period">.</span></span></h3>
-<div class="para" id="p-1313">At high enough temperatures a diatomic molecule like hydrogen has three degrees of translational freedom, two degrees of rotational freedom, and two degrees of vibrational freedom. How much heat Q must be added to n moles of hydrogen to raise its temperature from such a high temperature to one even higher by an amount <span class="process-math">\(\Delta T\)</span> if the volume of the gas remains constant?</div></article> <article class="exercise exercise-like" id="exercise-248"><h3 class="heading"><span class="codenumber">25<span class="period">.</span></span></h3>
-<div class="para" id="p-1314">At what temperature does the oxygen molecules have the same rms speed as those of hydrogen at <span class="process-math">\(-72 \,^{o}C.\)</span> Molar mass of  oxygen and hydrogen are 32 and 2, respectively.</div></article></section><section class="paragraphs" id="paragraphs-46"><h2 class="heading"><span class="title">I Law of Thermodynamics.</span></h2> <article class="exercise exercise-like" id="exercise-249"><h3 class="heading"><span class="codenumber">26<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1315">
+<div class="para" id="p-1330">At high enough temperatures a diatomic molecule like hydrogen has three degrees of translational freedom, two degrees of rotational freedom, and two degrees of vibrational freedom. How much heat Q must be added to n moles of hydrogen to raise its temperature from such a high temperature to one even higher by an amount <span class="process-math">\(\Delta T\)</span> if the volume of the gas remains constant?</div></article> <article class="exercise exercise-like" id="exercise-248"><h3 class="heading"><span class="codenumber">25<span class="period">.</span></span></h3>
+<div class="para" id="p-1331">At what temperature does the oxygen molecules have the same rms speed as those of hydrogen at <span class="process-math">\(-72 \,^{o}C.\)</span> Molar mass of  oxygen and hydrogen are 32 and 2, respectively.</div></article></section><section class="paragraphs" id="paragraphs-46"><h2 class="heading"><span class="title">I Law of Thermodynamics.</span></h2> <article class="exercise exercise-like" id="exercise-249"><h3 class="heading"><span class="codenumber">26<span class="period">.</span></span></h3>
+<div class="para logical" id="p-1332">
 <div class="para">An ideal monatomic gas containing 10 moles of Helium initially at <span class="process-math">\(0\,^{o}C\)</span> and one atmosphere is allowed to expand to twice its initial volume. If the gas is first cooled at a constant volume to half its initial pressure and then allowed to expand at constant pressure to its final volume, find each of the following:</div>
 <ol class="lower-alpha">
-<li id="li-1148"><div class="para" id="p-derived-li-1148">the initial volume of the gas,</div></li>
-<li id="li-1149"><div class="para" id="p-derived-li-1149">the final pressure of the gas,</div></li>
-<li id="li-1150"><div class="para" id="p-derived-li-1150">the final volume of the gas,</div></li>
-<li id="li-1151"><div class="para" id="p-derived-li-1151">the final temperature of the gas,</div></li>
-<li id="li-1152"><div class="para" id="p-derived-li-1152">the work done by the gas,</div></li>
-<li id="li-1153"><div class="para" id="p-derived-li-1153">the heat added to the gas,</div></li>
-<li id="li-1154"><div class="para" id="p-derived-li-1154">the change in internal energy of the gas.</div></li>
+<li id="li-1173"><div class="para" id="p-derived-li-1173">the initial volume of the gas,</div></li>
+<li id="li-1174"><div class="para" id="p-derived-li-1174">the final pressure of the gas,</div></li>
+<li id="li-1175"><div class="para" id="p-derived-li-1175">the final volume of the gas,</div></li>
+<li id="li-1176"><div class="para" id="p-derived-li-1176">the final temperature of the gas,</div></li>
+<li id="li-1177"><div class="para" id="p-derived-li-1177">the work done by the gas,</div></li>
+<li id="li-1178"><div class="para" id="p-derived-li-1178">the heat added to the gas,</div></li>
+<li id="li-1179"><div class="para" id="p-derived-li-1179">the change in internal energy of the gas.</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-250"><h3 class="heading"><span class="codenumber">27<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1316">
+<div class="para logical" id="p-1333">
 <div class="para">An ideal monatomic gas containing 10 moles of Helium initially at <span class="process-math">\(0\,^{o}C\)</span> and one atmosphere is allowed to expand to twice its initial volume. If the gas is first allowed to expand at constant pressure to its final volume and then cooled at constant volume to half its initial pressure, find each of the following:</div>
 <ol class="lower-alpha">
-<li id="li-1155"><div class="para" id="p-derived-li-1155">the initial volume of the gas,</div></li>
-<li id="li-1156"><div class="para" id="p-derived-li-1156">the final pressure of the gas,</div></li>
-<li id="li-1157"><div class="para" id="p-derived-li-1157">the final volume of the gas,</div></li>
-<li id="li-1158"><div class="para" id="p-derived-li-1158">the final temperature of the gas,</div></li>
-<li id="li-1159"><div class="para" id="p-derived-li-1159">the work done by the gas,</div></li>
-<li id="li-1160"><div class="para" id="p-derived-li-1160">the heat added to the gas,</div></li>
-<li id="li-1161"><div class="para" id="p-derived-li-1161">the change in internal energy of the gas.</div></li>
+<li id="li-1180"><div class="para" id="p-derived-li-1180">the initial volume of the gas,</div></li>
+<li id="li-1181"><div class="para" id="p-derived-li-1181">the final pressure of the gas,</div></li>
+<li id="li-1182"><div class="para" id="p-derived-li-1182">the final volume of the gas,</div></li>
+<li id="li-1183"><div class="para" id="p-derived-li-1183">the final temperature of the gas,</div></li>
+<li id="li-1184"><div class="para" id="p-derived-li-1184">the work done by the gas,</div></li>
+<li id="li-1185"><div class="para" id="p-derived-li-1185">the heat added to the gas,</div></li>
+<li id="li-1186"><div class="para" id="p-derived-li-1186">the change in internal energy of the gas.</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-251"><h3 class="heading"><span class="codenumber">28<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1317">
+<div class="para logical" id="p-1334">
 <div class="para">An ideal monatomic gas containing 10 moles of Helium initially at <span class="process-math">\(0\,^{o}C\)</span> and one atmosphere is allowed to expand to twice its initial volume. If the gas is allowed to expand adiabadically <span class="process-math">\((\gamma = 5/3)\)</span> to twice its initial volume, find each of the following:</div>
 <ol class="lower-alpha">
-<li id="li-1162"><div class="para" id="p-derived-li-1162">the initial volume of the gas,</div></li>
-<li id="li-1163"><div class="para" id="p-derived-li-1163">the final pressure of the gas,</div></li>
-<li id="li-1164"><div class="para" id="p-derived-li-1164">the final volume of the gas,</div></li>
-<li id="li-1165"><div class="para" id="p-derived-li-1165">the final temperature of the gas,</div></li>
-<li id="li-1166"><div class="para" id="p-derived-li-1166">the work done by the gas,</div></li>
-<li id="li-1167"><div class="para" id="p-derived-li-1167">the heat added to the gas,</div></li>
-<li id="li-1168"><div class="para" id="p-derived-li-1168">the change in internal energy of the gas.</div></li>
+<li id="li-1187"><div class="para" id="p-derived-li-1187">the initial volume of the gas,</div></li>
+<li id="li-1188"><div class="para" id="p-derived-li-1188">the final pressure of the gas,</div></li>
+<li id="li-1189"><div class="para" id="p-derived-li-1189">the final volume of the gas,</div></li>
+<li id="li-1190"><div class="para" id="p-derived-li-1190">the final temperature of the gas,</div></li>
+<li id="li-1191"><div class="para" id="p-derived-li-1191">the work done by the gas,</div></li>
+<li id="li-1192"><div class="para" id="p-derived-li-1192">the heat added to the gas,</div></li>
+<li id="li-1193"><div class="para" id="p-derived-li-1193">the change in internal energy of the gas.</div></li>
 </ol>
 </div></article> <article class="exercise exercise-like" id="exercise-252"><h3 class="heading"><span class="codenumber">29<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1318"><ol class="lower-alpha">
-<li id="li-1169"><div class="para" id="p-derived-li-1169">With the assumption that the air temperature is a uniform <span class="process-math">\(27\,^{o}C\text{,}\)</span> what is the atmospheric pressure at an altitude of 5000 m?</div></li>
-<li id="li-1170"><div class="para" id="p-derived-li-1170">With the assumption that a bubble of air rises adiabatically from the surface of the earth to the pressure obtained in part (a) of this problem, what would be the temperature of the bubble at that altitude?</div></li>
-<li id="li-1171"><div class="para" id="p-derived-li-1171">Which of the previous two inconsistent assumptions is more realistic and why?</div></li>
+<div class="para logical" id="p-1335"><ol class="lower-alpha">
+<li id="li-1194"><div class="para" id="p-derived-li-1194">With the assumption that the air temperature is a uniform <span class="process-math">\(27\,^{o}C\text{,}\)</span> what is the atmospheric pressure at an altitude of 5000 m?</div></li>
+<li id="li-1195"><div class="para" id="p-derived-li-1195">With the assumption that a bubble of air rises adiabatically from the surface of the earth to the pressure obtained in part (a) of this problem, what would be the temperature of the bubble at that altitude?</div></li>
+<li id="li-1196"><div class="para" id="p-derived-li-1196">Which of the previous two inconsistent assumptions is more realistic and why?</div></li>
 </ol></div></article></section><section class="paragraphs" id="paragraphs-47"><h2 class="heading"><span class="title">II Law of Thermodynamics.</span></h2> <article class="exercise exercise-like" id="exercise-253"><h3 class="heading"><span class="codenumber">30<span class="period">.</span></span></h3>
-<div class="para" id="p-1319">A heat engine absorbs 1000 J of heat at a temperature of 400 K and deposits 900 J of heat at 300 K. What is the efficiency of this engine?</div></article> <article class="exercise exercise-like" id="exercise-254"><h3 class="heading"><span class="codenumber">31<span class="period">.</span></span></h3>
-<div class="para" id="p-1320">A Carnot engine absorb 1000 J of heat at temperature of 400 K and rejects heat at 300 K. How much heat does it reject?</div></article> <article class="exercise exercise-like" id="exercise-255"><h3 class="heading"><span class="codenumber">32<span class="period">.</span></span></h3>
-<div class="para" id="p-1321">An ideal heat pump pumps heat from an outside temperature of <span class="process-math">\(0\,^{o}C\)</span> into an inside temperature of <span class="process-math">\(30\,^{o}C\text{.}\)</span> If 1000 J of heat are deposited into the house every second and if electricity costs 10 cents per kilowatt-hour, then what is the cost of operating this heat pump for 24 h?</div></article> <article class="exercise exercise-like" id="exercise-256"><h3 class="heading"><span class="codenumber">33<span class="period">.</span></span></h3>
-<div class="para" id="p-1322">A refrigerator requires an amount of work W to extract heat Qc from a refrigerator and reject an amount of heat Qh into the surroundings. What is the coefficient of performance of the refrigerator?</div></article> <article class="exercise exercise-like" id="exercise-257"><h3 class="heading"><span class="codenumber">34<span class="period">.</span></span></h3>
-<div class="para" id="p-1323">What is the coefficient of performance of a Carnot refrigerator whose inside temperature is <span class="process-math">\(0\,^oC\)</span>  an whose outside temperature is <span class="process-math">\(30\,^{o}C\)</span> if it takes 500 W of electrical power to operate it?</div></article> <article class="exercise exercise-like" id="exercise-258"><h3 class="heading"><span class="codenumber">35<span class="period">.</span></span></h3>
-<div class="para logical" id="p-1324">
+<div class="para" id="p-1336">A heat engine absorbs 1000 J of heat at a temperature of 400 K and deposits 900 J of heat at 300 K. What is the efficiency of this engine?</div></article> <article class="exercise exercise-like" id="exercise-254"><h3 class="heading"><span class="codenumber">31<span class="period">.</span></span></h3>
+<div class="para" id="p-1337">A Carnot engine absorb 1000 J of heat at temperature of 400 K and rejects heat at 300 K. How much heat does it reject?</div></article> <article class="exercise exercise-like" id="exercise-255"><h3 class="heading"><span class="codenumber">32<span class="period">.</span></span></h3>
+<div class="para" id="p-1338">An ideal heat pump pumps heat from an outside temperature of <span class="process-math">\(0\,^{o}C\)</span> into an inside temperature of <span class="process-math">\(30\,^{o}C\text{.}\)</span> If 1000 J of heat are deposited into the house every second and if electricity costs 10 cents per kilowatt-hour, then what is the cost of operating this heat pump for 24 h?</div></article> <article class="exercise exercise-like" id="exercise-256"><h3 class="heading"><span class="codenumber">33<span class="period">.</span></span></h3>
+<div class="para" id="p-1339">A refrigerator requires an amount of work W to extract heat Qc from a refrigerator and reject an amount of heat Qh into the surroundings. What is the coefficient of performance of the refrigerator?</div></article> <article class="exercise exercise-like" id="exercise-257"><h3 class="heading"><span class="codenumber">34<span class="period">.</span></span></h3>
+<div class="para" id="p-1340">What is the coefficient of performance of a Carnot refrigerator whose inside temperature is <span class="process-math">\(0\,^oC\)</span>  an whose outside temperature is <span class="process-math">\(30\,^{o}C\)</span> if it takes 500 W of electrical power to operate it?</div></article> <article class="exercise exercise-like" id="exercise-258"><h3 class="heading"><span class="codenumber">35<span class="period">.</span></span></h3>
+<div class="para logical" id="p-1341">
 <div class="para">A gasoline engine operates approximately according to the Otto cycle which takes in a gas/air mixture at ambient temperature <span class="process-math">\(T_{A}\text{,}\)</span> compresses that mixture adiabatically to a higher temperature <span class="process-math">\(T_{B}\text{,}\)</span> ignites the mixture at constant volume to an even higher temperature <span class="process-math">\(T_{C}\text{,}\)</span> expands the gas adiabatically to a cooler temperature <span class="process-math">\(T_{D}\text{,}\)</span> reduces the pressure at constant volume back to <span class="process-math">\(T_{A}\text{,}\)</span> and then expels the gas into the atmosphere. The efficiency of an Otto cycle is <span class="process-math">\(1 - \frac{T_{A}}{T_{B}}\text{.}\)</span> Assume <span class="process-math">\(T_{A} = 27\,^{o}C,\quad T_{B} = 127\,^{o}C\text{,}\)</span> and <span class="process-math">\(T_{C} = 227^{o}C\text{.}\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-1172"><div class="para" id="p-derived-li-1172">What is the efficiency of this gasoline engine?</div></li>
-<li id="li-1173"><div class="para" id="p-derived-li-1173">What would be the maximum possible efficiency of an ideal heat engine utilizing these same temperatures?</div></li>
-<li id="li-1174"><div class="para" id="p-derived-li-1174">What is the efficiency ratio for this gasoline engine (i.e. the ratio of its efficiency to the maximum possible efficiency)?</div></li>
+<li id="li-1197"><div class="para" id="p-derived-li-1197">What is the efficiency of this gasoline engine?</div></li>
+<li id="li-1198"><div class="para" id="p-derived-li-1198">What would be the maximum possible efficiency of an ideal heat engine utilizing these same temperatures?</div></li>
+<li id="li-1199"><div class="para" id="p-derived-li-1199">What is the efficiency ratio for this gasoline engine (i.e. the ratio of its efficiency to the maximum possible efficiency)?</div></li>
 </ol>
 </div></article></section><section class="paragraphs" id="paragraphs-48"><h2 class="heading"><span class="title">Entropy.</span></h2> <article class="exercise exercise-like" id="exercise-259"><h3 class="heading"><span class="codenumber">36<span class="period">.</span></span></h3>
-<div class="para" id="p-1325"></div></article></section></section></div>
+<div class="para" id="p-1342">The heat of fusion of a substance is <span class="process-math">\(L_{f}\text{.}\)</span> What is the change in entropy of a mass m of the substance if it freezes at temperature <span class="process-math">\(T_{f}\text{.?}\)</span>
+</div></article> <article class="exercise exercise-like" id="exercise-260"><h3 class="heading"><span class="codenumber">37<span class="period">.</span></span></h3>
+<div class="para" id="p-1343">A mass m with specific heat c is heated from temperature <span class="process-math">\(T_{i}\)</span> to <span class="process-math">\(T_{f}\text{.}\)</span> What is its change in entropy?</div></article> <article class="exercise exercise-like" id="exercise-261"><h3 class="heading"><span class="codenumber">38<span class="period">.</span></span></h3>
+<div class="para" id="p-1344">Water has a specific heat capacity of 4.18 J/g, a heat of fusion of 333 J/g, and a heat of vaporization of <span class="process-math">\(2.26\times10^{3} \,J/g\text{.}\)</span> If 100 g of ice at <span class="process-math">\(0\,^{o}C\)</span> is dropped into 100 g of water at <span class="process-math">\(27\,^{o}C\text{,}\)</span> then what is the change in entropy of the universe?</div></article> <article class="exercise exercise-like" id="exercise-262"><h3 class="heading"><span class="codenumber">39<span class="period">.</span></span></h3>
+<div class="para logical" id="p-1345">
+<div class="para">Which has the greatest entropy</div>
+<ol class="lower-alpha">
+<li id="li-1200"><div class="para" id="p-derived-li-1200">ice below freezing temperature,</div></li>
+<li id="li-1201"><div class="para" id="p-derived-li-1201">ice at freezing temperature,</div></li>
+<li id="li-1202"><div class="para" id="p-derived-li-1202">liquid water at freezing temperature,</div></li>
+<li id="li-1203"><div class="para" id="p-derived-li-1203">water above freezing temperature,</div></li>
+<li id="li-1204"><div class="para" id="p-derived-li-1204">No general statement can be made.</div></li>
+</ol>
+</div></article> <article class="exercise exercise-like" id="exercise-263"><h3 class="heading"><span class="codenumber">40<span class="period">.</span></span></h3>
+<div class="para logical" id="p-1346">
+<div class="para">A house has the least entropy when it is</div>
+<ol class="lower-alpha">
+<li id="li-1205"><div class="para" id="p-derived-li-1205">neat,</div></li>
+<li id="li-1206"><div class="para" id="p-derived-li-1206">cluttered,</div></li>
+<li id="li-1207"><div class="para" id="p-derived-li-1207">clean and neat,</div></li>
+<li id="li-1208"><div class="para" id="p-derived-li-1208">cluttered and dirty,</div></li>
+<li id="li-1209"><div class="para" id="p-derived-li-1209">No general statement applies in this situation.</div></li>
+</ol>
+</div></article> <article class="exercise exercise-like" id="exercise-264"><h3 class="heading"><span class="codenumber">41<span class="period">.</span></span></h3>
+<div class="para" id="p-1347">A gas expands adiabatically and reversibly. What is its change in entropy?</div></article> <article class="exercise exercise-like" id="exercise-265"><h3 class="heading"><span class="codenumber">42<span class="period">.</span></span></h3>
+<div class="para logical" id="p-1348">
+<div class="para">A Carnot engine in one cycle takes in 2000 J of heat at 500 K and discards heat at 300 K.</div>
+<ol class="lower-alpha">
+<li id="li-1210"><div class="para" id="p-derived-li-1210">How much work does it do?</div></li>
+<li id="li-1211"><div class="para" id="p-derived-li-1211">How much heat does it discard?</div></li>
+<li id="li-1212"><div class="para" id="p-derived-li-1212">What is its change in entropy during its isothermal expansion?</div></li>
+<li id="li-1213"><div class="para" id="p-derived-li-1213">What is its change in entropy during its adiabatic expansion?</div></li>
+<li id="li-1214"><div class="para" id="p-derived-li-1214">What is its change in entropy during its isothermal compression?</div></li>
+<li id="li-1215"><div class="para" id="p-derived-li-1215">What is its change in entropy during its adiabatic compression?</div></li>
+<li id="li-1216"><div class="para" id="p-derived-li-1216">What is its total change in entropy?</div></li>
+<li id="li-1217"><div class="para" id="p-derived-li-1217">What is the change in entropy of the hot reservoir?</div></li>
+<li id="li-1218"><div class="para" id="p-derived-li-1218">What is the change in entropy of the cold reservoir?</div></li>
+<li id="li-1219"><div class="para" id="p-derived-li-1219">What is the change in entropy of the universe?</div></li>
+<li id="li-1220"><div class="para" id="p-derived-li-1220">Is this result consistent with the second law of thermodynamics?</div></li>
+</ol>
+</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_tenth-examplesB.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="meta_backmatter.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>

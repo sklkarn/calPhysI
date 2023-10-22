@@ -12,17 +12,64 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para logical">
-<div class="para">A thin steel wire <span class="process-math">\((\alpha = 12\times 10^{-6} /^{o}C,\)</span> <span class="process-math">\(\rho = 7.8 g/cm^{3}, \)</span> <span class="process-math">\(Y = 20\times 10^{10} Pa)\)</span> of length 60 cm and diameter 0.5 mm has its ends attached to a large brass rod <span class="process-math">\((\alpha = 19\times 10^{-6} /^{o}C,\)</span> <span class="process-math">\(\rho = 8.6 g/cm^{3}, \)</span> <span class="process-math">\(Y = 9\times 10^{10} Pa)\)</span> of the same length. The system is heated from <span class="process-math">\(25^{o}C\)</span> to <span class="process-math">\(100^{o}C\text{.}\)</span>
+<div class="para logical"><ol class="lower-alpha">
+<li><div class="para">Work done in an isothermal process is given by<div class="displaymath process-math">
+\begin{equation*}
+W=\int\limits_{v_{i}}^{v_{f}}p\,dV =p_{i}V_{i}\int\limits_{v_{i}}^{v_{f}}\frac{\,dV}{V} = p_{i}V_{i} \ln\frac{V_{f}}{V_{i}} 
+\end{equation*}
 </div>
-<ol class="lower-alpha">
-<li><div class="para">How much does the brass rod expand?</div></li>
-<li><div class="para">How much would the steel wire have expanded if it had not been attached to the brass rod?</div></li>
-<li><div class="para">What is the thermal strain in the steel wire attached to the brass rod?</div></li>
-<li><div class="para">What is the thermal stress in the steel wire?</div></li>
-<li><div class="para">What is the tension in the wire?</div></li>
-</ol>
+<span class="process-math">\([\because pV = p_{i}V_{i}]\)</span><div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad W = 51 \times 10^{3}(N/m^{2})(100\times 10^{-6}m^{3})\ln(5)=8.2 \,J
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_tenth.html#p-1294" class="internal">in-context</a></span>
+</div></li>
+<li><div class="para">Work done in an adiabatic process is given by<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-molht1.html">
+\begin{equation*}
+W=\int\limits_{v_{i}}^{v_{f}}p\,dV =p_{i}V_{i}^{\gamma}\int\limits_{v_{i}}^{v_{f}}\frac{\,dV}{V^{\gamma}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-molht1.html">
+\begin{equation*}
+= \frac{p_{i}V_{i}^{\gamma} }{1-\gamma}\left[V^{1-\gamma}\right]_{v_{i}}^{v_{f}} 
+\end{equation*}
+</div>
+<span class="process-math">\([\because pV^{\gamma}=p_{i}V_{i}^{\gamma}]\)</span><div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-molht1.html">
+\begin{equation}
+\text{or,}\quad W = \frac{p_{i}V_{i}}{1-\gamma}\left[5^{1-\gamma}-1\right] \tag{10.7.1}
+\end{equation}
+</div>
+<span class="process-math">\([\because V_{f}=5V_{i}] \)</span> Now,<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-molht1.html">
+\begin{equation*}
+\gamma= \frac{C_{p}}{C_{v}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-molht1.html">
+\begin{equation*}
+\text{and}\quad C_{p}=C_{v}+R = \frac{7}{2}R
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-molht1.html">
+\begin{equation*}
+\therefore\quad \gamma = \frac{7}{5} 
+\end{equation*}
+</div>Hence from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-molht1.html" title="Equation 10.7.1">(10.7.1)</a>,<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-molht1.html">
+\begin{equation*}
+W= \frac{p_{i}V_{i}}{1-\gamma}\left[5^{1-\gamma}-1\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-molht1.html">
+\begin{equation*}
+= \frac{51\times 10^{3}\times 100\times 10^{-6}}{1-\frac{7}{5}}\left[5^{-2/5} -1\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-molht1.html">
+\begin{equation*}
+\therefore W = 6.05\,J
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
+<span class="incontext"><a href="sec_tenth-examplesB.html#p-1294" class="internal">in-context</a></span>
 </body>
 </html>

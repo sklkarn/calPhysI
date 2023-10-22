@@ -11,44 +11,114 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">We have -</div>
-<div class="displaymath process-math">
+<div class="para">Let S be entropy and <span class="process-math">\(\omega\)</span> be the maximum probability of the system in a definite state, then we can write</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
 \begin{equation*}
-v_{rms}=\sqrt{\frac{3k_{B}T}{m}}
+S=f(\omega)
 \end{equation*}
 </div>
-<div class="para">At  NTP, <span class="process-math">\(T=0^{o}C=273 \,K\text{.}\)</span>
-</div>
-<div class="displaymath process-math">
+<div class="para">Now consider <span class="process-math">\(S_{1}\)</span> and <span class="process-math">\(S_{2}\)</span> are the entropies of the two system then total entropy of the combined system will be</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
 \begin{equation*}
-(v_{rms})_{1}=v_{rms}=\sqrt{\frac{3k_{B}\times 273}{m}}
+S =S_{1}+S_{2}
 \end{equation*}
 </div>
-<div class="para">At  NTP, <span class="process-math">\(T=T \,K\)</span>
-</div>
-<div class="displaymath process-math">
+<div class="para">entropy is an additive quantity. The probability of a composite system is equal to the product of the probabilities of the individual system. That is,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
 \begin{equation*}
-(v_{rms})_{2}=2v_{rms} = \sqrt{\frac{3k_{B}\times T}{m}}
+\omega = \omega_{1}\omega_{2} 
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="para">Therefore,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation}
+S =S_{1}+S_{2}  \tag{10.6.19}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation}
+f(\omega_{1}\omega_{2}) = f(\omega_{1})+f(\omega_{2}) \tag{10.6.20}
+\end{equation}
+</div>
+<div class="para">Differentiating eqn. <a href="" class="xref" data-knowl="./knowl/eqn-entr_prob2.html" title="Equation 10.6.20">(10.6.20)</a> with respect to <span class="process-math">\(\omega_{1}\text{,}\)</span> keeping <span class="process-math">\(\omega_{2} \)</span> constant, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation}
+\omega_{2}f'(\omega_{1}\omega_{2}) = f'(\omega_{1}) \tag{10.6.21}
+\end{equation}
+</div>
+<div class="para">Again differentiating this eqn. <a href="" class="xref" data-knowl="./knowl/eqn-entr_prob2.html" title="Equation 10.6.20">(10.6.20)</a> with respect to <span class="process-math">\(\omega_{2},\)</span>  keeping by <span class="process-math">\(\omega_{1}\)</span> constant, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation}
+\omega_{1}f'(\omega_{1}\omega_{2}) = f'(\omega_{2})  \tag{10.6.22}
+\end{equation}
+</div>
+<div class="para">Dividing eqns. <a href="" class="xref" data-knowl="./knowl/eqn-entr_prob3.html" title="Equation 10.6.21">(10.6.21)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-entr_prob4.html" title="Equation 10.6.22">(10.6.22)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation}
+\frac{\omega_{2}}{\omega_{1}} = \frac{f'(\omega_{1})}{f'(\omega_{2})}\tag{10.6.23}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
 \begin{equation*}
-\text{or,}\quad  2v_{rms} =\sqrt{\frac{3k_{B}\times T}{m}} = 2\sqrt{\frac{3k_{B}\times 273}{m}}
+\text{or,}\quad \omega_{1} f'(\omega_{1}) =\omega_{2} f'(\omega_{2}) = k,\quad \text{constant}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="para">So that</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
 \begin{equation*}
-\text{or,}\quad  \frac{T}{273} = 4
+f'(\omega_{1}) = \frac{k}{\omega_{1}}\qquad \text{and}\quad  f'(\omega_{2}) = \frac{k}{\omega_{2}}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="para">Integrating these expressions, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
 \begin{equation*}
-\therefore\quad  T = 4\times 273=1092 \,K = 819 \,^{o}C
+\int f'(\omega_{1})\,d\omega_{1} = \int \frac{k}{\omega_{1}}\,d\omega_{1}
 \end{equation*}
 </div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation}
+\therefore\quad f(\omega_{1}) = k\ln\omega_{1}+C \tag{10.6.24}
+\end{equation}
 </div>
-<span class="incontext"><a href="sec_tenth-examplesB.html#p-1259" class="internal">in-context</a></span>
+<div class="para">also,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation*}
+\int f'(\omega_{2})\,d\omega_{2} = \int \frac{k}{\omega_{2}}\,d\omega_{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation}
+\therefore\quad f(\omega_{2}) = k\ln\omega_{2}+C \tag{10.6.25}
+\end{equation}
+</div>
+<div class="para">In general,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation*}
+f(\omega) = k\ln\omega+C
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation*}
+\text{or,}\quad S =   k\ln\omega+C 
+\end{equation*}
+</div>
+<div class="para">Where C is a constant of integration which can be determined by initial conditions. In case of a perfect order, <span class="process-math">\(\omega=1\)</span> and <span class="process-math">\(S=0 \text{,}\)</span> then <span class="process-math">\(C =0.\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation*}
+\therefore \quad S =k\ln \omega
+\end{equation*}
+</div>
+<div class="para">Hence the microscopic definition of entropy is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob2.html ./knowl/eqn-entr_prob3.html ./knowl/eqn-entr_prob4.html">
+\begin{equation}
+S = N k_{B} ln \omega  \tag{10.6.26}
+\end{equation}
+</div>
+<div class="para">Where <span class="process-math">\(k=Nk_{B}\)</span> for N number of molecules of gas and <span class="process-math">\(k_{B} \)</span> is Boltzmann constant.</div>
+</div>
+<span class="incontext"><a href="subsec-entropy_prob.html#p-1259" class="internal">in-context</a></span>
 </body>
 </html>

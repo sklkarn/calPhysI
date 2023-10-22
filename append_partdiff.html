@@ -648,7 +648,15 @@ window.MathJax = {
 <div class="toc-item"><a href="subsec-heat_pump.html" class="internal"><span class="codenumber">10.6.10</span> <span class="title">Heat Pump and Refrigerator</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="subsec-heat_pump.html#subsubsec-cop" class="internal"><span class="codenumber">10.6.10.1</span> <span class="title">Coefficient of Performance,	COP:</span></a></div></li></ul>
 </li>
-<li><div class="toc-item"><a href="subsec-entropy.html" class="internal"><span class="codenumber">10.6.11</span> <span class="title">Entropy</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-entropy.html" class="internal"><span class="codenumber">10.6.11</span> <span class="title">Entropy</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-entropy.html#subsubsec-entropy_incrs" class="internal"><span class="codenumber">10.6.11.1</span> <span class="title">Principle of increase of entropy:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-entropy.html#subsubsec-entropy_degrad" class="internal"><span class="codenumber">10.6.11.2</span> <span class="title">Principle of degradation of entropy:</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-entropy_prob.html" class="internal"><span class="codenumber">10.6.12</span> <span class="title">Entropy and Probability</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-III_law.html" class="internal"><span class="codenumber">10.6.13</span> <span class="title">Third Law of Thermodynamics</span></a></div></li>
 </ul>
 </li>
 <li><div class="toc-item"><a href="sec_tenth-examplesB.html" class="internal"><span class="codenumber">10.7</span> <span class="title">Examples B</span></a></div></li>
@@ -668,7 +676,427 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="appendix" id="append_partdiff"><h2 class="heading">
 <span class="type">Appendix</span> <span class="codenumber">B</span> <span class="title">Appendix</span>
 </h2>
-<div class="para" id="p-1326"></div></section></div>
+<div class="para" id="p-1349"><dfn class="terminology">Mathematical Relations</dfn></div>
+<ol class="upper-roman">
+<li id="li-1221"><div class="para logical" id="p-1350">
+<div class="para"><dfn class="terminology">Algebric:</dfn></div>
+<ol class="lower-alpha">
+<li id="li-1222"><div class="para" id="p-derived-li-1222">
+<dfn class="terminology">Logerithmic Formulae:</dfn> A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If <span class="process-math">\(\log a=x,\)</span> then <span class="process-math">\(a=10^{x},\)</span> and if <span class="process-math">\(\ln a=x,\)</span> then <span class="process-math">\(a=e^{x}\text{,}\)</span> also<div class="displaymath process-math">
+\begin{equation*}
+\log m+\log n = \log mn;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log m-\log n = \log\frac{m}{n},
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log m^{n}= n \log m.
+\end{equation*}
+</div>Similarly we can obtain the relations for  natural log (ln).</div></li>
+<li id="li-1223"><div class="para" id="p-derived-li-1223">
+<dfn class="terminology">Quadratic Formula:</dfn> If<div class="displaymath process-math">
+\begin{equation*}
+ax^{2}+bx+c=0,
+\end{equation*}
+</div>then the root of quadratic equation is given by<div class="displaymath process-math">
+\begin{equation*}
+x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a}
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div></li>
+<li id="li-1224"><div class="para logical" id="p-1351">
+<div class="para"><dfn class="terminology">Geometric Formulae:</dfn></div>
+<ol class="lower-alpha">
+<li id="li-1225"><div class="para" id="p-derived-li-1225">Circumference of a circle of circle of radius r, <span class="process-math">\(C= 2\pi r\text{;}\)</span>
+</div></li>
+<li id="li-1226"><div class="para" id="p-derived-li-1226">Area of a circle of circle of radius r, <span class="process-math">\(A = \pi r^{2};\)</span>
+</div></li>
+<li id="li-1227"><div class="para" id="p-derived-li-1227">Volume of a sphere of radius r, <span class="process-math">\(V=\frac{4}{3}\pi r^{3};\)</span>
+</div></li>
+<li id="li-1228"><div class="para" id="p-derived-li-1228">Surface area of a sphere of radius r, <span class="process-math">\(A=4\pi r^{2};\)</span>
+</div></li>
+<li id="li-1229"><div class="para" id="p-derived-li-1229">Volume area of a cylinder of radius r and height h, <span class="process-math">\(V=\pi r^{2}h;\)</span>
+</div></li>
+<li id="li-1230"><div class="para" id="p-derived-li-1230">Cylindrical surface area of a cylinder of radius r and height h, <span class="process-math">\(S=2\pi r h\)</span>
+</div></li>
+<li id="li-1231"><div class="para" id="p-derived-li-1231">
+<em class="emphasis">Congruent Triangles:</em> In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.</div></li>
+<li id="li-1232"><div class="para" id="p-derived-li-1232">
+<em class="emphasis">Similar Triangles:</em> If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.</div></li>
+</ol>
+</div></li>
+<li id="li-1233"><div class="para logical" id="p-1352">
+<div class="para">
+<dfn class="terminology">Trigonometric Identities:</dfn>  in right angled triangle <span class="process-math">\(\vartriangle ABC,\)</span> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/rtangl.png" class="contained"></div>
+</div>
+<ol class="lower-alpha">
+<li id="li-1234"><div class="para" id="p-derived-li-1234"><div class="displaymath process-math">
+\begin{equation*}
+h^{2}=p^{2}+b^{2}
+\end{equation*}
+</div></div></li>
+<li id="li-1235"><div class="para" id="p-derived-li-1235">
+<div class="displaymath process-math">
+\begin{equation*}
+\sin\theta=\frac{p}{h} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos\theta=\frac{b}{h}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan\theta=\frac{p}{b}
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1236"><div class="para" id="p-derived-li-1236">
+<div class="displaymath process-math">
+\begin{equation*}
+\sin\theta \csc\theta=1;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos\theta\sec\theta=1;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan\theta\cot\theta=1; 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\sin\theta}{\cos\theta}=\tan\theta
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1237"><div class="para" id="p-derived-li-1237">
+<div class="displaymath process-math">
+\begin{equation*}
+\sin2\theta = 2\sin\theta\cos\theta;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos2\theta = \cos^{2}\theta-\sin^{2}\theta=2\cos^{2}\theta-1=1-2\sin^{2}\theta.
+\end{equation*}
+</div>If <span class="process-math">\(2\theta = \alpha,\)</span> then<div class="displaymath process-math">
+\begin{equation*}
+\sin\alpha=2\sin\frac{\alpha}{2}\cdot\cos\frac{\alpha}{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos\alpha=1-2\sin^{2}\frac{\alpha}{2} = 2\cos^{2}\frac{\alpha}{2}-1.
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1238"><div class="para" id="p-derived-li-1238">
+<div class="displaymath process-math">
+\begin{equation*}
+\sin(-\theta) = -\sin\theta;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos(-\theta) = \cos\theta;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sin(\theta\pm \frac{\pi}{2}) = \pm \cos\theta;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos(\theta\pm \frac{\pi}{2}) = \mp \sin\theta.
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1239"><div class="para" id="p-derived-li-1239">
+<div class="displaymath process-math">
+\begin{equation*}
+\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1240"><div class="para" id="p-derived-li-1240">
+<div class="displaymath process-math">
+\begin{equation*}
+2\sin \alpha\cdot\sin\beta = \cos(\alpha-\beta) - \cos(\alpha+\beta);
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2\cos \alpha\cdot\cos\beta = \cos(\alpha+\beta) + \cos(\alpha-\beta)
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1241"><div class="para" id="p-derived-li-1241">
+<div class="displaymath process-math">
+\begin{equation*}
+2\sin \alpha\cdot\cos\beta = \sin(\alpha+\beta) + \sin(\alpha-\beta)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2\cos \alpha\cdot\sin\beta = \sin(\alpha+\beta) - \sin(\alpha-\beta)
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1242"><div class="para" id="p-derived-li-1242">
+<div class="displaymath process-math">
+\begin{equation*}
+\sin\alpha+\sin\beta = 2\sin\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos\alpha+\cos\beta = 2\cos\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2}
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div></li>
+<li id="li-1243"><div class="para logical" id="p-1353">
+<div class="para">
+<dfn class="terminology">Trigonometric Identities:</dfn>  in any <span class="process-math">\(\vartriangle A' B' C'\)</span> with sides <span class="process-math">\(a, \,b,\)</span> and <span class="process-math">\(c\)</span> and angles <span class="process-math">\(\alpha,\,\beta,\)</span> and <span class="process-math">\(\gamma\)</span> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/cosinlaw.png" class="contained"></div>
+</div>
+<ol class="lower-alpha">
+<li id="li-1244"><div class="para" id="p-derived-li-1244">
+<em class="emphasis">Law of sines:</em><div class="displaymath process-math">
+\begin{equation*}
+\frac{\sin\alpha}{a}=\frac{\sin\beta}{b}=\frac{\sin\gamma}{c}
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1245"><div class="para" id="p-derived-li-1245">
+<em class="emphasis">Law of cosines:</em><div class="displaymath process-math">
+\begin{equation*}
+c^{2}=a^{2}+b^{2}-2ab\cos\gamma 
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div></li>
+<li id="li-1246"><div class="para logical" id="p-1354">
+<div class="para"><dfn class="terminology">Binomial Theorem:</dfn></div>
+<div class="displaymath process-math">
+\begin{equation*}
+(a+b)^{n} = a^{n}+na^{n-1}b+\frac{n(n-1)a^{n-2}b^{2}}{2!}+\frac{n(n-1)(n-2)a^{n-3}b^{3}}{3!}+\cdots
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1247"><div class="para logical" id="p-1355">
+<div class="para"><dfn class="terminology">Power Series:</dfn></div>
+<div class="displaymath process-math">
+\begin{equation*}
+(1+x)^{n} =1+nx+\frac{n(n-1)x^{2}}{2!}+\frac{n(n-1)(n-2)x^{3}}{3!}+\cdots  \quad  (|x| \lt 1)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+e^{x}=1+x+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+\cdots   \quad (\text{for all x})
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\ln(1+x)=x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\cdots   \quad (|x| \lt 1)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sin x= x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots \quad (\text{for all x})
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos x= 1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots \quad (\text{for all x})
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan x= x+\frac{x^{3}}{3}+\frac{2x^{5}}{15}+\frac{17x^{7}}{315}+\cdots \quad (|x| \lt \frac{\pi}{2})
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1248"><div class="para logical" id="p-1356">
+<div class="para"><dfn class="terminology">Calculus:</dfn></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x \to 0} \frac{\sin x}{x} = 1;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x \to 0} \cos x = 1 
+\end{equation*}
+</div>
+<ol class="lower-alpha">
+<li id="li-1249"><div class="para" id="p-derived-li-1249">
+<dfn class="terminology">Derivatives:</dfn><div class="displaymath process-math">
+\begin{equation*}
+\frac{\,d}{\,dx}x^{n}=nx^{n-1};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,d}{\,dx}\ln ax= \frac{1}{x};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,d}{\,dx}e^{ax}=ae^{ax};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,d}{\,dx}\sin ax = a\cos ax;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,d}{\,dx}\cos ax = -a\sin ax;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,d}{\,dx}\left(\tan x\right) = \sec^{2} x;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,d}{\,dx}\left(\cot x \right) = - \csc^{2} x
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,d}{\,dx}\left(\sec x \right) = \sec x \tan x;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,d}{\,dx}\left(\csc x \right) = - \csc x \cot x
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1250"><div class="para" id="p-derived-li-1250">
+<dfn class="terminology">Integrals:</dfn><div class="displaymath process-math">
+\begin{equation*}
+\int x^{n}\,dx= \frac{x^{n+1}}{n+1}\quad (n\neq-1);
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac{1}{x}\,dx=\ln x;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int e^{ax}\,dx = \frac{e^{ax}}{a};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \sin ax \,dx= -\frac{\cos ax}{a};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \cos ax\,dx=\frac{\sin ax}{a};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac{\,dx}{\sqrt{a^{2}-x^{2}}}=\arcsin\frac{x}{a}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac{\,dx}{\sqrt{x^{2}+a^{2}}}=\ln(x+\sqrt{x^{2}+a^{2}});
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac{\,dx}{x^{2}+a^{2}}=\frac{1}{a}\arctan\frac{x}{a}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac{\,dx}{\left(x^{2}+a^{2}\right)^{3/2}}=\frac{1}{a^{2}}\frac{x}{\sqrt{x^{2}+a^{2}}};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac{x\,dx}{\left(x^{2}+a^{2}\right)^{3/2}}=-\frac{1}{\sqrt{x^{2}+a^{2}}}
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div></li>
+<li id="li-1251"><div class="para logical" id="p-1357">
+<div class="para">
+<dfn class="terminology">Vectors:</dfn> Draw a rectangle having adjacent sides as <span class="process-math">\(\vec{a}\)</span> and <span class="process-math">\(\vec{b}.\)</span> Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors <span class="process-math">\(\vec{a}\)</span> and <span class="process-math">\(\vec{b}\text{.}\)</span> Now <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/resvect.png" class="contained"></div>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+r =\sqrt{LM^{2}+OM^{2}}=\sqrt{LM^{2}+\left(OA+AM\right)^{2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{but,}\quad AM=AL\cos\theta;
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+LM=AL\sin\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad AM=q\cos\theta;
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+LM=q\sin\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad r=\sqrt{q^{2}\sin^{2}\theta+\left(p+q\cos\theta\right)^{2}} = \sqrt{p^{2}+q^{2}+2pq\cos\theta}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan\phi=\frac{LM}{OM} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Rightarrow \quad \phi=tan^{-1}\left( \frac{q\sin\theta}{p+q\cos\theta}\right)
+\end{equation*}
+</div>
+</div></li>
+</ol></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="appendix-1.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="index-1.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
