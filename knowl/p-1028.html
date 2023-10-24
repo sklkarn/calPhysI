@@ -13,61 +13,38 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Consider a uniform circular cylindrical tube of radius <span class="process-math">\(R\)</span> and length <span class="process-math">\(l\)</span> in which liquid has a laminar flow. Consider a layer of liquid at distance <span class="process-math">\(r\)</span> from the center of the tube is moving with velocity <span class="process-math">\(v\text{,}\)</span> then the viscous force acting on this layer is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
-\begin{equation}
-F_{\mathrm{v}}=-\eta (2\pi rl)\frac{\,dv}{\,dr} \tag{9.4.1}
-\end{equation}
+<div class="para">In <a href="" class="xref" data-knowl="./knowl/visco1.html" title="Figure 9.4.1.(a)">Figure 9.4.1.(a)</a> a layer <span class="process-math">\(A\)</span> has higher speed than its adjacent layer <span class="process-math">\(B\text{,}\)</span> so layer A applies force on B to move it faster, but layer B pushes layer A backward so that they go together. Such pushing and pulling between the layers creates a drag force called a <dfn class="terminology">viscous force</dfn>. Consider a shear force F is required to keep the layer of fluid  moving at a constant velocity v, then it can be observed through the experiments that this force depends on the following four factors. This force <span class="process-math">\(F\)</span>
 </div>
-<div class="para">
-<span class="process-math">\(-ve\)</span> sign indicates that the viscous force is acting opposite to the direction of otion of the liquid, <span class="process-math">\((2\pi rl) \)</span> is the surface area of the liquid, and <span class="process-math">\(\frac{\,dv}{\,dr} \)</span> is the velocity gradient of the layer. The force due to pressure difference on the area of cross-section of the liquid is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
-\begin{equation}
-F_{\mathrm{p}}=(p_{1}-p_{2})(\pi r^{2})  =\Delta p(\pi r^{2})  \tag{9.4.2}
-\end{equation}
-</div>
-<div class="para">If the layer is moving with constant velocity, <span class="process-math">\(v\)</span> then</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
+<ol class="lower-roman">
+<li><div class="para">is proportional to velocity of the layer of liquid (<span class="process-math">\(F \propto v, \)</span>),</div></li>
+<li><div class="para">is proportional to the surface area of layer having the velocity v (<span class="process-math">\(F \propto A,\)</span>)</div></li>
+<li><div class="para">is inversely proportional to the distance of the layer from the stationary wall  (<span class="process-math">\(F \propto \frac{1}{L}.\)</span>) Mathematically,<div class="displaymath process-math">
 \begin{equation*}
-F_{\mathrm{p}}+F_{\mathrm{v}} =0
+F\propto \frac{vA}{L} 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad F_{\mathrm{p}}= -F_{\mathrm{v}}
+\therefore \quad F= \eta\frac{vA}{L} 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
+</div></li>
+</ol>
+<div class="para">If <span class="process-math">\(\,dz\)</span> is the distance between adjacent layers and <span class="process-math">\(\,dv\)</span> is the difference in their velocities, then the viscous force is given in differential form as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/visco1.html">
 \begin{equation*}
-\text{or,}\quad \Delta p(\pi r^{2}) = \eta (2\pi rl)\frac{\,dv}{\,dr}
+F= \eta A\frac{\,dv}{\,dz}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
-\begin{equation}
-\text{or,}\quad \frac{\,dv}{\,dr} = \frac{\Delta p(\pi r^{2})}{\eta (2\pi rl)}   = \left(\frac{\Delta p}{2\eta l}\right)r \tag{9.4.3}
-\end{equation}
-</div>
-<div class="para">At axis of the tube, <span class="process-math">\(r=0,\)</span>
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
+<div class="para">where, <span class="process-math">\(\eta \)</span> is a proportionality constant, called coefficient of viscosity and it defines the property of the fluid. The greater the coefficient of viscosity <span class="process-math">\(\eta\text{,}\)</span> the greater the force required to move the layer of fluid at a velocity v. The term <span class="process-math">\(\frac{\,dv}{\,dz}\)</span> is called a velocity gradient. The fluids which obey this equation are called <em class="emphasis">Newtonian fluids</em> and <span class="process-math">\(\eta = constant\)</span> is independent of the speed of flow. If <span class="process-math">\(\eta \)</span> does depend on the velocity of flow the fluids are called <em class="emphasis">non-Newtonian</em>. Blood is an example of a non-Newtonian fluid.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/visco1.html">
 \begin{equation*}
-\frac{\,dv}{\,dr}=0
+\because \quad \eta= \frac{FL}{vA}
 \end{equation*}
 </div>
-<div class="para">
-<span class="process-math">\(\Rightarrow \quad v  \)</span> is maximum, at <span class="process-math">\(r=R, \quad v=0\text{.}\)</span> Integrating eqn. <a href="" class="xref" data-knowl="./knowl/eqn-poise3.html" title="Equation 9.4.3">(9.4.3)</a>, we get -</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
-\begin{equation*}
-\int\limits_{v}^{0}\,dv = \left(\frac{\Delta p}{2\eta l}\right)\int\limits_{r}^{R}r\,dr 
-\end{equation*}
+<div class="para">The SI unit of viscosity is <span class="process-math">\(N.s/m^{2}\)</span> or, <span class="process-math">\(Pa.s\text{.}\)</span> A common unit of viscosity is the poise <span class="process-math">\(P\)</span> where <span class="process-math">\(1 \,Pa.s = 10 \,P.\)</span>
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
-\begin{equation}
-\therefore\quad v(r) = \left(\frac{\Delta p}{4\eta l}\right)(R^{2}-r^{2})   \tag{9.4.4}
-\end{equation}
 </div>
-<div class="para">Eqn. <a href="" class="xref" data-knowl="./knowl/eqn-poise4.html" title="Equation 9.4.4">(9.4.4)</a> represents a parabolic (<span class="process-math">\(y\propto x^{2}\)</span>) nature of velocity profile.</div>
-</div>
-<span class="incontext"><a href="subsec-pois_law.html#p-1028" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-coef_visc.html#p-1028" class="internal">in-context</a></span>
 </body>
 </html>

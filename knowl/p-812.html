@@ -12,13 +12,30 @@
 </head>
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
-<div class="para logical">
-<div class="para">A disk of nonuniform mass distribution has a radius, <span class="process-math">\(R\)</span> mass and <span class="process-math">\(M\text{.}\)</span> The surface mass density varies as <span class="process-math">\(\sigma = \sigma_{o} r^{2}\)</span> where <span class="process-math">\(\sigma_{o}\)</span> is a constant and <span class="process-math">\(r\)</span> is measured from its center.</div>
-<ol class="lower-alpha">
-<li><div class="para">Find its center of mass and</div></li>
-<li><div class="para">moment of inertia about an axis passing through its geometric center and perpendicular to its plane.</div></li>
-</ol>
+<div class="para logical"><ol class="lower-alpha">
+<li><div class="para"><div class="displaymath process-math">
+\begin{equation*}
+x_{cm} = \dfrac{\int_{0}^{M}x\,dm}{\int_{0}^{M}\,dm} = \frac{2}{\lambda_{o}L^{2}}\int_{0}^{L}x(\lambda_{o}x)\,dx = \frac{2}{3} L 
+\end{equation*}
+</div></div></li>
+<li><div class="para">
+<div class="displaymath process-math">
+\begin{equation*}
+\,dI  = x^{2}\,dm = x^{2}\lambda \,dx = x^{2}\lambda_{o} x\,dx  \
+\end{equation*}
 </div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad I = \int \,dI = \lambda_{o}\int_{0}^{L}x^{3} \,dx 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lambda_{o}\left.\frac{x^{4}}{4} \right\vert_{o}^{L} = \frac{\lambda_{o}L^{4}}{4} = \frac{1}{2}ML^{2}
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
 <span class="incontext"><a href="sec_seventh-examplesA.html#p-812" class="internal">in-context</a></span>
 </body>
 </html>

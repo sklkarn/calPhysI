@@ -13,37 +13,35 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">A geosynchronous satellite orbits the earth in such a way that it reaches at the same point above the earth in every 24 hours. It orbits in a polar orbit. The special kind of geosynchronous satellite is called geostationary satellite which seems to be at rest at the same position above the earth. It takes an equatorial orbit. The only force which provides the necessary centripetal force of such satellite is the gravitational force. Such satellites are used for weather forecasting and signal transmission.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
-\begin{equation}
-F_{g}=\frac{GMm}{r^{2}} = \frac{mv^{2}_{o}}{r}\tag{6.1.1}
-\end{equation}
+<div class="para">The minimum velocity of an object with which it can be thrown out from the planet so that it never come back is known as escape velocity. Suppose a stone of mass <span class="process-math">\(m\)</span> is thrown out from a planet with a velocity <span class="process-math">\(v_{e}\)</span> so that it never fall back on the earth again, then the total energy of the stone on the planet, <span class="process-math">\(E_{p}\)</span> is equal to total energy of the stone at infinity, <span class="process-math">\(E_{\infty}. \)</span>
 </div>
-<div class="para">Where <span class="process-math">\(m,\)</span> <span class="process-math">\(v_{o},\)</span> and <span class="process-math">\(r\)</span> are mass, orbital velocity, and the orbital radius of the  satellite, respectively. Also</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
-\begin{equation}
-v_{o} = \frac{2\pi r}{T} \tag{6.1.2}
-\end{equation}
-</div>
-<div class="para">Where <span class="process-math">\(T\)</span> is orbiting time period of satellite. From eqns. <a href="" class="xref" data-knowl="./knowl/eqn-geosync1.html" title="Equation 6.1.1">(6.1.1)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-geosync2.html" title="Equation 6.1.2">(6.1.2)</a>, we have -</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
-\begin{equation}
-r =\sqrt[3]{\frac{GMT^{2}}{4\pi^{2}}}\tag{6.1.3}
-\end{equation}
-</div>
-<div class="para">Since the angular speed of satellite in its orbit must be the same as that of the earth about its axis, the orbiting time period of satellite must be equal to 1 day. Therefore,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
+<div class="displaymath process-math">
 \begin{equation*}
-T = 1 day = 24 h \times 60 \frac{min}{h}\times 60 \frac{sec}{min} = 86400 s
+E_{p} = E_{\infty} \quad \Rightarrow\quad KE_{p} + PE_{p} =KE_{\infty}+PE_{\infty}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-geosync1.html ./knowl/eqn-geosync2.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\therefore \quad r=4.23\times10^{7} m
+\frac{mv^{2}_{e}}{2}-\frac{GMm}{R} = 0-\frac{GMm}{\infty} 
 \end{equation*}
 </div>
-<div class="para">A geostationary satellite must orbit at a distance of about 36000 km above the surface of the earth, [<span class="process-math">\(\because\quad r=R+h\)</span>].</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore v_{e} = \sqrt{\frac{2GM}{R}}
+\end{equation*}
 </div>
-<span class="incontext"><a href="subsec-geo_sync.html#p-734" class="internal">in-context</a></span>
+<div class="para">Where <span class="process-math">\(r=R+h\text{,}\)</span> <span class="process-math">\(m\text{,}\)</span> and <span class="process-math">\(M\)</span> are distance of a satellite (object), mass of a satellite, and mass of the planet, respectively. Here <span class="process-math">\(R\)</span> is radius of the planet,  <span class="process-math">\(G\)</span> is universal gravitational constant, and <span class="process-math">\(h\)</span> is the altitude of the satellite from the surface of the planet. If radius of the earth, <span class="process-math">\(R=6.37\times10^{6}m\)</span>  and mass of the earth is <span class="process-math">\(M=5.97\times10^{24}kg\text{,}\)</span> then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{e} = \sqrt{\frac{2\times 6.67\times10^{-11}\times5.97\times10^{24}}{6.37\times10^{6}}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad  v_{e} =1.12\times10^{4}m/s= 11.2km/s.
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="subsec-esc_vel.html#p-734" class="internal">in-context</a></span>
 </body>
 </html>

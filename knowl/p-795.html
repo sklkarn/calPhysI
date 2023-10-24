@@ -13,43 +13,34 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Consider a concentric disk of radius <span class="process-math">\(r\)</span> and thickness <span class="process-math">\(\,dx\)</span> at a distance <span class="process-math">\(x\)</span> from the vertex in a solid cone of mass <span class="process-math">\(M\)</span> and radius <span class="process-math">\(R\)</span> [<a href="" class="xref" data-knowl="./knowl/miscone1.html" title="Figure 7.1.11.(a)">Figure 7.1.11.(a)</a>], then the moment of inertia of this disk about its center of mass can be given as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscone1.html">
+<div class="para">Consider a concentric cylindrical shell of length <span class="process-math">\(l\text{,}\)</span> radius <span class="process-math">\(r\text{,}\)</span> and thickness <span class="process-math">\(\,dr\)</span> in a solid cylinder of mass <span class="process-math">\(M\)</span> and radius <span class="process-math">\(R\)</span> [<a href="" class="xref" data-knowl="./knowl/miscyl1.html" title="Figure 7.1.10.(c)">Figure 7.1.10.(c)</a>], then the moment of inertia of the shell is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
 \begin{equation*}
-\,dI=\frac{1}{2}\,dm\,r^{2} = \frac{1}{2}\left[\frac{M}{\frac{1}{3}\pi R^{2}h}\right]\left(\pi r^{2}\,dx\right)r^{2}
+\,dI_{z}=\,dm\,r^{2} = \left[\frac{M}{\pi R^{2}l}\right]\left(2\pi r\,dr l\right)r^{2}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscone1.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
 \begin{equation*}
-\text{or,}\quad I = \left(\frac{3M}{2\pi R^{2}h}\right) \int\limits_{0}^{h}\left(\pi r^{4}\right)\,dx
+\text{or,}\quad I_{z} = \frac{2M}{R^{2}} \int\limits_{0}^{R}r^{3}\,dr
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscone1.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
 \begin{equation*}
-= \left(\frac{3M}{2R^{2}h}\right) \int\limits_{0}^{h}\left(\frac{x^{4}R^{4}}{h^{4}}\right)\,dx
+=\frac{2M}{R^{2}}\left(\frac{r^{4}}{4}\right)_{0}^{R}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscone1.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
 \begin{equation*}
-[\because  \frac{x}{h}=\frac{r}{R}\quad \text{from similar triangles in figure}]
+\therefore\quad I_{z} = \frac{1}{2}\left(\frac{M}{R^{2}}\right)\left(R^{4}-0\right) = \frac{1}{2}MR^{2}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscone1.html">
+<div class="para">Show that moment of inertia of a solid cylinder about</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscyl1.html">
 \begin{equation*}
-\text{or,}\quad I = \left(\frac{3M}{2h^{5}}\right) \int\limits_{0}^{h}\left(x^{4}R^{2}\right)\,dx
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscone1.html">
-\begin{equation*}
-= \left(\frac{3MR^{2}}{2h^{5}}\right) \left(\frac{x^{5}}{5}\right)_{0}^{h}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/miscone1.html">
-\begin{equation*}
-\therefore\quad I = \left(\frac{3MR^{2}}{2h^{5}}\right) \left(\frac{h^{5}}{5}\right)= \frac{3}{10}MR^{2} 
+I_{x} =I_{y} = \frac{M}{12}\left(3R^{2}+l^{2}\right).
 \end{equation*}
 </div>
 </div>
-<span class="incontext"><a href="subsec-mi_cone.html#p-795" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-mi_cylnd.html#p-795" class="internal">in-context</a></span>
 </body>
 </html>

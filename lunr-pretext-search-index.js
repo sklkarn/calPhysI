@@ -1951,7 +1951,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.12",
   "title": "Examples E",
-  "body": " Examples E   Center of MassM    Find the location of the center of mass of the point masses tabulated below:   Mass (kg)  x-coordinate (m)  y-coordinate (m)    1  2  3    4  -5  6    7  8  -9               Find the center of mass of the point masses illustrated below:      1. Find the coordinates of each mass and specify those coordinate pairs beside each respective mass.  2. Use the center of mass equations to calculate the coordinates of the center of mass.  the center of mass lies at point      Find the center of mass of the uniform sheet illustrated at right:      1. Break the body down into its two constituent parts.  2. Specify the area of each constituent part.   and   3. Locate the coordinates of the center of mass of each constituent part. The center of mass of big surface of surface area is at (4,5) and that for small surface of surface area is at (11,2). (Note: For uniform object geometrical center is taken as its center of mass.)  4. Utilize the equations shown above.   Note: mass is proportional to area for a uniform surface:         Find the x-coordinate of a center of mass of a uniform disk of radius 2R from which the mass of a small disk of radius R is missing as shown in given figure.      We know that the center of mass of full disk of radius lies at its center (0,0). here stand for the x-coordinates of a center of mass of the full disk, small disk, and real disk, and stand for the mass of a small disk which is missing, and the mass of the real disk.  Note: mass is proportional to area for a uniform surface. is a density of the disk.      Find the x-coordinate of the center of mass of a rod of length L whose mass per unit length varies as .    Consider a rod of length of mass and has mass per unit length as          Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung,       A solid sphere is cut into half and stacked on top of each other as shown in figure:  Find its center of mass.    The center of mass of a hemisphere of radius is given by  here is the radius of a slice at height and thickness . Since we have-   Hence, the center of mass of the two stacked hemispheres is given by        Rotational Equilibrium    Write the torque equation about the specified axis for the forces indicated in the figure:             Write the torque equation about the specified axis for the forces indicated below:             A symmetrical beam of weight and length is suspended from the ceiling on one end by a hinge and on the other by a wire also of length so that both beam and wire make an angle of with the ceiling as shown in the figure below. Suspended from the junction of wire and beam is a weight . What is the tension in the cable and the horizontal and vertical components of the force on the beam at the hinge?        List given quantities .  Draw the forces acting on the beam and resolve them into components.    Choose an axis and specify the perpendicular distances from each line of action to that axis.  Write equations: and    Solve to get answers:           A uniform rod of length 1 meter and of weight 10 Newtons is resting against a vertical wall with its base 0.5 meters from the bottom of the wall. If a 20 Newton weight is suspended from the rod from a point 3\/4 of the way up the rod, what is the minimum coefficient of friction that will keep the rod from slipping on the floor? Assume there is no friction between the rod and the vertical wall.      Given:                    A uniform rod of length L = 1 meter and mass is suspended as shown in the figure below, making an angle of with the horizontal and supporting a second unknown mass . The support wire on the left is horizontal, the support wire on the top makes an angle of with the rod, and the other wire on the right is vertical. The top wire is attached at a point S = 0.75 m up the rod from the left.    What is the tension in the wire on the left?  What is the tension in the wire on top?  What is the tension in the wire on the right?  What is the mass ?            Given:       from eqn.      Hence, from eqn.  from eqn. , we have -         A block with a square base measuring and height is placed on an inclined plane of angle . The coefficient of friction is and the angle of the incline is gradually increased. Find the condition at which block tip over before it begins to slide.    The block will not slide if the coefficient of friction . In other words, sliding begins only when becomes the angle of repose . The block will toppled down once the line of action of weight pass throgh the edge of the block, i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below.        From first figure, we have -  Divide these equations and substitute , we get- If is gradually increasing to [second figure], then at the instant of toppling, normal force acts along the bottom edge of block which is the point of rotation. Hence the total torque must be zero (i.e., at rotational equilibrium).   Now, from eqns. and , if , it will tip over before slide, and if , it will slide before toppling.      A uniform 10m beam of mass 300kg extends over a ledge. The beam is not attached, but simply rests on the surface. A 60kg man intends to position the beam in such a way that he can walk to the end of it. What is the maximum distance the beam can extend past end of the ledge and still allow him to perform this feat?      The beam can be balanced if it is placed on the edge of ledge by its new center of mass, (i.e., the center of mass of beam and man system). Here is the center of mass of a beam only.    Let be the distance of beam overhung past the edge of ledge, then from free -body diagram, we have -  Since the beam is at static equilibrium. Now, This is a total torque about the new center of mass, (or the point of rotation).   Alternative: we can solve this problem using center of mass formula,       "
+  "body": " Examples E   Center of MassM    Find the location of the center of mass of the point masses tabulated below:   Mass (kg)  x-coordinate (m)  y-coordinate (m)    1  2  3    4  -5  6    7  8  -9               Find the center of mass of the point masses illustrated below:      1. Find the coordinates of each mass and specify those coordinate pairs beside each respective mass.  2. Use the center of mass equations to calculate the coordinates of the center of mass.  the center of mass lies at point      Find the center of mass of the uniform sheet illustrated at right:      1. Break the body down into its two constituent parts.  2. Specify the area of each constituent part.   and   3. Locate the coordinates of the center of mass of each constituent part. The center of mass of big surface of surface area is at (4,5) and that for small surface of surface area is at (11,2). (Note: For uniform object geometrical center is taken as its center of mass.)  4. Utilize the equations shown above.   Note: mass is proportional to area for a uniform surface:         Find the x-coordinate of a center of mass of a uniform disk of radius 2R from which the mass of a small disk of radius R is missing as shown in given figure.      We know that the center of mass of full disk of radius lies at its center (0,0). here stand for the x-coordinates of a center of mass of the full disk, small disk, and real disk, and stand for the mass of a small disk which is missing, and the mass of the real disk.  Note: mass is proportional to area for a uniform surface. is a density of the disk.      Find the x-coordinate of the center of mass of a rod of length L whose mass per unit length varies as .    Consider a rod of length of mass and has mass per unit length as          Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung, For example, in three books system like above: we have for first book for second book  for third book  Hence, maximum overhung,   The general rule to find the maximum overhung,x for a uniform object is       A solid sphere is cut into half and stacked on top of each other as shown in figure:  Find its center of mass.    The center of mass of a hemisphere of radius is given by  here is the radius of a slice at height and thickness . Since we have-   Hence, the center of mass of the two stacked hemispheres is given by        Rotational Equilibrium    Write the torque equation about the specified axis for the forces indicated in the figure:             Write the torque equation about the specified axis for the forces indicated below:             A symmetrical beam of weight and length is suspended from the ceiling on one end by a hinge and on the other by a wire also of length so that both beam and wire make an angle of with the ceiling as shown in the figure below. Suspended from the junction of wire and beam is a weight . What is the tension in the cable and the horizontal and vertical components of the force on the beam at the hinge?        List given quantities .  Draw the forces acting on the beam and resolve them into components.    Choose an axis and specify the perpendicular distances from each line of action to that axis.  Write equations: and    Solve to get answers:           A uniform rod of length 1 meter and of weight 10 Newtons is resting against a vertical wall with its base 0.5 meters from the bottom of the wall. If a 20 Newton weight is suspended from the rod from a point 3\/4 of the way up the rod, what is the minimum coefficient of friction that will keep the rod from slipping on the floor? Assume there is no friction between the rod and the vertical wall.      Given:                    A uniform rod of length L = 1 meter and mass is suspended as shown in the figure below, making an angle of with the horizontal and supporting a second unknown mass . The support wire on the left is horizontal, the support wire on the top makes an angle of with the rod, and the other wire on the right is vertical. The top wire is attached at a point S = 0.75 m up the rod from the left.    What is the tension in the wire on the left?  What is the tension in the wire on top?  What is the tension in the wire on the right?  What is the mass ?            Given:       from eqn.      Hence, from eqn.  from eqn. , we have -         A block with a square base measuring and height is placed on an inclined plane of angle . The coefficient of friction is and the angle of the incline is gradually increased. Find the condition at which block tip over before it begins to slide.    The block will not slide if the coefficient of friction . In other words, sliding begins only when becomes the angle of repose . The block will toppled down once the line of action of weight pass throgh the edge of the block, i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below.        From first figure, we have -  Divide these equations and substitute , we get- If is gradually increasing to [second figure], then at the instant of toppling, normal force acts along the bottom edge of block which is the point of rotation. Hence the total torque must be zero (i.e., at rotational equilibrium).   Now, from eqns. and , if , it will tip over before slide, and if , it will slide before toppling.      A uniform 10m beam of mass 300kg extends over a ledge. The beam is not attached, but simply rests on the surface. A 60kg man intends to position the beam in such a way that he can walk to the end of it. What is the maximum distance the beam can extend past end of the ledge and still allow him to perform this feat?      The beam can be balanced if it is placed on the edge of ledge by its new center of mass, (i.e., the center of mass of beam and man system). Here is the center of mass of a beam only.    Let be the distance of beam overhung past the edge of ledge, then from free -body diagram, we have -  Since the beam is at static equilibrium. Now, This is a total torque about the new center of mass, (or the point of rotation).   Alternative: we can solve this problem using center of mass formula,       "
 },
 {
   "id": "example-64",
@@ -2005,7 +2005,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.12.6",
   "title": "",
-  "body": "  Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung,    "
+  "body": "  Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung, For example, in three books system like above: we have for first book for second book  for third book  Hence, maximum overhung,   The general rule to find the maximum overhung,x for a uniform object is    "
 },
 {
   "id": "example-70",
@@ -2557,9 +2557,9 @@ var ptx_lunr_docs = [
   "body": " Work   If an object is displaced along the same direction as the force is applied then the work is said to be done. If a force displaces a body to a distance along the direction of force then work can be calculated by . Work is a scalar quantity as it is a measure of transfer of energy from one object to another. The physical quantities which can be obtained by dot product of two vectors are scalar. The unit of work is joule in SI system, ; in FPS system, ft-lb = foot.pound; and in CGS system, erg = dyne.cm.               Suppose a block of mass is displaced to a distance along the horizontal direction by the application of force [ ]. If the force is acting along a direction to the horizontal, then work done by the force is given by The work done by a force is defined as the product of component of the force in the direction of displacement and the magnitude of displacement. Work in physics is different than our daily life work. Suppose you are pushing a rigid brick wall very hard, after some time you get exhausted because you lose your body energy. In our daily life we called this action as a work, but in physics this is not a work because the object did not displace from its position. Hence in physics, whether the force or the displacement is zero, there is no work. Depending upon the angle between the applied force and the displacement, work could be negative, positive, or zero. For example, work done by a frictional force, or work done by a force acting opposite to the motion of object, work done by a force acting parallel to the motion of object, and work done by a force acting perpendicular to the motion of object,   If a force displaces an object to a small distance where then work done by this force is given by If then   The terms like are area under the curve [ ]. The sum of these area between initial position to final position along each direction is equal to work done by a variable force F(r), such as force of spring.   "
 },
 {
-  "id": "p-530",
+  "id": "p-531",
   "level": "2",
-  "url": "subsec-work.html#p-530",
+  "url": "subsec-work.html#p-531",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2584,27 +2584,27 @@ var ptx_lunr_docs = [
   "body": " Energy   The capacity of doing work is known as energy. It is a scalar quantity and it's unit in SI system is Joule. Energy exists in many different forms, such as thermal energy, sound energy, electrical energy, magnetic energy, gravitational energy, chemical energy, mechanical energy, etc. The energy associated with the motion and position of an object is termed as mechanical energy. We focus our understanding here in mechanical energy. Mechanical energy is of two types, kinetic energy and potential energy. The kinetic energy is associated with the motion of the object and potential energy is associated with the position of the object with respect to some other object. For example: elastic potential energy due to a spring force, gravitational potential energy due to gravity, etc. The sum of kinetic and potential energy gives the total mechanical energy of the object.    Work-Energy Theorem  From equations of motion, we have where , , and are final velocity, initial velocity, acceleration, and distance covered by the particle, respectively. From Newton's second law of motion, we have - From eqns. and , we have -  Here the term is called final kinetic energy, , the term is called initial kinetic energy, , and the term is work done by a force. Hence, Which is known as work-energy theorem . It states that work done by a net force acting on a body is equal to the chnage in its kinetic energy.    Kinetic Energy:  It is the energy associated with a body during its motion. Suppose is the work done by a force on a body to displace it to a distance , then  The quantity is called the kinetic energy, i.e., Since this kinetic energy is associated with a body in translational motion, it is called a translational (linear) kinetic energy. The kinetic energy in rotational motion is called rotational kinetic energy which we will discuss in .    Potential Energy:  The energy stored in a body due to its position is known as potential energy. If work is done by a force to change the position of a body, then this work is stored in the body at that position in the form of potential energy. The restoring force plays a crucial role to acquire potential energy. For example, a charged particle near or far from another charge; a squashed or stretched rubber ball, a body above the surface of the earth. The potential energy of the body at any position is the work done against the restoring force in moving the body from the zero point (reference point) to that position. The reference point The zero point is so chosen that it could be infinitely far away. Such as at infinity, at the center of the earth, at sea level, at the floor, at the table top, or at any other point. This is because only potential energy differences between two positions are physically measurable and cannot depend on the a rbitrary choice of the zero point. (or, the zero point ) is the point where potential energy is assumed to be zero. If work has to be done on a body to take it to a new location, then the potential energy increases in the process. If the external force does the work then the potential energy change is negative.     Gravitational Potential Energy: Suppose a body of mass is lifted to a height against gravity without acceleration, then work done by the applied force, is given by This work is stored in the body in the form of gravitational potential energy. Hence when this body is released from the position the body drops down to the ground again. Therefore, the work done by the gravity to pull that object towards earth's surface is given by This is gravitational potential energy in a uniform gravitational field, . The gravitational potential energy due to two point masses is given by Where is the mass of an object at the origin, is the mass of an object at a radial distance from the origin and the zero point is chosen at infinity.     Elastic Potential Energy: When the body (or, spring) is compressed or stretched external force has to do the work, this work is stored in a body (or, spring) in the form of elastic potential energy. It is the energy due to work done by a restoring force. where is the restoring force [read for more details] , is elastic (or, spring) constant (it defines the stiffness of the spring), and is extension in the spring.    Since work done by a force in principle depends on the path taken by the body, (as can be seen in where is a frictional force), but if the force is conservative then work done is independent on the path taken by the body rather it depends on the initial and final position of the body [ ].   "
 },
 {
-  "id": "p-534",
+  "id": "p-535",
   "level": "2",
-  "url": "subsec-energy.html#p-534",
+  "url": "subsec-energy.html#p-535",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "work-energy theorem "
 },
 {
-  "id": "p-537",
+  "id": "p-538",
   "level": "2",
-  "url": "subsec-energy.html#p-537",
+  "url": "subsec-energy.html#p-538",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Gravitational Potential Energy: "
 },
 {
-  "id": "p-538",
+  "id": "p-539",
   "level": "2",
-  "url": "subsec-energy.html#p-538",
+  "url": "subsec-energy.html#p-539",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2665,18 +2665,18 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-544",
+  "id": "p-545",
   "level": "2",
-  "url": "subsec-ediagram.html#p-544",
+  "url": "subsec-ediagram.html#p-545",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "static equilibrium stable equilibrium "
 },
 {
-  "id": "p-546",
+  "id": "p-547",
   "level": "2",
-  "url": "subsec-ediagram.html#p-546",
+  "url": "subsec-ediagram.html#p-547",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2719,18 +2719,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-552",
+  "id": "p-553",
   "level": "2",
-  "url": "subsec-sm.html#p-552",
+  "url": "subsec-sm.html#p-553",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "lever "
 },
 {
-  "id": "p-554",
+  "id": "p-555",
   "level": "2",
-  "url": "subsec-sm.html#p-554",
+  "url": "subsec-sm.html#p-555",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2746,9 +2746,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-555",
+  "id": "p-556",
   "level": "2",
-  "url": "subsec-sm.html#p-555",
+  "url": "subsec-sm.html#p-556",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2764,9 +2764,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-556",
+  "id": "p-557",
   "level": "2",
-  "url": "subsec-sm.html#p-556",
+  "url": "subsec-sm.html#p-557",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2800,9 +2800,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-559",
+  "id": "p-560",
   "level": "2",
-  "url": "subsec-pulley.html#p-559",
+  "url": "subsec-pulley.html#p-560",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2818,22 +2818,13 @@ var ptx_lunr_docs = [
   "body": "                        "
 },
 {
-  "id": "p-560",
-  "level": "2",
-  "url": "subsec-pulley.html#p-560",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Single Fixed Pulley: "
-},
-{
   "id": "p-561",
   "level": "2",
   "url": "subsec-pulley.html#p-561",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "One Fixed and One Movable Pulley: "
+  "body": "Single Fixed Pulley: "
 },
 {
   "id": "p-562",
@@ -2842,12 +2833,21 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Two Fixed and One Movable Pulley: "
+  "body": "One Fixed and One Movable Pulley: "
 },
 {
   "id": "p-563",
   "level": "2",
   "url": "subsec-pulley.html#p-563",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Two Fixed and One Movable Pulley: "
+},
+{
+  "id": "p-564",
+  "level": "2",
+  "url": "subsec-pulley.html#p-564",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3025,9 +3025,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-623",
+  "id": "p-624",
   "level": "2",
-  "url": "subsec-collision.html#p-623",
+  "url": "subsec-collision.html#p-624",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3880,9 +3880,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-773",
+  "id": "p-774",
   "level": "2",
-  "url": "subsec-paral_axis.html#p-773",
+  "url": "subsec-paral_axis.html#p-774",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3907,9 +3907,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-774",
+  "id": "p-775",
   "level": "2",
-  "url": "subsec-perpend_axis.html#p-774",
+  "url": "subsec-perpend_axis.html#p-775",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4060,9 +4060,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-801",
+  "id": "p-802",
   "level": "2",
-  "url": "subsec-mi_spher.html#p-801",
+  "url": "subsec-mi_spher.html#p-802",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4219,7 +4219,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Examples B",
-  "body": " Examples B    A body rotates according to the equation , where and . Find:                     Given:                             A tire of mass 30 kg, radius of gyration 20 cm, and diameter 50 cm accelerates uniformly from rest. A small nail is embedded in the outer tread of the tire. After 100 revolutions the tire is rotating at 400 rpm. At that time, find each of the following:  What is its angular acceleration?  How much time did it take to get up to speed?  What is the speed of the nail?  What is the acceleration of the nail?  What is the moment of inertia of the wheel?  What torque is required to make the wheel rotate?  How much energy was imparted to the wheel?  How much power is required to rotate the wheel?  What is the angular momentum of the wheel?      Given:                                       An automobile engine with a moment of inertia of is revved up to 2400 rpm. The clutch is then popped and the car lurches forward. The effective moment of inertia of the clutch plate (including the gears, drive train, wheels, and mass of the car) is .  What is the angular velocity of the clutch plate after the clutch is popped?  If the gear ratio in the transmission is a 4 to 1 reduction, what is the angular velocity of the wheels after the clutch is popped?  If the wheel has a radius of 30 cm, what is the speed of the car after the clutch is popped?                        The 20-kg disk of radius R=0.25m is at rest when the constant 10 N-m counterclockwise torque is applied. Determine the disk's angular velocity (in rpm) when it has rotated through four revolutions  by applying the equation of angular motion and  by applying the principle of work and energy.        Given:     Now,                    Two blocks of mass and are connected through a rope over a pulley of mass and radius as shown in figure  . What is the acceleration of the blocks and the tension in the rope on either side of the pulley?    From figure  .   Note: The tension on both sides a massive pulley must be different otherwise the pulley would not rotate. From figure  .   From figure    Now from eqns. and ,           A yo-yo has a mass , a moment of inertia , and an inner radius A string is wrapped around the inner cylinder of the yo-yo. A person ties the string to his finger and releases the yo-yo. As the yo-yo falls, it rolls on the string but does not slip. Find the acceleration of the yo-yo.         From eqns. and , we have -        A bucket of water of mass 10 kg is supported by a rope wrapped around a uniform cylinder of mass 20 kg and radius 10 cm as shown in the [Figure a]. If the system is released from rest, how long it takes the bucket to fall to the bottom of a well 3 m deep?      Given: and Now, from free-body diagram [Figure b],  From free-body diagram [Figure c],  From eqns. and , we have -  Now well is 3m deep, so time taken by the block to reach at bottom of well is given by         A thin ring of mass 2 kg and diameter 10 cm rolls without slipping down an inclined plane 1 m long with one end 10 cm higher than the other. If the system is released from rest,  What is the minimum coefficient of static friction that will cause the ring to roll without slipping?  How long does it take for the ring to get to the bottom of the incline?  How fast is the ring moving at that time?  What fraction of the kinetic energy of the ring is due to its rotation at that time?        Given:  From geometry of the figure,         For ring and From eqns. and , we get - Also from eqns. and , we get -   From eqns. and , we get -                       A block of mass and a disk of mass and radius are placed on a symmetric triangular slope connected with a massless string over a massless pulley [Figure (a)]. The string is connected to a center axle of the disk so that the disk is free to rotate. The moment of inertia of the disk about its axle is The coefficient of static friction between the slope and the block\/disk is 0.05 and the coefficient of kinetic friction between the slope and the block\/disk is 0.15. The angle is Find the maximum ratio such that the disk still rolls without slipping up the hill.      Since the disk is rolling without slipping, the maximum friction acting on the point of contact of disk and ramp must be static (i.e., ). Now, whether the system is accelerating or not for the maximum ratio of can be determined by the evaluation of final equation. From the free-body diagram construct equations as shown below. From [Figure (b)] consider the disk is accelerating upwards with an acceleration for now, then           From [Figure (c)] the disk is accelerating downwards with an acceleration because the block is connected to the disk through same rope via massless and frictionless pulley and hence has the same tension and acceleration, therefore     Now from eqns. , and , we get - and from eqns. , and , we get - Hence from eqns. and , and we have -   If the system is not accelerating but moving with constant velocity, then Hence in that case        The disk of mass 45 kg and radius R = 0.3 m is rolled to the left until the spring is compressed 0.5 m and then released from rest. If the spring constant is k = 600 N\/m, and  if the disk rolls without slipping, what is its angular acceleration at the instant it is released?  What is the minimum coefficient of static friction for which the disk will not slip when it is released?        Given: From free-body diagram,                      A uniform disk of mass m and radius R is attached to the uniform rod of mass M and length L. The rod rotates with an angular speed about an axis perpendicular to the xy-plane and that passes through one of its ends, point O as shown in figure. The center of mass of the disk is at a distance l with respect to point O. Calculate the angular momentum about this point.      The angular momentum of a composite object is obtained as the sum of the angular momentum of each of its constituents.  The composites have same angular velocity, . Now, moment of inertia of a rod about its end, Also, moment of inertia of a disk about point using parallel axis theorem,        A small ball of mass traveling with initial velocity hits a disk at rest of mass and radius at a vertical distance from the disk's center. The ball bounces back horizontally with a velocity and the disk begins rolling without slipping. Find the velocity of the disk after it has begun rolling without slipping.                   A uniform thin rod of length and mass can rotate in a horizontal plane about a vertical axis through its center. The rod is at rest when a bullet of mass traveling in the horizontal plane of the rod is fired into one end of the rod. The direction of the bullet's velocity makes an angle degrees with the rod. If the bullet lodges in the rod and the angular velocity of the rod is rad\/s immediately after the collision, what is the magnitude of the bullet's velocity, m\/s just before impact? Determine the kinetic energy of the bullet before the collision and total rotational kinetic energy after the collision.        Kinetic energy of bullet before collision, and total rotational kinetic energy after the collision,       A disk is spinning at a rate of 10 rad\/s. A second disk of the same mass and shape, with no spin, is placed on top of the first disk. Friction acts between the two disks until both are eventually traveling at the same speed. What is the final angular velocity of the two disks?               A particle attached to a string of length 2 m is given an initial velocity of 6 m\/s. The string is attached to a peg and, as the particle rotates about the peg, the string winds around the peg. What length of string has wound around the peg when the velocity of the particle is 20 m\/s?    when string is winding around the peg its length decreases gradually causing the radius of rotation to decrease accordingly. Hence its moment of inertia decreases gradually and from conservation of angular momentum, angular velocity of the particle increases gradually.     Hence of string has already wound around the peg when the velocity is 20 m\/s.      A rotating round object has an initial angular velocity placed onto the horizontal surface. It rolls with slipping till achieve a final angular velocity . If moment of inertia of the body is .  Find .  If find the shape of the round object.        when rotating object is placed on the surface its initial velocity Now due to frction translational velocity of the object is reduced after a time when object starts rolling without slipping with an angular velocity     also,   After time on rolling without slipping,         Hence the round object is a hollow sphere.      "
+  "body": " Examples B    A body rotates according to the equation , where and . Find:                     Given:                             A tire of mass 30 kg, radius of gyration 20 cm, and diameter 50 cm accelerates uniformly from rest. A small nail is embedded in the outer tread of the tire. After 100 revolutions the tire is rotating at 400 rpm. At that time, find each of the following:  What is its angular acceleration?  How much time did it take to get up to speed?  What is the speed of the nail?  What is the acceleration of the nail?  What is the moment of inertia of the wheel?  What torque is required to make the wheel rotate?  How much energy was imparted to the wheel?  How much power is required to rotate the wheel?  What is the angular momentum of the wheel?      Given:                                       An automobile engine with a moment of inertia of is revved up to 2400 rpm. The clutch is then popped and the car lurches forward. The effective moment of inertia of the clutch plate (including the gears, drive train, wheels, and mass of the car) is .  What is the angular velocity of the clutch plate after the clutch is popped?  If the gear ratio in the transmission is a 4 to 1 reduction, what is the angular velocity of the wheels after the clutch is popped?  If the wheel has a radius of 30 cm, what is the speed of the car after the clutch is popped?                        The 20 kg disk of radius R = 0.25 m is at rest when the constant 10 N m counterclockwise torque is applied. Determine the disk's angular velocity (in rpm) when it has rotated through four revolutions  by applying the equation of angular motion and  by applying the principle of work and energy.        Given:     Now,                    Two blocks of mass and are connected through a rope over a pulley of mass and radius as shown in figure  . What is the acceleration of the blocks and the tension in the rope on either side of the pulley?    From figure  .   Note: The tension on both sides a massive pulley must be different otherwise the pulley would not rotate. From figure  .   From figure    Now from eqns. and ,           A yo-yo has a mass , a moment of inertia , and an inner radius A string is wrapped around the inner cylinder of the yo-yo. A person ties the string to his finger and releases the yo-yo. As the yo-yo falls, it rolls on the string but does not slip. Find the acceleration of the yo-yo.         From eqns. and , we have -        A bucket of water of mass 10 kg is supported by a rope wrapped around a uniform cylinder of mass 20 kg and radius 10 cm as shown in the [Figure a]. If the system is released from rest, how long it takes the bucket to fall to the bottom of a well 3 m deep?      Given: and Now, from free-body diagram [Figure b],  From free-body diagram [Figure c],  From eqns. and , we have -  Now well is 3m deep, so time taken by the block to reach at bottom of well is given by         A thin ring of mass 2 kg and diameter 10 cm rolls without slipping down an inclined plane 1 m long with one end 10 cm higher than the other. If the system is released from rest,  What is the minimum coefficient of static friction that will cause the ring to roll without slipping?  How long does it take for the ring to get to the bottom of the incline?  How fast is the ring moving at that time?  What fraction of the kinetic energy of the ring is due to its rotation at that time?        Given:  From geometry of the figure,         For ring and From eqns. and , we get - Also from eqns. and , we get -   From eqns. and , we get -                       A block of mass and a disk of mass and radius are placed on a symmetric triangular slope connected with a massless string over a massless pulley [Figure (a)]. The string is connected to a center axle of the disk so that the disk is free to rotate. The moment of inertia of the disk about its axle is The coefficient of static friction between the slope and the block\/disk is 0.05 and the coefficient of kinetic friction between the slope and the block\/disk is 0.15. The angle is Find the maximum ratio such that the disk still rolls without slipping up the hill.      Since the disk is rolling without slipping, the maximum friction acting on the point of contact of disk and ramp must be static (i.e., ). Now, whether the system is accelerating or not for the maximum ratio of can be determined by the evaluation of final equation. From the free-body diagram construct equations as shown below. From [Figure (b)] consider the disk is accelerating upwards with an acceleration for now, then           From [Figure (c)] the disk is accelerating downwards with an acceleration because the block is connected to the disk through same rope via massless and frictionless pulley and hence has the same tension and acceleration, therefore     Now from eqns. , and , we get - and from eqns. , and , we get - Hence from eqns. and , and we have -   If the system is not accelerating but moving with constant velocity, then Hence in that case        The disk of mass 45 kg and radius R = 0.3 m is rolled to the left until the spring is compressed 0.5 m and then released from rest. If the spring constant is k = 600 N\/m, and  if the disk rolls without slipping, what is its angular acceleration at the instant it is released?  What is the minimum coefficient of static friction for which the disk will not slip when it is released?        Given: From free-body diagram,                      A uniform disk of mass m and radius R is attached to the uniform rod of mass M and length L. The rod rotates with an angular speed about an axis perpendicular to the xy-plane and that passes through one of its ends, point O as shown in figure. The center of mass of the disk is at a distance l with respect to point O. Calculate the angular momentum about this point.      The angular momentum of a composite object is obtained as the sum of the angular momentum of each of its constituents.  The composites have same angular velocity, . Now, moment of inertia of a rod about its end, Also, moment of inertia of a disk about point using parallel axis theorem,        A small ball of mass traveling with initial velocity hits a disk at rest of mass and radius at a vertical distance from the disk's center. The ball bounces back horizontally with a velocity and the disk begins rolling without slipping. Find the velocity of the disk after it has begun rolling without slipping.                   A uniform thin rod of length and mass can rotate in a horizontal plane about a vertical axis through its center. The rod is at rest when a bullet of mass traveling in the horizontal plane of the rod is fired into one end of the rod. The direction of the bullet's velocity makes an angle degrees with the rod. If the bullet lodges in the rod and the angular velocity of the rod is rad\/s immediately after the collision, what is the magnitude of the bullet's velocity, m\/s just before impact? Determine the kinetic energy of the bullet before the collision and total rotational kinetic energy after the collision.        Kinetic energy of bullet before collision, and total rotational kinetic energy after the collision,       A disk is spinning at a rate of 10 rad\/s. A second disk of the same mass and shape, with no spin, is placed on top of the first disk. Friction acts between the two disks until both are eventually traveling at the same speed. What is the final angular velocity of the two disks?               A particle attached to a string of length 2 m is given an initial velocity of 6 m\/s. The string is attached to a peg and, as the particle rotates about the peg, the string winds around the peg. What length of string has wound around the peg when the velocity of the particle is 20 m\/s?    when string is winding around the peg its length decreases gradually causing the radius of rotation to decrease accordingly. Hence its moment of inertia decreases gradually and from conservation of angular momentum, angular velocity of the particle increases gradually.     Hence of string has already wound around the peg when the velocity is 20 m\/s.      A rotating round object has an initial angular velocity placed onto the horizontal surface. It rolls with slipping till achieve a final angular velocity . If moment of inertia of the body is .  Find .  If find the shape of the round object.        when rotating object is placed on the surface its initial velocity Now due to frction translational velocity of the object is reduced after a time when object starts rolling without slipping with an angular velocity     also,   After time on rolling without slipping,         Hence the round object is a hollow sphere.       Find the acceleration of a spherical ball rolling down the hill without slipping.             "
 },
 {
   "id": "example-116",
@@ -4255,7 +4255,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "7.4.4",
   "title": "",
-  "body": "  The 20-kg disk of radius R=0.25m is at rest when the constant 10 N-m counterclockwise torque is applied. Determine the disk's angular velocity (in rpm) when it has rotated through four revolutions  by applying the equation of angular motion and  by applying the principle of work and energy.        Given:     Now,                 "
+  "body": "  The 20 kg disk of radius R = 0.25 m is at rest when the constant 10 N m counterclockwise torque is applied. Determine the disk's angular velocity (in rpm) when it has rotated through four revolutions  by applying the equation of angular motion and  by applying the principle of work and energy.        Given:     Now,                 "
 },
 {
   "id": "example-120",
@@ -4366,6 +4366,15 @@ var ptx_lunr_docs = [
   "body": "  A rotating round object has an initial angular velocity placed onto the horizontal surface. It rolls with slipping till achieve a final angular velocity . If moment of inertia of the body is .  Find .  If find the shape of the round object.        when rotating object is placed on the surface its initial velocity Now due to frction translational velocity of the object is reduced after a time when object starts rolling without slipping with an angular velocity     also,   After time on rolling without slipping,         Hence the round object is a hollow sphere.     "
 },
 {
+  "id": "example-132",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#example-132",
+  "type": "Example",
+  "number": "7.4.17",
+  "title": "",
+  "body": " Find the acceleration of a spherical ball rolling down the hill without slipping.            "
+},
+{
   "id": "subsec-shm",
   "level": "1",
   "url": "subsec-shm.html",
@@ -4384,9 +4393,9 @@ var ptx_lunr_docs = [
   "body": " Phasor Diagram   "
 },
 {
-  "id": "p-860",
+  "id": "p-863",
   "level": "2",
-  "url": "subsec-shm.html#p-860",
+  "url": "subsec-shm.html#p-863",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4411,27 +4420,27 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-864",
+  "id": "p-867",
   "level": "2",
-  "url": "subsec-shm.html#p-864",
+  "url": "subsec-shm.html#p-867",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Alternative solution to "
 },
 {
-  "id": "p-866",
+  "id": "p-869",
   "level": "2",
-  "url": "subsec-shm.html#p-866",
+  "url": "subsec-shm.html#p-869",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric derivation of particle's velocity in SHM: "
 },
 {
-  "id": "p-867",
+  "id": "p-870",
   "level": "2",
-  "url": "subsec-shm.html#p-867",
+  "url": "subsec-shm.html#p-870",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4474,9 +4483,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-869",
+  "id": "p-872",
   "level": "2",
-  "url": "subsec-simp_pendulum.html#p-869",
+  "url": "subsec-simp_pendulum.html#p-872",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4528,27 +4537,27 @@ var ptx_lunr_docs = [
   "body": " Examples C    A mass of 1 kg resting on a frictionless horizontal surface is pressed against a spring of constant 100 N\/m compressing the spring 25 cm and released from rest as shown in the figure below.    Where will the block attain its fastest velocity?  How fast will it be moving at that time?  Where will it stop again?  What will it do after it stops?  Where does the block attain its greatest acceleration?  What is that acceleration?  Describe the motion of the block as time progresses.  Write the equation of motion for the block.  Write the equation for the velocity of the block.  Write the equation for the acceleration of the block.  Compare (h) with (j) to obtain a relationship between and for the block.  Apply Newton's Second Law to the block so as to find in terms of   Compare (k) with (l) to obtain a relationship between and at ( ) for the block.  How long does it take for the block to reach the equilibrium point the first time?  How fast is the block moving when it is 10 cm beyond the equilibrium point?  What is the energy of the block when it is 10 cm beyond the equilibrium point?      Given:      The velocity particle in shm is given by For to be maximum, . Hence the position of the particle at that time is i.e., at the equilibrium position:     At equilibrium position, velocity of the block is    Alternatively: The total potential energy at extreme position is converted into total kinetic energy at mean position, i.e.,     Velocity, Therefore, Hence at 25 cm to the right of equilibrium:     Because of maximum restoring force it starts accelerate to the left.    Since the restoring force is maximum at extremes, it attains maximum acceleration ( ) at that points. Hence at the extremes, where it stops:          It speeds up, coasts through equilibrium, slows down, stops, and reverses itself.                                                       A pendulum is hanging from the roof of a tall building which oscillates 10 times in 1 minute, find the height of the building.    Given:           A spring-mass system executing SHM with a period of 0.80 s and has a maximum displacement of 10 cm. Initially the mass is at 5.0 cm left of equilibrium and moving to the left.    What is its position at and in what direction it is moving at that time?  What is its velocity and direction at that time?      Initial condition at    Hence,     to the right of mean position.    to the right of mean position going to towards       "
 },
 {
-  "id": "example-132",
+  "id": "example-133",
   "level": "2",
-  "url": "sec_seventh-examplesC.html#example-132",
+  "url": "sec_seventh-examplesC.html#example-133",
   "type": "Example",
   "number": "7.6.1",
   "title": "",
   "body": "  A mass of 1 kg resting on a frictionless horizontal surface is pressed against a spring of constant 100 N\/m compressing the spring 25 cm and released from rest as shown in the figure below.    Where will the block attain its fastest velocity?  How fast will it be moving at that time?  Where will it stop again?  What will it do after it stops?  Where does the block attain its greatest acceleration?  What is that acceleration?  Describe the motion of the block as time progresses.  Write the equation of motion for the block.  Write the equation for the velocity of the block.  Write the equation for the acceleration of the block.  Compare (h) with (j) to obtain a relationship between and for the block.  Apply Newton's Second Law to the block so as to find in terms of   Compare (k) with (l) to obtain a relationship between and at ( ) for the block.  How long does it take for the block to reach the equilibrium point the first time?  How fast is the block moving when it is 10 cm beyond the equilibrium point?  What is the energy of the block when it is 10 cm beyond the equilibrium point?      Given:      The velocity particle in shm is given by For to be maximum, . Hence the position of the particle at that time is i.e., at the equilibrium position:     At equilibrium position, velocity of the block is    Alternatively: The total potential energy at extreme position is converted into total kinetic energy at mean position, i.e.,     Velocity, Therefore, Hence at 25 cm to the right of equilibrium:     Because of maximum restoring force it starts accelerate to the left.    Since the restoring force is maximum at extremes, it attains maximum acceleration ( ) at that points. Hence at the extremes, where it stops:          It speeds up, coasts through equilibrium, slows down, stops, and reverses itself.                                                    "
 },
 {
-  "id": "example-133",
+  "id": "example-134",
   "level": "2",
-  "url": "sec_seventh-examplesC.html#example-133",
+  "url": "sec_seventh-examplesC.html#example-134",
   "type": "Example",
   "number": "7.6.2",
   "title": "",
   "body": "  A pendulum is hanging from the roof of a tall building which oscillates 10 times in 1 minute, find the height of the building.    Given:        "
 },
 {
-  "id": "example-134",
+  "id": "example-135",
   "level": "2",
-  "url": "sec_seventh-examplesC.html#example-134",
+  "url": "sec_seventh-examplesC.html#example-135",
   "type": "Example",
   "number": "7.6.3",
   "title": "",
@@ -4834,9 +4843,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-929",
+  "id": "p-932",
   "level": "2",
-  "url": "subsec-elst_mod.html#p-929",
+  "url": "subsec-elst_mod.html#p-932",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4897,63 +4906,63 @@ var ptx_lunr_docs = [
   "body": " Examples A    A mass of 10 kg is supported by a steel wire of iameter 0.5 mm and length 2 m.  What is the stress in the wire?  What is the strain of the wire?  How much does the wire stretch?  What is the effective force constant of the wire?  How much energy is stored in the wire?      Given:                             Water has a Bulk modulus of . What is the percent change in volume for a drop of water which circulates from the top of a lake to the bottom if the lake is 1000 m deep where the pressure has increased by 9.8 MPa?    Given:        A solid copper sphere of volume is placed 30.5 m below the ocean surface where the pressure is . What is the change in volume of the sphere? The bulk modulus for copper is     Given:    -ve sign shows that volume has decreased.      A copper and aluminum wires are welded together at their ends. The original length of each wire is 50.0 cm and each has a diameter of 0.750 mm. A mass of 10.0 kg is suspended from the combined wire. By how much will the combined wire stretch? Given: and       Given:   The combined stretch is gieven by          A brass cube, 5.00 cm on a side, is subjected to a tangential force. If the angle of shear is measured in radians to be 0.010 rad, what is the magnitude of the tangential force?    Given:         A horizontal spring stretches 20.0 cm when a force of 10.0 N is applied to the spring. By how much will it stretch if a 30.0 N force is now applied to the spring? If the same spring is placed in the vertical and a weight of 10.0 N is hung from the spring, will the results change?    Given . The restoring force in a spring   Now, If the applied force remains same then stretch made in the spring remains the same, orientation of spring does not have any effect on its elongation.      A copper rod, 0.400 cm in diameter, supports a load of 150 kg suspended from one end. Will the rod return to its initial length when the load is removed or has this load exceeded the elastic limit of the rod? Note: Elastic limit of copper =     Given:   Here the applied force, , is less then the maximum force the copper wire can hold, hence the rod regains its original length after the removal of applied force.    "
 },
 {
-  "id": "example-135",
+  "id": "example-136",
   "level": "2",
-  "url": "sec_eighth-examplesA.html#example-135",
+  "url": "sec_eighth-examplesA.html#example-136",
   "type": "Example",
   "number": "8.2.1",
   "title": "",
   "body": "  A mass of 10 kg is supported by a steel wire of iameter 0.5 mm and length 2 m.  What is the stress in the wire?  What is the strain of the wire?  How much does the wire stretch?  What is the effective force constant of the wire?  How much energy is stored in the wire?      Given:                          "
 },
 {
-  "id": "example-136",
+  "id": "example-137",
   "level": "2",
-  "url": "sec_eighth-examplesA.html#example-136",
+  "url": "sec_eighth-examplesA.html#example-137",
   "type": "Example",
   "number": "8.2.2",
   "title": "",
   "body": "  Water has a Bulk modulus of . What is the percent change in volume for a drop of water which circulates from the top of a lake to the bottom if the lake is 1000 m deep where the pressure has increased by 9.8 MPa?    Given:     "
 },
 {
-  "id": "example-137",
+  "id": "example-138",
   "level": "2",
-  "url": "sec_eighth-examplesA.html#example-137",
+  "url": "sec_eighth-examplesA.html#example-138",
   "type": "Example",
   "number": "8.2.3",
   "title": "",
   "body": "  A solid copper sphere of volume is placed 30.5 m below the ocean surface where the pressure is . What is the change in volume of the sphere? The bulk modulus for copper is     Given:    -ve sign shows that volume has decreased.   "
 },
 {
-  "id": "example-138",
+  "id": "example-139",
   "level": "2",
-  "url": "sec_eighth-examplesA.html#example-138",
+  "url": "sec_eighth-examplesA.html#example-139",
   "type": "Example",
   "number": "8.2.4",
   "title": "",
   "body": "  A copper and aluminum wires are welded together at their ends. The original length of each wire is 50.0 cm and each has a diameter of 0.750 mm. A mass of 10.0 kg is suspended from the combined wire. By how much will the combined wire stretch? Given: and       Given:   The combined stretch is gieven by       "
 },
 {
-  "id": "example-139",
+  "id": "example-140",
   "level": "2",
-  "url": "sec_eighth-examplesA.html#example-139",
+  "url": "sec_eighth-examplesA.html#example-140",
   "type": "Example",
   "number": "8.2.5",
   "title": "",
   "body": "  A brass cube, 5.00 cm on a side, is subjected to a tangential force. If the angle of shear is measured in radians to be 0.010 rad, what is the magnitude of the tangential force?    Given:      "
 },
 {
-  "id": "example-140",
+  "id": "example-141",
   "level": "2",
-  "url": "sec_eighth-examplesA.html#example-140",
+  "url": "sec_eighth-examplesA.html#example-141",
   "type": "Example",
   "number": "8.2.6",
   "title": "",
   "body": "  A horizontal spring stretches 20.0 cm when a force of 10.0 N is applied to the spring. By how much will it stretch if a 30.0 N force is now applied to the spring? If the same spring is placed in the vertical and a weight of 10.0 N is hung from the spring, will the results change?    Given . The restoring force in a spring   Now, If the applied force remains same then stretch made in the spring remains the same, orientation of spring does not have any effect on its elongation.   "
 },
 {
-  "id": "example-141",
+  "id": "example-142",
   "level": "2",
-  "url": "sec_eighth-examplesA.html#example-141",
+  "url": "sec_eighth-examplesA.html#example-142",
   "type": "Example",
   "number": "8.2.7",
   "title": "",
@@ -5041,9 +5050,9 @@ var ptx_lunr_docs = [
   "body": " Pascal's Principle   Pascal's principle states that pressure applied to an enclosed fluid is transmitted equally to every portion of the fluid and the walls of the container. This principle is valid only for an incompressible fluid which is most of the liquid. Hydraulic press  hydraulic press is one of the good examples of Pascal's principle. It is a device to lift heavy objects. It has two cylindrical opening attached the horizontal tube as shown in . An incompressible liquid is filled in the device. It works on Pascal's principle and obeys the conservation of energy. Work done on the a pump (small cylindrical piston) to push it down is equal to the work done by the big piston to lift heavy objects like vehicle, elephant, etc. Let a force is applied on one piston to push it to a distance then it lifts the weight to a distance on the other pan attached to the second piston.          Since the hydraulic fluid is incompressible  which is the Pascal's principle. Also  Since area of cross-section, is greater than area of cross-section, a small force can generate a compressive force     Measurement of Fluid Pressure  Pressure measurement is important in many occasions in our daily life. To check tire pressure, pressure in balloon filled with air, pressure inside a pipe carrying fluid, pressure in gas cylinder, pressure in boiler used in industries, and pressure inside an airplane cabin. Two basic types of pressure measuring devices have been discussed here.     Manometer:  manometer Manometer is is a U-shaped tube used to measure pressure of a fluid at rest. It contains water, mercury, or any other suitable fluid in the tube. When a pressure line is connected to one column of manometer, the fluid in the column will be forced down, and the fluid in the other will rise as shown in . By measuring the difference in height of the fluid in the two columns, the pressure of the inlet can be expressed in length.            Here is an atmospheric pressure acting on the open end of manometer, and are densities of fluids in container A and in U-tube, respectively. Pressure at points A and B are same and the pressure at points C and D are same. Hence pressure in column BC is balanced by pressure in column DE.   alternate:         Barometer  barometer It is the simplest pressure gauge used for measuring atmospheric pressure. It is designed by Torricelli . A meter long tube completely filled with mercury is inverted in a mercury container in such a way that the open end of the tube is under the pool of mercury. Now on balancing the atmospheric pressure acting on the mercury container the mercury column in the tube drops to a certain height and creating a complete vacuum at the top of the tube and hence the pressure is zero at point C. In the , points A and B are at the same level so they have the same pressure.       This device measures atmospheric pressure, rather than gauge pressure, because there is a nearly pure vacuum above the mercury in the tube.     "
 },
 {
-  "id": "p-968",
+  "id": "p-971",
   "level": "2",
-  "url": "subsec-pascle_prncpl.html#p-968",
+  "url": "subsec-pascle_prncpl.html#p-971",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5059,9 +5068,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-971",
+  "id": "p-974",
   "level": "2",
-  "url": "subsec-pascle_prncpl.html#p-971",
+  "url": "subsec-pascle_prncpl.html#p-974",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5077,18 +5086,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-973",
+  "id": "p-976",
   "level": "2",
-  "url": "subsec-pascle_prncpl.html#p-973",
+  "url": "subsec-pascle_prncpl.html#p-976",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "alternate: "
 },
 {
-  "id": "p-974",
+  "id": "p-977",
   "level": "2",
-  "url": "subsec-pascle_prncpl.html#p-974",
+  "url": "subsec-pascle_prncpl.html#p-977",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5113,9 +5122,9 @@ var ptx_lunr_docs = [
   "body": " Archimedes' Principle  When an object is placed in a fluid it experiences an upthrust force called a buoyant force . It is arising due to changes of the pressure inside fluid. This phenomenon is known as Archimedes' principle. It states that when a body is fully or partially immersed in a fluid, the fluid exerts an upward force on the body equal to the weight of liquid displaced . That is, buoyant force (B) = weight of displaced fluid. Liquid does not distinguish between the volume of its own or the volume of some thing else. Meaning if we replace some arbitrary volume of the liquid with some other object of the same volume then the liquid applies the same force on its surface, and .                           If and are the mass and volume of displaced fluid and is the density of fluid then weight of displaced fluid is given by Due to buoyant force body appear lighter than it really is. Hence, the weight of a body in the fluid is called an apparent weight. Weight loss of a body is equal to weight of liquid displaced. That is, Where and are weight of a body in air and in the fluid, respectively. Apparent weight is the net downward force.  Hence apparent loss in weight = buoyant force = weight of water displaced.  If an object floats, then its apparent weight is zero. If its apparent weight is more than zero, it sinks. A floating object loss all of its weight.    If the body is completely submerged but suspended in the fluid [ ], then from Newton's second law net force acting on the body is zero. That is, buoyant force is equal to weight of the body  Since body is completely immersed in the fluid, . Hence,  The body will suspend in a fluid if their densities are same.  If the body is floating in the fluid [ ], then buoyant force is greater than the weight of the body. Hence body comes to a float, but at the surface of the fluid, net force acting on the body is zero.  Since body is floating in the fluid, volume of the displaced fluid is then only equal to immersed portion of the body. Hence   The body will float in a fluid if the densities of fluid is greater than that of the body.  If the body is sinking in the fluid [ ], then buoyant force is less than the weight of the body. Hence body sinks, but at the bottom of the fluid, net force acting on the body is zero.  Since Hence for to be +ve, must be positive. Here is the apparent weight of the body in the fluid.     "
 },
 {
-  "id": "p-976",
+  "id": "p-979",
   "level": "2",
-  "url": "subsec-archm_princp.html#p-976",
+  "url": "subsec-archm_princp.html#p-979",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5221,99 +5230,99 @@ var ptx_lunr_docs = [
   "body": " Examples A    A cylindrical bottle can hold 400 g of water when filled to a depth of 7.95 cm. Find its inner radius.    If m is mass of water, V is its volume, and is its density., then   where is inner area of cross-scetion of the cylinder of radius and is the height of water in the cylindrical bottle.       A girl is standing on her one foot which has high heeled shoes of surface area . If she weigh 75 kg calculate the pressure in Pascal exerted on the floor by the heel.    Given:          A piston of a hydraulic system has a surface area of and pushes the hydraulic fluid with a pressure of 20,000 pascals. What pressure pushes on another piston in the same system?    Given: From Pascal's principle, So the other piston gets pushed by the same pressure.      The specific gravity of mercury is 13.6.  What is the density of mercury in MKS units?  How high in meter will atmospheric pressure push a column of mercury up an evacuated tube?  How many meter deep into water must a swimmer go in order to experience an increase in pressure equal to one atmosphere?  How large a force (in Newtons) is pushing inward on a submarine window 25 cm in diameter if the specific gravity of sea water is 1.03, the submarine is 1 km deep, and the pressure inside the submarine is 1 atm?        Given: and         Atmospheric pressure in mercury reservoir is equal to gauge pressure in evacuated tube. Hence,         and           A 1.10 kg hollow steel ball is submerged in water. Its weight in water is 8.75 N. what is the volume of the cavity inside the ball, if density of steel is ?      Given: Mass of steel ball, m=1.10 kg, its weight in water, w'=8.75N, and its density, Suppose w and w' are weights of the ball in air and in water, respectively. B is the bouyant force which is equal to the weight of displaced liquid. Since body loses weight due to buoyant force it is also equal to the weight loss of a body in the liquid. That is, The ball is totally submerged in water, volume of liquid displaced is the same as volume of ball itself. Hence  is the density of water and is weight loss of ball in water.    where, and are the volumes of cavity and steel in the ball.        A robber takes a chest full of gold put it on their horse and ride off into the distance. The size of the chest is about 18 inches long, 10 inches wide, and 8 inches high.  How many pounds would such a chest weigh if it were filled with gold ( )?  What would be the buoyant force (in pounds) on the chest if it were placed under water?  What would be the apparent weight (in pounds) of the chest while under water?      Given:                      The density of fresh water is and the specific gravity of ice is 0.917. What is the minimum surface area of a slab of ice 50 cm thick that would support a man weighing 75 kg?    Given:  and Density of ice,   Buoyant force = wt. of a man + wt. of submerged portion of ice.  For a minimum surface area consider the entire ice is suspended inside the surface of water.   As ice is completely submerged volume of displaced water is the same as volume of ice   but        A solid body when suspended by a string in air shows 40 N tension in the string. When it is completely submerged in water the tension in string will be 30 N and when it is completely submerged in unknown liquid, the tension will be 20 N. Find the density of unknown liquid.    Given: Tension in string in air, T=40 N, tension in string in water, and tension in string in unknown liquid,           From first figure From second figure From third figure From eqns. and ,    From eqns. and , we have -       alternate:  where is a weight of a body in air and is a weight of a body in fluid.      A solid body of density is suspended at the interface of two liquids. A liquid is sitting on top of liquid without mixing to each other and the specific gravity of liquids and is 0.8 and 1.2, respectively. If fraction of the volume of the body immersed in liquid is . Find the value of       Given:  Specific gravity of a body, Total volume of the body, Since the body is suspended at the interface of two liquids, buoyant force must be equal to its weight.       Hence, from           A water rocket of length 20 cm and cross sectional area has half its volume initially filled with water. The air inside the rocket is pressurized to 10 atm and the area of the exhaust nozzle is .  What is the initial exhaust velocity of the rocket?  What is the initial volume flow rate for the rocket?  What is the initial rate of decrease of mass of the rocket?        Given: Length of the rocket, l=20cm = 0.2m, cross-sectional area of bottle, pressure inside the water bottle, area of cross-section of nozzle,   From Bernoulli's principle,  From equation of continuity,        Here is density of water and .  initial volume flow rate,   initial rate of decrease of mass,         A U-tube manometer is used to measure the pressure of oil of specific gravity 0.85 flowing in a pipe line. Its left end is connected to the pipe and right end is open to atmosphere. The center of the pipe is 100 mm below the level of mercury in the right limb. If the difference in mercury level in the two limbs is 160 mm. Find pressure at the center of the pipe.      Given:             "
 },
 {
-  "id": "example-142",
+  "id": "example-143",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-142",
+  "url": "sec_ninth-examplesA.html#example-143",
   "type": "Example",
   "number": "9.3.1",
   "title": "",
   "body": "  A cylindrical bottle can hold 400 g of water when filled to a depth of 7.95 cm. Find its inner radius.    If m is mass of water, V is its volume, and is its density., then   where is inner area of cross-scetion of the cylinder of radius and is the height of water in the cylindrical bottle.    "
 },
 {
-  "id": "example-143",
+  "id": "example-144",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-143",
+  "url": "sec_ninth-examplesA.html#example-144",
   "type": "Example",
   "number": "9.3.2",
   "title": "",
   "body": "  A girl is standing on her one foot which has high heeled shoes of surface area . If she weigh 75 kg calculate the pressure in Pascal exerted on the floor by the heel.    Given:       "
 },
 {
-  "id": "example-144",
+  "id": "example-145",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-144",
+  "url": "sec_ninth-examplesA.html#example-145",
   "type": "Example",
   "number": "9.3.3",
   "title": "",
   "body": "  A piston of a hydraulic system has a surface area of and pushes the hydraulic fluid with a pressure of 20,000 pascals. What pressure pushes on another piston in the same system?    Given: From Pascal's principle, So the other piston gets pushed by the same pressure.   "
 },
 {
-  "id": "example-145",
+  "id": "example-146",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-145",
+  "url": "sec_ninth-examplesA.html#example-146",
   "type": "Example",
   "number": "9.3.4",
   "title": "",
   "body": "  The specific gravity of mercury is 13.6.  What is the density of mercury in MKS units?  How high in meter will atmospheric pressure push a column of mercury up an evacuated tube?  How many meter deep into water must a swimmer go in order to experience an increase in pressure equal to one atmosphere?  How large a force (in Newtons) is pushing inward on a submarine window 25 cm in diameter if the specific gravity of sea water is 1.03, the submarine is 1 km deep, and the pressure inside the submarine is 1 atm?        Given: and         Atmospheric pressure in mercury reservoir is equal to gauge pressure in evacuated tube. Hence,         and        "
 },
 {
-  "id": "example-146",
+  "id": "example-147",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-146",
+  "url": "sec_ninth-examplesA.html#example-147",
   "type": "Example",
   "number": "9.3.5",
   "title": "",
   "body": "  A 1.10 kg hollow steel ball is submerged in water. Its weight in water is 8.75 N. what is the volume of the cavity inside the ball, if density of steel is ?      Given: Mass of steel ball, m=1.10 kg, its weight in water, w'=8.75N, and its density, Suppose w and w' are weights of the ball in air and in water, respectively. B is the bouyant force which is equal to the weight of displaced liquid. Since body loses weight due to buoyant force it is also equal to the weight loss of a body in the liquid. That is, The ball is totally submerged in water, volume of liquid displaced is the same as volume of ball itself. Hence  is the density of water and is weight loss of ball in water.    where, and are the volumes of cavity and steel in the ball.     "
 },
 {
-  "id": "example-147",
+  "id": "example-148",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-147",
+  "url": "sec_ninth-examplesA.html#example-148",
   "type": "Example",
   "number": "9.3.6",
   "title": "",
   "body": "  A robber takes a chest full of gold put it on their horse and ride off into the distance. The size of the chest is about 18 inches long, 10 inches wide, and 8 inches high.  How many pounds would such a chest weigh if it were filled with gold ( )?  What would be the buoyant force (in pounds) on the chest if it were placed under water?  What would be the apparent weight (in pounds) of the chest while under water?      Given:                 "
 },
 {
-  "id": "example-148",
+  "id": "example-149",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-148",
+  "url": "sec_ninth-examplesA.html#example-149",
   "type": "Example",
   "number": "9.3.7",
   "title": "",
   "body": "    The density of fresh water is and the specific gravity of ice is 0.917. What is the minimum surface area of a slab of ice 50 cm thick that would support a man weighing 75 kg?    Given:  and Density of ice,   Buoyant force = wt. of a man + wt. of submerged portion of ice.  For a minimum surface area consider the entire ice is suspended inside the surface of water.   As ice is completely submerged volume of displaced water is the same as volume of ice   but     "
 },
 {
-  "id": "example-149",
+  "id": "example-150",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-149",
+  "url": "sec_ninth-examplesA.html#example-150",
   "type": "Example",
   "number": "9.3.8",
   "title": "",
   "body": "  A solid body when suspended by a string in air shows 40 N tension in the string. When it is completely submerged in water the tension in string will be 30 N and when it is completely submerged in unknown liquid, the tension will be 20 N. Find the density of unknown liquid.    Given: Tension in string in air, T=40 N, tension in string in water, and tension in string in unknown liquid,           From first figure From second figure From third figure From eqns. and ,    From eqns. and , we have -       alternate:  where is a weight of a body in air and is a weight of a body in fluid.   "
 },
 {
-  "id": "example-150",
+  "id": "example-151",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-150",
+  "url": "sec_ninth-examplesA.html#example-151",
   "type": "Example",
   "number": "9.3.9",
   "title": "",
   "body": "  A solid body of density is suspended at the interface of two liquids. A liquid is sitting on top of liquid without mixing to each other and the specific gravity of liquids and is 0.8 and 1.2, respectively. If fraction of the volume of the body immersed in liquid is . Find the value of       Given:  Specific gravity of a body, Total volume of the body, Since the body is suspended at the interface of two liquids, buoyant force must be equal to its weight.       Hence, from        "
 },
 {
-  "id": "example-151",
+  "id": "example-152",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-151",
+  "url": "sec_ninth-examplesA.html#example-152",
   "type": "Example",
   "number": "9.3.10",
   "title": "",
   "body": "  A water rocket of length 20 cm and cross sectional area has half its volume initially filled with water. The air inside the rocket is pressurized to 10 atm and the area of the exhaust nozzle is .  What is the initial exhaust velocity of the rocket?  What is the initial volume flow rate for the rocket?  What is the initial rate of decrease of mass of the rocket?        Given: Length of the rocket, l=20cm = 0.2m, cross-sectional area of bottle, pressure inside the water bottle, area of cross-section of nozzle,   From Bernoulli's principle,  From equation of continuity,        Here is density of water and .  initial volume flow rate,   initial rate of decrease of mass,      "
 },
 {
-  "id": "example-152",
+  "id": "example-153",
   "level": "2",
-  "url": "sec_ninth-examplesA.html#example-152",
+  "url": "sec_ninth-examplesA.html#example-153",
   "type": "Example",
   "number": "9.3.11",
   "title": "",
@@ -5329,9 +5338,9 @@ var ptx_lunr_docs = [
   "body": " Coefficient of Viscosit  If we observe the flow of water in a river flowing continuously and smoothly, we will be able to notice that water near the edge of the river flows slower than the water flowing near the middle of the river. When a fluid is flowing past a stationary wall, the fluid right close to the wall is almost at rest but the fluid away from the wall flows with relatively higher speed. So a velocity gradient exists between layers in fluid flow. This is due to adhesive, cohesive, and frictional forces acting between adjacent layers of the fluid. The velocity gradient (i.e., the change in speed with distances) is a characteristic of the fluid. This is used to define the coefficient of viscosity We limit our discussion here only on laminar flow of liquid.  In a layer has higher speed than its adjacent layer , so layer A applies force on B to move it faster, but layer B pushes layer A backward so that they go together. Such pushing and pulling between the layers creates a drag force called a viscous force . Consider a shear force F is required to keep the layer of fluid moving at a constant velocity v, then it can be observed through the experiments that this force depends on the following four factors. This force   is proportional to velocity of the layer of liquid ( ),  is proportional to the surface area of layer having the velocity v ( )  is inversely proportional to the distance of the layer from the stationary wall ( ) Mathematically,    If is the distance between adjacent layers and is the difference in their velocities, then the viscous force is given in differential form as where, is a proportionality constant, called coefficient of viscosity and it defines the property of the fluid. The greater the coefficient of viscosity , the greater the force required to move the layer of fluid at a velocity v. The term is called a velocity gradient. The fluids which obey this equation are called Newtonian fluids and is independent of the speed of flow. If does depend on the velocity of flow the fluids are called non-Newtonian . Blood is an example of a non-Newtonian fluid. The SI unit of viscosity is or, . A common unit of viscosity is the poise where   Viscosity is temperature dependent. Viscosity of a liquid decreases with increasing temperature and that for a gas increases with increasing temperature.  "
 },
 {
-  "id": "p-1025",
+  "id": "p-1028",
   "level": "2",
-  "url": "subsec-coef_visc.html#p-1025",
+  "url": "subsec-coef_visc.html#p-1028",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5392,9 +5401,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-1034",
+  "id": "p-1037",
   "level": "2",
-  "url": "subsec-capl_act.html#p-1034",
+  "url": "subsec-capl_act.html#p-1037",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5455,144 +5464,144 @@ var ptx_lunr_docs = [
   "body": " Examples B   Viscosity    A fluid moves along length 0.75 m with velocity 2m\/s and has shearing stress of . Calculate its viscosity.    Given: Velocity, v = 2m\/s, length, L = 0.75 m, shearing stress,   The shearing stress is given by,          A plate 0.025 mm apart from a fixed plate moves at 60 cm\/s and requires force of to maintain the speed. Determine the fluid viscosity between the plates.    Given: Velocity, v = 60 cm\/s = 0.6m\/s, length, L = 0.025 mm = , shearing stress,   The shearing stress is given by,          The space between two flat parallel plates is filled with an oil. Each side of the plate is 60 cm. The thickness of the oil plate is 12.5 mm. The upper plate which moves at 2.55 m\/s requires a force of 98.1 N to maintain the speed. Determine, the dynamic viscosity of oil in cP.    Given: b=60 cm=0.6 m, L=12.5 mm = , v=2.55 m\/s, F = 98.1 N, and   The shearing stress is given by,         The flow of blood through a large artery extending from heart to lungs with a radius of 2.5 mm and is found to be 15 cm long. The pressure across the artery ends is found to be 380 Pa then what is the blood's average speed?    The blood viscosity the arterial radius, , the artery length, , and the difference of pressure, .  The volume flow rate is given by The volume flow rate is also given by From these equantions, we get the velocity of blood flow as         A total volume of 3 ml of a viscous fluid is delivered into a patient in 10 s. When the needle is changed, 3 ml of the same fluid takes 8 s to be delivered into the patient under the identical conditions. If the radius of the original needle was 0.3 mm, what is the radius of the new needle?    The volume flow rate is given by           A 3 mm diameter glass ball ( ) is dropped into a fluid whose density is and the terminal velocity of the ball is measured to be 0.16 m\/s. Determine the viscosity of the fluid.    Given: and The viscous force in a fluid is given by But ball experiences buoyant force and viscous force while falling into a liquid. After achieving the terminal velocity, we have -  where is a density of the fluid. Hence on solving the above equation, we get - [ ]       Surface Tension    A 5 cm long needle is floating on the surface water without wetting. Find its weight, if surface tension       If is the weight of the needle, then    for a needle floating without wetting,        A thin ring of radius 3 cm is rested flat on the liquid surface. When the ring is raised 0.03 N of force difference is noted before and after the film breaks. What is the surface tension of the liquid?      When the ring is lifted gently form the surface of a liquid it forms a thin film around the ring. The film shrinks in it due to cohesive force as the ring pulled up and eventually the contact angle becomes zero just before it breaks. Hence in that case, with film adheres to ring, and when film breaks. where is a force due to surface tension of the film. The factor 2 is taken because of two surfaces of the film both inside and outside of the ring.        A rectangle wire frame has a length of 4 cm and breadth of 3 cm. What force does the side experience due to surface tension of the soap bubble? If        where, as liquid film has two surfaces around perimeter of the frame.        A U-shaped wire having a soap film on it can supports an extra mass m on its movable side. If the movable side of frame is 20 cm in length. Find the mass m, if .              A soap bubble 50 mm in diameter contains an excess pressure of 2 bar balancing the atmospheric pressure. Find the surface tension in the soap film.    Given:           Water has a surface tension of 0.4 N\/m. If the liquid rises 6 mm above the liquid surface in a 3 mm diameter vertical tube, calculate the contact angle.    Given:     Capillary rise due to surface tension is given by          Compare the capillary rise of water and mercury in a glass tube of 2 mm diameter at . Given that the surface tension of water and mercury at are 0.0736 N\/m and 0.051 N\/m respectively. Contact angles of water and mercury are and respectively.    Given:  specific weight of mercury and , specific weight of water , and   Capillary rise due to surface tension is given by   and        Find the work done in blowing a soap bubble of radius 10 cm. If     Given:    The factor 2 is due to two surfaces of the soap bubble.      A drop of mercury of radius 1 mm is broken into 8 droolets of the same size. Find the work done if the surface tension of mercury is 0.55 N\/m.    The volume of large drop = n (volume of small drops). Now, initial surface area of drop ,  final surface area of drop  A spherical drop of liquid has only one surface, rather than two surfaces, for there is no air within it.         Eight droplets of water each of radius 0.2 mm coalesce together to form a single drop. Find the change in total surface energy.     Given:   The volume of large drop = n (volume of small drops).   Now, initial surface area of drop ,  final surface area of drop   Since a spherical drop of liquid has only one surface, rather than two surfaces, for there is no air within it.         "
 },
 {
-  "id": "example-153",
+  "id": "example-154",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-153",
+  "url": "sec_ninth-examplesB.html#example-154",
   "type": "Example",
   "number": "9.6.1",
   "title": "",
   "body": "  A fluid moves along length 0.75 m with velocity 2m\/s and has shearing stress of . Calculate its viscosity.    Given: Velocity, v = 2m\/s, length, L = 0.75 m, shearing stress,   The shearing stress is given by,       "
 },
 {
-  "id": "example-154",
+  "id": "example-155",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-154",
+  "url": "sec_ninth-examplesB.html#example-155",
   "type": "Example",
   "number": "9.6.2",
   "title": "",
   "body": "  A plate 0.025 mm apart from a fixed plate moves at 60 cm\/s and requires force of to maintain the speed. Determine the fluid viscosity between the plates.    Given: Velocity, v = 60 cm\/s = 0.6m\/s, length, L = 0.025 mm = , shearing stress,   The shearing stress is given by,       "
 },
 {
-  "id": "example-155",
+  "id": "example-156",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-155",
+  "url": "sec_ninth-examplesB.html#example-156",
   "type": "Example",
   "number": "9.6.3",
   "title": "",
   "body": "  The space between two flat parallel plates is filled with an oil. Each side of the plate is 60 cm. The thickness of the oil plate is 12.5 mm. The upper plate which moves at 2.55 m\/s requires a force of 98.1 N to maintain the speed. Determine, the dynamic viscosity of oil in cP.    Given: b=60 cm=0.6 m, L=12.5 mm = , v=2.55 m\/s, F = 98.1 N, and   The shearing stress is given by,      "
 },
 {
-  "id": "example-156",
+  "id": "example-157",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-156",
+  "url": "sec_ninth-examplesB.html#example-157",
   "type": "Example",
   "number": "9.6.4",
   "title": "",
   "body": "  The flow of blood through a large artery extending from heart to lungs with a radius of 2.5 mm and is found to be 15 cm long. The pressure across the artery ends is found to be 380 Pa then what is the blood's average speed?    The blood viscosity the arterial radius, , the artery length, , and the difference of pressure, .  The volume flow rate is given by The volume flow rate is also given by From these equantions, we get the velocity of blood flow as      "
 },
 {
-  "id": "example-157",
+  "id": "example-158",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-157",
+  "url": "sec_ninth-examplesB.html#example-158",
   "type": "Example",
   "number": "9.6.5",
   "title": "",
   "body": "  A total volume of 3 ml of a viscous fluid is delivered into a patient in 10 s. When the needle is changed, 3 ml of the same fluid takes 8 s to be delivered into the patient under the identical conditions. If the radius of the original needle was 0.3 mm, what is the radius of the new needle?    The volume flow rate is given by        "
 },
 {
-  "id": "example-158",
+  "id": "example-159",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-158",
+  "url": "sec_ninth-examplesB.html#example-159",
   "type": "Example",
   "number": "9.6.6",
   "title": "",
   "body": "  A 3 mm diameter glass ball ( ) is dropped into a fluid whose density is and the terminal velocity of the ball is measured to be 0.16 m\/s. Determine the viscosity of the fluid.    Given: and The viscous force in a fluid is given by But ball experiences buoyant force and viscous force while falling into a liquid. After achieving the terminal velocity, we have -  where is a density of the fluid. Hence on solving the above equation, we get - [ ]    "
 },
 {
-  "id": "example-159",
+  "id": "example-160",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-159",
+  "url": "sec_ninth-examplesB.html#example-160",
   "type": "Example",
   "number": "9.6.7",
   "title": "",
   "body": "  A 5 cm long needle is floating on the surface water without wetting. Find its weight, if surface tension       If is the weight of the needle, then    for a needle floating without wetting,     "
 },
 {
-  "id": "example-160",
+  "id": "example-161",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-160",
+  "url": "sec_ninth-examplesB.html#example-161",
   "type": "Example",
   "number": "9.6.8",
   "title": "",
   "body": "  A thin ring of radius 3 cm is rested flat on the liquid surface. When the ring is raised 0.03 N of force difference is noted before and after the film breaks. What is the surface tension of the liquid?      When the ring is lifted gently form the surface of a liquid it forms a thin film around the ring. The film shrinks in it due to cohesive force as the ring pulled up and eventually the contact angle becomes zero just before it breaks. Hence in that case, with film adheres to ring, and when film breaks. where is a force due to surface tension of the film. The factor 2 is taken because of two surfaces of the film both inside and outside of the ring.     "
 },
 {
-  "id": "example-161",
+  "id": "example-162",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-161",
+  "url": "sec_ninth-examplesB.html#example-162",
   "type": "Example",
   "number": "9.6.9",
   "title": "",
   "body": "  A rectangle wire frame has a length of 4 cm and breadth of 3 cm. What force does the side experience due to surface tension of the soap bubble? If        where, as liquid film has two surfaces around perimeter of the frame.     "
 },
 {
-  "id": "example-162",
+  "id": "example-163",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-162",
+  "url": "sec_ninth-examplesB.html#example-163",
   "type": "Example",
   "number": "9.6.10",
   "title": "",
   "body": "  A U-shaped wire having a soap film on it can supports an extra mass m on its movable side. If the movable side of frame is 20 cm in length. Find the mass m, if .           "
 },
 {
-  "id": "example-163",
+  "id": "example-164",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-163",
+  "url": "sec_ninth-examplesB.html#example-164",
   "type": "Example",
   "number": "9.6.11",
   "title": "",
   "body": "  A soap bubble 50 mm in diameter contains an excess pressure of 2 bar balancing the atmospheric pressure. Find the surface tension in the soap film.    Given:        "
 },
 {
-  "id": "example-164",
+  "id": "example-165",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-164",
+  "url": "sec_ninth-examplesB.html#example-165",
   "type": "Example",
   "number": "9.6.12",
   "title": "",
   "body": "  Water has a surface tension of 0.4 N\/m. If the liquid rises 6 mm above the liquid surface in a 3 mm diameter vertical tube, calculate the contact angle.    Given:     Capillary rise due to surface tension is given by       "
 },
 {
-  "id": "example-165",
+  "id": "example-166",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-165",
+  "url": "sec_ninth-examplesB.html#example-166",
   "type": "Example",
   "number": "9.6.13",
   "title": "",
   "body": "  Compare the capillary rise of water and mercury in a glass tube of 2 mm diameter at . Given that the surface tension of water and mercury at are 0.0736 N\/m and 0.051 N\/m respectively. Contact angles of water and mercury are and respectively.    Given:  specific weight of mercury and , specific weight of water , and   Capillary rise due to surface tension is given by   and     "
 },
 {
-  "id": "example-166",
+  "id": "example-167",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-166",
+  "url": "sec_ninth-examplesB.html#example-167",
   "type": "Example",
   "number": "9.6.14",
   "title": "",
   "body": "  Find the work done in blowing a soap bubble of radius 10 cm. If     Given:    The factor 2 is due to two surfaces of the soap bubble.   "
 },
 {
-  "id": "example-167",
+  "id": "example-168",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-167",
+  "url": "sec_ninth-examplesB.html#example-168",
   "type": "Example",
   "number": "9.6.15",
   "title": "",
   "body": "  A drop of mercury of radius 1 mm is broken into 8 droolets of the same size. Find the work done if the surface tension of mercury is 0.55 N\/m.    The volume of large drop = n (volume of small drops). Now, initial surface area of drop ,  final surface area of drop  A spherical drop of liquid has only one surface, rather than two surfaces, for there is no air within it.      "
 },
 {
-  "id": "example-168",
+  "id": "example-169",
   "level": "2",
-  "url": "sec_ninth-examplesB.html#example-168",
+  "url": "sec_ninth-examplesB.html#example-169",
   "type": "Example",
   "number": "9.6.16",
   "title": "",
@@ -5833,9 +5842,9 @@ var ptx_lunr_docs = [
   "body": " Absolute Scale  A physical thermometer uses the physical properties of a material or substance to determine temperature. It relies on the fact that certain physical properties change in a predictable way with temperature. Examples of physical thermometers include mercury-in-glass thermometers, alcohol thermometers, and bimetallic strip thermometers. These thermometers use the expansion and contraction of materials (e.g., mercury or alcohol) to indicate temperature changes. The scale of normal thermometers depends upon the physical propertise (thermal expansion, electrical resistance, etc) of the substance which is used in the thermometer. The physical property (e.g. thermal expansion) of materials varies differently at the different range of temperatures hence all these thermometers have fixed uses. For example, a mercury thermometer can measure temperature ranges from approximately to ( to ). For alcohol thermometer, the typical temperature range is approximately to ( to ). That means, if we go to Antarctica we must bring with us an alcohol thermometer and when going to Lut Desert a hotest place on earth, we need a mercury thermometer. Mercury thermometer may freeze in Antarctica and alcohol thermometer may boil in Lut Desert. To remedy such problems of limitation of physical thermometers, Scottish physicist William Thomson, Baron Kelvin proposed to constructing a temperature scale which should be independent on the material properties on the basis of thermodynamics principles that the lowest possible temperature which could be achieved was in 1848. This minimum temperature is the zero point on Kelvin scale and is known as absolute zero . Kelvin scale is a hypothetical (theoretical) thermometer scale also known as absolute scale . From third law of thermodynamics, it is impossible to reach absolute zero temperature by any physical means.       Temperature is a measure of average kinetic energy per molecule of any substance. In classical mechanical point of view, molecular motion ceases completely at absolute zero and hence possesses zero kinetic energy. (However, in quantum mechanical point if view, at absolute zero molecular motion takes minimum speed of its vibration.) It has been seen from the gas laws that the product of pressure and volume is directly proportional to temperature [ ]. In fact, all gases have energy ( ) heading to zero at the same temperature called absolute zero. At absolute zero the pressure of an ideal gas would drop to zero.  "
 },
 {
-  "id": "p-1113",
+  "id": "p-1116",
   "level": "2",
-  "url": "subsec-.html#p-1113",
+  "url": "subsec-.html#p-1116",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5905,9 +5914,9 @@ var ptx_lunr_docs = [
   "body": " Specific Heat Capacity  Heat absorbing capacity of a material is known as specific heat capacity. Suppose we have two marbles at room temperature , one has mass 1 kg and another has mass 2 kg. If we want to heat them to , then from our experience we know that 2 kg marble will take longer than 1 kg marble to reach at the same temperature. Hence, the amount of heat (Q) put into the material is directly proportional to the mass (m) of the material. That is, Now suppose both of our marbles has a mass of 1 kg each and we want to heat one of them for and another for temperature We can again tell that the marble which has to be heated for will take longer than the other. That is, where . For marble of mass 1 kg, and for the marble of mass 2 kg By combining these two expressions, we have -  where is a proportionality constant and is called specific heat capacity of the material. It is the properties of a material. Different materials have different specific heat capacities and hence they absorb or release heat differently. If m=1 kg, , then , i.e., specific heat capacity of a material is the amount of heat added into or taken out from the material of unit mass to the unit degree rise or fall of temperature. In SI system, unit of is . In heat and thermodynamics, we normally measure heat in calorie unit but other physical quantities in SI unit . Hence the mixture of systems of unit can be seen in this chapter. In cgs system, unit of specific heat capacity of water is  The capacity of a material to absorb heat per degree rise of temperature is called heat capacity . It is defined as . The amount of heat required to raise the temperature of one mole of a substance by one degree (Celsius or Kelvin) is known as molar (specific) heat capacity .  "
 },
 {
-  "id": "p-1122",
+  "id": "p-1125",
   "level": "2",
-  "url": "subsec-sp_heat.html#p-1122",
+  "url": "subsec-sp_heat.html#p-1125",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5932,9 +5941,9 @@ var ptx_lunr_docs = [
   "body": " Phase Changes of Matter  We know that ice is solid water, even steam is water as well. Any material can exist in three different states solid, liquid, and gas are also known as the phases of matter. When ice is heated it melts into liquid water and then evaporates into water vapor. These changes from one phase to another are referred to as phase changes .      We may also have noticed that the temperature of water doesn't change during boiling. The temperature of water increases up to boiling and then remains constant as it boils. The following diagram illustrates the relationship between temperature and amount of heat needed to change the phases of water. We can see that the temperature increases as heat is added to water within a phase. Adding heat into the water increases the kinetic energy of water molecules within the ice. During the phase change, the added heat doesn't make the molecules move faster, but make them further apart. The heat energy added during the phase change is consumed to overcome intermolecular force of attraction and stored within the material in the form of potential energy of the molecules. Where amount of heat added to the system can be obtained by    and   While cooling process heat is taken out from the system, then latent heat of vaporization becomes latent heat of condensation and latent heat of melting becomes latent heat of fusion. For water, latent heat of melting and latent heat of fusion are same. Similarly, latent heat of vaporization and latent heat of condensation are same but they are not same for many other materials. Phase of matter changes from solid to liquid is called melting or fusion , from solid to gas is called sublimation , from liquid to solid is called freezing , from liquid to gas is called evaporation or boiling, from gas to solid is called deposition , from gas to liquid is called condensation , from plasma state to gaseous state is called recombination , and from gaseous state to plasma state is called ionization .  "
 },
 {
-  "id": "p-1124",
+  "id": "p-1127",
   "level": "2",
-  "url": "subsec-phase_change.html#p-1124",
+  "url": "subsec-phase_change.html#p-1127",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5968,9 +5977,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1127",
+  "id": "p-1130",
   "level": "2",
-  "url": "subsec-calrmtr.html#p-1127",
+  "url": "subsec-calrmtr.html#p-1130",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6004,18 +6013,18 @@ var ptx_lunr_docs = [
   "body": " Heat Transfer   It is process by which heat transfers from one location to another due to temperature difference. Heat can only flow from high temperature to low temperature. There are three processes involved in heat transfer. They are conduction, convection, and radiation.   Conduction  In this process heat is transferred through stationary matter by physical contact. In microscopic level atoms and molecules are always in random motion at any temperature above absolute zero. When heated these particles (atoms and molecules) gain thermal energy and begin vibrating even higher amplitude knocking the neighboring particles. By doing so they impart some of their energy to their neighboring particles, and so on. Eventually heat is carried away from one end of a substance to another. In conduction, heat carrying particles do not physically move from its place rather they transfer their energy to neighbors when they knock one another. Every time they knock pass some of their energy to next one and returns to their original place. Heat transfers from the burner of a stove through the bottom of a pan to food in the pan is transferred by conduction. Conduction occurs in all states of substances solid, liquid, and gas. In solids, conduction happens due to molecular vibration. In gases and liquids, it is due to collisions and diffusion of the molecules during their random motion.  Consider one end of a metallic bar [ ] of length and area of cross-section is kept at hot temperature and another end is kept at cold temperature , then the amount of heat, transfers through this bar at time can be found experimentally as    combining these all, we get -  where is a proportionality constant, known as coefficient of thermal conduction or conductivity of a material. It is a material property.      In differential form, where is a length of the bar. That is, the rate of heat flow at any point is proportional to the temperature gradient (how fast the temperature is changing with position). The ratio of thickness to the conductivity of a material can be known as R-values . Hence, and the rate of heat flow can be given by     Convection  In this process heat transfer occurs by the actual movement of fluid particles. Convection heat transfer is energy transport due to bulk fluid motion. Convection happens in gases and liquids.      When a fluid is heated, its molecules which are in contact with the hot surface get hot and expand. That is, the fluid above a hot surface expands, becomes less dense, and rises. It carries the thermal energy along when rises up. The relatively cold fluid on the upper surface is heavier and sink down near the heat source. Hence a current of heat cycle develops in the convection process, called convection cycle. The rate of heat flow in convection process is given by where is known as convective heat transfer coefficient, is surface area of fluid receiving heat, and are temperature of hot surface and cold fluid, respectively. The unit of is     Radiation  It is the process in which heat transfer without the need of intervening medium. Heat transfer occurs in this process when electromagnetic waves emitted or absorbed. The warming of the earth surface by the Sun is due to radiation. Heat transfer by this process is the fastest one. All bodies above absolute zero emit thermal radiation. At room temperature the radiation is in the infrared range, wavelengths longer than those of the visible spectrum. In atomic domain, the radiation is caused because of oscillating ions and electrons in a warm solid are accelerating electric charges, such charges radiate. Different substances radiate with different efficiencies. The good radiator of radiation is a good absorber of radiation. A perfect absorber is called a black body (such perfection is not found in nature, but some things are close). Hence a black body is also a perfect radiator. A black body absorbs and emits radiation of all most all frequencies. It was found experimentally that heat energy radiated per unit time per unit surface area of a perfectly black body is proportional to the fourth power of its absolute temperature. This statement is also called Stefan-Boltzmann law . That is,  where is called Stefan-Boltzmann constant and is called emissivity of the object. For a perfect black body If and be the temperatures of the body and its surroundings then, net rate of heat loss, For any particular wavelength and temperature the amount of thermal radiation emitted depends on the emissivity of the object's surface. Emissivity is defined as the ratio of the energy radiated from a material's surface to that radiated from a blackbody at the same temperature and wavelength under the same viewing conditions. It is a dimensionless number between 0 (for a perfect reflector) and 1 (for a perfect emitter). The emissivity of a surface depends not only on the material but also on the nature of the surface . For example, a clean and polished metal surface will have a low emissivity, whereas a roughened and oxidized metal surface will have a high emissivity. The emissivity also depends on the temperature of the surface as well as wavelength and angle.     To calculate temperature, heat transfer, and energy balance in various systems or to understand the transfer of energy (heat) as electromagnetic radiation between objects the following terminologies are very important to know.   Emissive Power  It is defined as the radiant energy emitted per unit time per unit surface area of the body at a particular temperature within a unit wavelength range. Emissive power represents the rate at which an object emits electromagnetic radiation, typically in the form of thermal radiation (infrared radiation) due to its temperature. Emissive power depends on the temperature of the object and its emissivity. Emissivity is a material property that describes how efficiently an object can emit radiation compared to an ideal black body, which has an emissivity of 1. Objects with higher emissivity values emit radiation more effectively.    Absorptive Power  It is defined as the ratio of radiant energy absorbed per unit time per unit surface area of the body to the total energy falling per unit time on the same area at a particular temperature within a unit wavelength range. Absorptive power represents the ability of an object to absorb electromagnetic radiation. It is the complement of reflectivity and is related to how efficiently a material can absorb incoming radiation. Materials with high absorptivity values absorb more radiation and convert it into thermal energy. Absorptivity, like emissivity, is also a material property and varies with wavelength. It is a unitless value between 0 and 1.    Kirchhoff's Law  Kirchhoff has two fundamental principles in the study of thermal radiation and the behavior of materials with regard to electromagnetic radiation. The details of Kirchhoff's law is not a part of discussion here but only taken here for some information. Kirchhoff's first law states that at any temperature, the ratio of the emissive power to the absorptive power for a given wavelength is the same for all bodies and is equal to the emissive power of a perfectly black body.  In other words, this law states that the emissivity ( ) of an object at a particular wavelength is equal to its absorptivity ( ) at that same wavelength. That is, the amount of radiation that an object emits at a specific wavelength is equal to the amount of radiation it absorbs at that same wavelength when the object is in thermal equilibrium with its surroundings.  Kirchhoff's second law states that at every temperature and for every wavelength, the emissivity ( ) of a perfect black body is equal to 1. That is, a perfect black body is an idealized object that absorbs all incident radiation and emits radiation at the maximum possible rate for a given temperature. It is often used as a reference to compare the behavior of real objects in radiative heat transfer.      "
 },
 {
-  "id": "p-1129",
+  "id": "p-1132",
   "level": "2",
-  "url": "subsec-heat_trans.html#p-1129",
+  "url": "subsec-heat_trans.html#p-1132",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "black body Stefan-Boltzmann law Emissivity "
 },
 {
-  "id": "p-1136",
+  "id": "p-1139",
   "level": "2",
-  "url": "subsec-heat_trans.html#p-1136",
+  "url": "subsec-heat_trans.html#p-1139",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6058,144 +6067,144 @@ var ptx_lunr_docs = [
   "body": " Examples A   Temperature & Expansion    Nitrogen liquefies at 63 K. What is this temperature in  degrees Celsius?  degrees Fahrenheit?      Given:               A steel rail 50 m long and cross sectional area is laid out on a hot summer day when the temperature is . The next winter the temperature drops to below zero. How great a force would be required to keep the ends of the rail from moving? For steel, ,  .      Given:                 A sheet of aluminum 2 m long, 1 m wide, and 1 mm thick at is heated to . If , how much does the area of the sheet increase?    Given:            A 1 L glass flask is filled to the mark with ethyl alcohol at . If the system is heated to ,    how much does the glass flask expand?  How much does the alcohol expand?  How high does the alcohol flow up the neck of the flask if its cross-sectional area is ?      Given:                          Calorimetry    How much heat is required to convert a 100 g ice cube taken from the refrigerator at into super heated steam at if the conversion is performed at atmospheric pressure? Note: c(ice) = c(steam) =       Given:          A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 100 g of ice at .  How much ice melts?  What is the final temperature of the system? Note:   .      Given: Mass of aluminum calorimeter, mass of ice, and mass of iron, Initial temperature of ice and calorimeter, initial temperature of iron, When hot iron is placed in calorimeter iron losses its heat and calorimeter and contents gains heat till the final temperature of the mixture reaches to equilibrium at     Now first calculate amount of heat needed for ice to melt completely, Heat lost by iron if cool to = Hence more heat is available in container than ice requires to melt completely.    All ice melts, i.e.,   Now from principle of calorimetry, Heat loss by iron = heat gained by calorimeter + ice.               Table salt has the chemical formula of and a specific heat capacity of The atomic mass of sodium is 22.99 and of chlorine is 35.453.  What is the molar mass of salt?  What is the molar heat capacity of salt?  How many joules of heat are required to heat 2 moles of salt from room temperature to boiling temperature ?      Given:      Molecular mass    Molar heat capacity,            A lead bullet of mass 10 g, traveling at 500 m\/s, strikes a target and comes to rest. The specific heat of solid lead is , lead melts at , and its heat of fusion is . If the bullet is at before hitting the target and all the heat generated by the collision goes into the bullet, what is the final temperature of the bullet?    Given:      Heat produced by bullet = change in kinetic energy of bullet.             A piece of iron ( ) having a mass of 300 g and temperature of is placed in a wall insulated and massless calorimeter containing 500 g water ( ) at   What is the final temperature of the system?  What is the change in entropy of the iron?  What is the change in entropy of the water?  What is the change in entropy of the universe?  Is this result consistent with the second law of thermodynamics. Why?      Given:      Heat loss = heat gain                   yes, entropy always increases in irreversible process.        Heat Transfer    The wall of a house is 6 m high, 7 m wide and 0.3 m thick made out of brick of thermal conductivity, The interior temperature of the house is and that at the exterior is find the rate of heat loss through the wall.    Given:   and Now the rate of heat transfers due to conduction,        A carpenter builds the walls of a basement out of solid concrete 4 inches thick. In order to reduce the heat loss to the ground, he surrounds the wall with styrofoam sheets 2 inches thick before filling in the dirt. The average ground temperature at that location is and the interior temperature of the basement is kept at a comfortable year round.  How much heat flows through the wall of the basement per square meter during the course of one year?  If the basement measures 10 m long, 5 m wide, and 3 m high how much heat flows out the walls in one year?  If electricity costs 10 cents per kilowatt-hour, how much would it cost to heat the basement per year? Note:       Given:           Since rate of heat flow from the wall is constant, We can find the value of T and plug that value in either or to get get by using formula       for 4 walls                 The wall of a house is 4 m wide and 3 m high. Except for the windows the wall consists of a sheet of rock , inches of fiberglass insulation , and wooden siding . There are two windows in the wall, each 1 m wide and 1.5 m tall consisting of single pane glass .  If the temperature outside is and inside is , how much heat flows out the wall and windows in 1 hour?  If the conductivity of window glass is and the window is 3.2 mm thick, what is the effective R-value of each of the two layers of \"dead\" air in contact with the window?      Given:                   and                     Assume that the total surface area of the human body is about and the surface temperature of the skin is .  What is the rate of heat loss through radiation by the body if the emissivity of the body is 0.9?  What is the net rate of heat loss through radiation by the body into an environment at ?      Given:                  Two metal rods, one lead and the other copper, are connected in end-to-end in series. Each rod is 0.5 m in length and has a square cross section 1.5 cm on a side. The temperature at the lead end of the rods is ; the temperature at the copper end is .  The average temperature of the two ends is . Is the temperature in the middle, at the lead-copper interface, greater than, less than, or equal to ? Explain.  Find the temperature at the lead-copper interface.  Given: and       Since and the rate of heat flow through both of the rods must be equal, then temperature at the junction must be greater than the average temperature , otherwise lead can not dissipate the same amount of heat every second as the copper does.        Hence, the lead requires a larger temperature difference across it than the copper, to get the same heat flow.              A copper pipe of radius 10mm is carrying a hot water. The external surface of the pipe is subjected to a material of convective heat transfer coefficient of find the heat lost by the convection per unit length of the pipe when external surface temperature is and the surroundings are at Assuming a black body radiation what is the heat lost by radiation?    For 1 m long pipe,  Now for radiation by assuming a pipe as black body          A solid aluminum sphere coated with lampblack (emissivity=0.97) is suspended in an evacuated container. The sphere has a radius of 0.020 m and is initially at The container is maintained at a temperature of   Assuming that the temperature of the sphere does not change very much, what is the net energy gained by the sphere in 10.0 s?  Estimate the change in temperature of the sphere.        The energy lost must be supplied at the same rate at which it is being lost by radiation. At equilibrium, power emitted = power absorbed. Therefore, the energy lost per second by the sphere is                  "
 },
 {
-  "id": "example-169",
+  "id": "example-170",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-169",
+  "url": "sec_tenth-examplesA.html#example-170",
   "type": "Example",
   "number": "10.4.1",
   "title": "",
   "body": "  Nitrogen liquefies at 63 K. What is this temperature in  degrees Celsius?  degrees Fahrenheit?      Given:            "
 },
 {
-  "id": "example-170",
+  "id": "example-171",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-170",
+  "url": "sec_tenth-examplesA.html#example-171",
   "type": "Example",
   "number": "10.4.2",
   "title": "",
   "body": "  A steel rail 50 m long and cross sectional area is laid out on a hot summer day when the temperature is . The next winter the temperature drops to below zero. How great a force would be required to keep the ends of the rail from moving? For steel, ,  .      Given:              "
 },
 {
-  "id": "example-171",
+  "id": "example-172",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-171",
+  "url": "sec_tenth-examplesA.html#example-172",
   "type": "Example",
   "number": "10.4.3",
   "title": "",
   "body": "  A sheet of aluminum 2 m long, 1 m wide, and 1 mm thick at is heated to . If , how much does the area of the sheet increase?    Given:         "
 },
 {
-  "id": "example-172",
+  "id": "example-173",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-172",
+  "url": "sec_tenth-examplesA.html#example-173",
   "type": "Example",
   "number": "10.4.4",
   "title": "",
   "body": "  A 1 L glass flask is filled to the mark with ethyl alcohol at . If the system is heated to ,    how much does the glass flask expand?  How much does the alcohol expand?  How high does the alcohol flow up the neck of the flask if its cross-sectional area is ?      Given:                       "
 },
 {
-  "id": "example-173",
+  "id": "example-174",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-173",
+  "url": "sec_tenth-examplesA.html#example-174",
   "type": "Example",
   "number": "10.4.5",
   "title": "",
   "body": "  How much heat is required to convert a 100 g ice cube taken from the refrigerator at into super heated steam at if the conversion is performed at atmospheric pressure? Note: c(ice) = c(steam) =       Given:       "
 },
 {
-  "id": "example-174",
+  "id": "example-175",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-174",
+  "url": "sec_tenth-examplesA.html#example-175",
   "type": "Example",
   "number": "10.4.6",
   "title": "",
   "body": "  A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 100 g of ice at .  How much ice melts?  What is the final temperature of the system? Note:   .      Given: Mass of aluminum calorimeter, mass of ice, and mass of iron, Initial temperature of ice and calorimeter, initial temperature of iron, When hot iron is placed in calorimeter iron losses its heat and calorimeter and contents gains heat till the final temperature of the mixture reaches to equilibrium at     Now first calculate amount of heat needed for ice to melt completely, Heat lost by iron if cool to = Hence more heat is available in container than ice requires to melt completely.    All ice melts, i.e.,   Now from principle of calorimetry, Heat loss by iron = heat gained by calorimeter + ice.            "
 },
 {
-  "id": "example-175",
+  "id": "example-176",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-175",
+  "url": "sec_tenth-examplesA.html#example-176",
   "type": "Example",
   "number": "10.4.7",
   "title": "",
   "body": "  Table salt has the chemical formula of and a specific heat capacity of The atomic mass of sodium is 22.99 and of chlorine is 35.453.  What is the molar mass of salt?  What is the molar heat capacity of salt?  How many joules of heat are required to heat 2 moles of salt from room temperature to boiling temperature ?      Given:      Molecular mass    Molar heat capacity,         "
 },
 {
-  "id": "example-176",
+  "id": "example-177",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-176",
+  "url": "sec_tenth-examplesA.html#example-177",
   "type": "Example",
   "number": "10.4.8",
   "title": "",
   "body": "  A lead bullet of mass 10 g, traveling at 500 m\/s, strikes a target and comes to rest. The specific heat of solid lead is , lead melts at , and its heat of fusion is . If the bullet is at before hitting the target and all the heat generated by the collision goes into the bullet, what is the final temperature of the bullet?    Given:      Heat produced by bullet = change in kinetic energy of bullet.          "
 },
 {
-  "id": "example-177",
+  "id": "example-178",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-177",
+  "url": "sec_tenth-examplesA.html#example-178",
   "type": "Example",
   "number": "10.4.9",
   "title": "",
   "body": "  A piece of iron ( ) having a mass of 300 g and temperature of is placed in a wall insulated and massless calorimeter containing 500 g water ( ) at   What is the final temperature of the system?  What is the change in entropy of the iron?  What is the change in entropy of the water?  What is the change in entropy of the universe?  Is this result consistent with the second law of thermodynamics. Why?      Given:      Heat loss = heat gain                   yes, entropy always increases in irreversible process.     "
 },
 {
-  "id": "example-178",
+  "id": "example-179",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-178",
+  "url": "sec_tenth-examplesA.html#example-179",
   "type": "Example",
   "number": "10.4.10",
   "title": "",
   "body": "  The wall of a house is 6 m high, 7 m wide and 0.3 m thick made out of brick of thermal conductivity, The interior temperature of the house is and that at the exterior is find the rate of heat loss through the wall.    Given:   and Now the rate of heat transfers due to conduction,     "
 },
 {
-  "id": "example-179",
+  "id": "example-180",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-179",
+  "url": "sec_tenth-examplesA.html#example-180",
   "type": "Example",
   "number": "10.4.11",
   "title": "",
   "body": "  A carpenter builds the walls of a basement out of solid concrete 4 inches thick. In order to reduce the heat loss to the ground, he surrounds the wall with styrofoam sheets 2 inches thick before filling in the dirt. The average ground temperature at that location is and the interior temperature of the basement is kept at a comfortable year round.  How much heat flows through the wall of the basement per square meter during the course of one year?  If the basement measures 10 m long, 5 m wide, and 3 m high how much heat flows out the walls in one year?  If electricity costs 10 cents per kilowatt-hour, how much would it cost to heat the basement per year? Note:       Given:           Since rate of heat flow from the wall is constant, We can find the value of T and plug that value in either or to get get by using formula       for 4 walls              "
 },
 {
-  "id": "example-180",
+  "id": "example-181",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-180",
+  "url": "sec_tenth-examplesA.html#example-181",
   "type": "Example",
   "number": "10.4.12",
   "title": "",
   "body": "  The wall of a house is 4 m wide and 3 m high. Except for the windows the wall consists of a sheet of rock , inches of fiberglass insulation , and wooden siding . There are two windows in the wall, each 1 m wide and 1.5 m tall consisting of single pane glass .  If the temperature outside is and inside is , how much heat flows out the wall and windows in 1 hour?  If the conductivity of window glass is and the window is 3.2 mm thick, what is the effective R-value of each of the two layers of \"dead\" air in contact with the window?      Given:                   and                  "
 },
 {
-  "id": "example-181",
+  "id": "example-182",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-181",
+  "url": "sec_tenth-examplesA.html#example-182",
   "type": "Example",
   "number": "10.4.13",
   "title": "",
   "body": "  Assume that the total surface area of the human body is about and the surface temperature of the skin is .  What is the rate of heat loss through radiation by the body if the emissivity of the body is 0.9?  What is the net rate of heat loss through radiation by the body into an environment at ?      Given:               "
 },
 {
-  "id": "example-182",
+  "id": "example-183",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-182",
+  "url": "sec_tenth-examplesA.html#example-183",
   "type": "Example",
   "number": "10.4.14",
   "title": "",
   "body": "  Two metal rods, one lead and the other copper, are connected in end-to-end in series. Each rod is 0.5 m in length and has a square cross section 1.5 cm on a side. The temperature at the lead end of the rods is ; the temperature at the copper end is .  The average temperature of the two ends is . Is the temperature in the middle, at the lead-copper interface, greater than, less than, or equal to ? Explain.  Find the temperature at the lead-copper interface.  Given: and       Since and the rate of heat flow through both of the rods must be equal, then temperature at the junction must be greater than the average temperature , otherwise lead can not dissipate the same amount of heat every second as the copper does.        Hence, the lead requires a larger temperature difference across it than the copper, to get the same heat flow.           "
 },
 {
-  "id": "example-183",
+  "id": "example-184",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-183",
+  "url": "sec_tenth-examplesA.html#example-184",
   "type": "Example",
   "number": "10.4.15",
   "title": "",
   "body": "  A copper pipe of radius 10mm is carrying a hot water. The external surface of the pipe is subjected to a material of convective heat transfer coefficient of find the heat lost by the convection per unit length of the pipe when external surface temperature is and the surroundings are at Assuming a black body radiation what is the heat lost by radiation?    For 1 m long pipe,  Now for radiation by assuming a pipe as black body       "
 },
 {
-  "id": "example-184",
+  "id": "example-185",
   "level": "2",
-  "url": "sec_tenth-examplesA.html#example-184",
+  "url": "sec_tenth-examplesA.html#example-185",
   "type": "Example",
   "number": "10.4.16",
   "title": "",
@@ -6220,9 +6229,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1189",
+  "id": "p-1192",
   "level": "2",
-  "url": "subsec-gas_pres.html#p-1189",
+  "url": "subsec-gas_pres.html#p-1192",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6247,18 +6256,18 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-1191",
+  "id": "p-1194",
   "level": "2",
-  "url": "subsec-dg_freedom.html#p-1191",
+  "url": "subsec-dg_freedom.html#p-1194",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Avogadro's number "
 },
 {
-  "id": "p-1193",
+  "id": "p-1196",
   "level": "2",
-  "url": "subsec-dg_freedom.html#p-1193",
+  "url": "subsec-dg_freedom.html#p-1196",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6274,9 +6283,9 @@ var ptx_lunr_docs = [
   "body": " Law of Equipartition of Energy   According to Maxwell, total kinetic energy of a dynamical system consisting of large number of particles is equally distributed among its various degrees of freedom. The average kinetic energy of a monoatomic gas molecule is given by   Hence, the average kinetic energy per molecule in each degree of freedom is     Avogadro's Number,  It is the number of molecules in one gram of hydrogen gas or the number of atoms in 12 grams of the carbon-12 isotope. The value of molecules in one mole of carbon-12 atoms. The mole is a base unit in the SI system for an amount of substance. The symbol of mole is [mol]. The mole is defined as the amount of any substance (entity) that contains as many atoms as there are in 12 grams of atom. At standard temperature and pressure (STP, T = 273 K, p = 1 atm) 1 mole of any substance occupies Avogadro's number of molecules. At STP, volume of an ideal gas V=22.4 liter. If we weigh one mole of any substance its comes out to be the molecular weight of that substance in gram . Molecular weight and molar weight are related terms that are often used interchangeably, but they have slightly different meanings. Molecular weight refers to the mass of a single molecule of a substance in atomic mass units (amu) or unified atomic mass units (u). Molar weight, also known as molar mass , refers to the mass of one mole of a substance in unit of grams per mole (g\/mol). The molar mass of a compound is numerically equal to its molecular weight but has units of grams per mole. For example, the molar mass of water ( ) is approximately 18.015 g\/mol, which is the same as its molecular weight (18.015 amu). One mole of water weighs 18.015 g. One mole of ethyl alcohol, , weighs 46.069 g. If we weigh whether one mole of iron or one mole of sulfur they contain the same number of atoms equal to Avogadro's number. This is an important aspect of the mole. Avogadro's number     Atomic Mass Unit, u   amu It is the mass of one hydrogen atom. It is normally a sum of number of protons and neutrons in a nucleus. The weight of 1 atom of weighs 12.00 amu. A 12 g of carbon contains atoms, each weighing exactly 12 amu. Therefore, or,    "
 },
 {
-  "id": "p-1195",
+  "id": "p-1198",
   "level": "2",
-  "url": "subsec-equip_law.html#p-1195",
+  "url": "subsec-equip_law.html#p-1198",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6310,36 +6319,36 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-1198",
+  "id": "p-1201",
   "level": "2",
-  "url": "subsec-gas_laws.html#p-1198",
+  "url": "subsec-gas_laws.html#p-1201",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Volume is inversely proportional to pressure "
 },
 {
-  "id": "p-1199",
+  "id": "p-1202",
   "level": "2",
-  "url": "subsec-gas_laws.html#p-1199",
+  "url": "subsec-gas_laws.html#p-1202",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "temperature is proportional to the volume "
 },
 {
-  "id": "p-1200",
+  "id": "p-1203",
   "level": "2",
-  "url": "subsec-gas_laws.html#p-1200",
+  "url": "subsec-gas_laws.html#p-1203",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Pressure is proportional to temperature "
 },
 {
-  "id": "p-1201",
+  "id": "p-1204",
   "level": "2",
-  "url": "subsec-gas_laws.html#p-1201",
+  "url": "subsec-gas_laws.html#p-1204",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6355,9 +6364,9 @@ var ptx_lunr_docs = [
   "body": " Thermodynamical Variables  The state of a thermodynamic system can be specified in terms of macroscopic state variables such as volume, V, temperature, T, and pressure, p. Out of these three, two are independent variables while the third may be considered as their function. In general, two of these parameters are needed to completely specify a thermodynamical system. These two types of variables are also known as extensive and intensive variables. Variables that depend on the size of a system such as volume, V, amount of substance (moles, n ), entropy, S, etc. are called extensive variables . Variables that do not depend on the size of a system such as temperature, T, pressure, p , density, , etc. are called intensive variables .  "
 },
 {
-  "id": "p-1205",
+  "id": "p-1208",
   "level": "2",
-  "url": "subsec-therm_varbls.html#p-1205",
+  "url": "subsec-therm_varbls.html#p-1208",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6391,9 +6400,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-1212",
+  "id": "p-1215",
   "level": "2",
-  "url": "subsec-therm_laws.html#p-1212",
+  "url": "subsec-therm_laws.html#p-1215",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6409,9 +6418,9 @@ var ptx_lunr_docs = [
   "body": " Application of I law of thermodynamics     Specific heat capacity of a gas: Consider a mole of gas is heated in the cylinder with frictionless piston, then the change in internal energy of the gas is given by the first law of thermodynamics  where is the infinitesimal work done by the gas in moving a piston from initial position to the final position , and is given by where is area of cross-section of the piston, is force applied by the gas molecules on the surface of the piston. If the piston is fixed from moving, then at constant volume, , and  But, for n mole of a gas where C is molar specific heat capacity of the gas. where is mass of the gas, but it is convenient to take mole instead of mass as an amount of gas. At constant volume, From eqns. and , we have - At constant pressure,  Now, differentiating eqn. with respect to , we get - But from euation of state of a gas , Differentiating this equation with respect to at constant , we get - substituting the values in eqn. from eqns. and , we get -  This is the relation between molar specific heat capacity of a gas at constant pressure and molar specific heat capacity of a gas at constant volume . From the kinetic theory of gas, the internal energy of a monoatomic gas [ ] is given by  Hence, from eqns. , , and , we have - Now, the ratio of the specific heat at constant pressure to the specific heat at constant volume of a monoatomic gas is given by The idea of degrees of freedom can be extended to diatomic and polytomic gases. It can be shown that the value of can be expressed as where is the number of degrees of freedom per molecule. For a monatomic gas, we find that since for a monoatomic gas. for a diatomic gas as .    Isothermal process: In an isothermal process system remains at constant temperature, , hence, As internal energy of an ideal gas [ ] is a function of temperature only, we have Therefore, from I law of thermodynamics, we have -      Adiabatic process: In an adiabatic process system does not exchange heat , with surroundings, hence, Therefore, from I law of thermodynamics, we have -    That is, internal energy increases exactly by the amount of work done on the system. Also, for 1 mole of a gas.      integrating both sides, we get -          Isobaric process: A process at constant pressure, is called an isobaric process. At the change of phase, temperature and pressure remains constant, i.e.,        Isochoric process: A process at constant volume, is called an isochoric process.      Free expansion: It is an adiabatic process in which no work is performed on or by the system. Consider two chambers of an isolated system, the one chamber of which contains a gas while the other is completely evacuated. Both the chambers are connected with a stopcock. When stopcock is suddenly open, the gas rushes into the evacuated chamber and expands freely. Free expansion means gas has to do no work at all. Since an isolated system does not exchange heat from outside world, and gas expands freely so Therefore from I law of thermodynamics, That is, initial internal energy of the gas is same as its final internal energy.     "
 },
 {
-  "id": "p-1213",
+  "id": "p-1216",
   "level": "2",
-  "url": "subsec-Ilaw_appl.html#p-1213",
+  "url": "subsec-Ilaw_appl.html#p-1216",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6436,18 +6445,18 @@ var ptx_lunr_docs = [
   "body": "                    "
 },
 {
-  "id": "p-1220",
+  "id": "p-1223",
   "level": "2",
-  "url": "subsec-II_law.html#p-1220",
+  "url": "subsec-II_law.html#p-1223",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Kelvin-Plank statement of the second law: "
 },
 {
-  "id": "p-1221",
+  "id": "p-1224",
   "level": "2",
-  "url": "subsec-II_law.html#p-1221",
+  "url": "subsec-II_law.html#p-1224",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6472,9 +6481,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1225",
+  "id": "p-1228",
   "level": "2",
-  "url": "subsec-heat_engn.html#p-1225",
+  "url": "subsec-heat_engn.html#p-1228",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6526,36 +6535,36 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1231",
-  "level": "2",
-  "url": "subsec-canot_cycl.html#p-1231",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Step 1, Isothermal Expansion: "
-},
-{
-  "id": "p-1232",
-  "level": "2",
-  "url": "subsec-canot_cycl.html#p-1232",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Step 2, Adiabatic Expansion: "
-},
-{
   "id": "p-1234",
   "level": "2",
   "url": "subsec-canot_cycl.html#p-1234",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Step 3, Isothermal compression: "
+  "body": "Step 1, Isothermal Expansion: "
 },
 {
   "id": "p-1235",
   "level": "2",
   "url": "subsec-canot_cycl.html#p-1235",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 2, Adiabatic Expansion: "
+},
+{
+  "id": "p-1237",
+  "level": "2",
+  "url": "subsec-canot_cycl.html#p-1237",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 3, Isothermal compression: "
+},
+{
+  "id": "p-1238",
+  "level": "2",
+  "url": "subsec-canot_cycl.html#p-1238",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6607,9 +6616,9 @@ var ptx_lunr_docs = [
   "body": " Entropy   A natural tendency of systems is to lose order. When sugar is dissolved in water it becomes more randomized and will not reconstitute itself in the crystalline form again, unless we apply heat energy from outside of the system to evaporate water. When a hot and a cold body are put in contact to each other, heat energy begins to flow from the hot body to the cold body until they reach at thermal equilibrium. Heat will never move back the other way. To move heat from a cold body to a hot body an external work must be done by an external source such as a heat pump. Entropy is a measure of that disorderness. It is a measure of the system's thermal energy per unit temperature that is unavailable for useful work. The concept of entropy provides the direction of spontaneous change for many process. It tells us that which process is allowed and which is completely prohibited even if it can not violet the fundamental law of conservation of energy. An ice cube placed on a hot pan surely melts, while the pan goes cooler. Such a process is called irreversible because no slight change will cause the melted water to turn back into ice while the pan goes hotter. In contrast, a block of ice placed in an ice water bath will either thaw a little more or freeze a little more, depending on whether a small amount of heat is added to or taken out from the system. Such a process is reversible because only an infinitesimal amount of heat is needed to change its direction from progressive freezing to progressive thawing.      Spontaneous change for an irreversible process in an isolated system always proceeds in a direction of increasing entropy. Entropy describes the degradation of energy to perform work. Crystals are more orderly than salt molecules in solution; however, vaporized water is more disordered than liquid water. The process taken as a whole results in a net increase in disorder. The first law of thermodynamics is the conservation of energy and is easy to express quantitatively. The second law explains that heat only flows from a hotter object to a colder one. It measures quantitatively that the efficiency of any reversible engine has to equal that of the Carnot cycle, and any irreversible engine has less efficiency. In the view of measuring the amount of irreversibility Clausius described a parameter, called entropy that doesn't change in a reversible process but always increases in an irreversible one.  The total work done by the gas is the area of the curve ABCD. Hence the work done must be just the difference between the heat supplied at and that dumped at Now the heat supplied along the initial hot isothermal path AB is equal to the work done along that curve, and the heat dumped into the cold reservoir along CD is   The difference between these two is the net work output. This can be simplified using the adiabatic equations for the other two sides of the cycle: and On dividing of these two equations, we get - and using that in the preceding equation for    So for the Carnot cycle the ratio of heat supplied to heat dumped is just the ratio of the absolute temperatures. If we draw many isotherms and many adiabatics curve, then we can find in general that This quantity is a definite thermal property of the working substance. During adiabatic change, there is no transfer of heat so this quantity is zero. Hence that thermal property of the substance which remains constant during an adiabatic change is termed as entropy .  Now let see what happen if we take the path ADCBA. The amount of heat absorbed at temperature when the gas passes from the state A to the state B remains constant even if a path other than the isotherm AB is followed. Now starting from the point A in reverse direction, let the path AD, DC, and CB be followed. Along the adiabatics AD and CB the quantity is zero and the quantity along the isothermal DC But we know that Hence the quantity is independent of the manner of transformation, i.e., the entropy is a definite function of the thermal state of a body and is not affected in any way by the manner in which the particular state is reached. In other words, entropy is a definite physical entity like pressure, volume, temperature, or internal energy but there is nothing physical to represent it . Entropy can not be felt like pressure or temperature. Further, we can not measure the absolute entropy of a substance in any situation, we can only measure the change in entropy as the substance moves from one state to another. Entropy is denoted by a letter, .  Change of entropy = heat energy\/temperature  or, Change of entropy Temperature = Heat Energy.  That is the dimension of heat energy is same as that of the product of entropy and temperature. If we compare, gravitational potential energy mass height with the above expression then it seems like, entropy bears to heat motion in the same fashion as mass bears to linear motion. Hence entropy is also known as a thermal inertia. The second law of thermodynamics can be stated in terms of entropy. The total entropy of the universe is continually increasing because all natural process is irreversible and entropy increases in irreversible process where as there is no change in entropy in the reversible process. But reversible process barely happen in the universe.  Differential form of change of entropy, for reversible path.  Integral form for reversible path.    Principle of increase of entropy:  According to this principle, entropy of the universe always increases for any irreversible process, or remains constant for a reversible process.   Change of entropy of the universe due to reversible process: Consider a Carnot cycle in isothermal expansion. The increase of entropy of the working substance is equal to The decrease of entropy of the source is equal to Thus the net change of entropy of universe during a reversible isothermal process is zero . There is no change of entropy during adiabatic process. Similarly, the decrease of entropy of the working substance during isothermal compression is the increases of entropy of the sink during isothermal compression is Therefore, net change of entropy of the universe is zero. Now take the entire Carnot cycle at once, then loss of entropy of the source (surrounding) is and gains of entropy of the sink (surrounding) is , hence the net change of entropy of the universe,  The entropy of the whole system remains constant.   Change of entropy of the universe due to irreversible process: Consider a heat transfer in conduction process. It is an irreversible process. Let a quantity be transferred from a hot body A at a temperature to a cold body B at temperature The loss of entropy of A is and the gain of entropy of B is Thus the net change in entropy is Since . Therefore the entropy of the system as a whole increase during this process. The entropy of the universe increases in the irreversible process.      Principle of degradation of entropy:  It states that the available energy of the universe is tending towards zero. From the second law whenever an irreversible process takes place, a certain quantity of energy of the universe is converted from a form in which it is unavailable for work. In Carnot engine, is the heat that is taken from a source and is the amount of heat given to the sink. The difference of this heat is converted into work and is called the available energy . Available energy is therefore,  Thus the lower the temperature of the sink, the greater will be the available energy.  Now consider an irreversible process in which heat Q is transferred from hot body at temperature to a cold body at temperature Suppose is the lowest available temperature in the system, then available energy to start with is After transfer it becomes Hence the loss available energy in the process of transformation is  Since is increasing in irreversible process available energy is decreasing. All natural process are irreversible the available energy of the universe is continually decreasing. When a state of maximum entropy of the universe is reached there would be no available energy to do any work, this condition is called the heat-death .   "
 },
 {
-  "id": "p-1245",
+  "id": "p-1248",
   "level": "2",
-  "url": "subsec-entropy.html#p-1245",
+  "url": "subsec-entropy.html#p-1248",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6625,18 +6634,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1256",
+  "id": "p-1259",
   "level": "2",
-  "url": "subsec-entropy.html#p-1256",
+  "url": "subsec-entropy.html#p-1259",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "available energy "
 },
 {
-  "id": "p-1257",
+  "id": "p-1260",
   "level": "2",
-  "url": "subsec-entropy.html#p-1257",
+  "url": "subsec-entropy.html#p-1260",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6670,180 +6679,180 @@ var ptx_lunr_docs = [
   "body": " Examples B   KTG    The rms speed of molecules is 1.84 km\/sec. What will be the rms speed of molecules at the same temperature? The molecular weights of hydrogen and oxygen are 2 and 32 respectively.    We know that         At what temperature does the kinetic energy of an atom be 1.0 eV? .    Average kinetic energy of an atom is given by  for a monoatomic molecule        At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.    We have - At NTP, . At NTP,           I Law of Thermodynamics    A spherical balloon one foot in diameter contains helium at one atmosphere of pressure and at a temperature of . Find  the number of moles of helium in the balloon,  the number of molecules in the balloon,  the average kinetic energy of each helium molecule,  the rms velocity of a helium molecule,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of rubber that allows the pressure to remain at one atmosphere,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of non-stretching aluminum so the volume remains constant,  the final temperature of the balloon if it rises adiabatically to an altitude where the pressure is one-half atmosphere.      Given:       Here,                                   Now,          Use the principle of equipartition of energy to determine the equations for the internal energy, the molar specific heat capacity at constant volume, and the molar specific heat capacity at constant pressure for  a monatomic ideal gas,  diatomic ideal gas,  diatomic ideal gas with vibration, and  solid substance.      Internal energy per molecule of a gas,        for a monoatomic gas, f = 3 translational motion = 3 degrees of freedom.   for a diatomic gas, f = 3 translational + 2rotational motion = 5 degrees of freedom.   for a diatomic gas with vibration, f = 3 translational + 2rotational + 2 vibrational motions = 7 degrees of freedom. (in 2 vibrational motions we have: 1 dimensional stretch and 1 dimensional bend)   for solids, f = 3 D kinetic energy + 3 D potential energy = 6 degrees of freedom.         An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the temperature remains constant throughout the process, find each of the following:  the initial volume of the gas,  the final volume of the gas,  the final temperature of the gas,  the final pressure of the gas,  the work done by the gas,  the change in internal energy of the gas, and  the heat added to the gas.      Given:   and                                     Calculate the change in the internal energy when 5 gm of air is heated from to the specific heat of air at constant volume being  Note: 1 cal = 4.18 J.    From first law of thermodynamics, Since air is heated at constant volume          A system absorbs 2500 J of heat and at the same time does 90 J of external work.  Find the change in internal energy of the system.  Find the change in internal energy of the system if it absorbs 2500 J of heat at the same time 90 J of work done on it.  What will be the change in internal energy of the gas from which 400 J of heat is removed at constant volume.      From first law of thermodynamics,   Given:  We know that , hence if volume increases or is +ve, then is positive. That is, work done by the system is +ve.  Given:  We know that , hence if volume decreases or is -ve, then is negative. That is, work done on the system is -ve.  Given: and  -ve sign indicates that heat is taken out from the system.        II Law of Thermodynamics    A heat engine takes in 1000 J of heat from a reservoir at temperature 400 K and rejects 800 J of heat into a second heat reservoir at temperature 300 K.  How much work does the engine do per cycle.  If the engine makes 4000 rpm, what is the power output of the engine in Watts? In horsepower?  What is the actual efficiency of the engine?  What would be the efficiency of a Carnot engine utilizing the same temperatures?  Assuming the Carnot engine absorbed the same amount of heat per cycle as the original engine, how much work would it do per cycle?  Assuming it ran at the same speed as the original, what would be its power output?      Given:  and                                  A Carnot engine is used to make a heat pump. In winter time, the engine pumps heat from outside the house at a temperature of into the house at a temperature .  What is the COP of the heat pump?  How much heat is delivered into the house in 24 hours if the unit uses 1000 W of electrical power? In the summer time, the engine is used as an air conditioner pumping heat from an exterior temperature of to an interior temperature of .  What is the COP of this heat pump operating as an air conditioner?  What is the cooling capacity of this unit in Btu's per hour if it uses 1000 W of electrical power?        Given:    Given:      Given:    Given:              An engine works between the temperature and and develops 100 horse power. Assuming that its efficiency is equal to that of a Carnot engine working between the same temperature limits, calculate:  the heat supplied to the engine,  the heat rejected by the engine.        The efficiency of Carnot heat engine is given by Heat supplied by the engine per second is    The efficiency of heat engine is given by            A Carnot engine works at high temperature 600 K with the efficiency of . If the efficiency of the engine is and the low temperature kept constant, what is the high temperature?    For Carnot engine efficiency,   For heat engine efficiency,            A 10 moles of gas are allowed to expand isothermally at T = 300 K from an initial volume of 10 liters to a final volume of 30 liters. How much work does the gas do on the piston?  If the gas expands adiabatically from 10 to 30 liters. How much work does the gas do?        Work done by the gas in an isothermal process  Since n = 10 mole, R = 8.314 J\/mol\/K, and .  Work done by the gas in an adiabatic process  but,  where n = 10 mole, R = 8.314 J\/mol\/K, and for diatomic molecule.           If 3 moles of an ideal polyatomic gas initially with a volume of and a temperature of 273 K. This gas is compressed isothermally to 1\/2 its initial volume. How much heat must be added to the system during this compression?      Now, at constant T, . Hence,       The molar heat capacity of hydrogen gas at constant volume is It fills a volume of at pressure of 51 kPa. Determine the work done by the gas when it expands its volume five times  isothermally, and  adiabatically.        Work done in an isothermal process is given by     Work done in an adiabatic process is given by     Now,   Hence from eqn. ,           Entropy    A cube of ice of mass 100 grams and temperature is placed in a beaker and heated until the ice melts and the water reaches . What is the change in entropy of the mass?    Given:  and Change in entropy for ice melts -  Change in entropy for water heating up -    Therefore total change in entropy,       A piece of iron having a mass of 300 g and temperature of is placed in a well insulated and massless calorimeter containing 500 g of water at .  What is the final temperature of the system?  What is the change in entropy of the iron?  What is the change in entropy of the water?  What is the change in entropy of the universe?  Is this result consistent with the second law of thermodynamics? Why?      Given:   and     From the principle of calorimetry, Heat lost by iron = heat gained by water.              Yes, entropy of the universe increases.        On the microscopic level entropy is defined as , where is the number of microscopic states available to the system in its macroscopic state. For a single gas molecule, the number of available microscopic states is proportional to the volume V of the container so that where k is a constant of proportionality.  If there are N such molecules in the same container, show that the number of available microscopic states is   How many microscopic states are available for one mole of gas in a volume V?  In terms of and , what is the entropy of a mole of gas in volume V?  If one mole of gas initially in a volume of 1 L is allowed to expand freely into a vacuum of volume 2 L, what is the change in entropy of the gas?  Is this result consistent with the second law of thermodynamics? Why?        For each state of one molecule a second molecule can be in any one of states. Therefore, the total number of microstates for two particles is For each of these states the third particle cab be in any one of states, so Generalizing to N particles gives,   For one mole of gas, there are molecules, so the above equation becomes,   Since then for one mole,        Yes, entropy of the universe increases.        Calculate the change in entropy of 1 g of ice at is concerted into steam at . Latent heat of fusion = 80 cal\/g, latent heat of vaporization = 540 cal\/g, and specific heat capacity of water is       When ice melts to water at then change in entropy,    When water is heated from to then change in entropy,    When water is converted into steam at then change in entropy,  Hence the total change in entropy when one gram of ice at is converted into steam at is         Calculate the change in entropy when 1 kg of water at is mixed with 1 kg of water at     If t be the final temperature of mixture then, heat lost by 1 kg of water at and heat gained by 1 kg of water at From the principle of calorimetry,  Heat lost = Heat gained. Therefore,  Now increase in entropy of 1kg of water in heating from to is  Decrease in entropy of 1kg of water in cooling from to is  Therefore the net increase in entropy of the system = 168-144 = 24 cal\/K.     "
 },
 {
-  "id": "example-185",
+  "id": "example-186",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-185",
+  "url": "sec_tenth-examplesB.html#example-186",
   "type": "Example",
   "number": "10.7.1",
   "title": "",
   "body": "  The rms speed of molecules is 1.84 km\/sec. What will be the rms speed of molecules at the same temperature? The molecular weights of hydrogen and oxygen are 2 and 32 respectively.    We know that      "
 },
 {
-  "id": "example-186",
+  "id": "example-187",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-186",
+  "url": "sec_tenth-examplesB.html#example-187",
   "type": "Example",
   "number": "10.7.2",
   "title": "",
   "body": "  At what temperature does the kinetic energy of an atom be 1.0 eV? .    Average kinetic energy of an atom is given by  for a monoatomic molecule     "
 },
 {
-  "id": "example-187",
+  "id": "example-188",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-187",
+  "url": "sec_tenth-examplesB.html#example-188",
   "type": "Example",
   "number": "10.7.3",
   "title": "",
   "body": "  At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.    We have - At NTP, . At NTP,        "
 },
 {
-  "id": "example-188",
+  "id": "example-189",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-188",
+  "url": "sec_tenth-examplesB.html#example-189",
   "type": "Example",
   "number": "10.7.4",
   "title": "",
   "body": "  A spherical balloon one foot in diameter contains helium at one atmosphere of pressure and at a temperature of . Find  the number of moles of helium in the balloon,  the number of molecules in the balloon,  the average kinetic energy of each helium molecule,  the rms velocity of a helium molecule,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of rubber that allows the pressure to remain at one atmosphere,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of non-stretching aluminum so the volume remains constant,  the final temperature of the balloon if it rises adiabatically to an altitude where the pressure is one-half atmosphere.      Given:       Here,                                   Now,       "
 },
 {
-  "id": "example-189",
+  "id": "example-190",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-189",
+  "url": "sec_tenth-examplesB.html#example-190",
   "type": "Example",
   "number": "10.7.5",
   "title": "",
   "body": "  Use the principle of equipartition of energy to determine the equations for the internal energy, the molar specific heat capacity at constant volume, and the molar specific heat capacity at constant pressure for  a monatomic ideal gas,  diatomic ideal gas,  diatomic ideal gas with vibration, and  solid substance.      Internal energy per molecule of a gas,        for a monoatomic gas, f = 3 translational motion = 3 degrees of freedom.   for a diatomic gas, f = 3 translational + 2rotational motion = 5 degrees of freedom.   for a diatomic gas with vibration, f = 3 translational + 2rotational + 2 vibrational motions = 7 degrees of freedom. (in 2 vibrational motions we have: 1 dimensional stretch and 1 dimensional bend)   for solids, f = 3 D kinetic energy + 3 D potential energy = 6 degrees of freedom.      "
 },
 {
-  "id": "example-190",
+  "id": "example-191",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-190",
+  "url": "sec_tenth-examplesB.html#example-191",
   "type": "Example",
   "number": "10.7.6",
   "title": "",
   "body": "  An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the temperature remains constant throughout the process, find each of the following:  the initial volume of the gas,  the final volume of the gas,  the final temperature of the gas,  the final pressure of the gas,  the work done by the gas,  the change in internal energy of the gas, and  the heat added to the gas.      Given:   and                                  "
 },
 {
-  "id": "example-191",
+  "id": "example-192",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-191",
+  "url": "sec_tenth-examplesB.html#example-192",
   "type": "Example",
   "number": "10.7.7",
   "title": "",
   "body": "  Calculate the change in the internal energy when 5 gm of air is heated from to the specific heat of air at constant volume being  Note: 1 cal = 4.18 J.    From first law of thermodynamics, Since air is heated at constant volume       "
 },
 {
-  "id": "example-192",
+  "id": "example-193",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-192",
+  "url": "sec_tenth-examplesB.html#example-193",
   "type": "Example",
   "number": "10.7.8",
   "title": "",
   "body": "  A system absorbs 2500 J of heat and at the same time does 90 J of external work.  Find the change in internal energy of the system.  Find the change in internal energy of the system if it absorbs 2500 J of heat at the same time 90 J of work done on it.  What will be the change in internal energy of the gas from which 400 J of heat is removed at constant volume.      From first law of thermodynamics,   Given:  We know that , hence if volume increases or is +ve, then is positive. That is, work done by the system is +ve.  Given:  We know that , hence if volume decreases or is -ve, then is negative. That is, work done on the system is -ve.  Given: and  -ve sign indicates that heat is taken out from the system.     "
 },
 {
-  "id": "example-193",
+  "id": "example-194",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-193",
+  "url": "sec_tenth-examplesB.html#example-194",
   "type": "Example",
   "number": "10.7.9",
   "title": "",
   "body": "  A heat engine takes in 1000 J of heat from a reservoir at temperature 400 K and rejects 800 J of heat into a second heat reservoir at temperature 300 K.  How much work does the engine do per cycle.  If the engine makes 4000 rpm, what is the power output of the engine in Watts? In horsepower?  What is the actual efficiency of the engine?  What would be the efficiency of a Carnot engine utilizing the same temperatures?  Assuming the Carnot engine absorbed the same amount of heat per cycle as the original engine, how much work would it do per cycle?  Assuming it ran at the same speed as the original, what would be its power output?      Given:  and                               "
 },
 {
-  "id": "example-194",
+  "id": "example-195",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-194",
+  "url": "sec_tenth-examplesB.html#example-195",
   "type": "Example",
   "number": "10.7.10",
   "title": "",
   "body": "  A Carnot engine is used to make a heat pump. In winter time, the engine pumps heat from outside the house at a temperature of into the house at a temperature .  What is the COP of the heat pump?  How much heat is delivered into the house in 24 hours if the unit uses 1000 W of electrical power? In the summer time, the engine is used as an air conditioner pumping heat from an exterior temperature of to an interior temperature of .  What is the COP of this heat pump operating as an air conditioner?  What is the cooling capacity of this unit in Btu's per hour if it uses 1000 W of electrical power?        Given:    Given:      Given:    Given:           "
 },
 {
-  "id": "example-195",
+  "id": "example-196",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-195",
+  "url": "sec_tenth-examplesB.html#example-196",
   "type": "Example",
   "number": "10.7.11",
   "title": "",
   "body": "  An engine works between the temperature and and develops 100 horse power. Assuming that its efficiency is equal to that of a Carnot engine working between the same temperature limits, calculate:  the heat supplied to the engine,  the heat rejected by the engine.        The efficiency of Carnot heat engine is given by Heat supplied by the engine per second is    The efficiency of heat engine is given by         "
 },
 {
-  "id": "example-196",
+  "id": "example-197",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-196",
+  "url": "sec_tenth-examplesB.html#example-197",
   "type": "Example",
   "number": "10.7.12",
   "title": "",
   "body": "  A Carnot engine works at high temperature 600 K with the efficiency of . If the efficiency of the engine is and the low temperature kept constant, what is the high temperature?    For Carnot engine efficiency,   For heat engine efficiency,       "
 },
 {
-  "id": "example-197",
+  "id": "example-198",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-197",
+  "url": "sec_tenth-examplesB.html#example-198",
   "type": "Example",
   "number": "10.7.13",
   "title": "",
   "body": "    A 10 moles of gas are allowed to expand isothermally at T = 300 K from an initial volume of 10 liters to a final volume of 30 liters. How much work does the gas do on the piston?  If the gas expands adiabatically from 10 to 30 liters. How much work does the gas do?        Work done by the gas in an isothermal process  Since n = 10 mole, R = 8.314 J\/mol\/K, and .  Work done by the gas in an adiabatic process  but,  where n = 10 mole, R = 8.314 J\/mol\/K, and for diatomic molecule.        "
 },
 {
-  "id": "example-198",
+  "id": "example-199",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-198",
+  "url": "sec_tenth-examplesB.html#example-199",
   "type": "Example",
   "number": "10.7.14",
   "title": "",
   "body": "  If 3 moles of an ideal polyatomic gas initially with a volume of and a temperature of 273 K. This gas is compressed isothermally to 1\/2 its initial volume. How much heat must be added to the system during this compression?      Now, at constant T, . Hence,    "
 },
 {
-  "id": "example-199",
+  "id": "example-200",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-199",
+  "url": "sec_tenth-examplesB.html#example-200",
   "type": "Example",
   "number": "10.7.15",
   "title": "",
   "body": "  The molar heat capacity of hydrogen gas at constant volume is It fills a volume of at pressure of 51 kPa. Determine the work done by the gas when it expands its volume five times  isothermally, and  adiabatically.        Work done in an isothermal process is given by     Work done in an adiabatic process is given by     Now,   Hence from eqn. ,        "
 },
 {
-  "id": "example-200",
+  "id": "example-201",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-200",
+  "url": "sec_tenth-examplesB.html#example-201",
   "type": "Example",
   "number": "10.7.16",
   "title": "",
   "body": "  A cube of ice of mass 100 grams and temperature is placed in a beaker and heated until the ice melts and the water reaches . What is the change in entropy of the mass?    Given:  and Change in entropy for ice melts -  Change in entropy for water heating up -    Therefore total change in entropy,    "
 },
 {
-  "id": "example-201",
+  "id": "example-202",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-201",
+  "url": "sec_tenth-examplesB.html#example-202",
   "type": "Example",
   "number": "10.7.17",
   "title": "",
   "body": "  A piece of iron having a mass of 300 g and temperature of is placed in a well insulated and massless calorimeter containing 500 g of water at .  What is the final temperature of the system?  What is the change in entropy of the iron?  What is the change in entropy of the water?  What is the change in entropy of the universe?  Is this result consistent with the second law of thermodynamics? Why?      Given:   and     From the principle of calorimetry, Heat lost by iron = heat gained by water.              Yes, entropy of the universe increases.     "
 },
 {
-  "id": "example-202",
+  "id": "example-203",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-202",
+  "url": "sec_tenth-examplesB.html#example-203",
   "type": "Example",
   "number": "10.7.18",
   "title": "",
   "body": "  On the microscopic level entropy is defined as , where is the number of microscopic states available to the system in its macroscopic state. For a single gas molecule, the number of available microscopic states is proportional to the volume V of the container so that where k is a constant of proportionality.  If there are N such molecules in the same container, show that the number of available microscopic states is   How many microscopic states are available for one mole of gas in a volume V?  In terms of and , what is the entropy of a mole of gas in volume V?  If one mole of gas initially in a volume of 1 L is allowed to expand freely into a vacuum of volume 2 L, what is the change in entropy of the gas?  Is this result consistent with the second law of thermodynamics? Why?        For each state of one molecule a second molecule can be in any one of states. Therefore, the total number of microstates for two particles is For each of these states the third particle cab be in any one of states, so Generalizing to N particles gives,   For one mole of gas, there are molecules, so the above equation becomes,   Since then for one mole,        Yes, entropy of the universe increases.     "
 },
 {
-  "id": "example-203",
+  "id": "example-204",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-203",
+  "url": "sec_tenth-examplesB.html#example-204",
   "type": "Example",
   "number": "10.7.19",
   "title": "",
   "body": "  Calculate the change in entropy of 1 g of ice at is concerted into steam at . Latent heat of fusion = 80 cal\/g, latent heat of vaporization = 540 cal\/g, and specific heat capacity of water is       When ice melts to water at then change in entropy,    When water is heated from to then change in entropy,    When water is converted into steam at then change in entropy,  Hence the total change in entropy when one gram of ice at is converted into steam at is      "
 },
 {
-  "id": "example-204",
+  "id": "example-205",
   "level": "2",
-  "url": "sec_tenth-examplesB.html#example-204",
+  "url": "sec_tenth-examplesB.html#example-205",
   "type": "Example",
   "number": "10.7.20",
   "title": "",
@@ -7246,40 +7255,13 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-1349",
-  "level": "2",
-  "url": "append_math.html#p-1349",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
-},
-{
-  "id": "p-1350",
-  "level": "2",
-  "url": "append_math.html#p-1350",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Geometric Formulae: "
-},
-{
-  "id": "p-1351",
-  "level": "2",
-  "url": "append_math.html#p-1351",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Trigonometric Identities: "
-},
-{
   "id": "p-1352",
   "level": "2",
   "url": "append_math.html#p-1352",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Trigonometric Identities: "
+  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
   "id": "p-1353",
@@ -7288,7 +7270,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Binomial Theorem: "
+  "body": "Geometric Formulae: "
 },
 {
   "id": "p-1354",
@@ -7297,7 +7279,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Power Series: "
+  "body": "Trigonometric Identities: "
 },
 {
   "id": "p-1355",
@@ -7306,12 +7288,39 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Calculus: Derivatives: Integrals: "
+  "body": "Trigonometric Identities: "
 },
 {
   "id": "p-1356",
   "level": "2",
   "url": "append_math.html#p-1356",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Binomial Theorem: "
+},
+{
+  "id": "p-1357",
+  "level": "2",
+  "url": "append_math.html#p-1357",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Power Series: "
+},
+{
+  "id": "p-1358",
+  "level": "2",
+  "url": "append_math.html#p-1358",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Calculus: Derivatives: Integrals: "
+},
+{
+  "id": "p-1359",
+  "level": "2",
+  "url": "append_math.html#p-1359",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

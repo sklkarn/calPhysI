@@ -13,49 +13,53 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">From power series,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="para">A compound pendulum consists of a rigid body that oscillates about a horizontal frictionless axis passing through a point <span class="process-math">\(S\text{.}\)</span> It is also called a physical pendulum. When a body is displaced from its equilibrium position by an angle <span class="process-math">\(\theta,\)</span> then the restoring torque starts acting on the center of gravity G of the body which is given by</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\left(1-b^{2}\sin^{2}\phi\right)^{-\frac{1}{2}} = 1+\frac{1}{2}b^{2}\sin^{2}\phi+\frac{3}{2^{3}}b^{4}\sin^{4}\phi+\cdots
+\tau = I \alpha = -mga\sin\theta
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
-\begin{equation}
-\therefore\quad \omega t = \int \left[1+\frac{1}{2}b^{2}\sin^{2}\phi+\frac{3}{8}b^{4}\sin^{4}\phi+\cdots\right]\,d\phi  \tag{7.5.14}
-\end{equation}
-</div>
-<div class="para">At <span class="process-math">\(t=0, \,\theta=0,\)</span> the swing is at the lowest point, and hence <span class="process-math">\(\sin\phi=0\)</span> <span class="process-math">\(\Rightarrow \phi=0\)</span> see eqn.<a href="" class="xref" data-knowl="./knowl/eqn-larg_sp3.html" title="Equation 7.5.11">(7.5.11)</a>. Hence, from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-larg_sp6.html" title="Equation 7.5.14">(7.5.14)</a>,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\omega T_{1} = \int\limits_{0}^{2\pi}\,d\phi =2\pi
+\text{or,}\quad I\ddot{\theta}=-mga\theta \quad [\text{for small angle approximation}]
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\omega T_{2} = \int\limits_{0}^{2\pi}\frac{b^{2}}{2}\sin^{2}\phi\,d\phi 
+\text{or,}\quad \ddot{\theta}+\frac{mga}{I}\theta =0
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="displaymath process-math">
 \begin{equation*}
-=\int\limits_{0}^{2\pi}\frac{b^{2}}{2}\frac{\left(1-\cos2\phi\right)}{2}\,d\phi 
+\text{or,}\quad \ddot{\theta}+\omega^{2}\theta =0
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="para">where <span class="process-math">\(\omega^{2}=\frac{mga}{I} \)</span>
+</div>
+<div class="displaymath process-math">
 \begin{equation*}
-= \frac{b^{2}}{2}\pi = \frac{1}{2}\pi\sin^{2}\frac{\theta_{i}}{2} 
+or, \, \omega = \sqrt{\frac{mga}{I}} =\frac{2\pi}{T} 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\omega T = 2\pi+\frac{\pi}{2}\sin^{2}\frac{\theta_{i}}{2} +\cdots 
+\therefore\quad T = \sqrt{\frac{I}{mga}} 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-larg_sp3.html ./knowl/eqn-larg_sp6.html">
-\begin{equation}
-\therefore\quad T = 2\pi\sqrt{\frac{l}{g}}\left[1+\frac{1}{4}\sin^{2}\frac{\theta_{i}}{2}+\cdots \right]\tag{7.5.15}
-\end{equation}
+<div class="para">here,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I = I_{cm}+Ma^{2} = Mk^{2}+Ma^{2} 
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(k\)</span> is radius of gyration</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad T = 2\pi\sqrt{\frac{k^{2}+a^{2}}{ga}}
+\end{equation*}
 </div>
 </div>
-<span class="incontext"><a href="subsec-largeangl_approx.html#p-873" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-comp_pendulum.html#p-873" class="internal">in-context</a></span>
 </body>
 </html>

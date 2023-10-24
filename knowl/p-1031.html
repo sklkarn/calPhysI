@@ -11,32 +11,63 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">As the body falls through a medium, its velocity goes on increasing due to gravity. As the viscous force is velocity dependent, it also goes on goes on increasing till it reaches a constant velocity called terminal velocity. This happen when the weight of the body is just equal to the sum of the upward thrust due to buoyancy and the upward viscous drag. At this stage, there is no net force to accelerate the body. Let <span class="process-math">\(\rho \)</span> be the density of the material of the spherical body of radius r and <span class="process-math">\(\sigma\)</span> be the density of the medium. Hence,</div>
-<div class="displaymath process-math">
+<div class="para">Consider a uniform circular cylindrical tube of radius <span class="process-math">\(R\)</span> and length <span class="process-math">\(l\)</span> in which liquid has a laminar flow. Consider a layer of liquid at distance <span class="process-math">\(r\)</span> from the center of the tube is moving with velocity <span class="process-math">\(v\text{,}\)</span> then the viscous force acting on this layer is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
+\begin{equation}
+F_{\mathrm{v}}=-\eta (2\pi rl)\frac{\,dv}{\,dr} \tag{9.4.1}
+\end{equation}
+</div>
+<div class="para">
+<span class="process-math">\(-ve\)</span> sign indicates that the viscous force is acting opposite to the direction of otion of the liquid, <span class="process-math">\((2\pi rl) \)</span> is the surface area of the liquid, and <span class="process-math">\(\frac{\,dv}{\,dr} \)</span> is the velocity gradient of the layer. The force due to pressure difference on the area of cross-section of the liquid is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
+\begin{equation}
+F_{\mathrm{p}}=(p_{1}-p_{2})(\pi r^{2})  =\Delta p(\pi r^{2})  \tag{9.4.2}
+\end{equation}
+</div>
+<div class="para">If the layer is moving with constant velocity, <span class="process-math">\(v\)</span> then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
 \begin{equation*}
-F+B=W
+F_{\mathrm{p}}+F_{\mathrm{v}} =0
 \end{equation*}
 </div>
-<div class="para">where F is viscous drag force, B is bouyant force, and W is weight of the body.</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
 \begin{equation*}
-6\eta r v + V\sigma g = V\rho g
+\text{or,}\quad F_{\mathrm{p}}= -F_{\mathrm{v}}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
 \begin{equation*}
-\text{or,}\quad 6\eta r v =  V(\rho-\sigma) g =\frac{4}{3}\pi r^{3}(\rho-\sigma) g
+\text{or,}\quad \Delta p(\pi r^{2}) = \eta (2\pi rl)\frac{\,dv}{\,dr}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
+\begin{equation}
+\text{or,}\quad \frac{\,dv}{\,dr} = \frac{\Delta p(\pi r^{2})}{\eta (2\pi rl)}   = \left(\frac{\Delta p}{2\eta l}\right)r \tag{9.4.3}
+\end{equation}
+</div>
+<div class="para">At axis of the tube, <span class="process-math">\(r=0,\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
 \begin{equation*}
-\therefore\quad v= \frac{2r^{2}(\rho-\sigma) g}{9\eta} 
+\frac{\,dv}{\,dr}=0
 \end{equation*}
 </div>
-<div class="para">The initial acceleration, <span class="process-math">\(a\)</span> of the  body can be found by using the concept of Archimedes principle.</div>
+<div class="para">
+<span class="process-math">\(\Rightarrow \quad v  \)</span> is maximum, at <span class="process-math">\(r=R, \quad v=0\text{.}\)</span> Integrating eqn. <a href="" class="xref" data-knowl="./knowl/eqn-poise3.html" title="Equation 9.4.3">(9.4.3)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
+\begin{equation*}
+\int\limits_{v}^{0}\,dv = \left(\frac{\Delta p}{2\eta l}\right)\int\limits_{r}^{R}r\,dr 
+\end{equation*}
 </div>
-<span class="incontext"><a href="subsec-stok_law.html#p-1031" class="internal">in-context</a></span>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-poise3.html ./knowl/eqn-poise4.html">
+\begin{equation}
+\therefore\quad v(r) = \left(\frac{\Delta p}{4\eta l}\right)(R^{2}-r^{2})   \tag{9.4.4}
+\end{equation}
+</div>
+<div class="para">Eqn. <a href="" class="xref" data-knowl="./knowl/eqn-poise4.html" title="Equation 9.4.4">(9.4.4)</a> represents a parabolic (<span class="process-math">\(y\propto x^{2}\)</span>) nature of velocity profile.</div>
+</div>
+<span class="incontext"><a href="subsec-pois_law.html#p-1031" class="internal">in-context</a></span>
 </body>
 </html>

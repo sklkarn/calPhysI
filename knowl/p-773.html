@@ -13,14 +13,28 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Since the position of the center of mass lies at origin (0,0), i.e., <span class="process-math">\(r_{i}=0. \)</span>
-</div>
-<div class="displaymath process-math">
+<div class="para">Consider an elementary mass <span class="process-math">\(m_{i}\)</span> at a distance <span class="process-math">\(r_{i}\)</span> from the center of mass of a body and at a distance <span class="process-math">\(r\)</span> from the axis of rotation through a point p [<a href="" class="xref" data-knowl="./knowl/miparallel1.html" title="Figure 7.1.2">Figure 7.1.2</a>], then the moment of inertia of that point mass is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/miparallel1.html">
 \begin{equation*}
-\therefore  \quad I  =  I_{cm} + M d^{2} 
+I=\sum_{i} m_{i}r^{2} = \sum_{i} m_{i}\left(d+r_{i}\right)^{2}
 \end{equation*}
 </div>
-<div class="para">The  <dfn class="terminology">parallel axis theorem</dfn> states that the moment of inertia of a body about an axis parallel to an axis passing through the center of mass is equal to the sum of the moment of inertia of body about an axis passing through center of mass and product of mass and square of the distance between the two axes.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/miparallel1.html">
+\begin{equation*}
+=\sum_{i} m_{i}\left(\vec{d}+\vec{r}_{i}\right)\cdot \left(\vec{d}+\vec{r}_{i}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/miparallel1.html">
+\begin{equation*}
+=\sum_{i} m_{i}r^{2}_{i}+d^{2}\sum_{i} m_{i}+2\vec{d}\cdot\sum_{i} m_{i}r_{i}
+\end{equation*}
+</div>
+<div class="para">In this expression <span class="process-math">\(\sum_{i} m_{i}r^{2}_{i}=I_{cm},\)</span> a moment of inertia of the body about an axis through center of mass, <span class="process-math">\(\sum_{i} m_{i} =M\text{,}\)</span> the mass of a body, <span class="process-math">\(I\text{,}\)</span> moment of inertia of a body about an  axis parallel to the axis through the center of mass, <span class="process-math">\(d,\)</span> a distance between parallel axes, and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/miparallel1.html">
+\begin{equation*}
+\sum_{i} m_{i}r_{i}=\left(\frac{\sum_{i} m_{i}r_{i}}{M} \right)M \rightarrow 0.
+\end{equation*}
+</div>
 </div>
 <span class="incontext"><a href="subsec-paral_axis.html#p-773" class="internal">in-context</a></span>
 </body>

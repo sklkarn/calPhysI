@@ -11,55 +11,72 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h3 class="heading"><span class="type">Paragraph</span></h3>
+<h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">A compound pendulum consists of a rigid body that oscillates about a horizontal frictionless axis passing through a point <span class="process-math">\(S\text{.}\)</span> It is also called a physical pendulum. When a body is displaced from its equilibrium position by an angle <span class="process-math">\(\theta,\)</span> then the restoring torque starts acting on the center of gravity G of the body which is given by</div>
-<div class="displaymath process-math">
+<div class="para">Consider a vibrating spring with mass <span class="process-math">\(m\)</span> attached to its end, then the kinetic energy of the mass <span class="process-math">\(K=\frac{1}{2}mv^{2}\text{,}\)</span> and potential energy stored in the spring with a displacement <span class="process-math">\(x\)</span> is <span class="process-math">\(U=\frac{1}{2}kx^{2}\text{.}\)</span> [<a href="ch_eighth.html" class="internal" title="Chapter 8: Elasticity">Chapter 8</a>] Now since restoring force involved in spring mass system is conservative, the total mechanical energy <span class="process-math">\(E=K+U\)</span> is conserved [<a href="subsec-ediagram.html" class="internal" title="Subsection 5.1.5: Energy Diagram">Subsection 5.1.5</a>].</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\tau = I \alpha = -mga\sin\theta
+E = \frac{1}{2}mv^{2} +  \frac{1}{2}kx^{2} = \frac{1}{2}kA^{2} =constant.
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="para">Here <span class="process-math">\(k\)</span> is a spring constant, <span class="process-math">\(A\)</span> is the amplitude of vibrating spring and the velocity of the particle executing SHM is zero at extremes. Let the spring oscillates in vertical up and down then the solution for SHM is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\text{or,}\quad I\ddot{\theta}=-mga\theta \quad [\text{for small angle approximation}]
+y=A\sin[\omega t +\phi]
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\text{or,}\quad \ddot{\theta}+\frac{mga}{I}\theta =0
+\text{then}\quad v =\frac{\,dy}{\,dt} =-\omega A\cos[\omega t +\phi]
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+\begin{equation}
+\text{or,}\quad E = \frac{1}{2}mv^{2} +  \frac{1}{2}ky^{2}\tag{7.5.8}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\text{or,}\quad \ddot{\theta}+\omega^{2}\theta =0
+= \frac{1}{2}m \left(-\omega A\cos[\omega t +\phi]\right)^{2}+ \frac{1}{2}k\left(A\sin[\omega t +\phi]\right)^{2}
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(\omega^{2}=\frac{mga}{I} \)</span>
-</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-or, \, \omega = \sqrt{\frac{mga}{I}} =\frac{2\pi}{T} 
+\text{or,}\quad E = \frac{1}{2}kA^{2}\left(\cos^{2}[\omega t +\phi]+\sin^{2}[\omega t +\phi]\right)
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\therefore\quad T = \sqrt{\frac{I}{mga}} 
+= \frac{1}{2}kA^{2} \quad [\because \omega^{2}=\frac{k}{m}]
 \end{equation*}
 </div>
-<div class="para">here,</div>
-<div class="displaymath process-math">
+<div class="para">From eqn. <a href="" class="xref" data-knowl="./knowl/eqn-shm_enrg1.html" title="Equation 7.5.8">(7.5.8)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-I = I_{cm}+Ma^{2} = Mk^{2}+Ma^{2} 
+v=\pm\omega\sqrt{A^{2}-y^{2}}
 \end{equation*}
 </div>
 <div class="para">
-<span class="process-math">\(k\)</span> is radius of gyration</div>
-<div class="displaymath process-math">
+<span class="process-math">\(\pm\)</span> means mass <span class="process-math">\(m\)</span> is oscillating in up and down direction, i.e.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
 \begin{equation*}
-\therefore\quad T = 2\pi\sqrt{\frac{k^{2}+a^{2}}{ga}}
+y=\pm A/2.
+\end{equation*}
+</div>
+<div class="para">Now</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+\begin{equation*}
+v = \pm\sqrt{\frac{k}{m}}A =\pm\omega A  \quad \text{at}\quad y=0
+\end{equation*}
+</div>
+<div class="para">
+<dfn class="terminology">Note:</dfn> The same result could be obtained by considering equation of SHM as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ch_eighth.html ./knowl/subsec-ediagram.html ./knowl/eqn-shm_enrg1.html">
+\begin{equation*}
+y=A\cos[\omega t +\phi].
 \end{equation*}
 </div>
 </div>
-<span class="incontext"><a href="subsec-comp_pendulum.html#p-870" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-shm.html#p-870" class="internal">in-context</a></span>
 </body>
 </html>

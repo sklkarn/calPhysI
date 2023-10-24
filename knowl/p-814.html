@@ -11,21 +11,49 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h2 class="heading"><span class="type">Paragraph</span></h2>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Just as  linear dynamics  describes the influence of force on a body and its transalational motion, in rotational dynamics torque describes the nature of rotational motion. Torque in rotational motion is a linear analogue of force. Actually, torque is a turning effect of force which acts on a body in specific direction and at specific position.</div>
+<div class="para">Surface mass density,</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\sum F = ma,\quad \sum\Gamma  =  I \alpha, 
+\sigma = \frac{\,dm}{\,dA}.
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-a  =  r\alpha,\quad \omega \neq0,\quad \alpha \neq0
+or, \quad \, dm = \sigma \, dA = \sigma_{o} r^{2} (2\pi r \,dr) = 2\pi \sigma_{o}r^{3}\,dr 
 \end{equation*}
 </div>
-<div class="para">A general expression for the angular acceleration produced by a torque is quite similar to acceleration produced by a force in linear motion. For example, if a force is applied at the center of mass it will not produce any torque. It seems that no torque no rotation and it is right but in this case we have to consider no net torque. If the net torque acting on a rigid object is zero, the body will rotate with a constant angular velocity as we have seen in rotational equilibrium. The moment of inertia of a rigid body is a linear analogue to a mass. Torque plays the same role in rotational motion as force plays in translational motion. As <span class="process-math">\(\vec{F} =0\)</span> we have <span class="process-math">\(\vec{a} =0,\)</span> similarly, <span class="process-math">\(\vec{\alpha} =0\)</span> if <span class="process-math">\(\vec{\tau}=0.\)</span> Remember, circular motion is not possible without centripetal acceleration and it has nothing to do with angular accelration. Direction of angular acceleration is along the same direction as a torque acting on a body. Angular acceration by defintion is acting along the same direction along which angular velocity is changing. Since <span class="process-math">\(\vec{v} =\omega \times \vec{r}\text{,}\)</span> we have <span class="process-math">\(\vec{a}=\vec{\alpha}\times\vec{r}\text{.}\)</span> Here <span class="process-math">\(\vec{a}\)</span> is a tangential acceleration. If the direction of uniform angular velocity is changing the torque starts acting on the body and the body starts precessing.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad M = \int \,dm = 2\pi\sigma_{o}\int^{R}_{0} r^{3}\,dr =  2\pi\sigma_{o} \frac{R^{4}}{4} = \frac{1}{2}\pi \sigma_{o}R^{4}
+\end{equation*}
 </div>
-<span class="incontext"><a href="sec_seventh-rotdyn.html#p-814" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+Hence, \quad \sigma_{o} = \frac{2M}{\pi R^{4}} 
+\end{equation*}
+</div>
+<ol class="lower-alpha">
+<li><div class="para"><div class="displaymath process-math">
+\begin{equation*}
+r_{cm} = \frac{1}{M}\int_{0}^{M}r\,dm = \frac{2}{\pi \sigma_{o}R^{4}} \int_{0}^{R}2\pi \sigma_{o}r^{4}\,dr = \frac{4}{5} R 
+\end{equation*}
+</div></div></li>
+<li><div class="para">
+<div class="displaymath process-math">
+\begin{equation*}
+\,dI = r^{2}\,dm =r^{2} 2\pi \sigma_{o}r^{3}\,dr 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad I = \int \,dI = 2\pi\sigma_{o}\int_{o}^{R}r^{5}\,dr = \frac{1}{3}\pi\sigma_{o}R^{6} = \frac{2}{3}MR^{2}.
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div>
+<span class="incontext"><a href="sec_seventh-examplesA.html#p-814" class="internal">in-context</a></span>
 </body>
 </html>
