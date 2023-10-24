@@ -171,8 +171,8 @@
       <p>
         Block(s) can be balanced at the edge of anything if its center of mass lies 
         before edge or at least at the edge of that thing. 
+        </p>
         <image source="cm9.png" width ="45%"> </image>
-      </p>
       <p>
         Maximum overhung = center of mass of blocks system. 
       </p>
@@ -195,7 +195,23 @@
         <me>
           x= x_{1}+x_{2}+x_{3}+\cdots.
         </me>
-         </p>
+        For example, in three books system like above: we have for first book 
+        <me>x_{1} =\frac{l}{2}</me>
+        for second book 
+        <me>x_{2}(2M) =\frac{l}{2}M </me>
+        <me>\therefore x_{2} =\frac{l}{4} </me>
+        for third book 
+        <me>x_{3}(3M) =\frac{l}{2}M </me>
+        <me>\therefore x_{3} =\frac{l}{6} </me> 
+        Hence, maximum overhung, 
+        <me>
+          x=\frac{l}{2} + \frac{l}{4} +\frac{l}{6} = \frac{11l}{12}
+        </me>
+          </p>
+          <p>
+            The general rule to find the maximum overhung,x for a uniform object is 
+            <me>x= l\sum_{n=1}^{n}\left(\frac{1}{2n}\right)</me>
+          </p>
     </solution>
   </example>
 

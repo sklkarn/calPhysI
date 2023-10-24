@@ -44,7 +44,7 @@
             \omega_{av}  =   \frac{\theta_{2}-\theta_{1}}{t_{2}-t_{1}}; 
           </me>
           <me>
-            \therefore   \omega_{av}(0,2s)  = \frac{36-0}{2} =  18 \,rad/s 
+            \therefore   \omega_{av}(0,2\,s)  = \frac{36-0}{2} =  18 \,rad/s 
           </me>
            </li>
         <li>
@@ -52,7 +52,7 @@
           \omega(t)  = \frac{\,d\theta}{\,dt} =  A  +  3 B t^{2};
         </me>
         <me>
-          \therefore \omega(3s)  =  10+3\times 2\times 3^{2} = 64 \,rad/s 
+          \therefore \omega(3\,s)  =  10+3\times 2\times 3^{2} = 64 \,rad/s 
         </me>
            </li>
         <li>
@@ -60,7 +60,7 @@
           \alpha_{av}  = \frac{\omega_{2}-\omega_{1}}{t_{2}-t_{1}};
          </me>
          <me>
-          \therefore\alpha(0,3s) =\frac{64-10}{3} = 18 \,rad/s^{2}
+          \therefore\alpha(0,3\,s) =\frac{64-10}{3} = 18 \,rad/s^{2}
          </me>
              </li>
         <li>
@@ -68,7 +68,7 @@
           \alpha (t) = \frac{\,d\omega}{\,dt} =  6 B t, 
         </me>
         <me>
-          \therefore\alpha(4s) =6\times2\times4= 48 \, rad/s^{2}.
+          \therefore\alpha(4\,s) =6\times2\times4= 48 \, rad/s^{2}.
         </me>
             </li>
       </ol>
@@ -117,14 +117,14 @@
   <solution>
     <p>  Given: 
       <me>
-       m  =  30 kg,\quad R  =  0.2 m,\quad  r  =  0.25 \,m,
+       m  =  30 \,kg,\quad R  =  0.2 m,\quad  r  =  0.25 \,m,
       </me>
       <me>
         \theta  =  100 \, rev (2\pi rad/rev)  =  628.3\, rad,
       </me>
       
       <me>
-        \omega  =  400 rpm (2 \pi/60 rad/s)  =  41.89 rad/s,\quad  \omega_{o}=0	
+        \omega  =  400 \,rpm (2 \pi/60 \,rad/s)  =  41.89 \,rad/s,\quad  \omega_{o}=0	
       </me>
       <ol marker="a.">
         <li>
@@ -183,7 +183,7 @@
 <example>
   <statement>
     <p>
-      An automobile engine with a moment of inertia of <m>10 kg.m^{2}</m> is revved up to 2400 rpm. 
+      An automobile engine with a moment of inertia of <m>10 \,kg.m^{2}</m> is revved up to 2400 rpm. 
       The clutch is then popped and the car lurches forward. The effective moment of inertia of 
       the clutch plate (including the gears, drive train, wheels, and mass of the car) is <m>200 \,kg.m^{2}</m>. 
       <ol marker="a.">
@@ -229,7 +229,7 @@
 <example>
   <statement>
     <p>
-      The 20-kg disk of radius R=0.25m is at rest when the constant 10 N-m 
+      The 20 kg disk of radius R = 0.25 m is at rest when the constant 10 N m 
       counterclockwise torque is applied. Determine the disk's angular velocity 
       (in rpm) when it has rotated through four revolutions 
       <ol marker="a.">
@@ -395,7 +395,7 @@
   </statement>
   <solution>
     <p>
-      Given: <m>M=20kg,\quad m=10kg, \quad h=3m, \quad R=10cm=0.1m, </m> and <m> v_{o}=0.</m>
+      Given: <m>M=20\,kg,\quad m=10\,kg, \quad h=3\,m, \quad R=10\,cm=0.1\,m, </m> and <m> v_{o}=0.</m>
       Now, from free-body diagram [Figure b], 
       <me>
         \sum F_{y}= mg-T=ma
@@ -415,7 +415,7 @@
       \frac{M}{2}a  = mg-ma 
      </me>
      <men xml:id="eqn-rotd3">
-      \therefore\quad a = \frac{mg}{m+\frac{M}{2}} =    \frac{10\times9.8}{10+\frac{20}{2}} =4.9m/s^{2}
+      \therefore\quad a = \frac{mg}{m+\frac{M}{2}} = \frac{10\times9.8}{10+\frac{20}{2}} =4.9\,m/s^{2}
      </men>
     Now well is 3m deep, so time taken by the block to reach at bottom of well is given by
     <me>
@@ -456,8 +456,8 @@
   <solution>
     <image source ="rotd2.png" width="30%"> </image>
     <p>
-      Given: <m>m=2kg, \quad w=mg, \quad R =\frac{d}{2} = \frac{10}{2} =5 cm =0.05m,</m>  
-      <m>l=1m, \quad h=10cm=0.1m, \quad v_{o}=0. </m>  From geometry of the figure,  
+      Given: <m>m=2\,kg, \quad w=mg, \quad R =\frac{d}{2} = \frac{10}{2} =5 \,cm =0.05\,m,</m>  
+      <m>l=1\,m, \quad h=10\,cm=0.1\,m, \quad v_{o}=0. </m>  From geometry of the figure,  
       <me>
         \sin\theta = \frac{h}{l} =\frac{0.1}{1} =0.1 
       </me>
@@ -575,7 +575,7 @@
         \text{or,}\quad \mu_{s}N_{d}r= \mu_{s}m_{d}g\cos\theta r= \frac{1}{2}m_{d}r^{2}\left(\frac{a}{r}\right)\quad [\because a=r\alpha]
       </me>
       <men xml:id="eqn-trngrol5">
-        \therefore\quad a=2\mu_{s}g\cos\theta = 2\times0.05\times9.8\times\cos(30^{o}) =0.85m/s^{2}   
+        \therefore\quad a=2\mu_{s}g\cos\theta = 2\times0.05\times9.8\times\cos(30^{o}) =0.85\,m/s^{2}   
       </men>
       <image source ="rd10b.png" width="30%"> </image>
       From [Figure (c)] the disk is accelerating downwards with an acceleration <m>a</m> 
@@ -641,7 +641,7 @@ then <m>a=0.</m> Hence in that case
   <solution>
     <image source ="rd11.png" width="35%"> </image>
     <p>
-      Given: <m>x_{o} =-0.5m,\quad m=45kg, \quad  R=0.3m, \quad  k=600N/m.</m> 
+      Given: <m>x_{o} =-0.5\,m,\quad m=45\,kg, \quad  R=0.3\,m, \quad  k=600\,N/m.</m> 
 From free-body diagram, 
 <me>
   \sum F_{x} = F_{s}-f_{s} =ma\quad \text{and}\quad \sum F_{y} = N-mg =0
@@ -661,10 +661,10 @@ From free-body diagram,
     \text{or,}\quad F_{s}-\frac{1}{2}ma =ma
    </me>
    <me>
-    \text{or,}\quad  a= \frac{2F_{s}}{3m} = \frac{-2 kx_{o}}{3m} = \frac{2\times 600\times 0.5}{3\times45}= 4.45 m/s^{2}
+    \text{or,}\quad  a= \frac{2F_{s}}{3m} = \frac{-2 kx_{o}}{3m} = \frac{2\times 600\times 0.5}{3\times45}= 4.45 \,m/s^{2}
    </me>
    <me>
-    \therefore\quad \alpha = \frac{a}{R} = \frac{4.45}{0.3} = -14.81 rad/s^{2} \quad (clockwise)
+    \therefore\quad \alpha = \frac{a}{R} = \frac{4.45}{0.3} = -14.81 \,rad/s^{2} \quad (clockwise)
    </me>
       </li>
   <li>
@@ -759,9 +759,9 @@ From free-body diagram,
 <example>
   <statement>
     <p>
-      A uniform thin rod of length <m>L(m)</m>  and mass <m>M(kg)</m> can rotate in a 
+      A uniform thin rod of length <m>L (m)</m>  and mass <m>M (kg)</m> can rotate in a 
       horizontal plane about a vertical axis through its center. The rod is at 
-      rest when a bullet of mass <m>m(kg)</m> traveling in the horizontal plane of 
+      rest when a bullet of mass <m>m (kg)</m> traveling in the horizontal plane of 
       the rod is fired into one end of the rod. The direction of the bullet's velocity 
       makes an angle <m>\alpha</m> degrees  with the rod. If the bullet lodges in the 
       rod and the angular velocity of the rod is <m>\omega</m> rad/s immediately 
@@ -854,7 +854,7 @@ From free-body diagram,
         mR^{2}\frac{6}{2} = mr^{2}\frac{20 }{r}
       </me>
       <me>
-        3\times 2^{2} = 20r \qquad \therefore \quad r = \frac{3}{5} = 0.6m
+        3\times 2^{2} = 20r \qquad \therefore \quad r = \frac{3}{5} = 0.6\,m
       </me>
             Hence <m>2-0.6=0.4 m</m> of string has already wound around the peg when the velocity is 20 m/s.
     </p>
@@ -931,5 +931,29 @@ From free-body diagram,
   </ol>
     </p>
   </solution>
+</example>
+
+<example>
+  <p>
+    Find the acceleration of a spherical ball rolling down the hill without slipping.
+  </p>
+<hint>
+  <p>
+    <me>\tau = I \alpha</me>
+    <me>\tau = f\times r </me>
+    <me>
+      f=\mu N
+    </me>
+    <me>
+      F=ma
+    </me>
+    <me>
+      mg\sin\theta -f = ma
+    </me>
+    <me>
+      \therfore\, a= \frac{5}{7} g\sin\theta
+    </me>
+      </p>
+</hint>
 </example>
 </section>
