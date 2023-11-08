@@ -153,8 +153,7 @@
 <example>
   <statement>
     <p>
-      
-4. A rod of nonuniform mass distribution has a length, <m>L</m> and mass, <m>M</m>. 
+     A rod of nonuniform mass distribution has a length, <m>L</m> and mass <m>M</m>. 
 The linear mass density is given as <m>\lambda = \lambda_{o}x</m> where <m>\lambda_{o}</m> is constant. 
  <ol marker="a.">
   <li>

@@ -125,7 +125,7 @@
           <me>
             =\int\limits_{0}^{0} axy\,dx + \int\limits_{0}^{10} bx^{2}\,dy =0
           </me>
-          Since along (0,0) to (0,10m), we have <m>x=0</m>, <m>\,dx=0</m>, and <m>y=0 \oslash 10m</m>.
+          Since along (0,0) to (0,10 m), we have <m>x=0</m>, <m>\,dx=0</m>, and <m>y=0 \oslash 10m</m>.
          </li>
         <li>
          <me>
@@ -134,7 +134,7 @@
          <me>
           =\int axy\,dx	 + \int bx^{2}\,dy
          </me>
-         Along path (0,10m) to (5m, 10m), we have <m>x=0 \oslash 5m, </m> and <m>\,dy=0, \quad y=10m</m>. So 
+         Along path (0,10 m) to (5 m, 10 m), we have <m>x=0 \oslash 5m, </m> and <m>\,dy=0, \quad y=10m</m>. So 
          <me>
           W= ay \int\limits_{0}^{5} x\,dx	 + \int\limits_{10}^{10} bx^{2}\,dy 
          </me>
@@ -288,7 +288,7 @@
     <statement>
       <image source="wec1a.png" width="30%"> </image>
       <p>
-        A 2-kg mass is dropped from a height of 1 m onto a spring of force constant 200 N/m. 
+        A 2 kg mass is dropped from a height of 1 m onto a spring of force constant 200 N/m. 
         Assuming the spring has no mass and there is no friction, 
           <ol marker="a.">
           <li>
