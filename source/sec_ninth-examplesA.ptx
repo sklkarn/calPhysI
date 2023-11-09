@@ -14,7 +14,7 @@
         If m is mass of water, V is its volume, and <m>\rho</m> is its density., then 
         <image source="cylbottle.png" width ="30%"> </image>
         <me>
-          m = V\rho =Ah\rho = pi r^{2}h\rho
+          m = V\rho =Ah\rho = \pi r^{2}h\rho
         </me>
         where <m>A=\pi r^{2}</m> is inner area of cross-scetion of the cylinder of 
         radius <m>r</m> and <m>h</m> is the height of water in the cylindrical bottle. 
