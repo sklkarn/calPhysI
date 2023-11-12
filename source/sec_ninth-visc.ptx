@@ -62,6 +62,8 @@
       called a <term>viscous force</term>. Consider a shear force F is required to keep the 
       layer of fluid  moving at a constant velocity v, then it can be observed through 
       the experiments that this force depends on the following four factors. This force <m>F</m> 
+    </p>
+    <p>
       <ol marker="i.">
         <li>
           is proportional to velocity of the layer of liquid (<m>F \propto v, </m>),
@@ -78,8 +80,7 @@
           <me>
             \therefore \quad F= \eta\frac{vA}{L} 
           </me>
-          
-        </li>
+          </li>
       </ol>
     If <m>\,dz</m> is the distance between adjacent layers and <m>\,dv</m> is the difference in their velocities, 
     then the viscous force is given in differential form as 

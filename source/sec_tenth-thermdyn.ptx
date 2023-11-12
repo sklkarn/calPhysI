@@ -412,8 +412,13 @@
                          </me>
                          At the change of phase, temperature and pressure remains constant, i.e., 
                          <me>
-                            \,dT=0, $ $ \,dp=0.
+                            \,dT=0, 
                          </me>
+                         
+                         <me>
+                          \text{and} \quad  \,dp=0.
+                         </me>
+                         
                         <me>
                             \therefore \,dQ=p\,dV 
                         </me>
