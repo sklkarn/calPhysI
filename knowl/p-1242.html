@@ -12,7 +12,86 @@
 </head>
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
-<div class="para"><em class="emphasis">The efficiency of all reversible engines operating between the same two temperatures is the same, and no irreversible engine operating between these  temperatures can be more efficient than a reversible engine working between the same two temperatures.</em></div>
-<span class="incontext"><a href="subsec-carnt_therm.html#p-1242" class="internal">in-context</a></span>
+<div class="para logical">
+<div class="para">The efficiency of the Carnot cycle is therefore,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation*}
+\eta = \frac{\text{work done in cycle}}{\text{heat drawn from the source}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation*}
+= \frac{W}{Q_{h}}= \frac{Q_{h}-Q_{c}}{Q_{h}} =1-\frac{Q_{c}}{Q_{h}}
+\end{equation*}
+</div>
+<div class="para">Now,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation*}
+\frac{Q_{c}}{Q_{h}} = \frac{W_{3}}{W_{1}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation*}
+= \frac{RT_{c}\log_{e}\frac{V_{3}}{V_{4}}}{RT_{h}\log_{e}\frac{V_{2}}{V_{1}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation}
+=\frac{T_{c}\log_{e}\frac{V_{3}}{V_{4}}}{T_{h}\log_{e}\frac{V_{2}}{V_{1}}}\tag{10.6.14}
+\end{equation}
+</div>
+<div class="para">Since points B and C lie on the same adiabatic, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation*}
+p_{2}V_{2}^{\gamma} = p_{3}V_{3}^{\gamma}
+\end{equation*}
+</div>
+<div class="para">But,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation*}
+pV=RT \quad \Rightarrow\quad p=\frac{RT}{V}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation*}
+\therefore \quad T_{h}V_{2}^{\gamma-1} = T_{c}V_{3}^{\gamma-1} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation}
+\text{or,}\quad \frac{T_{c}}{T_{h}} = \left(\frac{V_{2}}{V_{3}}\right)^{\gamma-1} \tag{10.6.15}
+\end{equation}
+</div>
+<div class="para">Similarly, points D and A lie on the same adiabatic, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation}
+\text{or,}\quad \frac{T_{c}}{T_{h}} = \left(\frac{V_{1}}{V_{4}}\right)^{\gamma-1} \tag{10.6.16}
+\end{equation}
+</div>
+<div class="para">Comparing eqns. <a href="" class="xref" data-knowl="./knowl/eqn-ccycl2.html" title="Equation 10.6.15">(10.6.15)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-ccycl3.html" title="Equation 10.6.16">(10.6.16)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation*}
+\left(\frac{V_{2}}{V_{3}}\right)^{\gamma-1} = \left(\frac{V_{1}}{V_{4}}\right)^{\gamma-1}  
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation}
+\frac{V_{1}}{V_{2}} = \frac{V_{4}}{V_{3}}  \tag{10.6.17}
+\end{equation}
+</div>
+<div class="para">Hence from eqns.<a href="" class="xref" data-knowl="./knowl/eqn-ccycl1.html" title="Equation 10.6.14">(10.6.14)</a>  and <a href="" class="xref" data-knowl="./knowl/eqn-ccycl4.html" title="Equation 10.6.17">(10.6.17)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation*}
+\frac{Q_{c}}{Q_{h}} = \frac{T_{c}\log_{e}\frac{V_{2}}{V_{1}}}{T_{h}\log_{e}\frac{V_{2}}{V_{1}}} = \frac{T_{c}}{T_{h}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ccycl2.html ./knowl/eqn-ccycl3.html ./knowl/eqn-ccycl1.html ./knowl/eqn-ccycl4.html">
+\begin{equation}
+\therefore\quad \eta = 1-\frac{T_{c}}{T_{h}} \tag{10.6.18}
+\end{equation}
+</div>
+<div class="para">This is the efficiency of Carnot’s heat engine. The Carnot’s engine can not be realized in practice because - <em class="emphasis">(i)</em> The temperature of source and sink can not be kept constant. The body (source) which loses energy its temperature falls gradually and the one (sink) which gains energy its temperature rises gradually, meaning reservoirs of infinite thermal capacity do not exist. <em class="emphasis">(ii)</em> It is a perfectly reversible in action, if the cycle is reversed the working substance will take <span class="process-math">\(Q_{c}\)</span> amount of heat from sink and gives out <span class="process-math">\(Q_{h} \)</span> amount of heat to the source, meaning reversible heat transfers are not possible. <em class="emphasis">(iii)</em> Heat transfer takes place at infinitesimally slow in isothermal process having very small temperature difference between the source and the receiver. On the other hand, in adiabatic process, heat transfer is zero and a very fast process.</div>
+</div>
+<span class="incontext"><a href="subsec-canot_cycl.html#p-1242" class="internal">in-context</a></span>
 </body>
 </html>

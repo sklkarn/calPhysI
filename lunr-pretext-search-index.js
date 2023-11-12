@@ -5335,7 +5335,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "9.4.1",
   "title": "Coefficient of Viscosit",
-  "body": " Coefficient of Viscosit  If we observe the flow of water in a river flowing continuously and smoothly, we will be able to notice that water near the edge of the river flows slower than the water flowing near the middle of the river. When a fluid is flowing past a stationary wall, the fluid right close to the wall is almost at rest but the fluid away from the wall flows with relatively higher speed. So a velocity gradient exists between layers in fluid flow. This is due to adhesive, cohesive, and frictional forces acting between adjacent layers of the fluid. The velocity gradient (i.e., the change in speed with distances) is a characteristic of the fluid. This is used to define the coefficient of viscosity We limit our discussion here only on laminar flow of liquid.  In a layer has higher speed than its adjacent layer , so layer A applies force on B to move it faster, but layer B pushes layer A backward so that they go together. Such pushing and pulling between the layers creates a drag force called a viscous force . Consider a shear force F is required to keep the layer of fluid moving at a constant velocity v, then it can be observed through the experiments that this force depends on the following four factors. This force   is proportional to velocity of the layer of liquid ( ),  is proportional to the surface area of layer having the velocity v ( )  is inversely proportional to the distance of the layer from the stationary wall ( ) Mathematically,    If is the distance between adjacent layers and is the difference in their velocities, then the viscous force is given in differential form as where, is a proportionality constant, called coefficient of viscosity and it defines the property of the fluid. The greater the coefficient of viscosity , the greater the force required to move the layer of fluid at a velocity v. The term is called a velocity gradient. The fluids which obey this equation are called Newtonian fluids and is independent of the speed of flow. If does depend on the velocity of flow the fluids are called non-Newtonian . Blood is an example of a non-Newtonian fluid. The SI unit of viscosity is or, . A common unit of viscosity is the poise where   Viscosity is temperature dependent. Viscosity of a liquid decreases with increasing temperature and that for a gas increases with increasing temperature.  "
+  "body": " Coefficient of Viscosit  If we observe the flow of water in a river flowing continuously and smoothly, we will be able to notice that water near the edge of the river flows slower than the water flowing near the middle of the river. When a fluid is flowing past a stationary wall, the fluid right close to the wall is almost at rest but the fluid away from the wall flows with relatively higher speed. So a velocity gradient exists between layers in fluid flow. This is due to adhesive, cohesive, and frictional forces acting between adjacent layers of the fluid. The velocity gradient (i.e., the change in speed with distances) is a characteristic of the fluid. This is used to define the coefficient of viscosity We limit our discussion here only on laminar flow of liquid.  In a layer has higher speed than its adjacent layer , so layer A applies force on B to move it faster, but layer B pushes layer A backward so that they go together. Such pushing and pulling between the layers creates a drag force called a viscous force . Consider a shear force F is required to keep the layer of fluid moving at a constant velocity v, then it can be observed through the experiments that this force depends on the following four factors. This force     is proportional to velocity of the layer of liquid ( ),  is proportional to the surface area of layer having the velocity v ( )  is inversely proportional to the distance of the layer from the stationary wall ( ) Mathematically,    If is the distance between adjacent layers and is the difference in their velocities, then the viscous force is given in differential form as where, is a proportionality constant, called coefficient of viscosity and it defines the property of the fluid. The greater the coefficient of viscosity , the greater the force required to move the layer of fluid at a velocity v. The term is called a velocity gradient. The fluids which obey this equation are called Newtonian fluids and is independent of the speed of flow. If does depend on the velocity of flow the fluids are called non-Newtonian . Blood is an example of a non-Newtonian fluid. The SI unit of viscosity is or, . A common unit of viscosity is the poise where   Viscosity is temperature dependent. Viscosity of a liquid decreases with increasing temperature and that for a gas increases with increasing temperature.  "
 },
 {
   "id": "p-1028",
@@ -5401,9 +5401,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-1037",
+  "id": "p-1038",
   "level": "2",
-  "url": "subsec-capl_act.html#p-1037",
+  "url": "subsec-capl_act.html#p-1038",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5842,9 +5842,9 @@ var ptx_lunr_docs = [
   "body": " Absolute Scale  A physical thermometer uses the physical properties of a material or substance to determine temperature. It relies on the fact that certain physical properties change in a predictable way with temperature. Examples of physical thermometers include mercury-in-glass thermometers, alcohol thermometers, and bimetallic strip thermometers. These thermometers use the expansion and contraction of materials (e.g., mercury or alcohol) to indicate temperature changes. The scale of normal thermometers depends upon the physical propertise (thermal expansion, electrical resistance, etc) of the substance which is used in the thermometer. The physical property (e.g. thermal expansion) of materials varies differently at the different range of temperatures hence all these thermometers have fixed uses. For example, a mercury thermometer can measure temperature ranges from approximately to ( to ). For alcohol thermometer, the typical temperature range is approximately to ( to ). That means, if we go to Antarctica we must bring with us an alcohol thermometer and when going to Lut Desert a hotest place on earth, we need a mercury thermometer. Mercury thermometer may freeze in Antarctica and alcohol thermometer may boil in Lut Desert. To remedy such problems of limitation of physical thermometers, Scottish physicist William Thomson, Baron Kelvin proposed to constructing a temperature scale which should be independent on the material properties on the basis of thermodynamics principles that the lowest possible temperature which could be achieved was in 1848. This minimum temperature is the zero point on Kelvin scale and is known as absolute zero . Kelvin scale is a hypothetical (theoretical) thermometer scale also known as absolute scale . From third law of thermodynamics, it is impossible to reach absolute zero temperature by any physical means.       Temperature is a measure of average kinetic energy per molecule of any substance. In classical mechanical point of view, molecular motion ceases completely at absolute zero and hence possesses zero kinetic energy. (However, in quantum mechanical point if view, at absolute zero molecular motion takes minimum speed of its vibration.) It has been seen from the gas laws that the product of pressure and volume is directly proportional to temperature [ ]. In fact, all gases have energy ( ) heading to zero at the same temperature called absolute zero. At absolute zero the pressure of an ideal gas would drop to zero.  "
 },
 {
-  "id": "p-1116",
+  "id": "p-1117",
   "level": "2",
-  "url": "subsec-.html#p-1116",
+  "url": "subsec-.html#p-1117",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5914,9 +5914,9 @@ var ptx_lunr_docs = [
   "body": " Specific Heat Capacity  Heat absorbing capacity of a material is known as specific heat capacity. Suppose we have two marbles at room temperature , one has mass 1 kg and another has mass 2 kg. If we want to heat them to , then from our experience we know that 2 kg marble will take longer than 1 kg marble to reach at the same temperature. Hence, the amount of heat (Q) put into the material is directly proportional to the mass (m) of the material. That is, Now suppose both of our marbles has a mass of 1 kg each and we want to heat one of them for and another for temperature We can again tell that the marble which has to be heated for will take longer than the other. That is, where . For marble of mass 1 kg, and for the marble of mass 2 kg By combining these two expressions, we have -  where is a proportionality constant and is called specific heat capacity of the material. It is the properties of a material. Different materials have different specific heat capacities and hence they absorb or release heat differently. If m=1 kg, , then , i.e., specific heat capacity of a material is the amount of heat added into or taken out from the material of unit mass to the unit degree rise or fall of temperature. In SI system, unit of is . In heat and thermodynamics, we normally measure heat in calorie unit but other physical quantities in SI unit . Hence the mixture of systems of unit can be seen in this chapter. In cgs system, unit of specific heat capacity of water is  The capacity of a material to absorb heat per degree rise of temperature is called heat capacity . It is defined as . The amount of heat required to raise the temperature of one mole of a substance by one degree (Celsius or Kelvin) is known as molar (specific) heat capacity .  "
 },
 {
-  "id": "p-1125",
+  "id": "p-1126",
   "level": "2",
-  "url": "subsec-sp_heat.html#p-1125",
+  "url": "subsec-sp_heat.html#p-1126",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5941,9 +5941,9 @@ var ptx_lunr_docs = [
   "body": " Phase Changes of Matter  We know that ice is solid water, even steam is water as well. Any material can exist in three different states solid, liquid, and gas are also known as the phases of matter. When ice is heated it melts into liquid water and then evaporates into water vapor. These changes from one phase to another are referred to as phase changes .      We may also have noticed that the temperature of water doesn't change during boiling. The temperature of water increases up to boiling and then remains constant as it boils. The following diagram illustrates the relationship between temperature and amount of heat needed to change the phases of water. We can see that the temperature increases as heat is added to water within a phase. Adding heat into the water increases the kinetic energy of water molecules within the ice. During the phase change, the added heat doesn't make the molecules move faster, but make them further apart. The heat energy added during the phase change is consumed to overcome intermolecular force of attraction and stored within the material in the form of potential energy of the molecules. Where amount of heat added to the system can be obtained by    and   While cooling process heat is taken out from the system, then latent heat of vaporization becomes latent heat of condensation and latent heat of melting becomes latent heat of fusion. For water, latent heat of melting and latent heat of fusion are same. Similarly, latent heat of vaporization and latent heat of condensation are same but they are not same for many other materials. Phase of matter changes from solid to liquid is called melting or fusion , from solid to gas is called sublimation , from liquid to solid is called freezing , from liquid to gas is called evaporation or boiling, from gas to solid is called deposition , from gas to liquid is called condensation , from plasma state to gaseous state is called recombination , and from gaseous state to plasma state is called ionization .  "
 },
 {
-  "id": "p-1127",
+  "id": "p-1128",
   "level": "2",
-  "url": "subsec-phase_change.html#p-1127",
+  "url": "subsec-phase_change.html#p-1128",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5977,9 +5977,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1130",
+  "id": "p-1131",
   "level": "2",
-  "url": "subsec-calrmtr.html#p-1130",
+  "url": "subsec-calrmtr.html#p-1131",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6013,18 +6013,18 @@ var ptx_lunr_docs = [
   "body": " Heat Transfer   It is process by which heat transfers from one location to another due to temperature difference. Heat can only flow from high temperature to low temperature. There are three processes involved in heat transfer. They are conduction, convection, and radiation.   Conduction  In this process heat is transferred through stationary matter by physical contact. In microscopic level atoms and molecules are always in random motion at any temperature above absolute zero. When heated these particles (atoms and molecules) gain thermal energy and begin vibrating even higher amplitude knocking the neighboring particles. By doing so they impart some of their energy to their neighboring particles, and so on. Eventually heat is carried away from one end of a substance to another. In conduction, heat carrying particles do not physically move from its place rather they transfer their energy to neighbors when they knock one another. Every time they knock pass some of their energy to next one and returns to their original place. Heat transfers from the burner of a stove through the bottom of a pan to food in the pan is transferred by conduction. Conduction occurs in all states of substances solid, liquid, and gas. In solids, conduction happens due to molecular vibration. In gases and liquids, it is due to collisions and diffusion of the molecules during their random motion.  Consider one end of a metallic bar [ ] of length and area of cross-section is kept at hot temperature and another end is kept at cold temperature , then the amount of heat, transfers through this bar at time can be found experimentally as    combining these all, we get -  where is a proportionality constant, known as coefficient of thermal conduction or conductivity of a material. It is a material property.      In differential form, where is a length of the bar. That is, the rate of heat flow at any point is proportional to the temperature gradient (how fast the temperature is changing with position). The ratio of thickness to the conductivity of a material can be known as R-values . Hence, and the rate of heat flow can be given by     Convection  In this process heat transfer occurs by the actual movement of fluid particles. Convection heat transfer is energy transport due to bulk fluid motion. Convection happens in gases and liquids.      When a fluid is heated, its molecules which are in contact with the hot surface get hot and expand. That is, the fluid above a hot surface expands, becomes less dense, and rises. It carries the thermal energy along when rises up. The relatively cold fluid on the upper surface is heavier and sink down near the heat source. Hence a current of heat cycle develops in the convection process, called convection cycle. The rate of heat flow in convection process is given by where is known as convective heat transfer coefficient, is surface area of fluid receiving heat, and are temperature of hot surface and cold fluid, respectively. The unit of is     Radiation  It is the process in which heat transfer without the need of intervening medium. Heat transfer occurs in this process when electromagnetic waves emitted or absorbed. The warming of the earth surface by the Sun is due to radiation. Heat transfer by this process is the fastest one. All bodies above absolute zero emit thermal radiation. At room temperature the radiation is in the infrared range, wavelengths longer than those of the visible spectrum. In atomic domain, the radiation is caused because of oscillating ions and electrons in a warm solid are accelerating electric charges, such charges radiate. Different substances radiate with different efficiencies. The good radiator of radiation is a good absorber of radiation. A perfect absorber is called a black body (such perfection is not found in nature, but some things are close). Hence a black body is also a perfect radiator. A black body absorbs and emits radiation of all most all frequencies. It was found experimentally that heat energy radiated per unit time per unit surface area of a perfectly black body is proportional to the fourth power of its absolute temperature. This statement is also called Stefan-Boltzmann law . That is,  where is called Stefan-Boltzmann constant and is called emissivity of the object. For a perfect black body If and be the temperatures of the body and its surroundings then, net rate of heat loss, For any particular wavelength and temperature the amount of thermal radiation emitted depends on the emissivity of the object's surface. Emissivity is defined as the ratio of the energy radiated from a material's surface to that radiated from a blackbody at the same temperature and wavelength under the same viewing conditions. It is a dimensionless number between 0 (for a perfect reflector) and 1 (for a perfect emitter). The emissivity of a surface depends not only on the material but also on the nature of the surface . For example, a clean and polished metal surface will have a low emissivity, whereas a roughened and oxidized metal surface will have a high emissivity. The emissivity also depends on the temperature of the surface as well as wavelength and angle.     To calculate temperature, heat transfer, and energy balance in various systems or to understand the transfer of energy (heat) as electromagnetic radiation between objects the following terminologies are very important to know.   Emissive Power  It is defined as the radiant energy emitted per unit time per unit surface area of the body at a particular temperature within a unit wavelength range. Emissive power represents the rate at which an object emits electromagnetic radiation, typically in the form of thermal radiation (infrared radiation) due to its temperature. Emissive power depends on the temperature of the object and its emissivity. Emissivity is a material property that describes how efficiently an object can emit radiation compared to an ideal black body, which has an emissivity of 1. Objects with higher emissivity values emit radiation more effectively.    Absorptive Power  It is defined as the ratio of radiant energy absorbed per unit time per unit surface area of the body to the total energy falling per unit time on the same area at a particular temperature within a unit wavelength range. Absorptive power represents the ability of an object to absorb electromagnetic radiation. It is the complement of reflectivity and is related to how efficiently a material can absorb incoming radiation. Materials with high absorptivity values absorb more radiation and convert it into thermal energy. Absorptivity, like emissivity, is also a material property and varies with wavelength. It is a unitless value between 0 and 1.    Kirchhoff's Law  Kirchhoff has two fundamental principles in the study of thermal radiation and the behavior of materials with regard to electromagnetic radiation. The details of Kirchhoff's law is not a part of discussion here but only taken here for some information. Kirchhoff's first law states that at any temperature, the ratio of the emissive power to the absorptive power for a given wavelength is the same for all bodies and is equal to the emissive power of a perfectly black body.  In other words, this law states that the emissivity ( ) of an object at a particular wavelength is equal to its absorptivity ( ) at that same wavelength. That is, the amount of radiation that an object emits at a specific wavelength is equal to the amount of radiation it absorbs at that same wavelength when the object is in thermal equilibrium with its surroundings.  Kirchhoff's second law states that at every temperature and for every wavelength, the emissivity ( ) of a perfect black body is equal to 1. That is, a perfect black body is an idealized object that absorbs all incident radiation and emits radiation at the maximum possible rate for a given temperature. It is often used as a reference to compare the behavior of real objects in radiative heat transfer.      "
 },
 {
-  "id": "p-1132",
+  "id": "p-1133",
   "level": "2",
-  "url": "subsec-heat_trans.html#p-1132",
+  "url": "subsec-heat_trans.html#p-1133",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "black body Stefan-Boltzmann law Emissivity "
 },
 {
-  "id": "p-1139",
+  "id": "p-1140",
   "level": "2",
-  "url": "subsec-heat_trans.html#p-1139",
+  "url": "subsec-heat_trans.html#p-1140",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6229,9 +6229,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1192",
+  "id": "p-1193",
   "level": "2",
-  "url": "subsec-gas_pres.html#p-1192",
+  "url": "subsec-gas_pres.html#p-1193",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6256,18 +6256,18 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-1194",
+  "id": "p-1195",
   "level": "2",
-  "url": "subsec-dg_freedom.html#p-1194",
+  "url": "subsec-dg_freedom.html#p-1195",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Avogadro's number "
 },
 {
-  "id": "p-1196",
+  "id": "p-1197",
   "level": "2",
-  "url": "subsec-dg_freedom.html#p-1196",
+  "url": "subsec-dg_freedom.html#p-1197",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6283,9 +6283,9 @@ var ptx_lunr_docs = [
   "body": " Law of Equipartition of Energy   According to Maxwell, total kinetic energy of a dynamical system consisting of large number of particles is equally distributed among its various degrees of freedom. The average kinetic energy of a monoatomic gas molecule is given by   Hence, the average kinetic energy per molecule in each degree of freedom is     Avogadro's Number,  It is the number of molecules in one gram of hydrogen gas or the number of atoms in 12 grams of the carbon-12 isotope. The value of molecules in one mole of carbon-12 atoms. The mole is a base unit in the SI system for an amount of substance. The symbol of mole is [mol]. The mole is defined as the amount of any substance (entity) that contains as many atoms as there are in 12 grams of atom. At standard temperature and pressure (STP, T = 273 K, p = 1 atm) 1 mole of any substance occupies Avogadro's number of molecules. At STP, volume of an ideal gas V=22.4 liter. If we weigh one mole of any substance its comes out to be the molecular weight of that substance in gram . Molecular weight and molar weight are related terms that are often used interchangeably, but they have slightly different meanings. Molecular weight refers to the mass of a single molecule of a substance in atomic mass units (amu) or unified atomic mass units (u). Molar weight, also known as molar mass , refers to the mass of one mole of a substance in unit of grams per mole (g\/mol). The molar mass of a compound is numerically equal to its molecular weight but has units of grams per mole. For example, the molar mass of water ( ) is approximately 18.015 g\/mol, which is the same as its molecular weight (18.015 amu). One mole of water weighs 18.015 g. One mole of ethyl alcohol, , weighs 46.069 g. If we weigh whether one mole of iron or one mole of sulfur they contain the same number of atoms equal to Avogadro's number. This is an important aspect of the mole. Avogadro's number     Atomic Mass Unit, u   amu It is the mass of one hydrogen atom. It is normally a sum of number of protons and neutrons in a nucleus. The weight of 1 atom of weighs 12.00 amu. A 12 g of carbon contains atoms, each weighing exactly 12 amu. Therefore, or,    "
 },
 {
-  "id": "p-1198",
+  "id": "p-1199",
   "level": "2",
-  "url": "subsec-equip_law.html#p-1198",
+  "url": "subsec-equip_law.html#p-1199",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6319,22 +6319,13 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-1201",
-  "level": "2",
-  "url": "subsec-gas_laws.html#p-1201",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Volume is inversely proportional to pressure "
-},
-{
   "id": "p-1202",
   "level": "2",
   "url": "subsec-gas_laws.html#p-1202",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "temperature is proportional to the volume "
+  "body": "Volume is inversely proportional to pressure "
 },
 {
   "id": "p-1203",
@@ -6343,12 +6334,21 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Pressure is proportional to temperature "
+  "body": "temperature is proportional to the volume "
 },
 {
   "id": "p-1204",
   "level": "2",
   "url": "subsec-gas_laws.html#p-1204",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Pressure is proportional to temperature "
+},
+{
+  "id": "p-1205",
+  "level": "2",
+  "url": "subsec-gas_laws.html#p-1205",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6364,9 +6364,9 @@ var ptx_lunr_docs = [
   "body": " Thermodynamical Variables  The state of a thermodynamic system can be specified in terms of macroscopic state variables such as volume, V, temperature, T, and pressure, p. Out of these three, two are independent variables while the third may be considered as their function. In general, two of these parameters are needed to completely specify a thermodynamical system. These two types of variables are also known as extensive and intensive variables. Variables that depend on the size of a system such as volume, V, amount of substance (moles, n ), entropy, S, etc. are called extensive variables . Variables that do not depend on the size of a system such as temperature, T, pressure, p , density, , etc. are called intensive variables .  "
 },
 {
-  "id": "p-1208",
+  "id": "p-1209",
   "level": "2",
-  "url": "subsec-therm_varbls.html#p-1208",
+  "url": "subsec-therm_varbls.html#p-1209",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6400,9 +6400,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-1215",
+  "id": "p-1216",
   "level": "2",
-  "url": "subsec-therm_laws.html#p-1215",
+  "url": "subsec-therm_laws.html#p-1216",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6415,12 +6415,12 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "10.6.3",
   "title": "Application of I law of thermodynamics",
-  "body": " Application of I law of thermodynamics     Specific heat capacity of a gas: Consider a mole of gas is heated in the cylinder with frictionless piston, then the change in internal energy of the gas is given by the first law of thermodynamics  where is the infinitesimal work done by the gas in moving a piston from initial position to the final position , and is given by where is area of cross-section of the piston, is force applied by the gas molecules on the surface of the piston. If the piston is fixed from moving, then at constant volume, , and  But, for n mole of a gas where C is molar specific heat capacity of the gas. where is mass of the gas, but it is convenient to take mole instead of mass as an amount of gas. At constant volume, From eqns. and , we have - At constant pressure,  Now, differentiating eqn. with respect to , we get - But from euation of state of a gas , Differentiating this equation with respect to at constant , we get - substituting the values in eqn. from eqns. and , we get -  This is the relation between molar specific heat capacity of a gas at constant pressure and molar specific heat capacity of a gas at constant volume . From the kinetic theory of gas, the internal energy of a monoatomic gas [ ] is given by  Hence, from eqns. , , and , we have - Now, the ratio of the specific heat at constant pressure to the specific heat at constant volume of a monoatomic gas is given by The idea of degrees of freedom can be extended to diatomic and polytomic gases. It can be shown that the value of can be expressed as where is the number of degrees of freedom per molecule. For a monatomic gas, we find that since for a monoatomic gas. for a diatomic gas as .    Isothermal process: In an isothermal process system remains at constant temperature, , hence, As internal energy of an ideal gas [ ] is a function of temperature only, we have Therefore, from I law of thermodynamics, we have -      Adiabatic process: In an adiabatic process system does not exchange heat , with surroundings, hence, Therefore, from I law of thermodynamics, we have -    That is, internal energy increases exactly by the amount of work done on the system. Also, for 1 mole of a gas.      integrating both sides, we get -          Isobaric process: A process at constant pressure, is called an isobaric process. At the change of phase, temperature and pressure remains constant, i.e.,        Isochoric process: A process at constant volume, is called an isochoric process.      Free expansion: It is an adiabatic process in which no work is performed on or by the system. Consider two chambers of an isolated system, the one chamber of which contains a gas while the other is completely evacuated. Both the chambers are connected with a stopcock. When stopcock is suddenly open, the gas rushes into the evacuated chamber and expands freely. Free expansion means gas has to do no work at all. Since an isolated system does not exchange heat from outside world, and gas expands freely so Therefore from I law of thermodynamics, That is, initial internal energy of the gas is same as its final internal energy.     "
+  "body": " Application of I law of thermodynamics     Specific heat capacity of a gas: Consider a mole of gas is heated in the cylinder with frictionless piston, then the change in internal energy of the gas is given by the first law of thermodynamics  where is the infinitesimal work done by the gas in moving a piston from initial position to the final position , and is given by where is area of cross-section of the piston, is force applied by the gas molecules on the surface of the piston. If the piston is fixed from moving, then at constant volume, , and  But, for n mole of a gas where C is molar specific heat capacity of the gas. where is mass of the gas, but it is convenient to take mole instead of mass as an amount of gas. At constant volume, From eqns. and , we have - At constant pressure,  Now, differentiating eqn. with respect to , we get - But from euation of state of a gas , Differentiating this equation with respect to at constant , we get - substituting the values in eqn. from eqns. and , we get -  This is the relation between molar specific heat capacity of a gas at constant pressure and molar specific heat capacity of a gas at constant volume . From the kinetic theory of gas, the internal energy of a monoatomic gas [ ] is given by  Hence, from eqns. , , and , we have - Now, the ratio of the specific heat at constant pressure to the specific heat at constant volume of a monoatomic gas is given by The idea of degrees of freedom can be extended to diatomic and polytomic gases. It can be shown that the value of can be expressed as where is the number of degrees of freedom per molecule. For a monatomic gas, we find that since for a monoatomic gas. for a diatomic gas as .    Isothermal process: In an isothermal process system remains at constant temperature, , hence, As internal energy of an ideal gas [ ] is a function of temperature only, we have Therefore, from I law of thermodynamics, we have -      Adiabatic process: In an adiabatic process system does not exchange heat , with surroundings, hence, Therefore, from I law of thermodynamics, we have -    That is, internal energy increases exactly by the amount of work done on the system. Also, for 1 mole of a gas.      integrating both sides, we get -          Isobaric process: A process at constant pressure, is called an isobaric process. At the change of phase, temperature and pressure remains constant, i.e.,         Isochoric process: A process at constant volume, is called an isochoric process.      Free expansion: It is an adiabatic process in which no work is performed on or by the system. Consider two chambers of an isolated system, the one chamber of which contains a gas while the other is completely evacuated. Both the chambers are connected with a stopcock. When stopcock is suddenly open, the gas rushes into the evacuated chamber and expands freely. Free expansion means gas has to do no work at all. Since an isolated system does not exchange heat from outside world, and gas expands freely so Therefore from I law of thermodynamics, That is, initial internal energy of the gas is same as its final internal energy.     "
 },
 {
-  "id": "p-1216",
+  "id": "p-1217",
   "level": "2",
-  "url": "subsec-Ilaw_appl.html#p-1216",
+  "url": "subsec-Ilaw_appl.html#p-1217",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6445,18 +6445,18 @@ var ptx_lunr_docs = [
   "body": "                    "
 },
 {
-  "id": "p-1223",
+  "id": "p-1224",
   "level": "2",
-  "url": "subsec-II_law.html#p-1223",
+  "url": "subsec-II_law.html#p-1224",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Kelvin-Plank statement of the second law: "
 },
 {
-  "id": "p-1224",
+  "id": "p-1225",
   "level": "2",
-  "url": "subsec-II_law.html#p-1224",
+  "url": "subsec-II_law.html#p-1225",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6481,9 +6481,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1228",
+  "id": "p-1229",
   "level": "2",
-  "url": "subsec-heat_engn.html#p-1228",
+  "url": "subsec-heat_engn.html#p-1229",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6535,36 +6535,36 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1234",
-  "level": "2",
-  "url": "subsec-canot_cycl.html#p-1234",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Step 1, Isothermal Expansion: "
-},
-{
   "id": "p-1235",
   "level": "2",
   "url": "subsec-canot_cycl.html#p-1235",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
+  "body": "Step 1, Isothermal Expansion: "
+},
+{
+  "id": "p-1236",
+  "level": "2",
+  "url": "subsec-canot_cycl.html#p-1236",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
   "body": "Step 2, Adiabatic Expansion: "
 },
 {
-  "id": "p-1237",
+  "id": "p-1238",
   "level": "2",
-  "url": "subsec-canot_cycl.html#p-1237",
+  "url": "subsec-canot_cycl.html#p-1238",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Step 3, Isothermal compression: "
 },
 {
-  "id": "p-1238",
+  "id": "p-1239",
   "level": "2",
-  "url": "subsec-canot_cycl.html#p-1238",
+  "url": "subsec-canot_cycl.html#p-1239",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6616,9 +6616,9 @@ var ptx_lunr_docs = [
   "body": " Entropy   A natural tendency of systems is to lose order. When sugar is dissolved in water it becomes more randomized and will not reconstitute itself in the crystalline form again, unless we apply heat energy from outside of the system to evaporate water. When a hot and a cold body are put in contact to each other, heat energy begins to flow from the hot body to the cold body until they reach at thermal equilibrium. Heat will never move back the other way. To move heat from a cold body to a hot body an external work must be done by an external source such as a heat pump. Entropy is a measure of that disorderness. It is a measure of the system's thermal energy per unit temperature that is unavailable for useful work. The concept of entropy provides the direction of spontaneous change for many process. It tells us that which process is allowed and which is completely prohibited even if it can not violet the fundamental law of conservation of energy. An ice cube placed on a hot pan surely melts, while the pan goes cooler. Such a process is called irreversible because no slight change will cause the melted water to turn back into ice while the pan goes hotter. In contrast, a block of ice placed in an ice water bath will either thaw a little more or freeze a little more, depending on whether a small amount of heat is added to or taken out from the system. Such a process is reversible because only an infinitesimal amount of heat is needed to change its direction from progressive freezing to progressive thawing.      Spontaneous change for an irreversible process in an isolated system always proceeds in a direction of increasing entropy. Entropy describes the degradation of energy to perform work. Crystals are more orderly than salt molecules in solution; however, vaporized water is more disordered than liquid water. The process taken as a whole results in a net increase in disorder. The first law of thermodynamics is the conservation of energy and is easy to express quantitatively. The second law explains that heat only flows from a hotter object to a colder one. It measures quantitatively that the efficiency of any reversible engine has to equal that of the Carnot cycle, and any irreversible engine has less efficiency. In the view of measuring the amount of irreversibility Clausius described a parameter, called entropy that doesn't change in a reversible process but always increases in an irreversible one.  The total work done by the gas is the area of the curve ABCD. Hence the work done must be just the difference between the heat supplied at and that dumped at Now the heat supplied along the initial hot isothermal path AB is equal to the work done along that curve, and the heat dumped into the cold reservoir along CD is   The difference between these two is the net work output. This can be simplified using the adiabatic equations for the other two sides of the cycle: and On dividing of these two equations, we get - and using that in the preceding equation for    So for the Carnot cycle the ratio of heat supplied to heat dumped is just the ratio of the absolute temperatures. If we draw many isotherms and many adiabatics curve, then we can find in general that This quantity is a definite thermal property of the working substance. During adiabatic change, there is no transfer of heat so this quantity is zero. Hence that thermal property of the substance which remains constant during an adiabatic change is termed as entropy .  Now let see what happen if we take the path ADCBA. The amount of heat absorbed at temperature when the gas passes from the state A to the state B remains constant even if a path other than the isotherm AB is followed. Now starting from the point A in reverse direction, let the path AD, DC, and CB be followed. Along the adiabatics AD and CB the quantity is zero and the quantity along the isothermal DC But we know that Hence the quantity is independent of the manner of transformation, i.e., the entropy is a definite function of the thermal state of a body and is not affected in any way by the manner in which the particular state is reached. In other words, entropy is a definite physical entity like pressure, volume, temperature, or internal energy but there is nothing physical to represent it . Entropy can not be felt like pressure or temperature. Further, we can not measure the absolute entropy of a substance in any situation, we can only measure the change in entropy as the substance moves from one state to another. Entropy is denoted by a letter, .  Change of entropy = heat energy\/temperature  or, Change of entropy Temperature = Heat Energy.  That is the dimension of heat energy is same as that of the product of entropy and temperature. If we compare, gravitational potential energy mass height with the above expression then it seems like, entropy bears to heat motion in the same fashion as mass bears to linear motion. Hence entropy is also known as a thermal inertia. The second law of thermodynamics can be stated in terms of entropy. The total entropy of the universe is continually increasing because all natural process is irreversible and entropy increases in irreversible process where as there is no change in entropy in the reversible process. But reversible process barely happen in the universe.  Differential form of change of entropy, for reversible path.  Integral form for reversible path.    Principle of increase of entropy:  According to this principle, entropy of the universe always increases for any irreversible process, or remains constant for a reversible process.   Change of entropy of the universe due to reversible process: Consider a Carnot cycle in isothermal expansion. The increase of entropy of the working substance is equal to The decrease of entropy of the source is equal to Thus the net change of entropy of universe during a reversible isothermal process is zero . There is no change of entropy during adiabatic process. Similarly, the decrease of entropy of the working substance during isothermal compression is the increases of entropy of the sink during isothermal compression is Therefore, net change of entropy of the universe is zero. Now take the entire Carnot cycle at once, then loss of entropy of the source (surrounding) is and gains of entropy of the sink (surrounding) is , hence the net change of entropy of the universe,  The entropy of the whole system remains constant.   Change of entropy of the universe due to irreversible process: Consider a heat transfer in conduction process. It is an irreversible process. Let a quantity be transferred from a hot body A at a temperature to a cold body B at temperature The loss of entropy of A is and the gain of entropy of B is Thus the net change in entropy is Since . Therefore the entropy of the system as a whole increase during this process. The entropy of the universe increases in the irreversible process.      Principle of degradation of entropy:  It states that the available energy of the universe is tending towards zero. From the second law whenever an irreversible process takes place, a certain quantity of energy of the universe is converted from a form in which it is unavailable for work. In Carnot engine, is the heat that is taken from a source and is the amount of heat given to the sink. The difference of this heat is converted into work and is called the available energy . Available energy is therefore,  Thus the lower the temperature of the sink, the greater will be the available energy.  Now consider an irreversible process in which heat Q is transferred from hot body at temperature to a cold body at temperature Suppose is the lowest available temperature in the system, then available energy to start with is After transfer it becomes Hence the loss available energy in the process of transformation is  Since is increasing in irreversible process available energy is decreasing. All natural process are irreversible the available energy of the universe is continually decreasing. When a state of maximum entropy of the universe is reached there would be no available energy to do any work, this condition is called the heat-death .   "
 },
 {
-  "id": "p-1248",
+  "id": "p-1249",
   "level": "2",
-  "url": "subsec-entropy.html#p-1248",
+  "url": "subsec-entropy.html#p-1249",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6634,18 +6634,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1259",
+  "id": "p-1260",
   "level": "2",
-  "url": "subsec-entropy.html#p-1259",
+  "url": "subsec-entropy.html#p-1260",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "available energy "
 },
 {
-  "id": "p-1260",
+  "id": "p-1261",
   "level": "2",
-  "url": "subsec-entropy.html#p-1260",
+  "url": "subsec-entropy.html#p-1261",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -7255,22 +7255,13 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-1352",
-  "level": "2",
-  "url": "append_math.html#p-1352",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
-},
-{
   "id": "p-1353",
   "level": "2",
   "url": "append_math.html#p-1353",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Geometric Formulae: "
+  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
   "id": "p-1354",
@@ -7279,7 +7270,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Trigonometric Identities: "
+  "body": "Geometric Formulae: "
 },
 {
   "id": "p-1355",
@@ -7297,7 +7288,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Binomial Theorem: "
+  "body": "Trigonometric Identities: "
 },
 {
   "id": "p-1357",
@@ -7306,7 +7297,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Power Series: "
+  "body": "Binomial Theorem: "
 },
 {
   "id": "p-1358",
@@ -7315,12 +7306,21 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Calculus: Derivatives: Integrals: "
+  "body": "Power Series: "
 },
 {
   "id": "p-1359",
   "level": "2",
   "url": "append_math.html#p-1359",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Calculus: Derivatives: Integrals: "
+},
+{
+  "id": "p-1360",
+  "level": "2",
+  "url": "append_math.html#p-1360",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

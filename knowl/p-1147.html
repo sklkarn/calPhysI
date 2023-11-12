@@ -12,7 +12,47 @@
 </head>
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
-<div class="para">It is the rate at which solar energy received by the unit surface area of the earth, when it is placed at the mean sun-earth distance. Solar constant, <span class="process-math">\(S = 1353 \,W/m^{2}.\)</span> </div>
-<span class="incontext"><a href="subsec-solar_const.html#p-1147" class="internal">in-context</a></span>
+<div class="para logical">
+<div class="para">Let <span class="process-math">\(\theta\)</span> and <span class="process-math">\(\theta_{o}\)</span> be the temperature of a body and its surroundings, respectively. Let <span class="process-math">\(\frac{\,dQ}{\,dt}\)</span> be the rate of loss of heat, then from Newton’s law of cooling -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-newton_cool1.html ./knowl/eqn-newton_cool2.html">
+\begin{equation*}
+\frac{\,dQ}{\,dt} \propto \left(\theta-\theta_{o}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-newton_cool1.html ./knowl/eqn-newton_cool2.html">
+\begin{equation}
+\text{or,}\quad \frac{\,dQ}{\,dt} =\kappa \left(\theta-\theta_{o}\right) \tag{10.3.8}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(\kappa\)</span> is a constant. If <span class="process-math">\(m\)</span> be the mass of a body and <span class="process-math">\(c\)</span> be its specific heat capacity, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-newton_cool1.html ./knowl/eqn-newton_cool2.html">
+\begin{equation*}
+Q=mc\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-newton_cool1.html ./knowl/eqn-newton_cool2.html">
+\begin{equation}
+\therefore\quad \frac{\,dQ}{\,dt} = mc \frac{\,d\theta}{\,dt} \tag{10.3.9}
+\end{equation}
+</div>
+<div class="para">From eqns. <a href="" class="xref" data-knowl="./knowl/eqn-newton_cool1.html" title="Equation 10.3.8">(10.3.8)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-newton_cool2.html" title="Equation 10.3.9">(10.3.9)</a>we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-newton_cool1.html ./knowl/eqn-newton_cool2.html">
+\begin{equation*}
+mc \frac{\,d\theta}{\,dt} =\kappa \left(\theta-\theta_{o}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-newton_cool1.html ./knowl/eqn-newton_cool2.html">
+\begin{equation*}
+\text{or,}\quad  \frac{\,d\theta}{\,dt} = \frac{\kappa}{mc}\left(\theta-\theta_{o}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-newton_cool1.html ./knowl/eqn-newton_cool2.html">
+\begin{equation*}
+\therefore\quad  \frac{\,d\theta}{\,dt} \propto  \left(\theta-\theta_{o}\right) 
+\end{equation*}
+</div>
+<div class="para">This is known as Newton’s law of cooling. Here <span class="process-math">\(\kappa,\, m\)</span> and <span class="process-math">\(c\)</span> are constant.</div>
+</div>
+<span class="incontext"><a href="subsec-newton_cool.html#p-1147" class="internal">in-context</a></span>
 </body>
 </html>

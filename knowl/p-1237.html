@@ -13,16 +13,38 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">
-<dfn class="terminology">Step 3, Isothermal compression:</dfn> The cylinder is removed from stand and placed on the sink. The gas is then compressed slowly at constant temperature <span class="process-math">\(T_{c} \, K\)</span> when the gas reaches to a point <span class="process-math">\(C(p_{4},V_{4}).\)</span> The heat, <span class="process-math">\(Q_{c},\)</span> is transferred to the cold reservoir by doing work <span class="process-math">\(W_{3}\)</span> on it.</div>
+<div class="para">The work done <span class="process-math">\(W_{2}\)</span> in this case is given by</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore\quad Q_{c} = W_{3} =-\int\limits_{v_{3}}^{v_{4}}p\,dV 
+W_{2} = \int\limits_{v_{2}}^{v_{3}}p\,dV = \int\limits_{v_{2}}^{v_{3}}k\frac{\,dV}{V^{\gamma}} 
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\([\because \quad pV^{\gamma}=constant, (k)]\)</span> for adiabatic process.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=k\left(\frac{V^{1-\gamma}}{1-\gamma}\right)_{v_{2}}^{v_{3}}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-= -RT_{c}\int\limits_{v_{3}}^{v_{4}}\frac{\,dV}{V} =RT_{c}\log_{e}\frac{V_{3}}{V_{4}} =area DCcd
+=\frac{k}{1-\gamma} \left(V_{3}^{1-\gamma}-V_{2}^{1-\gamma}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{1}{1-\gamma} \left(p_{3}V_{3}^{\gamma}V_{3}^{1-\gamma}-p_{2}V_{2}^{\gamma}V_{2}^{1-\gamma}\right) 
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because \quad p_{2}V_{2}^{\gamma}=p_{3}V_{3}^{\gamma}=k]\)</span></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad W_{2} = \frac{1}{1-\gamma}\left(p_{3}V_{3}-p_{2}V_{2}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{\left(RT_{c}-RT_{h}\right)}{1-\gamma}=\frac{R}{\gamma-1}\left(T_{h}-T_{c}\right) = area BCcb 
 \end{equation*}
 </div>
 </div>
