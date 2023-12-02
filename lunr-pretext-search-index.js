@@ -5892,8 +5892,8 @@ var ptx_lunr_docs = [
   "url": "subsec-rel_therexp.html",
   "type": "Subsection",
   "number": "10.2.4",
-  "title": "Relationship between <span class=\"process-math\">\\(\\alpha, \\,\\beta,\\)<\/span>  and <span class=\"process-math\">\\(\\gamma\\)<\/span>",
-  "body": " Relationship between and  Consider a solid cube of side at temperature and at temperature Hence from linear expansion, we have The volume of a cube is therefore,  Now since is very small, is very very small. Hence the quantities and are neglected.  By comparing eqns. and , we get - Similarly the area of a cube is given by -    is very small. By comparing eqns. and , we get -    "
+  "title": "Relation between <span class=\"process-math\">\\(\\alpha, \\,\\beta,\\)<\/span>  and <span class=\"process-math\">\\(\\gamma\\)<\/span>",
+  "body": " Relation between and  Consider a solid cube of side at temperature and at temperature Hence from linear expansion, we have The volume of a cube is therefore,  Now since is very small, is very very small. Hence the quantities and are neglected.  By comparing eqns. and , we get - Similarly the area of a cube is given by -    is very small. By comparing eqns. and , we get -    "
 },
 {
   "id": "subsec-water_anom",
@@ -7251,8 +7251,8 @@ var ptx_lunr_docs = [
   "url": "append_math.html",
   "type": "Appendix",
   "number": "A",
-  "title": "Mathematical Relations",
-  "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
+  "title": "(Mathematical Relations)",
+  "body": " (Mathematical Relations)     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
   "id": "p-1353",
@@ -7327,11 +7327,38 @@ var ptx_lunr_docs = [
   "body": "Vectors: "
 },
 {
-  "id": "appendix-2",
+  "id": "append_physTable",
   "level": "1",
-  "url": "appendix-2.html",
+  "url": "append_physTable.html",
   "type": "Appendix",
   "number": "B",
+  "title": "(Useful Data and Greek Letters)",
+  "body": " (Useful Data and Greek Letters)   Physical Data Table    Quantity  Symbol  Value  SI Unit    Avagadro's Number    particles\/mol    Bohr Radius    m    Boltzmann's Constant    J\/K    Coulomb's Constant       Electron Mass       Proton Mass       Neutron Mass       Electron's Charge       Gravitational Constant       Mass of Earth       Mass of Sun       Mass of Moon       Radius of Earth       Planck's Constant       Spped of Light in Vacuum       Stefan-Boltzmann Constant       Universal Gas Constant       Permittivity of Free Space       Permeability of Free Space       Molar volume of ideal gas at STP       Standard Atmospheric Pressure       Acceleration due to gravity       Average Earth-Sun distance  Astronomical Unit      Average Earth-Moon distance  Lunar Distance        Greek Alphabet    Name  Capital Letter  Small Letter    Alpha  A     Beta  B     Gamma      Delta      Epsilon      Eta      Iota      Kappa      Theta      Mu      Nu      Omicron      Rho      Sigma      Tau      Phi      Psi      Pi      Chi      Lambda      Omega      Upsilon      Xi      Zeta       "
+},
+{
+  "id": "table-6",
+  "level": "2",
+  "url": "append_physTable.html#table-6",
+  "type": "Table",
+  "number": "B.0.1",
+  "title": "Physical Data Table",
+  "body": " Physical Data Table    Quantity  Symbol  Value  SI Unit    Avagadro's Number    particles\/mol    Bohr Radius    m    Boltzmann's Constant    J\/K    Coulomb's Constant       Electron Mass       Proton Mass       Neutron Mass       Electron's Charge       Gravitational Constant       Mass of Earth       Mass of Sun       Mass of Moon       Radius of Earth       Planck's Constant       Spped of Light in Vacuum       Stefan-Boltzmann Constant       Universal Gas Constant       Permittivity of Free Space       Permeability of Free Space       Molar volume of ideal gas at STP       Standard Atmospheric Pressure       Acceleration due to gravity       Average Earth-Sun distance  Astronomical Unit      Average Earth-Moon distance  Lunar Distance      "
+},
+{
+  "id": "table-7",
+  "level": "2",
+  "url": "append_physTable.html#table-7",
+  "type": "Table",
+  "number": "B.0.2",
+  "title": "Greek Alphabet",
+  "body": " Greek Alphabet    Name  Capital Letter  Small Letter    Alpha  A     Beta  B     Gamma      Delta      Epsilon      Eta      Iota      Kappa      Theta      Mu      Nu      Omicron      Rho      Sigma      Tau      Phi      Psi      Pi      Chi      Lambda      Omega      Upsilon      Xi      Zeta      "
+},
+{
+  "id": "appendix-3",
+  "level": "1",
+  "url": "appendix-3.html",
+  "type": "Appendix",
+  "number": "C",
   "title": "List of Symbols",
   "body": " List of Symbols   "
 },
