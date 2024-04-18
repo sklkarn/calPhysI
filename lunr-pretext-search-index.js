@@ -3733,7 +3733,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "6.2.3",
   "title": "Derivation of Kepler’s II Law",
-  "body": " Derivation of Kepler's II Law    The small area of a given triangle    Area of a triangle    From a given triangle Also, Therefore, from and , we have - Hence, and  using or, .    But from angular momentum, we have Therefore can be written as and by using and , also . Again, by using or . Therefore we can say That is areal velocity of planet is constant.  "
+  "body": " Derivation of Kepler's II Law    The small area of a given triangle    Area of a triangle    From a given triangle Also, Therefore, from and , we have - Hence, and  using or, .    But from angular momentum, we have Therefore can be written as and by using and . Also and is a unit vector perpendicular to the plane of orbit. Again, by using or . Therefore we can say That is areal velocity of planet is constant.  "
 },
 {
   "id": "subsec-kepII_law-4",
