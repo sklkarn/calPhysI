@@ -156,7 +156,7 @@
         into internal energy and other forms of energy, so no large scale impacts are perfectly 
         elastic. Elastic collisions usually involve sub-atomic particles or highly rigid objects 
         e.g. steel or glass balls. If both objects have same mass, their velocities swap 
-        after perfectly elastic collision, e.g. Newton's cradle.  "Collisions" in which 
+        after perfectly elastic collision, e.g. Newton's cradle. <em>Collisions</em> in which 
         the objects do not touch each other, such as Rutherford scattering or the 
         slingshot orbit of a satellite off a planet, are elastic collisions. 
         In atomic or nuclear scattering, the collisions are typically elastic because 
@@ -170,7 +170,40 @@
         </me>
         <men xml:id="eqn-col2">
           \frac{1}{2}m_{1}u_{1}^{2}+\frac{1}{2}m_{2}u_{2}^{2} = \frac{1}{2}m_{1}v_{1}^{2}+\frac{1}{2}m_{2}v_{2}^{2}
-        </men>
+        </men> 
+        and 
+        <me>
+          \therefore \quad m_{1}u_{1} +m_{2}u_{2} = m_{1}v_{1}+m_{2}v_{2}  
+        </me>
+         </p>
+         <p>
+          On using eqns. <xref ref="eqn-col1"/> and <xref ref="eqn-col2"/>, we have -
+          <mdn>
+            <mrow> m_{1}u_{1} +m_{2}u_{2} \amp  = m_{1}v_{1}+m_{2}v_{2}  </mrow>
+            <mrow xml:id="col-eqnia"> \text{ or, } m_{1}(u_{1}-v_{1}) \amp = m_{2}(v_{2}-u_{2}) </mrow>
+            <mrow> m_{1}u_{1}^{2}+ m_{2}u_{2}^{2} \amp = m_{1}v_{1}^{2}+ m_{2}v_{2}^{2} </mrow>
+            <mrow xml:id="col-eqnib"> \text{ similarly, } m_{1}(u_{1}^2-v_{1}^2) \amp = m_{2}(v_{2}^2-u_{2}^2) </mrow>
+            </mdn>
+            Divide eqn. <xref ref="col-eqnib"/> with <xref ref="col-eqnia"/>, we get -
+            <mdn>
+              <mrow> \text{ or, } \frac{u_{1}^2-v_{1}^2}{u_{1}-v_{1}} \amp = \frac{v_{2}^2-u_{2}^2}{v_{2}-u_{2} }  </mrow>
+              <mrow> \text{ or, }  u_{1}+ v_{1} \amp = v_{2}-u_{2}  </mrow>
+            </mdn>
+            <men xml:id="eqn-col-eqnic">
+              \text{ or, } v_{2}  = u_{1}-u_{2}+v_{1}  
+            </men>
+            Substitute eqn. <xref ref="eqn-col-eqnic"/> in eqn. <xref ref="col-eqnia"/>, we have -
+            <mdn>
+              <mrow> m_{1}(u_{1}-v_{1}) \amp  = m_{2}(u_{1}-u_{2}+v_{1}-u_{2}) </mrow>
+              <mrow> \text{ or, } m_{1}u_{1}-m_{1}v_{1} \amp  = m_{2}u_{1}-2m_{2}u_{2} + m_{2}v_{1} </mrow>
+            </mdn>
+            <men xml:id="eqn-col-eqnid">
+              \therefore v_{1} = \frac{(m_{1}-m_{2})u_{1}+2m_{2}u_{2}}{(m_{1}+m_{2})}
+            </men>
+            Also, 
+            <men xml:id="eqn-col-eqnie">
+              \therefore v_{2} = \frac{(m_{2}-m_{1})u_{2}+2m_{1}u_{1}}{(m_{1}+m_{2})}
+            </men>
          </p>
     </subsubsection>
 
