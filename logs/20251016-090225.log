@@ -1,0 +1,13 @@
+INFO    : PreTeXt-CLI version: 2.7.1
+
+INFO    : PreTeXt project found in `/home/sk/Desktop/my_book/calPhysI/physI_ptx`.
+INFO    : Staging deployment according to strategy default_target
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Staging latest build located in `/home/sk/Desktop/my_book/calPhysI/physI_ptx/output/web` at `/home/sk/Desktop/my_book/calPhysI/physI_ptx/output/stage`.
+INFO    : 
+INFO    : Preparing to deploy from active `main` git branch.
+INFO    : 
+INFO    : Changes to project source since last commit detected.
+INFO    : Add/committing these changes to local Git repository.
+INFO    : 

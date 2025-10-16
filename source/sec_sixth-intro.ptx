@@ -42,7 +42,7 @@ is the force on mass 1 due to mass 2, the force <m> F_{21}</m> is the force on m
   </figure>
    <introduction>
     <p>
-             From Newton's II law of motion, when an external unbalanced force acts on an object, 
+        From Newton's II law of motion, when an external unbalanced force acts on an object, 
         it will give  an acceleration <m>a</m> to that object, that is, <m>F = ma</m>. 
         But, if the gravitational force is acting on the body near the surface of the earth, 
         then the body experiences the acceleration <m>g</m> for a freely falling body. 
@@ -287,12 +287,17 @@ where <m>F_{r}</m> is a conservative foece, and therefore force can be written a
   </figure>
     <p>
       A geosynchronous satellite orbits the earth in such a way that it reaches 
-      at the same point above the earth in every 24 hours. It orbits in a polar orbit. 
-      The special kind of geosynchronous satellite is called geostationary satellite 
-      which seems to be at rest at the same position above the earth. It takes an equatorial 
-      orbit. The only force which provides the necessary centripetal force of such satellite 
-      is the gravitational force. Such satellites are used for weather forecasting and signal transmission.  
-      <men xml:id="eqn-geosync1">
+      at the same point above the earth in every 24 hours. The special kind of geosynchronous 
+      satellite is called geostationary satellite 
+      which seems to be at rest at the same position above the earth. Geostationary satellite takes an equatorial 
+      orbit. The geosynchronous satellite orbits in such a way that it seems shifting from north to south about an equatorial orbit 
+      but due to earth orientation and rotation. Some sattelites also revolve along polar orbit. Polar satellites 
+      can be useful in weather forecasting and mapping the globe. Geostationary satellite are used for long term weather forecasting, spying,
+      communications, broadcasting, and signal transmission.  
+    </p>
+      <p>
+      The necessary centripetal force of such satellite is given by the gravitational force. 
+           <men xml:id="eqn-geosync1">
         F_{g}=\frac{GMm}{r^{2}} = \frac{mv^{2}_{o}}{r}
       </men>
       Where <m>m,</m> <m>v_{o},</m> and <m>r</m> are mass, orbital velocity, 
