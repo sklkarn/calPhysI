@@ -88,6 +88,1040 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#subsec_dimanal-subsection-2-2 { counter-set: subsec_dimanal-subsection-2-2 0; }
+#subsec_dimanal-subsection-2-2 > li::marker { content: ""counter(subsec_dimanal-subsection-2-2,decimal)"."; }
+#subsec_dimanal-subsection-2-2 > li { counter-increment: subsec_dimanal-subsection-2-2; }
+#subsec-erranalysis-3 { counter-set: subsec-erranalysis-3 0; }
+#subsec-erranalysis-3 > li::marker { content: ""counter(subsec-erranalysis-3,lower-alpha)"."; }
+#subsec-erranalysis-3 > li { counter-increment: subsec-erranalysis-3; }
+#subsec-sigfig-2-6 { counter-set: subsec-sigfig-2-6 0; }
+#subsec-sigfig-2-6 > li::marker { content: ""counter(subsec-sigfig-2-6,lower-roman)"."; }
+#subsec-sigfig-2-6 > li { counter-increment: subsec-sigfig-2-6; }
+#subsubsec-rounding_off-6 { counter-set: subsubsec-rounding_off-6 0; }
+#subsubsec-rounding_off-6 > li::marker { content: ""counter(subsubsec-rounding_off-6,lower-roman)"."; }
+#subsubsec-rounding_off-6 > li { counter-increment: subsubsec-rounding_off-6; }
+#subsubsec-math_op_sig-2 { counter-set: subsubsec-math_op_sig-2 0; }
+#subsubsec-math_op_sig-2 > li::marker { content: ""counter(subsubsec-math_op_sig-2,upper-roman)"."; }
+#subsubsec-math_op_sig-2 > li { counter-increment: subsubsec-math_op_sig-2; }
+#sec_first-examples-2-1-1-1 { counter-set: sec_first-examples-2-1-1-1 0; }
+#sec_first-examples-2-1-1-1 > li::marker { content: ""counter(sec_first-examples-2-1-1-1,lower-alpha)"."; }
+#sec_first-examples-2-1-1-1 > li { counter-increment: sec_first-examples-2-1-1-1; }
+#sec_first-examples-2-2-1-1 { counter-set: sec_first-examples-2-2-1-1 0; }
+#sec_first-examples-2-2-1-1 > li::marker { content: ""counter(sec_first-examples-2-2-1-1,lower-alpha)"."; }
+#sec_first-examples-2-2-1-1 > li { counter-increment: sec_first-examples-2-2-1-1; }
+#ex_first-2-1-4 { counter-set: ex_first-2-1-4 0; }
+#ex_first-2-1-4 > li::marker { content: ""counter(ex_first-2-1-4,lower-alpha)"."; }
+#ex_first-2-1-4 > li { counter-increment: ex_first-2-1-4; }
+#ex_first-6-2 { counter-set: ex_first-6-2 0; }
+#ex_first-6-2 > li::marker { content: ""counter(ex_first-6-2,lower-alpha)"."; }
+#ex_first-6-2 > li { counter-increment: ex_first-6-2; }
+#ex_first-8-2 { counter-set: ex_first-8-2 0; }
+#ex_first-8-2 > li::marker { content: ""counter(ex_first-8-2,lower-alpha)"."; }
+#ex_first-8-2 > li { counter-increment: ex_first-8-2; }
+#ex_first-9-2 { counter-set: ex_first-9-2 0; }
+#ex_first-9-2 > li::marker { content: ""counter(ex_first-9-2,lower-alpha)"."; }
+#ex_first-9-2 > li { counter-increment: ex_first-9-2; }
+#sec_second-intro-2-3-20 { counter-set: sec_second-intro-2-3-20 0; }
+#sec_second-intro-2-3-20 > li::marker { content: ""counter(sec_second-intro-2-3-20,lower-roman)"."; }
+#sec_second-intro-2-3-20 > li { counter-increment: sec_second-intro-2-3-20; }
+#subsubsec-dot_product-5-2 { counter-set: subsubsec-dot_product-5-2 0; }
+#subsubsec-dot_product-5-2 > li::marker { content: ""counter(subsubsec-dot_product-5-2,decimal)"."; }
+#subsubsec-dot_product-5-2 > li { counter-increment: subsubsec-dot_product-5-2; }
+#subsubsec-cross_product-7-2-1 { counter-set: subsubsec-cross_product-7-2-1 0; }
+#subsubsec-cross_product-7-2-1 > li::marker { content: ""counter(subsubsec-cross_product-7-2-1,decimal)"."; }
+#subsubsec-cross_product-7-2-1 > li { counter-increment: subsubsec-cross_product-7-2-1; }
+#sec_second-examples-2-2-1-1 { counter-set: sec_second-examples-2-2-1-1 0; }
+#sec_second-examples-2-2-1-1 > li::marker { content: ""counter(sec_second-examples-2-2-1-1,lower-alpha)"."; }
+#sec_second-examples-2-2-1-1 > li { counter-increment: sec_second-examples-2-2-1-1; }
+#sec_second-examples-3-1-1-1 { counter-set: sec_second-examples-3-1-1-1 0; }
+#sec_second-examples-3-1-1-1 > li::marker { content: ""counter(sec_second-examples-3-1-1-1,lower-alpha)"."; }
+#sec_second-examples-3-1-1-1 > li { counter-increment: sec_second-examples-3-1-1-1; }
+#sec_second-examples-3-2-1-1 { counter-set: sec_second-examples-3-2-1-1 0; }
+#sec_second-examples-3-2-1-1 > li::marker { content: ""counter(sec_second-examples-3-2-1-1,lower-alpha)"."; }
+#sec_second-examples-3-2-1-1 > li { counter-increment: sec_second-examples-3-2-1-1; }
+#sec_second-examples-4-1-1-8 { counter-set: sec_second-examples-4-1-1-8 0; }
+#sec_second-examples-4-1-1-8 > li::marker { content: ""counter(sec_second-examples-4-1-1-8,lower-alpha)"."; }
+#sec_second-examples-4-1-1-8 > li { counter-increment: sec_second-examples-4-1-1-8; }
+#sec_second-examples-7-1-1-2 { counter-set: sec_second-examples-7-1-1-2 0; }
+#sec_second-examples-7-1-1-2 > li::marker { content: ""counter(sec_second-examples-7-1-1-2,upper-alpha)"."; }
+#sec_second-examples-7-1-1-2 > li { counter-increment: sec_second-examples-7-1-1-2; }
+#sec_second-examples-7-2-1-1 { counter-set: sec_second-examples-7-2-1-1 0; }
+#sec_second-examples-7-2-1-1 > li::marker { content: ""counter(sec_second-examples-7-2-1-1,upper-alpha)"."; }
+#sec_second-examples-7-2-1-1 > li { counter-increment: sec_second-examples-7-2-1-1; }
+#sec_second-examples-8-1-1-5 { counter-set: sec_second-examples-8-1-1-5 0; }
+#sec_second-examples-8-1-1-5 > li::marker { content: ""counter(sec_second-examples-8-1-1-5,lower-alpha)"."; }
+#sec_second-examples-8-1-1-5 > li { counter-increment: sec_second-examples-8-1-1-5; }
+#sec_second-examples-8-2-1-1 { counter-set: sec_second-examples-8-2-1-1 0; }
+#sec_second-examples-8-2-1-1 > li::marker { content: ""counter(sec_second-examples-8-2-1-1,lower-alpha)"."; }
+#sec_second-examples-8-2-1-1 > li { counter-increment: sec_second-examples-8-2-1-1; }
+#ex_second-8-1-3 { counter-set: ex_second-8-1-3 0; }
+#ex_second-8-1-3 > li::marker { content: ""counter(ex_second-8-1-3,lower-alpha)"."; }
+#ex_second-8-1-3 > li { counter-increment: ex_second-8-1-3; }
+#ex_second-10-1-1 { counter-set: ex_second-10-1-1 0; }
+#ex_second-10-1-1 > li::marker { content: ""counter(ex_second-10-1-1,lower-alpha)"."; }
+#ex_second-10-1-1 > li { counter-increment: ex_second-10-1-1; }
+#ex_second-11-1-5 { counter-set: ex_second-11-1-5 0; }
+#ex_second-11-1-5 > li::marker { content: "("counter(ex_second-11-1-5,lower-alpha)")"; }
+#ex_second-11-1-5 > li { counter-increment: ex_second-11-1-5; }
+#ex_second-14-1-7 { counter-set: ex_second-14-1-7 0; }
+#ex_second-14-1-7 > li::marker { content: ""counter(ex_second-14-1-7,lower-alpha)"."; }
+#ex_second-14-1-7 > li { counter-increment: ex_second-14-1-7; }
+#ex_second-15-1-3 { counter-set: ex_second-15-1-3 0; }
+#ex_second-15-1-3 > li::marker { content: ""counter(ex_second-15-1-3,lower-alpha)"."; }
+#ex_second-15-1-3 > li { counter-increment: ex_second-15-1-3; }
+#subsec-rule_solveMotion-2 { counter-set: subsec-rule_solveMotion-2 0; }
+#subsec-rule_solveMotion-2 > li::marker { content: ""counter(subsec-rule_solveMotion-2,lower-roman)"."; }
+#subsec-rule_solveMotion-2 > li { counter-increment: subsec-rule_solveMotion-2; }
+#subsec-rule_solveMotion-2-1-1-2 { counter-set: subsec-rule_solveMotion-2-1-1-2 0; }
+#subsec-rule_solveMotion-2-1-1-2 > li::marker { content: ""counter(subsec-rule_solveMotion-2-1-1-2,lower-alpha)"."; }
+#subsec-rule_solveMotion-2-1-1-2 > li { counter-increment: subsec-rule_solveMotion-2-1-1-2; }
+#subsec-rule_solveMotion-2-2-1-1 { counter-set: subsec-rule_solveMotion-2-2-1-1 0; }
+#subsec-rule_solveMotion-2-2-1-1 > li::marker { content: ""counter(subsec-rule_solveMotion-2-2-1-1,lower-alpha)"."; }
+#subsec-rule_solveMotion-2-2-1-1 > li { counter-increment: subsec-rule_solveMotion-2-2-1-1; }
+#sec_third-examplesA-2-1-1-2 { counter-set: sec_third-examplesA-2-1-1-2 0; }
+#sec_third-examplesA-2-1-1-2 > li::marker { content: ""counter(sec_third-examplesA-2-1-1-2,decimal)"."; }
+#sec_third-examplesA-2-1-1-2 > li { counter-increment: sec_third-examplesA-2-1-1-2; }
+#sec_third-examplesA-2-2-1 { counter-set: sec_third-examplesA-2-2-1 0; }
+#sec_third-examplesA-2-2-1 > li::marker { content: ""counter(sec_third-examplesA-2-2-1,decimal)"."; }
+#sec_third-examplesA-2-2-1 > li { counter-increment: sec_third-examplesA-2-2-1; }
+#sec_third-examplesA-3-1-1-4 { counter-set: sec_third-examplesA-3-1-1-4 0; }
+#sec_third-examplesA-3-1-1-4 > li::marker { content: ""counter(sec_third-examplesA-3-1-1-4,lower-alpha)"."; }
+#sec_third-examplesA-3-1-1-4 > li { counter-increment: sec_third-examplesA-3-1-1-4; }
+#sec_third-examplesA-3-2-1-1 { counter-set: sec_third-examplesA-3-2-1-1 0; }
+#sec_third-examplesA-3-2-1-1 > li::marker { content: ""counter(sec_third-examplesA-3-2-1-1,lower-alpha)"."; }
+#sec_third-examplesA-3-2-1-1 > li { counter-increment: sec_third-examplesA-3-2-1-1; }
+#sec_third-examplesA-4-1-1-3 { counter-set: sec_third-examplesA-4-1-1-3 0; }
+#sec_third-examplesA-4-1-1-3 > li::marker { content: ""counter(sec_third-examplesA-4-1-1-3,lower-alpha)"."; }
+#sec_third-examplesA-4-1-1-3 > li { counter-increment: sec_third-examplesA-4-1-1-3; }
+#sec_third-examplesA-4-2-2-1 { counter-set: sec_third-examplesA-4-2-2-1 0; }
+#sec_third-examplesA-4-2-2-1 > li::marker { content: ""counter(sec_third-examplesA-4-2-2-1,lower-alpha)"."; }
+#sec_third-examplesA-4-2-2-1 > li { counter-increment: sec_third-examplesA-4-2-2-1; }
+#sec_third-examplesA-5-1-1-2 { counter-set: sec_third-examplesA-5-1-1-2 0; }
+#sec_third-examplesA-5-1-1-2 > li::marker { content: ""counter(sec_third-examplesA-5-1-1-2,decimal)"."; }
+#sec_third-examplesA-5-1-1-2 > li { counter-increment: sec_third-examplesA-5-1-1-2; }
+#sec_third-examplesA-6-1-1-1 { counter-set: sec_third-examplesA-6-1-1-1 0; }
+#sec_third-examplesA-6-1-1-1 > li::marker { content: ""counter(sec_third-examplesA-6-1-1-1,lower-alpha)"."; }
+#sec_third-examplesA-6-1-1-1 > li { counter-increment: sec_third-examplesA-6-1-1-1; }
+#sec_third-examplesA-6-2-2-6 { counter-set: sec_third-examplesA-6-2-2-6 0; }
+#sec_third-examplesA-6-2-2-6 > li::marker { content: ""counter(sec_third-examplesA-6-2-2-6,lower-alpha)"."; }
+#sec_third-examplesA-6-2-2-6 > li { counter-increment: sec_third-examplesA-6-2-2-6; }
+#sec_third-examplesA-7-1-1-1 { counter-set: sec_third-examplesA-7-1-1-1 0; }
+#sec_third-examplesA-7-1-1-1 > li::marker { content: ""counter(sec_third-examplesA-7-1-1-1,lower-alpha)"."; }
+#sec_third-examplesA-7-1-1-1 > li { counter-increment: sec_third-examplesA-7-1-1-1; }
+#sec_third-examplesA-7-2-2 { counter-set: sec_third-examplesA-7-2-2 0; }
+#sec_third-examplesA-7-2-2 > li::marker { content: ""counter(sec_third-examplesA-7-2-2,lower-alpha)"."; }
+#sec_third-examplesA-7-2-2 > li { counter-increment: sec_third-examplesA-7-2-2; }
+#sec_third-examplesA-10-1-1-4 { counter-set: sec_third-examplesA-10-1-1-4 0; }
+#sec_third-examplesA-10-1-1-4 > li::marker { content: ""counter(sec_third-examplesA-10-1-1-4,lower-alpha)"."; }
+#sec_third-examplesA-10-1-1-4 > li { counter-increment: sec_third-examplesA-10-1-1-4; }
+#sec_third-examplesA-10-2-1 { counter-set: sec_third-examplesA-10-2-1 0; }
+#sec_third-examplesA-10-2-1 > li::marker { content: ""counter(sec_third-examplesA-10-2-1,lower-alpha)"."; }
+#sec_third-examplesA-10-2-1 > li { counter-increment: sec_third-examplesA-10-2-1; }
+#sec_third-examplesA-11-1-1-3 { counter-set: sec_third-examplesA-11-1-1-3 0; }
+#sec_third-examplesA-11-1-1-3 > li::marker { content: ""counter(sec_third-examplesA-11-1-1-3,lower-alpha)"."; }
+#sec_third-examplesA-11-1-1-3 > li { counter-increment: sec_third-examplesA-11-1-1-3; }
+#sec_third-examplesA-11-2-1-2 { counter-set: sec_third-examplesA-11-2-1-2 0; }
+#sec_third-examplesA-11-2-1-2 > li::marker { content: ""counter(sec_third-examplesA-11-2-1-2,lower-alpha)"."; }
+#sec_third-examplesA-11-2-1-2 > li { counter-increment: sec_third-examplesA-11-2-1-2; }
+#sec_third-examplesA-15-1-1-4 { counter-set: sec_third-examplesA-15-1-1-4 0; }
+#sec_third-examplesA-15-1-1-4 > li::marker { content: ""counter(sec_third-examplesA-15-1-1-4,lower-alpha)"."; }
+#sec_third-examplesA-15-1-1-4 > li { counter-increment: sec_third-examplesA-15-1-1-4; }
+#sec_third-examplesA-15-2-1-1 { counter-set: sec_third-examplesA-15-2-1-1 0; }
+#sec_third-examplesA-15-2-1-1 > li::marker { content: ""counter(sec_third-examplesA-15-2-1-1,lower-alpha)"."; }
+#sec_third-examplesA-15-2-1-1 > li { counter-increment: sec_third-examplesA-15-2-1-1; }
+#subsec-projtile_motion-3-1 { counter-set: subsec-projtile_motion-3-1 0; }
+#subsec-projtile_motion-3-1 > li::marker { content: ""counter(subsec-projtile_motion-3-1,decimal)"."; }
+#subsec-projtile_motion-3-1 > li { counter-increment: subsec-projtile_motion-3-1; }
+#sec_third-examplesB-2-1-1-5 { counter-set: sec_third-examplesB-2-1-1-5 0; }
+#sec_third-examplesB-2-1-1-5 > li::marker { content: ""counter(sec_third-examplesB-2-1-1-5,lower-alpha)"."; }
+#sec_third-examplesB-2-1-1-5 > li { counter-increment: sec_third-examplesB-2-1-1-5; }
+#sec_third-examplesB-2-2-1-2 { counter-set: sec_third-examplesB-2-2-1-2 0; }
+#sec_third-examplesB-2-2-1-2 > li::marker { content: ""counter(sec_third-examplesB-2-2-1-2,lower-alpha)"."; }
+#sec_third-examplesB-2-2-1-2 > li { counter-increment: sec_third-examplesB-2-2-1-2; }
+#sec_third-examplesB-3-1-1-5 { counter-set: sec_third-examplesB-3-1-1-5 0; }
+#sec_third-examplesB-3-1-1-5 > li::marker { content: ""counter(sec_third-examplesB-3-1-1-5,lower-alpha)"."; }
+#sec_third-examplesB-3-1-1-5 > li { counter-increment: sec_third-examplesB-3-1-1-5; }
+#sec_third-examplesB-3-2-1-1 { counter-set: sec_third-examplesB-3-2-1-1 0; }
+#sec_third-examplesB-3-2-1-1 > li::marker { content: ""counter(sec_third-examplesB-3-2-1-1,lower-alpha)"."; }
+#sec_third-examplesB-3-2-1-1 > li { counter-increment: sec_third-examplesB-3-2-1-1; }
+#sec_third-examplesB-4-1-1-2 { counter-set: sec_third-examplesB-4-1-1-2 0; }
+#sec_third-examplesB-4-1-1-2 > li::marker { content: ""counter(sec_third-examplesB-4-1-1-2,lower-alpha)"."; }
+#sec_third-examplesB-4-1-1-2 > li { counter-increment: sec_third-examplesB-4-1-1-2; }
+#sec_third-examplesB-4-2-1-6 { counter-set: sec_third-examplesB-4-2-1-6 0; }
+#sec_third-examplesB-4-2-1-6 > li::marker { content: ""counter(sec_third-examplesB-4-2-1-6,lower-alpha)"."; }
+#sec_third-examplesB-4-2-1-6 > li { counter-increment: sec_third-examplesB-4-2-1-6; }
+#sec_third-examplesB-5-1-1-3 { counter-set: sec_third-examplesB-5-1-1-3 0; }
+#sec_third-examplesB-5-1-1-3 > li::marker { content: ""counter(sec_third-examplesB-5-1-1-3,lower-alpha)"."; }
+#sec_third-examplesB-5-1-1-3 > li { counter-increment: sec_third-examplesB-5-1-1-3; }
+#sec_third-examplesB-5-2-1-1 { counter-set: sec_third-examplesB-5-2-1-1 0; }
+#sec_third-examplesB-5-2-1-1 > li::marker { content: ""counter(sec_third-examplesB-5-2-1-1,lower-alpha)"."; }
+#sec_third-examplesB-5-2-1-1 > li { counter-increment: sec_third-examplesB-5-2-1-1; }
+#sec_third-examplesB-6-1-1-2 { counter-set: sec_third-examplesB-6-1-1-2 0; }
+#sec_third-examplesB-6-1-1-2 > li::marker { content: ""counter(sec_third-examplesB-6-1-1-2,lower-alpha)"."; }
+#sec_third-examplesB-6-1-1-2 > li { counter-increment: sec_third-examplesB-6-1-1-2; }
+#sec_third-examplesB-6-2-1-1 { counter-set: sec_third-examplesB-6-2-1-1 0; }
+#sec_third-examplesB-6-2-1-1 > li::marker { content: ""counter(sec_third-examplesB-6-2-1-1,lower-alpha)"."; }
+#sec_third-examplesB-6-2-1-1 > li { counter-increment: sec_third-examplesB-6-2-1-1; }
+#sec_third-examplesB-7-1-1-3 { counter-set: sec_third-examplesB-7-1-1-3 0; }
+#sec_third-examplesB-7-1-1-3 > li::marker { content: ""counter(sec_third-examplesB-7-1-1-3,lower-alpha)"."; }
+#sec_third-examplesB-7-1-1-3 > li { counter-increment: sec_third-examplesB-7-1-1-3; }
+#sec_third-examplesB-7-2-2-1 { counter-set: sec_third-examplesB-7-2-2-1 0; }
+#sec_third-examplesB-7-2-2-1 > li::marker { content: ""counter(sec_third-examplesB-7-2-2-1,lower-alpha)"."; }
+#sec_third-examplesB-7-2-2-1 > li { counter-increment: sec_third-examplesB-7-2-2-1; }
+#sec_third-examplesB-11-1-1-1 { counter-set: sec_third-examplesB-11-1-1-1 0; }
+#sec_third-examplesB-11-1-1-1 > li::marker { content: ""counter(sec_third-examplesB-11-1-1-1,lower-alpha)"."; }
+#sec_third-examplesB-11-1-1-1 > li { counter-increment: sec_third-examplesB-11-1-1-1; }
+#sec_third-examplesB-11-2-2-1 { counter-set: sec_third-examplesB-11-2-2-1 0; }
+#sec_third-examplesB-11-2-2-1 > li::marker { content: ""counter(sec_third-examplesB-11-2-2-1,lower-alpha)"."; }
+#sec_third-examplesB-11-2-2-1 > li { counter-increment: sec_third-examplesB-11-2-2-1; }
+#sec_third-examplesB-12-1-1-3 { counter-set: sec_third-examplesB-12-1-1-3 0; }
+#sec_third-examplesB-12-1-1-3 > li::marker { content: ""counter(sec_third-examplesB-12-1-1-3,lower-alpha)"."; }
+#sec_third-examplesB-12-1-1-3 > li { counter-increment: sec_third-examplesB-12-1-1-3; }
+#sec_third-examplesB-12-2-2-1 { counter-set: sec_third-examplesB-12-2-2-1 0; }
+#sec_third-examplesB-12-2-2-1 > li::marker { content: ""counter(sec_third-examplesB-12-2-2-1,lower-alpha)"."; }
+#sec_third-examplesB-12-2-2-1 > li { counter-increment: sec_third-examplesB-12-2-2-1; }
+#ex_third-2-3-1-2 { counter-set: ex_third-2-3-1-2 0; }
+#ex_third-2-3-1-2 > li::marker { content: ""counter(ex_third-2-3-1-2,lower-alpha)"."; }
+#ex_third-2-3-1-2 > li { counter-increment: ex_third-2-3-1-2; }
+#ex_third-2-4-1-2 { counter-set: ex_third-2-4-1-2 0; }
+#ex_third-2-4-1-2 > li::marker { content: ""counter(ex_third-2-4-1-2,lower-alpha)"."; }
+#ex_third-2-4-1-2 > li { counter-increment: ex_third-2-4-1-2; }
+#ex_third-2-5-1-3 { counter-set: ex_third-2-5-1-3 0; }
+#ex_third-2-5-1-3 > li::marker { content: ""counter(ex_third-2-5-1-3,lower-alpha)"."; }
+#ex_third-2-5-1-3 > li { counter-increment: ex_third-2-5-1-3; }
+#ex_third-2-6-1-1 { counter-set: ex_third-2-6-1-1 0; }
+#ex_third-2-6-1-1 > li::marker { content: ""counter(ex_third-2-6-1-1,lower-alpha)"."; }
+#ex_third-2-6-1-1 > li { counter-increment: ex_third-2-6-1-1; }
+#ex_third-2-7-1-1 { counter-set: ex_third-2-7-1-1 0; }
+#ex_third-2-7-1-1 > li::marker { content: ""counter(ex_third-2-7-1-1,lower-alpha)"."; }
+#ex_third-2-7-1-1 > li { counter-increment: ex_third-2-7-1-1; }
+#ex_third-2-8-1-1 { counter-set: ex_third-2-8-1-1 0; }
+#ex_third-2-8-1-1 > li::marker { content: ""counter(ex_third-2-8-1-1,lower-alpha)"."; }
+#ex_third-2-8-1-1 > li { counter-increment: ex_third-2-8-1-1; }
+#ex_third-2-9-1-1 { counter-set: ex_third-2-9-1-1 0; }
+#ex_third-2-9-1-1 > li::marker { content: ""counter(ex_third-2-9-1-1,lower-alpha)"."; }
+#ex_third-2-9-1-1 > li { counter-increment: ex_third-2-9-1-1; }
+#ex_third-2-10-2 { counter-set: ex_third-2-10-2 0; }
+#ex_third-2-10-2 > li::marker { content: ""counter(ex_third-2-10-2,lower-alpha)"."; }
+#ex_third-2-10-2 > li { counter-increment: ex_third-2-10-2; }
+#ex_third-2-10-2-2-1-1 { counter-set: ex_third-2-10-2-2-1-1 0; }
+#ex_third-2-10-2-2-1-1 > li::marker { content: ""counter(ex_third-2-10-2-2-1-1,lower-roman)"."; }
+#ex_third-2-10-2-2-1-1 > li { counter-increment: ex_third-2-10-2-2-1-1; }
+#ex_third-2-11-1-3 { counter-set: ex_third-2-11-1-3 0; }
+#ex_third-2-11-1-3 > li::marker { content: ""counter(ex_third-2-11-1-3,lower-alpha)"."; }
+#ex_third-2-11-1-3 > li { counter-increment: ex_third-2-11-1-3; }
+#ex_third-2-14-1-3 { counter-set: ex_third-2-14-1-3 0; }
+#ex_third-2-14-1-3 > li::marker { content: ""counter(ex_third-2-14-1-3,lower-alpha)"."; }
+#ex_third-2-14-1-3 > li { counter-increment: ex_third-2-14-1-3; }
+#ex_third-2-21-1-2 { counter-set: ex_third-2-21-1-2 0; }
+#ex_third-2-21-1-2 > li::marker { content: ""counter(ex_third-2-21-1-2,lower-alpha)"."; }
+#ex_third-2-21-1-2 > li { counter-increment: ex_third-2-21-1-2; }
+#ex_third-3-2-1-4 { counter-set: ex_third-3-2-1-4 0; }
+#ex_third-3-2-1-4 > li::marker { content: ""counter(ex_third-3-2-1-4,lower-alpha)"."; }
+#ex_third-3-2-1-4 > li { counter-increment: ex_third-3-2-1-4; }
+#ex_third-3-3-1-1 { counter-set: ex_third-3-3-1-1 0; }
+#ex_third-3-3-1-1 > li::marker { content: ""counter(ex_third-3-3-1-1,lower-alpha)"."; }
+#ex_third-3-3-1-1 > li { counter-increment: ex_third-3-3-1-1; }
+#ex_third-3-4-1-1 { counter-set: ex_third-3-4-1-1 0; }
+#ex_third-3-4-1-1 > li::marker { content: ""counter(ex_third-3-4-1-1,lower-alpha)"."; }
+#ex_third-3-4-1-1 > li { counter-increment: ex_third-3-4-1-1; }
+#ex_third-3-5-1-2 { counter-set: ex_third-3-5-1-2 0; }
+#ex_third-3-5-1-2 > li::marker { content: ""counter(ex_third-3-5-1-2,lower-alpha)"."; }
+#ex_third-3-5-1-2 > li { counter-increment: ex_third-3-5-1-2; }
+#ex_third-3-9-1-2 { counter-set: ex_third-3-9-1-2 0; }
+#ex_third-3-9-1-2 > li::marker { content: ""counter(ex_third-3-9-1-2,lower-alpha)"."; }
+#ex_third-3-9-1-2 > li { counter-increment: ex_third-3-9-1-2; }
+#subsec-types_forces-2 { counter-set: subsec-types_forces-2 0; }
+#subsec-types_forces-2 > li::marker { content: ""counter(subsec-types_forces-2,decimal)"."; }
+#subsec-types_forces-2 > li { counter-increment: subsec-types_forces-2; }
+#subsec-Nlaw_motion-2 { counter-set: subsec-Nlaw_motion-2 0; }
+#subsec-Nlaw_motion-2 > li::marker { content: ""counter(subsec-Nlaw_motion-2,decimal)"."; }
+#subsec-Nlaw_motion-2 > li { counter-increment: subsec-Nlaw_motion-2; }
+#subsec-statics-2-1-1 { counter-set: subsec-statics-2-1-1 0; }
+#subsec-statics-2-1-1 > li::marker { content: ""counter(subsec-statics-2-1-1,lower-roman)"."; }
+#subsec-statics-2-1-1 > li { counter-increment: subsec-statics-2-1-1; }
+#subsubsec-state_eqlbrm-3 { counter-set: subsubsec-state_eqlbrm-3 0; }
+#subsubsec-state_eqlbrm-3 > li::marker { content: ""counter(subsubsec-state_eqlbrm-3,decimal)"."; }
+#subsubsec-state_eqlbrm-3 > li { counter-increment: subsubsec-state_eqlbrm-3; }
+#subsubsec-state_eqlbrm-3-2-1-2 { counter-set: subsubsec-state_eqlbrm-3-2-1-2 0; }
+#subsubsec-state_eqlbrm-3-2-1-2 > li::marker { content: ""counter(subsubsec-state_eqlbrm-3-2-1-2,lower-alpha)"."; }
+#subsubsec-state_eqlbrm-3-2-1-2 > li { counter-increment: subsubsec-state_eqlbrm-3-2-1-2; }
+#sec_fourth-examplesA-4-1-1-1 { counter-set: sec_fourth-examplesA-4-1-1-1 0; }
+#sec_fourth-examplesA-4-1-1-1 > li::marker { content: ""counter(sec_fourth-examplesA-4-1-1-1,lower-alpha)"."; }
+#sec_fourth-examplesA-4-1-1-1 > li { counter-increment: sec_fourth-examplesA-4-1-1-1; }
+#sec_fourth-examplesA-4-2-2-2 { counter-set: sec_fourth-examplesA-4-2-2-2 0; }
+#sec_fourth-examplesA-4-2-2-2 > li::marker { content: ""counter(sec_fourth-examplesA-4-2-2-2,lower-alpha)"."; }
+#sec_fourth-examplesA-4-2-2-2 > li { counter-increment: sec_fourth-examplesA-4-2-2-2; }
+#sec_fourth-transeql-2-2 { counter-set: sec_fourth-transeql-2-2 0; }
+#sec_fourth-transeql-2-2 > li::marker { content: ""counter(sec_fourth-transeql-2-2,decimal)"."; }
+#sec_fourth-transeql-2-2 > li { counter-increment: sec_fourth-transeql-2-2; }
+#sec_fourth-transeql-2-2-2-1-1 { counter-set: sec_fourth-transeql-2-2-2-1-1 0; }
+#sec_fourth-transeql-2-2-2-1-1 > li::marker { content: ""counter(sec_fourth-transeql-2-2-2-1-1,lower-alpha)"."; }
+#sec_fourth-transeql-2-2-2-1-1 > li { counter-increment: sec_fourth-transeql-2-2-2-1-1; }
+#sec_fourth-examplesB-2-1-1-2 { counter-set: sec_fourth-examplesB-2-1-1-2 0; }
+#sec_fourth-examplesB-2-1-1-2 > li::marker { content: ""counter(sec_fourth-examplesB-2-1-1-2,lower-alpha)"."; }
+#sec_fourth-examplesB-2-1-1-2 > li { counter-increment: sec_fourth-examplesB-2-1-1-2; }
+#sec_fourth-examplesB-2-2-2-11 { counter-set: sec_fourth-examplesB-2-2-2-11 0; }
+#sec_fourth-examplesB-2-2-2-11 > li::marker { content: ""counter(sec_fourth-examplesB-2-2-2-11,lower-alpha)"."; }
+#sec_fourth-examplesB-2-2-2-11 > li { counter-increment: sec_fourth-examplesB-2-2-2-11; }
+#sec_fourth-examplesC-2-1-1-3 { counter-set: sec_fourth-examplesC-2-1-1-3 0; }
+#sec_fourth-examplesC-2-1-1-3 > li::marker { content: ""counter(sec_fourth-examplesC-2-1-1-3,lower-alpha)"."; }
+#sec_fourth-examplesC-2-1-1-3 > li { counter-increment: sec_fourth-examplesC-2-1-1-3; }
+#sec_fourth-examplesC-2-2-3-1 { counter-set: sec_fourth-examplesC-2-2-3-1 0; }
+#sec_fourth-examplesC-2-2-3-1 > li::marker { content: ""counter(sec_fourth-examplesC-2-2-3-1,lower-alpha)"."; }
+#sec_fourth-examplesC-2-2-3-1 > li { counter-increment: sec_fourth-examplesC-2-2-3-1; }
+#sec_fourth-examplesC-3-1-1-9 { counter-set: sec_fourth-examplesC-3-1-1-9 0; }
+#sec_fourth-examplesC-3-1-1-9 > li::marker { content: ""counter(sec_fourth-examplesC-3-1-1-9,lower-alpha)"."; }
+#sec_fourth-examplesC-3-1-1-9 > li { counter-increment: sec_fourth-examplesC-3-1-1-9; }
+#sec_fourth-examplesC-4-1-1-2 { counter-set: sec_fourth-examplesC-4-1-1-2 0; }
+#sec_fourth-examplesC-4-1-1-2 > li::marker { content: ""counter(sec_fourth-examplesC-4-1-1-2,lower-alpha)"."; }
+#sec_fourth-examplesC-4-1-1-2 > li { counter-increment: sec_fourth-examplesC-4-1-1-2; }
+#sec_fourth-examplesC-4-2-2 { counter-set: sec_fourth-examplesC-4-2-2 0; }
+#sec_fourth-examplesC-4-2-2 > li::marker { content: ""counter(sec_fourth-examplesC-4-2-2,lower-alpha)"."; }
+#sec_fourth-examplesC-4-2-2 > li { counter-increment: sec_fourth-examplesC-4-2-2; }
+#sec_fourth-examplesD-3-1-1-1 { counter-set: sec_fourth-examplesD-3-1-1-1 0; }
+#sec_fourth-examplesD-3-1-1-1 > li::marker { content: ""counter(sec_fourth-examplesD-3-1-1-1,lower-alpha)"."; }
+#sec_fourth-examplesD-3-1-1-1 > li { counter-increment: sec_fourth-examplesD-3-1-1-1; }
+#sec_fourth-examplesD-3-2-1 { counter-set: sec_fourth-examplesD-3-2-1 0; }
+#sec_fourth-examplesD-3-2-1 > li::marker { content: ""counter(sec_fourth-examplesD-3-2-1,lower-alpha)"."; }
+#sec_fourth-examplesD-3-2-1 > li { counter-increment: sec_fourth-examplesD-3-2-1; }
+#sec_fourth-cm-2-5-2 { counter-set: sec_fourth-cm-2-5-2 0; }
+#sec_fourth-cm-2-5-2 > li::marker { content: ""counter(sec_fourth-cm-2-5-2,decimal)"."; }
+#sec_fourth-cm-2-5-2 > li { counter-increment: sec_fourth-cm-2-5-2; }
+#subsec-st_equlbrm-3 { counter-set: subsec-st_equlbrm-3 0; }
+#subsec-st_equlbrm-3 > li::marker { content: ""counter(subsec-st_equlbrm-3,decimal)"."; }
+#subsec-st_equlbrm-3 > li { counter-increment: subsec-st_equlbrm-3; }
+#sec_fourth-examplesE-3-4-2-1-1 { counter-set: sec_fourth-examplesE-3-4-2-1-1 0; }
+#sec_fourth-examplesE-3-4-2-1-1 > li::marker { content: ""counter(sec_fourth-examplesE-3-4-2-1-1,upper-alpha)"."; }
+#sec_fourth-examplesE-3-4-2-1-1 > li { counter-increment: sec_fourth-examplesE-3-4-2-1-1; }
+#sec_fourth-examplesE-3-6-1-1-6 { counter-set: sec_fourth-examplesE-3-6-1-1-6 0; }
+#sec_fourth-examplesE-3-6-1-1-6 > li::marker { content: ""counter(sec_fourth-examplesE-3-6-1-1-6,lower-alpha)"."; }
+#sec_fourth-examplesE-3-6-1-1-6 > li { counter-increment: sec_fourth-examplesE-3-6-1-1-6; }
+#ex_fourth-2-4-1-2 { counter-set: ex_fourth-2-4-1-2 0; }
+#ex_fourth-2-4-1-2 > li::marker { content: ""counter(ex_fourth-2-4-1-2,lower-alpha)"."; }
+#ex_fourth-2-4-1-2 > li { counter-increment: ex_fourth-2-4-1-2; }
+#ex_fourth-2-5-1-1 { counter-set: ex_fourth-2-5-1-1 0; }
+#ex_fourth-2-5-1-1 > li::marker { content: ""counter(ex_fourth-2-5-1-1,lower-alpha)"."; }
+#ex_fourth-2-5-1-1 > li { counter-increment: ex_fourth-2-5-1-1; }
+#ex_fourth-2-6-1-2 { counter-set: ex_fourth-2-6-1-2 0; }
+#ex_fourth-2-6-1-2 > li::marker { content: ""counter(ex_fourth-2-6-1-2,lower-alpha)"."; }
+#ex_fourth-2-6-1-2 > li { counter-increment: ex_fourth-2-6-1-2; }
+#ex_fourth-3-2-1-2 { counter-set: ex_fourth-3-2-1-2 0; }
+#ex_fourth-3-2-1-2 > li::marker { content: ""counter(ex_fourth-3-2-1-2,lower-alpha)"."; }
+#ex_fourth-3-2-1-2 > li { counter-increment: ex_fourth-3-2-1-2; }
+#ex_fourth-3-3-1-2 { counter-set: ex_fourth-3-3-1-2 0; }
+#ex_fourth-3-3-1-2 > li::marker { content: ""counter(ex_fourth-3-3-1-2,lower-alpha)"."; }
+#ex_fourth-3-3-1-2 > li { counter-increment: ex_fourth-3-3-1-2; }
+#ex_fourth-3-4-1-4 { counter-set: ex_fourth-3-4-1-4 0; }
+#ex_fourth-3-4-1-4 > li::marker { content: ""counter(ex_fourth-3-4-1-4,lower-alpha)"."; }
+#ex_fourth-3-4-1-4 > li { counter-increment: ex_fourth-3-4-1-4; }
+#ex_fourth-3-5-1-4 { counter-set: ex_fourth-3-5-1-4 0; }
+#ex_fourth-3-5-1-4 > li::marker { content: ""counter(ex_fourth-3-5-1-4,lower-alpha)"."; }
+#ex_fourth-3-5-1-4 > li { counter-increment: ex_fourth-3-5-1-4; }
+#ex_fourth-4-4-1-6 { counter-set: ex_fourth-4-4-1-6 0; }
+#ex_fourth-4-4-1-6 > li::marker { content: ""counter(ex_fourth-4-4-1-6,lower-alpha)"."; }
+#ex_fourth-4-4-1-6 > li { counter-increment: ex_fourth-4-4-1-6; }
+#ex_fourth-4-5-1-6 { counter-set: ex_fourth-4-5-1-6 0; }
+#ex_fourth-4-5-1-6 > li::marker { content: ""counter(ex_fourth-4-5-1-6,lower-alpha)"."; }
+#ex_fourth-4-5-1-6 > li { counter-increment: ex_fourth-4-5-1-6; }
+#ex_fourth-4-6-1-2 { counter-set: ex_fourth-4-6-1-2 0; }
+#ex_fourth-4-6-1-2 > li::marker { content: ""counter(ex_fourth-4-6-1-2,lower-alpha)"."; }
+#ex_fourth-4-6-1-2 > li { counter-increment: ex_fourth-4-6-1-2; }
+#ex_fourth-4-7-1-4 { counter-set: ex_fourth-4-7-1-4 0; }
+#ex_fourth-4-7-1-4 > li::marker { content: ""counter(ex_fourth-4-7-1-4,lower-alpha)"."; }
+#ex_fourth-4-7-1-4 > li { counter-increment: ex_fourth-4-7-1-4; }
+#ex_fourth-4-9-1-3 { counter-set: ex_fourth-4-9-1-3 0; }
+#ex_fourth-4-9-1-3 > li::marker { content: ""counter(ex_fourth-4-9-1-3,lower-alpha)"."; }
+#ex_fourth-4-9-1-3 > li { counter-increment: ex_fourth-4-9-1-3; }
+#ex_fourth-4-10-1-3 { counter-set: ex_fourth-4-10-1-3 0; }
+#ex_fourth-4-10-1-3 > li::marker { content: ""counter(ex_fourth-4-10-1-3,lower-alpha)"."; }
+#ex_fourth-4-10-1-3 > li { counter-increment: ex_fourth-4-10-1-3; }
+#ex_fourth-5-2-1-1 { counter-set: ex_fourth-5-2-1-1 0; }
+#ex_fourth-5-2-1-1 > li::marker { content: ""counter(ex_fourth-5-2-1-1,lower-alpha)"."; }
+#ex_fourth-5-2-1-1 > li { counter-increment: ex_fourth-5-2-1-1; }
+#ex_fourth-5-3-1-1 { counter-set: ex_fourth-5-3-1-1 0; }
+#ex_fourth-5-3-1-1 > li::marker { content: ""counter(ex_fourth-5-3-1-1,lower-alpha)"."; }
+#ex_fourth-5-3-1-1 > li { counter-increment: ex_fourth-5-3-1-1; }
+#ex_fourth-5-4-1-1 { counter-set: ex_fourth-5-4-1-1 0; }
+#ex_fourth-5-4-1-1 > li::marker { content: ""counter(ex_fourth-5-4-1-1,lower-alpha)"."; }
+#ex_fourth-5-4-1-1 > li { counter-increment: ex_fourth-5-4-1-1; }
+#ex_fourth-5-5-1-1 { counter-set: ex_fourth-5-5-1-1 0; }
+#ex_fourth-5-5-1-1 > li::marker { content: ""counter(ex_fourth-5-5-1-1,lower-alpha)"."; }
+#ex_fourth-5-5-1-1 > li { counter-increment: ex_fourth-5-5-1-1; }
+#ex_fourth-5-9-1-2 { counter-set: ex_fourth-5-9-1-2 0; }
+#ex_fourth-5-9-1-2 > li::marker { content: ""counter(ex_fourth-5-9-1-2,lower-alpha)"."; }
+#ex_fourth-5-9-1-2 > li { counter-increment: ex_fourth-5-9-1-2; }
+#ex_fourth-6-4-1-2 { counter-set: ex_fourth-6-4-1-2 0; }
+#ex_fourth-6-4-1-2 > li::marker { content: ""counter(ex_fourth-6-4-1-2,lower-alpha)"."; }
+#ex_fourth-6-4-1-2 > li { counter-increment: ex_fourth-6-4-1-2; }
+#ex_fourth-6-7-1-2 { counter-set: ex_fourth-6-7-1-2 0; }
+#ex_fourth-6-7-1-2 > li::marker { content: ""counter(ex_fourth-6-7-1-2,lower-alpha)"."; }
+#ex_fourth-6-7-1-2 > li { counter-increment: ex_fourth-6-7-1-2; }
+#ex_fourth-6-10-1-1 { counter-set: ex_fourth-6-10-1-1 0; }
+#ex_fourth-6-10-1-1 > li::marker { content: ""counter(ex_fourth-6-10-1-1,lower-alpha)"."; }
+#ex_fourth-6-10-1-1 > li { counter-increment: ex_fourth-6-10-1-1; }
+#ex_fourth-7-7-1 { counter-set: ex_fourth-7-7-1 0; }
+#ex_fourth-7-7-1 > li::marker { content: ""counter(ex_fourth-7-7-1,lower-alpha)"."; }
+#ex_fourth-7-7-1 > li { counter-increment: ex_fourth-7-7-1; }
+#ex_fourth-7-8-1-1 { counter-set: ex_fourth-7-8-1-1 0; }
+#ex_fourth-7-8-1-1 > li::marker { content: ""counter(ex_fourth-7-8-1-1,lower-alpha)"."; }
+#ex_fourth-7-8-1-1 > li { counter-increment: ex_fourth-7-8-1-1; }
+#ex_fourth-7-10-3 { counter-set: ex_fourth-7-10-3 0; }
+#ex_fourth-7-10-3 > li::marker { content: ""counter(ex_fourth-7-10-3,lower-alpha)"."; }
+#ex_fourth-7-10-3 > li { counter-increment: ex_fourth-7-10-3; }
+#ex_fourth-7-11-1-1 { counter-set: ex_fourth-7-11-1-1 0; }
+#ex_fourth-7-11-1-1 > li::marker { content: ""counter(ex_fourth-7-11-1-1,lower-alpha)"."; }
+#ex_fourth-7-11-1-1 > li { counter-increment: ex_fourth-7-11-1-1; }
+#ex_fourth-7-12-2 { counter-set: ex_fourth-7-12-2 0; }
+#ex_fourth-7-12-2 > li::marker { content: ""counter(ex_fourth-7-12-2,lower-alpha)"."; }
+#ex_fourth-7-12-2 > li { counter-increment: ex_fourth-7-12-2; }
+#ex_fourth-7-15-1-2 { counter-set: ex_fourth-7-15-1-2 0; }
+#ex_fourth-7-15-1-2 > li::marker { content: ""counter(ex_fourth-7-15-1-2,lower-alpha)"."; }
+#ex_fourth-7-15-1-2 > li { counter-increment: ex_fourth-7-15-1-2; }
+#subsubsec-pe-3 { counter-set: subsubsec-pe-3 0; }
+#subsubsec-pe-3 > li::marker { content: ""counter(subsubsec-pe-3,decimal)"."; }
+#subsubsec-pe-3 > li { counter-increment: subsubsec-pe-3; }
+#subsec-sm-6 { counter-set: subsec-sm-6 0; }
+#subsec-sm-6 > li::marker { content: ""counter(subsec-sm-6,upper-roman)"."; }
+#subsec-sm-6 > li { counter-increment: subsec-sm-6; }
+#subsubsec-pulley_type-3 { counter-set: subsubsec-pulley_type-3 0; }
+#subsubsec-pulley_type-3 > li::marker { content: ""counter(subsubsec-pulley_type-3,upper-roman)"."; }
+#subsubsec-pulley_type-3 > li { counter-increment: subsubsec-pulley_type-3; }
+#sec_fifth-examplesA-2-3-1-1-3 { counter-set: sec_fifth-examplesA-2-3-1-1-3 0; }
+#sec_fifth-examplesA-2-3-1-1-3 > li::marker { content: ""counter(sec_fifth-examplesA-2-3-1-1-3,lower-alpha)"."; }
+#sec_fifth-examplesA-2-3-1-1-3 > li { counter-increment: sec_fifth-examplesA-2-3-1-1-3; }
+#sec_fifth-examplesA-2-3-2-1-1 { counter-set: sec_fifth-examplesA-2-3-2-1-1 0; }
+#sec_fifth-examplesA-2-3-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-2-3-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-2-3-2-1-1 > li { counter-increment: sec_fifth-examplesA-2-3-2-1-1; }
+#sec_fifth-examplesA-2-4-1-1-5 { counter-set: sec_fifth-examplesA-2-4-1-1-5 0; }
+#sec_fifth-examplesA-2-4-1-1-5 > li::marker { content: ""counter(sec_fifth-examplesA-2-4-1-1-5,lower-alpha)"."; }
+#sec_fifth-examplesA-2-4-1-1-5 > li { counter-increment: sec_fifth-examplesA-2-4-1-1-5; }
+#sec_fifth-examplesA-2-4-2-1-1 { counter-set: sec_fifth-examplesA-2-4-2-1-1 0; }
+#sec_fifth-examplesA-2-4-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-2-4-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-2-4-2-1-1 > li { counter-increment: sec_fifth-examplesA-2-4-2-1-1; }
+#sec_fifth-examplesA-2-5-1-1-1 { counter-set: sec_fifth-examplesA-2-5-1-1-1 0; }
+#sec_fifth-examplesA-2-5-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-2-5-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-2-5-1-1-1 > li { counter-increment: sec_fifth-examplesA-2-5-1-1-1; }
+#sec_fifth-examplesA-2-5-2-2-1 { counter-set: sec_fifth-examplesA-2-5-2-2-1 0; }
+#sec_fifth-examplesA-2-5-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-2-5-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-2-5-2-2-1 > li { counter-increment: sec_fifth-examplesA-2-5-2-2-1; }
+#sec_fifth-examplesA-3-2-1-1-4 { counter-set: sec_fifth-examplesA-3-2-1-1-4 0; }
+#sec_fifth-examplesA-3-2-1-1-4 > li::marker { content: ""counter(sec_fifth-examplesA-3-2-1-1-4,lower-alpha)"."; }
+#sec_fifth-examplesA-3-2-1-1-4 > li { counter-increment: sec_fifth-examplesA-3-2-1-1-4; }
+#sec_fifth-examplesA-3-2-2-3 { counter-set: sec_fifth-examplesA-3-2-2-3 0; }
+#sec_fifth-examplesA-3-2-2-3 > li::marker { content: ""counter(sec_fifth-examplesA-3-2-2-3,lower-alpha)"."; }
+#sec_fifth-examplesA-3-2-2-3 > li { counter-increment: sec_fifth-examplesA-3-2-2-3; }
+#sec_fifth-examplesA-3-3-1-2-1 { counter-set: sec_fifth-examplesA-3-3-1-2-1 0; }
+#sec_fifth-examplesA-3-3-1-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-3-1-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-3-1-2-1 > li { counter-increment: sec_fifth-examplesA-3-3-1-2-1; }
+#sec_fifth-examplesA-3-3-2-2-1 { counter-set: sec_fifth-examplesA-3-3-2-2-1 0; }
+#sec_fifth-examplesA-3-3-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-3-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-3-2-2-1 > li { counter-increment: sec_fifth-examplesA-3-3-2-2-1; }
+#sec_fifth-examplesA-3-4-1-1-3 { counter-set: sec_fifth-examplesA-3-4-1-1-3 0; }
+#sec_fifth-examplesA-3-4-1-1-3 > li::marker { content: ""counter(sec_fifth-examplesA-3-4-1-1-3,lower-alpha)"."; }
+#sec_fifth-examplesA-3-4-1-1-3 > li { counter-increment: sec_fifth-examplesA-3-4-1-1-3; }
+#sec_fifth-examplesA-3-4-2-2 { counter-set: sec_fifth-examplesA-3-4-2-2 0; }
+#sec_fifth-examplesA-3-4-2-2 > li::marker { content: ""counter(sec_fifth-examplesA-3-4-2-2,lower-alpha)"."; }
+#sec_fifth-examplesA-3-4-2-2 > li { counter-increment: sec_fifth-examplesA-3-4-2-2; }
+#sec_fifth-examplesA-3-7-1-1-1 { counter-set: sec_fifth-examplesA-3-7-1-1-1 0; }
+#sec_fifth-examplesA-3-7-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-7-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-7-1-1-1 > li { counter-increment: sec_fifth-examplesA-3-7-1-1-1; }
+#sec_fifth-examplesA-3-7-2-3-1 { counter-set: sec_fifth-examplesA-3-7-2-3-1 0; }
+#sec_fifth-examplesA-3-7-2-3-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-7-2-3-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-7-2-3-1 > li { counter-increment: sec_fifth-examplesA-3-7-2-3-1; }
+#sec_fifth-examplesA-3-8-1-1-1 { counter-set: sec_fifth-examplesA-3-8-1-1-1 0; }
+#sec_fifth-examplesA-3-8-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-8-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-8-1-1-1 > li { counter-increment: sec_fifth-examplesA-3-8-1-1-1; }
+#sec_fifth-examplesA-3-8-2-2-1 { counter-set: sec_fifth-examplesA-3-8-2-2-1 0; }
+#sec_fifth-examplesA-3-8-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-8-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-8-2-2-1 > li { counter-increment: sec_fifth-examplesA-3-8-2-2-1; }
+#sec_fifth-examplesA-4-2-1-1-2 { counter-set: sec_fifth-examplesA-4-2-1-1-2 0; }
+#sec_fifth-examplesA-4-2-1-1-2 > li::marker { content: ""counter(sec_fifth-examplesA-4-2-1-1-2,lower-alpha)"."; }
+#sec_fifth-examplesA-4-2-1-1-2 > li { counter-increment: sec_fifth-examplesA-4-2-1-1-2; }
+#sec_fifth-examplesA-4-2-2-1-1 { counter-set: sec_fifth-examplesA-4-2-2-1-1 0; }
+#sec_fifth-examplesA-4-2-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-2-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-2-2-1-1 > li { counter-increment: sec_fifth-examplesA-4-2-2-1-1; }
+#sec_fifth-examplesA-4-3-1-1-2 { counter-set: sec_fifth-examplesA-4-3-1-1-2 0; }
+#sec_fifth-examplesA-4-3-1-1-2 > li::marker { content: ""counter(sec_fifth-examplesA-4-3-1-1-2,lower-alpha)"."; }
+#sec_fifth-examplesA-4-3-1-1-2 > li { counter-increment: sec_fifth-examplesA-4-3-1-1-2; }
+#sec_fifth-examplesA-4-3-2-1-1 { counter-set: sec_fifth-examplesA-4-3-2-1-1 0; }
+#sec_fifth-examplesA-4-3-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-3-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-3-2-1-1 > li { counter-increment: sec_fifth-examplesA-4-3-2-1-1; }
+#sec_fifth-examplesA-4-4-1-1-1 { counter-set: sec_fifth-examplesA-4-4-1-1-1 0; }
+#sec_fifth-examplesA-4-4-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-4-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-4-1-1-1 > li { counter-increment: sec_fifth-examplesA-4-4-1-1-1; }
+#sec_fifth-examplesA-4-4-2-2-1 { counter-set: sec_fifth-examplesA-4-4-2-2-1 0; }
+#sec_fifth-examplesA-4-4-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-4-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-4-2-2-1 > li { counter-increment: sec_fifth-examplesA-4-4-2-2-1; }
+#subsubsec-2d_col-2-1 { counter-set: subsubsec-2d_col-2-1 0; }
+#subsubsec-2d_col-2-1 > li::marker { content: ""counter(subsubsec-2d_col-2-1,lower-alpha)"."; }
+#subsubsec-2d_col-2-1 > li { counter-increment: subsubsec-2d_col-2-1; }
+#subsubsec-2d_col-5-1 { counter-set: subsubsec-2d_col-5-1 0; }
+#subsubsec-2d_col-5-1 > li::marker { content: ""counter(subsubsec-2d_col-5-1,lower-alpha)"."; }
+#subsubsec-2d_col-5-1 > li { counter-increment: subsubsec-2d_col-5-1; }
+#sec_fifth-examplesB-6-1-1-1 { counter-set: sec_fifth-examplesB-6-1-1-1 0; }
+#sec_fifth-examplesB-6-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-6-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-6-1-1-1 > li { counter-increment: sec_fifth-examplesB-6-1-1-1; }
+#sec_fifth-examplesB-6-2-1-1 { counter-set: sec_fifth-examplesB-6-2-1-1 0; }
+#sec_fifth-examplesB-6-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-6-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-6-2-1-1 > li { counter-increment: sec_fifth-examplesB-6-2-1-1; }
+#sec_fifth-examplesB-7-1-1-1 { counter-set: sec_fifth-examplesB-7-1-1-1 0; }
+#sec_fifth-examplesB-7-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-7-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-7-1-1-1 > li { counter-increment: sec_fifth-examplesB-7-1-1-1; }
+#sec_fifth-examplesB-7-2-3 { counter-set: sec_fifth-examplesB-7-2-3 0; }
+#sec_fifth-examplesB-7-2-3 > li::marker { content: ""counter(sec_fifth-examplesB-7-2-3,lower-alpha)"."; }
+#sec_fifth-examplesB-7-2-3 > li { counter-increment: sec_fifth-examplesB-7-2-3; }
+#sec_fifth-examplesB-7-2-6 { counter-set: sec_fifth-examplesB-7-2-6 0; }
+#sec_fifth-examplesB-7-2-6 > li::marker { content: ""counter(sec_fifth-examplesB-7-2-6,lower-alpha)"."; }
+#sec_fifth-examplesB-7-2-6 > li { counter-increment: sec_fifth-examplesB-7-2-6; }
+#sec_fifth-examplesB-7-2-9 { counter-set: sec_fifth-examplesB-7-2-9 0; }
+#sec_fifth-examplesB-7-2-9 > li::marker { content: ""counter(sec_fifth-examplesB-7-2-9,lower-alpha)"."; }
+#sec_fifth-examplesB-7-2-9 > li { counter-increment: sec_fifth-examplesB-7-2-9; }
+#sec_fifth-examplesB-8-1-1-1 { counter-set: sec_fifth-examplesB-8-1-1-1 0; }
+#sec_fifth-examplesB-8-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-8-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-8-1-1-1 > li { counter-increment: sec_fifth-examplesB-8-1-1-1; }
+#sec_fifth-examplesB-8-2-2-3 { counter-set: sec_fifth-examplesB-8-2-2-3 0; }
+#sec_fifth-examplesB-8-2-2-3 > li::marker { content: ""counter(sec_fifth-examplesB-8-2-2-3,lower-alpha)"."; }
+#sec_fifth-examplesB-8-2-2-3 > li { counter-increment: sec_fifth-examplesB-8-2-2-3; }
+#sec_fifth-examplesB-10-1-3-1 { counter-set: sec_fifth-examplesB-10-1-3-1 0; }
+#sec_fifth-examplesB-10-1-3-1 > li::marker { content: ""counter(sec_fifth-examplesB-10-1-3-1,lower-alpha)"."; }
+#sec_fifth-examplesB-10-1-3-1 > li { counter-increment: sec_fifth-examplesB-10-1-3-1; }
+#sec_fifth-examplesB-10-2-2-1 { counter-set: sec_fifth-examplesB-10-2-2-1 0; }
+#sec_fifth-examplesB-10-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesB-10-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesB-10-2-2-1 > li { counter-increment: sec_fifth-examplesB-10-2-2-1; }
+#sec_fifth-examplesB-11-1-1-2 { counter-set: sec_fifth-examplesB-11-1-1-2 0; }
+#sec_fifth-examplesB-11-1-1-2 > li::marker { content: ""counter(sec_fifth-examplesB-11-1-1-2,lower-alpha)"."; }
+#sec_fifth-examplesB-11-1-1-2 > li { counter-increment: sec_fifth-examplesB-11-1-1-2; }
+#sec_fifth-examplesB-11-2-2-4 { counter-set: sec_fifth-examplesB-11-2-2-4 0; }
+#sec_fifth-examplesB-11-2-2-4 > li::marker { content: ""counter(sec_fifth-examplesB-11-2-2-4,lower-alpha)"."; }
+#sec_fifth-examplesB-11-2-2-4 > li { counter-increment: sec_fifth-examplesB-11-2-2-4; }
+#sec_fifth-examplesB-12-1-1-5 { counter-set: sec_fifth-examplesB-12-1-1-5 0; }
+#sec_fifth-examplesB-12-1-1-5 > li::marker { content: ""counter(sec_fifth-examplesB-12-1-1-5,lower-alpha)"."; }
+#sec_fifth-examplesB-12-1-1-5 > li { counter-increment: sec_fifth-examplesB-12-1-1-5; }
+#sec_fifth-examplesB-12-2-2-1 { counter-set: sec_fifth-examplesB-12-2-2-1 0; }
+#sec_fifth-examplesB-12-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesB-12-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesB-12-2-2-1 > li { counter-increment: sec_fifth-examplesB-12-2-2-1; }
+#ex_fifth-2-4-1-5 { counter-set: ex_fifth-2-4-1-5 0; }
+#ex_fifth-2-4-1-5 > li::marker { content: ""counter(ex_fifth-2-4-1-5,lower-alpha)"."; }
+#ex_fifth-2-4-1-5 > li { counter-increment: ex_fifth-2-4-1-5; }
+#ex_fifth-2-6-1-2 { counter-set: ex_fifth-2-6-1-2 0; }
+#ex_fifth-2-6-1-2 > li::marker { content: ""counter(ex_fifth-2-6-1-2,lower-alpha)"."; }
+#ex_fifth-2-6-1-2 > li { counter-increment: ex_fifth-2-6-1-2; }
+#ex_fifth-2-7-1-2 { counter-set: ex_fifth-2-7-1-2 0; }
+#ex_fifth-2-7-1-2 > li::marker { content: ""counter(ex_fifth-2-7-1-2,lower-alpha)"."; }
+#ex_fifth-2-7-1-2 > li { counter-increment: ex_fifth-2-7-1-2; }
+#ex_fifth-3-2-1-1 { counter-set: ex_fifth-3-2-1-1 0; }
+#ex_fifth-3-2-1-1 > li::marker { content: ""counter(ex_fifth-3-2-1-1,lower-alpha)"."; }
+#ex_fifth-3-2-1-1 > li { counter-increment: ex_fifth-3-2-1-1; }
+#ex_fifth-3-3-1-1 { counter-set: ex_fifth-3-3-1-1 0; }
+#ex_fifth-3-3-1-1 > li::marker { content: ""counter(ex_fifth-3-3-1-1,lower-alpha)"."; }
+#ex_fifth-3-3-1-1 > li { counter-increment: ex_fifth-3-3-1-1; }
+#ex_fifth-3-4-1-1 { counter-set: ex_fifth-3-4-1-1 0; }
+#ex_fifth-3-4-1-1 > li::marker { content: ""counter(ex_fifth-3-4-1-1,lower-alpha)"."; }
+#ex_fifth-3-4-1-1 > li { counter-increment: ex_fifth-3-4-1-1; }
+#ex_fifth-3-5-1-1 { counter-set: ex_fifth-3-5-1-1 0; }
+#ex_fifth-3-5-1-1 > li::marker { content: ""counter(ex_fifth-3-5-1-1,lower-alpha)"."; }
+#ex_fifth-3-5-1-1 > li { counter-increment: ex_fifth-3-5-1-1; }
+#ex_fifth-3-6-1-1 { counter-set: ex_fifth-3-6-1-1 0; }
+#ex_fifth-3-6-1-1 > li::marker { content: ""counter(ex_fifth-3-6-1-1,lower-alpha)"."; }
+#ex_fifth-3-6-1-1 > li { counter-increment: ex_fifth-3-6-1-1; }
+#ex_fifth-3-7-1-1 { counter-set: ex_fifth-3-7-1-1 0; }
+#ex_fifth-3-7-1-1 > li::marker { content: ""counter(ex_fifth-3-7-1-1,upper-roman)"."; }
+#ex_fifth-3-7-1-1 > li { counter-increment: ex_fifth-3-7-1-1; }
+#ex_fifth-3-7-1-1-1-2 { counter-set: ex_fifth-3-7-1-1-1-2 0; }
+#ex_fifth-3-7-1-1-1-2 > li::marker { content: ""counter(ex_fifth-3-7-1-1-1-2,lower-alpha)"."; }
+#ex_fifth-3-7-1-1-1-2 > li { counter-increment: ex_fifth-3-7-1-1-1-2; }
+#ex_fifth-3-7-1-1-2-2 { counter-set: ex_fifth-3-7-1-1-2-2 0; }
+#ex_fifth-3-7-1-1-2-2 > li::marker { content: ""counter(ex_fifth-3-7-1-1-2-2,lower-alpha)"."; }
+#ex_fifth-3-7-1-1-2-2 > li { counter-increment: ex_fifth-3-7-1-1-2-2; }
+#ex_fifth-3-8-1-2 { counter-set: ex_fifth-3-8-1-2 0; }
+#ex_fifth-3-8-1-2 > li::marker { content: ""counter(ex_fifth-3-8-1-2,lower-alpha)"."; }
+#ex_fifth-3-8-1-2 > li { counter-increment: ex_fifth-3-8-1-2; }
+#ex_fifth-3-11-1-1 { counter-set: ex_fifth-3-11-1-1 0; }
+#ex_fifth-3-11-1-1 > li::marker { content: ""counter(ex_fifth-3-11-1-1,lower-alpha)"."; }
+#ex_fifth-3-11-1-1 > li { counter-increment: ex_fifth-3-11-1-1; }
+#ex_fifth-3-13-1-1 { counter-set: ex_fifth-3-13-1-1 0; }
+#ex_fifth-3-13-1-1 > li::marker { content: ""counter(ex_fifth-3-13-1-1,lower-alpha)"."; }
+#ex_fifth-3-13-1-1 > li { counter-increment: ex_fifth-3-13-1-1; }
+#ex_fifth-3-14-1-1 { counter-set: ex_fifth-3-14-1-1 0; }
+#ex_fifth-3-14-1-1 > li::marker { content: ""counter(ex_fifth-3-14-1-1,lower-alpha)"."; }
+#ex_fifth-3-14-1-1 > li { counter-increment: ex_fifth-3-14-1-1; }
+#ex_fifth-4-2-1-1 { counter-set: ex_fifth-4-2-1-1 0; }
+#ex_fifth-4-2-1-1 > li::marker { content: ""counter(ex_fifth-4-2-1-1,lower-alpha)"."; }
+#ex_fifth-4-2-1-1 > li { counter-increment: ex_fifth-4-2-1-1; }
+#ex_fifth-4-3-1-1 { counter-set: ex_fifth-4-3-1-1 0; }
+#ex_fifth-4-3-1-1 > li::marker { content: ""counter(ex_fifth-4-3-1-1,lower-alpha)"."; }
+#ex_fifth-4-3-1-1 > li { counter-increment: ex_fifth-4-3-1-1; }
+#ex_fifth-4-4-1-3 { counter-set: ex_fifth-4-4-1-3 0; }
+#ex_fifth-4-4-1-3 > li::marker { content: ""counter(ex_fifth-4-4-1-3,lower-alpha)"."; }
+#ex_fifth-4-4-1-3 > li { counter-increment: ex_fifth-4-4-1-3; }
+#ex_fifth-4-6-1-1 { counter-set: ex_fifth-4-6-1-1 0; }
+#ex_fifth-4-6-1-1 > li::marker { content: ""counter(ex_fifth-4-6-1-1,lower-alpha)"."; }
+#ex_fifth-4-6-1-1 > li { counter-increment: ex_fifth-4-6-1-1; }
+#ex_fifth-4-7-1-1 { counter-set: ex_fifth-4-7-1-1 0; }
+#ex_fifth-4-7-1-1 > li::marker { content: ""counter(ex_fifth-4-7-1-1,lower-alpha)"."; }
+#ex_fifth-4-7-1-1 > li { counter-increment: ex_fifth-4-7-1-1; }
+#ex_fifth-4-9-1-1 { counter-set: ex_fifth-4-9-1-1 0; }
+#ex_fifth-4-9-1-1 > li::marker { content: ""counter(ex_fifth-4-9-1-1,lower-alpha)"."; }
+#ex_fifth-4-9-1-1 > li { counter-increment: ex_fifth-4-9-1-1; }
+#ex_fifth-5-2-1-1 { counter-set: ex_fifth-5-2-1-1 0; }
+#ex_fifth-5-2-1-1 > li::marker { content: ""counter(ex_fifth-5-2-1-1,lower-alpha)"."; }
+#ex_fifth-5-2-1-1 > li { counter-increment: ex_fifth-5-2-1-1; }
+#ex_fifth-5-3-1-1 { counter-set: ex_fifth-5-3-1-1 0; }
+#ex_fifth-5-3-1-1 > li::marker { content: ""counter(ex_fifth-5-3-1-1,lower-alpha)"."; }
+#ex_fifth-5-3-1-1 > li { counter-increment: ex_fifth-5-3-1-1; }
+#ex_fifth-5-4-1-1 { counter-set: ex_fifth-5-4-1-1 0; }
+#ex_fifth-5-4-1-1 > li::marker { content: ""counter(ex_fifth-5-4-1-1,lower-alpha)"."; }
+#ex_fifth-5-4-1-1 > li { counter-increment: ex_fifth-5-4-1-1; }
+#ex_fifth-5-5-1-1 { counter-set: ex_fifth-5-5-1-1 0; }
+#ex_fifth-5-5-1-1 > li::marker { content: ""counter(ex_fifth-5-5-1-1,lower-alpha)"."; }
+#ex_fifth-5-5-1-1 > li { counter-increment: ex_fifth-5-5-1-1; }
+#ex_fifth-5-6-1-1 { counter-set: ex_fifth-5-6-1-1 0; }
+#ex_fifth-5-6-1-1 > li::marker { content: ""counter(ex_fifth-5-6-1-1,lower-alpha)"."; }
+#ex_fifth-5-6-1-1 > li { counter-increment: ex_fifth-5-6-1-1; }
+#ex_fifth-5-7-1-1 { counter-set: ex_fifth-5-7-1-1 0; }
+#ex_fifth-5-7-1-1 > li::marker { content: ""counter(ex_fifth-5-7-1-1,lower-alpha)"."; }
+#ex_fifth-5-7-1-1 > li { counter-increment: ex_fifth-5-7-1-1; }
+#ex_fifth-5-8-1-1 { counter-set: ex_fifth-5-8-1-1 0; }
+#ex_fifth-5-8-1-1 > li::marker { content: ""counter(ex_fifth-5-8-1-1,lower-alpha)"."; }
+#ex_fifth-5-8-1-1 > li { counter-increment: ex_fifth-5-8-1-1; }
+#ex_fifth-5-9-1-3 { counter-set: ex_fifth-5-9-1-3 0; }
+#ex_fifth-5-9-1-3 > li::marker { content: ""counter(ex_fifth-5-9-1-3,lower-alpha)"."; }
+#ex_fifth-5-9-1-3 > li { counter-increment: ex_fifth-5-9-1-3; }
+#ex_fifth-5-10-1-2 { counter-set: ex_fifth-5-10-1-2 0; }
+#ex_fifth-5-10-1-2 > li::marker { content: ""counter(ex_fifth-5-10-1-2,lower-alpha)"."; }
+#ex_fifth-5-10-1-2 > li { counter-increment: ex_fifth-5-10-1-2; }
+#ex_fifth-5-11-1-1 { counter-set: ex_fifth-5-11-1-1 0; }
+#ex_fifth-5-11-1-1 > li::marker { content: ""counter(ex_fifth-5-11-1-1,lower-alpha)"."; }
+#ex_fifth-5-11-1-1 > li { counter-increment: ex_fifth-5-11-1-1; }
+#ex_fifth-5-15-1-1 { counter-set: ex_fifth-5-15-1-1 0; }
+#ex_fifth-5-15-1-1 > li::marker { content: ""counter(ex_fifth-5-15-1-1,lower-alpha)"."; }
+#ex_fifth-5-15-1-1 > li { counter-increment: ex_fifth-5-15-1-1; }
+#ex_fifth-5-16-1-2 { counter-set: ex_fifth-5-16-1-2 0; }
+#ex_fifth-5-16-1-2 > li::marker { content: ""counter(ex_fifth-5-16-1-2,lower-alpha)"."; }
+#ex_fifth-5-16-1-2 > li { counter-increment: ex_fifth-5-16-1-2; }
+#sec_sixth-kepler-2-4-1 { counter-set: sec_sixth-kepler-2-4-1 0; }
+#sec_sixth-kepler-2-4-1 > li::marker { content: ""counter(sec_sixth-kepler-2-4-1,decimal)"."; }
+#sec_sixth-kepler-2-4-1 > li { counter-increment: sec_sixth-kepler-2-4-1; }
+#sec_sixth-examples-3-1-1-1 { counter-set: sec_sixth-examples-3-1-1-1 0; }
+#sec_sixth-examples-3-1-1-1 > li::marker { content: ""counter(sec_sixth-examples-3-1-1-1,lower-alpha)"."; }
+#sec_sixth-examples-3-1-1-1 > li { counter-increment: sec_sixth-examples-3-1-1-1; }
+#ex_sixth-2-1-2 { counter-set: ex_sixth-2-1-2 0; }
+#ex_sixth-2-1-2 > li::marker { content: ""counter(ex_sixth-2-1-2,lower-alpha)"."; }
+#ex_sixth-2-1-2 > li { counter-increment: ex_sixth-2-1-2; }
+#ex_sixth-3-1-1 { counter-set: ex_sixth-3-1-1 0; }
+#ex_sixth-3-1-1 > li::marker { content: ""counter(ex_sixth-3-1-1,lower-alpha)"."; }
+#ex_sixth-3-1-1 > li { counter-increment: ex_sixth-3-1-1; }
+#ex_sixth-6-1-1 { counter-set: ex_sixth-6-1-1 0; }
+#ex_sixth-6-1-1 > li::marker { content: ""counter(ex_sixth-6-1-1,lower-alpha)"."; }
+#ex_sixth-6-1-1 > li { counter-increment: ex_sixth-6-1-1; }
+#ex_sixth-7-1-1 { counter-set: ex_sixth-7-1-1 0; }
+#ex_sixth-7-1-1 > li::marker { content: ""counter(ex_sixth-7-1-1,lower-alpha)"."; }
+#ex_sixth-7-1-1 > li { counter-increment: ex_sixth-7-1-1; }
+#sec_seventh-examplesA-2-1-1-1 { counter-set: sec_seventh-examplesA-2-1-1-1 0; }
+#sec_seventh-examplesA-2-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesA-2-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesA-2-1-1-1 > li { counter-increment: sec_seventh-examplesA-2-1-1-1; }
+#sec_seventh-examplesA-2-2-2-2 { counter-set: sec_seventh-examplesA-2-2-2-2 0; }
+#sec_seventh-examplesA-2-2-2-2 > li::marker { content: ""counter(sec_seventh-examplesA-2-2-2-2,lower-alpha)"."; }
+#sec_seventh-examplesA-2-2-2-2 > li { counter-increment: sec_seventh-examplesA-2-2-2-2; }
+#sec_seventh-examplesA-4-1-1-1 { counter-set: sec_seventh-examplesA-4-1-1-1 0; }
+#sec_seventh-examplesA-4-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesA-4-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesA-4-1-1-1 > li { counter-increment: sec_seventh-examplesA-4-1-1-1; }
+#sec_seventh-examplesA-4-2-1-1 { counter-set: sec_seventh-examplesA-4-2-1-1 0; }
+#sec_seventh-examplesA-4-2-1-1 > li::marker { content: ""counter(sec_seventh-examplesA-4-2-1-1,lower-alpha)"."; }
+#sec_seventh-examplesA-4-2-1-1 > li { counter-increment: sec_seventh-examplesA-4-2-1-1; }
+#sec_seventh-examplesA-5-1-1-5 { counter-set: sec_seventh-examplesA-5-1-1-5 0; }
+#sec_seventh-examplesA-5-1-1-5 > li::marker { content: ""counter(sec_seventh-examplesA-5-1-1-5,lower-alpha)"."; }
+#sec_seventh-examplesA-5-1-1-5 > li { counter-increment: sec_seventh-examplesA-5-1-1-5; }
+#sec_seventh-examplesA-5-2-2-1 { counter-set: sec_seventh-examplesA-5-2-2-1 0; }
+#sec_seventh-examplesA-5-2-2-1 > li::marker { content: ""counter(sec_seventh-examplesA-5-2-2-1,lower-alpha)"."; }
+#sec_seventh-examplesA-5-2-2-1 > li { counter-increment: sec_seventh-examplesA-5-2-2-1; }
+#sec_seventh-examplesA-6-1-1-6 { counter-set: sec_seventh-examplesA-6-1-1-6 0; }
+#sec_seventh-examplesA-6-1-1-6 > li::marker { content: ""counter(sec_seventh-examplesA-6-1-1-6,lower-alpha)"."; }
+#sec_seventh-examplesA-6-1-1-6 > li { counter-increment: sec_seventh-examplesA-6-1-1-6; }
+#sec_seventh-examplesA-6-2-1-5 { counter-set: sec_seventh-examplesA-6-2-1-5 0; }
+#sec_seventh-examplesA-6-2-1-5 > li::marker { content: ""counter(sec_seventh-examplesA-6-2-1-5,lower-alpha)"."; }
+#sec_seventh-examplesA-6-2-1-5 > li { counter-increment: sec_seventh-examplesA-6-2-1-5; }
+#sec_seventh-examplesB-2-1-1-4 { counter-set: sec_seventh-examplesB-2-1-1-4 0; }
+#sec_seventh-examplesB-2-1-1-4 > li::marker { content: ""counter(sec_seventh-examplesB-2-1-1-4,lower-alpha)"."; }
+#sec_seventh-examplesB-2-1-1-4 > li { counter-increment: sec_seventh-examplesB-2-1-1-4; }
+#sec_seventh-examplesB-2-2-1-2 { counter-set: sec_seventh-examplesB-2-2-1-2 0; }
+#sec_seventh-examplesB-2-2-1-2 > li::marker { content: ""counter(sec_seventh-examplesB-2-2-1-2,lower-alpha)"."; }
+#sec_seventh-examplesB-2-2-1-2 > li { counter-increment: sec_seventh-examplesB-2-2-1-2; }
+#sec_seventh-examplesB-3-1-1-1 { counter-set: sec_seventh-examplesB-3-1-1-1 0; }
+#sec_seventh-examplesB-3-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-3-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-3-1-1-1 > li { counter-increment: sec_seventh-examplesB-3-1-1-1; }
+#sec_seventh-examplesB-3-2-1-4 { counter-set: sec_seventh-examplesB-3-2-1-4 0; }
+#sec_seventh-examplesB-3-2-1-4 > li::marker { content: ""counter(sec_seventh-examplesB-3-2-1-4,lower-alpha)"."; }
+#sec_seventh-examplesB-3-2-1-4 > li { counter-increment: sec_seventh-examplesB-3-2-1-4; }
+#sec_seventh-examplesB-4-1-1-3 { counter-set: sec_seventh-examplesB-4-1-1-3 0; }
+#sec_seventh-examplesB-4-1-1-3 > li::marker { content: ""counter(sec_seventh-examplesB-4-1-1-3,lower-alpha)"."; }
+#sec_seventh-examplesB-4-1-1-3 > li { counter-increment: sec_seventh-examplesB-4-1-1-3; }
+#sec_seventh-examplesB-4-2-1-1 { counter-set: sec_seventh-examplesB-4-2-1-1 0; }
+#sec_seventh-examplesB-4-2-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-4-2-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-4-2-1-1 > li { counter-increment: sec_seventh-examplesB-4-2-1-1; }
+#sec_seventh-examplesB-5-1-1-1 { counter-set: sec_seventh-examplesB-5-1-1-1 0; }
+#sec_seventh-examplesB-5-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-5-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-5-1-1-1 > li { counter-increment: sec_seventh-examplesB-5-1-1-1; }
+#sec_seventh-examplesB-5-2-2-4 { counter-set: sec_seventh-examplesB-5-2-2-4 0; }
+#sec_seventh-examplesB-5-2-2-4 > li::marker { content: ""counter(sec_seventh-examplesB-5-2-2-4,lower-alpha)"."; }
+#sec_seventh-examplesB-5-2-2-4 > li { counter-increment: sec_seventh-examplesB-5-2-2-4; }
+#sec_seventh-examplesB-9-1-1-1 { counter-set: sec_seventh-examplesB-9-1-1-1 0; }
+#sec_seventh-examplesB-9-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-9-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-9-1-1-1 > li { counter-increment: sec_seventh-examplesB-9-1-1-1; }
+#sec_seventh-examplesB-9-2-3-11 { counter-set: sec_seventh-examplesB-9-2-3-11 0; }
+#sec_seventh-examplesB-9-2-3-11 > li::marker { content: ""counter(sec_seventh-examplesB-9-2-3-11,lower-alpha)"."; }
+#sec_seventh-examplesB-9-2-3-11 > li { counter-increment: sec_seventh-examplesB-9-2-3-11; }
+#sec_seventh-examplesB-11-1-1-1 { counter-set: sec_seventh-examplesB-11-1-1-1 0; }
+#sec_seventh-examplesB-11-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-11-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-11-1-1-1 > li { counter-increment: sec_seventh-examplesB-11-1-1-1; }
+#sec_seventh-examplesB-11-2-2-6 { counter-set: sec_seventh-examplesB-11-2-2-6 0; }
+#sec_seventh-examplesB-11-2-2-6 > li::marker { content: ""counter(sec_seventh-examplesB-11-2-2-6,lower-alpha)"."; }
+#sec_seventh-examplesB-11-2-2-6 > li { counter-increment: sec_seventh-examplesB-11-2-2-6; }
+#sec_seventh-examplesB-17-1-1-4 { counter-set: sec_seventh-examplesB-17-1-1-4 0; }
+#sec_seventh-examplesB-17-1-1-4 > li::marker { content: ""counter(sec_seventh-examplesB-17-1-1-4,lower-alpha)"."; }
+#sec_seventh-examplesB-17-1-1-4 > li { counter-increment: sec_seventh-examplesB-17-1-1-4; }
+#sec_seventh-examplesB-17-2-1-15 { counter-set: sec_seventh-examplesB-17-2-1-15 0; }
+#sec_seventh-examplesB-17-2-1-15 > li::marker { content: ""counter(sec_seventh-examplesB-17-2-1-15,lower-alpha)"."; }
+#sec_seventh-examplesB-17-2-1-15 > li { counter-increment: sec_seventh-examplesB-17-2-1-15; }
+#subsec-shm-3-2-2 { counter-set: subsec-shm-3-2-2 0; }
+#subsec-shm-3-2-2 > li::marker { content: ""counter(subsec-shm-3-2-2,decimal)"."; }
+#subsec-shm-3-2-2 > li { counter-increment: subsec-shm-3-2-2; }
+#subsec-shm-3-4-1 { counter-set: subsec-shm-3-4-1 0; }
+#subsec-shm-3-4-1 > li::marker { content: ""counter(subsec-shm-3-4-1,decimal)"."; }
+#subsec-shm-3-4-1 > li { counter-increment: subsec-shm-3-4-1; }
+#sec_seventh-examplesC-2-1-1-2 { counter-set: sec_seventh-examplesC-2-1-1-2 0; }
+#sec_seventh-examplesC-2-1-1-2 > li::marker { content: ""counter(sec_seventh-examplesC-2-1-1-2,lower-alpha)"."; }
+#sec_seventh-examplesC-2-1-1-2 > li { counter-increment: sec_seventh-examplesC-2-1-1-2; }
+#sec_seventh-examplesC-2-2-2 { counter-set: sec_seventh-examplesC-2-2-2 0; }
+#sec_seventh-examplesC-2-2-2 > li::marker { content: ""counter(sec_seventh-examplesC-2-2-2,lower-alpha)"."; }
+#sec_seventh-examplesC-2-2-2 > li { counter-increment: sec_seventh-examplesC-2-2-2; }
+#sec_seventh-examplesC-4-1-1-2 { counter-set: sec_seventh-examplesC-4-1-1-2 0; }
+#sec_seventh-examplesC-4-1-1-2 > li::marker { content: ""counter(sec_seventh-examplesC-4-1-1-2,lower-alpha)"."; }
+#sec_seventh-examplesC-4-1-1-2 > li { counter-increment: sec_seventh-examplesC-4-1-1-2; }
+#sec_seventh-examplesC-4-2-1-7 { counter-set: sec_seventh-examplesC-4-2-1-7 0; }
+#sec_seventh-examplesC-4-2-1-7 > li::marker { content: ""counter(sec_seventh-examplesC-4-2-1-7,lower-alpha)"."; }
+#sec_seventh-examplesC-4-2-1-7 > li { counter-increment: sec_seventh-examplesC-4-2-1-7; }
+#ex_seventh-2-7-1-1 { counter-set: ex_seventh-2-7-1-1 0; }
+#ex_seventh-2-7-1-1 > li::marker { content: ""counter(ex_seventh-2-7-1-1,lower-alpha)"."; }
+#ex_seventh-2-7-1-1 > li { counter-increment: ex_seventh-2-7-1-1; }
+#ex_seventh-3-2-1-4 { counter-set: ex_seventh-3-2-1-4 0; }
+#ex_seventh-3-2-1-4 > li::marker { content: ""counter(ex_seventh-3-2-1-4,lower-alpha)"."; }
+#ex_seventh-3-2-1-4 > li { counter-increment: ex_seventh-3-2-1-4; }
+#ex_seventh-3-3-1-3 { counter-set: ex_seventh-3-3-1-3 0; }
+#ex_seventh-3-3-1-3 > li::marker { content: ""counter(ex_seventh-3-3-1-3,lower-alpha)"."; }
+#ex_seventh-3-3-1-3 > li { counter-increment: ex_seventh-3-3-1-3; }
+#ex_seventh-3-4-1-1 { counter-set: ex_seventh-3-4-1-1 0; }
+#ex_seventh-3-4-1-1 > li::marker { content: ""counter(ex_seventh-3-4-1-1,lower-alpha)"."; }
+#ex_seventh-3-4-1-1 > li { counter-increment: ex_seventh-3-4-1-1; }
+#ex_seventh-3-5-1-2 { counter-set: ex_seventh-3-5-1-2 0; }
+#ex_seventh-3-5-1-2 > li::marker { content: ""counter(ex_seventh-3-5-1-2,lower-alpha)"."; }
+#ex_seventh-3-5-1-2 > li { counter-increment: ex_seventh-3-5-1-2; }
+#ex_seventh-3-6-1-2 { counter-set: ex_seventh-3-6-1-2 0; }
+#ex_seventh-3-6-1-2 > li::marker { content: ""counter(ex_seventh-3-6-1-2,lower-alpha)"."; }
+#ex_seventh-3-6-1-2 > li { counter-increment: ex_seventh-3-6-1-2; }
+#ex_seventh-4-4-1-1 { counter-set: ex_seventh-4-4-1-1 0; }
+#ex_seventh-4-4-1-1 > li::marker { content: ""counter(ex_seventh-4-4-1-1,lower-alpha)"."; }
+#ex_seventh-4-4-1-1 > li { counter-increment: ex_seventh-4-4-1-1; }
+#ex_seventh-4-5-1-1 { counter-set: ex_seventh-4-5-1-1 0; }
+#ex_seventh-4-5-1-1 > li::marker { content: ""counter(ex_seventh-4-5-1-1,lower-alpha)"."; }
+#ex_seventh-4-5-1-1 > li { counter-increment: ex_seventh-4-5-1-1; }
+#ex_seventh-4-6-1-1 { counter-set: ex_seventh-4-6-1-1 0; }
+#ex_seventh-4-6-1-1 > li::marker { content: ""counter(ex_seventh-4-6-1-1,lower-alpha)"."; }
+#ex_seventh-4-6-1-1 > li { counter-increment: ex_seventh-4-6-1-1; }
+#ex_seventh-4-7-1-1 { counter-set: ex_seventh-4-7-1-1 0; }
+#ex_seventh-4-7-1-1 > li::marker { content: ""counter(ex_seventh-4-7-1-1,lower-alpha)"."; }
+#ex_seventh-4-7-1-1 > li { counter-increment: ex_seventh-4-7-1-1; }
+#sec_eighth-examplesA-2-1-1-2 { counter-set: sec_eighth-examplesA-2-1-1-2 0; }
+#sec_eighth-examplesA-2-1-1-2 > li::marker { content: ""counter(sec_eighth-examplesA-2-1-1-2,lower-alpha)"."; }
+#sec_eighth-examplesA-2-1-1-2 > li { counter-increment: sec_eighth-examplesA-2-1-1-2; }
+#sec_eighth-examplesA-2-2-2-1 { counter-set: sec_eighth-examplesA-2-2-2-1 0; }
+#sec_eighth-examplesA-2-2-2-1 > li::marker { content: ""counter(sec_eighth-examplesA-2-2-2-1,lower-alpha)"."; }
+#sec_eighth-examplesA-2-2-2-1 > li { counter-increment: sec_eighth-examplesA-2-2-2-1; }
+#ex_eighth-3-1-4 { counter-set: ex_eighth-3-1-4 0; }
+#ex_eighth-3-1-4 > li::marker { content: ""counter(ex_eighth-3-1-4,lower-alpha)"."; }
+#ex_eighth-3-1-4 > li { counter-increment: ex_eighth-3-1-4; }
+#ex_eighth-5-1-3 { counter-set: ex_eighth-5-1-3 0; }
+#ex_eighth-5-1-3 > li::marker { content: ""counter(ex_eighth-5-1-3,lower-alpha)"."; }
+#ex_eighth-5-1-3 > li { counter-increment: ex_eighth-5-1-3; }
+#ex_eighth-6-1-2 { counter-set: ex_eighth-6-1-2 0; }
+#ex_eighth-6-1-2 > li::marker { content: ""counter(ex_eighth-6-1-2,lower-alpha)"."; }
+#ex_eighth-6-1-2 > li { counter-increment: ex_eighth-6-1-2; }
+#ch_ninth-2-3 { counter-set: ch_ninth-2-3 0; }
+#ch_ninth-2-3 > li::marker { content: ""counter(ch_ninth-2-3,lower-roman)"."; }
+#ch_ninth-2-3 > li { counter-increment: ch_ninth-2-3; }
+#subsubsec-pres_mesrmnt-3 { counter-set: subsubsec-pres_mesrmnt-3 0; }
+#subsubsec-pres_mesrmnt-3 > li::marker { content: ""counter(subsubsec-pres_mesrmnt-3,lower-roman)"."; }
+#subsubsec-pres_mesrmnt-3 > li { counter-increment: subsubsec-pres_mesrmnt-3; }
+#subsec-archm_princp-7-1 { counter-set: subsec-archm_princp-7-1 0; }
+#subsec-archm_princp-7-1 > li::marker { content: ""counter(subsec-archm_princp-7-1,lower-roman)"."; }
+#subsec-archm_princp-7-1 > li { counter-increment: subsec-archm_princp-7-1; }
+#subsec-appl_bernl-2-1 { counter-set: subsec-appl_bernl-2-1 0; }
+#subsec-appl_bernl-2-1 > li::marker { content: ""counter(subsec-appl_bernl-2-1,lower-roman)"."; }
+#subsec-appl_bernl-2-1 > li { counter-increment: subsec-appl_bernl-2-1; }
+#sec_ninth-examplesA-5-1-1-1 { counter-set: sec_ninth-examplesA-5-1-1-1 0; }
+#sec_ninth-examplesA-5-1-1-1 > li::marker { content: ""counter(sec_ninth-examplesA-5-1-1-1,lower-alpha)"."; }
+#sec_ninth-examplesA-5-1-1-1 > li { counter-increment: sec_ninth-examplesA-5-1-1-1; }
+#sec_ninth-examplesA-5-2-2-1 { counter-set: sec_ninth-examplesA-5-2-2-1 0; }
+#sec_ninth-examplesA-5-2-2-1 > li::marker { content: ""counter(sec_ninth-examplesA-5-2-2-1,lower-alpha)"."; }
+#sec_ninth-examplesA-5-2-2-1 > li { counter-increment: sec_ninth-examplesA-5-2-2-1; }
+#sec_ninth-examplesA-7-1-1-1 { counter-set: sec_ninth-examplesA-7-1-1-1 0; }
+#sec_ninth-examplesA-7-1-1-1 > li::marker { content: ""counter(sec_ninth-examplesA-7-1-1-1,lower-alpha)"."; }
+#sec_ninth-examplesA-7-1-1-1 > li { counter-increment: sec_ninth-examplesA-7-1-1-1; }
+#sec_ninth-examplesA-7-2-1-3 { counter-set: sec_ninth-examplesA-7-2-1-3 0; }
+#sec_ninth-examplesA-7-2-1-3 > li::marker { content: ""counter(sec_ninth-examplesA-7-2-1-3,lower-alpha)"."; }
+#sec_ninth-examplesA-7-2-1-3 > li { counter-increment: sec_ninth-examplesA-7-2-1-3; }
+#sec_ninth-examplesA-11-1-1-3 { counter-set: sec_ninth-examplesA-11-1-1-3 0; }
+#sec_ninth-examplesA-11-1-1-3 > li::marker { content: ""counter(sec_ninth-examplesA-11-1-1-3,lower-alpha)"."; }
+#sec_ninth-examplesA-11-1-1-3 > li { counter-increment: sec_ninth-examplesA-11-1-1-3; }
+#sec_ninth-examplesA-11-2-4-1 { counter-set: sec_ninth-examplesA-11-2-4-1 0; }
+#sec_ninth-examplesA-11-2-4-1 > li::marker { content: ""counter(sec_ninth-examplesA-11-2-4-1,lower-alpha)"."; }
+#sec_ninth-examplesA-11-2-4-1 > li { counter-increment: sec_ninth-examplesA-11-2-4-1; }
+#subsec-coef_visc-4-1 { counter-set: subsec-coef_visc-4-1 0; }
+#subsec-coef_visc-4-1 > li::marker { content: ""counter(subsec-coef_visc-4-1,lower-roman)"."; }
+#subsec-coef_visc-4-1 > li { counter-increment: subsec-coef_visc-4-1; }
+#ex_ninth-2-2-1-2 { counter-set: ex_ninth-2-2-1-2 0; }
+#ex_ninth-2-2-1-2 > li::marker { content: ""counter(ex_ninth-2-2-1-2,lower-alpha)"."; }
+#ex_ninth-2-2-1-2 > li { counter-increment: ex_ninth-2-2-1-2; }
+#ex_ninth-2-3-1-1 { counter-set: ex_ninth-2-3-1-1 0; }
+#ex_ninth-2-3-1-1 > li::marker { content: ""counter(ex_ninth-2-3-1-1,lower-alpha)"."; }
+#ex_ninth-2-3-1-1 > li { counter-increment: ex_ninth-2-3-1-1; }
+#ex_ninth-2-4-1-2 { counter-set: ex_ninth-2-4-1-2 0; }
+#ex_ninth-2-4-1-2 > li::marker { content: ""counter(ex_ninth-2-4-1-2,lower-alpha)"."; }
+#ex_ninth-2-4-1-2 > li { counter-increment: ex_ninth-2-4-1-2; }
+#ex_ninth-2-9-1-1 { counter-set: ex_ninth-2-9-1-1 0; }
+#ex_ninth-2-9-1-1 > li::marker { content: ""counter(ex_ninth-2-9-1-1,lower-alpha)"."; }
+#ex_ninth-2-9-1-1 > li { counter-increment: ex_ninth-2-9-1-1; }
+#ex_ninth-4-3-1-1 { counter-set: ex_ninth-4-3-1-1 0; }
+#ex_ninth-4-3-1-1 > li::marker { content: ""counter(ex_ninth-4-3-1-1,lower-alpha)"."; }
+#ex_ninth-4-3-1-1 > li { counter-increment: ex_ninth-4-3-1-1; }
+#ex_ninth-4-6-1-3 { counter-set: ex_ninth-4-6-1-3 0; }
+#ex_ninth-4-6-1-3 > li::marker { content: ""counter(ex_ninth-4-6-1-3,lower-alpha)"."; }
+#ex_ninth-4-6-1-3 > li { counter-increment: ex_ninth-4-6-1-3; }
+#subsec-water_anom-2-11 { counter-set: subsec-water_anom-2-11 0; }
+#subsec-water_anom-2-11 > li::marker { content: ""counter(subsec-water_anom-2-11,lower-roman)"."; }
+#subsec-water_anom-2-11 > li { counter-increment: subsec-water_anom-2-11; }
+#subsec-heat_trans-2-1-1 { counter-set: subsec-heat_trans-2-1-1 0; }
+#subsec-heat_trans-2-1-1 > li::marker { content: ""counter(subsec-heat_trans-2-1-1,decimal)"."; }
+#subsec-heat_trans-2-1-1 > li { counter-increment: subsec-heat_trans-2-1-1; }
+#subsec-heat_trans-2-2-1 { counter-set: subsec-heat_trans-2-2-1 0; }
+#subsec-heat_trans-2-2-1 > li::marker { content: ""counter(subsec-heat_trans-2-2-1,decimal)"."; }
+#subsec-heat_trans-2-2-1 > li { counter-increment: subsec-heat_trans-2-2-1; }
+#sec_tenth-examplesA-2-2-1-1-1 { counter-set: sec_tenth-examplesA-2-2-1-1-1 0; }
+#sec_tenth-examplesA-2-2-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesA-2-2-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesA-2-2-1-1-1 > li { counter-increment: sec_tenth-examplesA-2-2-1-1-1; }
+#sec_tenth-examplesA-2-2-2-1-2 { counter-set: sec_tenth-examplesA-2-2-2-1-2 0; }
+#sec_tenth-examplesA-2-2-2-1-2 > li::marker { content: ""counter(sec_tenth-examplesA-2-2-2-1-2,lower-alpha)"."; }
+#sec_tenth-examplesA-2-2-2-1-2 > li { counter-increment: sec_tenth-examplesA-2-2-2-1-2; }
+#sec_tenth-examplesA-2-5-1-1-6 { counter-set: sec_tenth-examplesA-2-5-1-1-6 0; }
+#sec_tenth-examplesA-2-5-1-1-6 > li::marker { content: ""counter(sec_tenth-examplesA-2-5-1-1-6,lower-alpha)"."; }
+#sec_tenth-examplesA-2-5-1-1-6 > li { counter-increment: sec_tenth-examplesA-2-5-1-1-6; }
+#sec_tenth-examplesA-2-5-2-2-1 { counter-set: sec_tenth-examplesA-2-5-2-2-1 0; }
+#sec_tenth-examplesA-2-5-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesA-2-5-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesA-2-5-2-2-1 > li { counter-increment: sec_tenth-examplesA-2-5-2-2-1; }
+#sec_tenth-examplesA-3-3-1-1-3 { counter-set: sec_tenth-examplesA-3-3-1-1-3 0; }
+#sec_tenth-examplesA-3-3-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-3-3-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-3-3-1-1-3 > li { counter-increment: sec_tenth-examplesA-3-3-1-1-3; }
+#sec_tenth-examplesA-3-3-2-4-1 { counter-set: sec_tenth-examplesA-3-3-2-4-1 0; }
+#sec_tenth-examplesA-3-3-2-4-1 > li::marker { content: ""counter(sec_tenth-examplesA-3-3-2-4-1,lower-alpha)"."; }
+#sec_tenth-examplesA-3-3-2-4-1 > li { counter-increment: sec_tenth-examplesA-3-3-2-4-1; }
+#sec_tenth-examplesA-3-4-1-1-3 { counter-set: sec_tenth-examplesA-3-4-1-1-3 0; }
+#sec_tenth-examplesA-3-4-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-3-4-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-3-4-1-1-3 > li { counter-increment: sec_tenth-examplesA-3-4-1-1-3; }
+#sec_tenth-examplesA-3-4-2-1-5 { counter-set: sec_tenth-examplesA-3-4-2-1-5 0; }
+#sec_tenth-examplesA-3-4-2-1-5 > li::marker { content: ""counter(sec_tenth-examplesA-3-4-2-1-5,lower-alpha)"."; }
+#sec_tenth-examplesA-3-4-2-1-5 > li { counter-increment: sec_tenth-examplesA-3-4-2-1-5; }
+#sec_tenth-examplesA-3-6-1-1-5 { counter-set: sec_tenth-examplesA-3-6-1-1-5 0; }
+#sec_tenth-examplesA-3-6-1-1-5 > li::marker { content: ""counter(sec_tenth-examplesA-3-6-1-1-5,lower-alpha)"."; }
+#sec_tenth-examplesA-3-6-1-1-5 > li { counter-increment: sec_tenth-examplesA-3-6-1-1-5; }
+#sec_tenth-examplesA-3-6-2-1-5 { counter-set: sec_tenth-examplesA-3-6-2-1-5 0; }
+#sec_tenth-examplesA-3-6-2-1-5 > li::marker { content: ""counter(sec_tenth-examplesA-3-6-2-1-5,lower-alpha)"."; }
+#sec_tenth-examplesA-3-6-2-1-5 > li { counter-increment: sec_tenth-examplesA-3-6-2-1-5; }
+#sec_tenth-examplesA-4-3-1-1-3 { counter-set: sec_tenth-examplesA-4-3-1-1-3 0; }
+#sec_tenth-examplesA-4-3-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-4-3-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-4-3-1-1-3 > li { counter-increment: sec_tenth-examplesA-4-3-1-1-3; }
+#sec_tenth-examplesA-4-3-2-2-1 { counter-set: sec_tenth-examplesA-4-3-2-2-1 0; }
+#sec_tenth-examplesA-4-3-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesA-4-3-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesA-4-3-2-2-1 > li { counter-increment: sec_tenth-examplesA-4-3-2-2-1; }
+#sec_tenth-examplesA-4-4-1-1-6 { counter-set: sec_tenth-examplesA-4-4-1-1-6 0; }
+#sec_tenth-examplesA-4-4-1-1-6 > li::marker { content: ""counter(sec_tenth-examplesA-4-4-1-1-6,lower-alpha)"."; }
+#sec_tenth-examplesA-4-4-1-1-6 > li { counter-increment: sec_tenth-examplesA-4-4-1-1-6; }
+#sec_tenth-examplesA-4-4-2-2-1 { counter-set: sec_tenth-examplesA-4-4-2-2-1 0; }
+#sec_tenth-examplesA-4-4-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesA-4-4-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesA-4-4-2-2-1 > li { counter-increment: sec_tenth-examplesA-4-4-2-2-1; }
+#sec_tenth-examplesA-4-5-1-1-3 { counter-set: sec_tenth-examplesA-4-5-1-1-3 0; }
+#sec_tenth-examplesA-4-5-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-4-5-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-4-5-1-1-3 > li { counter-increment: sec_tenth-examplesA-4-5-1-1-3; }
+#sec_tenth-examplesA-4-5-2-1-4 { counter-set: sec_tenth-examplesA-4-5-2-1-4 0; }
+#sec_tenth-examplesA-4-5-2-1-4 > li::marker { content: ""counter(sec_tenth-examplesA-4-5-2-1-4,lower-alpha)"."; }
+#sec_tenth-examplesA-4-5-2-1-4 > li { counter-increment: sec_tenth-examplesA-4-5-2-1-4; }
+#sec_tenth-examplesA-4-6-1-1-3 { counter-set: sec_tenth-examplesA-4-6-1-1-3 0; }
+#sec_tenth-examplesA-4-6-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-4-6-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-4-6-1-1-3 > li { counter-increment: sec_tenth-examplesA-4-6-1-1-3; }
+#sec_tenth-examplesA-4-6-2-1-1 { counter-set: sec_tenth-examplesA-4-6-2-1-1 0; }
+#sec_tenth-examplesA-4-6-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesA-4-6-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesA-4-6-2-1-1 > li { counter-increment: sec_tenth-examplesA-4-6-2-1-1; }
+#sec_tenth-examplesA-4-8-1-1-3 { counter-set: sec_tenth-examplesA-4-8-1-1-3 0; }
+#sec_tenth-examplesA-4-8-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-4-8-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-4-8-1-1-3 > li { counter-increment: sec_tenth-examplesA-4-8-1-1-3; }
+#sec_tenth-examplesA-4-8-2-1-1 { counter-set: sec_tenth-examplesA-4-8-2-1-1 0; }
+#sec_tenth-examplesA-4-8-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesA-4-8-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesA-4-8-2-1-1 > li { counter-increment: sec_tenth-examplesA-4-8-2-1-1; }
+#sec_tenth-kt_gas-2-2-2 { counter-set: sec_tenth-kt_gas-2-2-2 0; }
+#sec_tenth-kt_gas-2-2-2 > li::marker { content: ""counter(sec_tenth-kt_gas-2-2-2,lower-roman)"."; }
+#sec_tenth-kt_gas-2-2-2 > li { counter-increment: sec_tenth-kt_gas-2-2-2; }
+#subsec-Ilaw_appl-2-1 { counter-set: subsec-Ilaw_appl-2-1 0; }
+#subsec-Ilaw_appl-2-1 > li::marker { content: ""counter(subsec-Ilaw_appl-2-1,upper-roman)"."; }
+#subsec-Ilaw_appl-2-1 > li { counter-increment: subsec-Ilaw_appl-2-1; }
+#subsubsec-entropy_incrs-2-1 { counter-set: subsubsec-entropy_incrs-2-1 0; }
+#subsubsec-entropy_incrs-2-1 > li::marker { content: ""counter(subsubsec-entropy_incrs-2-1,lower-roman)"."; }
+#subsubsec-entropy_incrs-2-1 > li { counter-increment: subsubsec-entropy_incrs-2-1; }
+#sec_tenth-examplesB-3-2-1-1-2 { counter-set: sec_tenth-examplesB-3-2-1-1-2 0; }
+#sec_tenth-examplesB-3-2-1-1-2 > li::marker { content: ""counter(sec_tenth-examplesB-3-2-1-1-2,lower-alpha)"."; }
+#sec_tenth-examplesB-3-2-1-1-2 > li { counter-increment: sec_tenth-examplesB-3-2-1-1-2; }
+#sec_tenth-examplesB-3-2-2-2-1 { counter-set: sec_tenth-examplesB-3-2-2-2-1 0; }
+#sec_tenth-examplesB-3-2-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-2-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-2-2-2-1 > li { counter-increment: sec_tenth-examplesB-3-2-2-2-1; }
+#sec_tenth-examplesB-3-3-1-1-1 { counter-set: sec_tenth-examplesB-3-3-1-1-1 0; }
+#sec_tenth-examplesB-3-3-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-3-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-3-1-1-1 > li { counter-increment: sec_tenth-examplesB-3-3-1-1-1; }
+#sec_tenth-examplesB-3-3-2-2-1 { counter-set: sec_tenth-examplesB-3-3-2-2-1 0; }
+#sec_tenth-examplesB-3-3-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-3-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-3-2-2-1 > li { counter-increment: sec_tenth-examplesB-3-3-2-2-1; }
+#sec_tenth-examplesB-3-4-1-1-2 { counter-set: sec_tenth-examplesB-3-4-1-1-2 0; }
+#sec_tenth-examplesB-3-4-1-1-2 > li::marker { content: ""counter(sec_tenth-examplesB-3-4-1-1-2,lower-alpha)"."; }
+#sec_tenth-examplesB-3-4-1-1-2 > li { counter-increment: sec_tenth-examplesB-3-4-1-1-2; }
+#sec_tenth-examplesB-3-4-2-2-1 { counter-set: sec_tenth-examplesB-3-4-2-2-1 0; }
+#sec_tenth-examplesB-3-4-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-4-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-4-2-2-1 > li { counter-increment: sec_tenth-examplesB-3-4-2-2-1; }
+#sec_tenth-examplesB-3-6-1-1-1 { counter-set: sec_tenth-examplesB-3-6-1-1-1 0; }
+#sec_tenth-examplesB-3-6-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-6-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-6-1-1-1 > li { counter-increment: sec_tenth-examplesB-3-6-1-1-1; }
+#sec_tenth-examplesB-3-6-2-1-2 { counter-set: sec_tenth-examplesB-3-6-2-1-2 0; }
+#sec_tenth-examplesB-3-6-2-1-2 > li::marker { content: ""counter(sec_tenth-examplesB-3-6-2-1-2,lower-alpha)"."; }
+#sec_tenth-examplesB-3-6-2-1-2 > li { counter-increment: sec_tenth-examplesB-3-6-2-1-2; }
+#sec_tenth-examplesB-4-2-1-1-1 { counter-set: sec_tenth-examplesB-4-2-1-1-1 0; }
+#sec_tenth-examplesB-4-2-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-2-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-2-1-1-1 > li { counter-increment: sec_tenth-examplesB-4-2-1-1-1; }
+#sec_tenth-examplesB-4-2-2-2-1 { counter-set: sec_tenth-examplesB-4-2-2-2-1 0; }
+#sec_tenth-examplesB-4-2-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-2-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-2-2-2-1 > li { counter-increment: sec_tenth-examplesB-4-2-2-2-1; }
+#sec_tenth-examplesB-4-3-1-1-3 { counter-set: sec_tenth-examplesB-4-3-1-1-3 0; }
+#sec_tenth-examplesB-4-3-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesB-4-3-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesB-4-3-1-1-3 > li { counter-increment: sec_tenth-examplesB-4-3-1-1-3; }
+#sec_tenth-examplesB-4-3-2-1-1 { counter-set: sec_tenth-examplesB-4-3-2-1-1 0; }
+#sec_tenth-examplesB-4-3-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-3-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-3-2-1-1 > li { counter-increment: sec_tenth-examplesB-4-3-2-1-1; }
+#sec_tenth-examplesB-4-4-1-1-3 { counter-set: sec_tenth-examplesB-4-4-1-1-3 0; }
+#sec_tenth-examplesB-4-4-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesB-4-4-1-1-3,lower-roman)"."; }
+#sec_tenth-examplesB-4-4-1-1-3 > li { counter-increment: sec_tenth-examplesB-4-4-1-1-3; }
+#sec_tenth-examplesB-4-4-2-1-1 { counter-set: sec_tenth-examplesB-4-4-2-1-1 0; }
+#sec_tenth-examplesB-4-4-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-4-2-1-1,lower-roman)"."; }
+#sec_tenth-examplesB-4-4-2-1-1 > li { counter-increment: sec_tenth-examplesB-4-4-2-1-1; }
+#sec_tenth-examplesB-4-6-1-1-1 { counter-set: sec_tenth-examplesB-4-6-1-1-1 0; }
+#sec_tenth-examplesB-4-6-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-6-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-6-1-1-1 > li { counter-increment: sec_tenth-examplesB-4-6-1-1-1; }
+#sec_tenth-examplesB-4-6-2-1-1 { counter-set: sec_tenth-examplesB-4-6-2-1-1 0; }
+#sec_tenth-examplesB-4-6-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-6-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-6-2-1-1 > li { counter-increment: sec_tenth-examplesB-4-6-2-1-1; }
+#sec_tenth-examplesB-4-8-1-1-3 { counter-set: sec_tenth-examplesB-4-8-1-1-3 0; }
+#sec_tenth-examplesB-4-8-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesB-4-8-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesB-4-8-1-1-3 > li { counter-increment: sec_tenth-examplesB-4-8-1-1-3; }
+#sec_tenth-examplesB-4-8-2-1-1 { counter-set: sec_tenth-examplesB-4-8-2-1-1 0; }
+#sec_tenth-examplesB-4-8-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-8-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-8-2-1-1 > li { counter-increment: sec_tenth-examplesB-4-8-2-1-1; }
+#sec_tenth-examplesB-5-3-1-1-5 { counter-set: sec_tenth-examplesB-5-3-1-1-5 0; }
+#sec_tenth-examplesB-5-3-1-1-5 > li::marker { content: ""counter(sec_tenth-examplesB-5-3-1-1-5,lower-alpha)"."; }
+#sec_tenth-examplesB-5-3-1-1-5 > li { counter-increment: sec_tenth-examplesB-5-3-1-1-5; }
+#sec_tenth-examplesB-5-3-2-2-1 { counter-set: sec_tenth-examplesB-5-3-2-2-1 0; }
+#sec_tenth-examplesB-5-3-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-5-3-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-5-3-2-2-1 > li { counter-increment: sec_tenth-examplesB-5-3-2-2-1; }
+#sec_tenth-examplesB-5-4-1-1-4 { counter-set: sec_tenth-examplesB-5-4-1-1-4 0; }
+#sec_tenth-examplesB-5-4-1-1-4 > li::marker { content: ""counter(sec_tenth-examplesB-5-4-1-1-4,lower-alpha)"."; }
+#sec_tenth-examplesB-5-4-1-1-4 > li { counter-increment: sec_tenth-examplesB-5-4-1-1-4; }
+#sec_tenth-examplesB-5-4-2-1-1 { counter-set: sec_tenth-examplesB-5-4-2-1-1 0; }
+#sec_tenth-examplesB-5-4-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-5-4-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-5-4-2-1-1 > li { counter-increment: sec_tenth-examplesB-5-4-2-1-1; }
+#sec_tenth-examplesB-5-5-2-1-1 { counter-set: sec_tenth-examplesB-5-5-2-1-1 0; }
+#sec_tenth-examplesB-5-5-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-5-5-2-1-1,lower-roman)"."; }
+#sec_tenth-examplesB-5-5-2-1-1 > li { counter-increment: sec_tenth-examplesB-5-5-2-1-1; }
+#ex_tenth-2-2-1-1 { counter-set: ex_tenth-2-2-1-1 0; }
+#ex_tenth-2-2-1-1 > li::marker { content: ""counter(ex_tenth-2-2-1-1,lower-alpha)"."; }
+#ex_tenth-2-2-1-1 > li { counter-increment: ex_tenth-2-2-1-1; }
+#ex_tenth-2-5-1-4 { counter-set: ex_tenth-2-5-1-4 0; }
+#ex_tenth-2-5-1-4 > li::marker { content: ""counter(ex_tenth-2-5-1-4,lower-alpha)"."; }
+#ex_tenth-2-5-1-4 > li { counter-increment: ex_tenth-2-5-1-4; }
+#ex_tenth-2-6-1-9 { counter-set: ex_tenth-2-6-1-9 0; }
+#ex_tenth-2-6-1-9 > li::marker { content: ""counter(ex_tenth-2-6-1-9,lower-alpha)"."; }
+#ex_tenth-2-6-1-9 > li { counter-increment: ex_tenth-2-6-1-9; }
+#ex_tenth-3-4-1-3 { counter-set: ex_tenth-3-4-1-3 0; }
+#ex_tenth-3-4-1-3 > li::marker { content: ""counter(ex_tenth-3-4-1-3,lower-alpha)"."; }
+#ex_tenth-3-4-1-3 > li { counter-increment: ex_tenth-3-4-1-3; }
+#ex_tenth-3-5-1-1 { counter-set: ex_tenth-3-5-1-1 0; }
+#ex_tenth-3-5-1-1 > li::marker { content: ""counter(ex_tenth-3-5-1-1,lower-alpha)"."; }
+#ex_tenth-3-5-1-1 > li { counter-increment: ex_tenth-3-5-1-1; }
+#ex_tenth-4-2-1-5 { counter-set: ex_tenth-4-2-1-5 0; }
+#ex_tenth-4-2-1-5 > li::marker { content: ""counter(ex_tenth-4-2-1-5,lower-alpha)"."; }
+#ex_tenth-4-2-1-5 > li { counter-increment: ex_tenth-4-2-1-5; }
+#ex_tenth-4-3-1-3 { counter-set: ex_tenth-4-3-1-3 0; }
+#ex_tenth-4-3-1-3 > li::marker { content: ""counter(ex_tenth-4-3-1-3,lower-alpha)"."; }
+#ex_tenth-4-3-1-3 > li { counter-increment: ex_tenth-4-3-1-3; }
+#ex_tenth-4-4-1-3 { counter-set: ex_tenth-4-4-1-3 0; }
+#ex_tenth-4-4-1-3 > li::marker { content: ""counter(ex_tenth-4-4-1-3,lower-alpha)"."; }
+#ex_tenth-4-4-1-3 > li { counter-increment: ex_tenth-4-4-1-3; }
+#ex_tenth-4-5-1-4 { counter-set: ex_tenth-4-5-1-4 0; }
+#ex_tenth-4-5-1-4 > li::marker { content: ""counter(ex_tenth-4-5-1-4,lower-alpha)"."; }
+#ex_tenth-4-5-1-4 > li { counter-increment: ex_tenth-4-5-1-4; }
+#ex_tenth-4-6-1-2 { counter-set: ex_tenth-4-6-1-2 0; }
+#ex_tenth-4-6-1-2 > li::marker { content: ""counter(ex_tenth-4-6-1-2,lower-alpha)"."; }
+#ex_tenth-4-6-1-2 > li { counter-increment: ex_tenth-4-6-1-2; }
+#ex_tenth-5-4-1-6 { counter-set: ex_tenth-5-4-1-6 0; }
+#ex_tenth-5-4-1-6 > li::marker { content: ""counter(ex_tenth-5-4-1-6,lower-alpha)"."; }
+#ex_tenth-5-4-1-6 > li { counter-increment: ex_tenth-5-4-1-6; }
+#ex_tenth-6-2-1-2 { counter-set: ex_tenth-6-2-1-2 0; }
+#ex_tenth-6-2-1-2 > li::marker { content: ""counter(ex_tenth-6-2-1-2,lower-alpha)"."; }
+#ex_tenth-6-2-1-2 > li { counter-increment: ex_tenth-6-2-1-2; }
+#ex_tenth-6-3-1-2 { counter-set: ex_tenth-6-3-1-2 0; }
+#ex_tenth-6-3-1-2 > li::marker { content: ""counter(ex_tenth-6-3-1-2,lower-alpha)"."; }
+#ex_tenth-6-3-1-2 > li { counter-increment: ex_tenth-6-3-1-2; }
+#ex_tenth-6-4-1-3 { counter-set: ex_tenth-6-4-1-3 0; }
+#ex_tenth-6-4-1-3 > li::marker { content: ""counter(ex_tenth-6-4-1-3,lower-alpha)"."; }
+#ex_tenth-6-4-1-3 > li { counter-increment: ex_tenth-6-4-1-3; }
+#ex_tenth-6-5-1-1 { counter-set: ex_tenth-6-5-1-1 0; }
+#ex_tenth-6-5-1-1 > li::marker { content: ""counter(ex_tenth-6-5-1-1,lower-alpha)"."; }
+#ex_tenth-6-5-1-1 > li { counter-increment: ex_tenth-6-5-1-1; }
+#ex_tenth-7-7-1-9 { counter-set: ex_tenth-7-7-1-9 0; }
+#ex_tenth-7-7-1-9 > li::marker { content: ""counter(ex_tenth-7-7-1-9,lower-alpha)"."; }
+#ex_tenth-7-7-1-9 > li { counter-increment: ex_tenth-7-7-1-9; }
+#ex_tenth-8-5-1-1 { counter-set: ex_tenth-8-5-1-1 0; }
+#ex_tenth-8-5-1-1 > li::marker { content: ""counter(ex_tenth-8-5-1-1,lower-alpha)"."; }
+#ex_tenth-8-5-1-1 > li { counter-increment: ex_tenth-8-5-1-1; }
+#ex_tenth-8-6-1-1 { counter-set: ex_tenth-8-6-1-1 0; }
+#ex_tenth-8-6-1-1 > li::marker { content: ""counter(ex_tenth-8-6-1-1,lower-alpha)"."; }
+#ex_tenth-8-6-1-1 > li { counter-increment: ex_tenth-8-6-1-1; }
+#ex_tenth-8-8-1-1 { counter-set: ex_tenth-8-8-1-1 0; }
+#ex_tenth-8-8-1-1 > li::marker { content: ""counter(ex_tenth-8-8-1-1,lower-alpha)"."; }
+#ex_tenth-8-8-1-1 > li { counter-increment: ex_tenth-8-8-1-1; }
+#append_math-2 { counter-set: append_math-2 0; }
+#append_math-2 > li::marker { content: ""counter(append_math-2,upper-roman)"."; }
+#append_math-2 > li { counter-increment: append_math-2; }
+#append_math-2-1-1-2 { counter-set: append_math-2-1-1-2 0; }
+#append_math-2-1-1-2 > li::marker { content: ""counter(append_math-2-1-1-2,lower-alpha)"."; }
+#append_math-2-1-1-2 > li { counter-increment: append_math-2-1-1-2; }
+#append_math-2-2-1-2 { counter-set: append_math-2-2-1-2 0; }
+#append_math-2-2-1-2 > li::marker { content: ""counter(append_math-2-2-1-2,lower-alpha)"."; }
+#append_math-2-2-1-2 > li { counter-increment: append_math-2-2-1-2; }
+#append_math-2-3-1-4 { counter-set: append_math-2-3-1-4 0; }
+#append_math-2-3-1-4 > li::marker { content: ""counter(append_math-2-3-1-4,lower-alpha)"."; }
+#append_math-2-3-1-4 > li { counter-increment: append_math-2-3-1-4; }
+#append_math-2-4-1-8 { counter-set: append_math-2-4-1-8 0; }
+#append_math-2-4-1-8 > li::marker { content: ""counter(append_math-2-4-1-8,lower-alpha)"."; }
+#append_math-2-4-1-8 > li { counter-increment: append_math-2-4-1-8; }
+#append_math-2-7-1-4 { counter-set: append_math-2-7-1-4 0; }
+#append_math-2-7-1-4 > li::marker { content: ""counter(append_math-2-7-1-4,lower-alpha)"."; }
+#append_math-2-7-1-4 > li { counter-increment: append_math-2-7-1-4; }
+</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -609,7 +1643,8 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_tenth-examplesB"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">10.7</span><span class="space"> </span><span class="title">Examples B</span>
 </h2>
-<section class="paragraphs" id="sec_tenth-examplesB-2"><h2 class="heading"><span class="title">KTG.</span></h2> <article class="example example-like" id="sec_tenth-examplesB-2-2"><h3 class="heading">
+<section class="paragraphs" id="sec_tenth-examplesB-2"><h2 class="heading"><span class="title">KTG.</span></h2>
+<article class="example example-like" id="sec_tenth-examplesB-2-2"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.1</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_tenth-examplesB-2-2-1-1">The rms speed of <span class="process-math">\(H_{2} \)</span> molecules is 1.84 km/sec. What will be the rms speed of <span class="process-math">\(O_{2} \)</span> molecules at the same temperature? The molecular weights of hydrogen and oxygen are 2 and 32 respectively.</div>
@@ -630,7 +1665,7 @@ v_{rms} = \sqrt{\frac{3RT}{M}}
 \therefore\quad (v_{rms})_{O} = (v_{rms})_{H}\times  \sqrt{\frac{M_{H}}{M_{O}}} =(1.84 km/s)\times \sqrt{\frac{2}{32}} =0.459 \,km/s.
 \end{equation*}
 </div>
-</div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-2-3"><h3 class="heading">
+</div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-2-3"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.2</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_tenth-examplesB-2-3-1-1">At what temperature does the kinetic energy of an atom be 1.0 eV? <span class="process-math">\((k_{B}=1.38\times 10^{-23} \,J/K)\text{.}\)</span>
@@ -654,7 +1689,7 @@ v_{rms} = \sqrt{\frac{3RT}{M}}
 = \frac{2}{3}\left(\frac{1.0\, eV\times 1.60\times 10^{-19} \,J/eV}{1.38\times 10^{-23} \,J/K}\right)= 7.729\times 10^{3} \,K
 \end{equation*}
 </div>
-</div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-2-4"><h3 class="heading">
+</div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-2-4"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.3</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_tenth-examplesB-2-4-1-1">At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.</div>
@@ -694,12 +1729,13 @@ v_{rms}=\sqrt{\frac{3k_{B}T}{m}}
 \therefore\quad  T = 4\times 273=1092 \,K = 819 \,^{o}C
 \end{equation*}
 </div>
-</div></div></details></div></article></section><section class="paragraphs" id="sec_tenth-examplesB-3"><h2 class="heading"><span class="title">I Law of Thermodynamics.</span></h2> <article class="example example-like" id="sec_tenth-examplesB-3-2"><h3 class="heading">
+</div></div></details></div></article></section><section class="paragraphs" id="sec_tenth-examplesB-3"><h2 class="heading"><span class="title">I Law of Thermodynamics.</span></h2>
+<article class="example example-like" id="sec_tenth-examplesB-3-2"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.4</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-3-2-1-1">
 <div class="para">A spherical balloon one foot in diameter contains helium at one atmosphere of pressure and at a temperature of <span class="process-math">\(27\,^{o}C\text{.}\)</span> Find</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-3-2-1-1-2">
 <li id="sec_tenth-examplesB-3-2-1-1-2-1"><div class="para" id="p-derived-sec_tenth-examplesB-3-2-1-1-2-1">the number of moles of helium in the balloon,</div></li>
 <li id="sec_tenth-examplesB-3-2-1-1-2-2"><div class="para" id="p-derived-sec_tenth-examplesB-3-2-1-1-2-2">the number of molecules in the balloon,</div></li>
 <li id="sec_tenth-examplesB-3-2-1-1-2-3"><div class="para" id="p-derived-sec_tenth-examplesB-3-2-1-1-2-3">the average kinetic energy of each helium molecule,</div></li>
@@ -711,7 +1747,8 @@ v_{rms}=\sqrt{\frac{3k_{B}T}{m}}
 </div>
 <div class="solutions"><details id="sec_tenth-examplesB-3-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="sec_tenth-examplesB-3-2-2-1">Given: <span class="process-math">\(r=0.5\,ft=0.1524 \,m,\quad  p=1\,atm=1.013\times 10^{5} \,N/m^{2},\)</span> <span class="process-math">\(T=27\,^{o}C=300 \,K, \quad R=8.314 \,J/mol.K\)</span>
-</div> <div class="para logical" id="sec_tenth-examplesB-3-2-2-2"><ol class="lower-alpha">
+</div>
+<div class="para logical" id="sec_tenth-examplesB-3-2-2-2"><ol class="lower-alpha" id="sec_tenth-examplesB-3-2-2-2-1">
 <li id="sec_tenth-examplesB-3-2-2-2-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-3-2-2-2-1-1">
 <div class="displaymath process-math">
 \begin{equation*}
@@ -845,12 +1882,12 @@ p_{2}V_{2}=nRT_{2}
 </div>
 </div></li>
 </ol></div>
-</div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-3-3"><h3 class="heading">
+</div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-3-3"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.5</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-3-3-1-1">
 <div class="para">Use the principle of equipartition of energy to determine the equations for the internal energy, the molar specific heat capacity at constant volume, and the molar specific heat capacity at constant pressure for</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-3-3-1-1-1">
 <li id="sec_tenth-examplesB-3-3-1-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-3-3-1-1-1-1">a monatomic ideal gas,</div></li>
 <li id="sec_tenth-examplesB-3-3-1-1-1-2"><div class="para" id="p-derived-sec_tenth-examplesB-3-3-1-1-1-2">diatomic ideal gas,</div></li>
 <li id="sec_tenth-examplesB-3-3-1-1-1-3"><div class="para" id="p-derived-sec_tenth-examplesB-3-3-1-1-1-3">diatomic ideal gas with vibration, and</div></li>
@@ -880,7 +1917,8 @@ U_{i}=\frac{f}{2}k_{B}T.
 \therefore\quad C_{V} = \frac{f}{2}R
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec_tenth-examplesB-3-3-2-2"><ol class="lower-alpha">
+</div>
+<div class="para logical" id="sec_tenth-examplesB-3-3-2-2"><ol class="lower-alpha" id="sec_tenth-examplesB-3-3-2-2-1">
 <li id="sec_tenth-examplesB-3-3-2-2-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-3-3-2-2-1-1">for a monoatomic gas, f = 3 translational motion = 3 degrees of freedom.<div class="displaymath process-math">
 \begin{equation*}
 \therefore\quad C_{V} = \frac{f}{2}R = \frac{3}{2}R
@@ -906,12 +1944,12 @@ U_{i}=\frac{f}{2}k_{B}T.
 </div>
 </div></li>
 </ol></div>
-</div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-3-4"><h3 class="heading">
+</div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-3-4"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.6</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-3-4-1-1">
 <div class="para">An ideal monatomic gas containing 10 moles of Helium initially at <span class="process-math">\(0\,^{o}C\)</span> and one atmosphere is allowed to expand to twice its initial volume. If the temperature remains constant throughout the process, find each of the following:</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-3-4-1-1-2">
 <li id="sec_tenth-examplesB-3-4-1-1-2-1"><div class="para" id="p-derived-sec_tenth-examplesB-3-4-1-1-2-1">the initial volume of the gas,</div></li>
 <li id="sec_tenth-examplesB-3-4-1-1-2-2"><div class="para" id="p-derived-sec_tenth-examplesB-3-4-1-1-2-2">the final volume of the gas,</div></li>
 <li id="sec_tenth-examplesB-3-4-1-1-2-3"><div class="para" id="p-derived-sec_tenth-examplesB-3-4-1-1-2-3">the final temperature of the gas,</div></li>
@@ -923,7 +1961,8 @@ U_{i}=\frac{f}{2}k_{B}T.
 </div>
 <div class="solutions"><details id="sec_tenth-examplesB-3-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="sec_tenth-examplesB-3-4-2-1">Given: <span class="process-math">\(n=10 \,mol,\quad T_{o}=0\,^{o}C=273 \,K,\)</span> <span class="process-math">\(p_{o} =1.013\times 10^{5} \,Pa,\)</span> <span class="process-math">\(R=8.314 \,J/mol-K,\quad V=2V_{o}, \)</span> and <span class="process-math">\(T=T_{o}.\)</span>
-</div> <div class="para logical" id="sec_tenth-examplesB-3-4-2-2"><ol class="lower-alpha">
+</div>
+<div class="para logical" id="sec_tenth-examplesB-3-4-2-2"><ol class="lower-alpha" id="sec_tenth-examplesB-3-4-2-2-1">
 <li id="sec_tenth-examplesB-3-4-2-2-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-3-4-2-2-1-1">
 <div class="displaymath process-math">
 \begin{equation*}
@@ -993,7 +2032,7 @@ W =\int p\,dV = \int\left(\frac{nRT_{o}}{V}\right)\,dV
 </div>
 </div></li>
 </ol></div>
-</div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-3-5"><h3 class="heading">
+</div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-3-5"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.7</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_tenth-examplesB-3-5-1-1">Calculate the change in the internal energy when 5 gm of air is heated from <span class="process-math">\(0 \,^{o}C\)</span> to <span class="process-math">\(2\,^{o}C,\)</span> the specific heat of air at constant volume being <span class="process-math">\(0.172 \,cal/gm/^{o}C.\)</span> <em class="emphasis">Note:</em> 1 cal = 4.18 J.</div>
@@ -1021,12 +2060,12 @@ W =\int p\,dV = \int\left(\frac{nRT_{o}}{V}\right)\,dV
 =\,dU = (5 \,g) (0.172 \frac{cal}{g.^{o}C})(4.18 \frac{J}{cal}) (2-0)\,^{o}C = 7.19 \,J
 \end{equation*}
 </div>
-</div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-3-6"><h3 class="heading">
+</div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-3-6"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.8</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-3-6-1-1">
 <div class="para">A system absorbs 2500 J of heat and at the same time does 90 J of external work.</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-3-6-1-1-1">
 <li id="sec_tenth-examplesB-3-6-1-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-3-6-1-1-1-1">Find the change in internal energy of the system.</div></li>
 <li id="sec_tenth-examplesB-3-6-1-1-1-2"><div class="para" id="p-derived-sec_tenth-examplesB-3-6-1-1-1-2">Find the change in internal energy of the system if it absorbs 2500 J of heat at the same time 90 J of work done on it.</div></li>
 <li id="sec_tenth-examplesB-3-6-1-1-1-3"><div class="para" id="p-derived-sec_tenth-examplesB-3-6-1-1-1-3">What will be the change in internal energy of the gas from which 400 J of heat is removed at constant volume.</div></li>
@@ -1039,7 +2078,7 @@ W =\int p\,dV = \int\left(\frac{nRT_{o}}{V}\right)\,dV
 \,dU=\,dQ-\,dW
 \end{equation*}
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-3-6-2-1-2">
 <li id="sec_tenth-examplesB-3-6-2-1-2-1"><div class="para" id="p-derived-sec_tenth-examplesB-3-6-2-1-2-1">Given: <span class="process-math">\(\,dQ= 2500 \,J,\quad \,dW=90\,J \)</span><div class="displaymath process-math">
 \begin{equation*}
 \therefore \,dU=2500-90 = 2410 \,J
@@ -1056,12 +2095,13 @@ W =\int p\,dV = \int\left(\frac{nRT_{o}}{V}\right)\,dV
 \end{equation*}
 </div>-ve sign indicates that heat is taken out from the system.</div></li>
 </ol>
-</div></div></details></div></article></section><section class="paragraphs" id="sec_tenth-examplesB-4"><h2 class="heading"><span class="title">II Law of Thermodynamics.</span></h2> <article class="example example-like" id="sec_tenth-examplesB-4-2"><h3 class="heading">
+</div></div></details></div></article></section><section class="paragraphs" id="sec_tenth-examplesB-4"><h2 class="heading"><span class="title">II Law of Thermodynamics.</span></h2>
+<article class="example example-like" id="sec_tenth-examplesB-4-2"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.9</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-4-2-1-1">
 <div class="para">A heat engine takes in 1000 J of heat from a reservoir at temperature 400 K and rejects 800 J of heat into a second heat reservoir at temperature 300 K.</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-4-2-1-1-1">
 <li id="sec_tenth-examplesB-4-2-1-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-2-1-1-1-1">How much work does the engine do per cycle.</div></li>
 <li id="sec_tenth-examplesB-4-2-1-1-1-2"><div class="para" id="p-derived-sec_tenth-examplesB-4-2-1-1-1-2">If the engine makes 4000 rpm, what is the power output of the engine in Watts? In horsepower?</div></li>
 <li id="sec_tenth-examplesB-4-2-1-1-1-3"><div class="para" id="p-derived-sec_tenth-examplesB-4-2-1-1-1-3">What is the actual efficiency of the engine?</div></li>
@@ -1072,7 +2112,8 @@ W =\int p\,dV = \int\left(\frac{nRT_{o}}{V}\right)\,dV
 </div>
 <div class="solutions"><details id="sec_tenth-examplesB-4-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="sec_tenth-examplesB-4-2-2-1">Given: <span class="process-math">\(Q_{h} =1000 \,J, \quad T_{h} =400\,K,\)</span>  <span class="process-math">\(Q_{c}=800 \,J, \)</span> and <span class="process-math">\(T_{c}= 300 \,K\)</span>
-</div> <div class="para logical" id="sec_tenth-examplesB-4-2-2-2"><ol class="lower-alpha">
+</div>
+<div class="para logical" id="sec_tenth-examplesB-4-2-2-2"><ol class="lower-alpha" id="sec_tenth-examplesB-4-2-2-2-1">
 <li id="sec_tenth-examplesB-4-2-2-2-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-2-2-2-1-1"><div class="displaymath process-math">
 \begin{equation*}
 W= Q_{h} - Q_{c} = 200 \,J
@@ -1129,13 +2170,13 @@ p_{C} = W_{C}f = 16.7 \,kW
 \end{equation*}
 </div></div></li>
 </ol></div>
-</div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-4-3"><h3 class="heading">
+</div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-4-3"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.10</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-4-3-1-1">
 <div class="para">A Carnot engine is used to make a heat pump. In winter time, the engine pumps heat from outside the house at a temperature of <span class="process-math">\(0\,^{o}C\)</span> into the house at a temperature <span class="process-math">\(30\,^{o}C\text{.}\)</span>
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-4-3-1-1-3">
 <li id="sec_tenth-examplesB-4-3-1-1-3-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-3-1-1-3-1">What is the COP of the heat pump?</div></li>
 <li id="sec_tenth-examplesB-4-3-1-1-3-2"><div class="para" id="p-derived-sec_tenth-examplesB-4-3-1-1-3-2">How much heat is delivered into the house in 24 hours if the unit uses 1000 W of electrical power? In the summer time, the engine is used as an air conditioner pumping heat from an exterior temperature of <span class="process-math">\(35\,^{o}C\)</span>  to an interior temperature of <span class="process-math">\(25\,^{o}C\text{.}\)</span>
 </div></li>
@@ -1143,7 +2184,7 @@ p_{C} = W_{C}f = 16.7 \,kW
 <li id="sec_tenth-examplesB-4-3-1-1-3-4"><div class="para" id="p-derived-sec_tenth-examplesB-4-3-1-1-3-4">What is the cooling capacity of this unit in Btu’s per hour if it uses 1000 W of electrical power?</div></li>
 </ol>
 </div>
-<div class="solutions"><details id="sec_tenth-examplesB-4-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-4-3-2-1"><ol class="lower-alpha">
+<div class="solutions"><details id="sec_tenth-examplesB-4-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-4-3-2-1"><ol class="lower-alpha" id="sec_tenth-examplesB-4-3-2-1-1">
 <li id="sec_tenth-examplesB-4-3-2-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-3-2-1-1-1">Given: <span class="process-math">\(T_{h}= 30\,^{o}C = 303 \,K, \quad T_{c}= 0\,^{o}C = 273 \,K.\)</span><div class="displaymath process-math">
 \begin{equation*}
 COP = \frac{T_{h}}{T_{h}-T_{c}} = 10.1 
@@ -1198,17 +2239,17 @@ i.e.,\quad Q_{c}/t =102 \,k\,Btu/h
 \end{equation*}
 </div>
 </div></li>
-</ol></div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-4-4"><h3 class="heading">
+</ol></div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-4-4"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.11</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-4-4-1-1">
 <div class="para">An engine works between the temperature <span class="process-math">\(227\,^{o}C\)</span> and <span class="process-math">\(27\,^{o}C \)</span> and develops 100 horse power. Assuming that its efficiency is equal to that of a Carnot engine working between the same temperature limits, calculate:</div>
-<ol class="lower-roman">
+<ol class="lower-roman" id="sec_tenth-examplesB-4-4-1-1-3">
 <li id="sec_tenth-examplesB-4-4-1-1-3-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-4-1-1-3-1">the heat supplied to the engine,</div></li>
 <li id="sec_tenth-examplesB-4-4-1-1-3-2"><div class="para" id="p-derived-sec_tenth-examplesB-4-4-1-1-3-2">the heat rejected by the engine.</div></li>
 </ol>
 </div>
-<div class="solutions"><details id="sec_tenth-examplesB-4-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-4-4-2-1"><ol class="lower-roman">
+<div class="solutions"><details id="sec_tenth-examplesB-4-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-4-4-2-1"><ol class="lower-roman" id="sec_tenth-examplesB-4-4-2-1-1">
 <li id="sec_tenth-examplesB-4-4-2-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-4-2-1-1-1">The efficiency of Carnot heat engine is given by<div class="displaymath process-math">
 \begin{equation*}
 \eta = 1-\frac{T_{c}}{T_{h}} = 1-\frac{27+273}{227+273} = 1-\frac{300}{500} =0.4=40\% 
@@ -1245,7 +2286,7 @@ Q_{h}/t = \frac{W}{t\eta} = \frac{P}{\eta}
 \end{equation*}
 </div>
 </div></li>
-</ol></div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-4-5"><h3 class="heading">
+</ol></div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-4-5"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.12</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_tenth-examplesB-4-5-1-1">A Carnot engine works at high temperature 600 K with the efficiency of <span class="process-math">\(40\%\text{.}\)</span> If the efficiency of the engine is <span class="process-math">\(75\%\)</span> and the low temperature kept constant, what is the high temperature?</div>
@@ -1287,14 +2328,14 @@ Q_{h}/t = \frac{W}{t\eta} = \frac{P}{\eta}
 \therefore\quad T_{h} = \frac{360}{0.25} =1440 \,K
 \end{equation*}
 </div>
-</div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-4-6"><h3 class="heading">
+</div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-4-6"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.13</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="sec_tenth-examplesB-4-6-1-1"><ol class="lower-alpha">
+<div class="para logical" id="sec_tenth-examplesB-4-6-1-1"><ol class="lower-alpha" id="sec_tenth-examplesB-4-6-1-1-1">
 <li id="sec_tenth-examplesB-4-6-1-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-6-1-1-1-1">A 10 moles of <span class="process-math">\(O_{2}\)</span> gas are allowed to expand isothermally at T = 300 K from an initial volume of 10 liters to a final volume of 30 liters. How much work does the gas do on the piston?</div></li>
 <li id="sec_tenth-examplesB-4-6-1-1-1-2"><div class="para" id="p-derived-sec_tenth-examplesB-4-6-1-1-1-2">If the gas expands adiabatically from 10 to 30 liters. How much work does the gas do?</div></li>
 </ol></div>
-<div class="solutions"><details id="sec_tenth-examplesB-4-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-4-6-2-1"><ol class="lower-alpha">
+<div class="solutions"><details id="sec_tenth-examplesB-4-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-4-6-2-1"><ol class="lower-alpha" id="sec_tenth-examplesB-4-6-2-1-1">
 <li id="sec_tenth-examplesB-4-6-2-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-6-2-1-1-1">Work done by the gas in an isothermal process<div class="displaymath process-math">
 \begin{equation*}
 W=\int\limits_{v_{i}}^{v_{f}} p\,dV  =nRT\int\limits_{v_{i}}^{v_{f}} \frac{\,dV}{V}=nRT\ln\frac{V_{f}}{V_{i}} 
@@ -1340,7 +2381,7 @@ k=p_{i}V_{i}^{\gamma} =\frac{nRT}{V_{i}}V_{i}^{\gamma}
 \end{equation*}
 </div>
 </div></li>
-</ol></div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-4-7"><h3 class="heading">
+</ol></div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-4-7"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.14</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_tenth-examplesB-4-7-1-1">If 3 moles of an ideal polyatomic gas initially with a volume of <span class="process-math">\(2 m^{3},\)</span> and a temperature of 273 K. This gas is compressed isothermally to 1/2 its initial volume. How much heat must be added to the system during this compression?</div>
@@ -1368,17 +2409,17 @@ W=\int\limits_{v_{i}}^{v_{f}}p\,dV =  \int\limits_{v_{i}}^{v_{f}} nRT\frac{\,dV}
 Q = W = -4.7 \times 10^{4}\,J
 \end{equation*}
 </div>
-</div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-4-8"><h3 class="heading">
+</div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-4-8"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.15</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-4-8-1-1">
 <div class="para">The molar heat capacity of hydrogen gas at constant volume is <span class="process-math">\(C_{v}=\frac{5}{2}R.\)</span> It fills a volume of <span class="process-math">\(100 \,cm^{3}\)</span> at pressure of 51 kPa. Determine the work done by the gas when it expands its volume five times</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-4-8-1-1-3">
 <li id="sec_tenth-examplesB-4-8-1-1-3-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-8-1-1-3-1">isothermally, and</div></li>
 <li id="sec_tenth-examplesB-4-8-1-1-3-2"><div class="para" id="p-derived-sec_tenth-examplesB-4-8-1-1-3-2">adiabatically.</div></li>
 </ol>
 </div>
-<div class="solutions"><details id="sec_tenth-examplesB-4-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-4-8-2-1"><ol class="lower-alpha">
+<div class="solutions"><details id="sec_tenth-examplesB-4-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-4-8-2-1"><ol class="lower-alpha" id="sec_tenth-examplesB-4-8-2-1-1">
 <li id="sec_tenth-examplesB-4-8-2-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-4-8-2-1-1-1">Work done in an isothermal process is given by<div class="displaymath process-math">
 \begin{equation*}
 W=\int\limits_{v_{i}}^{v_{f}}p\,dV =p_{i}V_{i}\int\limits_{v_{i}}^{v_{f}}\frac{\,dV}{V} = p_{i}V_{i} \ln\frac{V_{f}}{V_{i}} 
@@ -1435,7 +2476,8 @@ W= \frac{p_{i}V_{i}}{1-\gamma}\left[5^{1-\gamma}-1\right]
 \end{equation*}
 </div>
 </div></li>
-</ol></div></div></details></div></article></section><section class="paragraphs" id="sec_tenth-examplesB-5"><h2 class="heading"><span class="title">Entropy.</span></h2> <article class="example example-like" id="sec_tenth-examplesB-5-2"><h3 class="heading">
+</ol></div></div></details></div></article></section><section class="paragraphs" id="sec_tenth-examplesB-5"><h2 class="heading"><span class="title">Entropy.</span></h2>
+<article class="example example-like" id="sec_tenth-examplesB-5-2"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.16</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_tenth-examplesB-5-2-1-1">A cube of ice of mass 100 grams and temperature <span class="process-math">\(0\,^{o}C\)</span> is placed in a beaker and heated until the ice melts and the water reaches <span class="process-math">\(100\,^{o}C\text{.}\)</span> What is the change in entropy of the mass?</div>
@@ -1478,13 +2520,13 @@ W= \frac{p_{i}V_{i}}{1-\gamma}\left[5^{1-\gamma}-1\right]
 \Delta S = \Delta S_{1}+\Delta S_{2} = 253 \,J/K.
 \end{equation*}
 </div>
-</div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-5-3"><h3 class="heading">
+</div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-5-3"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.17</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-5-3-1-1">
 <div class="para">A piece of iron <span class="process-math">\((c = 448 \,J/kg.^{o}C)\)</span> having a mass of 300 g and temperature of <span class="process-math">\(200\,^{o}C\)</span> is placed in a well insulated and massless calorimeter containing 500 g of water <span class="process-math">\((c = 4186\,J/kg.^{o}C)\)</span> at <span class="process-math">\(30\,^{o}C\text{.}\)</span>
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-5-3-1-1-5">
 <li id="sec_tenth-examplesB-5-3-1-1-5-1"><div class="para" id="p-derived-sec_tenth-examplesB-5-3-1-1-5-1">What is the final temperature of the system?</div></li>
 <li id="sec_tenth-examplesB-5-3-1-1-5-2"><div class="para" id="p-derived-sec_tenth-examplesB-5-3-1-1-5-2">What is the change in entropy of the iron?</div></li>
 <li id="sec_tenth-examplesB-5-3-1-1-5-3"><div class="para" id="p-derived-sec_tenth-examplesB-5-3-1-1-5-3">What is the change in entropy of the water?</div></li>
@@ -1494,7 +2536,8 @@ W= \frac{p_{i}V_{i}}{1-\gamma}\left[5^{1-\gamma}-1\right]
 </div>
 <div class="solutions"><details id="sec_tenth-examplesB-5-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="sec_tenth-examplesB-5-3-2-1">Given: <span class="process-math">\(m_{1}=300 \,g =0.3\,kg, \quad m_{2}=500 \,g =0.5\,kg, \)</span> <span class="process-math">\(c_{1}=448 \,J/kg-K, \quad c_{2}=4186 \,J/kg-K,\)</span> <span class="process-math">\(T_{1}=200\,^{o}C = 473 \,K \)</span> and  <span class="process-math">\(T_{2}=30\,^{o}C = 303 \,K.\)</span>
-</div> <div class="para logical" id="sec_tenth-examplesB-5-3-2-2"><ol class="lower-alpha">
+</div>
+<div class="para logical" id="sec_tenth-examplesB-5-3-2-2"><ol class="lower-alpha" id="sec_tenth-examplesB-5-3-2-2-1">
 <li id="sec_tenth-examplesB-5-3-2-2-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-5-3-2-2-1-1">From the principle of calorimetry, Heat lost by iron = heat gained by water.<div class="displaymath process-math">
 \begin{equation*}
 m_{1}c_{1}(T_{1}-T_{f}) = m_{2}c_{2}(T_{f}-T_{2}) 
@@ -1528,7 +2571,7 @@ m_{1}c_{1}(T_{1}-T_{f}) = m_{2}c_{2}(T_{f}-T_{2})
 </div></div></li>
 <li id="sec_tenth-examplesB-5-3-2-2-1-5"><div class="para" id="p-derived-sec_tenth-examplesB-5-3-2-2-1-5">Yes, entropy of the universe increases.</div></li>
 </ol></div>
-</div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-5-4"><h3 class="heading">
+</div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-5-4"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.18</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_tenth-examplesB-5-4-1-1">
@@ -1545,7 +2588,7 @@ S = N k_{B} ln \omega\text{,}
 \end{equation*}
 </div>
 <div class="para">where k is a constant of proportionality.</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_tenth-examplesB-5-4-1-1-4">
 <li id="sec_tenth-examplesB-5-4-1-1-4-1"><div class="para" id="p-derived-sec_tenth-examplesB-5-4-1-1-4-1">If there are N such molecules in the same container, show that the number of available microscopic states is <span class="process-math">\(\omega  =  \omega_{1}^{N}\)</span>
 </div></li>
 <li id="sec_tenth-examplesB-5-4-1-1-4-2"><div class="para" id="p-derived-sec_tenth-examplesB-5-4-1-1-4-2">How many microscopic states are available for one mole of gas in a volume V?</div></li>
@@ -1554,7 +2597,7 @@ S = N k_{B} ln \omega\text{,}
 <li id="sec_tenth-examplesB-5-4-1-1-4-5"><div class="para" id="p-derived-sec_tenth-examplesB-5-4-1-1-4-5">Is this result consistent with the second law of thermodynamics? Why?</div></li>
 </ol>
 </div>
-<div class="solutions"><details id="sec_tenth-examplesB-5-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-5-4-2-1"><ol class="lower-alpha">
+<div class="solutions"><details id="sec_tenth-examplesB-5-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-5-4-2-1"><ol class="lower-alpha" id="sec_tenth-examplesB-5-4-2-1-1">
 <li id="sec_tenth-examplesB-5-4-2-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-5-4-2-1-1-1">For each state <span class="process-math">\(\omega_{1} \)</span> of one molecule a second molecule can be in any one of <span class="process-math">\(\omega_{2}\)</span> states. Therefore, the total number of microstates for two particles is <span class="process-math">\(\omega_{2} = W_{1}^{2}.\)</span>  For each of these states the third particle cab be in any one of <span class="process-math">\(\omega_{1} \)</span> states, so <span class="process-math">\(\omega_{3} = \omega_{1}^{3}. \)</span> Generalizing to N particles gives, <span class="process-math">\(\omega_{N}=\omega_{1}^{N}.\)</span>
 </div></li>
 <li id="sec_tenth-examplesB-5-4-2-1-1-2"><div class="para" id="p-derived-sec_tenth-examplesB-5-4-2-1-1-2">For one mole of gas, there are <span class="process-math">\(N_{A}\)</span> molecules, so the above equation becomes,<div class="displaymath process-math">
@@ -1582,12 +2625,12 @@ S=N_{A}k_{B}\ln (kV)^{N_{A}} = N_{A}^{2}k_{B}\ln (kV)
 </div>
 </div></li>
 <li id="sec_tenth-examplesB-5-4-2-1-1-5"><div class="para" id="p-derived-sec_tenth-examplesB-5-4-2-1-1-5">Yes, entropy of the universe increases.</div></li>
-</ol></div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-5-5"><h3 class="heading">
+</ol></div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-5-5"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.19</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_tenth-examplesB-5-5-1-1">Calculate the change in entropy of 1 g of ice at <span class="process-math">\(0\,^{o}C\)</span> is concerted into steam at <span class="process-math">\(100\,^{o}C\text{.}\)</span> Latent heat of fusion = 80 cal/g, latent heat of vaporization = 540 cal/g, and specific heat capacity of water is <span class="process-math">\(1 \,cal/g/^{o}C.\)</span>
 </div>
-<div class="solutions"><details id="sec_tenth-examplesB-5-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-5-5-2-1"><ol class="lower-roman">
+<div class="solutions"><details id="sec_tenth-examplesB-5-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_tenth-examplesB-5-5-2-1"><ol class="lower-roman" id="sec_tenth-examplesB-5-5-2-1-1">
 <li id="sec_tenth-examplesB-5-5-2-1-1-1"><div class="para" id="p-derived-sec_tenth-examplesB-5-5-2-1-1-1">When ice melts to water at <span class="process-math">\(0\,^{o}C,\)</span> then change in entropy,<div class="displaymath process-math">
 \begin{equation*}
 \,dS_{1} = \frac{\,dQ}{T} = \frac{mL_{f}}{T} 
@@ -1625,7 +2668,7 @@ S=0.293+0.312+1.448 = 2.053 \,cal/K
 \end{equation*}
 </div>
 </div></li>
-</ol></div></div></details></div></article> <article class="example example-like" id="sec_tenth-examplesB-5-6"><h3 class="heading">
+</ol></div></div></details></div></article><article class="example example-like" id="sec_tenth-examplesB-5-6"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">10.7.20</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_tenth-examplesB-5-6-1-1">Calculate the change in entropy when 1 kg of water at <span class="process-math">\(0^{o}C\)</span> is mixed with 1 kg of water at <span class="process-math">\(100\,^{o}C.\)</span>
@@ -1645,7 +2688,8 @@ S=0.293+0.312+1.448 = 2.053 \,cal/K
 \end{equation*}
 </div>
 <div class="para">From the principle of calorimetry,</div>
-</div> <div class="para logical" id="sec_tenth-examplesB-5-6-2-2">
+</div>
+<div class="para logical" id="sec_tenth-examplesB-5-6-2-2">
 <div class="para">Heat lost = Heat gained. Therefore,</div>
 <div class="displaymath process-math">
 \begin{equation*}

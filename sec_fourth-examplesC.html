@@ -88,6 +88,1040 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#subsec_dimanal-subsection-2-2 { counter-set: subsec_dimanal-subsection-2-2 0; }
+#subsec_dimanal-subsection-2-2 > li::marker { content: ""counter(subsec_dimanal-subsection-2-2,decimal)"."; }
+#subsec_dimanal-subsection-2-2 > li { counter-increment: subsec_dimanal-subsection-2-2; }
+#subsec-erranalysis-3 { counter-set: subsec-erranalysis-3 0; }
+#subsec-erranalysis-3 > li::marker { content: ""counter(subsec-erranalysis-3,lower-alpha)"."; }
+#subsec-erranalysis-3 > li { counter-increment: subsec-erranalysis-3; }
+#subsec-sigfig-2-6 { counter-set: subsec-sigfig-2-6 0; }
+#subsec-sigfig-2-6 > li::marker { content: ""counter(subsec-sigfig-2-6,lower-roman)"."; }
+#subsec-sigfig-2-6 > li { counter-increment: subsec-sigfig-2-6; }
+#subsubsec-rounding_off-6 { counter-set: subsubsec-rounding_off-6 0; }
+#subsubsec-rounding_off-6 > li::marker { content: ""counter(subsubsec-rounding_off-6,lower-roman)"."; }
+#subsubsec-rounding_off-6 > li { counter-increment: subsubsec-rounding_off-6; }
+#subsubsec-math_op_sig-2 { counter-set: subsubsec-math_op_sig-2 0; }
+#subsubsec-math_op_sig-2 > li::marker { content: ""counter(subsubsec-math_op_sig-2,upper-roman)"."; }
+#subsubsec-math_op_sig-2 > li { counter-increment: subsubsec-math_op_sig-2; }
+#sec_first-examples-2-1-1-1 { counter-set: sec_first-examples-2-1-1-1 0; }
+#sec_first-examples-2-1-1-1 > li::marker { content: ""counter(sec_first-examples-2-1-1-1,lower-alpha)"."; }
+#sec_first-examples-2-1-1-1 > li { counter-increment: sec_first-examples-2-1-1-1; }
+#sec_first-examples-2-2-1-1 { counter-set: sec_first-examples-2-2-1-1 0; }
+#sec_first-examples-2-2-1-1 > li::marker { content: ""counter(sec_first-examples-2-2-1-1,lower-alpha)"."; }
+#sec_first-examples-2-2-1-1 > li { counter-increment: sec_first-examples-2-2-1-1; }
+#ex_first-2-1-4 { counter-set: ex_first-2-1-4 0; }
+#ex_first-2-1-4 > li::marker { content: ""counter(ex_first-2-1-4,lower-alpha)"."; }
+#ex_first-2-1-4 > li { counter-increment: ex_first-2-1-4; }
+#ex_first-6-2 { counter-set: ex_first-6-2 0; }
+#ex_first-6-2 > li::marker { content: ""counter(ex_first-6-2,lower-alpha)"."; }
+#ex_first-6-2 > li { counter-increment: ex_first-6-2; }
+#ex_first-8-2 { counter-set: ex_first-8-2 0; }
+#ex_first-8-2 > li::marker { content: ""counter(ex_first-8-2,lower-alpha)"."; }
+#ex_first-8-2 > li { counter-increment: ex_first-8-2; }
+#ex_first-9-2 { counter-set: ex_first-9-2 0; }
+#ex_first-9-2 > li::marker { content: ""counter(ex_first-9-2,lower-alpha)"."; }
+#ex_first-9-2 > li { counter-increment: ex_first-9-2; }
+#sec_second-intro-2-3-20 { counter-set: sec_second-intro-2-3-20 0; }
+#sec_second-intro-2-3-20 > li::marker { content: ""counter(sec_second-intro-2-3-20,lower-roman)"."; }
+#sec_second-intro-2-3-20 > li { counter-increment: sec_second-intro-2-3-20; }
+#subsubsec-dot_product-5-2 { counter-set: subsubsec-dot_product-5-2 0; }
+#subsubsec-dot_product-5-2 > li::marker { content: ""counter(subsubsec-dot_product-5-2,decimal)"."; }
+#subsubsec-dot_product-5-2 > li { counter-increment: subsubsec-dot_product-5-2; }
+#subsubsec-cross_product-7-2-1 { counter-set: subsubsec-cross_product-7-2-1 0; }
+#subsubsec-cross_product-7-2-1 > li::marker { content: ""counter(subsubsec-cross_product-7-2-1,decimal)"."; }
+#subsubsec-cross_product-7-2-1 > li { counter-increment: subsubsec-cross_product-7-2-1; }
+#sec_second-examples-2-2-1-1 { counter-set: sec_second-examples-2-2-1-1 0; }
+#sec_second-examples-2-2-1-1 > li::marker { content: ""counter(sec_second-examples-2-2-1-1,lower-alpha)"."; }
+#sec_second-examples-2-2-1-1 > li { counter-increment: sec_second-examples-2-2-1-1; }
+#sec_second-examples-3-1-1-1 { counter-set: sec_second-examples-3-1-1-1 0; }
+#sec_second-examples-3-1-1-1 > li::marker { content: ""counter(sec_second-examples-3-1-1-1,lower-alpha)"."; }
+#sec_second-examples-3-1-1-1 > li { counter-increment: sec_second-examples-3-1-1-1; }
+#sec_second-examples-3-2-1-1 { counter-set: sec_second-examples-3-2-1-1 0; }
+#sec_second-examples-3-2-1-1 > li::marker { content: ""counter(sec_second-examples-3-2-1-1,lower-alpha)"."; }
+#sec_second-examples-3-2-1-1 > li { counter-increment: sec_second-examples-3-2-1-1; }
+#sec_second-examples-4-1-1-8 { counter-set: sec_second-examples-4-1-1-8 0; }
+#sec_second-examples-4-1-1-8 > li::marker { content: ""counter(sec_second-examples-4-1-1-8,lower-alpha)"."; }
+#sec_second-examples-4-1-1-8 > li { counter-increment: sec_second-examples-4-1-1-8; }
+#sec_second-examples-7-1-1-2 { counter-set: sec_second-examples-7-1-1-2 0; }
+#sec_second-examples-7-1-1-2 > li::marker { content: ""counter(sec_second-examples-7-1-1-2,upper-alpha)"."; }
+#sec_second-examples-7-1-1-2 > li { counter-increment: sec_second-examples-7-1-1-2; }
+#sec_second-examples-7-2-1-1 { counter-set: sec_second-examples-7-2-1-1 0; }
+#sec_second-examples-7-2-1-1 > li::marker { content: ""counter(sec_second-examples-7-2-1-1,upper-alpha)"."; }
+#sec_second-examples-7-2-1-1 > li { counter-increment: sec_second-examples-7-2-1-1; }
+#sec_second-examples-8-1-1-5 { counter-set: sec_second-examples-8-1-1-5 0; }
+#sec_second-examples-8-1-1-5 > li::marker { content: ""counter(sec_second-examples-8-1-1-5,lower-alpha)"."; }
+#sec_second-examples-8-1-1-5 > li { counter-increment: sec_second-examples-8-1-1-5; }
+#sec_second-examples-8-2-1-1 { counter-set: sec_second-examples-8-2-1-1 0; }
+#sec_second-examples-8-2-1-1 > li::marker { content: ""counter(sec_second-examples-8-2-1-1,lower-alpha)"."; }
+#sec_second-examples-8-2-1-1 > li { counter-increment: sec_second-examples-8-2-1-1; }
+#ex_second-8-1-3 { counter-set: ex_second-8-1-3 0; }
+#ex_second-8-1-3 > li::marker { content: ""counter(ex_second-8-1-3,lower-alpha)"."; }
+#ex_second-8-1-3 > li { counter-increment: ex_second-8-1-3; }
+#ex_second-10-1-1 { counter-set: ex_second-10-1-1 0; }
+#ex_second-10-1-1 > li::marker { content: ""counter(ex_second-10-1-1,lower-alpha)"."; }
+#ex_second-10-1-1 > li { counter-increment: ex_second-10-1-1; }
+#ex_second-11-1-5 { counter-set: ex_second-11-1-5 0; }
+#ex_second-11-1-5 > li::marker { content: "("counter(ex_second-11-1-5,lower-alpha)")"; }
+#ex_second-11-1-5 > li { counter-increment: ex_second-11-1-5; }
+#ex_second-14-1-7 { counter-set: ex_second-14-1-7 0; }
+#ex_second-14-1-7 > li::marker { content: ""counter(ex_second-14-1-7,lower-alpha)"."; }
+#ex_second-14-1-7 > li { counter-increment: ex_second-14-1-7; }
+#ex_second-15-1-3 { counter-set: ex_second-15-1-3 0; }
+#ex_second-15-1-3 > li::marker { content: ""counter(ex_second-15-1-3,lower-alpha)"."; }
+#ex_second-15-1-3 > li { counter-increment: ex_second-15-1-3; }
+#subsec-rule_solveMotion-2 { counter-set: subsec-rule_solveMotion-2 0; }
+#subsec-rule_solveMotion-2 > li::marker { content: ""counter(subsec-rule_solveMotion-2,lower-roman)"."; }
+#subsec-rule_solveMotion-2 > li { counter-increment: subsec-rule_solveMotion-2; }
+#subsec-rule_solveMotion-2-1-1-2 { counter-set: subsec-rule_solveMotion-2-1-1-2 0; }
+#subsec-rule_solveMotion-2-1-1-2 > li::marker { content: ""counter(subsec-rule_solveMotion-2-1-1-2,lower-alpha)"."; }
+#subsec-rule_solveMotion-2-1-1-2 > li { counter-increment: subsec-rule_solveMotion-2-1-1-2; }
+#subsec-rule_solveMotion-2-2-1-1 { counter-set: subsec-rule_solveMotion-2-2-1-1 0; }
+#subsec-rule_solveMotion-2-2-1-1 > li::marker { content: ""counter(subsec-rule_solveMotion-2-2-1-1,lower-alpha)"."; }
+#subsec-rule_solveMotion-2-2-1-1 > li { counter-increment: subsec-rule_solveMotion-2-2-1-1; }
+#sec_third-examplesA-2-1-1-2 { counter-set: sec_third-examplesA-2-1-1-2 0; }
+#sec_third-examplesA-2-1-1-2 > li::marker { content: ""counter(sec_third-examplesA-2-1-1-2,decimal)"."; }
+#sec_third-examplesA-2-1-1-2 > li { counter-increment: sec_third-examplesA-2-1-1-2; }
+#sec_third-examplesA-2-2-1 { counter-set: sec_third-examplesA-2-2-1 0; }
+#sec_third-examplesA-2-2-1 > li::marker { content: ""counter(sec_third-examplesA-2-2-1,decimal)"."; }
+#sec_third-examplesA-2-2-1 > li { counter-increment: sec_third-examplesA-2-2-1; }
+#sec_third-examplesA-3-1-1-4 { counter-set: sec_third-examplesA-3-1-1-4 0; }
+#sec_third-examplesA-3-1-1-4 > li::marker { content: ""counter(sec_third-examplesA-3-1-1-4,lower-alpha)"."; }
+#sec_third-examplesA-3-1-1-4 > li { counter-increment: sec_third-examplesA-3-1-1-4; }
+#sec_third-examplesA-3-2-1-1 { counter-set: sec_third-examplesA-3-2-1-1 0; }
+#sec_third-examplesA-3-2-1-1 > li::marker { content: ""counter(sec_third-examplesA-3-2-1-1,lower-alpha)"."; }
+#sec_third-examplesA-3-2-1-1 > li { counter-increment: sec_third-examplesA-3-2-1-1; }
+#sec_third-examplesA-4-1-1-3 { counter-set: sec_third-examplesA-4-1-1-3 0; }
+#sec_third-examplesA-4-1-1-3 > li::marker { content: ""counter(sec_third-examplesA-4-1-1-3,lower-alpha)"."; }
+#sec_third-examplesA-4-1-1-3 > li { counter-increment: sec_third-examplesA-4-1-1-3; }
+#sec_third-examplesA-4-2-2-1 { counter-set: sec_third-examplesA-4-2-2-1 0; }
+#sec_third-examplesA-4-2-2-1 > li::marker { content: ""counter(sec_third-examplesA-4-2-2-1,lower-alpha)"."; }
+#sec_third-examplesA-4-2-2-1 > li { counter-increment: sec_third-examplesA-4-2-2-1; }
+#sec_third-examplesA-5-1-1-2 { counter-set: sec_third-examplesA-5-1-1-2 0; }
+#sec_third-examplesA-5-1-1-2 > li::marker { content: ""counter(sec_third-examplesA-5-1-1-2,decimal)"."; }
+#sec_third-examplesA-5-1-1-2 > li { counter-increment: sec_third-examplesA-5-1-1-2; }
+#sec_third-examplesA-6-1-1-1 { counter-set: sec_third-examplesA-6-1-1-1 0; }
+#sec_third-examplesA-6-1-1-1 > li::marker { content: ""counter(sec_third-examplesA-6-1-1-1,lower-alpha)"."; }
+#sec_third-examplesA-6-1-1-1 > li { counter-increment: sec_third-examplesA-6-1-1-1; }
+#sec_third-examplesA-6-2-2-6 { counter-set: sec_third-examplesA-6-2-2-6 0; }
+#sec_third-examplesA-6-2-2-6 > li::marker { content: ""counter(sec_third-examplesA-6-2-2-6,lower-alpha)"."; }
+#sec_third-examplesA-6-2-2-6 > li { counter-increment: sec_third-examplesA-6-2-2-6; }
+#sec_third-examplesA-7-1-1-1 { counter-set: sec_third-examplesA-7-1-1-1 0; }
+#sec_third-examplesA-7-1-1-1 > li::marker { content: ""counter(sec_third-examplesA-7-1-1-1,lower-alpha)"."; }
+#sec_third-examplesA-7-1-1-1 > li { counter-increment: sec_third-examplesA-7-1-1-1; }
+#sec_third-examplesA-7-2-2 { counter-set: sec_third-examplesA-7-2-2 0; }
+#sec_third-examplesA-7-2-2 > li::marker { content: ""counter(sec_third-examplesA-7-2-2,lower-alpha)"."; }
+#sec_third-examplesA-7-2-2 > li { counter-increment: sec_third-examplesA-7-2-2; }
+#sec_third-examplesA-10-1-1-4 { counter-set: sec_third-examplesA-10-1-1-4 0; }
+#sec_third-examplesA-10-1-1-4 > li::marker { content: ""counter(sec_third-examplesA-10-1-1-4,lower-alpha)"."; }
+#sec_third-examplesA-10-1-1-4 > li { counter-increment: sec_third-examplesA-10-1-1-4; }
+#sec_third-examplesA-10-2-1 { counter-set: sec_third-examplesA-10-2-1 0; }
+#sec_third-examplesA-10-2-1 > li::marker { content: ""counter(sec_third-examplesA-10-2-1,lower-alpha)"."; }
+#sec_third-examplesA-10-2-1 > li { counter-increment: sec_third-examplesA-10-2-1; }
+#sec_third-examplesA-11-1-1-3 { counter-set: sec_third-examplesA-11-1-1-3 0; }
+#sec_third-examplesA-11-1-1-3 > li::marker { content: ""counter(sec_third-examplesA-11-1-1-3,lower-alpha)"."; }
+#sec_third-examplesA-11-1-1-3 > li { counter-increment: sec_third-examplesA-11-1-1-3; }
+#sec_third-examplesA-11-2-1-2 { counter-set: sec_third-examplesA-11-2-1-2 0; }
+#sec_third-examplesA-11-2-1-2 > li::marker { content: ""counter(sec_third-examplesA-11-2-1-2,lower-alpha)"."; }
+#sec_third-examplesA-11-2-1-2 > li { counter-increment: sec_third-examplesA-11-2-1-2; }
+#sec_third-examplesA-15-1-1-4 { counter-set: sec_third-examplesA-15-1-1-4 0; }
+#sec_third-examplesA-15-1-1-4 > li::marker { content: ""counter(sec_third-examplesA-15-1-1-4,lower-alpha)"."; }
+#sec_third-examplesA-15-1-1-4 > li { counter-increment: sec_third-examplesA-15-1-1-4; }
+#sec_third-examplesA-15-2-1-1 { counter-set: sec_third-examplesA-15-2-1-1 0; }
+#sec_third-examplesA-15-2-1-1 > li::marker { content: ""counter(sec_third-examplesA-15-2-1-1,lower-alpha)"."; }
+#sec_third-examplesA-15-2-1-1 > li { counter-increment: sec_third-examplesA-15-2-1-1; }
+#subsec-projtile_motion-3-1 { counter-set: subsec-projtile_motion-3-1 0; }
+#subsec-projtile_motion-3-1 > li::marker { content: ""counter(subsec-projtile_motion-3-1,decimal)"."; }
+#subsec-projtile_motion-3-1 > li { counter-increment: subsec-projtile_motion-3-1; }
+#sec_third-examplesB-2-1-1-5 { counter-set: sec_third-examplesB-2-1-1-5 0; }
+#sec_third-examplesB-2-1-1-5 > li::marker { content: ""counter(sec_third-examplesB-2-1-1-5,lower-alpha)"."; }
+#sec_third-examplesB-2-1-1-5 > li { counter-increment: sec_third-examplesB-2-1-1-5; }
+#sec_third-examplesB-2-2-1-2 { counter-set: sec_third-examplesB-2-2-1-2 0; }
+#sec_third-examplesB-2-2-1-2 > li::marker { content: ""counter(sec_third-examplesB-2-2-1-2,lower-alpha)"."; }
+#sec_third-examplesB-2-2-1-2 > li { counter-increment: sec_third-examplesB-2-2-1-2; }
+#sec_third-examplesB-3-1-1-5 { counter-set: sec_third-examplesB-3-1-1-5 0; }
+#sec_third-examplesB-3-1-1-5 > li::marker { content: ""counter(sec_third-examplesB-3-1-1-5,lower-alpha)"."; }
+#sec_third-examplesB-3-1-1-5 > li { counter-increment: sec_third-examplesB-3-1-1-5; }
+#sec_third-examplesB-3-2-1-1 { counter-set: sec_third-examplesB-3-2-1-1 0; }
+#sec_third-examplesB-3-2-1-1 > li::marker { content: ""counter(sec_third-examplesB-3-2-1-1,lower-alpha)"."; }
+#sec_third-examplesB-3-2-1-1 > li { counter-increment: sec_third-examplesB-3-2-1-1; }
+#sec_third-examplesB-4-1-1-2 { counter-set: sec_third-examplesB-4-1-1-2 0; }
+#sec_third-examplesB-4-1-1-2 > li::marker { content: ""counter(sec_third-examplesB-4-1-1-2,lower-alpha)"."; }
+#sec_third-examplesB-4-1-1-2 > li { counter-increment: sec_third-examplesB-4-1-1-2; }
+#sec_third-examplesB-4-2-1-6 { counter-set: sec_third-examplesB-4-2-1-6 0; }
+#sec_third-examplesB-4-2-1-6 > li::marker { content: ""counter(sec_third-examplesB-4-2-1-6,lower-alpha)"."; }
+#sec_third-examplesB-4-2-1-6 > li { counter-increment: sec_third-examplesB-4-2-1-6; }
+#sec_third-examplesB-5-1-1-3 { counter-set: sec_third-examplesB-5-1-1-3 0; }
+#sec_third-examplesB-5-1-1-3 > li::marker { content: ""counter(sec_third-examplesB-5-1-1-3,lower-alpha)"."; }
+#sec_third-examplesB-5-1-1-3 > li { counter-increment: sec_third-examplesB-5-1-1-3; }
+#sec_third-examplesB-5-2-1-1 { counter-set: sec_third-examplesB-5-2-1-1 0; }
+#sec_third-examplesB-5-2-1-1 > li::marker { content: ""counter(sec_third-examplesB-5-2-1-1,lower-alpha)"."; }
+#sec_third-examplesB-5-2-1-1 > li { counter-increment: sec_third-examplesB-5-2-1-1; }
+#sec_third-examplesB-6-1-1-2 { counter-set: sec_third-examplesB-6-1-1-2 0; }
+#sec_third-examplesB-6-1-1-2 > li::marker { content: ""counter(sec_third-examplesB-6-1-1-2,lower-alpha)"."; }
+#sec_third-examplesB-6-1-1-2 > li { counter-increment: sec_third-examplesB-6-1-1-2; }
+#sec_third-examplesB-6-2-1-1 { counter-set: sec_third-examplesB-6-2-1-1 0; }
+#sec_third-examplesB-6-2-1-1 > li::marker { content: ""counter(sec_third-examplesB-6-2-1-1,lower-alpha)"."; }
+#sec_third-examplesB-6-2-1-1 > li { counter-increment: sec_third-examplesB-6-2-1-1; }
+#sec_third-examplesB-7-1-1-3 { counter-set: sec_third-examplesB-7-1-1-3 0; }
+#sec_third-examplesB-7-1-1-3 > li::marker { content: ""counter(sec_third-examplesB-7-1-1-3,lower-alpha)"."; }
+#sec_third-examplesB-7-1-1-3 > li { counter-increment: sec_third-examplesB-7-1-1-3; }
+#sec_third-examplesB-7-2-2-1 { counter-set: sec_third-examplesB-7-2-2-1 0; }
+#sec_third-examplesB-7-2-2-1 > li::marker { content: ""counter(sec_third-examplesB-7-2-2-1,lower-alpha)"."; }
+#sec_third-examplesB-7-2-2-1 > li { counter-increment: sec_third-examplesB-7-2-2-1; }
+#sec_third-examplesB-11-1-1-1 { counter-set: sec_third-examplesB-11-1-1-1 0; }
+#sec_third-examplesB-11-1-1-1 > li::marker { content: ""counter(sec_third-examplesB-11-1-1-1,lower-alpha)"."; }
+#sec_third-examplesB-11-1-1-1 > li { counter-increment: sec_third-examplesB-11-1-1-1; }
+#sec_third-examplesB-11-2-2-1 { counter-set: sec_third-examplesB-11-2-2-1 0; }
+#sec_third-examplesB-11-2-2-1 > li::marker { content: ""counter(sec_third-examplesB-11-2-2-1,lower-alpha)"."; }
+#sec_third-examplesB-11-2-2-1 > li { counter-increment: sec_third-examplesB-11-2-2-1; }
+#sec_third-examplesB-12-1-1-3 { counter-set: sec_third-examplesB-12-1-1-3 0; }
+#sec_third-examplesB-12-1-1-3 > li::marker { content: ""counter(sec_third-examplesB-12-1-1-3,lower-alpha)"."; }
+#sec_third-examplesB-12-1-1-3 > li { counter-increment: sec_third-examplesB-12-1-1-3; }
+#sec_third-examplesB-12-2-2-1 { counter-set: sec_third-examplesB-12-2-2-1 0; }
+#sec_third-examplesB-12-2-2-1 > li::marker { content: ""counter(sec_third-examplesB-12-2-2-1,lower-alpha)"."; }
+#sec_third-examplesB-12-2-2-1 > li { counter-increment: sec_third-examplesB-12-2-2-1; }
+#ex_third-2-3-1-2 { counter-set: ex_third-2-3-1-2 0; }
+#ex_third-2-3-1-2 > li::marker { content: ""counter(ex_third-2-3-1-2,lower-alpha)"."; }
+#ex_third-2-3-1-2 > li { counter-increment: ex_third-2-3-1-2; }
+#ex_third-2-4-1-2 { counter-set: ex_third-2-4-1-2 0; }
+#ex_third-2-4-1-2 > li::marker { content: ""counter(ex_third-2-4-1-2,lower-alpha)"."; }
+#ex_third-2-4-1-2 > li { counter-increment: ex_third-2-4-1-2; }
+#ex_third-2-5-1-3 { counter-set: ex_third-2-5-1-3 0; }
+#ex_third-2-5-1-3 > li::marker { content: ""counter(ex_third-2-5-1-3,lower-alpha)"."; }
+#ex_third-2-5-1-3 > li { counter-increment: ex_third-2-5-1-3; }
+#ex_third-2-6-1-1 { counter-set: ex_third-2-6-1-1 0; }
+#ex_third-2-6-1-1 > li::marker { content: ""counter(ex_third-2-6-1-1,lower-alpha)"."; }
+#ex_third-2-6-1-1 > li { counter-increment: ex_third-2-6-1-1; }
+#ex_third-2-7-1-1 { counter-set: ex_third-2-7-1-1 0; }
+#ex_third-2-7-1-1 > li::marker { content: ""counter(ex_third-2-7-1-1,lower-alpha)"."; }
+#ex_third-2-7-1-1 > li { counter-increment: ex_third-2-7-1-1; }
+#ex_third-2-8-1-1 { counter-set: ex_third-2-8-1-1 0; }
+#ex_third-2-8-1-1 > li::marker { content: ""counter(ex_third-2-8-1-1,lower-alpha)"."; }
+#ex_third-2-8-1-1 > li { counter-increment: ex_third-2-8-1-1; }
+#ex_third-2-9-1-1 { counter-set: ex_third-2-9-1-1 0; }
+#ex_third-2-9-1-1 > li::marker { content: ""counter(ex_third-2-9-1-1,lower-alpha)"."; }
+#ex_third-2-9-1-1 > li { counter-increment: ex_third-2-9-1-1; }
+#ex_third-2-10-2 { counter-set: ex_third-2-10-2 0; }
+#ex_third-2-10-2 > li::marker { content: ""counter(ex_third-2-10-2,lower-alpha)"."; }
+#ex_third-2-10-2 > li { counter-increment: ex_third-2-10-2; }
+#ex_third-2-10-2-2-1-1 { counter-set: ex_third-2-10-2-2-1-1 0; }
+#ex_third-2-10-2-2-1-1 > li::marker { content: ""counter(ex_third-2-10-2-2-1-1,lower-roman)"."; }
+#ex_third-2-10-2-2-1-1 > li { counter-increment: ex_third-2-10-2-2-1-1; }
+#ex_third-2-11-1-3 { counter-set: ex_third-2-11-1-3 0; }
+#ex_third-2-11-1-3 > li::marker { content: ""counter(ex_third-2-11-1-3,lower-alpha)"."; }
+#ex_third-2-11-1-3 > li { counter-increment: ex_third-2-11-1-3; }
+#ex_third-2-14-1-3 { counter-set: ex_third-2-14-1-3 0; }
+#ex_third-2-14-1-3 > li::marker { content: ""counter(ex_third-2-14-1-3,lower-alpha)"."; }
+#ex_third-2-14-1-3 > li { counter-increment: ex_third-2-14-1-3; }
+#ex_third-2-21-1-2 { counter-set: ex_third-2-21-1-2 0; }
+#ex_third-2-21-1-2 > li::marker { content: ""counter(ex_third-2-21-1-2,lower-alpha)"."; }
+#ex_third-2-21-1-2 > li { counter-increment: ex_third-2-21-1-2; }
+#ex_third-3-2-1-4 { counter-set: ex_third-3-2-1-4 0; }
+#ex_third-3-2-1-4 > li::marker { content: ""counter(ex_third-3-2-1-4,lower-alpha)"."; }
+#ex_third-3-2-1-4 > li { counter-increment: ex_third-3-2-1-4; }
+#ex_third-3-3-1-1 { counter-set: ex_third-3-3-1-1 0; }
+#ex_third-3-3-1-1 > li::marker { content: ""counter(ex_third-3-3-1-1,lower-alpha)"."; }
+#ex_third-3-3-1-1 > li { counter-increment: ex_third-3-3-1-1; }
+#ex_third-3-4-1-1 { counter-set: ex_third-3-4-1-1 0; }
+#ex_third-3-4-1-1 > li::marker { content: ""counter(ex_third-3-4-1-1,lower-alpha)"."; }
+#ex_third-3-4-1-1 > li { counter-increment: ex_third-3-4-1-1; }
+#ex_third-3-5-1-2 { counter-set: ex_third-3-5-1-2 0; }
+#ex_third-3-5-1-2 > li::marker { content: ""counter(ex_third-3-5-1-2,lower-alpha)"."; }
+#ex_third-3-5-1-2 > li { counter-increment: ex_third-3-5-1-2; }
+#ex_third-3-9-1-2 { counter-set: ex_third-3-9-1-2 0; }
+#ex_third-3-9-1-2 > li::marker { content: ""counter(ex_third-3-9-1-2,lower-alpha)"."; }
+#ex_third-3-9-1-2 > li { counter-increment: ex_third-3-9-1-2; }
+#subsec-types_forces-2 { counter-set: subsec-types_forces-2 0; }
+#subsec-types_forces-2 > li::marker { content: ""counter(subsec-types_forces-2,decimal)"."; }
+#subsec-types_forces-2 > li { counter-increment: subsec-types_forces-2; }
+#subsec-Nlaw_motion-2 { counter-set: subsec-Nlaw_motion-2 0; }
+#subsec-Nlaw_motion-2 > li::marker { content: ""counter(subsec-Nlaw_motion-2,decimal)"."; }
+#subsec-Nlaw_motion-2 > li { counter-increment: subsec-Nlaw_motion-2; }
+#subsec-statics-2-1-1 { counter-set: subsec-statics-2-1-1 0; }
+#subsec-statics-2-1-1 > li::marker { content: ""counter(subsec-statics-2-1-1,lower-roman)"."; }
+#subsec-statics-2-1-1 > li { counter-increment: subsec-statics-2-1-1; }
+#subsubsec-state_eqlbrm-3 { counter-set: subsubsec-state_eqlbrm-3 0; }
+#subsubsec-state_eqlbrm-3 > li::marker { content: ""counter(subsubsec-state_eqlbrm-3,decimal)"."; }
+#subsubsec-state_eqlbrm-3 > li { counter-increment: subsubsec-state_eqlbrm-3; }
+#subsubsec-state_eqlbrm-3-2-1-2 { counter-set: subsubsec-state_eqlbrm-3-2-1-2 0; }
+#subsubsec-state_eqlbrm-3-2-1-2 > li::marker { content: ""counter(subsubsec-state_eqlbrm-3-2-1-2,lower-alpha)"."; }
+#subsubsec-state_eqlbrm-3-2-1-2 > li { counter-increment: subsubsec-state_eqlbrm-3-2-1-2; }
+#sec_fourth-examplesA-4-1-1-1 { counter-set: sec_fourth-examplesA-4-1-1-1 0; }
+#sec_fourth-examplesA-4-1-1-1 > li::marker { content: ""counter(sec_fourth-examplesA-4-1-1-1,lower-alpha)"."; }
+#sec_fourth-examplesA-4-1-1-1 > li { counter-increment: sec_fourth-examplesA-4-1-1-1; }
+#sec_fourth-examplesA-4-2-2-2 { counter-set: sec_fourth-examplesA-4-2-2-2 0; }
+#sec_fourth-examplesA-4-2-2-2 > li::marker { content: ""counter(sec_fourth-examplesA-4-2-2-2,lower-alpha)"."; }
+#sec_fourth-examplesA-4-2-2-2 > li { counter-increment: sec_fourth-examplesA-4-2-2-2; }
+#sec_fourth-transeql-2-2 { counter-set: sec_fourth-transeql-2-2 0; }
+#sec_fourth-transeql-2-2 > li::marker { content: ""counter(sec_fourth-transeql-2-2,decimal)"."; }
+#sec_fourth-transeql-2-2 > li { counter-increment: sec_fourth-transeql-2-2; }
+#sec_fourth-transeql-2-2-2-1-1 { counter-set: sec_fourth-transeql-2-2-2-1-1 0; }
+#sec_fourth-transeql-2-2-2-1-1 > li::marker { content: ""counter(sec_fourth-transeql-2-2-2-1-1,lower-alpha)"."; }
+#sec_fourth-transeql-2-2-2-1-1 > li { counter-increment: sec_fourth-transeql-2-2-2-1-1; }
+#sec_fourth-examplesB-2-1-1-2 { counter-set: sec_fourth-examplesB-2-1-1-2 0; }
+#sec_fourth-examplesB-2-1-1-2 > li::marker { content: ""counter(sec_fourth-examplesB-2-1-1-2,lower-alpha)"."; }
+#sec_fourth-examplesB-2-1-1-2 > li { counter-increment: sec_fourth-examplesB-2-1-1-2; }
+#sec_fourth-examplesB-2-2-2-11 { counter-set: sec_fourth-examplesB-2-2-2-11 0; }
+#sec_fourth-examplesB-2-2-2-11 > li::marker { content: ""counter(sec_fourth-examplesB-2-2-2-11,lower-alpha)"."; }
+#sec_fourth-examplesB-2-2-2-11 > li { counter-increment: sec_fourth-examplesB-2-2-2-11; }
+#sec_fourth-examplesC-2-1-1-3 { counter-set: sec_fourth-examplesC-2-1-1-3 0; }
+#sec_fourth-examplesC-2-1-1-3 > li::marker { content: ""counter(sec_fourth-examplesC-2-1-1-3,lower-alpha)"."; }
+#sec_fourth-examplesC-2-1-1-3 > li { counter-increment: sec_fourth-examplesC-2-1-1-3; }
+#sec_fourth-examplesC-2-2-3-1 { counter-set: sec_fourth-examplesC-2-2-3-1 0; }
+#sec_fourth-examplesC-2-2-3-1 > li::marker { content: ""counter(sec_fourth-examplesC-2-2-3-1,lower-alpha)"."; }
+#sec_fourth-examplesC-2-2-3-1 > li { counter-increment: sec_fourth-examplesC-2-2-3-1; }
+#sec_fourth-examplesC-3-1-1-9 { counter-set: sec_fourth-examplesC-3-1-1-9 0; }
+#sec_fourth-examplesC-3-1-1-9 > li::marker { content: ""counter(sec_fourth-examplesC-3-1-1-9,lower-alpha)"."; }
+#sec_fourth-examplesC-3-1-1-9 > li { counter-increment: sec_fourth-examplesC-3-1-1-9; }
+#sec_fourth-examplesC-4-1-1-2 { counter-set: sec_fourth-examplesC-4-1-1-2 0; }
+#sec_fourth-examplesC-4-1-1-2 > li::marker { content: ""counter(sec_fourth-examplesC-4-1-1-2,lower-alpha)"."; }
+#sec_fourth-examplesC-4-1-1-2 > li { counter-increment: sec_fourth-examplesC-4-1-1-2; }
+#sec_fourth-examplesC-4-2-2 { counter-set: sec_fourth-examplesC-4-2-2 0; }
+#sec_fourth-examplesC-4-2-2 > li::marker { content: ""counter(sec_fourth-examplesC-4-2-2,lower-alpha)"."; }
+#sec_fourth-examplesC-4-2-2 > li { counter-increment: sec_fourth-examplesC-4-2-2; }
+#sec_fourth-examplesD-3-1-1-1 { counter-set: sec_fourth-examplesD-3-1-1-1 0; }
+#sec_fourth-examplesD-3-1-1-1 > li::marker { content: ""counter(sec_fourth-examplesD-3-1-1-1,lower-alpha)"."; }
+#sec_fourth-examplesD-3-1-1-1 > li { counter-increment: sec_fourth-examplesD-3-1-1-1; }
+#sec_fourth-examplesD-3-2-1 { counter-set: sec_fourth-examplesD-3-2-1 0; }
+#sec_fourth-examplesD-3-2-1 > li::marker { content: ""counter(sec_fourth-examplesD-3-2-1,lower-alpha)"."; }
+#sec_fourth-examplesD-3-2-1 > li { counter-increment: sec_fourth-examplesD-3-2-1; }
+#sec_fourth-cm-2-5-2 { counter-set: sec_fourth-cm-2-5-2 0; }
+#sec_fourth-cm-2-5-2 > li::marker { content: ""counter(sec_fourth-cm-2-5-2,decimal)"."; }
+#sec_fourth-cm-2-5-2 > li { counter-increment: sec_fourth-cm-2-5-2; }
+#subsec-st_equlbrm-3 { counter-set: subsec-st_equlbrm-3 0; }
+#subsec-st_equlbrm-3 > li::marker { content: ""counter(subsec-st_equlbrm-3,decimal)"."; }
+#subsec-st_equlbrm-3 > li { counter-increment: subsec-st_equlbrm-3; }
+#sec_fourth-examplesE-3-4-2-1-1 { counter-set: sec_fourth-examplesE-3-4-2-1-1 0; }
+#sec_fourth-examplesE-3-4-2-1-1 > li::marker { content: ""counter(sec_fourth-examplesE-3-4-2-1-1,upper-alpha)"."; }
+#sec_fourth-examplesE-3-4-2-1-1 > li { counter-increment: sec_fourth-examplesE-3-4-2-1-1; }
+#sec_fourth-examplesE-3-6-1-1-6 { counter-set: sec_fourth-examplesE-3-6-1-1-6 0; }
+#sec_fourth-examplesE-3-6-1-1-6 > li::marker { content: ""counter(sec_fourth-examplesE-3-6-1-1-6,lower-alpha)"."; }
+#sec_fourth-examplesE-3-6-1-1-6 > li { counter-increment: sec_fourth-examplesE-3-6-1-1-6; }
+#ex_fourth-2-4-1-2 { counter-set: ex_fourth-2-4-1-2 0; }
+#ex_fourth-2-4-1-2 > li::marker { content: ""counter(ex_fourth-2-4-1-2,lower-alpha)"."; }
+#ex_fourth-2-4-1-2 > li { counter-increment: ex_fourth-2-4-1-2; }
+#ex_fourth-2-5-1-1 { counter-set: ex_fourth-2-5-1-1 0; }
+#ex_fourth-2-5-1-1 > li::marker { content: ""counter(ex_fourth-2-5-1-1,lower-alpha)"."; }
+#ex_fourth-2-5-1-1 > li { counter-increment: ex_fourth-2-5-1-1; }
+#ex_fourth-2-6-1-2 { counter-set: ex_fourth-2-6-1-2 0; }
+#ex_fourth-2-6-1-2 > li::marker { content: ""counter(ex_fourth-2-6-1-2,lower-alpha)"."; }
+#ex_fourth-2-6-1-2 > li { counter-increment: ex_fourth-2-6-1-2; }
+#ex_fourth-3-2-1-2 { counter-set: ex_fourth-3-2-1-2 0; }
+#ex_fourth-3-2-1-2 > li::marker { content: ""counter(ex_fourth-3-2-1-2,lower-alpha)"."; }
+#ex_fourth-3-2-1-2 > li { counter-increment: ex_fourth-3-2-1-2; }
+#ex_fourth-3-3-1-2 { counter-set: ex_fourth-3-3-1-2 0; }
+#ex_fourth-3-3-1-2 > li::marker { content: ""counter(ex_fourth-3-3-1-2,lower-alpha)"."; }
+#ex_fourth-3-3-1-2 > li { counter-increment: ex_fourth-3-3-1-2; }
+#ex_fourth-3-4-1-4 { counter-set: ex_fourth-3-4-1-4 0; }
+#ex_fourth-3-4-1-4 > li::marker { content: ""counter(ex_fourth-3-4-1-4,lower-alpha)"."; }
+#ex_fourth-3-4-1-4 > li { counter-increment: ex_fourth-3-4-1-4; }
+#ex_fourth-3-5-1-4 { counter-set: ex_fourth-3-5-1-4 0; }
+#ex_fourth-3-5-1-4 > li::marker { content: ""counter(ex_fourth-3-5-1-4,lower-alpha)"."; }
+#ex_fourth-3-5-1-4 > li { counter-increment: ex_fourth-3-5-1-4; }
+#ex_fourth-4-4-1-6 { counter-set: ex_fourth-4-4-1-6 0; }
+#ex_fourth-4-4-1-6 > li::marker { content: ""counter(ex_fourth-4-4-1-6,lower-alpha)"."; }
+#ex_fourth-4-4-1-6 > li { counter-increment: ex_fourth-4-4-1-6; }
+#ex_fourth-4-5-1-6 { counter-set: ex_fourth-4-5-1-6 0; }
+#ex_fourth-4-5-1-6 > li::marker { content: ""counter(ex_fourth-4-5-1-6,lower-alpha)"."; }
+#ex_fourth-4-5-1-6 > li { counter-increment: ex_fourth-4-5-1-6; }
+#ex_fourth-4-6-1-2 { counter-set: ex_fourth-4-6-1-2 0; }
+#ex_fourth-4-6-1-2 > li::marker { content: ""counter(ex_fourth-4-6-1-2,lower-alpha)"."; }
+#ex_fourth-4-6-1-2 > li { counter-increment: ex_fourth-4-6-1-2; }
+#ex_fourth-4-7-1-4 { counter-set: ex_fourth-4-7-1-4 0; }
+#ex_fourth-4-7-1-4 > li::marker { content: ""counter(ex_fourth-4-7-1-4,lower-alpha)"."; }
+#ex_fourth-4-7-1-4 > li { counter-increment: ex_fourth-4-7-1-4; }
+#ex_fourth-4-9-1-3 { counter-set: ex_fourth-4-9-1-3 0; }
+#ex_fourth-4-9-1-3 > li::marker { content: ""counter(ex_fourth-4-9-1-3,lower-alpha)"."; }
+#ex_fourth-4-9-1-3 > li { counter-increment: ex_fourth-4-9-1-3; }
+#ex_fourth-4-10-1-3 { counter-set: ex_fourth-4-10-1-3 0; }
+#ex_fourth-4-10-1-3 > li::marker { content: ""counter(ex_fourth-4-10-1-3,lower-alpha)"."; }
+#ex_fourth-4-10-1-3 > li { counter-increment: ex_fourth-4-10-1-3; }
+#ex_fourth-5-2-1-1 { counter-set: ex_fourth-5-2-1-1 0; }
+#ex_fourth-5-2-1-1 > li::marker { content: ""counter(ex_fourth-5-2-1-1,lower-alpha)"."; }
+#ex_fourth-5-2-1-1 > li { counter-increment: ex_fourth-5-2-1-1; }
+#ex_fourth-5-3-1-1 { counter-set: ex_fourth-5-3-1-1 0; }
+#ex_fourth-5-3-1-1 > li::marker { content: ""counter(ex_fourth-5-3-1-1,lower-alpha)"."; }
+#ex_fourth-5-3-1-1 > li { counter-increment: ex_fourth-5-3-1-1; }
+#ex_fourth-5-4-1-1 { counter-set: ex_fourth-5-4-1-1 0; }
+#ex_fourth-5-4-1-1 > li::marker { content: ""counter(ex_fourth-5-4-1-1,lower-alpha)"."; }
+#ex_fourth-5-4-1-1 > li { counter-increment: ex_fourth-5-4-1-1; }
+#ex_fourth-5-5-1-1 { counter-set: ex_fourth-5-5-1-1 0; }
+#ex_fourth-5-5-1-1 > li::marker { content: ""counter(ex_fourth-5-5-1-1,lower-alpha)"."; }
+#ex_fourth-5-5-1-1 > li { counter-increment: ex_fourth-5-5-1-1; }
+#ex_fourth-5-9-1-2 { counter-set: ex_fourth-5-9-1-2 0; }
+#ex_fourth-5-9-1-2 > li::marker { content: ""counter(ex_fourth-5-9-1-2,lower-alpha)"."; }
+#ex_fourth-5-9-1-2 > li { counter-increment: ex_fourth-5-9-1-2; }
+#ex_fourth-6-4-1-2 { counter-set: ex_fourth-6-4-1-2 0; }
+#ex_fourth-6-4-1-2 > li::marker { content: ""counter(ex_fourth-6-4-1-2,lower-alpha)"."; }
+#ex_fourth-6-4-1-2 > li { counter-increment: ex_fourth-6-4-1-2; }
+#ex_fourth-6-7-1-2 { counter-set: ex_fourth-6-7-1-2 0; }
+#ex_fourth-6-7-1-2 > li::marker { content: ""counter(ex_fourth-6-7-1-2,lower-alpha)"."; }
+#ex_fourth-6-7-1-2 > li { counter-increment: ex_fourth-6-7-1-2; }
+#ex_fourth-6-10-1-1 { counter-set: ex_fourth-6-10-1-1 0; }
+#ex_fourth-6-10-1-1 > li::marker { content: ""counter(ex_fourth-6-10-1-1,lower-alpha)"."; }
+#ex_fourth-6-10-1-1 > li { counter-increment: ex_fourth-6-10-1-1; }
+#ex_fourth-7-7-1 { counter-set: ex_fourth-7-7-1 0; }
+#ex_fourth-7-7-1 > li::marker { content: ""counter(ex_fourth-7-7-1,lower-alpha)"."; }
+#ex_fourth-7-7-1 > li { counter-increment: ex_fourth-7-7-1; }
+#ex_fourth-7-8-1-1 { counter-set: ex_fourth-7-8-1-1 0; }
+#ex_fourth-7-8-1-1 > li::marker { content: ""counter(ex_fourth-7-8-1-1,lower-alpha)"."; }
+#ex_fourth-7-8-1-1 > li { counter-increment: ex_fourth-7-8-1-1; }
+#ex_fourth-7-10-3 { counter-set: ex_fourth-7-10-3 0; }
+#ex_fourth-7-10-3 > li::marker { content: ""counter(ex_fourth-7-10-3,lower-alpha)"."; }
+#ex_fourth-7-10-3 > li { counter-increment: ex_fourth-7-10-3; }
+#ex_fourth-7-11-1-1 { counter-set: ex_fourth-7-11-1-1 0; }
+#ex_fourth-7-11-1-1 > li::marker { content: ""counter(ex_fourth-7-11-1-1,lower-alpha)"."; }
+#ex_fourth-7-11-1-1 > li { counter-increment: ex_fourth-7-11-1-1; }
+#ex_fourth-7-12-2 { counter-set: ex_fourth-7-12-2 0; }
+#ex_fourth-7-12-2 > li::marker { content: ""counter(ex_fourth-7-12-2,lower-alpha)"."; }
+#ex_fourth-7-12-2 > li { counter-increment: ex_fourth-7-12-2; }
+#ex_fourth-7-15-1-2 { counter-set: ex_fourth-7-15-1-2 0; }
+#ex_fourth-7-15-1-2 > li::marker { content: ""counter(ex_fourth-7-15-1-2,lower-alpha)"."; }
+#ex_fourth-7-15-1-2 > li { counter-increment: ex_fourth-7-15-1-2; }
+#subsubsec-pe-3 { counter-set: subsubsec-pe-3 0; }
+#subsubsec-pe-3 > li::marker { content: ""counter(subsubsec-pe-3,decimal)"."; }
+#subsubsec-pe-3 > li { counter-increment: subsubsec-pe-3; }
+#subsec-sm-6 { counter-set: subsec-sm-6 0; }
+#subsec-sm-6 > li::marker { content: ""counter(subsec-sm-6,upper-roman)"."; }
+#subsec-sm-6 > li { counter-increment: subsec-sm-6; }
+#subsubsec-pulley_type-3 { counter-set: subsubsec-pulley_type-3 0; }
+#subsubsec-pulley_type-3 > li::marker { content: ""counter(subsubsec-pulley_type-3,upper-roman)"."; }
+#subsubsec-pulley_type-3 > li { counter-increment: subsubsec-pulley_type-3; }
+#sec_fifth-examplesA-2-3-1-1-3 { counter-set: sec_fifth-examplesA-2-3-1-1-3 0; }
+#sec_fifth-examplesA-2-3-1-1-3 > li::marker { content: ""counter(sec_fifth-examplesA-2-3-1-1-3,lower-alpha)"."; }
+#sec_fifth-examplesA-2-3-1-1-3 > li { counter-increment: sec_fifth-examplesA-2-3-1-1-3; }
+#sec_fifth-examplesA-2-3-2-1-1 { counter-set: sec_fifth-examplesA-2-3-2-1-1 0; }
+#sec_fifth-examplesA-2-3-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-2-3-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-2-3-2-1-1 > li { counter-increment: sec_fifth-examplesA-2-3-2-1-1; }
+#sec_fifth-examplesA-2-4-1-1-5 { counter-set: sec_fifth-examplesA-2-4-1-1-5 0; }
+#sec_fifth-examplesA-2-4-1-1-5 > li::marker { content: ""counter(sec_fifth-examplesA-2-4-1-1-5,lower-alpha)"."; }
+#sec_fifth-examplesA-2-4-1-1-5 > li { counter-increment: sec_fifth-examplesA-2-4-1-1-5; }
+#sec_fifth-examplesA-2-4-2-1-1 { counter-set: sec_fifth-examplesA-2-4-2-1-1 0; }
+#sec_fifth-examplesA-2-4-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-2-4-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-2-4-2-1-1 > li { counter-increment: sec_fifth-examplesA-2-4-2-1-1; }
+#sec_fifth-examplesA-2-5-1-1-1 { counter-set: sec_fifth-examplesA-2-5-1-1-1 0; }
+#sec_fifth-examplesA-2-5-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-2-5-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-2-5-1-1-1 > li { counter-increment: sec_fifth-examplesA-2-5-1-1-1; }
+#sec_fifth-examplesA-2-5-2-2-1 { counter-set: sec_fifth-examplesA-2-5-2-2-1 0; }
+#sec_fifth-examplesA-2-5-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-2-5-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-2-5-2-2-1 > li { counter-increment: sec_fifth-examplesA-2-5-2-2-1; }
+#sec_fifth-examplesA-3-2-1-1-4 { counter-set: sec_fifth-examplesA-3-2-1-1-4 0; }
+#sec_fifth-examplesA-3-2-1-1-4 > li::marker { content: ""counter(sec_fifth-examplesA-3-2-1-1-4,lower-alpha)"."; }
+#sec_fifth-examplesA-3-2-1-1-4 > li { counter-increment: sec_fifth-examplesA-3-2-1-1-4; }
+#sec_fifth-examplesA-3-2-2-3 { counter-set: sec_fifth-examplesA-3-2-2-3 0; }
+#sec_fifth-examplesA-3-2-2-3 > li::marker { content: ""counter(sec_fifth-examplesA-3-2-2-3,lower-alpha)"."; }
+#sec_fifth-examplesA-3-2-2-3 > li { counter-increment: sec_fifth-examplesA-3-2-2-3; }
+#sec_fifth-examplesA-3-3-1-2-1 { counter-set: sec_fifth-examplesA-3-3-1-2-1 0; }
+#sec_fifth-examplesA-3-3-1-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-3-1-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-3-1-2-1 > li { counter-increment: sec_fifth-examplesA-3-3-1-2-1; }
+#sec_fifth-examplesA-3-3-2-2-1 { counter-set: sec_fifth-examplesA-3-3-2-2-1 0; }
+#sec_fifth-examplesA-3-3-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-3-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-3-2-2-1 > li { counter-increment: sec_fifth-examplesA-3-3-2-2-1; }
+#sec_fifth-examplesA-3-4-1-1-3 { counter-set: sec_fifth-examplesA-3-4-1-1-3 0; }
+#sec_fifth-examplesA-3-4-1-1-3 > li::marker { content: ""counter(sec_fifth-examplesA-3-4-1-1-3,lower-alpha)"."; }
+#sec_fifth-examplesA-3-4-1-1-3 > li { counter-increment: sec_fifth-examplesA-3-4-1-1-3; }
+#sec_fifth-examplesA-3-4-2-2 { counter-set: sec_fifth-examplesA-3-4-2-2 0; }
+#sec_fifth-examplesA-3-4-2-2 > li::marker { content: ""counter(sec_fifth-examplesA-3-4-2-2,lower-alpha)"."; }
+#sec_fifth-examplesA-3-4-2-2 > li { counter-increment: sec_fifth-examplesA-3-4-2-2; }
+#sec_fifth-examplesA-3-7-1-1-1 { counter-set: sec_fifth-examplesA-3-7-1-1-1 0; }
+#sec_fifth-examplesA-3-7-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-7-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-7-1-1-1 > li { counter-increment: sec_fifth-examplesA-3-7-1-1-1; }
+#sec_fifth-examplesA-3-7-2-3-1 { counter-set: sec_fifth-examplesA-3-7-2-3-1 0; }
+#sec_fifth-examplesA-3-7-2-3-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-7-2-3-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-7-2-3-1 > li { counter-increment: sec_fifth-examplesA-3-7-2-3-1; }
+#sec_fifth-examplesA-3-8-1-1-1 { counter-set: sec_fifth-examplesA-3-8-1-1-1 0; }
+#sec_fifth-examplesA-3-8-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-8-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-8-1-1-1 > li { counter-increment: sec_fifth-examplesA-3-8-1-1-1; }
+#sec_fifth-examplesA-3-8-2-2-1 { counter-set: sec_fifth-examplesA-3-8-2-2-1 0; }
+#sec_fifth-examplesA-3-8-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-8-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-8-2-2-1 > li { counter-increment: sec_fifth-examplesA-3-8-2-2-1; }
+#sec_fifth-examplesA-4-2-1-1-2 { counter-set: sec_fifth-examplesA-4-2-1-1-2 0; }
+#sec_fifth-examplesA-4-2-1-1-2 > li::marker { content: ""counter(sec_fifth-examplesA-4-2-1-1-2,lower-alpha)"."; }
+#sec_fifth-examplesA-4-2-1-1-2 > li { counter-increment: sec_fifth-examplesA-4-2-1-1-2; }
+#sec_fifth-examplesA-4-2-2-1-1 { counter-set: sec_fifth-examplesA-4-2-2-1-1 0; }
+#sec_fifth-examplesA-4-2-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-2-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-2-2-1-1 > li { counter-increment: sec_fifth-examplesA-4-2-2-1-1; }
+#sec_fifth-examplesA-4-3-1-1-2 { counter-set: sec_fifth-examplesA-4-3-1-1-2 0; }
+#sec_fifth-examplesA-4-3-1-1-2 > li::marker { content: ""counter(sec_fifth-examplesA-4-3-1-1-2,lower-alpha)"."; }
+#sec_fifth-examplesA-4-3-1-1-2 > li { counter-increment: sec_fifth-examplesA-4-3-1-1-2; }
+#sec_fifth-examplesA-4-3-2-1-1 { counter-set: sec_fifth-examplesA-4-3-2-1-1 0; }
+#sec_fifth-examplesA-4-3-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-3-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-3-2-1-1 > li { counter-increment: sec_fifth-examplesA-4-3-2-1-1; }
+#sec_fifth-examplesA-4-4-1-1-1 { counter-set: sec_fifth-examplesA-4-4-1-1-1 0; }
+#sec_fifth-examplesA-4-4-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-4-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-4-1-1-1 > li { counter-increment: sec_fifth-examplesA-4-4-1-1-1; }
+#sec_fifth-examplesA-4-4-2-2-1 { counter-set: sec_fifth-examplesA-4-4-2-2-1 0; }
+#sec_fifth-examplesA-4-4-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-4-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-4-2-2-1 > li { counter-increment: sec_fifth-examplesA-4-4-2-2-1; }
+#subsubsec-2d_col-2-1 { counter-set: subsubsec-2d_col-2-1 0; }
+#subsubsec-2d_col-2-1 > li::marker { content: ""counter(subsubsec-2d_col-2-1,lower-alpha)"."; }
+#subsubsec-2d_col-2-1 > li { counter-increment: subsubsec-2d_col-2-1; }
+#subsubsec-2d_col-5-1 { counter-set: subsubsec-2d_col-5-1 0; }
+#subsubsec-2d_col-5-1 > li::marker { content: ""counter(subsubsec-2d_col-5-1,lower-alpha)"."; }
+#subsubsec-2d_col-5-1 > li { counter-increment: subsubsec-2d_col-5-1; }
+#sec_fifth-examplesB-6-1-1-1 { counter-set: sec_fifth-examplesB-6-1-1-1 0; }
+#sec_fifth-examplesB-6-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-6-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-6-1-1-1 > li { counter-increment: sec_fifth-examplesB-6-1-1-1; }
+#sec_fifth-examplesB-6-2-1-1 { counter-set: sec_fifth-examplesB-6-2-1-1 0; }
+#sec_fifth-examplesB-6-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-6-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-6-2-1-1 > li { counter-increment: sec_fifth-examplesB-6-2-1-1; }
+#sec_fifth-examplesB-7-1-1-1 { counter-set: sec_fifth-examplesB-7-1-1-1 0; }
+#sec_fifth-examplesB-7-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-7-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-7-1-1-1 > li { counter-increment: sec_fifth-examplesB-7-1-1-1; }
+#sec_fifth-examplesB-7-2-3 { counter-set: sec_fifth-examplesB-7-2-3 0; }
+#sec_fifth-examplesB-7-2-3 > li::marker { content: ""counter(sec_fifth-examplesB-7-2-3,lower-alpha)"."; }
+#sec_fifth-examplesB-7-2-3 > li { counter-increment: sec_fifth-examplesB-7-2-3; }
+#sec_fifth-examplesB-7-2-6 { counter-set: sec_fifth-examplesB-7-2-6 0; }
+#sec_fifth-examplesB-7-2-6 > li::marker { content: ""counter(sec_fifth-examplesB-7-2-6,lower-alpha)"."; }
+#sec_fifth-examplesB-7-2-6 > li { counter-increment: sec_fifth-examplesB-7-2-6; }
+#sec_fifth-examplesB-7-2-9 { counter-set: sec_fifth-examplesB-7-2-9 0; }
+#sec_fifth-examplesB-7-2-9 > li::marker { content: ""counter(sec_fifth-examplesB-7-2-9,lower-alpha)"."; }
+#sec_fifth-examplesB-7-2-9 > li { counter-increment: sec_fifth-examplesB-7-2-9; }
+#sec_fifth-examplesB-8-1-1-1 { counter-set: sec_fifth-examplesB-8-1-1-1 0; }
+#sec_fifth-examplesB-8-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-8-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-8-1-1-1 > li { counter-increment: sec_fifth-examplesB-8-1-1-1; }
+#sec_fifth-examplesB-8-2-2-3 { counter-set: sec_fifth-examplesB-8-2-2-3 0; }
+#sec_fifth-examplesB-8-2-2-3 > li::marker { content: ""counter(sec_fifth-examplesB-8-2-2-3,lower-alpha)"."; }
+#sec_fifth-examplesB-8-2-2-3 > li { counter-increment: sec_fifth-examplesB-8-2-2-3; }
+#sec_fifth-examplesB-10-1-3-1 { counter-set: sec_fifth-examplesB-10-1-3-1 0; }
+#sec_fifth-examplesB-10-1-3-1 > li::marker { content: ""counter(sec_fifth-examplesB-10-1-3-1,lower-alpha)"."; }
+#sec_fifth-examplesB-10-1-3-1 > li { counter-increment: sec_fifth-examplesB-10-1-3-1; }
+#sec_fifth-examplesB-10-2-2-1 { counter-set: sec_fifth-examplesB-10-2-2-1 0; }
+#sec_fifth-examplesB-10-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesB-10-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesB-10-2-2-1 > li { counter-increment: sec_fifth-examplesB-10-2-2-1; }
+#sec_fifth-examplesB-11-1-1-2 { counter-set: sec_fifth-examplesB-11-1-1-2 0; }
+#sec_fifth-examplesB-11-1-1-2 > li::marker { content: ""counter(sec_fifth-examplesB-11-1-1-2,lower-alpha)"."; }
+#sec_fifth-examplesB-11-1-1-2 > li { counter-increment: sec_fifth-examplesB-11-1-1-2; }
+#sec_fifth-examplesB-11-2-2-4 { counter-set: sec_fifth-examplesB-11-2-2-4 0; }
+#sec_fifth-examplesB-11-2-2-4 > li::marker { content: ""counter(sec_fifth-examplesB-11-2-2-4,lower-alpha)"."; }
+#sec_fifth-examplesB-11-2-2-4 > li { counter-increment: sec_fifth-examplesB-11-2-2-4; }
+#sec_fifth-examplesB-12-1-1-5 { counter-set: sec_fifth-examplesB-12-1-1-5 0; }
+#sec_fifth-examplesB-12-1-1-5 > li::marker { content: ""counter(sec_fifth-examplesB-12-1-1-5,lower-alpha)"."; }
+#sec_fifth-examplesB-12-1-1-5 > li { counter-increment: sec_fifth-examplesB-12-1-1-5; }
+#sec_fifth-examplesB-12-2-2-1 { counter-set: sec_fifth-examplesB-12-2-2-1 0; }
+#sec_fifth-examplesB-12-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesB-12-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesB-12-2-2-1 > li { counter-increment: sec_fifth-examplesB-12-2-2-1; }
+#ex_fifth-2-4-1-5 { counter-set: ex_fifth-2-4-1-5 0; }
+#ex_fifth-2-4-1-5 > li::marker { content: ""counter(ex_fifth-2-4-1-5,lower-alpha)"."; }
+#ex_fifth-2-4-1-5 > li { counter-increment: ex_fifth-2-4-1-5; }
+#ex_fifth-2-6-1-2 { counter-set: ex_fifth-2-6-1-2 0; }
+#ex_fifth-2-6-1-2 > li::marker { content: ""counter(ex_fifth-2-6-1-2,lower-alpha)"."; }
+#ex_fifth-2-6-1-2 > li { counter-increment: ex_fifth-2-6-1-2; }
+#ex_fifth-2-7-1-2 { counter-set: ex_fifth-2-7-1-2 0; }
+#ex_fifth-2-7-1-2 > li::marker { content: ""counter(ex_fifth-2-7-1-2,lower-alpha)"."; }
+#ex_fifth-2-7-1-2 > li { counter-increment: ex_fifth-2-7-1-2; }
+#ex_fifth-3-2-1-1 { counter-set: ex_fifth-3-2-1-1 0; }
+#ex_fifth-3-2-1-1 > li::marker { content: ""counter(ex_fifth-3-2-1-1,lower-alpha)"."; }
+#ex_fifth-3-2-1-1 > li { counter-increment: ex_fifth-3-2-1-1; }
+#ex_fifth-3-3-1-1 { counter-set: ex_fifth-3-3-1-1 0; }
+#ex_fifth-3-3-1-1 > li::marker { content: ""counter(ex_fifth-3-3-1-1,lower-alpha)"."; }
+#ex_fifth-3-3-1-1 > li { counter-increment: ex_fifth-3-3-1-1; }
+#ex_fifth-3-4-1-1 { counter-set: ex_fifth-3-4-1-1 0; }
+#ex_fifth-3-4-1-1 > li::marker { content: ""counter(ex_fifth-3-4-1-1,lower-alpha)"."; }
+#ex_fifth-3-4-1-1 > li { counter-increment: ex_fifth-3-4-1-1; }
+#ex_fifth-3-5-1-1 { counter-set: ex_fifth-3-5-1-1 0; }
+#ex_fifth-3-5-1-1 > li::marker { content: ""counter(ex_fifth-3-5-1-1,lower-alpha)"."; }
+#ex_fifth-3-5-1-1 > li { counter-increment: ex_fifth-3-5-1-1; }
+#ex_fifth-3-6-1-1 { counter-set: ex_fifth-3-6-1-1 0; }
+#ex_fifth-3-6-1-1 > li::marker { content: ""counter(ex_fifth-3-6-1-1,lower-alpha)"."; }
+#ex_fifth-3-6-1-1 > li { counter-increment: ex_fifth-3-6-1-1; }
+#ex_fifth-3-7-1-1 { counter-set: ex_fifth-3-7-1-1 0; }
+#ex_fifth-3-7-1-1 > li::marker { content: ""counter(ex_fifth-3-7-1-1,upper-roman)"."; }
+#ex_fifth-3-7-1-1 > li { counter-increment: ex_fifth-3-7-1-1; }
+#ex_fifth-3-7-1-1-1-2 { counter-set: ex_fifth-3-7-1-1-1-2 0; }
+#ex_fifth-3-7-1-1-1-2 > li::marker { content: ""counter(ex_fifth-3-7-1-1-1-2,lower-alpha)"."; }
+#ex_fifth-3-7-1-1-1-2 > li { counter-increment: ex_fifth-3-7-1-1-1-2; }
+#ex_fifth-3-7-1-1-2-2 { counter-set: ex_fifth-3-7-1-1-2-2 0; }
+#ex_fifth-3-7-1-1-2-2 > li::marker { content: ""counter(ex_fifth-3-7-1-1-2-2,lower-alpha)"."; }
+#ex_fifth-3-7-1-1-2-2 > li { counter-increment: ex_fifth-3-7-1-1-2-2; }
+#ex_fifth-3-8-1-2 { counter-set: ex_fifth-3-8-1-2 0; }
+#ex_fifth-3-8-1-2 > li::marker { content: ""counter(ex_fifth-3-8-1-2,lower-alpha)"."; }
+#ex_fifth-3-8-1-2 > li { counter-increment: ex_fifth-3-8-1-2; }
+#ex_fifth-3-11-1-1 { counter-set: ex_fifth-3-11-1-1 0; }
+#ex_fifth-3-11-1-1 > li::marker { content: ""counter(ex_fifth-3-11-1-1,lower-alpha)"."; }
+#ex_fifth-3-11-1-1 > li { counter-increment: ex_fifth-3-11-1-1; }
+#ex_fifth-3-13-1-1 { counter-set: ex_fifth-3-13-1-1 0; }
+#ex_fifth-3-13-1-1 > li::marker { content: ""counter(ex_fifth-3-13-1-1,lower-alpha)"."; }
+#ex_fifth-3-13-1-1 > li { counter-increment: ex_fifth-3-13-1-1; }
+#ex_fifth-3-14-1-1 { counter-set: ex_fifth-3-14-1-1 0; }
+#ex_fifth-3-14-1-1 > li::marker { content: ""counter(ex_fifth-3-14-1-1,lower-alpha)"."; }
+#ex_fifth-3-14-1-1 > li { counter-increment: ex_fifth-3-14-1-1; }
+#ex_fifth-4-2-1-1 { counter-set: ex_fifth-4-2-1-1 0; }
+#ex_fifth-4-2-1-1 > li::marker { content: ""counter(ex_fifth-4-2-1-1,lower-alpha)"."; }
+#ex_fifth-4-2-1-1 > li { counter-increment: ex_fifth-4-2-1-1; }
+#ex_fifth-4-3-1-1 { counter-set: ex_fifth-4-3-1-1 0; }
+#ex_fifth-4-3-1-1 > li::marker { content: ""counter(ex_fifth-4-3-1-1,lower-alpha)"."; }
+#ex_fifth-4-3-1-1 > li { counter-increment: ex_fifth-4-3-1-1; }
+#ex_fifth-4-4-1-3 { counter-set: ex_fifth-4-4-1-3 0; }
+#ex_fifth-4-4-1-3 > li::marker { content: ""counter(ex_fifth-4-4-1-3,lower-alpha)"."; }
+#ex_fifth-4-4-1-3 > li { counter-increment: ex_fifth-4-4-1-3; }
+#ex_fifth-4-6-1-1 { counter-set: ex_fifth-4-6-1-1 0; }
+#ex_fifth-4-6-1-1 > li::marker { content: ""counter(ex_fifth-4-6-1-1,lower-alpha)"."; }
+#ex_fifth-4-6-1-1 > li { counter-increment: ex_fifth-4-6-1-1; }
+#ex_fifth-4-7-1-1 { counter-set: ex_fifth-4-7-1-1 0; }
+#ex_fifth-4-7-1-1 > li::marker { content: ""counter(ex_fifth-4-7-1-1,lower-alpha)"."; }
+#ex_fifth-4-7-1-1 > li { counter-increment: ex_fifth-4-7-1-1; }
+#ex_fifth-4-9-1-1 { counter-set: ex_fifth-4-9-1-1 0; }
+#ex_fifth-4-9-1-1 > li::marker { content: ""counter(ex_fifth-4-9-1-1,lower-alpha)"."; }
+#ex_fifth-4-9-1-1 > li { counter-increment: ex_fifth-4-9-1-1; }
+#ex_fifth-5-2-1-1 { counter-set: ex_fifth-5-2-1-1 0; }
+#ex_fifth-5-2-1-1 > li::marker { content: ""counter(ex_fifth-5-2-1-1,lower-alpha)"."; }
+#ex_fifth-5-2-1-1 > li { counter-increment: ex_fifth-5-2-1-1; }
+#ex_fifth-5-3-1-1 { counter-set: ex_fifth-5-3-1-1 0; }
+#ex_fifth-5-3-1-1 > li::marker { content: ""counter(ex_fifth-5-3-1-1,lower-alpha)"."; }
+#ex_fifth-5-3-1-1 > li { counter-increment: ex_fifth-5-3-1-1; }
+#ex_fifth-5-4-1-1 { counter-set: ex_fifth-5-4-1-1 0; }
+#ex_fifth-5-4-1-1 > li::marker { content: ""counter(ex_fifth-5-4-1-1,lower-alpha)"."; }
+#ex_fifth-5-4-1-1 > li { counter-increment: ex_fifth-5-4-1-1; }
+#ex_fifth-5-5-1-1 { counter-set: ex_fifth-5-5-1-1 0; }
+#ex_fifth-5-5-1-1 > li::marker { content: ""counter(ex_fifth-5-5-1-1,lower-alpha)"."; }
+#ex_fifth-5-5-1-1 > li { counter-increment: ex_fifth-5-5-1-1; }
+#ex_fifth-5-6-1-1 { counter-set: ex_fifth-5-6-1-1 0; }
+#ex_fifth-5-6-1-1 > li::marker { content: ""counter(ex_fifth-5-6-1-1,lower-alpha)"."; }
+#ex_fifth-5-6-1-1 > li { counter-increment: ex_fifth-5-6-1-1; }
+#ex_fifth-5-7-1-1 { counter-set: ex_fifth-5-7-1-1 0; }
+#ex_fifth-5-7-1-1 > li::marker { content: ""counter(ex_fifth-5-7-1-1,lower-alpha)"."; }
+#ex_fifth-5-7-1-1 > li { counter-increment: ex_fifth-5-7-1-1; }
+#ex_fifth-5-8-1-1 { counter-set: ex_fifth-5-8-1-1 0; }
+#ex_fifth-5-8-1-1 > li::marker { content: ""counter(ex_fifth-5-8-1-1,lower-alpha)"."; }
+#ex_fifth-5-8-1-1 > li { counter-increment: ex_fifth-5-8-1-1; }
+#ex_fifth-5-9-1-3 { counter-set: ex_fifth-5-9-1-3 0; }
+#ex_fifth-5-9-1-3 > li::marker { content: ""counter(ex_fifth-5-9-1-3,lower-alpha)"."; }
+#ex_fifth-5-9-1-3 > li { counter-increment: ex_fifth-5-9-1-3; }
+#ex_fifth-5-10-1-2 { counter-set: ex_fifth-5-10-1-2 0; }
+#ex_fifth-5-10-1-2 > li::marker { content: ""counter(ex_fifth-5-10-1-2,lower-alpha)"."; }
+#ex_fifth-5-10-1-2 > li { counter-increment: ex_fifth-5-10-1-2; }
+#ex_fifth-5-11-1-1 { counter-set: ex_fifth-5-11-1-1 0; }
+#ex_fifth-5-11-1-1 > li::marker { content: ""counter(ex_fifth-5-11-1-1,lower-alpha)"."; }
+#ex_fifth-5-11-1-1 > li { counter-increment: ex_fifth-5-11-1-1; }
+#ex_fifth-5-15-1-1 { counter-set: ex_fifth-5-15-1-1 0; }
+#ex_fifth-5-15-1-1 > li::marker { content: ""counter(ex_fifth-5-15-1-1,lower-alpha)"."; }
+#ex_fifth-5-15-1-1 > li { counter-increment: ex_fifth-5-15-1-1; }
+#ex_fifth-5-16-1-2 { counter-set: ex_fifth-5-16-1-2 0; }
+#ex_fifth-5-16-1-2 > li::marker { content: ""counter(ex_fifth-5-16-1-2,lower-alpha)"."; }
+#ex_fifth-5-16-1-2 > li { counter-increment: ex_fifth-5-16-1-2; }
+#sec_sixth-kepler-2-4-1 { counter-set: sec_sixth-kepler-2-4-1 0; }
+#sec_sixth-kepler-2-4-1 > li::marker { content: ""counter(sec_sixth-kepler-2-4-1,decimal)"."; }
+#sec_sixth-kepler-2-4-1 > li { counter-increment: sec_sixth-kepler-2-4-1; }
+#sec_sixth-examples-3-1-1-1 { counter-set: sec_sixth-examples-3-1-1-1 0; }
+#sec_sixth-examples-3-1-1-1 > li::marker { content: ""counter(sec_sixth-examples-3-1-1-1,lower-alpha)"."; }
+#sec_sixth-examples-3-1-1-1 > li { counter-increment: sec_sixth-examples-3-1-1-1; }
+#ex_sixth-2-1-2 { counter-set: ex_sixth-2-1-2 0; }
+#ex_sixth-2-1-2 > li::marker { content: ""counter(ex_sixth-2-1-2,lower-alpha)"."; }
+#ex_sixth-2-1-2 > li { counter-increment: ex_sixth-2-1-2; }
+#ex_sixth-3-1-1 { counter-set: ex_sixth-3-1-1 0; }
+#ex_sixth-3-1-1 > li::marker { content: ""counter(ex_sixth-3-1-1,lower-alpha)"."; }
+#ex_sixth-3-1-1 > li { counter-increment: ex_sixth-3-1-1; }
+#ex_sixth-6-1-1 { counter-set: ex_sixth-6-1-1 0; }
+#ex_sixth-6-1-1 > li::marker { content: ""counter(ex_sixth-6-1-1,lower-alpha)"."; }
+#ex_sixth-6-1-1 > li { counter-increment: ex_sixth-6-1-1; }
+#ex_sixth-7-1-1 { counter-set: ex_sixth-7-1-1 0; }
+#ex_sixth-7-1-1 > li::marker { content: ""counter(ex_sixth-7-1-1,lower-alpha)"."; }
+#ex_sixth-7-1-1 > li { counter-increment: ex_sixth-7-1-1; }
+#sec_seventh-examplesA-2-1-1-1 { counter-set: sec_seventh-examplesA-2-1-1-1 0; }
+#sec_seventh-examplesA-2-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesA-2-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesA-2-1-1-1 > li { counter-increment: sec_seventh-examplesA-2-1-1-1; }
+#sec_seventh-examplesA-2-2-2-2 { counter-set: sec_seventh-examplesA-2-2-2-2 0; }
+#sec_seventh-examplesA-2-2-2-2 > li::marker { content: ""counter(sec_seventh-examplesA-2-2-2-2,lower-alpha)"."; }
+#sec_seventh-examplesA-2-2-2-2 > li { counter-increment: sec_seventh-examplesA-2-2-2-2; }
+#sec_seventh-examplesA-4-1-1-1 { counter-set: sec_seventh-examplesA-4-1-1-1 0; }
+#sec_seventh-examplesA-4-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesA-4-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesA-4-1-1-1 > li { counter-increment: sec_seventh-examplesA-4-1-1-1; }
+#sec_seventh-examplesA-4-2-1-1 { counter-set: sec_seventh-examplesA-4-2-1-1 0; }
+#sec_seventh-examplesA-4-2-1-1 > li::marker { content: ""counter(sec_seventh-examplesA-4-2-1-1,lower-alpha)"."; }
+#sec_seventh-examplesA-4-2-1-1 > li { counter-increment: sec_seventh-examplesA-4-2-1-1; }
+#sec_seventh-examplesA-5-1-1-5 { counter-set: sec_seventh-examplesA-5-1-1-5 0; }
+#sec_seventh-examplesA-5-1-1-5 > li::marker { content: ""counter(sec_seventh-examplesA-5-1-1-5,lower-alpha)"."; }
+#sec_seventh-examplesA-5-1-1-5 > li { counter-increment: sec_seventh-examplesA-5-1-1-5; }
+#sec_seventh-examplesA-5-2-2-1 { counter-set: sec_seventh-examplesA-5-2-2-1 0; }
+#sec_seventh-examplesA-5-2-2-1 > li::marker { content: ""counter(sec_seventh-examplesA-5-2-2-1,lower-alpha)"."; }
+#sec_seventh-examplesA-5-2-2-1 > li { counter-increment: sec_seventh-examplesA-5-2-2-1; }
+#sec_seventh-examplesA-6-1-1-6 { counter-set: sec_seventh-examplesA-6-1-1-6 0; }
+#sec_seventh-examplesA-6-1-1-6 > li::marker { content: ""counter(sec_seventh-examplesA-6-1-1-6,lower-alpha)"."; }
+#sec_seventh-examplesA-6-1-1-6 > li { counter-increment: sec_seventh-examplesA-6-1-1-6; }
+#sec_seventh-examplesA-6-2-1-5 { counter-set: sec_seventh-examplesA-6-2-1-5 0; }
+#sec_seventh-examplesA-6-2-1-5 > li::marker { content: ""counter(sec_seventh-examplesA-6-2-1-5,lower-alpha)"."; }
+#sec_seventh-examplesA-6-2-1-5 > li { counter-increment: sec_seventh-examplesA-6-2-1-5; }
+#sec_seventh-examplesB-2-1-1-4 { counter-set: sec_seventh-examplesB-2-1-1-4 0; }
+#sec_seventh-examplesB-2-1-1-4 > li::marker { content: ""counter(sec_seventh-examplesB-2-1-1-4,lower-alpha)"."; }
+#sec_seventh-examplesB-2-1-1-4 > li { counter-increment: sec_seventh-examplesB-2-1-1-4; }
+#sec_seventh-examplesB-2-2-1-2 { counter-set: sec_seventh-examplesB-2-2-1-2 0; }
+#sec_seventh-examplesB-2-2-1-2 > li::marker { content: ""counter(sec_seventh-examplesB-2-2-1-2,lower-alpha)"."; }
+#sec_seventh-examplesB-2-2-1-2 > li { counter-increment: sec_seventh-examplesB-2-2-1-2; }
+#sec_seventh-examplesB-3-1-1-1 { counter-set: sec_seventh-examplesB-3-1-1-1 0; }
+#sec_seventh-examplesB-3-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-3-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-3-1-1-1 > li { counter-increment: sec_seventh-examplesB-3-1-1-1; }
+#sec_seventh-examplesB-3-2-1-4 { counter-set: sec_seventh-examplesB-3-2-1-4 0; }
+#sec_seventh-examplesB-3-2-1-4 > li::marker { content: ""counter(sec_seventh-examplesB-3-2-1-4,lower-alpha)"."; }
+#sec_seventh-examplesB-3-2-1-4 > li { counter-increment: sec_seventh-examplesB-3-2-1-4; }
+#sec_seventh-examplesB-4-1-1-3 { counter-set: sec_seventh-examplesB-4-1-1-3 0; }
+#sec_seventh-examplesB-4-1-1-3 > li::marker { content: ""counter(sec_seventh-examplesB-4-1-1-3,lower-alpha)"."; }
+#sec_seventh-examplesB-4-1-1-3 > li { counter-increment: sec_seventh-examplesB-4-1-1-3; }
+#sec_seventh-examplesB-4-2-1-1 { counter-set: sec_seventh-examplesB-4-2-1-1 0; }
+#sec_seventh-examplesB-4-2-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-4-2-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-4-2-1-1 > li { counter-increment: sec_seventh-examplesB-4-2-1-1; }
+#sec_seventh-examplesB-5-1-1-1 { counter-set: sec_seventh-examplesB-5-1-1-1 0; }
+#sec_seventh-examplesB-5-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-5-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-5-1-1-1 > li { counter-increment: sec_seventh-examplesB-5-1-1-1; }
+#sec_seventh-examplesB-5-2-2-4 { counter-set: sec_seventh-examplesB-5-2-2-4 0; }
+#sec_seventh-examplesB-5-2-2-4 > li::marker { content: ""counter(sec_seventh-examplesB-5-2-2-4,lower-alpha)"."; }
+#sec_seventh-examplesB-5-2-2-4 > li { counter-increment: sec_seventh-examplesB-5-2-2-4; }
+#sec_seventh-examplesB-9-1-1-1 { counter-set: sec_seventh-examplesB-9-1-1-1 0; }
+#sec_seventh-examplesB-9-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-9-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-9-1-1-1 > li { counter-increment: sec_seventh-examplesB-9-1-1-1; }
+#sec_seventh-examplesB-9-2-3-11 { counter-set: sec_seventh-examplesB-9-2-3-11 0; }
+#sec_seventh-examplesB-9-2-3-11 > li::marker { content: ""counter(sec_seventh-examplesB-9-2-3-11,lower-alpha)"."; }
+#sec_seventh-examplesB-9-2-3-11 > li { counter-increment: sec_seventh-examplesB-9-2-3-11; }
+#sec_seventh-examplesB-11-1-1-1 { counter-set: sec_seventh-examplesB-11-1-1-1 0; }
+#sec_seventh-examplesB-11-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-11-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-11-1-1-1 > li { counter-increment: sec_seventh-examplesB-11-1-1-1; }
+#sec_seventh-examplesB-11-2-2-6 { counter-set: sec_seventh-examplesB-11-2-2-6 0; }
+#sec_seventh-examplesB-11-2-2-6 > li::marker { content: ""counter(sec_seventh-examplesB-11-2-2-6,lower-alpha)"."; }
+#sec_seventh-examplesB-11-2-2-6 > li { counter-increment: sec_seventh-examplesB-11-2-2-6; }
+#sec_seventh-examplesB-17-1-1-4 { counter-set: sec_seventh-examplesB-17-1-1-4 0; }
+#sec_seventh-examplesB-17-1-1-4 > li::marker { content: ""counter(sec_seventh-examplesB-17-1-1-4,lower-alpha)"."; }
+#sec_seventh-examplesB-17-1-1-4 > li { counter-increment: sec_seventh-examplesB-17-1-1-4; }
+#sec_seventh-examplesB-17-2-1-15 { counter-set: sec_seventh-examplesB-17-2-1-15 0; }
+#sec_seventh-examplesB-17-2-1-15 > li::marker { content: ""counter(sec_seventh-examplesB-17-2-1-15,lower-alpha)"."; }
+#sec_seventh-examplesB-17-2-1-15 > li { counter-increment: sec_seventh-examplesB-17-2-1-15; }
+#subsec-shm-3-2-2 { counter-set: subsec-shm-3-2-2 0; }
+#subsec-shm-3-2-2 > li::marker { content: ""counter(subsec-shm-3-2-2,decimal)"."; }
+#subsec-shm-3-2-2 > li { counter-increment: subsec-shm-3-2-2; }
+#subsec-shm-3-4-1 { counter-set: subsec-shm-3-4-1 0; }
+#subsec-shm-3-4-1 > li::marker { content: ""counter(subsec-shm-3-4-1,decimal)"."; }
+#subsec-shm-3-4-1 > li { counter-increment: subsec-shm-3-4-1; }
+#sec_seventh-examplesC-2-1-1-2 { counter-set: sec_seventh-examplesC-2-1-1-2 0; }
+#sec_seventh-examplesC-2-1-1-2 > li::marker { content: ""counter(sec_seventh-examplesC-2-1-1-2,lower-alpha)"."; }
+#sec_seventh-examplesC-2-1-1-2 > li { counter-increment: sec_seventh-examplesC-2-1-1-2; }
+#sec_seventh-examplesC-2-2-2 { counter-set: sec_seventh-examplesC-2-2-2 0; }
+#sec_seventh-examplesC-2-2-2 > li::marker { content: ""counter(sec_seventh-examplesC-2-2-2,lower-alpha)"."; }
+#sec_seventh-examplesC-2-2-2 > li { counter-increment: sec_seventh-examplesC-2-2-2; }
+#sec_seventh-examplesC-4-1-1-2 { counter-set: sec_seventh-examplesC-4-1-1-2 0; }
+#sec_seventh-examplesC-4-1-1-2 > li::marker { content: ""counter(sec_seventh-examplesC-4-1-1-2,lower-alpha)"."; }
+#sec_seventh-examplesC-4-1-1-2 > li { counter-increment: sec_seventh-examplesC-4-1-1-2; }
+#sec_seventh-examplesC-4-2-1-7 { counter-set: sec_seventh-examplesC-4-2-1-7 0; }
+#sec_seventh-examplesC-4-2-1-7 > li::marker { content: ""counter(sec_seventh-examplesC-4-2-1-7,lower-alpha)"."; }
+#sec_seventh-examplesC-4-2-1-7 > li { counter-increment: sec_seventh-examplesC-4-2-1-7; }
+#ex_seventh-2-7-1-1 { counter-set: ex_seventh-2-7-1-1 0; }
+#ex_seventh-2-7-1-1 > li::marker { content: ""counter(ex_seventh-2-7-1-1,lower-alpha)"."; }
+#ex_seventh-2-7-1-1 > li { counter-increment: ex_seventh-2-7-1-1; }
+#ex_seventh-3-2-1-4 { counter-set: ex_seventh-3-2-1-4 0; }
+#ex_seventh-3-2-1-4 > li::marker { content: ""counter(ex_seventh-3-2-1-4,lower-alpha)"."; }
+#ex_seventh-3-2-1-4 > li { counter-increment: ex_seventh-3-2-1-4; }
+#ex_seventh-3-3-1-3 { counter-set: ex_seventh-3-3-1-3 0; }
+#ex_seventh-3-3-1-3 > li::marker { content: ""counter(ex_seventh-3-3-1-3,lower-alpha)"."; }
+#ex_seventh-3-3-1-3 > li { counter-increment: ex_seventh-3-3-1-3; }
+#ex_seventh-3-4-1-1 { counter-set: ex_seventh-3-4-1-1 0; }
+#ex_seventh-3-4-1-1 > li::marker { content: ""counter(ex_seventh-3-4-1-1,lower-alpha)"."; }
+#ex_seventh-3-4-1-1 > li { counter-increment: ex_seventh-3-4-1-1; }
+#ex_seventh-3-5-1-2 { counter-set: ex_seventh-3-5-1-2 0; }
+#ex_seventh-3-5-1-2 > li::marker { content: ""counter(ex_seventh-3-5-1-2,lower-alpha)"."; }
+#ex_seventh-3-5-1-2 > li { counter-increment: ex_seventh-3-5-1-2; }
+#ex_seventh-3-6-1-2 { counter-set: ex_seventh-3-6-1-2 0; }
+#ex_seventh-3-6-1-2 > li::marker { content: ""counter(ex_seventh-3-6-1-2,lower-alpha)"."; }
+#ex_seventh-3-6-1-2 > li { counter-increment: ex_seventh-3-6-1-2; }
+#ex_seventh-4-4-1-1 { counter-set: ex_seventh-4-4-1-1 0; }
+#ex_seventh-4-4-1-1 > li::marker { content: ""counter(ex_seventh-4-4-1-1,lower-alpha)"."; }
+#ex_seventh-4-4-1-1 > li { counter-increment: ex_seventh-4-4-1-1; }
+#ex_seventh-4-5-1-1 { counter-set: ex_seventh-4-5-1-1 0; }
+#ex_seventh-4-5-1-1 > li::marker { content: ""counter(ex_seventh-4-5-1-1,lower-alpha)"."; }
+#ex_seventh-4-5-1-1 > li { counter-increment: ex_seventh-4-5-1-1; }
+#ex_seventh-4-6-1-1 { counter-set: ex_seventh-4-6-1-1 0; }
+#ex_seventh-4-6-1-1 > li::marker { content: ""counter(ex_seventh-4-6-1-1,lower-alpha)"."; }
+#ex_seventh-4-6-1-1 > li { counter-increment: ex_seventh-4-6-1-1; }
+#ex_seventh-4-7-1-1 { counter-set: ex_seventh-4-7-1-1 0; }
+#ex_seventh-4-7-1-1 > li::marker { content: ""counter(ex_seventh-4-7-1-1,lower-alpha)"."; }
+#ex_seventh-4-7-1-1 > li { counter-increment: ex_seventh-4-7-1-1; }
+#sec_eighth-examplesA-2-1-1-2 { counter-set: sec_eighth-examplesA-2-1-1-2 0; }
+#sec_eighth-examplesA-2-1-1-2 > li::marker { content: ""counter(sec_eighth-examplesA-2-1-1-2,lower-alpha)"."; }
+#sec_eighth-examplesA-2-1-1-2 > li { counter-increment: sec_eighth-examplesA-2-1-1-2; }
+#sec_eighth-examplesA-2-2-2-1 { counter-set: sec_eighth-examplesA-2-2-2-1 0; }
+#sec_eighth-examplesA-2-2-2-1 > li::marker { content: ""counter(sec_eighth-examplesA-2-2-2-1,lower-alpha)"."; }
+#sec_eighth-examplesA-2-2-2-1 > li { counter-increment: sec_eighth-examplesA-2-2-2-1; }
+#ex_eighth-3-1-4 { counter-set: ex_eighth-3-1-4 0; }
+#ex_eighth-3-1-4 > li::marker { content: ""counter(ex_eighth-3-1-4,lower-alpha)"."; }
+#ex_eighth-3-1-4 > li { counter-increment: ex_eighth-3-1-4; }
+#ex_eighth-5-1-3 { counter-set: ex_eighth-5-1-3 0; }
+#ex_eighth-5-1-3 > li::marker { content: ""counter(ex_eighth-5-1-3,lower-alpha)"."; }
+#ex_eighth-5-1-3 > li { counter-increment: ex_eighth-5-1-3; }
+#ex_eighth-6-1-2 { counter-set: ex_eighth-6-1-2 0; }
+#ex_eighth-6-1-2 > li::marker { content: ""counter(ex_eighth-6-1-2,lower-alpha)"."; }
+#ex_eighth-6-1-2 > li { counter-increment: ex_eighth-6-1-2; }
+#ch_ninth-2-3 { counter-set: ch_ninth-2-3 0; }
+#ch_ninth-2-3 > li::marker { content: ""counter(ch_ninth-2-3,lower-roman)"."; }
+#ch_ninth-2-3 > li { counter-increment: ch_ninth-2-3; }
+#subsubsec-pres_mesrmnt-3 { counter-set: subsubsec-pres_mesrmnt-3 0; }
+#subsubsec-pres_mesrmnt-3 > li::marker { content: ""counter(subsubsec-pres_mesrmnt-3,lower-roman)"."; }
+#subsubsec-pres_mesrmnt-3 > li { counter-increment: subsubsec-pres_mesrmnt-3; }
+#subsec-archm_princp-7-1 { counter-set: subsec-archm_princp-7-1 0; }
+#subsec-archm_princp-7-1 > li::marker { content: ""counter(subsec-archm_princp-7-1,lower-roman)"."; }
+#subsec-archm_princp-7-1 > li { counter-increment: subsec-archm_princp-7-1; }
+#subsec-appl_bernl-2-1 { counter-set: subsec-appl_bernl-2-1 0; }
+#subsec-appl_bernl-2-1 > li::marker { content: ""counter(subsec-appl_bernl-2-1,lower-roman)"."; }
+#subsec-appl_bernl-2-1 > li { counter-increment: subsec-appl_bernl-2-1; }
+#sec_ninth-examplesA-5-1-1-1 { counter-set: sec_ninth-examplesA-5-1-1-1 0; }
+#sec_ninth-examplesA-5-1-1-1 > li::marker { content: ""counter(sec_ninth-examplesA-5-1-1-1,lower-alpha)"."; }
+#sec_ninth-examplesA-5-1-1-1 > li { counter-increment: sec_ninth-examplesA-5-1-1-1; }
+#sec_ninth-examplesA-5-2-2-1 { counter-set: sec_ninth-examplesA-5-2-2-1 0; }
+#sec_ninth-examplesA-5-2-2-1 > li::marker { content: ""counter(sec_ninth-examplesA-5-2-2-1,lower-alpha)"."; }
+#sec_ninth-examplesA-5-2-2-1 > li { counter-increment: sec_ninth-examplesA-5-2-2-1; }
+#sec_ninth-examplesA-7-1-1-1 { counter-set: sec_ninth-examplesA-7-1-1-1 0; }
+#sec_ninth-examplesA-7-1-1-1 > li::marker { content: ""counter(sec_ninth-examplesA-7-1-1-1,lower-alpha)"."; }
+#sec_ninth-examplesA-7-1-1-1 > li { counter-increment: sec_ninth-examplesA-7-1-1-1; }
+#sec_ninth-examplesA-7-2-1-3 { counter-set: sec_ninth-examplesA-7-2-1-3 0; }
+#sec_ninth-examplesA-7-2-1-3 > li::marker { content: ""counter(sec_ninth-examplesA-7-2-1-3,lower-alpha)"."; }
+#sec_ninth-examplesA-7-2-1-3 > li { counter-increment: sec_ninth-examplesA-7-2-1-3; }
+#sec_ninth-examplesA-11-1-1-3 { counter-set: sec_ninth-examplesA-11-1-1-3 0; }
+#sec_ninth-examplesA-11-1-1-3 > li::marker { content: ""counter(sec_ninth-examplesA-11-1-1-3,lower-alpha)"."; }
+#sec_ninth-examplesA-11-1-1-3 > li { counter-increment: sec_ninth-examplesA-11-1-1-3; }
+#sec_ninth-examplesA-11-2-4-1 { counter-set: sec_ninth-examplesA-11-2-4-1 0; }
+#sec_ninth-examplesA-11-2-4-1 > li::marker { content: ""counter(sec_ninth-examplesA-11-2-4-1,lower-alpha)"."; }
+#sec_ninth-examplesA-11-2-4-1 > li { counter-increment: sec_ninth-examplesA-11-2-4-1; }
+#subsec-coef_visc-4-1 { counter-set: subsec-coef_visc-4-1 0; }
+#subsec-coef_visc-4-1 > li::marker { content: ""counter(subsec-coef_visc-4-1,lower-roman)"."; }
+#subsec-coef_visc-4-1 > li { counter-increment: subsec-coef_visc-4-1; }
+#ex_ninth-2-2-1-2 { counter-set: ex_ninth-2-2-1-2 0; }
+#ex_ninth-2-2-1-2 > li::marker { content: ""counter(ex_ninth-2-2-1-2,lower-alpha)"."; }
+#ex_ninth-2-2-1-2 > li { counter-increment: ex_ninth-2-2-1-2; }
+#ex_ninth-2-3-1-1 { counter-set: ex_ninth-2-3-1-1 0; }
+#ex_ninth-2-3-1-1 > li::marker { content: ""counter(ex_ninth-2-3-1-1,lower-alpha)"."; }
+#ex_ninth-2-3-1-1 > li { counter-increment: ex_ninth-2-3-1-1; }
+#ex_ninth-2-4-1-2 { counter-set: ex_ninth-2-4-1-2 0; }
+#ex_ninth-2-4-1-2 > li::marker { content: ""counter(ex_ninth-2-4-1-2,lower-alpha)"."; }
+#ex_ninth-2-4-1-2 > li { counter-increment: ex_ninth-2-4-1-2; }
+#ex_ninth-2-9-1-1 { counter-set: ex_ninth-2-9-1-1 0; }
+#ex_ninth-2-9-1-1 > li::marker { content: ""counter(ex_ninth-2-9-1-1,lower-alpha)"."; }
+#ex_ninth-2-9-1-1 > li { counter-increment: ex_ninth-2-9-1-1; }
+#ex_ninth-4-3-1-1 { counter-set: ex_ninth-4-3-1-1 0; }
+#ex_ninth-4-3-1-1 > li::marker { content: ""counter(ex_ninth-4-3-1-1,lower-alpha)"."; }
+#ex_ninth-4-3-1-1 > li { counter-increment: ex_ninth-4-3-1-1; }
+#ex_ninth-4-6-1-3 { counter-set: ex_ninth-4-6-1-3 0; }
+#ex_ninth-4-6-1-3 > li::marker { content: ""counter(ex_ninth-4-6-1-3,lower-alpha)"."; }
+#ex_ninth-4-6-1-3 > li { counter-increment: ex_ninth-4-6-1-3; }
+#subsec-water_anom-2-11 { counter-set: subsec-water_anom-2-11 0; }
+#subsec-water_anom-2-11 > li::marker { content: ""counter(subsec-water_anom-2-11,lower-roman)"."; }
+#subsec-water_anom-2-11 > li { counter-increment: subsec-water_anom-2-11; }
+#subsec-heat_trans-2-1-1 { counter-set: subsec-heat_trans-2-1-1 0; }
+#subsec-heat_trans-2-1-1 > li::marker { content: ""counter(subsec-heat_trans-2-1-1,decimal)"."; }
+#subsec-heat_trans-2-1-1 > li { counter-increment: subsec-heat_trans-2-1-1; }
+#subsec-heat_trans-2-2-1 { counter-set: subsec-heat_trans-2-2-1 0; }
+#subsec-heat_trans-2-2-1 > li::marker { content: ""counter(subsec-heat_trans-2-2-1,decimal)"."; }
+#subsec-heat_trans-2-2-1 > li { counter-increment: subsec-heat_trans-2-2-1; }
+#sec_tenth-examplesA-2-2-1-1-1 { counter-set: sec_tenth-examplesA-2-2-1-1-1 0; }
+#sec_tenth-examplesA-2-2-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesA-2-2-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesA-2-2-1-1-1 > li { counter-increment: sec_tenth-examplesA-2-2-1-1-1; }
+#sec_tenth-examplesA-2-2-2-1-2 { counter-set: sec_tenth-examplesA-2-2-2-1-2 0; }
+#sec_tenth-examplesA-2-2-2-1-2 > li::marker { content: ""counter(sec_tenth-examplesA-2-2-2-1-2,lower-alpha)"."; }
+#sec_tenth-examplesA-2-2-2-1-2 > li { counter-increment: sec_tenth-examplesA-2-2-2-1-2; }
+#sec_tenth-examplesA-2-5-1-1-6 { counter-set: sec_tenth-examplesA-2-5-1-1-6 0; }
+#sec_tenth-examplesA-2-5-1-1-6 > li::marker { content: ""counter(sec_tenth-examplesA-2-5-1-1-6,lower-alpha)"."; }
+#sec_tenth-examplesA-2-5-1-1-6 > li { counter-increment: sec_tenth-examplesA-2-5-1-1-6; }
+#sec_tenth-examplesA-2-5-2-2-1 { counter-set: sec_tenth-examplesA-2-5-2-2-1 0; }
+#sec_tenth-examplesA-2-5-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesA-2-5-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesA-2-5-2-2-1 > li { counter-increment: sec_tenth-examplesA-2-5-2-2-1; }
+#sec_tenth-examplesA-3-3-1-1-3 { counter-set: sec_tenth-examplesA-3-3-1-1-3 0; }
+#sec_tenth-examplesA-3-3-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-3-3-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-3-3-1-1-3 > li { counter-increment: sec_tenth-examplesA-3-3-1-1-3; }
+#sec_tenth-examplesA-3-3-2-4-1 { counter-set: sec_tenth-examplesA-3-3-2-4-1 0; }
+#sec_tenth-examplesA-3-3-2-4-1 > li::marker { content: ""counter(sec_tenth-examplesA-3-3-2-4-1,lower-alpha)"."; }
+#sec_tenth-examplesA-3-3-2-4-1 > li { counter-increment: sec_tenth-examplesA-3-3-2-4-1; }
+#sec_tenth-examplesA-3-4-1-1-3 { counter-set: sec_tenth-examplesA-3-4-1-1-3 0; }
+#sec_tenth-examplesA-3-4-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-3-4-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-3-4-1-1-3 > li { counter-increment: sec_tenth-examplesA-3-4-1-1-3; }
+#sec_tenth-examplesA-3-4-2-1-5 { counter-set: sec_tenth-examplesA-3-4-2-1-5 0; }
+#sec_tenth-examplesA-3-4-2-1-5 > li::marker { content: ""counter(sec_tenth-examplesA-3-4-2-1-5,lower-alpha)"."; }
+#sec_tenth-examplesA-3-4-2-1-5 > li { counter-increment: sec_tenth-examplesA-3-4-2-1-5; }
+#sec_tenth-examplesA-3-6-1-1-5 { counter-set: sec_tenth-examplesA-3-6-1-1-5 0; }
+#sec_tenth-examplesA-3-6-1-1-5 > li::marker { content: ""counter(sec_tenth-examplesA-3-6-1-1-5,lower-alpha)"."; }
+#sec_tenth-examplesA-3-6-1-1-5 > li { counter-increment: sec_tenth-examplesA-3-6-1-1-5; }
+#sec_tenth-examplesA-3-6-2-1-5 { counter-set: sec_tenth-examplesA-3-6-2-1-5 0; }
+#sec_tenth-examplesA-3-6-2-1-5 > li::marker { content: ""counter(sec_tenth-examplesA-3-6-2-1-5,lower-alpha)"."; }
+#sec_tenth-examplesA-3-6-2-1-5 > li { counter-increment: sec_tenth-examplesA-3-6-2-1-5; }
+#sec_tenth-examplesA-4-3-1-1-3 { counter-set: sec_tenth-examplesA-4-3-1-1-3 0; }
+#sec_tenth-examplesA-4-3-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-4-3-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-4-3-1-1-3 > li { counter-increment: sec_tenth-examplesA-4-3-1-1-3; }
+#sec_tenth-examplesA-4-3-2-2-1 { counter-set: sec_tenth-examplesA-4-3-2-2-1 0; }
+#sec_tenth-examplesA-4-3-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesA-4-3-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesA-4-3-2-2-1 > li { counter-increment: sec_tenth-examplesA-4-3-2-2-1; }
+#sec_tenth-examplesA-4-4-1-1-6 { counter-set: sec_tenth-examplesA-4-4-1-1-6 0; }
+#sec_tenth-examplesA-4-4-1-1-6 > li::marker { content: ""counter(sec_tenth-examplesA-4-4-1-1-6,lower-alpha)"."; }
+#sec_tenth-examplesA-4-4-1-1-6 > li { counter-increment: sec_tenth-examplesA-4-4-1-1-6; }
+#sec_tenth-examplesA-4-4-2-2-1 { counter-set: sec_tenth-examplesA-4-4-2-2-1 0; }
+#sec_tenth-examplesA-4-4-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesA-4-4-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesA-4-4-2-2-1 > li { counter-increment: sec_tenth-examplesA-4-4-2-2-1; }
+#sec_tenth-examplesA-4-5-1-1-3 { counter-set: sec_tenth-examplesA-4-5-1-1-3 0; }
+#sec_tenth-examplesA-4-5-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-4-5-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-4-5-1-1-3 > li { counter-increment: sec_tenth-examplesA-4-5-1-1-3; }
+#sec_tenth-examplesA-4-5-2-1-4 { counter-set: sec_tenth-examplesA-4-5-2-1-4 0; }
+#sec_tenth-examplesA-4-5-2-1-4 > li::marker { content: ""counter(sec_tenth-examplesA-4-5-2-1-4,lower-alpha)"."; }
+#sec_tenth-examplesA-4-5-2-1-4 > li { counter-increment: sec_tenth-examplesA-4-5-2-1-4; }
+#sec_tenth-examplesA-4-6-1-1-3 { counter-set: sec_tenth-examplesA-4-6-1-1-3 0; }
+#sec_tenth-examplesA-4-6-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-4-6-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-4-6-1-1-3 > li { counter-increment: sec_tenth-examplesA-4-6-1-1-3; }
+#sec_tenth-examplesA-4-6-2-1-1 { counter-set: sec_tenth-examplesA-4-6-2-1-1 0; }
+#sec_tenth-examplesA-4-6-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesA-4-6-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesA-4-6-2-1-1 > li { counter-increment: sec_tenth-examplesA-4-6-2-1-1; }
+#sec_tenth-examplesA-4-8-1-1-3 { counter-set: sec_tenth-examplesA-4-8-1-1-3 0; }
+#sec_tenth-examplesA-4-8-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesA-4-8-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesA-4-8-1-1-3 > li { counter-increment: sec_tenth-examplesA-4-8-1-1-3; }
+#sec_tenth-examplesA-4-8-2-1-1 { counter-set: sec_tenth-examplesA-4-8-2-1-1 0; }
+#sec_tenth-examplesA-4-8-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesA-4-8-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesA-4-8-2-1-1 > li { counter-increment: sec_tenth-examplesA-4-8-2-1-1; }
+#sec_tenth-kt_gas-2-2-2 { counter-set: sec_tenth-kt_gas-2-2-2 0; }
+#sec_tenth-kt_gas-2-2-2 > li::marker { content: ""counter(sec_tenth-kt_gas-2-2-2,lower-roman)"."; }
+#sec_tenth-kt_gas-2-2-2 > li { counter-increment: sec_tenth-kt_gas-2-2-2; }
+#subsec-Ilaw_appl-2-1 { counter-set: subsec-Ilaw_appl-2-1 0; }
+#subsec-Ilaw_appl-2-1 > li::marker { content: ""counter(subsec-Ilaw_appl-2-1,upper-roman)"."; }
+#subsec-Ilaw_appl-2-1 > li { counter-increment: subsec-Ilaw_appl-2-1; }
+#subsubsec-entropy_incrs-2-1 { counter-set: subsubsec-entropy_incrs-2-1 0; }
+#subsubsec-entropy_incrs-2-1 > li::marker { content: ""counter(subsubsec-entropy_incrs-2-1,lower-roman)"."; }
+#subsubsec-entropy_incrs-2-1 > li { counter-increment: subsubsec-entropy_incrs-2-1; }
+#sec_tenth-examplesB-3-2-1-1-2 { counter-set: sec_tenth-examplesB-3-2-1-1-2 0; }
+#sec_tenth-examplesB-3-2-1-1-2 > li::marker { content: ""counter(sec_tenth-examplesB-3-2-1-1-2,lower-alpha)"."; }
+#sec_tenth-examplesB-3-2-1-1-2 > li { counter-increment: sec_tenth-examplesB-3-2-1-1-2; }
+#sec_tenth-examplesB-3-2-2-2-1 { counter-set: sec_tenth-examplesB-3-2-2-2-1 0; }
+#sec_tenth-examplesB-3-2-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-2-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-2-2-2-1 > li { counter-increment: sec_tenth-examplesB-3-2-2-2-1; }
+#sec_tenth-examplesB-3-3-1-1-1 { counter-set: sec_tenth-examplesB-3-3-1-1-1 0; }
+#sec_tenth-examplesB-3-3-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-3-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-3-1-1-1 > li { counter-increment: sec_tenth-examplesB-3-3-1-1-1; }
+#sec_tenth-examplesB-3-3-2-2-1 { counter-set: sec_tenth-examplesB-3-3-2-2-1 0; }
+#sec_tenth-examplesB-3-3-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-3-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-3-2-2-1 > li { counter-increment: sec_tenth-examplesB-3-3-2-2-1; }
+#sec_tenth-examplesB-3-4-1-1-2 { counter-set: sec_tenth-examplesB-3-4-1-1-2 0; }
+#sec_tenth-examplesB-3-4-1-1-2 > li::marker { content: ""counter(sec_tenth-examplesB-3-4-1-1-2,lower-alpha)"."; }
+#sec_tenth-examplesB-3-4-1-1-2 > li { counter-increment: sec_tenth-examplesB-3-4-1-1-2; }
+#sec_tenth-examplesB-3-4-2-2-1 { counter-set: sec_tenth-examplesB-3-4-2-2-1 0; }
+#sec_tenth-examplesB-3-4-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-4-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-4-2-2-1 > li { counter-increment: sec_tenth-examplesB-3-4-2-2-1; }
+#sec_tenth-examplesB-3-6-1-1-1 { counter-set: sec_tenth-examplesB-3-6-1-1-1 0; }
+#sec_tenth-examplesB-3-6-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-3-6-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-3-6-1-1-1 > li { counter-increment: sec_tenth-examplesB-3-6-1-1-1; }
+#sec_tenth-examplesB-3-6-2-1-2 { counter-set: sec_tenth-examplesB-3-6-2-1-2 0; }
+#sec_tenth-examplesB-3-6-2-1-2 > li::marker { content: ""counter(sec_tenth-examplesB-3-6-2-1-2,lower-alpha)"."; }
+#sec_tenth-examplesB-3-6-2-1-2 > li { counter-increment: sec_tenth-examplesB-3-6-2-1-2; }
+#sec_tenth-examplesB-4-2-1-1-1 { counter-set: sec_tenth-examplesB-4-2-1-1-1 0; }
+#sec_tenth-examplesB-4-2-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-2-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-2-1-1-1 > li { counter-increment: sec_tenth-examplesB-4-2-1-1-1; }
+#sec_tenth-examplesB-4-2-2-2-1 { counter-set: sec_tenth-examplesB-4-2-2-2-1 0; }
+#sec_tenth-examplesB-4-2-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-2-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-2-2-2-1 > li { counter-increment: sec_tenth-examplesB-4-2-2-2-1; }
+#sec_tenth-examplesB-4-3-1-1-3 { counter-set: sec_tenth-examplesB-4-3-1-1-3 0; }
+#sec_tenth-examplesB-4-3-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesB-4-3-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesB-4-3-1-1-3 > li { counter-increment: sec_tenth-examplesB-4-3-1-1-3; }
+#sec_tenth-examplesB-4-3-2-1-1 { counter-set: sec_tenth-examplesB-4-3-2-1-1 0; }
+#sec_tenth-examplesB-4-3-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-3-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-3-2-1-1 > li { counter-increment: sec_tenth-examplesB-4-3-2-1-1; }
+#sec_tenth-examplesB-4-4-1-1-3 { counter-set: sec_tenth-examplesB-4-4-1-1-3 0; }
+#sec_tenth-examplesB-4-4-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesB-4-4-1-1-3,lower-roman)"."; }
+#sec_tenth-examplesB-4-4-1-1-3 > li { counter-increment: sec_tenth-examplesB-4-4-1-1-3; }
+#sec_tenth-examplesB-4-4-2-1-1 { counter-set: sec_tenth-examplesB-4-4-2-1-1 0; }
+#sec_tenth-examplesB-4-4-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-4-2-1-1,lower-roman)"."; }
+#sec_tenth-examplesB-4-4-2-1-1 > li { counter-increment: sec_tenth-examplesB-4-4-2-1-1; }
+#sec_tenth-examplesB-4-6-1-1-1 { counter-set: sec_tenth-examplesB-4-6-1-1-1 0; }
+#sec_tenth-examplesB-4-6-1-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-6-1-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-6-1-1-1 > li { counter-increment: sec_tenth-examplesB-4-6-1-1-1; }
+#sec_tenth-examplesB-4-6-2-1-1 { counter-set: sec_tenth-examplesB-4-6-2-1-1 0; }
+#sec_tenth-examplesB-4-6-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-6-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-6-2-1-1 > li { counter-increment: sec_tenth-examplesB-4-6-2-1-1; }
+#sec_tenth-examplesB-4-8-1-1-3 { counter-set: sec_tenth-examplesB-4-8-1-1-3 0; }
+#sec_tenth-examplesB-4-8-1-1-3 > li::marker { content: ""counter(sec_tenth-examplesB-4-8-1-1-3,lower-alpha)"."; }
+#sec_tenth-examplesB-4-8-1-1-3 > li { counter-increment: sec_tenth-examplesB-4-8-1-1-3; }
+#sec_tenth-examplesB-4-8-2-1-1 { counter-set: sec_tenth-examplesB-4-8-2-1-1 0; }
+#sec_tenth-examplesB-4-8-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-4-8-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-4-8-2-1-1 > li { counter-increment: sec_tenth-examplesB-4-8-2-1-1; }
+#sec_tenth-examplesB-5-3-1-1-5 { counter-set: sec_tenth-examplesB-5-3-1-1-5 0; }
+#sec_tenth-examplesB-5-3-1-1-5 > li::marker { content: ""counter(sec_tenth-examplesB-5-3-1-1-5,lower-alpha)"."; }
+#sec_tenth-examplesB-5-3-1-1-5 > li { counter-increment: sec_tenth-examplesB-5-3-1-1-5; }
+#sec_tenth-examplesB-5-3-2-2-1 { counter-set: sec_tenth-examplesB-5-3-2-2-1 0; }
+#sec_tenth-examplesB-5-3-2-2-1 > li::marker { content: ""counter(sec_tenth-examplesB-5-3-2-2-1,lower-alpha)"."; }
+#sec_tenth-examplesB-5-3-2-2-1 > li { counter-increment: sec_tenth-examplesB-5-3-2-2-1; }
+#sec_tenth-examplesB-5-4-1-1-4 { counter-set: sec_tenth-examplesB-5-4-1-1-4 0; }
+#sec_tenth-examplesB-5-4-1-1-4 > li::marker { content: ""counter(sec_tenth-examplesB-5-4-1-1-4,lower-alpha)"."; }
+#sec_tenth-examplesB-5-4-1-1-4 > li { counter-increment: sec_tenth-examplesB-5-4-1-1-4; }
+#sec_tenth-examplesB-5-4-2-1-1 { counter-set: sec_tenth-examplesB-5-4-2-1-1 0; }
+#sec_tenth-examplesB-5-4-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-5-4-2-1-1,lower-alpha)"."; }
+#sec_tenth-examplesB-5-4-2-1-1 > li { counter-increment: sec_tenth-examplesB-5-4-2-1-1; }
+#sec_tenth-examplesB-5-5-2-1-1 { counter-set: sec_tenth-examplesB-5-5-2-1-1 0; }
+#sec_tenth-examplesB-5-5-2-1-1 > li::marker { content: ""counter(sec_tenth-examplesB-5-5-2-1-1,lower-roman)"."; }
+#sec_tenth-examplesB-5-5-2-1-1 > li { counter-increment: sec_tenth-examplesB-5-5-2-1-1; }
+#ex_tenth-2-2-1-1 { counter-set: ex_tenth-2-2-1-1 0; }
+#ex_tenth-2-2-1-1 > li::marker { content: ""counter(ex_tenth-2-2-1-1,lower-alpha)"."; }
+#ex_tenth-2-2-1-1 > li { counter-increment: ex_tenth-2-2-1-1; }
+#ex_tenth-2-5-1-4 { counter-set: ex_tenth-2-5-1-4 0; }
+#ex_tenth-2-5-1-4 > li::marker { content: ""counter(ex_tenth-2-5-1-4,lower-alpha)"."; }
+#ex_tenth-2-5-1-4 > li { counter-increment: ex_tenth-2-5-1-4; }
+#ex_tenth-2-6-1-9 { counter-set: ex_tenth-2-6-1-9 0; }
+#ex_tenth-2-6-1-9 > li::marker { content: ""counter(ex_tenth-2-6-1-9,lower-alpha)"."; }
+#ex_tenth-2-6-1-9 > li { counter-increment: ex_tenth-2-6-1-9; }
+#ex_tenth-3-4-1-3 { counter-set: ex_tenth-3-4-1-3 0; }
+#ex_tenth-3-4-1-3 > li::marker { content: ""counter(ex_tenth-3-4-1-3,lower-alpha)"."; }
+#ex_tenth-3-4-1-3 > li { counter-increment: ex_tenth-3-4-1-3; }
+#ex_tenth-3-5-1-1 { counter-set: ex_tenth-3-5-1-1 0; }
+#ex_tenth-3-5-1-1 > li::marker { content: ""counter(ex_tenth-3-5-1-1,lower-alpha)"."; }
+#ex_tenth-3-5-1-1 > li { counter-increment: ex_tenth-3-5-1-1; }
+#ex_tenth-4-2-1-5 { counter-set: ex_tenth-4-2-1-5 0; }
+#ex_tenth-4-2-1-5 > li::marker { content: ""counter(ex_tenth-4-2-1-5,lower-alpha)"."; }
+#ex_tenth-4-2-1-5 > li { counter-increment: ex_tenth-4-2-1-5; }
+#ex_tenth-4-3-1-3 { counter-set: ex_tenth-4-3-1-3 0; }
+#ex_tenth-4-3-1-3 > li::marker { content: ""counter(ex_tenth-4-3-1-3,lower-alpha)"."; }
+#ex_tenth-4-3-1-3 > li { counter-increment: ex_tenth-4-3-1-3; }
+#ex_tenth-4-4-1-3 { counter-set: ex_tenth-4-4-1-3 0; }
+#ex_tenth-4-4-1-3 > li::marker { content: ""counter(ex_tenth-4-4-1-3,lower-alpha)"."; }
+#ex_tenth-4-4-1-3 > li { counter-increment: ex_tenth-4-4-1-3; }
+#ex_tenth-4-5-1-4 { counter-set: ex_tenth-4-5-1-4 0; }
+#ex_tenth-4-5-1-4 > li::marker { content: ""counter(ex_tenth-4-5-1-4,lower-alpha)"."; }
+#ex_tenth-4-5-1-4 > li { counter-increment: ex_tenth-4-5-1-4; }
+#ex_tenth-4-6-1-2 { counter-set: ex_tenth-4-6-1-2 0; }
+#ex_tenth-4-6-1-2 > li::marker { content: ""counter(ex_tenth-4-6-1-2,lower-alpha)"."; }
+#ex_tenth-4-6-1-2 > li { counter-increment: ex_tenth-4-6-1-2; }
+#ex_tenth-5-4-1-6 { counter-set: ex_tenth-5-4-1-6 0; }
+#ex_tenth-5-4-1-6 > li::marker { content: ""counter(ex_tenth-5-4-1-6,lower-alpha)"."; }
+#ex_tenth-5-4-1-6 > li { counter-increment: ex_tenth-5-4-1-6; }
+#ex_tenth-6-2-1-2 { counter-set: ex_tenth-6-2-1-2 0; }
+#ex_tenth-6-2-1-2 > li::marker { content: ""counter(ex_tenth-6-2-1-2,lower-alpha)"."; }
+#ex_tenth-6-2-1-2 > li { counter-increment: ex_tenth-6-2-1-2; }
+#ex_tenth-6-3-1-2 { counter-set: ex_tenth-6-3-1-2 0; }
+#ex_tenth-6-3-1-2 > li::marker { content: ""counter(ex_tenth-6-3-1-2,lower-alpha)"."; }
+#ex_tenth-6-3-1-2 > li { counter-increment: ex_tenth-6-3-1-2; }
+#ex_tenth-6-4-1-3 { counter-set: ex_tenth-6-4-1-3 0; }
+#ex_tenth-6-4-1-3 > li::marker { content: ""counter(ex_tenth-6-4-1-3,lower-alpha)"."; }
+#ex_tenth-6-4-1-3 > li { counter-increment: ex_tenth-6-4-1-3; }
+#ex_tenth-6-5-1-1 { counter-set: ex_tenth-6-5-1-1 0; }
+#ex_tenth-6-5-1-1 > li::marker { content: ""counter(ex_tenth-6-5-1-1,lower-alpha)"."; }
+#ex_tenth-6-5-1-1 > li { counter-increment: ex_tenth-6-5-1-1; }
+#ex_tenth-7-7-1-9 { counter-set: ex_tenth-7-7-1-9 0; }
+#ex_tenth-7-7-1-9 > li::marker { content: ""counter(ex_tenth-7-7-1-9,lower-alpha)"."; }
+#ex_tenth-7-7-1-9 > li { counter-increment: ex_tenth-7-7-1-9; }
+#ex_tenth-8-5-1-1 { counter-set: ex_tenth-8-5-1-1 0; }
+#ex_tenth-8-5-1-1 > li::marker { content: ""counter(ex_tenth-8-5-1-1,lower-alpha)"."; }
+#ex_tenth-8-5-1-1 > li { counter-increment: ex_tenth-8-5-1-1; }
+#ex_tenth-8-6-1-1 { counter-set: ex_tenth-8-6-1-1 0; }
+#ex_tenth-8-6-1-1 > li::marker { content: ""counter(ex_tenth-8-6-1-1,lower-alpha)"."; }
+#ex_tenth-8-6-1-1 > li { counter-increment: ex_tenth-8-6-1-1; }
+#ex_tenth-8-8-1-1 { counter-set: ex_tenth-8-8-1-1 0; }
+#ex_tenth-8-8-1-1 > li::marker { content: ""counter(ex_tenth-8-8-1-1,lower-alpha)"."; }
+#ex_tenth-8-8-1-1 > li { counter-increment: ex_tenth-8-8-1-1; }
+#append_math-2 { counter-set: append_math-2 0; }
+#append_math-2 > li::marker { content: ""counter(append_math-2,upper-roman)"."; }
+#append_math-2 > li { counter-increment: append_math-2; }
+#append_math-2-1-1-2 { counter-set: append_math-2-1-1-2 0; }
+#append_math-2-1-1-2 > li::marker { content: ""counter(append_math-2-1-1-2,lower-alpha)"."; }
+#append_math-2-1-1-2 > li { counter-increment: append_math-2-1-1-2; }
+#append_math-2-2-1-2 { counter-set: append_math-2-2-1-2 0; }
+#append_math-2-2-1-2 > li::marker { content: ""counter(append_math-2-2-1-2,lower-alpha)"."; }
+#append_math-2-2-1-2 > li { counter-increment: append_math-2-2-1-2; }
+#append_math-2-3-1-4 { counter-set: append_math-2-3-1-4 0; }
+#append_math-2-3-1-4 > li::marker { content: ""counter(append_math-2-3-1-4,lower-alpha)"."; }
+#append_math-2-3-1-4 > li { counter-increment: append_math-2-3-1-4; }
+#append_math-2-4-1-8 { counter-set: append_math-2-4-1-8 0; }
+#append_math-2-4-1-8 > li::marker { content: ""counter(append_math-2-4-1-8,lower-alpha)"."; }
+#append_math-2-4-1-8 > li { counter-increment: append_math-2-4-1-8; }
+#append_math-2-7-1-4 { counter-set: append_math-2-7-1-4 0; }
+#append_math-2-7-1-4 > li::marker { content: ""counter(append_math-2-7-1-4,lower-alpha)"."; }
+#append_math-2-7-1-4 > li { counter-increment: append_math-2-7-1-4; }
+</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -615,7 +1649,7 @@ window.MathJax = {
 <div class="para logical" id="sec_fourth-examplesC-2-1-1">
 <div class="para">A 10-kg block lying on the horizontal surface is pulled by a force F making an angle of <span class="process-math">\(60^{o}\)</span> above the horizontal. The coefficient of static friction between the block and the horizontal surface is 0.3 and the coefficient of kinetic friction is 0.2. Draw the appropriate diagrams, write the appropriate equations, and find the magnitude and direction of the acceleration of the block when <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn1a.png" class="contained"></div>
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_fourth-examplesC-2-1-1-3">
 <li id="sec_fourth-examplesC-2-1-1-3-1"><div class="para" id="p-derived-sec_fourth-examplesC-2-1-1-3-1"><span class="process-math">\(\displaystyle F = 30 \,N,\)</span></div></li>
 <li id="sec_fourth-examplesC-2-1-1-3-2"><div class="para" id="p-derived-sec_fourth-examplesC-2-1-1-3-2"><span class="process-math">\(\displaystyle F = 60 \,N,\)</span></div></li>
 <li id="sec_fourth-examplesC-2-1-1-3-3"><div class="para" id="p-derived-sec_fourth-examplesC-2-1-1-3-3"><span class="process-math">\(\displaystyle F = 90 \,N,\)</span></div></li>
@@ -624,7 +1658,8 @@ window.MathJax = {
 </div>
 <div class="solutions"><details id="sec_fourth-examplesC-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="sec_fourth-examplesC-2-2-1">Given: <span class="process-math">\(m =  10 \,kg, \quad \theta = 60^{o}, \quad \mu_{s} = 0.3, \quad \mu_{k} = 0.2, \quad g = 9.8 \,m/s^{2}.\)</span> <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn1b.png" class="contained"></div>
-</div> <div class="para logical" id="sec_fourth-examplesC-2-2-2">
+</div>
+<div class="para logical" id="sec_fourth-examplesC-2-2-2">
 <div class="para">Equations:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -646,7 +1681,8 @@ f  =  \mu N;
 w  =  m g	\quad \rightarrow \quad	w  =  98\, N 
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec_fourth-examplesC-2-2-3"><ol class="lower-alpha">
+</div>
+<div class="para logical" id="sec_fourth-examplesC-2-2-3"><ol class="lower-alpha" id="sec_fourth-examplesC-2-2-3-1">
 <li id="sec_fourth-examplesC-2-2-3-1-1"><div class="para" id="p-derived-sec_fourth-examplesC-2-2-3-1-1">
 <span class="process-math">\(F  = 30 \,N.\)</span> In verticle direction, <span class="process-math">\(a_{y} = 0,\)</span><div class="displaymath process-math">
 \begin{equation*}
@@ -736,7 +1772,7 @@ a_{y}  =  (F \sin\theta - w)/m  =  0.5923 \,m/s^{2} ; a  =  	=  6.029 \,m/s^{2}
 <div class="para logical" id="sec_fourth-examplesC-3-1-1">
 <div class="para">A block of mass <span class="process-math">\(m_{1} = 10 \,kg \)</span> rests on top of a larger block of mass <span class="process-math">\(m_{2}\)</span> = 25 kg which rests on a plane inclined at an angle <span class="process-math">\(\theta = 10^{o}\text{.}\)</span> The coefficient of static friction between all surfaces is <span class="process-math">\(0.3\)</span> and that of kinetic friction is <span class="process-math">\(0.2\text{.}\)</span> A constant force <span class="process-math">\(F\)</span> parallel to the plane is applied to <span class="process-math">\(m_{2}\)</span>  accelerating it up the plane. <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn4.png" class="contained"></div>
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_fourth-examplesC-3-1-1-9">
 <li id="sec_fourth-examplesC-3-1-1-9-1"><div class="para" id="p-derived-sec_fourth-examplesC-3-1-1-9-1">What is the maximum acceleration of <span class="process-math">\(m_{2}\)</span>  which will allow <span class="process-math">\(m_{1}\)</span> to stay with it?</div></li>
 <li id="sec_fourth-examplesC-3-1-1-9-2"><div class="para" id="p-derived-sec_fourth-examplesC-3-1-1-9-2">What is the force <span class="process-math">\(F\)</span> which causes this acceleration?</div></li>
 </ol>
@@ -744,7 +1780,8 @@ a_{y}  =  (F \sin\theta - w)/m  =  0.5923 \,m/s^{2} ; a  =  	=  6.029 \,m/s^{2}
 <div class="solutions"><details id="sec_fourth-examplesC-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="sec_fourth-examplesC-3-2-1">Given: <span class="process-math">\(m_{1} =10 \,kg, \quad m_{2} =25 \,kg,\quad \theta=10^{o}, \quad \mu_{1}=0.3,\quad \mu_{2}=0.2,
 \quad g =9.8 \,m/s^{2}.\)</span>
-</div> <div class="para logical" id="sec_fourth-examplesC-3-2-2">
+</div>
+<div class="para logical" id="sec_fourth-examplesC-3-2-2">
 <div class="para">From figure,  <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ntwn4b.png" class="contained"></div> we have -</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-nwtn1.html" id="eqn-nwtn1">
 \begin{equation}
@@ -816,7 +1853,7 @@ a =\frac{f_{1}-w_{1}\sin\theta}{m_{1}} = \frac{28.95-10\times9.8\times\sin 10^{o
 <div class="para logical" id="sec_fourth-examplesC-4-1-1">
 <div class="para">A box of mass 100 kg is placed in the front end of the bed of a truck initially at rest. The coefficient of static friction between box and truck bed is 0.4, the coefficient of kinetic friction between box and truck bed is 0.25, the bed of the truck is 2 m long and 1 m above the ground, and the truck accelerates at a constant acceleration just fast enough to make the box start sliding. <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/ntwn2a.png" class="contained"></div>
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_fourth-examplesC-4-1-1-2">
 <li id="sec_fourth-examplesC-4-1-1-2-1"><div class="para" id="p-derived-sec_fourth-examplesC-4-1-1-2-1">What is the acceleration of the truck?</div></li>
 <li id="sec_fourth-examplesC-4-1-1-2-2"><div class="para" id="p-derived-sec_fourth-examplesC-4-1-1-2-2">What is the acceleration of the box?</div></li>
 <li id="sec_fourth-examplesC-4-1-1-2-3"><div class="para" id="p-derived-sec_fourth-examplesC-4-1-1-2-3">When does the box fall off the back of the truck?</div></li>
@@ -830,7 +1867,8 @@ a =\frac{f_{1}-w_{1}\sin\theta}{m_{1}} = \frac{28.95-10\times9.8\times\sin 10^{o
 <div class="sbspanel top" style="width:37.5%;"><img src="external/ntwn2b.png" class="contained"></div>
 <div class="sbspanel top" style="width:37.5%;"><img src="external/ntwn2c.png" class="contained"></div>
 </div></div>
-</div> <ol class="lower-alpha">
+</div>
+<ol class="lower-alpha" id="sec_fourth-examplesC-4-2-2">
 <li id="sec_fourth-examplesC-4-2-2-1"><div class="para logical" id="sec_fourth-examplesC-4-2-2-1-1">
 <div class="displaymath process-math">
 \begin{equation*}
@@ -900,7 +1938,8 @@ x_{T}  =  x_{1}  + x_{3}; \quad	x_{T}  =  7.16 \,m
 </div>
 <div class="solutions"><details id="sec_fourth-examplesC-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="sec_fourth-examplesC-5-2-1">Since the pulleys are massless, tensions of each section of the string in either side of pulleys are same as shown in figure. <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/pulley1c.png" class="contained"></div> To find the relation between <span class="process-math">\(a_{1}\)</span> and <span class="process-math">\(a_{2}\)</span> add the lengths of each section of the string and take its derivative as shown below. Let <span class="process-math">\(H\)</span> is the height of pulley A from reference level (ground level), then length of string from pulley A to block 1 is given as <span class="process-math">\(H-y_{1},\)</span> length of section of string from pulley A to B is <span class="process-math">\(H-y_{2}\)</span> and length of section of string from pulley B to level of pulley A is <span class="process-math">\(H-y_{2}\text{.}\)</span>
-</div> <div class="para logical" id="sec_fourth-examplesC-5-2-2">
+</div>
+<div class="para logical" id="sec_fourth-examplesC-5-2-2">
 <div class="para">Ignore the lengths of string over pulleys and to the rest to ceiling. It does not contribute any thing to the derivative of the length. Now</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -978,7 +2017,8 @@ m_{1}g-T=m_{1}a_{1}  \qquad \therefore\quad T=m_{1}g-m_{1}a_{1}   \tag{4.6.9}
 </div>
 <div class="solutions"><details id="sec_fourth-examplesC-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="sec_fourth-examplesC-6-2-1">Given: <span class="process-math">\(\mu_{k}=0.4, \quad m_{1}=3 \,kg, \quad m_{2}=1 \,kg, \quad F=30\,N, \quad \theta=37^{o},\)</span> and <span class="process-math">\(g=9.8\, m/s^{2}. \)</span>
-</div> <div class="para logical" id="sec_fourth-examplesC-6-2-2">
+</div>
+<div class="para logical" id="sec_fourth-examplesC-6-2-2">
 <div class="para">From free body diagram, <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/dynboxes1a.png" class="contained"></div> we have -</div>
 <div class="displaymath process-math" id="eqn-dynbox1">
 \begin{equation}
@@ -1000,7 +2040,8 @@ m_{1}g-T=m_{1}a_{1}  \qquad \therefore\quad T=m_{1}g-m_{1}a_{1}   \tag{4.6.9}
 \therefore\quad T = m_{2}(a+\mu_{k}g) \tag{4.6.15}
 \end{equation}
 </div>
-</div> <div class="para logical" id="sec_fourth-examplesC-6-2-3">
+</div>
+<div class="para logical" id="sec_fourth-examplesC-6-2-3">
 <div class="para">From free body diagram, <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/dynboxes1b.png" class="contained"></div> we have -</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-dynbox4.html ./knowl/xref/eqn-dynbox8.html" id="eqn-dynbox5">
 \begin{equation}
